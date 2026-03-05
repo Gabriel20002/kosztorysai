@@ -438,7 +438,11 @@ class KosztorysGenerator:
         return pozycje
 
     def _apply_ai_matcher(self, pozycje):
-        """Dopasowuje pozycje bez KNR używając Claude API (batch, 1 wywołanie)."""
+        """Dopasowuje pozycje bez KNR używając Claude API (batch, 1 wywołanie).
+
+        Faza 1: próba dopasowania kodu KNR z bazy → R/M/S z bazy nakładów
+        Faza 2: dla pozycji nadal bez wyceny — bezpośrednie szacowanie R/M/S przez AI
+        """
         try:
             import ai_knr_matcher
         except ImportError:
@@ -455,15 +459,18 @@ class KosztorysGenerator:
             for i in unmatched_idx
         ]
 
-        log.info("AI matcher: próba dopasowania %d pozycji bez KNR...", len(unmatched_idx))
+        # ── Faza 1: dopasowanie KNR z bazy ─────────────────────────────────
+        log.info("AI matcher faza 1: dopasowanie KNR dla %d pozycji...", len(unmatched_idx))
         ai_matches = ai_knr_matcher.match_unmatched_positions(
             unmatched_list, self._naklady_index
         )
 
-        fixed = 0
+        still_unmatched_local = []  # lokalne indeksy (w unmatched_list) wciąż bez wyceny
+        fixed_f1 = 0
         for local_i, global_i in enumerate(unmatched_idx):
             knr = ai_matches.get(str(local_i))
             if not knr:
+                still_unmatched_local.append(local_i)
                 continue
             r, m, s = self._get_naklady_for_knr(knr)
             if r > 0 or m > 0 or s > 0:
@@ -474,11 +481,52 @@ class KosztorysGenerator:
                 pozycje[global_i]['podstawa'] = knr
                 pozycje[global_i]['knr_source'] = 'ai'
                 pozycje[global_i]['opis'] = pozycje[global_i]['opis'].replace('[WYCENA] ', '')
-                fixed += 1
-                log.info("AI dopasowało: '%s' → %s", pozycje[global_i]['opis'][:40], knr)
+                fixed_f1 += 1
+                log.info("AI faza1 dopasowało: '%s' → %s", pozycje[global_i]['opis'][:40], knr)
+            else:
+                still_unmatched_local.append(local_i)
 
-        if fixed:
-            log.info("AI matcher: naprawiono %d/%d pozycji", fixed, len(unmatched_idx))
+        if fixed_f1:
+            log.info("AI faza 1: naprawiono %d pozycji", fixed_f1)
+
+        # ── Faza 2: bezpośrednie szacowanie R/M/S ───────────────────────────
+        if not still_unmatched_local:
+            return pozycje
+
+        still_list = [unmatched_list[i] for i in still_unmatched_local]
+        stawki = {
+            'rg': self.params.get('stawka_rg', 35.0),
+            'sprzet': self.params.get('stawka_sprzetu', 100.0),
+        }
+
+        log.info("AI matcher faza 2: bezpośrednie szacowanie R/M/S dla %d pozycji...", len(still_list))
+        rms_estimates = ai_knr_matcher.estimate_rms_direct(
+            still_list, self._naklady_index, stawki
+        )
+
+        fixed_f2 = 0
+        for local_still_i, local_i in enumerate(still_unmatched_local):
+            global_i = unmatched_idx[local_i]
+            est = rms_estimates.get(str(local_still_i))
+            if not est:
+                continue
+            ilosc = pozycje[global_i]['ilosc']
+            r = est.get('R', 0.0)
+            m = est.get('M', 0.0)
+            s = est.get('S', 0.0)
+            if r == 0 and m == 0 and s == 0:
+                continue
+            pozycje[global_i]['R'] = r * ilosc
+            pozycje[global_i]['M'] = m * ilosc
+            pozycje[global_i]['S'] = s * ilosc
+            pozycje[global_i]['knr_source'] = 'ai_estimate'
+            pozycje[global_i]['opis'] = '[AI] ' + pozycje[global_i]['opis'].replace('[WYCENA] ', '')
+            fixed_f2 += 1
+            log.info("AI faza2 oszacowało: '%s' R=%.2f M=%.2f S=%.2f /jm",
+                     pozycje[global_i]['opis'][:40], r, m, s)
+
+        if fixed_f2:
+            log.info("AI faza 2: oszacowano %d/%d pozycji", fixed_f2, len(still_list))
 
         return pozycje
 
