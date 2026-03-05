@@ -1,0 +1,474 @@
+{
+  "meta": {
+    "version": "1.0-mvp",
+    "source": "Kosztorys Zwanowice 2023 + SEKOCENBUD",
+    "currency": "PLN",
+    "vat_residential": 8,
+    "vat_commercial": 23,
+    "default_rates": {
+      "labor_rate": 35.00,
+      "indirect_costs": 68,
+      "profit": 10
+    }
+  },
+  "categories": {
+    "ROBOTY_ZIEMNE": {
+      "name": "Roboty ziemne",
+      "knr": "KNR 2-01"
+    },
+    "FUNDAMENTY": {
+      "name": "Fundamenty i konstrukcje żelbetowe", 
+      "knr": "KNR 2-02"
+    },
+    "SCIANY": {
+      "name": "Ściany murowane",
+      "knr": "KNR 2-02, KNR 0-16, KNR 0-27"
+    },
+    "STROPY": {
+      "name": "Stropy i konstrukcje",
+      "knr": "KNR 2-02"
+    },
+    "DACH": {
+      "name": "Dach i pokrycia",
+      "knr": "KNR 2-02, KNR 0-15"
+    },
+    "IZOLACJE": {
+      "name": "Izolacje termiczne i przeciwwilgociowe",
+      "knr": "KNR 2-15, KNR 0-17"
+    },
+    "TYNKI": {
+      "name": "Tynki i okładziny",
+      "knr": "KNR 2-02"
+    },
+    "POSADZKI": {
+      "name": "Posadzki i podłogi",
+      "knr": "KNR 2-02, KNR 0-12"
+    },
+    "STOLARKA": {
+      "name": "Stolarka okienna i drzwiowa",
+      "knr": "KNR 0-19"
+    },
+    "INSTALACJE_SANITARNE": {
+      "name": "Instalacje wod-kan, c.o., gaz",
+      "knr": "KNR 2-15"
+    },
+    "INSTALACJE_ELEKTRYCZNE": {
+      "name": "Instalacje elektryczne",
+      "knr": "KNR 5-08"
+    },
+    "ELEWACJA": {
+      "name": "Elewacja i ocieplenie",
+      "knr": "KNR 0-17, KNR AT-31"
+    }
+  },
+  "positions": [
+    {
+      "id": "Z001",
+      "knr": "KNR 2-01 0122-01",
+      "name": "Pomiary przy wykopach fundamentowych",
+      "unit": "m3",
+      "price_unit": 2.91,
+      "category": "ROBOTY_ZIEMNE"
+    },
+    {
+      "id": "Z002", 
+      "knr": "KNR 2-01 0126-01",
+      "name": "Usunięcie warstwy ziemi urodzajnej (humusu) do 15 cm",
+      "unit": "m2",
+      "price_unit": 0.83,
+      "category": "ROBOTY_ZIEMNE"
+    },
+    {
+      "id": "Z003",
+      "knr": "KNR 2-01 0217-06",
+      "name": "Wykopy koparkami podsiębiernymi w gruncie kat. III",
+      "unit": "m3",
+      "price_unit": 14.59,
+      "category": "ROBOTY_ZIEMNE"
+    },
+    {
+      "id": "Z004",
+      "knr": "KNR 2-01 0310-02",
+      "name": "Ręczne wykopy ciągłe szer. do 1,5m gł. do 1,5m",
+      "unit": "m3",
+      "price_unit": 110.59,
+      "category": "ROBOTY_ZIEMNE"
+    },
+    {
+      "id": "Z005",
+      "knr": "KNR 2-01 0504-01",
+      "name": "Zasypywanie wykopów z zagęszczeniem",
+      "unit": "m3",
+      "price_unit": 110.59,
+      "category": "ROBOTY_ZIEMNE"
+    },
+    {
+      "id": "F001",
+      "knr": "KNR 2-02 0111-01",
+      "name": "Podkłady betonowe C8/10 gr. 10cm",
+      "unit": "m2",
+      "price_unit": 45.50,
+      "category": "FUNDAMENTY"
+    },
+    {
+      "id": "F002",
+      "knr": "KNR 2-02 0202-01",
+      "name": "Ławy fundamentowe żelbetowe szer. do 0,6m",
+      "unit": "m3",
+      "price_unit": 597.89,
+      "category": "FUNDAMENTY"
+    },
+    {
+      "id": "F003",
+      "knr": "KNR 2-02 0204-01",
+      "name": "Stopy fundamentowe żelbetowe do 0,5m3",
+      "unit": "m3",
+      "price_unit": 623.01,
+      "category": "FUNDAMENTY"
+    },
+    {
+      "id": "F004",
+      "knr": "KNR 2-02 0208-05",
+      "name": "Słupy żelbetowe prostokątne wys. do 4m",
+      "unit": "m3",
+      "price_unit": 2528.41,
+      "category": "FUNDAMENTY"
+    },
+    {
+      "id": "F005",
+      "knr": "KNR 2-02 0401-01",
+      "name": "Ściany fundamentowe z bloczków betonowych",
+      "unit": "m2",
+      "price_unit": 185.00,
+      "category": "FUNDAMENTY"
+    },
+    {
+      "id": "S001",
+      "knr": "KNR 2-02 0501-02",
+      "name": "Ściany z bloczków z betonu komórkowego gr. 24cm",
+      "unit": "m2",
+      "price_unit": 165.00,
+      "category": "SCIANY"
+    },
+    {
+      "id": "S002",
+      "knr": "KNR 2-02 0501-03",
+      "name": "Ściany z bloczków z betonu komórkowego gr. 36cm",
+      "unit": "m2",
+      "price_unit": 195.00,
+      "category": "SCIANY"
+    },
+    {
+      "id": "S003",
+      "knr": "KNR 0-27 0103-02",
+      "name": "Ściany z pustaków POROTHERM gr. 25cm",
+      "unit": "m2",
+      "price_unit": 175.00,
+      "category": "SCIANY"
+    },
+    {
+      "id": "S004",
+      "knr": "KNR 2-02 0514-01",
+      "name": "Ścianki działowe z bloczków gr. 12cm",
+      "unit": "m2",
+      "price_unit": 95.00,
+      "category": "SCIANY"
+    },
+    {
+      "id": "S005",
+      "knr": "KNR 2-02 0217-03",
+      "name": "Nadproża prefabrykowane L-19",
+      "unit": "mb",
+      "price_unit": 85.00,
+      "category": "SCIANY"
+    },
+    {
+      "id": "S006",
+      "knr": "KNR 2-02 0301-02",
+      "name": "Wieńce żelbetowe",
+      "unit": "m3",
+      "price_unit": 1250.00,
+      "category": "SCIANY"
+    },
+    {
+      "id": "ST001",
+      "knr": "KNR 2-02 0301-01",
+      "name": "Stropy żelbetowe płytowe gr. 15cm",
+      "unit": "m2",
+      "price_unit": 285.00,
+      "category": "STROPY"
+    },
+    {
+      "id": "ST002",
+      "knr": "KNR 2-02 0305-01",
+      "name": "Stropy gęstożebrowe TERIVA",
+      "unit": "m2",
+      "price_unit": 195.00,
+      "category": "STROPY"
+    },
+    {
+      "id": "D001",
+      "knr": "KNR 2-02 0601-02",
+      "name": "Więźba dachowa z drewna iglastego",
+      "unit": "m3",
+      "price_unit": 2800.00,
+      "category": "DACH"
+    },
+    {
+      "id": "D002",
+      "knr": "KNR 0-15 0201-01",
+      "name": "Pokrycie dachu dachówką ceramiczną",
+      "unit": "m2",
+      "price_unit": 185.00,
+      "category": "DACH"
+    },
+    {
+      "id": "D003",
+      "knr": "KNR 2-02 0602-05",
+      "name": "Pokrycie dachu blachodachówką",
+      "unit": "m2",
+      "price_unit": 125.00,
+      "category": "DACH"
+    },
+    {
+      "id": "D004",
+      "knr": "KNR 2-02 0618-01",
+      "name": "Obróbki blacharskie z blachy powlekanej",
+      "unit": "m2",
+      "price_unit": 145.00,
+      "category": "DACH"
+    },
+    {
+      "id": "D005",
+      "knr": "KNR 2-02 0604-01",
+      "name": "Ołacenie dachu łatami",
+      "unit": "m2",
+      "price_unit": 35.00,
+      "category": "DACH"
+    },
+    {
+      "id": "I001",
+      "knr": "KNR 2-02 0701-02",
+      "name": "Izolacja przeciwwilgociowa pozioma - 2x papa",
+      "unit": "m2",
+      "price_unit": 45.00,
+      "category": "IZOLACJE"
+    },
+    {
+      "id": "I002",
+      "knr": "KNR 2-02 0702-01",
+      "name": "Izolacja przeciwwilgociowa pionowa - 2x dysperbit",
+      "unit": "m2",
+      "price_unit": 35.00,
+      "category": "IZOLACJE"
+    },
+    {
+      "id": "I003",
+      "knr": "KNR 0-17 0111-02",
+      "name": "Ocieplenie ścian styropianem gr. 15cm",
+      "unit": "m2",
+      "price_unit": 145.00,
+      "category": "IZOLACJE"
+    },
+    {
+      "id": "I004",
+      "knr": "KNR 0-17 0121-01",
+      "name": "Ocieplenie poddasza wełną mineralną gr. 20cm",
+      "unit": "m2",
+      "price_unit": 85.00,
+      "category": "IZOLACJE"
+    },
+    {
+      "id": "T001",
+      "knr": "KNR 2-02 0801-01",
+      "name": "Tynki wewnętrzne zwykłe kat. III",
+      "unit": "m2",
+      "price_unit": 55.00,
+      "category": "TYNKI"
+    },
+    {
+      "id": "T002",
+      "knr": "KNR 2-02 0802-02",
+      "name": "Tynki zewnętrzne cementowo-wapienne",
+      "unit": "m2",
+      "price_unit": 65.00,
+      "category": "TYNKI"
+    },
+    {
+      "id": "T003",
+      "knr": "NNRNKB 202",
+      "name": "Gładzie gipsowe jednowarstwowe gr. 3mm",
+      "unit": "m2",
+      "price_unit": 29.39,
+      "category": "TYNKI"
+    },
+    {
+      "id": "T004",
+      "knr": "KNR 2-02 1505-03",
+      "name": "Malowanie farbami emulsyjnymi 2x z gruntowaniem",
+      "unit": "m2",
+      "price_unit": 12.18,
+      "category": "TYNKI"
+    },
+    {
+      "id": "P001",
+      "knr": "KNR 2-02 1101-01",
+      "name": "Podkład betonowy pod posadzki gr. 10cm",
+      "unit": "m2",
+      "price_unit": 65.00,
+      "category": "POSADZKI"
+    },
+    {
+      "id": "P002",
+      "knr": "KNR 0-12 0101-01",
+      "name": "Posadzki z płytek gresowych na klej",
+      "unit": "m2",
+      "price_unit": 125.00,
+      "category": "POSADZKI"
+    },
+    {
+      "id": "P003",
+      "knr": "KNR 0-12 0102-01",
+      "name": "Cokolik z płytek gresowych wys. 10cm",
+      "unit": "mb",
+      "price_unit": 35.00,
+      "category": "POSADZKI"
+    },
+    {
+      "id": "P004",
+      "knr": "KNR 2-02 1102-02",
+      "name": "Wylewka samopoziomująca gr. 5cm",
+      "unit": "m2",
+      "price_unit": 45.00,
+      "category": "POSADZKI"
+    },
+    {
+      "id": "ST_O001",
+      "knr": "KNR 0-19 0101-01",
+      "name": "Okna PCV dwuszybowe",
+      "unit": "m2",
+      "price_unit": 650.00,
+      "category": "STOLARKA"
+    },
+    {
+      "id": "ST_O002",
+      "knr": "KNR 0-19 0201-01",
+      "name": "Drzwi zewnętrzne aluminiowe",
+      "unit": "m2",
+      "price_unit": 1200.00,
+      "category": "STOLARKA"
+    },
+    {
+      "id": "ST_O003",
+      "knr": "KNR 2-02 1006-01",
+      "name": "Drzwi wewnętrzne płytowe",
+      "unit": "szt",
+      "price_unit": 450.00,
+      "category": "STOLARKA"
+    },
+    {
+      "id": "ST_O004",
+      "knr": "KNR 0-19 0301-01",
+      "name": "Brama garażowa segmentowa",
+      "unit": "m2",
+      "price_unit": 850.00,
+      "category": "STOLARKA"
+    },
+    {
+      "id": "INS001",
+      "knr": "KNR 2-15 0101-01",
+      "name": "Rurociągi z rur PVC kanalizacyjne fi 110",
+      "unit": "mb",
+      "price_unit": 85.00,
+      "category": "INSTALACJE_SANITARNE"
+    },
+    {
+      "id": "INS002",
+      "knr": "KNR 2-15 0201-01",
+      "name": "Rurociągi z rur PP wodociągowe fi 20",
+      "unit": "mb",
+      "price_unit": 45.00,
+      "category": "INSTALACJE_SANITARNE"
+    },
+    {
+      "id": "INS003",
+      "knr": "KNR 2-15 0301-01",
+      "name": "Grzejniki stalowe płytowe",
+      "unit": "szt",
+      "price_unit": 850.00,
+      "category": "INSTALACJE_SANITARNE"
+    },
+    {
+      "id": "INS004",
+      "knr": "KNR 2-15 0401-01",
+      "name": "Umywalka z syfonem i baterią",
+      "unit": "kpl",
+      "price_unit": 650.00,
+      "category": "INSTALACJE_SANITARNE"
+    },
+    {
+      "id": "INS005",
+      "knr": "KNR 2-15 0402-01",
+      "name": "Miska ustępowa kompakt z deską",
+      "unit": "kpl",
+      "price_unit": 750.00,
+      "category": "INSTALACJE_SANITARNE"
+    },
+    {
+      "id": "INE001",
+      "knr": "KNR 5-08 0101-01",
+      "name": "Przewody kabelkowe YDY 3x2,5",
+      "unit": "mb",
+      "price_unit": 18.00,
+      "category": "INSTALACJE_ELEKTRYCZNE"
+    },
+    {
+      "id": "INE002",
+      "knr": "KNR 5-08 0201-01",
+      "name": "Gniazda wtyczkowe podtynkowe",
+      "unit": "szt",
+      "price_unit": 65.00,
+      "category": "INSTALACJE_ELEKTRYCZNE"
+    },
+    {
+      "id": "INE003",
+      "knr": "KNR 5-08 0202-01",
+      "name": "Łączniki instalacyjne podtynkowe",
+      "unit": "szt",
+      "price_unit": 55.00,
+      "category": "INSTALACJE_ELEKTRYCZNE"
+    },
+    {
+      "id": "INE004",
+      "knr": "KNR 5-08 0301-01",
+      "name": "Oprawy oświetleniowe LED",
+      "unit": "szt",
+      "price_unit": 185.00,
+      "category": "INSTALACJE_ELEKTRYCZNE"
+    },
+    {
+      "id": "INE005",
+      "knr": "KNR 5-08 0401-01",
+      "name": "Rozdzielnica elektryczna 24-modułowa",
+      "unit": "szt",
+      "price_unit": 850.00,
+      "category": "INSTALACJE_ELEKTRYCZNE"
+    },
+    {
+      "id": "E001",
+      "knr": "KNR 0-17 0201-01",
+      "name": "Tynk cienkowarstwowy mineralny na ociepleniu",
+      "unit": "m2",
+      "price_unit": 45.00,
+      "category": "ELEWACJA"
+    },
+    {
+      "id": "E002",
+      "knr": "KNR 0-17 0202-01",
+      "name": "Tynk cienkowarstwowy silikonowy",
+      "unit": "m2",
+      "price_unit": 65.00,
+      "category": "ELEWACJA"
+    }
+  ]
+}

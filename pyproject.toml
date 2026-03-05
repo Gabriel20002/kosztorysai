@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kosztorysAI"
+version = "3.2.0"
+description = "Generator kosztorysów budowlanych ATH + PDF"
+authors = [
+    {name = "Gabriel Dlugi", email = "gabrysdlugi053@gmail.com"}
+]
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+keywords = ["kosztorys", "budowlany", "ATH", "Norma PRO", "przedmiar"]
+
+dependencies = [
+    "pdfplumber>=0.10.0",
+    "fpdf2>=2.7.0",
+]
+
+[project.optional-dependencies]
+ai = [
+    "chromadb>=0.5.0",
+    "requests>=2.28.0",
+]
+dev = [
+    "pytest>=7.0",
+]
+
+[project.scripts]
+kosztorys = "kosztorysAI.cli:main"
+
+[project.urls]
+Repository = "https://github.com/Gabriel20002/clawd"
+
+[tool.setuptools]
+packages = ["kosztorysAI", "kosztorysAI.validators"]
+package-dir = {"kosztorysAI" = "."}
+
+[tool.setuptools.package-data]
+kosztorysAI = [
+    "learned_kosztorysy/*.json",
+    "config/*.json",
+]

@@ -1,0 +1,8155 @@
+[KOSZTORYS ATHENASOFT]
+co=Copyright Athenasoft Sp. z o.o.
+wf=4
+pr=NORMA	5.11.400.12
+op=1
+opn=0	1	0	1	1	0	19	8	0	0	1	0	0	0	1.	1	1	0	1	1	1
+prn=2	2	2	3	4	1	6	0	1
+own=3	1	1	0	1	0	0	1	1	0	0	0	1	0	1	1	poz.	<	>	1	0	0	0	0	0	0	0	0	2	0	1	1	1	1	0	0	0
+wan=PLN
+wbn=PLN	zl
+na=Koszty posrednie	Zysk	Koszt zakupu
+wn=0	0	0
+
+[STRONA TYT]
+na=KOSZTORYS	06. Za³. nr 2 do SWZ - Przedmiar robót (1)
+dt=26.02.2026	0
+
+[NARZUTY NORMA 2]
+na=Koszty posrednie	Kp
+wa=70	1	0	
+op=1	0
+nr=1
+ns=1
+
+[NARZUTY NORMA 2]
+na=Zysk	Z
+wa=12	1	0	
+op=1	0
+nr=1
+ns=1
+
+[NARZUTY NORMA 2]
+na=Koszt zakupu	Kz
+wa=0	1	0	
+op=1	0
+nm=1
+
+
+[RMS ZEST 1]
+ty=R	0
+na=robocizna	0
+id=999	1
+jm=r-g	149
+ce=35,00	1772121487	1	SEK_RMS
+cw=35,00	PLN	35,00
+il=0
+
+[RMS ZEST 2]
+ty=M	0
+na=Materia³y	0
+id=998	1
+jm=szt	020
+ce=1,00	1772121487	1	SEK_RMS
+cw=1,00	PLN	1,00
+il=0
+
+[RMS ZEST 3]
+ty=S	0
+na=Sprzêt	0
+id=997	1
+jm=m-g	150
+ce=100,00	1772121487	1	SEK_RMS
+cw=100,00	PLN	100,00
+il=0
+
+[ELEMENT 1]
+na=KOSZTORYS
+wa=0
+kn=0	0	0
+wn=0	0	0
+id=1
+nu=1
+
+[POZYCJA]
+id=2
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Wykucie z muru oœcie¿nic stalowych lub krat drzwiowych o powierzchni do
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=29	29		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=7007,56	7007,56	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=29	1	29							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=7007,56
+wb=12473,46
+il=200,216
+
+[POZYCJA]
+id=3
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Wykucie z muru podokienników betonowych d.1. 01 0354-12 1.50*2 m 3.000 1.50 m 1.500
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=4,5	4,5		1
+jm=m	010
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=1087,38	1087,38	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=4,5	1	4,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=1087,38
+wb=1935,54
+il=31,068
+
+[POZYCJA]
+id=4
+pd=Katalog	KNR	9-29 0000-00	9-29	0000-00		1
+mpn=1211
+na=Rozbiórka œcianek dzia³owych z p³yt gipsowo-kartonowych na szkielecie d.1. 01 0103-01 pojedynczym przy powierzchni rozbiórki do 5 m2 - ok³adzina pojedyncza 1 analogia wraz z ok³adzinami (1.52+1.16)*3.
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=10,416	10,416		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=205,50		25,00	180,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=2140,49	260,40	1874,88
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=10,416	1	10,416							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=260,40
+wb=463,51
+il=7,44
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=1874,88
+wb=1874,88
+il=1874,88
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=5,21
+wb=9,27
+il=0,0521
+
+[POZYCJA]
+id=5
+pd=Katalog	KNR	9-29 0000-00	9-29	0000-00		1
+mpn=1211
+na=Rozbiórka obudów pionów instalacyjnych, s³upów i belek z p³yt gipsowo- d.1. 01 0105-02 kartonowych przy powierzchni rozbiórki do 2 m2 - ok³adzina podwójna 1 analogia wraz z ok³adzinami (0.25+0.35)*3.1
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=10,405	10,405		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=205,50		25,00	180,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=2138,23	260,12	1872,90
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=10,405	1	10,405							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=260,12
+wb=463,02
+il=7,4321
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=1872,90
+wb=1872,90
+il=1872,9
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=5,20
+wb=9,26
+il=0,052
+
+[POZYCJA]
+id=6
+pd=Katalog	KNR	9-29 0000-00	9-29	0000-00		1
+mpn=1211
+na=Rozbiórka ok³adzin œcian z p³yt gipsowo-kartonowych przy powierzchni d.1. 01 0101-01 rozbiórki do 5 m2 - po skutych p³ytkach 1 analogia (3.00+1.60)*2.05 m2 9.430 (1.40+2.95)*2.05 m2 8.918
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=18,348	18,348		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=205,50		25,00	180,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=3770,51	458,70	3302,64
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=18,348	1	18,348							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=458,70
+wb=816,49
+il=13,1057
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=3302,64
+wb=3302,64
+il=3302,64
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=9,17
+wb=16,33
+il=0,0917
+
+[POZYCJA]
+id=7
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Rozebranie œcianek dzia³owych sanitarnych d.1. 01 0427-05 (1.22*2+1.08)*2.00 m2 7.040
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=7,04	7,04		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=1701,15	1701,15	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=7,04	1	7,04							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=1701,15
+wb=3028,04
+il=48,6042
+
+[POZYCJA]
+id=8
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Rozebranie wyk³adziny œciennej z p³ytek d.1. 01 0819-15 (6.15*2+3.00*2)*2.10 m2 38.430 -(0.80*2.00+1.45*2.05) m2 -4.573 (1.45+2*2.00)*0.40<oœcie¿a> m2 2.180 (2.95*2+1.40*2)*2.10 m2 18.270 -(0.80*2.00+
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=123,181	123,181		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=29765,46	29765,46	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=123,181	1	123,181							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=29765,46
+wb=52982,51
+il=850,4416
+
+[POZYCJA]
+id=9
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Odbicie tynków wewnêtrznych z zaprawy cementowo-wapiennej na œcia- d.1. 01 0701-05 nach, filarach, pilastrach o powierzchni odbicia ponad 5 m2 - po skutych 1 p³ytkach poz.7 m2 123.181
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=123,181	123,181		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=29765,46	29765,46	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=123,181	1	123,181							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=29765,46
+wb=52982,51
+il=850,4416
+
+[POZYCJA]
+id=10
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Zeskrobanie i zmycie starej farby w pomieszczeniach o powierzchni pod- d.1. 01 1202-08 ³ogi do 5 m2 œciany (6.15*2+3.00*2)*(3.15-2.10) m2 19.215 (2.95*2+1.40*2)*(3.15-2.10) m2 9.135 (6.15*2+2.30*2)*(3
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=107,25	107,25		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=25915,89	25915,89	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=107,25	1	107,25							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=25915,89
+wb=46130,28
+il=740,454
+
+[POZYCJA]
+id=11
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Rozebranie posadzki z p³ytek na zaprawie cementowej d.1. 01 0811-07 4.40*1.45+3.00*1.75+0.40*0.85 m2 11.970 2.95*1.40+0.40*0.85 m2 4.470 6.15*2.30 m2 14.145 3.70*1.20+2.50*2.45 m2 10.565
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=41,15	41,15		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=9943,49	9943,49	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=41,15	1	41,15							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=9943,49
+wb=17699,41
+il=284,0996
+
+[POZYCJA]
+id=12
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Skucie nierównoœci 4 cm na œcianach z cegie³ na zaprawie cementowo- d.1. 01 0347-09 wapiennej - poszerzenie otworu 1 Krotnoœæ = 2 0.45*2.05*4 m2 3.690 0.30*2.05*6 m2 3.690
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=7,38	7,38		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=1783,30	1783,30	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=7,38	1	7,38							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=1783,30
+wb=3174,28
+il=50,9515
+
+[POZYCJA]
+id=13
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Skucie wystêpów 20x10 cm na œcianach z kamienia miêkkiego - posze- d.1. 01 0347-02 rzenie otworu 1 analogia Krotnoœæ = 2 2.05*4 m 8.200
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=8,2	8,2		1
+jm=m	010
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=1981,45	1981,45	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=8,2	1	8,2							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=1981,45
+wb=3526,98
+il=56,6128
+
+[POZYCJA]
+id=14
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Wykucie z muru kratek wentylacyjnych, drzwiczek, wentylatorów d.1. 01 0354-13 1+1 szt. 2.000 1 szt. 1.000 4 szt. 4.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=7	7		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=1691,48	1691,48	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=7	1	7							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=1691,48
+wb=3010,83
+il=48,328
+
+[POZYCJA]
+id=15
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Skucie nierównoœci betonu przy g³êbokoœci skucia do 5 cm na pod³ogach d.1. 01 0211-03 poz.10 m2 41.150
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=41,15	41,15		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=9943,49	9943,49	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=41,15	1	41,15							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=9943,49
+wb=17699,41
+il=284,0996
+
+[POZYCJA]
+id=16
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Wykucie bruzd pionowych 1/4x1/2 ceg. w œcianach z cegie³ na zaprawie d.1. 01 0339-01 cementowo-wapiennej dla instalacji wodoci¹gowej 15.00 m 15.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=15	15		1
+jm=m	010
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=3624,60	3624,60	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=15	1	15							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=3624,60
+wb=6451,79
+il=103,56
+
+[POZYCJA]
+id=17
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Wykucie bruzd poziomych 1/4x1/2 ceg. w œcianach z cegie³ na zaprawie d.1. 01 0336-01 cementowo-wapiennej 15.00 m 15.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=15	15		1
+jm=m	010
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=3624,60	3624,60	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=15	1	15							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=3624,60
+wb=6451,79
+il=103,56
+
+[POZYCJA]
+id=18
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Wykucie bruzd o przekroju do 0.040 m2 poziomych lub pionowych w ele- d.1. 01 0210-02 mentach z betonu ¿wirowego 10.00 m 10.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=10	10		1
+jm=m	010
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2416,40	2416,40	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=10	1	10							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=2416,40
+wb=4301,19
+il=69,04
+
+[POZYCJA]
+id=19
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Usuniêcie z parteru budynku gruzu i ziemi d.1. 01 0106-04 poz.1*0.10 m3 2.900 poz.2*0.10*0.25 m3 0.113 poz.3*0.12 m3 1.250 poz.4*0.05 m3 0.520 poz.5*0.02 m3 0.367 poz.6*0.03 m3 0.211 poz.7*0.05 m3 6.1
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=18,285	18,285		1
+jm=m3	060
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=4418,39	4418,39	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=18,285	1	18,285							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=4418,39
+wb=7864,73
+il=126,2396
+
+[POZYCJA]
+id=20
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Wykucie gniazd o g³êbokoœci 1 ceg. w œcianach z cegie³ na zaprawie ce- gniazd
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=3	3		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=724,92	724,92	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=3	1	3							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=724,92
+wb=1290,36
+il=20,712
+
+[POZYCJA]
+id=21
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Podlewka, poduszka betonowa gruboœci 10 cm pod belki nadpro¿owe d.1. 02 0206-03 3 szt. 3.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=3	3		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=724,92	724,92	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=3	1	3							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=724,92
+wb=1290,36
+il=20,712
+
+[POZYCJA]
+id=22
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Wykonanie przesklepieñ otworów w œcianach z cegie³ z wykuciem bruzd d.1. 02 0313-02 dla belek 0.15*0.10*2.70*2 m3 0.081
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,081	0,081		1
+jm=m3	060
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=19,57	19,57	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,081	1	0,081							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=19,57
+wb=34,84
+il=0,5592
+
+[POZYCJA]
+id=23
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Wykonanie przesklepieñ otworów w œcianach z cegie³ - dostarczenie i ob- d.1. 02 0313-04 sadzenie belek stalowych (dobór kszta³townika przez uprawnionego pro- 2 jektanta branzy konstrukcyjnej na bazie 
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=5,4	5,4		1
+jm=m	010
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=1304,86	1304,86	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=5,4	1	5,4							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=1304,86
+wb=2322,64
+il=37,2816
+
+[POZYCJA]
+id=24
+pd=Katalog	KNR	7-12 0000-00	7-12	0000-00		1
+mpn=1211
+na=Czyszczenie i odt³uszczanie belek stalowych i malowanie pêdzlem farba- d.1. 02 0101-01 + mi do gruntowania miniowymi 2 KNR 7-12 KNR 7-12 poz.22*(0.16*2+0.06*4) m2 3.024
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=3,024	3,024		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=1035,00		180,00	850,00	5,00
+cjw=		0
+kjw=			0	0	0
+wn=3129,84	544,32	2570,40
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=3,024	1	3,024							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=544,32
+wb=968,89
+il=15,552
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2570,40
+wb=2570,40
+il=2570,4
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=15,12
+wb=26,91
+il=0,1512
+
+[POZYCJA]
+id=25
+pd=Katalog	KNR	4-06 0000-00	4-06	0000-00		1
+mpn=1211
+na=Skrêcanie po³¹czeñ œrubami - po³¹czenie belek œrubami M12 kl. 5,8 d.1. 02 0112-01 8 szt. 8.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=8	8		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=216,50		35,00	180,00	1,50
+cjw=		0
+kjw=			0	0	0
+wn=1732,00	280,00	1440,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=8	1	8							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=280,00
+wb=498,40
+il=8
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=1440,00
+wb=1440,00
+il=1440
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=12,00
+wb=21,36
+il=0,12
+
+[POZYCJA]
+id=26
+pd=Katalog	KNR	0-40 0000-00	0-40	0000-00		1
+mpn=1211
+na=Uszczelnienie i wype³nienie szczelin miêdzy wykutym otworem i kszta³tow- d.1. 02 0110-01 nikiem zapraw¹ wype³niaj¹c¹ poz.22 m 5.400
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=5,4	5,4		1
+jm=m	010
+kj=35,00	0	1,0
+cj=6,00		2,50	3,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=32,40	13,50	18,90
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=5,4	1	5,4							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=13,50
+wb=24,03
+il=0,3857
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=18,90
+wb=18,90
+il=18,9
+
+[POZYCJA]
+id=27
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Umocowanie siatki 'Rabitza' na stopkach i œciankach belek d.1. 02 0703-03 poz.22 m 5.400
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=5,4	5,4		1
+jm=m	010
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=1304,86	1304,86	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=5,4	1	5,4							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=1304,86
+wb=2322,64
+il=37,2816
+
+[POZYCJA]
+id=28
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Wype³nienie oczek siatki ciêto-ci¹gnionej na œcianach i stropach zapraw¹ d.1. 02 0704-03 cementow¹ poz.28*0.45 m2 2.430
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=2,43	2,43		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=587,19	587,19	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=2,43	1	2,43							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=587,19
+wb=1045,19
+il=16,7767
+
+[POZYCJA]
+id=29
+pd=Katalog	KNR	9-29 0000-00	9-29	0000-00		1
+mpn=1211
+na=Uzupe³nienie ok³adzin z p³yt gipsowo-kartonowych œcianek dzia³owych i d.1. 04 0306-01 przedœcianek przy powierzchni uzupe³nienia do 5 m2 - pierwsza warstwa o 3 gruboœci do 12,5 mm poz.5 m2 18.348
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=18,348	18,348		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=205,50		25,00	180,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=3770,51	458,70	3302,64
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=18,348	1	18,348							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=458,70
+wb=816,49
+il=13,1057
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=3302,64
+wb=3302,64
+il=3302,64
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=9,17
+wb=16,33
+il=0,0917
+
+[POZYCJA]
+id=30
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Zabudowy instalacyjne p³ytami gipsowo-kartonowymi gkbi na rusztach me-
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=30	30		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=4342,83	2274,30	2059,53
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=30	1	30							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=2274,30
+wb=4048,25
+il=64,98
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2059,53
+wb=2059,53
+il=2059,53
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=9,00
+wb=16,02
+il=0,09
+
+[POZYCJA]
+id=31
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Wykonanie pasów tynku zwyk³ego kat. III o szerokoœci do 15 cm na mu- d.1. 04 0705-04 rach z cegie³ lub œcianach z betonu pokrywaj¹cego bruzdy z osiatkowa- 4 niem siatk¹ ciêto-ci¹gnion¹ poz.15+poz.16 m
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=30	30		1
+jm=m	010
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=7249,20	7249,20	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=30	1	30							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=7249,20
+wb=12903,58
+il=207,12
+
+[POZYCJA]
+id=32
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Tynki wewnêtrzne zwyk³e kat. III wykonywane rêcznie na pod³o¿u z ceg³y, d.1. 04 0716-02 pustaków ceramicznych, gazo- i pianobetonów na œcianach w pomiesz- 4 czeniach o powierzchni pod³ogi ponad 5 m2 p
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=123,181	123,181		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=29765,46	29765,46	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=123,181	1	123,181							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=29765,46
+wb=52982,51
+il=850,4416
+
+[POZYCJA]
+id=33
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Uzupe³nienie tynków zwyk³ych wewnêtrznych kat. III z zaprawy cemento- d.1. 04 0711-14 wo-wapiennej na stropach, belkach, podci¹gach, biegach i spocznikach 4 na pod³o¿u z ceg³y i pustaków (do 2 m2 w 1 
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=48,564	48,564		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=11735,00	11735,00	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=48,564	1	48,564							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=11735,00
+wb=20888,31
+il=335,2859
+
+[POZYCJA]
+id=34
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Wykonanie tynków zwyk³ych wewnêtrznych kat. III z zaprawy cementowo- d.1. 04 0708-03 wapiennej na oœcie¿ach szerokoœci do 40 cm (1.00+2*2.05)*2 m 10.200 (1.00+2*2.05) m 5.100
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=15,3	15,3		1
+jm=m	010
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=3697,09	3697,09	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=15,3	1	15,3							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=3697,09
+wb=6580,82
+il=105,6312
+
+[POZYCJA]
+id=35
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Przecieranie istniej¹cych tynków wewnêtrznych z zeskrobaniem farby na d.1. 04 0713-01 œcianach od strony korytarza 3.30*3.15-0.90*2.00*2 m2 6.795 1.80*3.10-0.90*2.00 m2 3.780 (1.20+2.00)*3.10-0.90*2.0
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=16,895	16,895		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=4082,51	4082,51	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=16,895	1	16,895							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=4082,51
+wb=7266,86
+il=116,6431
+
+[POZYCJA]
+id=36
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Tynki wewnêtrzne pocienione kat. III na œcianach powy¿ej p³ytek dla ich d.1. 04 0812-01 zlicowania wykonywane rêcznie wraz z naro¿nikami 4 analogia (6.15*2+3.00*2)*(3.15-2.05) m2 20.130 (2.95*2+1.40*2
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=69,115	69,115		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=10005,16	5239,61	4744,81
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=69,115	1	69,115							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=5239,61
+wb=9326,50
+il=149,7031
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=4744,81
+wb=4744,81
+il=4744,8139
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=20,73
+wb=36,91
+il=0,2073
+
+[POZYCJA]
+id=37
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Ok³adziny z p³yt gipsowo-kartonowych (suche tynki gipsowe) - dodatek za d.1. 04 2006-07 drug¹ warstwê na rusztach na œcianach Robota w pomieszczeniu mniej- 4 z.sz. 5.2. szym ni¿ 5 m2.p³ytek dla ich zl
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=14,51	14,51		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=2100,48	1100,00	996,13
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=14,51	1	14,51							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=1100,00
+wb=1958,01
+il=31,4287
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=996,13
+wb=996,13
+il=996,126
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=4,35
+wb=7,75
+il=0,0435
+
+[POZYCJA]
+id=38
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Tynki (g³adzie) jednowarstwowe wewnêtrzne gr. 3 mm z gipsu szpachlo- d.1. 04 2009-04 wego wykonywane rêcznie na stropach na pod³o¿u z tynku poz.39A m2 40.470
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=40,47	40,47		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=5858,48	3068,03	2778,31
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=40,47	1	40,47							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=3068,03
+wb=5461,09
+il=87,658
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2778,31
+wb=2778,31
+il=2778,306
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=12,14
+wb=21,61
+il=0,1214
+
+[POZYCJA]
+id=39
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Tynki (g³adzie) jednowarstwowe wewnêtrzne gr. 3 mm z gipsu szpachlo- d.1. 04 2009-02 wego wykonywane rêcznie na œcianach na pod³o¿u z tynku poz.42 m2 69.115
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=69,115	69,115		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=10005,16	5239,61	4744,81
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=69,115	1	69,115							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=5239,61
+wb=9326,50
+il=149,7031
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=4744,81
+wb=4744,81
+il=4744,8139
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=20,73
+wb=36,91
+il=0,2073
+
+[POZYCJA]
+id=40
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Licowanie œcian p³ytkami o wymiarach 30x60 cm (lub innych wskazanych d.1. 05 0829-11 przez Zamawiaj¹cego na etapie wykonawstwa) na klej metod¹ kombino- 4 analogia wan¹ z u³o¿eniem silikonów poz.48 m2 
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=126,355	126,355		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=18291,28	9578,97	8674,40
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=126,355	1	126,355							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=9578,97
+wb=17050,57
+il=273,6849
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=8674,40
+wb=8674,40
+il=8674,3971
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=37,91
+wb=67,47
+il=0,3791
+
+[POZYCJA]
+id=41
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Dwukrotne malowanie farbami emulsyjnymi powierzchni wewnêtrznych - d.1. 08 1505-03 pod³o¿y gipsowych z gruntowaniem poz.41 m2 16.895 poz.43 m2 14.510 poz.44 m2 109.585
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=140,99	140,99		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=20409,85	10688,45	9679,10
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=140,99	1	140,99							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=10688,45
+wb=19025,44
+il=305,3843
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=9679,10
+wb=9679,10
+il=9679,1045
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=42,30
+wb=75,29
+il=0,423
+
+[POZYCJA]
+id=42
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Malowanie farbami emulsyjnymi powierzchni wewnêtrznych - p³yt gipso- d.1. 08 1505-06 wych spoinowanych szpachlowanych z gruntowaniem - dodatek za ka¿de 4 dalsze malowanie poz.53 m2 140.990
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=140,99	140,99		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=20409,85	10688,45	9679,10
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=140,99	1	140,99							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=10688,45
+wb=19025,44
+il=305,3843
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=9679,10
+wb=9679,10
+il=9679,1045
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=42,30
+wb=75,29
+il=0,423
+
+[POZYCJA]
+id=43
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Dwukrotne malowanie farbami olejnymi starych tynków wewnêtrznych d.1. 08 1206-05 œcian z dwukrotnym szpachlowaniem (do 3 m2 w jednym miejscu) - od 4 uw.p.tab. strony korytarza (3.30-0.90*2)*1.50 m2 2.
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=5,7	5,7		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=1377,35	1377,35	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=5,7	1	5,7							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=1377,35
+wb=2451,68
+il=39,3528
+
+[POZYCJA]
+id=44
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Zabetonowanie ¿wirobetonem bruzd o przekroju do 0.045 m2 w d.1. 06 0207-03 pod³o¿ach, stropach i œcianach bez deskowañ i stemplowañ 12.00 m 12.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=12	12		1
+jm=m	010
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2899,68	2899,68	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=12	1	12							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=2899,68
+wb=5161,43
+il=82,848
+
+[POZYCJA]
+id=45
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Warstwy wyrównawcze pod posadzki z zaprawy cementowej gruboœci 50 d.1. 06 1102-02 mm zatarte na g³adko z ukszta³towaniem spadków poz.39A m2 40.470
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=40,47	40,47		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=5858,48	3068,03	2778,31
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=40,47	1	40,47							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=3068,03
+wb=5461,09
+il=87,658
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2778,31
+wb=2778,31
+il=2778,306
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=12,14
+wb=21,61
+il=0,1214
+
+[POZYCJA]
+id=46
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Posadzki cementowe wraz z cokolikami - dop³ata za zbrojenie siatk¹ sta- d.1. 06 1106-07 low¹ poz.57 m2 40.470
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=40,47	40,47		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=5858,48	3068,03	2778,31
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=40,47	1	40,47							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=3068,03
+wb=5461,09
+il=87,658
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2778,31
+wb=2778,31
+il=2778,306
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=12,14
+wb=21,61
+il=0,1214
+
+[POZYCJA]
+id=47
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Posadzki p³ytkowe z kamieni sztucznych; p³ytki 60x60 cm (lub innych d.1. 06 1118-11 wskazanych przez Zamawiaj¹cego na etapie wykonawstwa) na klej meto- 5 analogia d¹ kombinowan¹ z u³o¿eniem silikonów,
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=40,47	40,47		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=5858,48	3068,03	2778,31
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=40,47	1	40,47							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=3068,03
+wb=5461,09
+il=87,658
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2778,31
+wb=2778,31
+il=2778,306
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=12,14
+wb=21,61
+il=0,1214
+
+[POZYCJA]
+id=48
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Systemowe aluminiowe listwy progowe na po³¹czeniu z korytarzem d.1. 06 0411-08 5 analogia 2 szt. 2.000 1 szt. 1.000 2 szt. 2.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=5	5		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=1208,20	1208,20	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=5	1	5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=1208,20
+wb=2150,60
+il=34,52
+
+[POZYCJA]
+id=49
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Obsadzenie oœcie¿nic stalowych sta³ych d.1. 07 0320-03 1.00*2.05*2 m2 4.100 1.00*2.05*1 m2 2.050
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=6,15	6,15		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=1486,09	1486,09	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=6,15	1	6,15							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=1486,09
+wb=2645,23
+il=42,4596
+
+[POZYCJA]
+id=50
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Obsadzenie oœcie¿nic stalowych regulowanych (opaskowych) d.1. 07 0320-03 0.90*2.05*2 m2 3.690 0.90*2.05*1 m2 1.845 0.90*2.05*3 m2 5.535
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=11,07	11,07		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2674,95	2674,95	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=11,07	1	11,07							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=2674,95
+wb=4761,42
+il=76,4273
+
+[POZYCJA]
+id=51
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Skrzyd³a drzwiowe p³ytowe wewnêtrzne jednodzielne pe³ne o powierzchni d.1. 07 1017-02 ponad 1.6 m2 fabrycznie wykoñczone z kompletem okuæ, kratk¹ lub pod- 6 ciêciem wentylacyjnym poz.67 m2 6.150 poz.6
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=17,22	17,22		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=2492,78	1305,45	1182,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=17,22	1	17,22							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=1305,45
+wb=2323,70
+il=37,2985
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=1182,17
+wb=1182,17
+il=1182,1702
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=5,17
+wb=9,20
+il=0,0517
+
+[POZYCJA]
+id=52
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Naœwietla PCV d.1. 07 1009-06 (1.20+1.50)*0.80 m2 2.160 1.50*0.80 m2 1.200
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=3,36	3,36		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=486,40	254,72	230,67
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=3,36	1	3,36							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=254,72
+wb=453,40
+il=7,2778
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=230,67
+wb=230,67
+il=230,6674
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=1,01
+wb=1,79
+il=0,0101
+
+[POZYCJA]
+id=53
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Drzwiczki rewizyjne osadzone w œcianach GK o powierzchni elementu do d.1. 07 1215-02 0.2 m2 2+1+4 szt. 7.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=7	7		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=1013,33	530,67	480,56
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=7	1	7							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=530,67
+wb=944,59
+il=15,162
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=480,56
+wb=480,56
+il=480,557
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=2,10
+wb=3,74
+il=0,021
+
+[POZYCJA]
+id=54
+pd=Katalog	KNR	2-17 0000-00	2-17	0000-00		1
+mpn=1211
+na=Nawietrzaki okienne z frezowaniem otworów d.1. 07 0156-01 6 analogia 2+1 szt. 3.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=3	3		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=447,77		0,00	447,77	0,00
+cjw=		0
+kjw=			0	0	0
+wn=1343,31	0,00	1343,31
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=3	1	3							
+
+[RMS 1]
+nz=2	0	1
+np=0	0
+wa=1343,31
+wb=1343,31
+il=1343,31
+
+[POZYCJA]
+id=55
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Wymiana klamek okiennych z regulacj¹ skrzyde³ okiennych d.1. 07 0919-20 12 szt. 12.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=12	12		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2899,68	2899,68	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=12	1	12							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=2899,68
+wb=5161,43
+il=82,848
+
+[POZYCJA]
+id=56
+pd=Katalog	KNR	4-02 0000-00	4-02	0000-00		1
+mpn=1211
+na=Demonta¿ umywalki d.1. 01 0235-06 2+1+2 kpl. 5.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=5	5		1
+jm=kpl	090
+kj=35,00	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=62,50	60,00	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=5	1	5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=60,00
+wb=106,80
+il=1,7143
+
+[RMS 2]
+nz=3	0	1
+np=0	0
+wa=2,50
+wb=4,45
+il=0,025
+
+[POZYCJA]
+id=57
+pd=Katalog	KNR	4-02 0000-00	4-02	0000-00		1
+mpn=1211
+na=Demonta¿ ustêpu z misk¹ fajansow¹ d.1. 01 0235-08 2+1+2 kpl. 5.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=5	5		1
+jm=kpl	090
+kj=35,00	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=62,50	60,00	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=5	1	5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=60,00
+wb=106,80
+il=1,7143
+
+[RMS 2]
+nz=3	0	1
+np=0	0
+wa=2,50
+wb=4,45
+il=0,025
+
+[POZYCJA]
+id=58
+pd=Katalog	KNR	4-02 0000-00	4-02	0000-00		1
+mpn=1211
+na=Demonta¿ brodzika d.1. 01 0235-07 1+1 kpl. 2.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=2	2		1
+jm=kpl	090
+kj=35,00	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=25,00	24,00	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=2	1	2							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=24,00
+wb=42,72
+il=0,6857
+
+[RMS 2]
+nz=3	0	1
+np=0	0
+wa=1,00
+wb=1,78
+il=0,01
+
+[POZYCJA]
+id=59
+pd=Katalog	KNR	4-02 0000-00	4-02	0000-00		1
+mpn=1211
+na=Demonta¿ pisuaru d.1. 01 0235-01 1+1 kpl. 2.000 Norma PRO Wersja 4.32 Nr seryjny: 24959 Sanitariaty budynek nr 33_przedmiar.PRD PRZEDMIAR Lp. Nr Podsta- Opis i wyliczenia j.m. Poszcz Razem spec. wa te
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=2	2		1
+jm=kpl	090
+kj=35,00	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=25,00	24,00	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=2	1	2							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=24,00
+wb=42,72
+il=0,6857
+
+[RMS 2]
+nz=3	0	1
+np=0	0
+wa=1,00
+wb=1,78
+il=0,01
+
+[POZYCJA]
+id=60
+pd=Katalog	KNR	4-02 0000-00	4-02	0000-00		1
+mpn=1211
+na=Demonta¿ ruroci¹gu ¿eliwnego/PCV kanalizacyjnego o œrednicy 50 mm-100 mm - d.1. 01 0230-04 na œcianach budynku i poziomy 30.00 m 30.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=30	30		1
+jm=m	010
+kj=35,00	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=375,00	360,00	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=30	1	30							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=360,00
+wb=640,80
+il=10,2857
+
+[RMS 2]
+nz=3	0	1
+np=0	0
+wa=15,00
+wb=26,70
+il=0,15
+
+[POZYCJA]
+id=61
+pd=Katalog	KNR	4-02 0000-00	4-02	0000-00		1
+mpn=1211
+na=Demonta¿ ruroci¹gu ¿eliwnego/PCV kanalizacyjnego o œrednicy 150 mm mm - na d.1. 01 0230-05 œcianach budynku i poziomy 20.00 m 20.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=20	20		1
+jm=m	010
+kj=35,00	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=250,00	240,00	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=20	1	20							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=240,00
+wb=427,20
+il=6,8571
+
+[RMS 2]
+nz=3	0	1
+np=0	0
+wa=10,00
+wb=17,80
+il=0,1
+
+[POZYCJA]
+id=62
+pd=Katalog	KNR	4-02 0000-00	4-02	0000-00		1
+mpn=1211
+na=Demonta¿ elementów uzbrojenia ruroci¹gu - wpust ¿eliwny pod³ogowy œr. d.1. 01 0234-02 50 mm 1+1+1 szt. 3.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=3	3		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=37,50	36,00	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=3	1	3							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=36,00
+wb=64,08
+il=1,0286
+
+[RMS 2]
+nz=3	0	1
+np=0	0
+wa=1,50
+wb=2,67
+il=0,015
+
+[POZYCJA]
+id=63
+pd=Katalog	KNR	4-02 0000-00	4-02	0000-00		1
+mpn=1211
+na=Po³¹czenie nowo budowanej kanalizacji sanitarnej z istniej¹c¹ wewnêtrzn¹ d.1. 09 0202-09 instalacj¹ kanalizacji w piwnicy 7 analogia 4 kpl 4.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=4	4		1
+jm=kpl	090
+kj=35,00	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=50,00	48,00	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=4	1	4							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=48,00
+wb=85,44
+il=1,3714
+
+[RMS 2]
+nz=3	0	1
+np=0	0
+wa=2,00
+wb=3,56
+il=0,02
+
+[POZYCJA]
+id=64
+pd=Katalog	KNR	2-15 0000-00	2-15	0000-00		1
+mpn=1211
+na=Monta¿ ruroci¹gów z PCW o œrednicy 160 mm mm na œcianach z ³¹czeniem metod¹ d.1. 09 0205-04 wciskow¹ wraz z przejœciem przez strop i w³¹czeniem na nastêpnej kon- 7 dygnacji powy¿ej posadzki 9.00 m 9.0
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=9	9		1
+jm=m	010
+kj=35,00	0	1,0
+cj=135,80		20,37	108,64	6,79
+cjw=		0
+kjw=			0	0	0
+wn=1222,20	183,33	977,76
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=9	1	9							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=183,33
+wb=326,33
+il=5,238
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=977,76
+wb=977,76
+il=977,76
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=61,11
+wb=108,78
+il=0,6111
+
+[POZYCJA]
+id=65
+pd=Katalog	KNR	2-15 0000-00	2-15	0000-00		1
+mpn=1211
+na=Monta¿ ruroci¹gów z PCW o œrednicy 110 mm mm na œcianach z ³¹czeniem metod¹ d.1. 09 0205-04 wciskow¹ wraz z przejœciem przez strop i w³¹czeniem na nastêpnej kon- 7 dygnacji powy¿ej posadzki 15.00 m 15
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=15	15		1
+jm=m	010
+kj=35,00	0	1,0
+cj=135,80		20,37	108,64	6,79
+cjw=		0
+kjw=			0	0	0
+wn=2037,00	305,55	1629,60
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=15	1	15							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=305,55
+wb=543,88
+il=8,73
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=1629,60
+wb=1629,60
+il=1629,6
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=101,85
+wb=181,29
+il=1,0185
+
+[POZYCJA]
+id=66
+pd=Katalog	KNR	2-15 0000-00	2-15	0000-00		1
+mpn=1211
+na=Monta¿ ruroci¹gów z PCW o œrednicy 75 mm mm na œcianach z ³¹czeniem metod¹ d.1. 09 0205-03 wciskow¹ 10.00 m 10.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=10	10		1
+jm=m	010
+kj=35,00	0	1,0
+cj=135,80		20,37	108,64	6,79
+cjw=		0
+kjw=			0	0	0
+wn=1358,00	203,70	1086,40
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=10	1	10							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=203,70
+wb=362,59
+il=5,82
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=1086,40
+wb=1086,40
+il=1086,4
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=67,90
+wb=120,86
+il=0,679
+
+[POZYCJA]
+id=67
+pd=Katalog	KNR	2-15 0000-00	2-15	0000-00		1
+mpn=1211
+na=Monta¿ ruroci¹gów z PCW o œrednicy 50 mm mm na œcianach z ³¹czeniem metod¹ d.1. 09 0205-02 wciskow¹ 20.00 m 20.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=20	20		1
+jm=m	010
+kj=35,00	0	1,0
+cj=135,80		20,37	108,64	6,79
+cjw=		0
+kjw=			0	0	0
+wn=2716,00	407,40	2172,80
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=20	1	20							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=407,40
+wb=725,17
+il=11,64
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2172,80
+wb=2172,80
+il=2172,8
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=135,80
+wb=241,72
+il=1,358
+
+[POZYCJA]
+id=68
+pd=Katalog	KNR	2-15 0000-00	2-15	0000-00		1
+mpn=1211
+na=/ Elementy monta¿owe/stela¿ do miski ustêpowej montowane na œcianie z
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=5	5		1
+jm=kpl	090
+kj=35,00	0	1,0
+cj=135,80		20,37	108,64	6,79
+cjw=		0
+kjw=			0	0	0
+wn=679,00	101,85	543,20
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=5	1	5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=101,85
+wb=181,29
+il=2,91
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=543,20
+wb=543,20
+il=543,2
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=33,95
+wb=60,43
+il=0,3395
+
+[POZYCJA]
+id=69
+pd=Katalog	KNR	2-15 0000-00	2-15	0000-00		1
+mpn=1211
+na=/ Urz¹dzenia sanitarne na elemencie monta¿owym - ustêp bezko³nierzowy
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=5	5		1
+jm=kpl	090
+kj=35,00	0	1,0
+cj=135,80		20,37	108,64	6,79
+cjw=		0
+kjw=			0	0	0
+wn=679,00	101,85	543,20
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=5	1	5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=101,85
+wb=181,29
+il=2,91
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=543,20
+wb=543,20
+il=543,2
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=33,95
+wb=60,43
+il=0,3395
+
+[POZYCJA]
+id=70
+pd=Katalog	KNR	0-35 0000-00	0-35	0000-00		1
+mpn=1211
+na=Kabiny natryskowe do k¹pieli z szybami ze szk³a hartowanego - 2 œciany i d.1. 09 0123-01 drzwi 1 kpl. 1.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=1	1		1
+jm=kpl	090
+kj=35,00	0	1,0
+cj=2,61		0,00	2,61	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2,61	0,00	2,61
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=1	1	1							
+
+[RMS 1]
+nz=2	0	1
+np=0	0
+wa=2,61
+wb=2,61
+il=2,61
+
+[POZYCJA]
+id=71
+pd=Katalog	KNR	0-35 0000-00	0-35	0000-00		1
+mpn=1211
+na=Kabiny natryskowe do k¹pieli z szybami ze szk³a hartowanego - drzwi d.1. 09 0123-01 przesuwne 1 kpl. 1.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=1	1		1
+jm=kpl	090
+kj=35,00	0	1,0
+cj=2,61		0,00	2,61	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2,61	0,00	2,61
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=1	1	1							
+
+[RMS 1]
+nz=2	0	1
+np=0	0
+wa=2,61
+wb=2,61
+il=2,61
+
+[POZYCJA]
+id=72
+pd=Katalog	KNR	4-03 0000-00	4-03	0000-00		1
+mpn=1211
+na=Przykrêcanie drobnych elementów na œcianie - uchwyt na papier toaletowy
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=5	5		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=1,26		1,26	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=6,30	6,30	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=5	1	5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6,30
+wb=11,21
+il=0,18
+
+[POZYCJA]
+id=73
+pd=Katalog	KNR	4-03 0000-00	4-03	0000-00		1
+mpn=1211
+na=Przykrêcanie drobnych elementów na œcianie - dozowniki myd³a w p³ynie d.1. 09 1015-04 w wykonaniu nierdzewnym 7 analogia 2+1+2 szt. 5.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=5	5		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=1,26		1,26	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=6,30	6,30	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=5	1	5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6,30
+wb=11,21
+il=0,18
+
+[POZYCJA]
+id=74
+pd=Katalog	KNR	4-03 0000-00	4-03	0000-00		1
+mpn=1211
+na=Przykrêcanie drobnych elementów na œcianie - dozownik na rêczniki pa- d.1. 09 1015-04 pierowy w wykonaniu nierdzewnym 7 analogia 2+1+2 szt. 5.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=5	5		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=1,26		1,26	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=6,30	6,30	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=5	1	5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6,30
+wb=11,21
+il=0,18
+
+[POZYCJA]
+id=75
+pd=Katalog	KNR	4-03 0000-00	4-03	0000-00		1
+mpn=1211
+na=Przykrêcanie drobnych elementów na œcianie - lustra 60x80 cm, krawê- d.1. 09 1015-04 dzie fazowane 7 analogia 2+1+2 szt. 5.000 Norma PRO Wersja 4.32 Nr seryjny: 24959 Sanitariaty budynek nr 33_przedmi
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=5	5		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=1,26		1,26	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=6,30	6,30	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=5	1	5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6,30
+wb=11,21
+il=0,18
+
+[POZYCJA]
+id=76
+pd=Katalog	KNR	4-02 0000-00	4-02	0000-00		1
+mpn=1211
+na=Po³¹czenie instalacji c.w.u. z istniej¹c¹ wewnêtrzn¹ instalacj¹ wodoci¹go- d.1. 09 0111-03 w¹ w piwnicy z monta¿em zaworu odcinaj¹cego 8 analogia 1 szt. 1.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=1	1		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=12,50	12,00	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=1	1	1							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=12,00
+wb=21,36
+il=0,3429
+
+[RMS 2]
+nz=3	0	1
+np=0	0
+wa=0,50
+wb=0,89
+il=0,005
+
+[POZYCJA]
+id=77
+pd=Katalog	KNR	4-02 0000-00	4-02	0000-00		1
+mpn=1211
+na=Po³¹czenie instalacji w.z. z istniej¹c¹ wewnêtrzn¹ instalacj¹ wodoci¹gow¹ d.1. 09 0111-03 w piwnicy z monta¿em zaworu odcinaj¹cego 8 analogia 1 szt. 1.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=1	1		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=12,50	12,00	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=1	1	1							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=12,00
+wb=21,36
+il=0,3429
+
+[RMS 2]
+nz=3	0	1
+np=0	0
+wa=0,50
+wb=0,89
+il=0,005
+
+[POZYCJA]
+id=78
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Przebicie otworów w elementach z betonu ¿wirowego o gruboœci do 40 cm d.1. 09 0208-04 dla instalacji 8 analogia 4 szt. 4.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=4	4		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=966,56	966,56	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=4	1	4							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=966,56
+wb=1720,48
+il=27,616
+
+[POZYCJA]
+id=79
+pd=Katalog	KNR	0-31 0000-00	0-31	0000-00		1
+mpn=1211
+na=Próba szczelnoœci instalacji wody zimnej i ciep³ej w budynkach mieszkal- d.1. 09 0116-01 nych - p³ukanie, czynnoœci przygotowawcze i zakoñczeniowe 1 kpl. 1.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=1	1		1
+jm=kpl	090
+kj=35,00	0	1,0
+cj=126,44		0,00	126,44	0,00
+cjw=		0
+kjw=			0	0	0
+wn=126,44	0,00	126,44
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=1	1	1							
+
+[RMS 1]
+nz=2	0	1
+np=0	0
+wa=126,44
+wb=126,44
+il=126,44
+
+[POZYCJA]
+id=80
+pd=Katalog	KNR	0-31 0000-00	0-31	0000-00		1
+mpn=1211
+na=Próba szczelnoœci instalacji wody zimnej i ciep³ej w budynkach mieszkal- d.1. 09 0116-02 nych - próba wodna ciœnieniowa poz.114+poz.115+poz.116+poz.117 m 110.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=110	110		1
+jm=m	010
+kj=35,00	0	1,0
+cj=126,44		0,00	126,44	0,00
+cjw=		0
+kjw=			0	0	0
+wn=13908,40	0,00	13908,40
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=110	1	110							
+
+[RMS 1]
+nz=2	0	1
+np=0	0
+wa=13908,40
+wb=13908,40
+il=13908,4
+
+[POZYCJA]
+id=81
+pd=Katalog	KNR	0-34 0000-00	0-34	0000-00		1
+mpn=1211
+na=Izolacja ruroci¹gów œrednicy 20 mm mm otulinami Thermaflex FRZ - jednowarstwo- d.1. 09 0101-06 wymi gr.13 mm (J) (poz.114+poz.115)*0.6 m 39.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=39	39		1
+jm=m	010
+kj=35,00	0	1,0
+cj=32,11		4,82	25,68	1,61
+cjw=		0
+kjw=			0	0	0
+wn=1252,29	187,98	1001,52
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=39	1	39							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=187,98
+wb=334,60
+il=5,3709
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=1001,52
+wb=1001,52
+il=1001,52
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=62,79
+wb=111,77
+il=0,6279
+
+[POZYCJA]
+id=82
+pd=Katalog	KNR	0-34 0000-00	0-34	0000-00		1
+mpn=1211
+na=Izolacja ruroci¹gów œrednicy 12 mm-22 mm otulinami Thermaflex FRZ - jednowarst- d.1. 09 0101-10 wo- wymi gr. 20 mm (N) (poz.114+poz.115)*0.4 m 26.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=26	26		1
+jm=m	010
+kj=35,00	0	1,0
+cj=32,11		4,82	25,68	1,61
+cjw=		0
+kjw=			0	0	0
+wn=834,86	125,32	667,68
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=26	1	26							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=125,32
+wb=223,07
+il=3,5806
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=667,68
+wb=667,68
+il=667,68
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=41,86
+wb=74,51
+il=0,4186
+
+[POZYCJA]
+id=83
+pd=Katalog	KNR	0-34 0000-00	0-34	0000-00		1
+mpn=1211
+na=Izolacja ruroci¹gów œrednicy 28 mm-48 mm otulinami Thermaflex FRZ - jednowarst- d.1. 09 0101-11 wo- wymi gr. 20 mm (N) - woda ciep³a (poz.116+poz.117)/2 m 22.500
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=22,5	22,5		1
+jm=m	010
+kj=35,00	0	1,0
+cj=32,11		4,82	25,68	1,61
+cjw=		0
+kjw=			0	0	0
+wn=722,48	108,45	577,80
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=22,5	1	22,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=108,45
+wb=193,04
+il=3,0986
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=577,80
+wb=577,80
+il=577,8
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=36,23
+wb=64,48
+il=0,3623
+
+[POZYCJA]
+id=84
+pd=Katalog	KNR	0-34 0000-00	0-34	0000-00		1
+mpn=1211
+na=Izolacja ruroci¹gów œrednicy 28 mm-48 mm otulinami Thermaflex FRZ - jednowarst- d.1. 09 0101-07 wo- wymi gr. 13 mm (J) - woda zimna poz.128 m 22.500
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=22,5	22,5		1
+jm=m	010
+kj=35,00	0	1,0
+cj=32,11		4,82	25,68	1,61
+cjw=		0
+kjw=			0	0	0
+wn=722,48	108,45	577,80
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=22,5	1	22,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=108,45
+wb=193,04
+il=3,0986
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=577,80
+wb=577,80
+il=577,8
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=36,23
+wb=64,48
+il=0,3623
+
+[POZYCJA]
+id=85
+pd=Katalog	KNR	0-34 0000-00	0-34	0000-00		1
+mpn=1211
+na=Izolacja dwuwarstwowa ruroci¹gów œrednicy 28 mm-48 mm otulinami Thermaflex d.1. 09 0110-14 FRZ lub otulinami Thermaflex FRZ i matami (p³ytami) Thermasheet FR - 8 gr. izolacji 40 mm 10 m 10.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=10	10		1
+jm=m	010
+kj=35,00	0	1,0
+cj=32,11		4,82	25,68	1,61
+cjw=		0
+kjw=			0	0	0
+wn=321,10	48,20	256,80
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=10	1	10							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=48,20
+wb=85,80
+il=1,3771
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=256,80
+wb=256,80
+il=256,8
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=16,10
+wb=28,66
+il=0,161
+
+[POZYCJA]
+id=86
+pd=Katalog	KNR	2-15 0000-00	2-15	0000-00		1
+mpn=1211
+na=Próby ciœnieniowe szczelnoœci instalacji wewnêtrznej c.o. w budynkach d.1. 09 0404-02 niemieszkalnych 40.00 m 40.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=40	40		1
+jm=m	010
+kj=35,00	0	1,0
+cj=135,80		20,37	108,64	6,79
+cjw=		0
+kjw=			0	0	0
+wn=5432,00	814,80	4345,60
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=40	1	40							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=814,80
+wb=1450,34
+il=23,28
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=4345,60
+wb=4345,60
+il=4345,6
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=271,60
+wb=483,45
+il=2,716
+
+[POZYCJA]
+id=87
+pd=Katalog	KNR	5-08 0000-00	5-08	0000-00		1
+mpn=1211
+na=Monta¿ do gotowego pod³o¿a gniazd wtyczkowych podtynkowych 2-biegu- d.1. 10 0309-03 nowych z uziemieniem w puszkach podwójnych z pod³¹czeniem poz.148 szt. 5.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=5	5		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=15,65		7,82	7,83	0,00
+cjw=		0
+kjw=			0	0	0
+wn=78,25	39,10	39,15
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=5	1	5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=39,10
+wb=69,60
+il=1,1171
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=39,15
+wb=39,15
+il=39,15
+
+[POZYCJA]
+id=88
+pd=Katalog	KNR	5-08 0000-00	5-08	0000-00		1
+mpn=1211
+na=Mocowanie na gotowym pod³o¿u aparatów o masie do 2.5 kg bez czêœcio- d.1. 10 0402-01 wego rozebrania i pod³¹czenia (il. otworów mocuj¹cych do 2) - suszarka 11 do r¹k w wykonaniu nierdzewnym poz.149 sz
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=5	5		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=15,65		7,82	7,83	0,00
+cjw=		0
+kjw=			0	0	0
+wn=78,25	39,10	39,15
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=5	1	5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=39,10
+wb=69,60
+il=1,1171
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=39,15
+wb=39,15
+il=39,15
+
+[POZYCJA]
+id=89
+pd=Katalog	KNR	4-03 0000-00	4-03	0000-00		1
+mpn=1211
+na=Pomiar skutecznoœci zerowania kpl po-
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=1	1		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=1,26		1,26	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=1,26	1,26	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=1	1	1							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=1,26
+wb=2,24
+il=0,036
+
+[POZYCJA]
+id=90
+pd=Katalog	KNR	4-03 0000-00	4-03	0000-00		1
+mpn=1211
+na=Sprawdzenie i pomiar kompletnego 1-fazowego obwodu elektrycznego kpl po-
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=1	1		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=1,26		1,26	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=1,26	1,26	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=1	1	1							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=1,26
+wb=2,24
+il=0,036
+
+[POZYCJA]
+id=91
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Wykucie z muru oœcie¿nic stalowych lub krat drzwiowych o powierzchni do
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=7	7		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=1691,48	1691,48	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=7	1	7							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=1691,48
+wb=3010,83
+il=48,328
+
+[POZYCJA]
+id=92
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Wykucie z muru podokienników betonowych z lastryko d.2. 01 0354-12 1.45*3 m 4.350
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=4,35	4,35		1
+jm=m	010
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=1051,13	1051,13	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=4,35	1	4,35							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=1051,13
+wb=1871,02
+il=30,0324
+
+[POZYCJA]
+id=93
+pd=Katalog	KNR	9-29 0000-00	9-29	0000-00		1
+mpn=1211
+na=Rozbiórka obudów pionów instalacyjnych, s³upów i belek z p³yt gipsowo- d.2. 01 0105-02 kartonowych przy powierzchni rozbiórki do 2 m2 - ok³adzina podwójna 1 analogia wraz z ok³adzinami (0.27+0.65)*5.6
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=21,87	21,87		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=205,50		25,00	180,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=4494,29	546,75	3936,60
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=21,87	1	21,87							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=546,75
+wb=973,22
+il=15,6214
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=3936,60
+wb=3936,60
+il=3936,6
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=10,94
+wb=19,46
+il=0,1094
+
+[POZYCJA]
+id=94
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Rozebranie œcianek dzia³owych sanitarnych d.2. 01 0427-05 (1.46*2+2.06)*2.10 m2 10.458
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=10,458	10,458		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2527,07	2527,07	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=10,458	1	10,458							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=2527,07
+wb=4498,19
+il=72,202
+
+[POZYCJA]
+id=95
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Rozebranie œcianki z cegie³ o grub. 1/2 ceg. na zaprawie cementowo-wa- d.2. 01 0348-03 piennej wraz z ok³adzinami 3.05*3.10-0.90*2.00 m2 7.655 (3.05+2.20+1.60*2)*3.10-(0.80*2.00*2+0.90*2.00) m2 21.195
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=28,85	28,85		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=6971,31	6971,31	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=28,85	1	28,85							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6971,31
+wb=12408,94
+il=199,1804
+
+[POZYCJA]
+id=96
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Rozebranie wyk³adziny œciennej z p³ytek d.2. 01 0819-15 (6.25*2+3.05*2)*2.10 m2 39.060 -(0.80*2.00+1.45*1.05) m2 -3.123 (1.45+2*2.00)*0.40<oœcie¿a> m2 2.180 (6.25*2+3.05*2)*2.10 m2 39.060 -(0.80*2.00+
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=100,831	100,831		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=24364,80	24364,80	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=100,831	1	100,831							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=24364,80
+wb=43369,35
+il=696,1372
+
+[POZYCJA]
+id=97
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Odbicie tynków wewnêtrznych z zaprawy cementowo-wapiennej na œcia- d.2. 01 0701-05 nach, filarach, pilastrach o powierzchni odbicia ponad 5 m2 - po skutych 1 p³ytkach poz.162 m2 100.831
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=100,831	100,831		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=24364,80	24364,80	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=100,831	1	100,831							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=24364,80
+wb=43369,35
+il=696,1372
+
+[POZYCJA]
+id=98
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Odbicie tynków wewnêtrznych z zaprawy cementowo-wapiennej pasami o d.2. 01 0702-06 szerokoœci do 30 cm 2.05*2*2 m 8.200
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=8,2	8,2		1
+jm=m	010
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=1981,45	1981,45	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=8,2	1	8,2							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=1981,45
+wb=3526,98
+il=56,6128
+
+[POZYCJA]
+id=99
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Skucie nierównoœci 4 cm na œcianach z cegie³ na zaprawie cementowo- d.2. 01 0347-09 wapiennej - poszerzenie otworu 1 Krotnoœæ = 2 0.20*2.05 m2 0.410
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=99,07	99,07	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=99,07
+wb=176,35
+il=2,8306
+
+[POZYCJA]
+id=100
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Zeskrobanie i zmycie starej farby w pomieszczeniach o powierzchni pod- d.2. 01 1202-08 ³ogi do 5 m2 (6.25*2+3.05*2)*(3.10-2.10)<œciany> m2 18.600 6.25*3.05<sufit> m2 19.063 (6.25*2+3.05*2)*(3.10-2.10)
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=97,166	97,166		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=23479,19	23479,19	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=97,166	1	97,166							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=23479,19
+wb=41792,96
+il=670,8341
+
+[POZYCJA]
+id=101
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Rozebranie posadzki z p³ytek na zaprawie cementowej d.2. 01 0811-07 6.25*3.05+1.00*0.40 m2 19.463 6.25*3.05+1.00*0.40 m2 19.463 1.80*4.80 m2 8.640
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=47,566	47,566		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=11493,85	11493,85	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=47,566	1	47,566							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=11493,85
+wb=20459,05
+il=328,3957
+
+[POZYCJA]
+id=102
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Wykucie z muru kratek wentylacyjnych, wentylatorów, drzwiczek d.2. 01 0354-13 3+3+2 szt. 8.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=8	8		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=1933,12	1933,12	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=8	1	8							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=1933,12
+wb=3440,95
+il=55,232
+
+[POZYCJA]
+id=103
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Zerwanie posadzki cementowej/lastykowej - wyrównanie pod³o¿a d.2. 01 0804-07 poz.167 m2 47.566
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=47,566	47,566		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=11493,85	11493,85	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=47,566	1	47,566							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=11493,85
+wb=20459,05
+il=328,3957
+
+[POZYCJA]
+id=104
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Wykucie bruzd pionowych 1/4x1/2 ceg. w œcianach z cegie³ na zaprawie d.2. 01 0339-01 cementowo-wapiennej dla instalacji wodoci¹gowej 30.00 m 30.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=30	30		1
+jm=m	010
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=7249,20	7249,20	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=30	1	30							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=7249,20
+wb=12903,58
+il=207,12
+
+[POZYCJA]
+id=105
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Wykucie bruzd poziomych 1/4x1/2 ceg. w œcianach z cegie³ na zaprawie d.2. 01 0336-01 cementowo-wapiennej 30.00 m 30.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=30	30		1
+jm=m	010
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=7249,20	7249,20	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=30	1	30							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=7249,20
+wb=12903,58
+il=207,12
+
+[POZYCJA]
+id=106
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Wykucie bruzd o przekroju do 0.040 m2 poziomych lub pionowych w ele- d.2. 01 0210-02 mentach z betonu ¿wirowego 12.00 m 12.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=12	12		1
+jm=m	010
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2899,68	2899,68	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=12	1	12							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=2899,68
+wb=5161,43
+il=82,848
+
+[POZYCJA]
+id=107
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Usuniêcie z parteru budynku gruzu i ziemi d.2. 01 0106-04 poz.157*0.10 m3 0.700 poz.158*0.30*0.05 m3 0.065 poz.159*0.05 m3 1.094 poz.160*0.03 m3 0.314 poz.161*0.20 m3 5.770 poz.162*0.05 m3 5.042 poz.1
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=18,727	18,727		1
+jm=m3	060
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=4525,19	4525,19	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=18,727	1	18,727							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=4525,19
+wb=8054,84
+il=129,2912
+
+[POZYCJA]
+id=108
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Zabudowy instalacyjne p³ytami gipsowo-kartonowymi gkbi na rusztach me-
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=50	50		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=7238,05	3790,50	3432,55
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=50	1	50							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=3790,50
+wb=6747,09
+il=108,3
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=3432,55
+wb=3432,55
+il=3432,55
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=15,00
+wb=26,70
+il=0,15
+
+[POZYCJA]
+id=109
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Wykonanie pasów tynku zwyk³ego kat. III o szerokoœci do 15 cm na mu- d.2. 04 0705-04 rach z cegie³ lub œcianach z betonu pokrywaj¹cego bruzdy z osiatkowa- 3 niem siatk¹ ciêto-ci¹gnion¹ poz.170+poz.171
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=60	60		1
+jm=m	010
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=14498,40	14498,40	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=60	1	60							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=14498,40
+wb=25807,15
+il=414,24
+
+[POZYCJA]
+id=110
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Tynki wewnêtrzne zwyk³e kat. III wykonywane rêcznie na pod³o¿u z ceg³y, d.2. 04 0716-02 pustaków ceramicznych, gazo- i pianobetonów na œcianach w pomiesz- 3 czeniach o powierzchni pod³ogi ponad 5 m2 p
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=100,831	100,831		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=24364,80	24364,80	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=100,831	1	100,831							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=24364,80
+wb=43369,35
+il=696,1372
+
+[POZYCJA]
+id=111
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Uzupe³nienie tynków zwyk³ych wewnêtrznych kat. III z zaprawy cemento- d.2. 04 0711-14 wo-wapiennej na stropach, belkach, podci¹gach, biegach i spocznikach 3 na pod³o¿u z ceg³y i pustaków (do 2 m2 w 1 
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=56,119	56,119		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=13560,60	13560,60	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=56,119	1	56,119							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=13560,60
+wb=24137,86
+il=387,4456
+
+[POZYCJA]
+id=112
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Wykonanie tynków zwyk³ych wewnêtrznych kat. III z zaprawy cementowo- d.2. 04 0708-03 wapiennej na oœcie¿ach szerokoœci do 40 cm (1.00+2*2.05) m 5.100 (1.00+2*2.05) m 5.100 (1.45*2+2*2.05)*2+(0.70*2+0.
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=26,6	26,6		1
+jm=m	010
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=6427,62	6427,62	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=26,6	1	26,6							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6427,62
+wb=11441,17
+il=183,6464
+
+[POZYCJA]
+id=113
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Przecieranie istniej¹cych tynków wewnêtrznych z zeskrobaniem farby na d.2. 04 0713-01 œcianach od strony korytarza 1.80*3.10-0.90*2.00 m2 3.780 1.80*3.10-0.90*2.00 m2 3.780 1.80*3.10-0.90*2.00 m2 3.78
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=11,34	11,34		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2740,20	2740,20	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=11,34	1	11,34							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=2740,20
+wb=4877,55
+il=78,2914
+
+[POZYCJA]
+id=114
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Ok³adziny z p³yt gipsowo-kartonowych (suche tynki gipsowe) - dodatek za d.2. 04 2006-07 drug¹ warstwê na rusztach na œcianach Robota w pomieszczeniu mniej- 3 z.sz. 5.2. szym ni¿ 5 m2.p³ytek dla ich zl
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=21,856	21,856		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=3163,90	1656,90	1500,44
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=21,856	1	21,856							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=1656,90
+wb=2949,29
+il=47,3401
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=1500,44
+wb=1500,44
+il=1500,4363
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=6,56
+wb=11,67
+il=0,0656
+
+[POZYCJA]
+id=115
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Tynki wewnêtrzne pocienione kat. III na œcianach powy¿ej p³ytek dla ich d.2. 04 0812-01 zlicowania wykonywane rêcznie wraz z naro¿nikami 3 analogia (6.25*2+3.05*2)*(3.10-2.05)<œciany> m2 19.530 (6.25*
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=52,92	52,92		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=7660,75	4011,87	3633,01
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=52,92	1	52,92							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=4011,87
+wb=7141,12
+il=114,6247
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=3633,01
+wb=3633,01
+il=3633,0109
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=15,88
+wb=28,26
+il=0,1588
+
+[POZYCJA]
+id=116
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Tynki (g³adzie) jednowarstwowe wewnêtrzne gr. 3 mm z gipsu szpachlo- d.2. 04 2009-04 wego wykonywane rêcznie na stropach na pod³o¿u z tynku poz.181A m2 46.766
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=46,766	46,766		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=6769,89	3545,33	3210,53
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=46,766	1	46,766							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=3545,33
+wb=6310,69
+il=101,2952
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=3210,53
+wb=3210,53
+il=3210,5327
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=14,03
+wb=24,97
+il=0,1403
+
+[POZYCJA]
+id=117
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Tynki (g³adzie) jednowarstwowe wewnêtrzne gr. 3 mm z gipsu szpachlo- d.2. 04 2009-02 wego wykonywane rêcznie na œcianach na pod³o¿u z tynku poz.185 m2 52.920
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=52,92	52,92		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=7660,75	4011,87	3633,01
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=52,92	1	52,92							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=4011,87
+wb=7141,12
+il=114,6247
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=3633,01
+wb=3633,01
+il=3633,0109
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=15,88
+wb=28,26
+il=0,1588
+
+[POZYCJA]
+id=118
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Licowanie œcian p³ytkami o wymiarach 30x60 cm (lub innych wskazanych d.2. 05 0829-11 przez Zamawiaj¹cego na etapie wykonawstwa) na klej metod¹ kombino- 3 analogia wan¹ z u³o¿eniem silikonów, w zakresi
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=158,584	158,584		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=22956,78	12022,25	10886,95
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=158,584	1	158,584							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=12022,25
+wb=21399,61
+il=343,4929
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=10886,95
+wb=10886,95
+il=10886,9502
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=47,58
+wb=84,68
+il=0,4758
+
+[POZYCJA]
+id=119
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Dwukrotne malowanie farbami emulsyjnymi powierzchni wewnêtrznych - d.2. 08 1505-03 pod³o¿y gipsowych z gruntowaniem poz.186+poz.184+poz.183 m2 132.882
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=132,882	132,882		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=19236,13	10073,78	9122,48
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=132,882	1	132,882							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=10073,78
+wb=17931,34
+il=287,8224
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=9122,48
+wb=9122,48
+il=9122,4822
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=39,86
+wb=70,96
+il=0,3986
+
+[POZYCJA]
+id=120
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Malowanie farbami emulsyjnymi powierzchni wewnêtrznych - p³yt gipso- d.2. 08 1505-06 wych spoinowanych szpachlowanych z gruntowaniem - dodatek za ka¿de 3 dalsze malowanie poz.195 m2 132.882
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=132,882	132,882		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=19236,13	10073,78	9122,48
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=132,882	1	132,882							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=10073,78
+wb=17931,34
+il=287,8224
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=9122,48
+wb=9122,48
+il=9122,4822
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=39,86
+wb=70,96
+il=0,3986
+
+[POZYCJA]
+id=121
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Dwukrotne malowanie farbami olejnymi starych tynków wewnêtrznych d.2. 08 1206-05 œcian z dwukrotnym szpachlowaniem (do 3 m2 w jednym miejscu) - od 3 uw.p.tab. strony korytarza (1.80-0.90)*1.50 m2 1.35
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=4,05	4,05		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=978,64	978,64	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=4,05	1	4,05							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=978,64
+wb=1741,98
+il=27,9612
+
+[POZYCJA]
+id=122
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Zabetonowanie ¿wirobetonem bruzd o przekroju do 0.045 m2 w d.2. 06 0207-03 pod³o¿ach, stropach i œcianach bez deskowañ i stemplowañ 12.00 m 12.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=12	12		1
+jm=m	010
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2899,68	2899,68	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=12	1	12							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=2899,68
+wb=5161,43
+il=82,848
+
+[POZYCJA]
+id=123
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Warstwy wyrównawcze pod posadzki z zaprawy cementowej gruboœci 50 d.2. 06 1102-02 mm zatarte na g³adko z ukszta³towaniem spadków poz.167 m2 47.566
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=47,566	47,566		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=6885,70	3605,98	3265,45
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=47,566	1	47,566							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=3605,98
+wb=6418,64
+il=103,028
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=3265,45
+wb=3265,45
+il=3265,4535
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=14,27
+wb=25,40
+il=0,1427
+
+[POZYCJA]
+id=124
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Posadzki cementowe wraz z cokolikami - dop³ata za zbrojenie siatk¹ sta- d.2. 06 1106-07 low¹ poz.199 m2 47.566
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=47,566	47,566		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=6885,70	3605,98	3265,45
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=47,566	1	47,566							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=3605,98
+wb=6418,64
+il=103,028
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=3265,45
+wb=3265,45
+il=3265,4535
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=14,27
+wb=25,40
+il=0,1427
+
+[POZYCJA]
+id=125
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Posadzki p³ytkowe z kamieni sztucznych; p³ytki 60x60 cm (lub innych d.2. 06 1118-11 wskazanych przez Zamawiaj¹cego na etapie wykonawstwa) na klej meto- 4 analogia d¹ kombinowan¹ z u³o¿eniem silikonów,
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=47,566	47,566		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=6885,70	3605,98	3265,45
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=47,566	1	47,566							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=3605,98
+wb=6418,64
+il=103,028
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=3265,45
+wb=3265,45
+il=3265,4535
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=14,27
+wb=25,40
+il=0,1427
+
+[POZYCJA]
+id=126
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Systemowe aluminiowe listwy progowe na po³¹czeniu z korytarzem d.2. 06 0411-08 4 analogia 1+1+1 szt. 3.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=3	3		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=724,92	724,92	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=3	1	3							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=724,92
+wb=1290,36
+il=20,712
+
+[POZYCJA]
+id=127
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Obsadzenie oœcie¿nic stalowych sta³ych d.2. 07 0320-03 1.00*2.05 m2 2.050 1.00*2.05 m2 2.050 1.00*2.05 m2 2.050
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=6,15	6,15		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=1486,09	1486,09	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=6,15	1	6,15							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=1486,09
+wb=2645,23
+il=42,4596
+
+[POZYCJA]
+id=128
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Obsadzenie oœcie¿nic stalowych regulowanych (opaskowych) d.2. 07 0320-03 0.90*2.05 m2 1.845 1.00*2.05 m2 2.050 0.90*2.05 m2 1.845 1.00*2.05 m2 2.050 0.90*2.05 m2 1.845
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=9,635	9,635		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2328,20	2328,20	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=9,635	1	9,635							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=2328,20
+wb=4144,20
+il=66,52
+
+[POZYCJA]
+id=129
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Skrzyd³a drzwiowe p³ytowe wewnêtrzne jednodzielne pe³ne o powierzchni d.2. 07 1017-02 ponad 1.6 m2 fabrycznie wykoñczone z kompletem okuæ, kratk¹ lub pod- 5 ciêciem wentylacyjnym, spód drzwi zabezpiec
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=14,145	14,145		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=2047,64	1072,33	971,07
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=14,145	1	14,145							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=1072,33
+wb=1908,75
+il=30,6381
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=971,07
+wb=971,07
+il=971,0684
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=4,24
+wb=7,55
+il=0,0424
+
+[POZYCJA]
+id=130
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Naœwietla PCV d.2. 07 1009-06 5 analogia 1.50*0.80*3 m2 3.600
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=3,6	3,6		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=521,14	272,92	247,14
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=3,6	1	3,6							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=272,92
+wb=485,79
+il=7,7976
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=247,14
+wb=247,14
+il=247,1436
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=1,08
+wb=1,92
+il=0,0108
+
+[POZYCJA]
+id=131
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Drzwiczki rewizyjne osadzone w œcianach GK o powierzchni elementu do d.2. 07 1215-02 0.2 m2 6 szt. 6.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=6	6		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=868,57	454,86	411,91
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=6	1	6							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=454,86
+wb=809,65
+il=12,996
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=411,91
+wb=411,91
+il=411,906
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=1,80
+wb=3,20
+il=0,018
+
+[POZYCJA]
+id=132
+pd=Katalog	KNR	2-17 0000-00	2-17	0000-00		1
+mpn=1211
+na=Nawietrzaki okienne z frezowaniem otworów d.2. 07 0156-01 5 analogia 2+2+1 szt. 5.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=5	5		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=447,77		0,00	447,77	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2238,85	0,00	2238,85
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=5	1	5							
+
+[RMS 1]
+nz=2	0	1
+np=0	0
+wa=2238,85
+wb=2238,85
+il=2238,85
+
+[POZYCJA]
+id=133
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Wymiana klamek okiennych z regulacj¹ skrzyde³ okiennych d.2. 07 0919-20 14 szt. 14.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=14	14		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=3382,96	3382,96	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=14	1	14							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=3382,96
+wb=6021,67
+il=96,656
+
+[POZYCJA]
+id=134
+pd=Katalog	KNR	4-02 0000-00	4-02	0000-00		1
+mpn=1211
+na=Demonta¿ zlewu d.2. 01 0235-03 1 kpl. 1.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=1	1		1
+jm=kpl	090
+kj=35,00	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=12,50	12,00	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=1	1	1							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=12,00
+wb=21,36
+il=0,3429
+
+[RMS 2]
+nz=3	0	1
+np=0	0
+wa=0,50
+wb=0,89
+il=0,005
+
+[POZYCJA]
+id=135
+pd=Katalog	KNR	4-02 0000-00	4-02	0000-00		1
+mpn=1211
+na=Demonta¿ umywalki d.2. 01 0235-06 2+2+1 kpl. 5.000 Norma PRO Wersja 4.32 Nr seryjny: 24959 Sanitariaty budynek nr 33_przedmiar.PRD PRZEDMIAR Lp. Nr Podsta- Opis i wyliczenia j.m. Poszcz Razem spec. wa
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=5	5		1
+jm=kpl	090
+kj=35,00	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=62,50	60,00	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=5	1	5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=60,00
+wb=106,80
+il=1,7143
+
+[RMS 2]
+nz=3	0	1
+np=0	0
+wa=2,50
+wb=4,45
+il=0,025
+
+[POZYCJA]
+id=136
+pd=Katalog	KNR	4-02 0000-00	4-02	0000-00		1
+mpn=1211
+na=Demonta¿ ustêpu z misk¹ fajansow¹ d.2. 01 0235-08 2+2+1 kpl. 5.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=5	5		1
+jm=kpl	090
+kj=35,00	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=62,50	60,00	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=5	1	5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=60,00
+wb=106,80
+il=1,7143
+
+[RMS 2]
+nz=3	0	1
+np=0	0
+wa=2,50
+wb=4,45
+il=0,025
+
+[POZYCJA]
+id=137
+pd=Katalog	KNR	4-02 0000-00	4-02	0000-00		1
+mpn=1211
+na=Demonta¿ pisuaru d.2. 01 0235-01 2 kpl. 2.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=2	2		1
+jm=kpl	090
+kj=35,00	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=25,00	24,00	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=2	1	2							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=24,00
+wb=42,72
+il=0,6857
+
+[RMS 2]
+nz=3	0	1
+np=0	0
+wa=1,00
+wb=1,78
+il=0,01
+
+[POZYCJA]
+id=138
+pd=Katalog	KNR	4-02 0000-00	4-02	0000-00		1
+mpn=1211
+na=Demonta¿ brodzika d.2. 01 0235-07 1+1 kpl. 2.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=2	2		1
+jm=kpl	090
+kj=35,00	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=25,00	24,00	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=2	1	2							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=24,00
+wb=42,72
+il=0,6857
+
+[RMS 2]
+nz=3	0	1
+np=0	0
+wa=1,00
+wb=1,78
+il=0,01
+
+[POZYCJA]
+id=139
+pd=Katalog	KNR	4-02 0000-00	4-02	0000-00		1
+mpn=1211
+na=Demonta¿ ruroci¹gu ¿eliwnego/PCV kanalizacyjnego o œrednicy 50 mm-100 mm - d.2. 01 0230-04 na œcianach budynku i poziomy 15.00 m 15.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=15	15		1
+jm=m	010
+kj=35,00	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=187,50	180,00	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=15	1	15							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=180,00
+wb=320,40
+il=5,1429
+
+[RMS 2]
+nz=3	0	1
+np=0	0
+wa=7,50
+wb=13,35
+il=0,075
+
+[POZYCJA]
+id=140
+pd=Katalog	KNR	4-02 0000-00	4-02	0000-00		1
+mpn=1211
+na=Demonta¿ ruroci¹gu ¿eliwnego/PCV kanalizacyjnego o œrednicy 150 mm mm - na d.2. 01 0230-05 œcianach budynku i poziomy 20.00 m 20.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=20	20		1
+jm=m	010
+kj=35,00	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=250,00	240,00	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=20	1	20							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=240,00
+wb=427,20
+il=6,8571
+
+[RMS 2]
+nz=3	0	1
+np=0	0
+wa=10,00
+wb=17,80
+il=0,1
+
+[POZYCJA]
+id=141
+pd=Katalog	KNR	4-02 0000-00	4-02	0000-00		1
+mpn=1211
+na=Demonta¿ elementów uzbrojenia ruroci¹gu - wpust ¿eliwny pod³ogowy œr. d.2. 01 0234-02 50 mm 2 szt. 2.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=2	2		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=25,00	24,00	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=2	1	2							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=24,00
+wb=42,72
+il=0,6857
+
+[RMS 2]
+nz=3	0	1
+np=0	0
+wa=1,00
+wb=1,78
+il=0,01
+
+[POZYCJA]
+id=142
+pd=Katalog	KNR	4-02 0000-00	4-02	0000-00		1
+mpn=1211
+na=Po³¹czenie nowo budowanej kanalizacji sanitarnej z istniej¹c¹ wewnêtrzn¹ d.2. 09 0202-09 instalacj¹ kanalizacji 6 analogia 5 kpl 5.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=5	5		1
+jm=kpl	090
+kj=35,00	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=62,50	60,00	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=5	1	5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=60,00
+wb=106,80
+il=1,7143
+
+[RMS 2]
+nz=3	0	1
+np=0	0
+wa=2,50
+wb=4,45
+il=0,025
+
+[POZYCJA]
+id=143
+pd=Katalog	KNR	2-15 0000-00	2-15	0000-00		1
+mpn=1211
+na=Monta¿ ruroci¹gów z PCW o œrednicy 160 mm mm na œcianach i stropach z ³¹cze- d.2. 09 0205-04 niem metod¹ wciskow¹ 9.00 m 9.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=9	9		1
+jm=m	010
+kj=35,00	0	1,0
+cj=135,80		20,37	108,64	6,79
+cjw=		0
+kjw=			0	0	0
+wn=1222,20	183,33	977,76
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=9	1	9							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=183,33
+wb=326,33
+il=5,238
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=977,76
+wb=977,76
+il=977,76
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=61,11
+wb=108,78
+il=0,6111
+
+[POZYCJA]
+id=144
+pd=Katalog	KNR	2-15 0000-00	2-15	0000-00		1
+mpn=1211
+na=Monta¿ ruroci¹gów z PCW o œrednicy 110 mm mm na œcianach i stropach z ³¹cze- d.2. 09 0205-04 niem metod¹ wciskow¹ 15.00 m 15.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=15	15		1
+jm=m	010
+kj=35,00	0	1,0
+cj=135,80		20,37	108,64	6,79
+cjw=		0
+kjw=			0	0	0
+wn=2037,00	305,55	1629,60
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=15	1	15							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=305,55
+wb=543,88
+il=8,73
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=1629,60
+wb=1629,60
+il=1629,6
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=101,85
+wb=181,29
+il=1,0185
+
+[POZYCJA]
+id=145
+pd=Katalog	KNR	2-15 0000-00	2-15	0000-00		1
+mpn=1211
+na=Monta¿ ruroci¹gów z PCW o œrednicy 75 mm mm na œcianach i stropach z ³¹cze- d.2. 09 0205-03 niem metod¹ wciskow¹ 12.00 m 12.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=12	12		1
+jm=m	010
+kj=35,00	0	1,0
+cj=135,80		20,37	108,64	6,79
+cjw=		0
+kjw=			0	0	0
+wn=1629,60	244,44	1303,68
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=12	1	12							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=244,44
+wb=435,10
+il=6,984
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=1303,68
+wb=1303,68
+il=1303,68
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=81,48
+wb=145,03
+il=0,8148
+
+[POZYCJA]
+id=146
+pd=Katalog	KNR	2-15 0000-00	2-15	0000-00		1
+mpn=1211
+na=Monta¿ ruroci¹gów z PCW o œrednicy 50 mm mm na œcianach z ³¹czeniem metod¹ d.2. 09 0205-02 wciskow¹ 25.00 m 25.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=25	25		1
+jm=m	010
+kj=35,00	0	1,0
+cj=135,80		20,37	108,64	6,79
+cjw=		0
+kjw=			0	0	0
+wn=3395,00	509,25	2716,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=25	1	25							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=509,25
+wb=906,47
+il=14,55
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2716,00
+wb=2716,00
+il=2716
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=169,75
+wb=302,16
+il=1,6975
+
+[POZYCJA]
+id=147
+pd=Katalog	KNR	2-15 0000-00	2-15	0000-00		1
+mpn=1211
+na=/ Elementy monta¿owe/stela¿ do miski ustêpowej montowane na œcianie z
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=4	4		1
+jm=kpl	090
+kj=35,00	0	1,0
+cj=135,80		20,37	108,64	6,79
+cjw=		0
+kjw=			0	0	0
+wn=543,20	81,48	434,56
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=4	1	4							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=81,48
+wb=145,03
+il=2,328
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=434,56
+wb=434,56
+il=434,56
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=27,16
+wb=48,34
+il=0,2716
+
+[POZYCJA]
+id=148
+pd=Katalog	KNR	2-15 0000-00	2-15	0000-00		1
+mpn=1211
+na=/ Urz¹dzenia sanitarne na elemencie monta¿owym - ustêp bezko³nierzowy
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=4	4		1
+jm=kpl	090
+kj=35,00	0	1,0
+cj=135,80		20,37	108,64	6,79
+cjw=		0
+kjw=			0	0	0
+wn=543,20	81,48	434,56
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=4	1	4							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=81,48
+wb=145,03
+il=2,328
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=434,56
+wb=434,56
+il=434,56
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=27,16
+wb=48,34
+il=0,2716
+
+[POZYCJA]
+id=149
+pd=Katalog	KNR	0-35 0000-00	0-35	0000-00		1
+mpn=1211
+na=Kabiny natryskowe do k¹pieli z szybami ze szk³a hartowanego - drzwi d.2. 09 0123-01 2 kpl. 2.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=2	2		1
+jm=kpl	090
+kj=35,00	0	1,0
+cj=2,61		0,00	2,61	0,00
+cjw=		0
+kjw=			0	0	0
+wn=5,22	0,00	5,22
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=2	1	2							
+
+[RMS 1]
+nz=2	0	1
+np=0	0
+wa=5,22
+wb=5,22
+il=5,22
+
+[POZYCJA]
+id=150
+pd=Katalog	KNR	4-03 0000-00	4-03	0000-00		1
+mpn=1211
+na=Przykrêcanie drobnych elementów na œcianie - uchwyt na papier toaletowy
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=4	4		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=1,26		1,26	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=5,04	5,04	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=4	1	4							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=5,04
+wb=8,97
+il=0,144
+
+[POZYCJA]
+id=151
+pd=Katalog	KNR	4-03 0000-00	4-03	0000-00		1
+mpn=1211
+na=Przykrêcanie drobnych elementów na œcianie - dozowniki myd³a w p³ynie d.2. 09 1015-04 w wykonaniu nierdzewnym 6 analogia 3 szt. 3.000 Norma PRO Wersja 4.32 Nr seryjny: 24959 Sanitariaty budynek nr 33_
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=3	3		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=1,26		1,26	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=3,78	3,78	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=3	1	3							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=3,78
+wb=6,73
+il=0,108
+
+[POZYCJA]
+id=152
+pd=Katalog	KNR	4-03 0000-00	4-03	0000-00		1
+mpn=1211
+na=Przykrêcanie drobnych elementów na œcianie - dozownik na rêczniki pa- d.2. 09 1015-04 pierowy w wykonaniu nierdzewnym 6 analogia 3 szt. 3.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=3	3		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=1,26		1,26	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=3,78	3,78	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=3	1	3							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=3,78
+wb=6,73
+il=0,108
+
+[POZYCJA]
+id=153
+pd=Katalog	KNR	4-03 0000-00	4-03	0000-00		1
+mpn=1211
+na=Przykrêcanie drobnych elementów na œcianie - haczyki d.2. 09 1015-04 6 analogia 2 szt. 2.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=2	2		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=1,26		1,26	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2,52	2,52	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=2	1	2							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=2,52
+wb=4,49
+il=0,072
+
+[POZYCJA]
+id=154
+pd=Katalog	KNR	4-03 0000-00	4-03	0000-00		1
+mpn=1211
+na=Przykrêcanie drobnych elementów na œcianie - przegroda pisuarowa d.2. 09 1015-04 6 analogia 1 szt. 1.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=1	1		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=1,26		1,26	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=1,26	1,26	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=1	1	1							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=1,26
+wb=2,24
+il=0,036
+
+[POZYCJA]
+id=155
+pd=Katalog	KNR	4-03 0000-00	4-03	0000-00		1
+mpn=1211
+na=Przykrêcanie drobnych elementów na œcianie - lustra 60x80 cm, krawê- d.2. 09 1015-04 dzie fazowane 6 analogia 2+1+2 szt. 5.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=5	5		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=1,26		1,26	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=6,30	6,30	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=5	1	5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6,30
+wb=11,21
+il=0,18
+
+[POZYCJA]
+id=156
+pd=Katalog	KNR	4-02 0000-00	4-02	0000-00		1
+mpn=1211
+na=Po³¹czenie instalacji c.w.u. z istniej¹c¹ wewnêrzn¹ instalacj¹ wodoci¹go- d.2. 09 0111-03 w¹ z monta¿em zaworu odcinaj¹cego 7 analogia 1 szt. 1.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=1	1		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=12,50	12,00	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=1	1	1							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=12,00
+wb=21,36
+il=0,3429
+
+[RMS 2]
+nz=3	0	1
+np=0	0
+wa=0,50
+wb=0,89
+il=0,005
+
+[POZYCJA]
+id=157
+pd=Katalog	KNR	4-02 0000-00	4-02	0000-00		1
+mpn=1211
+na=Po³¹czenie instalacji w.z. z istniej¹c¹ wewnêrzn¹ instalacj¹ wodoci¹gow¹ d.2. 09 0111-03 z monta¿em zaworu odcinaj¹cego 7 analogia 1 szt. 1.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=1	1		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=12,50	12,00	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=1	1	1							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=12,00
+wb=21,36
+il=0,3429
+
+[RMS 2]
+nz=3	0	1
+np=0	0
+wa=0,50
+wb=0,89
+il=0,005
+
+[POZYCJA]
+id=158
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Przebicie otworów w elementach z betonu ¿wirowego o gruboœci do 40 cm d.2. 01 0208-04 dla instalacji 7 analogia 9 szt. 9.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=9	9		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2174,76	2174,76	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=9	1	9							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=2174,76
+wb=3871,07
+il=62,136
+
+[POZYCJA]
+id=159
+pd=Katalog	KNR	0-31 0000-00	0-31	0000-00		1
+mpn=1211
+na=Próba szczelnoœci instalacji wody zimnej i ciep³ej w budynkach mieszkal- d.2. 09 0116-01 nych - p³ukanie, czynnoœci przygotowawcze i zakoñczeniowe 1 kpl. 1.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=1	1		1
+jm=kpl	090
+kj=35,00	0	1,0
+cj=126,44		0,00	126,44	0,00
+cjw=		0
+kjw=			0	0	0
+wn=126,44	0,00	126,44
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=1	1	1							
+
+[RMS 1]
+nz=2	0	1
+np=0	0
+wa=126,44
+wb=126,44
+il=126,44
+
+[POZYCJA]
+id=160
+pd=Katalog	KNR	0-31 0000-00	0-31	0000-00		1
+mpn=1211
+na=Próba szczelnoœci instalacji wody zimnej i ciep³ej w budynkach mieszkal- d.2. 09 0116-02 nych - próba wodna ciœnieniowa poz.258+poz.259+poz.260+poz.261 m 120.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=120	120		1
+jm=m	010
+kj=35,00	0	1,0
+cj=126,44		0,00	126,44	0,00
+cjw=		0
+kjw=			0	0	0
+wn=15172,80	0,00	15172,80
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=120	1	120							
+
+[RMS 1]
+nz=2	0	1
+np=0	0
+wa=15172,80
+wb=15172,80
+il=15172,8
+
+[POZYCJA]
+id=161
+pd=Katalog	KNR	0-34 0000-00	0-34	0000-00		1
+mpn=1211
+na=Izolacja ruroci¹gów œrednicy 20 mm mm otulinami Thermaflex FRZ - jednowarstwo- d.2. 09 0101-06 wymi gr.13 mm (J) (poz.258+poz.259)*0.6 m 48.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=48	48		1
+jm=m	010
+kj=35,00	0	1,0
+cj=32,11		4,82	25,68	1,61
+cjw=		0
+kjw=			0	0	0
+wn=1541,28	231,36	1232,64
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=48	1	48							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=231,36
+wb=411,82
+il=6,6103
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=1232,64
+wb=1232,64
+il=1232,64
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=77,28
+wb=137,56
+il=0,7728
+
+[POZYCJA]
+id=162
+pd=Katalog	KNR	0-34 0000-00	0-34	0000-00		1
+mpn=1211
+na=Izolacja ruroci¹gów œrednicy 12 mm-22 mm otulinami Thermaflex FRZ - jednowarst- d.2. 09 0101-10 wo- wymi gr. 20 mm (N) (poz.258+poz.259)*0.4 m 32.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=32	32		1
+jm=m	010
+kj=35,00	0	1,0
+cj=32,11		4,82	25,68	1,61
+cjw=		0
+kjw=			0	0	0
+wn=1027,52	154,24	821,76
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=32	1	32							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=154,24
+wb=274,55
+il=4,4069
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=821,76
+wb=821,76
+il=821,76
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=51,52
+wb=91,71
+il=0,5152
+
+[POZYCJA]
+id=163
+pd=Katalog	KNR	0-34 0000-00	0-34	0000-00		1
+mpn=1211
+na=Izolacja ruroci¹gów œrednicy 28 mm-48 mm otulinami Thermaflex FRZ - jednowarst- d.2. 09 0101-11 wo- wymi gr. 20 mm (N) - woda ciep³a (poz.260+poz.261)/2 m 20.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=20	20		1
+jm=m	010
+kj=35,00	0	1,0
+cj=32,11		4,82	25,68	1,61
+cjw=		0
+kjw=			0	0	0
+wn=642,20	96,40	513,60
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=20	1	20							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=96,40
+wb=171,59
+il=2,7543
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=513,60
+wb=513,60
+il=513,6
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=32,20
+wb=57,32
+il=0,322
+
+[POZYCJA]
+id=164
+pd=Katalog	KNR	0-34 0000-00	0-34	0000-00		1
+mpn=1211
+na=Izolacja ruroci¹gów œrednicy 28 mm-48 mm otulinami Thermaflex FRZ - jednowarst- d.2. 09 0101-07 wo- wymi gr. 13 mm (J) - woda zimna Norma PRO Wersja 4.32 Nr seryjny: 24959 Sanitariaty budynek nr 33_pr
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=20	20		1
+jm=m	010
+kj=35,00	0	1,0
+cj=32,11		4,82	25,68	1,61
+cjw=		0
+kjw=			0	0	0
+wn=642,20	96,40	513,60
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=20	1	20							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=96,40
+wb=171,59
+il=2,7543
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=513,60
+wb=513,60
+il=513,6
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=32,20
+wb=57,32
+il=0,322
+
+[POZYCJA]
+id=165
+pd=Katalog	KNR	0-34 0000-00	0-34	0000-00		1
+mpn=1211
+na=Izolacja dwuwarstwowa ruroci¹gów œrednicy 28 mm-48 mm otulinami Thermaflex d.2. 09 0110-14 FRZ lub otulinami Thermaflex FRZ i matami (p³ytami) Thermasheet FR - 7 gr. izolacji 40 mm 10 m 10.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=10	10		1
+jm=m	010
+kj=35,00	0	1,0
+cj=32,11		4,82	25,68	1,61
+cjw=		0
+kjw=			0	0	0
+wn=321,10	48,20	256,80
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=10	1	10							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=48,20
+wb=85,80
+il=1,3771
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=256,80
+wb=256,80
+il=256,8
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=16,10
+wb=28,66
+il=0,161
+
+[POZYCJA]
+id=166
+pd=Katalog	KNR	2-15 0000-00	2-15	0000-00		1
+mpn=1211
+na=Próby ciœnieniowe szczelnoœci instalacji wewnêtrznej c.o. w budynkach d.2. 09 0404-02 niemieszkalnych 40.00 m 40.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=40	40		1
+jm=m	010
+kj=35,00	0	1,0
+cj=135,80		20,37	108,64	6,79
+cjw=		0
+kjw=			0	0	0
+wn=5432,00	814,80	4345,60
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=40	1	40							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=814,80
+wb=1450,34
+il=23,28
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=4345,60
+wb=4345,60
+il=4345,6
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=271,60
+wb=483,45
+il=2,716
+
+[POZYCJA]
+id=167
+pd=Katalog	KNR	5-08 0000-00	5-08	0000-00		1
+mpn=1211
+na=Monta¿ do gotowego pod³o¿a gniazd wtyczkowych podtynkowych 2-biegu- d.2. 10 0309-03 nowych z uziemieniem w puszkach podwójnych z pod³¹czeniem poz.292 szt. 5.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=5	5		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=15,65		7,82	7,83	0,00
+cjw=		0
+kjw=			0	0	0
+wn=78,25	39,10	39,15
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=5	1	5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=39,10
+wb=69,60
+il=1,1171
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=39,15
+wb=39,15
+il=39,15
+
+[POZYCJA]
+id=168
+pd=Katalog	KNR	5-08 0000-00	5-08	0000-00		1
+mpn=1211
+na=Mocowanie na gotowym pod³o¿u aparatów o masie do 2.5 kg bez czêœcio- d.2. 10 0402-01 wego rozebrania i pod³¹czenia (il. otworów mocuj¹cych do 2) - suszarka 10 do r¹k w wykonaniu nierdzewnym poz.293 sz
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=3	3		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=15,65		7,82	7,83	0,00
+cjw=		0
+kjw=			0	0	0
+wn=46,95	23,46	23,49
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=3	1	3							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=23,46
+wb=41,76
+il=0,6703
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=23,49
+wb=23,49
+il=23,49
+
+[POZYCJA]
+id=169
+pd=Katalog	KNR	4-03 0000-00	4-03	0000-00		1
+mpn=1211
+na=Pomiar skutecznoœci zerowania kpl po-
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=1	1		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=1,26		1,26	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=1,26	1,26	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=1	1	1							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=1,26
+wb=2,24
+il=0,036
+
+[POZYCJA]
+id=170
+pd=Katalog	KNR	4-03 0000-00	4-03	0000-00		1
+mpn=1211
+na=Sprawdzenie i pomiar kompletnego 1-fazowego obwodu elektrycznego kpl po-
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=1	1		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=1,26		1,26	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=1,26	1,26	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=1	1	1							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=1,26
+wb=2,24
+il=0,036
+
+[POZYCJA]
+id=171
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Wykucie z muru oœcie¿nic drewnianych o powierzchni do 1 m2 - okno d.3. 01 0354-03 1 szt. 1.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=1	1		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=241,64	241,64	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=1	1	1							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=241,64
+wb=430,12
+il=6,904
+
+[POZYCJA]
+id=172
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Wykucie z muru oœcie¿nic drewnianych o powierzchni ponad 2 m2 - okno d.3. 01 0354-05 1.45*2.05*2 m2 5.945
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=5,945	5,945		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=1436,55	1436,55	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=5,945	1	5,945							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=1436,55
+wb=2557,06
+il=41,0443
+
+[POZYCJA]
+id=173
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Wykucie z muru podokienników betonowych z lastryko d.3. 01 0354-12 1.45*4 m 5.800
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=5,8	5,8		1
+jm=m	010
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=1401,51	1401,51	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=5,8	1	5,8							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=1401,51
+wb=2494,69
+il=40,0432
+
+[POZYCJA]
+id=174
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Wykucie z muru podokienników stalowych d.3. 01 0354-11 1.45*2+0.50 m 3.400
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=3,4	3,4		1
+jm=m	010
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=821,58	821,58	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=3,4	1	3,4							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=821,58
+wb=1462,41
+il=23,4736
+
+[POZYCJA]
+id=175
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Wykucie z muru oœcie¿nic stalowych lub krat drzwiowych o powierzchni do
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=10	10		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2416,40	2416,40	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=10	1	10							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=2416,40
+wb=4301,19
+il=69,04
+
+[POZYCJA]
+id=176
+pd=Katalog	KNR	9-29 0000-00	9-29	0000-00		1
+mpn=1211
+na=Rozbiórka obudów pionów instalacyjnych, s³upów i belek z p³yt gipsowo- d.3. 01 0105-02 kartonowych przy powierzchni rozbiórki do 2 m2 - ok³adzina podwójna 1 analogia wraz z ok³adzinami 35.00 m2 35.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=35	35		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=205,50		25,00	180,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=7192,50	875,00	6300,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=35	1	35							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=875,00
+wb=1557,50
+il=25
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=6300,00
+wb=6300,00
+il=6300
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=17,50
+wb=31,15
+il=0,175
+
+[POZYCJA]
+id=177
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Rozebranie œcianki z cegie³ o grub. 1/2 ceg. na zaprawie cementowo-wa- d.3. 01 0348-03 piennej wraz z ok³adzinami (3.42+1.49*4)*2.15-0.80*2.00*3 m2 15.367 (3.06+2.04+1.70*2)*2.15-0.80*2.00*3 m2 13.475
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=37,242	37,242		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=8999,16	8999,16	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=37,242	1	37,242							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=8999,16
+wb=16018,50
+il=257,1188
+
+[POZYCJA]
+id=178
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Rozebranie wyk³adziny œciennej z p³ytek d.3. 01 0819-15 (6.25*2+3.10*2)*2.10 m2 39.270 -(0.80*2.00+1.45*1.05) m2 -3.123 (1.45+2*2.00)*0.40<oœcie¿a> m2 2.180 (6.25*2+3.05*2)*2.10 m2 39.060 -(0.80*2.00+
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=138,028	138,028		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=33353,09	33353,09	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=138,028	1	138,028							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=33353,09
+wb=59368,49
+il=952,9453
+
+[POZYCJA]
+id=179
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Odbicie tynków wewnêtrznych z zaprawy cementowo-wapiennej na œcia- d.3. 01 0701-05 nach, filarach, pilastrach o powierzchni odbicia ponad 5 m2 - po skutych 1 p³ytkach poz.308 m2 138.028
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=138,028	138,028		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=33353,09	33353,09	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=138,028	1	138,028							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=33353,09
+wb=59368,49
+il=952,9453
+
+[POZYCJA]
+id=180
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Odbicie tynków wewnêtrznych z zaprawy cementowo-wapiennej pasami o d.3. 01 0702-06 szerokoœci do 30 cm 2.05*2*3 m 12.300
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=12,3	12,3		1
+jm=m	010
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2972,17	2972,17	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=12,3	1	12,3							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=2972,17
+wb=5290,47
+il=84,9192
+
+[POZYCJA]
+id=181
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Skucie nierównoœci 4 cm na œcianach z cegie³ na zaprawie cementowo- d.3. 01 0347-09 wapiennej - poszerzenie otworu 1 Krotnoœæ = 2 Wêze³ C 0.20*2.05 m2 0.410
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=99,07	99,07	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=99,07
+wb=176,35
+il=2,8306
+
+[POZYCJA]
+id=182
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Zeskrobanie i zmycie starej farby w pomieszczeniach o powierzchni pod- d.3. 01 1202-08 ³ogi do 5 m2 (6.25*2+3.10*2)*(3.15-2.10)<œciany> m2 19.635 6.25*3.10<sufit> m2 19.375 (6.25*2+3.10*2)*(3.15-2.10)
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=141,2	141,2		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=34119,57	34119,57	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=141,2	1	141,2							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=34119,57
+wb=60732,83
+il=974,8448
+
+[POZYCJA]
+id=183
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Rozebranie posadzki z p³ytek na zaprawie cementowej d.3. 01 0811-07 6.25*3.10+1.00*0.40 m2 19.775 6.25*3.10+1.00*0.40 m2 19.775 1.80*4.80 m2 8.640 6.25*3.30+1.00*0.40 m2 21.025
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=69,215	69,215		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=16725,11	16725,11	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=69,215	1	69,215							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=16725,11
+wb=29770,70
+il=477,8604
+
+[POZYCJA]
+id=184
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Wykucie z muru kratek wentylacyjnych, wentylatorów, drzwiczek d.3. 01 0354-13 3+3+2+2 szt. 10.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=10	10		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2416,40	2416,40	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=10	1	10							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=2416,40
+wb=4301,19
+il=69,04
+
+[POZYCJA]
+id=185
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Zerwanie posadzki cementowej/lastykowej - wyrównanie pod³o¿a d.3. 01 0804-07 poz.313 m2 69.215
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=69,215	69,215		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=16725,11	16725,11	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=69,215	1	69,215							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=16725,11
+wb=29770,70
+il=477,8604
+
+[POZYCJA]
+id=186
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Wykucie bruzd pionowych 1/4x1/2 ceg. w œcianach z cegie³ na zaprawie d.3. 01 0339-01 cementowo-wapiennej dla instalacji wodoci¹gowej 30.00 m 30.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=30	30		1
+jm=m	010
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=7249,20	7249,20	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=30	1	30							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=7249,20
+wb=12903,58
+il=207,12
+
+[POZYCJA]
+id=187
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Wykucie bruzd poziomych 1/4x1/2 ceg. w œcianach z cegie³ na zaprawie d.3. 01 0336-01 cementowo-wapiennej 30.00 m 30.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=30	30		1
+jm=m	010
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=7249,20	7249,20	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=30	1	30							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=7249,20
+wb=12903,58
+il=207,12
+
+[POZYCJA]
+id=188
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Wykucie bruzd o przekroju do 0.040 m2 poziomych lub pionowych w ele- d.3. 01 0210-02 mentach z betonu ¿wirowego 12.00 m 12.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=12	12		1
+jm=m	010
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2899,68	2899,68	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=12	1	12							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=2899,68
+wb=5161,43
+il=82,848
+
+[POZYCJA]
+id=189
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Usuniêcie z parteru budynku gruzu i ziemi d.3. 01 0106-04 poz.301*0.10 m3 0.100 poz.302*0.10 m3 0.595 poz.303*0.30*0.05 m3 0.087 poz.305*0.10 m3 1.000 poz.306*0.05 m3 1.750 poz.307*0.20 m3 7.448 poz.3
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=25,872	25,872		1
+jm=m3	060
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=6251,71	6251,71	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=25,872	1	25,872							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6251,71
+wb=11128,04
+il=178,6203
+
+[POZYCJA]
+id=190
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Zabudowy instalacyjne p³ytami gipsowo-kartonowymi gkbi na rusztach me-
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=70	70		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=10133,27	5306,70	4805,57
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=70	1	70							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=5306,70
+wb=9445,93
+il=151,62
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=4805,57
+wb=4805,57
+il=4805,57
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=21,00
+wb=37,38
+il=0,21
+
+[POZYCJA]
+id=191
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Wykonanie pasów tynku zwyk³ego kat. III o szerokoœci do 15 cm na mu- d.3. 04 0705-04 rach z cegie³ lub œcianach z betonu pokrywaj¹cego bruzdy z osiatkowa- 3 niem siatk¹ ciêto-ci¹gnion¹ poz.316+poz.317
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=60	60		1
+jm=m	010
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=14498,40	14498,40	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=60	1	60							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=14498,40
+wb=25807,15
+il=414,24
+
+[POZYCJA]
+id=192
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Tynki wewnêtrzne zwyk³e kat. III wykonywane rêcznie na pod³o¿u z ceg³y, d.3. 04 0716-02 pustaków ceramicznych, gazo- i pianobetonów na œcianach w pomiesz- 3 czeniach o powierzchni pod³ogi ponad 5 m2 p
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=138,028	138,028		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=33353,09	33353,09	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=138,028	1	138,028							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=33353,09
+wb=59368,49
+il=952,9453
+
+[POZYCJA]
+id=193
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Uzupe³nienie tynków zwyk³ych wewnêtrznych kat. III z zaprawy cemento- d.3. 04 0711-14 wo-wapiennej na stropach, belkach, podci¹gach, biegach i spocznikach 3 na pod³o¿u z ceg³y i pustaków (do 2 m2 w 1 
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=81,618	81,618		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=19722,17	19722,17	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=81,618	1	81,618							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=19722,17
+wb=35105,47
+il=563,4907
+
+[POZYCJA]
+id=194
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Wykonanie tynków zwyk³ych wewnêtrznych kat. III z zaprawy cementowo- d.3. 04 0708-03 wapiennej na oœcie¿ach szerokoœci do 40 cm (1.00+2*2.05) m 5.100 (1.00+2*2.05) m 5.100 (1.00+2*2.05) m 5.100
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=15,3	15,3		1
+jm=m	010
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=3697,09	3697,09	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=15,3	1	15,3							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=3697,09
+wb=6580,82
+il=105,6312
+
+[POZYCJA]
+id=195
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Przecieranie istniej¹cych tynków wewnêtrznych z zeskrobaniem farby na d.3. 04 0713-01 œcianach od strony korytarza 1.80*3.15-0.90*2.00 m2 3.870 1.80*3.15-0.90*2.00 m2 3.870 1.80*3.15-0.90*2.00 m2 3.87
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=36,105	36,105		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=8724,41	8724,41	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=36,105	1	36,105							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=8724,41
+wb=15529,45
+il=249,2689
+
+[POZYCJA]
+id=196
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Ok³adziny z p³yt gipsowo-kartonowych (suche tynki gipsowe) - dodatek za d.3. 04 2006-07 drug¹ warstwê na rusztach na œcianach Robota w pomieszczeniu mniej- 3 z.sz. 5.2. szym ni¿ 5 m2.p³ytek dla ich zl
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=25,67	25,67		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=3716,01	1946,04	1762,27
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=25,67	1	25,67							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=1946,04
+wb=3463,96
+il=55,6012
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=1762,27
+wb=1762,27
+il=1762,2712
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=7,70
+wb=13,71
+il=0,077
+
+[POZYCJA]
+id=197
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Tynki wewnêtrzne pocienione kat. III na œcianach powy¿ej p³ytek dla ich d.3. 04 0812-01 zlicowania wykonywane rêcznie wraz z naro¿nikami 3 analogia (6.25*2+3.10*2)*(3.15-2.05)<œciany> m2 20.570 (6.25*
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=64,24	64,24		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=9299,45	4870,03	4410,14
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=64,24	1	64,24							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=4870,03
+wb=8668,66
+il=139,1438
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=4410,14
+wb=4410,14
+il=4410,1402
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=19,27
+wb=34,30
+il=0,1927
+
+[POZYCJA]
+id=198
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Tynki (g³adzie) jednowarstwowe wewnêtrzne gr. 3 mm z gipsu szpachlo- d.3. 04 2009-04 wego wykonywane rêcznie na stropach na pod³o¿u z tynku poz.327A m2 68.015
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=68,015	68,015		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=9845,92	5156,22	4669,30
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=68,015	1	68,015							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=5156,22
+wb=9178,07
+il=147,3205
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=4669,30
+wb=4669,30
+il=4669,2978
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=20,40
+wb=36,32
+il=0,204
+
+[POZYCJA]
+id=199
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Tynki (g³adzie) jednowarstwowe wewnêtrzne gr. 3 mm z gipsu szpachlo- d.3. 04 2009-02 wego wykonywane rêcznie na œcianach na pod³o¿u z tynku poz.331 m2 64.240
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=64,24	64,24		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=9299,45	4870,03	4410,14
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=64,24	1	64,24							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=4870,03
+wb=8668,66
+il=139,1438
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=4410,14
+wb=4410,14
+il=4410,1402
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=19,27
+wb=34,30
+il=0,1927
+
+[POZYCJA]
+id=200
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Licowanie œcian p³ytkami o wymiarach 30x60 cm (lub innych wskazanych d.3. 05 0829-11 przez Zamawiaj¹cego na etapie wykonawstwa) na klej metod¹ kombino- 3 analogia wan¹ z u³o¿eniem silikonów, w zakresi
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=223,909	223,909		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=32413,29	16974,54	15371,58
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=223,909	1	223,909							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=16974,54
+wb=30214,68
+il=484,9869
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=15371,58
+wb=15371,58
+il=15371,5768
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=67,17
+wb=119,57
+il=0,6717
+
+[POZYCJA]
+id=201
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Dwukrotne malowanie farbami emulsyjnymi powierzchni wewnêtrznych - d.3. 08 1505-03 pod³o¿y gipsowych z gruntowaniem poz.332+poz.330+poz.329 m2 194.030
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=194,03	194,03		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=28087,98	14709,41	13320,35
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=194,03	1	194,03							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=14709,41
+wb=26182,76
+il=420,269
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=13320,35
+wb=13320,35
+il=13320,3535
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=58,21
+wb=103,61
+il=0,5821
+
+[POZYCJA]
+id=202
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Malowanie farbami emulsyjnymi powierzchni wewnêtrznych - p³yt gipso- d.3. 08 1505-06 wych spoinowanych szpachlowanych z gruntowaniem - dodatek za ka¿de 3 dalsze malowanie poz.341 m2 194.030
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=194,03	194,03		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=28087,98	14709,41	13320,35
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=194,03	1	194,03							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=14709,41
+wb=26182,76
+il=420,269
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=13320,35
+wb=13320,35
+il=13320,3535
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=58,21
+wb=103,61
+il=0,5821
+
+[POZYCJA]
+id=203
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Dwukrotne malowanie farbami olejnymi starych tynków wewnêtrznych d.3. 08 1206-05 œcian z dwukrotnym szpachlowaniem (do 3 m2 w jednym miejscu) - od 3 uw.p.tab. strony korytarza (1.80-0.90)*1.50 m2 1.35
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=5,4	5,4		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=1304,86	1304,86	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=5,4	1	5,4							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=1304,86
+wb=2322,64
+il=37,2816
+
+[POZYCJA]
+id=204
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Zabetonowanie ¿wirobetonem bruzd o przekroju do 0.045 m2 w d.3. 06 0207-03 pod³o¿ach, stropach i œcianach bez deskowañ i stemplowañ 15.00 m 15.000 Norma PRO Wersja 4.32 Nr seryjny: 24959 Sanitariaty b
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=15	15		1
+jm=m	010
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=3624,60	3624,60	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=15	1	15							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=3624,60
+wb=6451,79
+il=103,56
+
+[POZYCJA]
+id=205
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Warstwy wyrównawcze pod posadzki z zaprawy cementowej gruboœci 50 d.3. 06 1102-02 mm zatarte na g³adko z ukszta³towaniem spadków poz.313 m2 69.215
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=69,215	69,215		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=10019,63	5247,19	4751,68
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=69,215	1	69,215							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=5247,19
+wb=9340,00
+il=149,9197
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=4751,68
+wb=4751,68
+il=4751,679
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=20,76
+wb=36,96
+il=0,2076
+
+[POZYCJA]
+id=206
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Posadzki cementowe wraz z cokolikami - dop³ata za zbrojenie siatk¹ sta- d.3. 06 1106-07 low¹ poz.345 m2 69.215
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=69,215	69,215		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=10019,63	5247,19	4751,68
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=69,215	1	69,215							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=5247,19
+wb=9340,00
+il=149,9197
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=4751,68
+wb=4751,68
+il=4751,679
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=20,76
+wb=36,96
+il=0,2076
+
+[POZYCJA]
+id=207
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Posadzki p³ytkowe z kamieni sztucznych; p³ytki 60x60 cm (lub innych d.3. 06 1118-11 wskazanych przez Zamawiaj¹cego na etapie wykonawstwa) na klej meto- 4 analogia d¹ kombinowan¹ z u³o¿eniem silikonów,
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=69,215	69,215		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=10019,63	5247,19	4751,68
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=69,215	1	69,215							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=5247,19
+wb=9340,00
+il=149,9197
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=4751,68
+wb=4751,68
+il=4751,679
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=20,76
+wb=36,96
+il=0,2076
+
+[POZYCJA]
+id=208
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Systemowe aluminiowe listwy progowe na po³¹czeniu z korytarzem d.3. 06 0411-08 4 analogia 1+1+1+1 szt. 4.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=4	4		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=966,56	966,56	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=4	1	4							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=966,56
+wb=1720,48
+il=27,616
+
+[POZYCJA]
+id=209
+pd=Katalog	KNR	0-19 0000-00	0-19	0000-00		1
+mpn=1211
+na=Monta¿ okien rozwieranych i uchylno-rozwieranych jednodzielnych z PCV d.3. 07 1023-05 z obróbk¹ obsadzenia o pow. do 1.0 m2 0.50*0.70 m2 0.350
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,35	0,35		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=2428,00		131,95	2292,64	3,41
+cjw=		0
+kjw=			0	0	0
+wn=849,80	46,18	802,42
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,35	1	0,35							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=46,18
+wb=82,20
+il=1,3195
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=802,42
+wb=802,42
+il=802,424
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=1,19
+wb=2,12
+il=0,0119
+
+[POZYCJA]
+id=210
+pd=Katalog	KNR	0-19 0000-00	0-19	0000-00		1
+mpn=1211
+na=Monta¿ okien rozwieranych i uchylno-rozwieranych dwudzielnych z PCV z d.3. 07 1023-11 obróbk¹ obsadzenia o pow. ponad 2.5 m2 1.45*2.05*2 m2 5.945
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=5,945	5,945		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=2428,00		131,95	2292,64	3,41
+cjw=		0
+kjw=			0	0	0
+wn=14434,46	784,44	13629,74
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=5,945	1	5,945							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=784,44
+wb=1396,31
+il=22,4126
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=13629,74
+wb=13629,74
+il=13629,7448
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=20,27
+wb=36,08
+il=0,2027
+
+[POZYCJA]
+id=211
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Obsadzenie podokienników stalowych do 1.5 m w œcianach z cegie³ ze- d.3. 07 0321-01 wnêtrznych - parapet aluminiowy giêty lakierowany 1+2 szt. 3.000 Norma PRO Wersja 4.32 Nr seryjny: 24959 Sanitariaty
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=3	3		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=724,92	724,92	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=3	1	3							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=724,92
+wb=1290,36
+il=20,712
+
+[POZYCJA]
+id=212
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Obsadzenie oœcie¿nic stalowych sta³ych d.3. 07 0320-03 1.00*2.05 m2 2.050 1.00*2.05 m2 2.050 1.00*2.05 m2 2.050 1.00*2.05 m2 2.050
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=8,2	8,2		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=1981,45	1981,45	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=8,2	1	8,2							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=1981,45
+wb=3526,98
+il=56,6128
+
+[POZYCJA]
+id=213
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Obsadzenie oœcie¿nic stalowych regulowanych (opaskowych) d.3. 07 0320-03 0.90*2.05 m2 1.845 1.00*2.05 m2 2.050 0.90*2.05 m2 1.845 1.00*2.05 m2 2.050 0.90*2.05 m2 1.845
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=9,635	9,635		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2328,20	2328,20	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=9,635	1	9,635							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=2328,20
+wb=4144,20
+il=66,52
+
+[POZYCJA]
+id=214
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Skrzyd³a drzwiowe p³ytowe wewnêtrzne jednodzielne pe³ne o powierzchni d.3. 07 1017-02 ponad 1.6 m2 fabrycznie wykoñczone z kompletem okuæ, kratk¹ lub pod- 5 ciêciem wentylacyjnym, spód drzwi zabezpiec
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=15,99	15,99		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=2314,73	1212,20	1097,73
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=15,99	1	15,99							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=1212,20
+wb=2157,72
+il=34,6343
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=1097,73
+wb=1097,73
+il=1097,7295
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=4,80
+wb=8,54
+il=0,048
+
+[POZYCJA]
+id=215
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Naœwietla PCV d.3. 07 1009-06 5 analogia 1.50*0.80*3 m2 3.600
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=3,6	3,6		1
+jm=m2	050
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=521,14	272,92	247,14
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=3,6	1	3,6							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=272,92
+wb=485,79
+il=7,7976
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=247,14
+wb=247,14
+il=247,1436
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=1,08
+wb=1,92
+il=0,0108
+
+[POZYCJA]
+id=216
+pd=Katalog	KNR	2-02 0000-00	2-02	0000-00		1
+mpn=1211
+na=Drzwiczki rewizyjne osadzone w œcianach GK o powierzchni elementu do d.3. 07 1215-02 0.2 m2 8 szt. 8.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=8	8		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=144,76		75,81	68,65	0,30
+cjw=		0
+kjw=			0	0	0
+wn=1158,09	606,48	549,21
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=8	1	8							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=606,48
+wb=1079,53
+il=17,328
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=549,21
+wb=549,21
+il=549,208
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=2,40
+wb=4,27
+il=0,024
+
+[POZYCJA]
+id=217
+pd=Katalog	KNR	2-17 0000-00	2-17	0000-00		1
+mpn=1211
+na=Nawietrzaki okienne z frezowaniem otworów d.3. 07 0156-01 5 analogia 2+2+1+1 szt. 6.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=6	6		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=447,77		0,00	447,77	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2686,62	0,00	2686,62
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=6	1	6							
+
+[RMS 1]
+nz=2	0	1
+np=0	0
+wa=2686,62
+wb=2686,62
+il=2686,62
+
+[POZYCJA]
+id=218
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Wymiana klamek okiennych z regulacj¹ skrzyde³ okiennych d.3. 07 0919-20 9 szt. 9.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=9	9		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2174,76	2174,76	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=9	1	9							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=2174,76
+wb=3871,07
+il=62,136
+
+[POZYCJA]
+id=219
+pd=Katalog	KNR	4-02 0000-00	4-02	0000-00		1
+mpn=1211
+na=Demonta¿ zlewu d.3. 01 0235-03 1 kpl. 1.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=1	1		1
+jm=kpl	090
+kj=35,00	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=12,50	12,00	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=1	1	1							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=12,00
+wb=21,36
+il=0,3429
+
+[RMS 2]
+nz=3	0	1
+np=0	0
+wa=0,50
+wb=0,89
+il=0,005
+
+[POZYCJA]
+id=220
+pd=Katalog	KNR	4-02 0000-00	4-02	0000-00		1
+mpn=1211
+na=Demonta¿ umywalki d.3. 01 0235-06 2+2+1+7 kpl. 12.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=12	12		1
+jm=kpl	090
+kj=35,00	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=150,00	144,00	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=12	1	12							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=144,00
+wb=256,32
+il=4,1143
+
+[RMS 2]
+nz=3	0	1
+np=0	0
+wa=6,00
+wb=10,68
+il=0,06
+
+[POZYCJA]
+id=221
+pd=Katalog	KNR	4-02 0000-00	4-02	0000-00		1
+mpn=1211
+na=Demonta¿ ustêpu z misk¹ fajansow¹ d.3. 01 0235-08 2+2+1 kpl. 5.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=5	5		1
+jm=kpl	090
+kj=35,00	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=62,50	60,00	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=5	1	5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=60,00
+wb=106,80
+il=1,7143
+
+[RMS 2]
+nz=3	0	1
+np=0	0
+wa=2,50
+wb=4,45
+il=0,025
+
+[POZYCJA]
+id=222
+pd=Katalog	KNR	4-02 0000-00	4-02	0000-00		1
+mpn=1211
+na=Demonta¿ pisuaru d.3. 01 0235-01 2+2 kpl. 4.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=4	4		1
+jm=kpl	090
+kj=35,00	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=50,00	48,00	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=4	1	4							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=48,00
+wb=85,44
+il=1,3714
+
+[RMS 2]
+nz=3	0	1
+np=0	0
+wa=2,00
+wb=3,56
+il=0,02
+
+[POZYCJA]
+id=223
+pd=Katalog	KNR	4-02 0000-00	4-02	0000-00		1
+mpn=1211
+na=Demonta¿ brodzika d.3. 01 0235-07 3 kpl. 3.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=3	3		1
+jm=kpl	090
+kj=35,00	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=37,50	36,00	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=3	1	3							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=36,00
+wb=64,08
+il=1,0286
+
+[RMS 2]
+nz=3	0	1
+np=0	0
+wa=1,50
+wb=2,67
+il=0,015
+
+[POZYCJA]
+id=224
+pd=Katalog	KNR	4-02 0000-00	4-02	0000-00		1
+mpn=1211
+na=Demonta¿ ruroci¹gu ¿eliwnego/PCV kanalizacyjnego o œrednicy 50 mm-100 mm - d.3. 01 0230-04 na œcianach budynku i poziomy 25.00 m 25.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=25	25		1
+jm=m	010
+kj=35,00	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=312,50	300,00	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=25	1	25							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=300,00
+wb=534,00
+il=8,5714
+
+[RMS 2]
+nz=3	0	1
+np=0	0
+wa=12,50
+wb=22,25
+il=0,125
+
+[POZYCJA]
+id=225
+pd=Katalog	KNR	4-02 0000-00	4-02	0000-00		1
+mpn=1211
+na=Demonta¿ ruroci¹gu ¿eliwnego/PCV kanalizacyjnego o œrednicy 150 mm mm - na d.3. 01 0230-05 œcianach budynku i poziomy 30.00 m 30.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=30	30		1
+jm=m	010
+kj=35,00	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=375,00	360,00	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=30	1	30							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=360,00
+wb=640,80
+il=10,2857
+
+[RMS 2]
+nz=3	0	1
+np=0	0
+wa=15,00
+wb=26,70
+il=0,15
+
+[POZYCJA]
+id=226
+pd=Katalog	KNR	4-02 0000-00	4-02	0000-00		1
+mpn=1211
+na=Demonta¿ elementów uzbrojenia ruroci¹gu - wpust ¿eliwny pod³ogowy œr. d.3. 01 0234-02 50 mm 3 szt. 3.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=3	3		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=37,50	36,00	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=3	1	3							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=36,00
+wb=64,08
+il=1,0286
+
+[RMS 2]
+nz=3	0	1
+np=0	0
+wa=1,50
+wb=2,67
+il=0,015
+
+[POZYCJA]
+id=227
+pd=Katalog	KNR	4-02 0000-00	4-02	0000-00		1
+mpn=1211
+na=Po³¹czenie nowo budowanej kanalizacji sanitarnej z istniej¹c¹ wewnêtrzn¹ d.3. 09 0202-09 instalacj¹ kanalizacji 6 analogia 6 kpl 6.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=6	6		1
+jm=kpl	090
+kj=35,00	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=75,00	72,00	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=6	1	6							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=72,00
+wb=128,16
+il=2,0571
+
+[RMS 2]
+nz=3	0	1
+np=0	0
+wa=3,00
+wb=5,34
+il=0,03
+
+[POZYCJA]
+id=228
+pd=Katalog	KNR	2-15 0000-00	2-15	0000-00		1
+mpn=1211
+na=Monta¿ ruroci¹gów z PCW o œrednicy 160 mm mm na œcianach i stropach z ³¹cze- d.3. 09 0205-04 niem metod¹ wciskow¹ 12.00 m 12.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=12	12		1
+jm=m	010
+kj=35,00	0	1,0
+cj=135,80		20,37	108,64	6,79
+cjw=		0
+kjw=			0	0	0
+wn=1629,60	244,44	1303,68
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=12	1	12							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=244,44
+wb=435,10
+il=6,984
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=1303,68
+wb=1303,68
+il=1303,68
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=81,48
+wb=145,03
+il=0,8148
+
+[POZYCJA]
+id=229
+pd=Katalog	KNR	2-15 0000-00	2-15	0000-00		1
+mpn=1211
+na=Monta¿ ruroci¹gów z PCW o œrednicy 110 mm mm na œcianach i stropach z ³¹cze- d.3. 09 0205-04 niem metod¹ wciskow¹ 20.00 m 20.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=20	20		1
+jm=m	010
+kj=35,00	0	1,0
+cj=135,80		20,37	108,64	6,79
+cjw=		0
+kjw=			0	0	0
+wn=2716,00	407,40	2172,80
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=20	1	20							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=407,40
+wb=725,17
+il=11,64
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2172,80
+wb=2172,80
+il=2172,8
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=135,80
+wb=241,72
+il=1,358
+
+[POZYCJA]
+id=230
+pd=Katalog	KNR	2-15 0000-00	2-15	0000-00		1
+mpn=1211
+na=Monta¿ ruroci¹gów z PCW o œrednicy 75 mm mm na œcianach i stropach z ³¹cze- d.3. 09 0205-03 niem metod¹ wciskow¹ 15.00 m 15.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=15	15		1
+jm=m	010
+kj=35,00	0	1,0
+cj=135,80		20,37	108,64	6,79
+cjw=		0
+kjw=			0	0	0
+wn=2037,00	305,55	1629,60
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=15	1	15							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=305,55
+wb=543,88
+il=8,73
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=1629,60
+wb=1629,60
+il=1629,6
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=101,85
+wb=181,29
+il=1,0185
+
+[POZYCJA]
+id=231
+pd=Katalog	KNR	2-15 0000-00	2-15	0000-00		1
+mpn=1211
+na=Monta¿ ruroci¹gów z PCW o œrednicy 50 mm mm na œcianach z ³¹czeniem metod¹ d.3. 09 0205-02 wciskow¹ Norma PRO Wersja 4.32 Nr seryjny: 24959 Sanitariaty budynek nr 33_przedmiar.PRD PRZEDMIAR Lp. Nr Pod
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=35	35		1
+jm=m	010
+kj=35,00	0	1,0
+cj=135,80		20,37	108,64	6,79
+cjw=		0
+kjw=			0	0	0
+wn=4753,00	712,95	3802,40
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=35	1	35							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=712,95
+wb=1269,05
+il=20,37
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=3802,40
+wb=3802,40
+il=3802,4
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=237,65
+wb=423,02
+il=2,3765
+
+[POZYCJA]
+id=232
+pd=Katalog	KNR	2-15 0000-00	2-15	0000-00		1
+mpn=1211
+na=/ Elementy monta¿owe/stela¿ do miski ustêpowej montowane na œcianie z
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=4	4		1
+jm=kpl	090
+kj=35,00	0	1,0
+cj=135,80		20,37	108,64	6,79
+cjw=		0
+kjw=			0	0	0
+wn=543,20	81,48	434,56
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=4	1	4							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=81,48
+wb=145,03
+il=2,328
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=434,56
+wb=434,56
+il=434,56
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=27,16
+wb=48,34
+il=0,2716
+
+[POZYCJA]
+id=233
+pd=Katalog	KNR	2-15 0000-00	2-15	0000-00		1
+mpn=1211
+na=/ Urz¹dzenia sanitarne na elemencie monta¿owym - ustêp bezko³nierzowy
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=4	4		1
+jm=kpl	090
+kj=35,00	0	1,0
+cj=135,80		20,37	108,64	6,79
+cjw=		0
+kjw=			0	0	0
+wn=543,20	81,48	434,56
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=4	1	4							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=81,48
+wb=145,03
+il=2,328
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=434,56
+wb=434,56
+il=434,56
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=27,16
+wb=48,34
+il=0,2716
+
+[POZYCJA]
+id=234
+pd=Katalog	KNR	4-03 0000-00	4-03	0000-00		1
+mpn=1211
+na=Przykrêcanie drobnych elementów na œcianie - uchwyt na papier toaletowy
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=5	5		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=1,26		1,26	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=6,30	6,30	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=5	1	5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6,30
+wb=11,21
+il=0,18
+
+[POZYCJA]
+id=235
+pd=Katalog	KNR	4-03 0000-00	4-03	0000-00		1
+mpn=1211
+na=Przykrêcanie drobnych elementów na œcianie - dozowniki myd³a w p³ynie d.3. 09 1015-04 w wykonaniu nierdzewnym 6 analogia 6 szt. 6.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=6	6		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=1,26		1,26	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=7,56	7,56	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=6	1	6							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=7,56
+wb=13,46
+il=0,216
+
+[POZYCJA]
+id=236
+pd=Katalog	KNR	4-03 0000-00	4-03	0000-00		1
+mpn=1211
+na=Przykrêcanie drobnych elementów na œcianie - dozownik na rêczniki pa- d.3. 09 1015-04 pierowy w wykonaniu nierdzewnym 6 analogia 5 szt. 5.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=5	5		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=1,26		1,26	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=6,30	6,30	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=5	1	5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6,30
+wb=11,21
+il=0,18
+
+[POZYCJA]
+id=237
+pd=Katalog	KNR	4-03 0000-00	4-03	0000-00		1
+mpn=1211
+na=Przykrêcanie drobnych elementów na œcianie - haczyki d.3. 09 1015-04 6 analogia 4 szt. 4.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=4	4		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=1,26		1,26	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=5,04	5,04	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=4	1	4							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=5,04
+wb=8,97
+il=0,144
+
+[POZYCJA]
+id=238
+pd=Katalog	KNR	4-03 0000-00	4-03	0000-00		1
+mpn=1211
+na=Przykrêcanie drobnych elementów na œcianie - przegroda pisuarowa d.3. 09 1015-04 6 analogia 1 szt. 1.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=1	1		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=1,26		1,26	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=1,26	1,26	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=1	1	1							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=1,26
+wb=2,24
+il=0,036
+
+[POZYCJA]
+id=239
+pd=Katalog	KNR	4-03 0000-00	4-03	0000-00		1
+mpn=1211
+na=Przykrêcanie drobnych elementów na œcianie - lustra 60x80 cm, krawê- d.3. 09 1015-04 dzie fazowane 6 analogia 11 szt. 11.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=11	11		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=1,26		1,26	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=13,86	13,86	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=11	1	11							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=13,86
+wb=24,67
+il=0,396
+
+[POZYCJA]
+id=240
+pd=Katalog	KNR	4-02 0000-00	4-02	0000-00		1
+mpn=1211
+na=Po³¹czenie instalacji c.w.u. z istniej¹c¹ wewnêrzn¹ instalacj¹ wodoci¹go- d.3. 09 0111-03 w¹ z monta¿em zaworu odcinaj¹cego 7 analogia 1 szt. 1.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=1	1		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=12,50	12,00	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=1	1	1							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=12,00
+wb=21,36
+il=0,3429
+
+[RMS 2]
+nz=3	0	1
+np=0	0
+wa=0,50
+wb=0,89
+il=0,005
+
+[POZYCJA]
+id=241
+pd=Katalog	KNR	4-02 0000-00	4-02	0000-00		1
+mpn=1211
+na=Po³¹czenie instalacji w.z. z istniej¹c¹ wewnêrzn¹ instalacj¹ wodoci¹gow¹ d.3. 09 0111-03 z monta¿em zaworu odcinaj¹cego 7 analogia 1 szt. 1.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=1	1		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=12,50	12,00	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=1	1	1							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=12,00
+wb=21,36
+il=0,3429
+
+[RMS 2]
+nz=3	0	1
+np=0	0
+wa=0,50
+wb=0,89
+il=0,005
+
+[POZYCJA]
+id=242
+pd=Katalog	KNR	4-01 0000-00	4-01	0000-00		1
+mpn=1211
+na=Przebicie otworów w elementach z betonu ¿wirowego o gruboœci do 40 cm d.3. 01 0208-04 dla instalacji 7 analogia 12 szt. 12.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=12	12		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=241,64		241,64	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2899,68	2899,68	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=12	1	12							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=2899,68
+wb=5161,43
+il=82,848
+
+[POZYCJA]
+id=243
+pd=Katalog	KNR	0-31 0000-00	0-31	0000-00		1
+mpn=1211
+na=Próba szczelnoœci instalacji wody zimnej i ciep³ej w budynkach mieszkal- d.3. 09 0116-01 nych - p³ukanie, czynnoœci przygotowawcze i zakoñczeniowe 1 kpl. 1.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=1	1		1
+jm=kpl	090
+kj=35,00	0	1,0
+cj=126,44		0,00	126,44	0,00
+cjw=		0
+kjw=			0	0	0
+wn=126,44	0,00	126,44
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=1	1	1							
+
+[RMS 1]
+nz=2	0	1
+np=0	0
+wa=126,44
+wb=126,44
+il=126,44
+
+[POZYCJA]
+id=244
+pd=Katalog	KNR	0-31 0000-00	0-31	0000-00		1
+mpn=1211
+na=Próba szczelnoœci instalacji wody zimnej i ciep³ej w budynkach mieszkal- d.3. 09 0116-02 nych - próba wodna ciœnieniowa poz.408+poz.409+poz.410+poz.411 m 200.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=200	200		1
+jm=m	010
+kj=35,00	0	1,0
+cj=126,44		0,00	126,44	0,00
+cjw=		0
+kjw=			0	0	0
+wn=25288,00	0,00	25288,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=200	1	200							
+
+[RMS 1]
+nz=2	0	1
+np=0	0
+wa=25288,00
+wb=25288,00
+il=25288
+
+[POZYCJA]
+id=245
+pd=Katalog	KNR	0-34 0000-00	0-34	0000-00		1
+mpn=1211
+na=Izolacja ruroci¹gów œrednicy 20 mm mm otulinami Thermaflex FRZ - jednowarstwo- d.3. 09 0101-06 wymi gr.13 mm (J) (poz.408+poz.409)*0.6 m 84.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=84	84		1
+jm=m	010
+kj=35,00	0	1,0
+cj=32,11		4,82	25,68	1,61
+cjw=		0
+kjw=			0	0	0
+wn=2697,24	404,88	2157,12
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=84	1	84							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=404,88
+wb=720,69
+il=11,568
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2157,12
+wb=2157,12
+il=2157,12
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=135,24
+wb=240,73
+il=1,3524
+
+[POZYCJA]
+id=246
+pd=Katalog	KNR	0-34 0000-00	0-34	0000-00		1
+mpn=1211
+na=Izolacja ruroci¹gów œrednicy 12 mm-22 mm otulinami Thermaflex FRZ - jednowarst- d.3. 09 0101-10 wo- wymi gr. 20 mm (N) (poz.408+poz.409)*0.4 m 56.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=56	56		1
+jm=m	010
+kj=35,00	0	1,0
+cj=32,11		4,82	25,68	1,61
+cjw=		0
+kjw=			0	0	0
+wn=1798,16	269,92	1438,08
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=56	1	56							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=269,92
+wb=480,46
+il=7,712
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=1438,08
+wb=1438,08
+il=1438,08
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=90,16
+wb=160,48
+il=0,9016
+
+[POZYCJA]
+id=247
+pd=Katalog	KNR	0-34 0000-00	0-34	0000-00		1
+mpn=1211
+na=Izolacja ruroci¹gów œrednicy 28 mm-48 mm otulinami Thermaflex FRZ - jednowarst- d.3. 09 0101-11 wo- wymi gr. 20 mm (N) - woda ciep³a Norma PRO Wersja 4.32 Nr seryjny: 24959 Sanitariaty budynek nr 33_p
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=30	30		1
+jm=m	010
+kj=35,00	0	1,0
+cj=32,11		4,82	25,68	1,61
+cjw=		0
+kjw=			0	0	0
+wn=963,30	144,60	770,40
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=30	1	30							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=144,60
+wb=257,39
+il=4,1314
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=770,40
+wb=770,40
+il=770,4
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=48,30
+wb=85,97
+il=0,483
+
+[POZYCJA]
+id=248
+pd=Katalog	KNR	0-34 0000-00	0-34	0000-00		1
+mpn=1211
+na=Izolacja ruroci¹gów œrednicy 28 mm-48 mm otulinami Thermaflex FRZ - jednowarst- d.3. 09 0101-07 wo- wymi gr. 13 mm (J) - woda zimna poz.422 m 30.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=30	30		1
+jm=m	010
+kj=35,00	0	1,0
+cj=32,11		4,82	25,68	1,61
+cjw=		0
+kjw=			0	0	0
+wn=963,30	144,60	770,40
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=30	1	30							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=144,60
+wb=257,39
+il=4,1314
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=770,40
+wb=770,40
+il=770,4
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=48,30
+wb=85,97
+il=0,483
+
+[POZYCJA]
+id=249
+pd=Katalog	KNR	0-34 0000-00	0-34	0000-00		1
+mpn=1211
+na=Izolacja dwuwarstwowa ruroci¹gów œrednicy 28 mm-48 mm otulinami Thermaflex d.3. 09 0110-14 FRZ lub otulinami Thermaflex FRZ i matami (p³ytami) Thermasheet FR - 7 gr. izolacji 40 mm 10 m 10.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=10	10		1
+jm=m	010
+kj=35,00	0	1,0
+cj=32,11		4,82	25,68	1,61
+cjw=		0
+kjw=			0	0	0
+wn=321,10	48,20	256,80
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=10	1	10							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=48,20
+wb=85,80
+il=1,3771
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=256,80
+wb=256,80
+il=256,8
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=16,10
+wb=28,66
+il=0,161
+
+[POZYCJA]
+id=250
+pd=Katalog	KNR	2-15 0000-00	2-15	0000-00		1
+mpn=1211
+na=Próby ciœnieniowe szczelnoœci instalacji wewnêtrznej c.o. w budynkach d.3. 09 0404-02 niemieszkalnych 50.00 m 50.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=50	50		1
+jm=m	010
+kj=35,00	0	1,0
+cj=135,80		20,37	108,64	6,79
+cjw=		0
+kjw=			0	0	0
+wn=6790,00	1018,50	5432,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=50	1	50							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=1018,50
+wb=1812,93
+il=29,1
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=5432,00
+wb=5432,00
+il=5432
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=339,50
+wb=604,31
+il=3,395
+
+[POZYCJA]
+id=251
+pd=Katalog	KNR	5-08 0000-00	5-08	0000-00		1
+mpn=1211
+na=Monta¿ do gotowego pod³o¿a gniazd wtyczkowych podtynkowych 2-biegu- d.3. 10 0309-03 nowych z uziemieniem w puszkach podwójnych z pod³¹czeniem poz.445 szt. 11.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=11	11		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=15,65		7,82	7,83	0,00
+cjw=		0
+kjw=			0	0	0
+wn=172,15	86,02	86,13
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=11	1	11							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=86,02
+wb=153,12
+il=2,4577
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=86,13
+wb=86,13
+il=86,13
+
+[POZYCJA]
+id=252
+pd=Katalog	KNR	5-08 0000-00	5-08	0000-00		1
+mpn=1211
+na=Mocowanie na gotowym pod³o¿u aparatów o masie do 2.5 kg bez czêœcio- d.3. 10 0402-01 wego rozebrania i pod³¹czenia (il. otworów mocuj¹cych do 2) - suszarka 10 do r¹k w wykonaniu nierdzewnym poz.446 sz
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=5	5		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=15,65		7,82	7,83	0,00
+cjw=		0
+kjw=			0	0	0
+wn=78,25	39,10	39,15
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=5	1	5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=39,10
+wb=69,60
+il=1,1171
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=39,15
+wb=39,15
+il=39,15
+
+[POZYCJA]
+id=253
+pd=Katalog	KNR	4-03 0000-00	4-03	0000-00		1
+mpn=1211
+na=Pomiar skutecznoœci zerowania kpl po-
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=1	1		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=1,26		1,26	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=1,26	1,26	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=1	1	1							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=1,26
+wb=2,24
+il=0,036
+
+[POZYCJA]
+id=254
+pd=Katalog	KNR	4-03 0000-00	4-03	0000-00		1
+mpn=1211
+na=Sprawdzenie i pomiar kompletnego 1-fazowego obwodu elektrycznego kpl po-
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=1	1		1
+jm=szt	020
+kj=35,00	0	1,0
+cj=1,26		1,26	0,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=1,26	1,26	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=1	1	1							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=1,26
+wb=2,24
+il=0,036

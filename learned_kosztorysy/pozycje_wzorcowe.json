@@ -1,0 +1,4937 @@
+[
+  {
+    "jednostka": "szt.",
+    "opis": "Podłączenie przewodów pojedynczych w izolacji polwinitowej pod zaciski lub bolce (przekrój żył do 4 mm2)",
+    "knr": "KNR 5-08 0812-02"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Izolacja rurociągów śr. 20 mm otulinami Thermaflex FRZ gr. 20 mm",
+    "knr": "KNR 0-34 0101-10"
+  },
+  {
+    "jednostka": "kpl.",
+    "opis": "Demonta brodzika ż",
+    "knr": "KNR 4-02 0235-07"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Wykopy liniowe o szerokości 0,8-2,5 m i głębokości do 3,0 m w gruntach suchych kat. III-IV z ręcznym wydobyciem urobku - 5% wykopu",
+    "knr": "KNNR 1 0307-04"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Izolacje przeciwwilgociowe powłokowe bitumiczne pionowe - wykonywane na zimno z emulsji asfaltowej - druga i następna warstwa",
+    "knr": "KNR 2-02 0603-02"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Docieplenie ścian fundamentów płytami polistyrenowymi (styrodur XPS) gr. 15 cm, mocowanymi całopowierzchniowo klejem",
+    "knr": "KNR 0-29 0642-02"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Belki i podciągi żelbetowe stosunek obwodu do przekroju do 12",
+    "knr": "KNR 2-02 0210-03"
+  },
+  {
+    "knr": "KNR 2-31 0114-8",
+    "opis": "Podbudowa zasadnicza z kruszywa łamanego 0/31,5 mm stabilizowanego mechanicznie do Wnoś 80%, o grubości po zagęszczeniu 12 cm łącznie 20cm",
+    "jednostka": "m2"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Rury karbowane bezhalogenowe 22/18mm układane n.t. na gotowych uchwytach",
+    "knr": "KNR 5-08 0110-02"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Montaż okien rozwieranych i uchylno-rozwieranych jednodzielnych z PCV m",
+    "knr": "KNR 0-19 1024-"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Próba szczelno ci instalacji kanalizacyjnej z rur PVC w budynkach miesz- ś kalnych (ruroci g o r. do 160 mm) ą ś",
+    "knr": "KNR-W 2- 15"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Rozbiórka obudów pionów instalacyjnych, słupów i belek z płyt gipsowo- m",
+    "knr": "KNNR-W 3 0207-04"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Puszki instalacyjne podtynkowe o śr.do 80 mm o 4 wylotach",
+    "knr": "KNNR 5 0302-06"
+  },
+  {
+    "jednostka": "t",
+    "opis": "Przygotowanie i montaż zbrojenia elementów budynków i budowli - wskaźnikowo",
+    "knr": "KNR 2-02 0290-02"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Rury winidurowe karbowane (giętkie) układane p.t. w gotowych bruzdach (średnicy do 26 mm podłoże betonowe)",
+    "knr": "KNR-W 5-08 0109-03"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Montaż bednarki FeZn 30x4",
+    "knr": "KNNR 5 0603-03"
+  },
+  {
+    "jednostka": "pomiar.",
+    "opis": "Pierwszy pomiar uziemienia ochronnego lub roboczego.",
+    "knr": "KNR 4-03 1205-01"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Okładziny gipsowo-kartonowe, m",
+    "knr": "KNR 2-02 1101-"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Monta ruroci gów z PCW o r. 110 mm na cianach z ł czeniem metod ż ą ś ś ą ą wciskow wraz z przej ciem przez strop i wł czeniem na nast pnej kon- ą ś ą ę dygnacji powy ej posadzki ż",
+    "knr": "KNR 2-15 0205-04"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Rurociągi PEX o śr. 20 mm",
+    "knr": "KNR 0-13 0127-01"
+  },
+  {
+    "jednostka": "elem.",
+    "opis": "Biegi klatek schodowych o masie 0,65-2,3t",
+    "knr": "KNR 2-02 0359-03"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Monta ruroci gów z PCW o r. 75 mm na cianach z ł czeniem metod ż ą ś ś ą ą wciskow ą",
+    "knr": "KNR 2-15 0205-03"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Montaż złączy kontrolnych w przygotowanych wnękach kontrolnych z połączeniem drut-płaskownik w instalacji uziemiającej.",
+    "knr": "KNR-W 5-08 0619-06"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Trzpień żelbetowy T6.1, w ścianach murowanych o gr. do 0.3 m dwustronnie deskowane",
+    "knr": "KNR-W 2-02 0211-01"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Belki długości ponad 3 m - przekrój do 180 cm2 z tarcicy nasyconej",
+    "knr": "KNR 2-02 0406-03"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Tynki wewn.zwykłe kat.III wykon.mechanicznie na ścianach, słupach, ościeżach i kominach - pomieszczenie 1.1",
+    "knr": "KNR 2-02 0801-02"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Podłączenie kabla wieloparowego do łączówki - każde następne połączenie w łączówce, 1 para",
+    "knr": "KNR AT-15 0114-03"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Rozebranie rur spustowych z blachy nie nadającej się do użytku",
+    "knr": "KNR 4-01 0535-6"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Przewody instalacji odgromowej nienaprężane poziome mocowane na wspornikach obsadzanych",
+    "knr": "KNNR 5 0601-01"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Pełne umocnienie ścian wykopów wraz z rozbiórką palami szalunkowymi stalowymi w gruntach suchych; wykopy o szerokości do 1 m i głębokości do 3.0 m",
+    "knr": "KNNR 1 0313-01"
+  },
+  {
+    "jednostka": "m",
+    "opis": "trznych - płyt gipso- ę de ż",
+    "knr": "KNR 2-02 1505-06"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Ocieplenie ścian budynków płytami styropianowymi gr. 15 cm - przyklejenie płyt styropianowych do ścian",
+    "knr": "KNR 0-23 2612-01"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Ścianki działowe z bloków SILKA M12 o wys. do 4,5 m na zaprawie klejowej",
+    "knr": "KNR K-02 0105-06"
+  },
+  {
+    "knr": "KNR-W 5-08 0309-01",
+    "opis": "Montaż do gotowego podłoża gniazd wtyczkowych podtynkowych 2-biegunowych z uziemieniem 16A/2.5 mm2 podwójnych",
+    "jednostka": "szt."
+  },
+  {
+    "jednostka": "m",
+    "opis": "Mechaniczne wykucie bruzd dla rur o śr. do 50 mm w gipsie, tynku, gazobetonie",
+    "knr": "KNR 4-03 1001-28"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Rozebranie posadzek, z wykładzin z tworzyw sztucznych w rulonie",
+    "knr": "KNR 4-04 0504-6"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Przewody kabelkowe HDXżo 5x2,5 układane w korytkach i na drabinkach z mocowaniem pojedynczo",
+    "knr": "KNR 5-08 0214-02"
+  },
+  {
+    "knr": "KNR 2-02 9011-1",
+    "opis": "Obsadzenie drzwi wewnętrznych przeszklone EI 120 dymoszczelne S200. - naświetle górne",
+    "jednostka": "m2"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Krawężniki betonowe, dodatek za ustawienie krawężników na łukach o promieniu do 10·m",
+    "knr": "KNR 2-31 0403-7"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Wywiezienie gruzu z terenu rozbiórki przy mechanicznym załadowaniu i wyładowaniu, załadowanie koparko-ładowarką samochodów samowyładowczych, przy obsłudze 3 samochodów na zmianę",
+    "knr": "KNR 4-04 1103-1"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Montaż certyfikowanych uchwytów pod przewody kabelkowe UDF 10 E90 układane pojedynczo z przygotowaniem podłoża mechanicznie - przykręcanie do kotw metalowych E90 w podłożu betonowym",
+    "knr": "KNR 5-08 0201-03"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Odbicie tynków wewn cia- ę ś nach, filarach, pilastrach o powierzchni odbicia ponad 5 m2 - po skutych płytkach",
+    "knr": "KNR 4-01 0701-05"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Połączenie instalacji w.z. z istniejącą wewnęrzną instalacją wodociągową szt. d",
+    "knr": "KNR 0-35 0134-"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Stopy fundamentowe prostokątne żelbetowe o objętości do 0,5 m3",
+    "knr": "KNR 2-02 0204-01"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Przewody kabelkowe 2x1.5 o łącznym przekroju żył do 7.5 mm2 układane p.t. w gotowych bruzdach w podłożu innym niż betonowe",
+    "knr": "KNNR 5 0205-01"
+  },
+  {
+    "knr": "KNR 2-02 0607-1",
+    "opis": "Izolacje przeciwwilgociowe i przeciwwodne z folii polietylenowej szerokiej, izolacja pozioma podposadzkowa  - posadzka na gruncie  - POM 32",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNNR 5 0407-02",
+    "opis": "Wyłącznik nadprądowy 3-biegunowy w rozdzielnicach 32A",
+    "jednostka": "szt."
+  },
+  {
+    "jednostka": "m",
+    "opis": "Wykucie bruzd pionowych 1/4x1/2 ceg. w cianach z cegieł na zaprawie ś gowej ą",
+    "knr": "KNR 4-01 0339-01"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Płyty żelbetowe B-25, minus 7cm różnicy w grubości płyty, beton podawany pompą - łącznie 8cm - nad parterem przy windzie",
+    "knr": "KNR 2-02 0216-5"
+  },
+  {
+    "knr": "KNR-W 5-08 0403-04",
+    "opis": "Mocowanie na gotowym podłożu paneli nad łóżkowych o masie do 5 kg z częściowym rozebraniem i złożeniem z podłączenia - 4 otwory mocujące( bez tlenu)",
+    "jednostka": "szt."
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Przykr canie drobnych elementów na cianie - haczyki ę ś",
+    "knr": "KNR 4-03 1015-04"
+  },
+  {
+    "jednostka": "szt.żył",
+    "opis": "Podłączenie końcówek pod zaciski (przekroju żyły do 25 mm2 )",
+    "knr": "KNNR 5 1203-05"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Montaż na gotowym podłożu puszek bakelitowych o średnicy do 60 mm.",
+    "knr": "KNR-W 5-08 0302-01"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Podbudowa z kruszywa łamanego m",
+    "knr": "KNR 2-31 0103-"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Podkłady z ubitych materiałów sypkich na podłożu gruntowym - pospółka",
+    "knr": "KNR 2-02 1101-07"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Rurociągi miedziane na ciśnienie do 1,0 MPa o śr.zew. 12,7 mm - instalacja klimatyzacji",
+    "knr": "KNR 2-15 0601-03"
+  },
+  {
+    "knr": "KNR 2-02 1106-7",
+    "opis": "Dodatek za zbrojenie posadzki siatką stalową - posadzka na stropie piętro",
+    "jednostka": "m2"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Przebicie otworów w elementach z betonu wirowego o grubo ci do 40 cm ż ś dla instalacji",
+    "knr": "KNR 4-01 0208-04"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Obsadzenie prefabrykowanych podokienników wewnętrznych",
+    "knr": "KNR 2-02 0129-02"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Montaż wsporników dachowych",
+    "knr": "KNNR 5 0601-02"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Wykucie z muru podokienników betonowych",
+    "knr": "KNR 4-01 0354-12"
+  },
+  {
+    "jednostka": "kpl po-",
+    "opis": "Pierwszy pomiar rezystancji izolacji instalacji elektrycznych w obwodzie 1- fazowym",
+    "knr": "KNR-W 4- 03"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Wykucie z muru kratek wentylacyjnych, drzwiczek, wentylatorów szt. d",
+    "knr": "KNR 4-01 0108-"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Montaż na gotowym podłożu łączników instalacyjnych podtynkowych schodowych, dwubiegunowych w puszce instalacyjnej",
+    "knr": "KNR-W 5-08 0307-04"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Rury karbowane bezhalogenowe 22/18mm układane p.t. w gotowych bruzdach podłoże inne niż beton)",
+    "knr": "KNR-W 5-08 0109-07"
+  },
+  {
+    "jednostka": "m",
+    "opis": "cian płytkami o wymiarach 30x60 cm (lub innych wskazanych ś przez Zamawiaj kombino- ą ą z uło cie y i parapetów ą ż ś ż",
+    "knr": "KNR 2-02 0829-11"
+  },
+  {
+    "knr": "KNR 19-01 1019-3",
+    "opis": "Demontaż ościeżnic i drzwi wewnętrznych",
+    "jednostka": "m2"
+  },
+  {
+    "jednostka": "kpl",
+    "opis": "Połączenie nowo budowanej kanalizacji sanitarnej z istniejącą wewnętrzną kpl d",
+    "knr": "KNNR 1 0111-"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Ściany oporowe (część pionowa), przekrój prostokątny, grubość do 30·cm, transport betonu taczkami, japonkami",
+    "knr": "KNR 2-02 0239-5"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Przecieranie istniej cych tynków wewn trznych z zeskrobaniem farby na ą ę cianach od strony korytarza ś",
+    "knr": "KNR 4-01 0713-01"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Montaż drzwi stalowych pełnych, technicznych z obróbką obsadzenia, dwuskrzydłowych zewnętrznych",
+    "knr": "KNR 0-19 1023-12"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Rozebranie obróbek blacharskich: murów ogniowych, okapów kołnierzy, gzymsów itp. z blachy nie nadającej się do użytku",
+    "knr": "KNR 4-01 0535-8"
+  },
+  {
+    "jednostka": "kpl.",
+    "opis": "Kabiny natryskowe do k ą przesuwne",
+    "knr": "KNR 0-35 0123-01"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Ławy fundamentowe prostokątne żelbetowe, szer.0.60m",
+    "knr": "KNR 2-02 0202-01"
+  },
+  {
+    "jednostka": "szt",
+    "opis": "Otwory w ścianach murowanych -ułożenie nadproży prefabr. typu L19/180",
+    "knr": "KNR 2-02 0126-05"
+  },
+  {
+    "jednostka": "pom.",
+    "opis": "Pomiary nat enia o wietlenia ęż ś",
+    "knr": "KNR 13- 21"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Układanie kabli YKY 4x35 w budynkach, budowlach lub na estakadach z mocowaniem",
+    "knr": "KNR 5-10 0118-04"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Skucie nierówno ci 4 cm na cianach z cegieł na zaprawie cementowo- ś ś Krotno = 2 ść W zeł C ę",
+    "knr": "KNR 4-01 0347-09"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Gniazda instalacyjne wtyczkowe ze stykiem ochronnym podtynkowe 2-biegunowe przelotowe pojedyncze o obciążalności do 10 A i przekroju przewodów do 2.5 mm2",
+    "knr": "KNNR 5 0308-02"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Przewody HDX 3x1,5 mm2 wciągane do rur",
+    "knr": "KNR 5-08 0207-01"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Wykucie z muru podokienników stalowych",
+    "knr": "KNR 4-01 0354-11"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Ci cie pił diamentow betonu zbrojonego o grubo ci powy ej 15 do 40 ę ą ą ś ż cm; miejsce ci cia - posadzka i podło e ę ż",
+    "knr": "KNR AT- 17"
+  },
+  {
+    "knr": "KNR 2-02 1106-3",
+    "opis": "Posadzki cementowe, dodatek za pogrubienie posadzki o 2,5 cm ponad 25 mm - posadzka na stropie piętro",
+    "jednostka": "m2"
+  },
+  {
+    "jednostka": "m",
+    "opis": "trznych - ę podło ż",
+    "knr": "KNR 2-02 1505-03"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Krokwie zwykłe, długość ponad 4.5 m przekrój poprzeczny drewna do 180 cm2 z tarcicy nasyconej",
+    "knr": "KNR 2-02 0408-05"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Zeskrobanie i zmycie starej farby w pomieszczeniach o powierzchni pod- łogi do 5 m2 ciany ś sufit",
+    "knr": "KNR 4-01 1202-08"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Wykopy oraz przekopy wykonywane koparkami podsiębiernymi 0.40 m3 na odkład w gruncie kat. III",
+    "knr": "KNR 2-01 0217-06"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Wykucie bruzd dla rur RS47 w cegle",
+    "knr": "KNNR 5 1207-15"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Przewody instalacji odgromowej naprężane pionowe",
+    "knr": "KNNR 5 0601-06"
+  },
+  {
+    "jednostka": "cm",
+    "opis": "Wiercenie otworów o głębokości do 40 cm śr. do 40 mm techniką diamentową w betonie zbrojonym",
+    "knr": "KNR AT-17 0101-01"
+  },
+  {
+    "jednostka": "kpl.",
+    "opis": "Montaż projektorów oświetleniowych  w chodniku",
+    "knr": "KNNR 5 1008-03"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Ława pod krawężniki betonowa zwykła",
+    "knr": "KNR 2-31 0402-03"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Wykucie z muru o cie nic stalowych lub krat drzwiowych o powierzchni do ś ż 2 m2",
+    "knr": "KNR 4-01 0354-09"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Umocnienie ścian wykopów balami drewnianymi na głębokość do 9,0 m pod komory, studzienki w gruntach suchych wraz z rozbiórką",
+    "knr": "KNNR 1 0315-03"
+  },
+  {
+    "jednostka": "kpl.",
+    "opis": "Montaż projektorów oświetleniowych na ścianach budynków",
+    "knr": "KNNR 5 1008-04"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Przyklejenie warstwy siatki na ścianach",
+    "knr": "KNR 0-23 2612-06"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Montaż do gotowego podłoża gniazd wtyczkowych podtynkowych 2-biegunowych z uziemieniem 16A/2.5 mm2 pojedynczych",
+    "knr": "KNR-W 5-08 0309-02"
+  },
+  {
+    "jednostka": "kpl.",
+    "opis": "Montaż szafy (15U 600x600x770) szafa RACK 19\" wisząca",
+    "knr": "KNR AT-15 0109-03"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Izolacje cieplne i przeciwdzwiękowe z płyt styropianowych gr. 8cm układana na styropianie - druga warstwa",
+    "knr": "KNR 2-02 0609-03"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Zasypywanie rowów dla kabli wykonanych ręcznie w gruncie kat. IV",
+    "knr": "KNNR 5 0702-03"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Izolacje ścian fundamentowych z folii kubełkowej",
+    "knr": "KNR 2-02 0616-04"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Licowanie ścian płytkami - na klej",
+    "knr": "KNR 0-12 0829-03"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Dwukrotne malowanie farbami emulsyjnymi powierzchni zewnętrznych - tynków gładkich bez gruntowania",
+    "knr": "KNR 2-02 1505-10"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Rozebranie płyt żelbetowych ,schody grubości do 20 cm",
+    "knr": "KNR 4-04 0305-3"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Przewody kabelkowe 5x2,5o łącznym przekroju żył do 12.5 mm2 wciągane do rur",
+    "knr": "KNNR 5 0203-02"
+  },
+  {
+    "knr": "KNR 2-31 0703-1",
+    "opis": "Przymocowanie tablic znaków drogowych typu T - 0",
+    "jednostka": "szt"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Sufit podwieszany z płyt gipsowo-kartonowych na konstrukcji krzyżowej jednopoziomowej z profili CD 60",
+    "knr": "KNR AT-43 0209-01"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Szafki rozdzielaczowe natynkowe o szer. do 680 mm",
+    "knr": "KNR 0-35 0219-03"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Ramy górne i płatwie - przekrój do 180 cm2",
+    "knr": "KNR 2-02 0406-05"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Uszczelnienie i wypełnienie szczelin mi dzy wykutym otworem i kształtow- ę nikiem zapraw wypełniaj c ą ą ą",
+    "knr": "KNR 0-40 0110-01"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Posadzki płytkowe z kamieni sztucznych; płytki 60x60 cm (lub innych wskazanych przez Zamawiaj ą d z uło ą ą ż sy antypo lizogowo ci) ś ś",
+    "knr": "KNR 2-02 1118-11"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Ręczne układanie kabli wielożyłowych o masie do 1.0 kg/m na napięcie znamionowe poniżej 110 kV w rowach kablowych",
+    "knr": "KNR 5-10 0103-02"
+  },
+  {
+    "jednostka": "kpl",
+    "opis": "Montaż rozdzielnicy TE- mocowanie przez przykręcenie do gotowego podłoża",
+    "knr": "KNR 5-08 0404-09"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Zawory przelotowe i zwrotne o śr. nom. 15 mm",
+    "knr": "KNNR 4 0132-01"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Wieńce monolityczne na ścianach m",
+    "knr": "KNR-W 2-02 0101-06"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Montaż okien rozwieranych i uchylno-rozwieranych dwudzielnych z PCV z obróbką obsadzenia o pow. poniżej 2.5 m2 - 1,20x1,50m",
+    "knr": "KNR 0-19 1023-11"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Parapety zewnętrzne z blachy tyta-cynk",
+    "knr": "KNR 2-02 0507-03"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Osadzenie w podłożu kołków metalowych kotwiących M10 w gotowych ślepych otworach w posadzce. p.analogię",
+    "knr": "KNR-W 5-08 0801-05"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Montaż na kanałach wentylacyjnych mostków bocznikujących wykonanych przewodem N2XH-J 6mm2(p.analogie)",
+    "knr": "KNR 5-08 0620-04"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Roboty pomiarowe przy powierzchniowych robotach ziemnych - niwelacja terenu",
+    "knr": "KNR 2-01 0121-01"
+  },
+  {
+    "knr": "KNR 5-08 0515-08",
+    "opis": "Montaż z podłączeniem na gotowym podłożu opraw oświetlenia zewnętrznego wyposażona w czujnik ruchu i zmierzchu typ KANLUX S.A. (kat 33887) IQ- LED FL-30W-NW-SE(lub równoważna) instalowana na elewacji budynku ozn 5",
+    "jednostka": "szt."
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Rozłącznik lub wyłącznik przeciwporażeniowy 3 (4)-biegunowy w rozdzielnicach CDC425J",
+    "knr": "KNNR 5 0407-04"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Posadzki cementowe, zatarte na gładko grubości 25 mm - posadzka na stropie piętro",
+    "knr": "KNR 2-02 1106-2"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Montaż rynien dachowych",
+    "knr": "KNR K-05 0501-01"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Montaż na gotowym podłożu łączników instalacyjnych p/t pojedynczych hermetycznych",
+    "knr": "KNR-W 5-08 0307-05"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Ławy pod obrzeża, betonowa zwykła B-15",
+    "knr": "KNR 2-31 0402-3"
+  },
+  {
+    "jednostka": "szt",
+    "opis": "Przykręcanie drobnych elementów na ścianie - uchwyt na papier toaletowyszt. d",
+    "knr": "KNR 4-03 1017-"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Izolacje przeciwwilgoc.powlokowe bitumiczne pionowe - wyk.na zimno z masy dyspersyjnej - pierwsza warstwa",
+    "knr": "KNR 2-02 0603-03"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Zawory czerpalne zewnętrzne",
+    "knr": "KNNR 4 0135-03"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Ściany budynków jednokondygnacyjnych o wys. do 4,5 m i gr. 25 cm z pustaków ceramicznych 25P+W (pióro i wpust) szczyty",
+    "knr": "KNR 0-27 0160-02"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Rurociągi z PVC kanalizacyjne o śr. 160 mm w gotowych wykopach, wewnątrz budynków o połączeniach wciskowych",
+    "knr": "KNR-W 2-15 0203-04"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Układanie rur ochronnych DVK 75 w wykopie",
+    "knr": "KNR 5-10 0303-01"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Balustrady zewn. przy pochylniach stalowe niklowane dwuporęczowe",
+    "knr": "KNR 2-02 1214-5"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Wykonywane ręcznie tynki wewnętrzne zwykłe kat. III i IV na ościeżach otworów o pow. ponad 3m2 o szerokości 20 cm",
+    "knr": "KNR 2-02 0810-06"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Otwory na drzwi, drzwi balkonowe i wrota w ścianach murowanych grubości 1 cegły z cegieł pojedynczych, bloczków i pustaków",
+    "knr": "KNR-W 2-02 0132-02"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Poł czenie instalacji c.w.u. z istniej c wewn rzn instalacj wodoci go- ą ą ą ę ą ą ą w z monta em zaworu odcinaj cego ą ż ą",
+    "knr": "KNR 4-02 0111-03"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Hydranty nadziemne o śr. nom. 80 mm",
+    "knr": "KNR-W 2-15 0140-01"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Rozbiórki izolacji cieplnych ze styropianu",
+    "knr": "KNR 13-23 0106-8"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Izolacja ruroci gów ą ś wo- wymi gr. 13 mm (J) - woda zimna",
+    "knr": "KNR 0-34 0101-07"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Izolacja ruroci gów ą ś wymi gr.13 mm (J)",
+    "knr": "KNR 0-34 0101-06"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Kopanie koparkami podsiębiernymi rowów dla kabli o głębokości do 1,0 m i szer. dna do 0,4 m w gruncie kat. III-IV",
+    "knr": "KNR 2-01 0702-0203"
+  },
+  {
+    "jednostka": "szt",
+    "opis": "Wymiana włazu na stropodach 60x60 EI60 dymoszczelne S200.",
+    "knr": "KNR 15 0526-2"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Podkłady betonowe na podłożu gruntowym - beton chudy B-10",
+    "knr": "KNR 2-02 1101-01"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Montaż ochronników przepięciowych do zewnętrznych kamer IP",
+    "knr": "KNR AL-01 0501-02"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Montaż rynien dachowych - lej spustowy",
+    "knr": "KNR K-05 0501-06"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Rozbiórka pokrycia z papy, dach betonowy, 1 warstwa",
+    "knr": "KNR 4-01 0519-6"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Posadzki z wykładzin z tworzyw sztucznych - zgrzewanie wykładzin rulonowych",
+    "knr": "KNR 2-02 1112-09"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Ręczne zasypywanie wykopów liniowych o ścianach pionowych, głębokość do 1.5·m, kategoria gruntu III-IV, szerokość wykopu 0.8-1.5·m",
+    "knr": "KNR 2-01 0320-2"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Mechaniczna rozbiórka nawierzchni betonowej w jezdni drogowej",
+    "knr": "KNR 2-31"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Wykonanie trawników dywanowych siewem na gruncie kat. III bez nawożenia",
+    "knr": "KNR 2-21 0401-02"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Rozebranie płyt żelbetowych , płyta schody grubości do 15 cm - balkony",
+    "knr": "KNR 4-04 0305-2"
+  },
+  {
+    "knr": "KNR-W 5-08 0309-05",
+    "opis": "Montaż do gotowego podłoża gniazd wtyczkowych bryzgoszczelnych 2-biegunowych z uziemieniem przykręcanych 16A/2.5 mm2",
+    "jednostka": "szt."
+  },
+  {
+    "jednostka": "m",
+    "opis": "Izolacja ruroci gów ą ś wo- wymi gr. 20 mm (N) - woda ciepła",
+    "knr": "KNR 0-34 0101-11"
+  },
+  {
+    "knr": "KNR 2-02 0609-3",
+    "opis": "Izolacje cieplne i przeciwdźwiękowe z płyt styropianowych EPS100, izolacje poziome na wierzchu konstrukcji, na sucho, 1 warstwa gr. 3cm - posadzka na stropie piętro",
+    "jednostka": "m2"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Murłaty - przekrój poprzeczny drewna ponad 180 cm2",
+    "knr": "KNR 2-02 0406-02"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Warstwy odsączające z piasku wykonanie i zagęszczanie mechaniczne do Is = 0,98 grubość warstwy po zagęszczeniu 15 cm",
+    "knr": "KNR 2-31 0104-7"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Obsadzenie o cie nic stalowych stałych ś ż",
+    "knr": "KNR 4-01 0320-03"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Nawierzchnie z kostki brukowej betonowej o grubości 8 cm na podsypce cementowo-piaskowej",
+    "knr": "KNR 2-31 0511-03"
+  },
+  {
+    "jednostka": "odc.-1 prób",
+    "opis": "Próba wodna szczelności kanałów rurowych o śr. nominalnej do 200 mm",
+    "knr": "KNNR 4 1610-02"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Przecieranie istniejących tynków wewnętrznych, z zeskrobaniem farby, na ścianach",
+    "knr": "KNRW 4-01 0713-1"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Blachodachówka TYTAN z blachy tytanowo-cynkowej - dachy o nachyleniu połaci ponad 85% i pow. ponad 50 m2",
+    "knr": "KNR AT-09 0803-06"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Trzpienie żelbetowe T1.1 i T1.2 w ścianach murowanych o gr. do 0.3 m dwustronnie deskowane",
+    "knr": "KNR-W 2-02 0211-02"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Burzenie murków dojść/tarasów zewnętrznych",
+    "knr": "KNR 4-04 0602-1"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Łączniki krzyżowe, dwubiegunowe podtynkowe w puszce instalacyjnej",
+    "knr": "KNNR 5 0306-04"
+  },
+  {
+    "jednostka": "szt",
+    "opis": "Mechaniczne karczowanie pni, Fi· ponad 75·cm",
+    "knr": "KNR 2-01 0105-7"
+  },
+  {
+    "knr": "KNR-W 5-08 0307-02",
+    "opis": "Montaż na gotowym podłożu łączników instalacyjnych podtynkowych jednobiegunowych IP20, w puszce instalacyjnej z podłączeniem.",
+    "jednostka": "szt."
+  },
+  {
+    "jednostka": "kpl.pom.",
+    "opis": "Pomiary natężenia oświetlenia - pierwszy kpl. 5 pomiarów dok.na stanowisku",
+    "knr": "KNR 13-21 0301-03"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Samopoziomoujący podkład podłogowy Atlas Sam 200 pod posadzki z wykładzin jastrych anhydrytowy, wylewany (1- i 2- warstwowy), zespolony 25 mm",
+    "knr": "KNNRW 2 1207-1"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Umocowanie siatek Rabitz na ścianach",
+    "knr": "KNR 4-01 0703-1"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Mechaniczne zasypywanie rowów dla kabli o głębokości do 1,0 m i szer. dna do 0.4 m w gruncie kat. III-IV",
+    "knr": "KNR 2-01 0705-0204"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Montaż elementów systemu przywoławczego - terminalNODE LCD z wezwaniem lekarza",
+    "knr": "KNR AL-01 0302-06"
+  },
+  {
+    "jednostka": "kpl.",
+    "opis": "Rozdzielacze do c.o. podłogowego 11 obwodów",
+    "knr": "KNR 0-35 0220-10"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Pomiary przy wykopach fundamentowych w terenie równinnym i nizinnym",
+    "knr": "KNR 2-01 0122-01"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Osadzenie w podłożu kołków metalowych kotwiących UKk-70/6 w gotowych ślepych otworach w ścianie.",
+    "knr": "KNR-W 5-08 0801-04"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Usunięcie warstwy ziemi m",
+    "knr": "KNR 2-01 0122-"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Montaż przewodów uziemiających i wyrównawczych głównych i lokalnych",
+    "knr": "KNNR 5 0602-04"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Studnie rewizyjne z kręgów betonowych o śr. 1000 mm - głębokość 2,0 m",
+    "knr": "KNR-W 2-15 0115-04"
+  },
+  {
+    "jednostka": "otw.",
+    "opis": "Mechaniczne przebijanie otworów w ścianach lub stropach z cegły o długości przebicia do 1 1/2 cegły - śr. rury do 25 mm",
+    "knr": "KNR-W 4-03 1003-11"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Zawory przelotowe i zwrotne o śr. nom. 20 mm",
+    "knr": "KNNR 4 0132-02"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Koryta wykonywane na całej szerokości jezdni i chodników, ręcznie, grunt kategorii I-II, dodatek za dalsze 10·cm głębokości",
+    "knr": "KNR 2-31 0101-6"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Podkłady, betonowe na podłożu gruntowym B-20 - POM 32",
+    "knr": "KNR 2-02 1101-1"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Łączenie pręta o średnicy do 10 mm na dachu za pomoca złączy skręcanych krzyżowych 2-otworowych",
+    "knr": "KNR-W 5-08 0618-01"
+  },
+  {
+    "jednostka": "m",
+    "opis": "cianach z cegieł ś",
+    "knr": "KNR-W 4- 01"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Wykonanie połączenia połaci ze ścianami - przednie",
+    "knr": "KNR K-05 0402-01"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Usuni cie z parteru budynku gruzu i ziemi ę",
+    "knr": "KNR 4-01 0106-04"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Montaż opraw oświetlenia zewnętrznego na słupie",
+    "knr": "KNNR 5 1004-01"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Wykopy liniowe o ścianach pionowych szerokości 0.8-1.5 m pod fundamenty, rurociągi, kolektory w gruntach suchych z wydobyciem urobku łopatą lub wyciągiem ręcznym kat. III-IV; głębokość do 1.5 m",
+    "knr": "KNR-W 2-01 0310-0201"
+  },
+  {
+    "knr": "KNR 11 0317-1",
+    "opis": "Nawierzchnie z brukowej kostki betonowej „Nostalit” w kolorze grafitowym o grubości 8 cm na podsypce z miału kamiennego o grubości 3 cm z zamuleniem spoin zaprawą cementową",
+    "jednostka": "m2"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Ocieplenie ścian budynków płytami z wełny mineralnej - przymocowanie płyt za pomocą łączników metalowych",
+    "knr": "KNR 0-23 2613-03"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Rurociągi z PVC kanalizacyjne o śr. 200 mm w wykopach",
+    "knr": "KNR-W 2-15 0101-06"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Gładź gipsowa na sufitach 2-warstwowa",
+    "knr": "KNR 2-02 0815-6"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Ścianki działowe budynków jednokondygnacyjnych o wys. do 4,5 m i gr. 11,5 cm z pustaków ceramicznych 11,5P+W (pióro i wpust)",
+    "knr": "KNR 0-27 0162-02"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Rozbiórka obudów pionów instalacyjnych, słupów i belek z płyt gipsowo- kartonowych przy powierzchni rozbiórki do 2 m2 - okładzina podwójna wraz z okładzinami",
+    "knr": "KNR 9-29 0105-02"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Rowki pod krawężniki i ławy krawężnikowe, 20x20 cm, grunt kategorii III-IV",
+    "knr": "KNR 2-31 0401-2"
+  },
+  {
+    "knr": "KNR-W 5-08 0308-04",
+    "opis": "Montaż na gotowym podłożu kasety sterującej składającej się z przycisków start i stop oraz lampki sygnalizacyjnej 230V AC zielonej - przez przykręcanie do gotowego podłoża",
+    "jednostka": "kpl"
+  },
+  {
+    "jednostka": "m",
+    "opis": "cznie - doda- ę tek za kolejn gr. 0,5 mm ą ę",
+    "knr": "KNR AT- 27"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Badania i pomiary instalacji piorunochronnej (każdy następny pomiar)",
+    "knr": "KNNR 5 1304-04"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Podsypka piaskowa z zagęszczeniem mechanicznym - 3 cm grubości warstwy po zagęszczeniu",
+    "knr": "KNR 2-31 0105-03"
+  },
+  {
+    "jednostka": "prób.",
+    "opis": "Sprawdzenie samoczynnego wyłączania zasilania (następna próba)",
+    "knr": "KNNR 5 1305-02"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Montaż do gotowego podłoża gniazd wtyczkowych 3P+N+PE 16A 400V AC z rozłącznikiem nt z podłączeniem",
+    "knr": "KNR 5-08 0309-09"
+  },
+  {
+    "jednostka": "m",
+    "opis": "wirobetonem bruzd o przekroju do 0.045 m2 w ż podło ach, stropach i ż ś ń ń",
+    "knr": "KNR 4-01 0207-03"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Montaż patch panelu 24xRJ45",
+    "knr": "KNR AT-28 0111-01"
+  },
+  {
+    "jednostka": "szt",
+    "opis": "Praca próbna i testowanie systemu alarmowego do 48 elementów liniowych",
+    "knr": "KNR AL-01 0604-02"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Montaż rur spustowych - kolanko",
+    "knr": "KNR K-05 0502-03"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Przygotowanie podłoża pod mocowanie osprzętu przez przykręcenie do kołków plastikowych w podłożu z cegły",
+    "knr": "KNR-W 5-08 0301-02"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Rozbiórka okładzin ścian z płyt gipsowo-kartonowych przy powierzchni m",
+    "knr": "KNR 0-29 0642-"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Ściany z bloków SILKA M24 w budynkach wielokondygnacyjnych na zaprawie cienkospoinowej (klejowej)",
+    "knr": "KNR K-02 0104-09"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Szafki rozdzielaczowe natynkowe do 450 mm",
+    "knr": "KNR 0-35 0219-01"
+  },
+  {
+    "knr": "KNR 39 0115-1",
+    "opis": "Uszczelnienie pomieszczeń mokrych i wilgotnych płynną folią uszczelniającą - posadzka",
+    "jednostka": "m2"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Ułożenie rur osłonowych z PCW o śr.do 140 mm",
+    "knr": "KNNR 5 0705-01"
+  },
+  {
+    "jednostka": "pomiar.",
+    "opis": "Sprawdzenie i pomiar kompletnego 3-fazowego obwodu elektrycznego niskiego napięcia",
+    "knr": "KNR 4-03 1202-02"
+  },
+  {
+    "jednostka": "m",
+    "opis": "trzne gr. 3 mm z gipsu szpachlo- ę cznie na cianach na podło u z tynku ę ś ż",
+    "knr": "KNR 2-02 2009-02"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Wykucie bruzd poziomych 1/4x1/2 ceg. w cianach z cegieł na zaprawie ś",
+    "knr": "KNR 4-01 0336-01"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Próba szczelno ci instalacji wody zimnej i ciepłej w budynkach mieszkal- ś nych - próba wodna ci ś",
+    "knr": "KNR 0-31 0116-02"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Wykucie z muru o cie nic drewnianych o powierzchni do 1 m2 - okno ś ż",
+    "knr": "KNR 4-01 0354-03"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Usunięcie warstwy ziemi urodzajnej (humusu) o grubości do 15 cm za pomocą spycharek",
+    "knr": "KNR 2-01 0126-01"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Wyprawa elewacyjna - nałożenie podkładowej masy tynkarskiej",
+    "knr": "KNR 0-23 0933-01"
+  },
+  {
+    "knr": "KNR 2-31 0403-3",
+    "opis": "Krawężniki betonowe wystające o wymiarach 15x22 cm na podsypce cementowo-piaskowej",
+    "jednostka": "m"
+  },
+  {
+    "jednostka": "aparat",
+    "opis": "Przygotowanie podłoża do zabudowania aparatów - kucie mechaniczne pod kołki rozporowe plastikowe w podłożu z cegły - aparat o 1-2 otworach mocujących",
+    "knr": "KNR-W 5-08 0401-07"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Chodniki z betonowej kostki betonowej „Holland” w kolorze szarym o grubości 6 cm na podsypce z miału kamiennego o grubości 3 cm z wypełnieniem spoin piaskiem",
+    "knr": "KNR 11 0321-1"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Usunięcie warstwy ziemi urodzajnej (humus) przy pomocy spycharek, grubość warstwy do 15·cm",
+    "knr": "KNR 2-01 0126-1"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Rozbiórka cianek działowych z płyt gipsowo-kartonowych na szkielecie ś pojedynczym przy powierzchni rozbiórki do 5 m2 - okładzina pojedyncza wraz z okładzinami",
+    "knr": "KNR 9-29 0103-01"
+  },
+  {
+    "knr": "KNR 2-31 0101-2",
+    "opis": "Koryta wykonywane na całej szerokości jezdni i chodników, mechanicznie, grunt kategorii I-IV, dodatek za dalsze 30·cm głębokości",
+    "jednostka": "m2"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Wykucie, zamurowanie i otynkowanie bruzd w ścianach z cegły, wykucie ręczne, ściana na zaprawie wapiennej lub cementowo-wapiennej",
+    "knr": "KNNRW 3 0309-1"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Przyklejenie warstwy siatki na ościeżach i attykach",
+    "knr": "KNR 0-23 2612-07"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Podsypka cementowo-piaskowa z zagęszczeniem mechanicznym - 3 cm grubości warstwy po zagęszczeniu",
+    "knr": "KNR 2-31 0105-07"
+  },
+  {
+    "knr": "KNR-W 5-08 0307-03",
+    "opis": "Montaż na gotowym podłożu łączników instalacyjnych podtynkowych świecznikowych IP20 w puszce instalacyjnej",
+    "jednostka": "szt."
+  },
+  {
+    "jednostka": "m",
+    "opis": "Przewody kabelkowe HDX 3x1,5 mm2 układane w korytkach i na drabinkach z mocowaniem pojedynczo",
+    "knr": "KNR 5-08 0214-01"
+  },
+  {
+    "jednostka": "kpl.",
+    "opis": "Próba szczelno ci instalacji wody zimnej i ciepłej w budynkach mieszkal- ś nych - płukanie, czynno czeniowe ś ń",
+    "knr": "KNR 0-31 0116-01"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Słupy żelbetowe, prostokątne o wysokości do 4 m - z pompą do betonu",
+    "knr": "KNR 2-02 0208-05"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Skrzydła drzwiowe płytowe wewn trzne jednodzielne pełne o powierzchni ę ponad 1.6 m2 fabrycznie wyko czone z kompletem oku , kratk lub pod- ń ć ą ci ciem wentylacyjnym ę",
+    "knr": "KNR 2-02 1017-02"
+  },
+  {
+    "knr": "KNR 2-31 0114-05",
+    "opis": "Podbudowa z kruszywa łamanego - warstwa dolna o grubości po zagęszczeniu 15 cm",
+    "jednostka": "m2"
+  },
+  {
+    "jednostka": "mp",
+    "opis": "Wywożenie dłużyc, karpiny i gałęzi, transport na odległość do 2·km, gałęzie",
+    "knr": "KNR 2-01 0110-3"
+  },
+  {
+    "jednostka": "prób.",
+    "opis": "Sprawdzenie samoczynnego wyłączania zasilania (pierwsza próba)",
+    "knr": "KNNR 5 1305-01"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Dachy z wiązarów deskowych z tarcicy nasyconej o rozpiętości 13,5 m",
+    "knr": "KNR 2-02 0405-05"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Montaż LSWP (lokalna szyna)",
+    "knr": "KNNR 5 0612-06"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Rurociągi miedziane na ciśnienie do 1,0 MPa o śr.zew. 22,2 mm - instalacja klimatyzacji",
+    "knr": "KNR 2-15 0601-05"
+  },
+  {
+    "knr": "KNR 5-08 0210-02",
+    "opis": "Przewody HDX 3x1,5 mm2 układane w gotowych bruzdach bez zaprawiania bruzd na podłożu nie- betonowym",
+    "jednostka": "m"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Mechaniczne malowanie linii na skrzyżowaniach i przejściach dla pieszych farbą chlorokauczukową",
+    "knr": "KNR 2-31 0706-6"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Rozebranie nawierzchni i chodników, płyty chodnikowe betonowe 50x50x7 na podsypce piaskowej, ręcznie",
+    "knr": "KNNR 5 0719-8"
+  },
+  {
+    "knr": "KNR 5-08 0207-02",
+    "opis": "Przewody kabelkowe LiYCY 2X0,75 wciągane do rur",
+    "jednostka": "m"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Ocieplenie ścian budynków płytami z wełny mineralnej gr. 5 cm",
+    "knr": "KNR 0-23 2613-01"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Grzejniki stalowe elektryczne 1000W",
+    "knr": "KNR 0-35 0214-02"
+  },
+  {
+    "jednostka": "kpl.",
+    "opis": "Elementy montażowe do miski ustępowej montowane na ścianie nps",
+    "knr": "KNR 2-15"
+  },
+  {
+    "knr": "KNNR 5 0404-06",
+    "opis": "Obudowa XL3 400 IP30 5x24 400V",
+    "jednostka": "szt."
+  },
+  {
+    "jednostka": "m",
+    "opis": "Monta ruroci gów z PCW o r. 50 mm na cianach z ł czeniem metod ż ą ś ś ą ą wciskow ą",
+    "knr": "KNR 2-15 0205-02"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Ścianki działowe, z płytek piano- lub gazobetonowych o grubości 8 cm",
+    "knr": "KNR 2-02 0121-1"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Płyty cementowe zatarte na gładko grubości 15 cm",
+    "knr": "KNR 2-02 1106-02"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Montaż rur spustowych - klapa burzowa",
+    "knr": "KNR K-05 0502-06"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Nawierzchnia betonowa opaski minus 7cm grubości",
+    "knr": "KNR 2-31 0109-2"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Tynki wewn cznie na podło u z cegły, ę ę ż pustaków ceramicznych, gazo- i pianobetonów na cianach w pomiesz- ś czeniach o powierzchni podłogi ponad 5 m2",
+    "knr": "KNR 4-01 0716-02"
+  },
+  {
+    "jednostka": "pomiar",
+    "opis": "Sprawdzenie i pomiar 3-fazowego obwodu elektrycznego niskiego napięcia",
+    "knr": "KNNR 5 1301-02"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Stopy fundamentowe prostokątne żelbetowe, o obj.do 1.5m3",
+    "knr": "KNR 2-02 0204-02"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Ściany piwniczne i fundamentowe zewnętrzne z bloków SILKA",
+    "knr": "KNR K-28 0101-03"
+  },
+  {
+    "jednostka": "kpl.",
+    "opis": "Montaż opraw oświetleniowych typ 4",
+    "knr": "KNNR 5 0502-03"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Obróbki blacharskie z blachy powlekanej",
+    "knr": "KNR 2-02 0517-02"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Dekoder dla czterech urzytkowników",
+    "knr": "KNR AL-01 0112-05"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Izolacje przeciwwilgoc.i przeciwwodne z folii polietylen.szerokiej poziome podposadzkowe",
+    "knr": "KNR 2-02 0607-01"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Posadzki cementowe wraz z cokolikami - dopłata za zbrojenie siatk sta- ą low ą",
+    "knr": "KNR 2-02 1106-07"
+  },
+  {
+    "jednostka": "szt",
+    "opis": "Słupki do znaków drogowych z rur stalowych o śr. 70 mm",
+    "knr": "KNR 2-31 0702-2"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Układanie kabli o masie do 18.0 kg/m w rowach kablowych ręcznie",
+    "knr": "KNNR 5 0707-08"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Zasypywanie przestrzeni za ścianami budowli z zagęszczeniem ubijakami ręcznymi",
+    "knr": "KNR 2-01 0504-01"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Wieńce monolityczne na ścianach wewnętrznych",
+    "knr": "KNR 2-02 0212-11"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Przewód odprowadzający (prowadzony w rurce w ociepleniu)",
+    "knr": "KNNR 5 1204-03"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Rurociągi z PVC kanalizacyjne o śr. 50 mm w budynkach mieszkalnych o połączeniach wciskowych",
+    "knr": "KNR-W 2-15 0207-01"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Ława pod krawężniki betonowa z oporem",
+    "knr": "KNR 2-31 0402-04"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Montaż rynien dachowych - denko",
+    "knr": "KNR K-05 0501-07"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Izolacje przeciwwilgociowe powłokowe bitumiczne pionowe - pierwsza warstwa",
+    "knr": "KNR 2-02 0603-01"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Pozycja testowa z wartoĹ›ciami",
+    "knr": "KNR 2-01 0101-01"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Łączniki świecznikowe podtynkowe w puszce instalacyjnej",
+    "knr": "KNNR 5 0306-03"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Blachodachówka TYTAN z blachy tytanowo-cynkowej - elementy wykończeniowe - gąsiory",
+    "knr": "KNR AT-09 0803-10"
+  },
+  {
+    "knr": "KNR 19-01 0907-5",
+    "opis": "Okładziny ścian z wykładzin z tworzyw sztucznych, rulonowe heterogeniczne klejone",
+    "jednostka": "m2"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Instalowanie gniazd w wykonaniu zwykłym do samoczynnych ostrzegaczy pożarowych-czujek kołkami rozporowymi na betonie",
+    "knr": "KNR 5-06 1606-04"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Montaż uchwytów pod rury instalacyjne odgromowe fi 12mm układane pojedynczo z przygotowaniem podłoża mechanicznie - przykręcenie do kołków plastykowych w podłożu z cegły (w ociepleniu).",
+    "knr": "KNR-W 5-08 0101-03"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Osłony przewodów uziemiających o długości do 2 m  DVK",
+    "knr": "KNNR 5 0614-02"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Izolacje pionowe ścian fundamentowych z folii kubełkowej",
+    "knr": "KNNR-W 3 0207-02"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Mocowanie elementów za pomocą kotew chemicznych w ampułkach z żywicy syntetycznej i prętów ocynkowanych gwintowanych fi 16",
+    "knr": "KNR DC-03 0110-04"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Rozbiórka okładzin cian z płyt gipsowo-kartonowych przy powierzchni ś rozbiórki do 5 m2 - po skutych płytkach",
+    "knr": "KNR 9-29 0101-01"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Przewody kabelkowe 5x4 układane p.t. w gotowych bruzdach w podłożu innym niż betonowe",
+    "knr": "KNNR 5 0716-01"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Ręczne wykopy ciągłe lub jamiste ze skarpami o szer. dna do 1,5 m i gł. do 1,5 m - kat. gruntu III",
+    "knr": "KNR 2-01 0310-02"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Obróbki przy szer.w rozw.ponad 25cm- z blachy z tytan-cynku",
+    "knr": "KNR 2-02 0507-02"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Podbudowa z kruszywa łamanego - warstwa górna o grubości po zagęszczeniu 8 cm",
+    "knr": "KNR 2-31 0114-07"
+  },
+  {
+    "jednostka": "pomiar",
+    "opis": "Sprawdzenie samoczynnego wyłączenia zasilania - pomiar impedancji pętli zwarciowej - pierwszy",
+    "knr": "KNR-W 5-08 0902-01"
+  },
+  {
+    "jednostka": "przepust.",
+    "opis": "Montaż przepustów rurowych w ścianie - długość przepustu do 1 m - śr.zewnętrzna rury do 25 mm",
+    "knr": "KNR-W 4-03 1008-01"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Rozebranie obrzeży8x30 cm na podsypce piaskowej",
+    "knr": "KNR 2-31 0814-2"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Posadzki z płytek o wymiarach 30 x 30 cm, układanych metodą kombinowaną",
+    "knr": "KNR 0-12 1118-04"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Nakłady uzupełniające za każde dalsze 0.5 km transportu - Krotność = 8",
+    "knr": "KNR 2-01 0214-02"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Montaż rurociągów z PCW o śr",
+    "knr": "KNR 2-15 0601-"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Tynki zwykłe wykonane mechanicznie, ściany i słupy, kategoria·III, budynki do 8 kondygnacji",
+    "knr": "KNR 2-02 0801-2"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Ręczne przygotowanie zaprawy - podłoże cementowo -wapienne",
+    "knr": "KNR-W 4-03 1014-01"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Ściany oporowe żelbetowe - podstawa ściany (część pozioma), prostokątna, o stopie płaskiej, transport betonu taczkami, japonkami",
+    "knr": "KNR 2-02 0238-1"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Wewnętrzne gładzie gipsowe - dodatek za narożniki metalowe",
+    "knr": "KNR-W 2-02 0830-07"
+  },
+  {
+    "jednostka": "kpl.",
+    "opis": "Montaż wyposażenia szaf dystrybucyjnych 19\" - urządzenia aktywne",
+    "knr": "KNR AT-15 0109-14"
+  },
+  {
+    "jednostka": "szt.żył",
+    "opis": "Podłączenie przewodów pojedynczych o przekroju żyły do 120 mm2 pod zaciski lub bolce",
+    "knr": "KNNR 5 1203-06"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Demonta ruroci gu eliwnego/PCV kanalizacyjnego o r. 50-100 mm - ż ą ż ś na cianach budynku i poziomy ś",
+    "knr": "KNR 4-02 0230-04"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Uzupełnienie okładzin z płyt gipsowo-kartonowych cianek działowych i ś przed ś grubo ci do 12,5 mm ś",
+    "knr": "KNR 9-29 0306-01"
+  },
+  {
+    "knr": "KNNR 5 0203-01",
+    "opis": "Przewody telekomunikacyjny   wciągane do rur",
+    "jednostka": "m"
+  },
+  {
+    "jednostka": "kpl.",
+    "opis": "Montaż opraw awaryjnych kierunkowych AW",
+    "knr": "KNNR 5 0502-02"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Wieńce monolityczne na ścianach o szer. do 30 cm - W1",
+    "knr": "KNR-W 2-02 20225-04"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Rurociągi z PVC o śr. zewnętrznej 40 mm łączone metodą klejenia - odprowadzenie skroplin",
+    "knr": "KNR-W 2-15 0110-04"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Uzupełnienie tynków zwykłych wewn trznych kat. III z zaprawy cemento- ę gach, biegach i spocznikach ą na podło u z cegły i pustaków (do 2 m2 w 1 miejscu) ż A (suma cz ęś",
+    "knr": "KNR 4-01 0711-14"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Monta do gotowego podło a gniazd wtyczkowych podtynkowych 2-biegu- ż ż nowych z uziemieniem w puszkach podwójnych z podł czeniem ą",
+    "knr": "KNR 5-08 0309-03"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Mechaniczne wykucie bruzd dla przewodów wtynkowych w cegle",
+    "knr": "KNR-W 4-03 1001-01"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Wywiezienie gruzu z terenu rozbiórki przy mechanicznym załadowaniu i wyładowaniu, transport samochodem samowyładowczym na odległość 1 km",
+    "knr": "KNR 4-04 1103-4"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Montaż elementów konstrukcyjnych - wsporniki pod korytka kablowe - przez przykręcanie do gotowego podłoża na ścianie (2 mocowania).- wspornik sufitowy WPDH200N",
+    "knr": "KNR-W 5-08 0701-02"
+  },
+  {
+    "jednostka": "podłącz.",
+    "opis": "Podłączenie przewodów kabelkowych do 2.5 mm2 w powłoce polwinitowej pod zaciski lub śruby - zasilanie do siłowników",
+    "knr": "KNR 4-03 0901-08"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Nasypanie warstwy piasku grub. 0.1 m na dno rowu kablowego o szer.do 0.6 m",
+    "knr": "KNR 5-10 0301-02"
+  },
+  {
+    "jednostka": "pomiar",
+    "opis": "Pomiar rezystancji izolacji instalacji elektrycznej - obwód 3-fazowy (każdy następny pomiar)",
+    "knr": "KNNR 5 1303-04"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Ścianki działowe, z płytek piano- lub gazobetonowych o grubości 12 cm",
+    "knr": "KNR 2-02 0121-3"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Kabiny natryskowe do kąpieli z szybami ze szkła hartowanego - drzwi kpl. d",
+    "knr": "KNR 0-35 0122-"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Koryta wykonywane na całej szerokości jezdni i chodników, mechanicznie, grunt kategorii I-IV, na głębokości 20·cm",
+    "knr": "KNR 2-31 0101-1"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Przewody kabelkowe o łącznym przekroju 5z6żył do 30 mm2",
+    "knr": "KNNR 5 0203-03"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Zasuwy żeliwne kołnierzowe o śr. nom. 50 mm",
+    "knr": "KNR-W 2-15 0132-04"
+  },
+  {
+    "jednostka": "pomiar",
+    "opis": "Sprawdzenie i pomiar 1-fazowego obwodu elektrycznego niskiego napięcia",
+    "knr": "KNNR 5 1301-01"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Rury wywiewne z PVC o połączeniu wciskowym o śr. 110 mm",
+    "knr": "KNR-W 2-15 0213-05"
+  },
+  {
+    "jednostka": "przepust.",
+    "opis": "Montaż przepustów rurowych w ścianie - długość przepustu do 1 m - śr.zewnętrzna rury do 60 mm",
+    "knr": "KNR-W 4-03 1008-03"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Wykonanie izolacji poziomej z folii w płynie",
+    "knr": "KNR K-04 0602-01"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Nawierzchnie z kostki brukowej betonowej o grubości 6 cm na podsypce cementowo-piaskowej",
+    "knr": "KNR 2-31 0511-02"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Rozebranie balustrad z kształtowników stalowych",
+    "knr": "KNR 4-04 0804-1"
+  },
+  {
+    "jednostka": "szt",
+    "opis": "Otwory na okna w ścianach murowanych grubości 1 cegły",
+    "knr": "KNR-W 2-02 0132-01"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Przykręcanie do gotowych otworów perforowanych koryt kablowych 150H50",
+    "knr": "KNR-W 5-08 0705-08"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Sufity podwieszane z płyt gipsowo-kartonowych NIDA Ogień (system NIDA Sufit) na metalowej konstrukcji nośnej NIDA 60CD dwupoziomowej, dwie warstwy pokrycia 12,5-02, odporność ogniowa F 1/EI 60",
+    "knr": "KNR AT-12 0201-05"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Wywiezienie gruzu z terenu rozbiórki przy mechanicznym załadowaniu i wyładowaniu, nakłądy uzupełniające na każdy dalszy rozpoczęty 1·km ponad 1·km transportu",
+    "knr": "KNR 4-04 1103-5"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Mechaniczne rozebranie nawierzchni chodnika z mieszanek mineralno-bitumicznych o grubości 4 cm",
+    "knr": "KNR 2-31 0803-3"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Ręczne wykucie bruzd dla rur: RKLG18, RS-P16, RS22 o śr.do 47 mm w betonie",
+    "knr": "KNR-W 4-03 1001-15"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Ochrona narożników wypukłych kątownikiem metalowym",
+    "knr": "KNR 0-23 2612-08"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Układanie rur ochronnych z PCW o średnicy do 110 mm w wykopie.",
+    "knr": "KNR-W 5-10 0303-02"
+  },
+  {
+    "jednostka": "t",
+    "opis": "Nadroża stalowe z przygotowaniem i montażem",
+    "knr": "KNR 2-05 0101-6"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Montaż do gotowego podłoża gniazd wtyczkowych podtynkowych 2-biegunowych pojedynczych z uziemieniem, IP 44 16A, 250V w puszkach instalacyjnych z podłączeniem.",
+    "knr": "KNR-W 5-08 0309-03"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Rury winidurowe karbowane (giętkie) o śr.do 23 mm układane p.t. w gotowych bruzdach w podłożu innym niż beton",
+    "knr": "KNNR 5 0102-06"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Rurociągi PEX o śr. 32 mm",
+    "knr": "KNR 0-13 0127-03"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Montaż okien R-U o pow. do 3.0 m2",
+    "knr": "KNR 0-19 1024-04"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Wewnętrzne gładzie gipsowe dwuwarstwowe na ścianach z elementów prefabrykowanych i betonów wylewanych",
+    "knr": "KNR-W 2-02 0830-04"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "ciankach działowych z profili UA 75 pod mon- ś ta drzwi i na wietli ż ś",
+    "knr": "KNR AT- 43"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Rowki pod krawężniki i ławy krawężnikowe o wymiarach 30x30 cm w gruncie kat.III-IV",
+    "knr": "KNR 2-31 0401-04"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Wykonanie tynków zwykłych wewn trznych kat. III z zaprawy cementowo- ę cie ach szeroko ci do 40 cm ś ż ś",
+    "knr": "KNR 4-01 0708-03"
+  },
+  {
+    "jednostka": "m",
+    "opis": "cian płytkami z kamieni sztucznych na zaprawie klejowej - list- ś wy naro nikowe aluminiowe ż",
+    "knr": "KNR-W 2- 02"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Izolacje cieplne z piany pur aplikowana metodą natryskową gr. 20cm",
+    "knr": "KNR 2-02 0613-03"
+  },
+  {
+    "jednostka": "kpl",
+    "opis": "Mocowanie na gotowym podłożu kompletnego Floor Box wyposażonego w 4 gn. wtyczk. 230V AC 16A IP20 i 2 gniazda RJ 45 kat 6",
+    "knr": "KNR-W 5-08 0403-08"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Zasypanie wykopów fundamentowych z zagęszczeniem mechanicznym - kat. gruntu I-II - 85% wykopu",
+    "knr": "KNNR 1 0214-01"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Dodatkowe wyposażenie  - szyna łączeniowa 3-biegunowa BI3-18",
+    "knr": "KNNR 5 0408-03"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Wiaty drewniane bez ścian bocznych - budowa",
+    "knr": "KNR 2-25 0203-01"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Podłączenie kabla wieloparowego do łączówki - pierwsze połączenie w łączówce, 1 para",
+    "knr": "KNR AT-15 0114-01"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Montaż i stawianie słupów oświetleniowych o masie do 100 kg",
+    "knr": "KNNR 5 1001-01"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Rusztowania zewnętrzne rurowe o wys.do 10 m",
+    "knr": "KNR 2-02 1604-01"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Wykucie z muru kratek wentylacyjnych, wentylatorów, drzwiczek",
+    "knr": "KNR 4-01 0354-13"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Odbicie tynków wewnętrznych, na ścianach, filarach, pilastrach, do 5·m2, z zaprawy cementowo-wapiennej - przyjęto 5%",
+    "knr": "KNR 4-01 0701-2"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Montaż końcówek przez zaciskanie - przekrój żył do 6 mm2",
+    "knr": "KNNR 5 1204-01"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Rozebranie cianek działowych sanitarnych ś",
+    "knr": "KNR 4-01 0427-05"
+  },
+  {
+    "jednostka": "ha",
+    "opis": "Orka mechaniczna pługiem przyczepnym przy głębokości orania 18-20 cm kat. gruntu III",
+    "knr": "KNR 2-21 0206-02"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Izolacja styku fundament-ściana trójkątną taśmą bitumiczna",
+    "knr": "KNR 2-02 0617-01"
+  },
+  {
+    "jednostka": "odc.20",
+    "opis": "Dezynfekcja ruroci gów sieci wodoci gowych o r.nominalnej do 150 mm ą ą ś",
+    "knr": "KNR-W 2- 18"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Rurociągi z PVC kanalizacyjne o śr. 110 mm",
+    "knr": "KNR-W 2-15 0207-03"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Przewody kabelkowe o łącznym przekroju żył do Cu-6/Al-12 mm2 układane w gotowych bruzdach bez zaprawiania bruzd na podłożu betonowym",
+    "knr": "KNR 5-08 0210-04"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Pokrycie dachów blachą powlekaną trapezową",
+    "knr": "KNR 2-02 0512-02"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Ławy pod krawężniki, dodatek za wykonanie ławy betonowej na łukach o promieniu do 40·m",
+    "knr": "KNR 2-31 0402-5"
+  },
+  {
+    "jednostka": "kpl.",
+    "opis": "Przygotowanie podłoża pod oprawy oświetleniowe przykręcane na betonie mocowane na kołkach kotwiących (ilość mocowań 4)",
+    "knr": "KNR 5-08 0502-10"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Wykopy wykonywane spycharkami o mocy 55 kW (75 KM) w gruncie kat. III",
+    "knr": "KNR 2-01 0228-02"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Krosowanie - kabel miedziany w szafie dystrybucyjnej",
+    "knr": "KNR AT-28 0122-02"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Cokoliki z płytek o wymiarach 30 x 30 cm i wysokości cokolika równej 10 cm",
+    "knr": "KNR 0-12 1119-01"
+  },
+  {
+    "jednostka": "pomiar",
+    "opis": "Sprawdzenie samoczynnego wyłączenia zasilania - próby działania wyłącznika różnicowoprądowego - pierwszy",
+    "knr": "KNR-W 5-08 0902-05"
+  },
+  {
+    "jednostka": "szt",
+    "opis": "Ścinanie drzew piłą mechaniczną, Fi· ponad 75·cm",
+    "knr": "KNR 2-01 0103-7"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Ławy pod krawężniki, betonowa z oporem łuki",
+    "knr": "KNR 2-31 0402-4"
+  },
+  {
+    "jednostka": "szt",
+    "opis": "Mechaniczne karczowanie pni, Fi· do-45·cm",
+    "knr": "KNR 2-01 0105-4"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Skucie nierówno ci betonu przy gł boko ci skucia do 5 cm na podłogach ś ę ś",
+    "knr": "KNR 4-01 0211-03"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Wylewka betonowa gr. 5 cm zbrojona",
+    "knr": "KNR 2-02 1106-01"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Obrzeża betonowe, 30x8·cm na podsypce piaskowej z wypełnieniem spoin zaprawą cementową",
+    "knr": "KNR 2-31 0407-4"
+  },
+  {
+    "jednostka": "otw.",
+    "opis": "Przebijanie otworów śr. 25 mm o długości do 1 ceg. w ścianach lub stropach z cegły",
+    "knr": "KNNR 5 1209-05"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Rozebranie rynien z blachy nie nadającej się do użytku",
+    "knr": "KNR 4-01 0535-4"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Uzupełnienie ścian lub zamurowanie otworów, zaprawa cementowo-wapienna, bloczkami z betonu komórkowego",
+    "knr": "KNR 4-01 0304-2"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Krosowanie - kabel miedziany w szafie dystrybucyjnej 1,5m",
+    "knr": "KNR AT-15 0119-02"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Przyklejenie warstwy siatki na wełnie",
+    "knr": "KNR 0-23 2613-06"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Podbudowa pomocnicza z pospółki stabilizowanej cementem o Rm 5 MPa wytważanej w wytwórni o grubości 12 cm",
+    "knr": "KNR 2-31 0109-3"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Okładziny ścienne z płyt gipsowo-kartonowych na konstrukcji metalowej",
+    "knr": "KNR AT-43 0104-02"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Rozebranie krawężników, betonowych 15x30·cm na podsypce cementowo-piaskowej",
+    "knr": "KNR 2-31 0813-3"
+  },
+  {
+    "jednostka": "szt",
+    "opis": "Przygotowanie podłoża do zabudowania wsporników pod korytka kablowe - kucie ręczne pod śruby kotwowe w podł. z betonu - aparat o 1-2 otworach mocujących",
+    "knr": "KNR-W 5-08 0401-05"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Malowanie farbami lateksowymi wewnętrznych tynków gładkich bez gruntowania, 2-krotne - sufity",
+    "knr": "KNR 2-02 1505-1"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Taśma stalowa ocynkowana 30 x 4 mm wciągana do rur winidurowych w wykopie. p.analogię",
+    "knr": "KNR-W 5-10 0207-01"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Izolacja rurociągów śr",
+    "knr": "KNR 0-34 0101-"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Systemowe aluminiowe listwy progowe na poł czeniu z korytarzem ą",
+    "knr": "KNR 4-01 0411-08"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Lekka obudowa dachu z płyt warstwowych GS PIR D 120/160 mm",
+    "knr": "KNR 13-13 0901-05"
+  },
+  {
+    "jednostka": "m",
+    "opis": "trzne gr. 3 mm z gipsu szpachlo- ę cznie na stropach na podło u z tynku ę ż",
+    "knr": "KNR 2-02 2009-04"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Rozebranie ścianek, ścianki pełne z cegły o grubości 1/2 cegły, na zaprawie cementowo-wapiennej",
+    "knr": "KNR 4-04 0105-4"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Zasypywanie wykopów liniowych o ścianach pionowych głębokości do 1.5 m i szerokości 0.8-1.5 m; kat. gr. III-IV",
+    "knr": "KNR-W 2-01 0312-0201"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Odbicie tynków wewn ę szeroko ci do 30 cm ś",
+    "knr": "KNR 4-01 0702-06"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "(WaCeTOB 6/98) Nadbeton stropu gr 5cm B-20",
+    "knr": "KNR 2-02 9933-1"
+  },
+  {
+    "knr": "KNR 2-31 0105-4",
+    "opis": "Warstwy podsypkowe, podsypka piaskowa, zagęszczenie mechaniczne dodatek za każdy następny 1·cm grubości warstwy",
+    "jednostka": "m2"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Rozbiórka pokrycia z papy, dach betonowy, warstwa następna",
+    "knr": "KNR 4-01 0519-7"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Montaż przewodów odprowadzających instalacji odgromowej - przewody DFe/Zn fi 8 mm wciągane do rur winidurowych (w ociepleniu).",
+    "knr": "KNR-W 5-08 0204-07"
+  },
+  {
+    "jednostka": "punkt",
+    "opis": "Pomiar natężenia oświetlenia wnętrz bezpośrednio na stanowisku roboczym",
+    "knr": "KNNR-W 9 1201-01"
+  },
+  {
+    "jednostka": "kpl.",
+    "opis": "Montaż wyposażenia szaf dystrybucyjnych 19\" - półka",
+    "knr": "KNR AT-15 0109-15"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Tynki zwykłe wykonane mechanicznie, stropy i podciągi, kategoria·III, budynki do 8 kondygnacji",
+    "knr": "KNR 2-02 0801-4"
+  },
+  {
+    "jednostka": "otw.",
+    "opis": "Przebijanie otworów śr. 25 mm o długości do 40 cm w ścianach lub stropach z betonu",
+    "knr": "KNNR 5 1209-1201"
+  },
+  {
+    "jednostka": "kpl",
+    "opis": "Poł c wewn trzn ą ą ą ę ą instalacj kanalizacji ą",
+    "knr": "KNR 4-02 0202-09"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Gniazda instalacyjne wtyczkowe ze stykiem ochronnym wodoszczelne 3-biegunowe przykręcane o obciążalności do 32 A i przekroju przewodów do 10 mm2",
+    "knr": "KNNR 5 0308-08"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Montaż ościeżnic drewnianych",
+    "knr": "KNNR 2 1104-02"
+  },
+  {
+    "jednostka": "kpl.",
+    "opis": "Demonta ust pu z misk fajansow ż ę ą ą",
+    "knr": "KNR 4-02 0235-08"
+  },
+  {
+    "jednostka": "kpl.",
+    "opis": "Jednostki klimatyzacyjne wewnętrzne - komplet z montażem",
+    "knr": "KNR 7-24 0101-01"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Wywiezienie gruzu spryzmowanego samochodami samowyładowczymi na odległość do 1 km",
+    "knr": "KNR 4-01 0108-11"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Ocieplenie stropu budynków szt",
+    "knr": "KNR 0-23 2612-"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Rurociągi miedziane na ciśnienie do 1,0 MPa o śr.zew. 9,52 mm - instalacja klimatyzacji",
+    "knr": "KNR 2-15 0601-02"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Montaż rozdzielnicy RG",
+    "knr": "KNNR 5 0405-10"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Parapety  wewnętrzne - elementy grubości do 2 cm i szerokości do 30 cm z konglomeratu",
+    "knr": "KNR-W 2-02 2119-02"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Ręczne zasypywanie rowów dla kabli o głębok.do 0.8 m i szer.dna do 1.0 m w gruncie kat. III",
+    "knr": "KNR 2-01 0704-1103"
+  },
+  {
+    "knr": "KNNR 5 0406-01",
+    "opis": "Aparaty elektryczne dzwonek elektryczny",
+    "jednostka": "szt."
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Wywóz ziemi samochodami samowyładowczymi - za każdy następny 1 km - Krotność = 9",
+    "knr": "KNR 4-01 0108-08"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Tynki wewn trzne pocienione kat. III na cianach powy ej płytek dla ich ę ś ż cznie wraz z naro nikami ę ż",
+    "knr": "KNR 2-02 0812-01"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Ręczne wykucie bruzd dla rur: RKLG18, RS-P16, RS22 o śr.do 47 mm w cegle",
+    "knr": "KNR-W 4-03 1001-13"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Zaprawianie bruzd o szerokości do 50 mm",
+    "knr": "KNNR 5 1208-02"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Izolacja rurociągów śr. 25 mm otulinami Thermaflex FRZ gr. 25 mm",
+    "knr": "KNR 0-34 0101-15"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Montaż łat przy rozstawie krokwi 80 do 100 cm",
+    "knr": "KNR K-05 0105-03"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Mechaniczne wykonanie koryta na całej szerokości jezdni i chodników w gruncie kat. I-IV - za każde dalsze 5 cm głębokości",
+    "knr": "KNR 2-31 0101-02"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Demonta ruroci gu eliwnego/PCV kanalizacyjnego o r. 150 mm - na ż ą ż ś cianach budynku i poziomy ś",
+    "knr": "KNR 4-02 0230-05"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Urządzenia rozdzielcze (zestawy) o masie ponad 20 kg Szafa Oświetleniowa",
+    "knr": "KNNR 5 0403-03"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Demontaż elementów uzbrojenia rurociągu - wpust żeliwny podłogowy śr. szt. d",
+    "knr": "KNR 2-02 0290-"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Montaż na gotowym podłożu skrzynek kontrolnych do elewacji (nr kat. 68.2). p.analogię",
+    "knr": "KNR-W 5-08 0303-20"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Rowki pod krawężniki i ławy krawężnikowe o wymiarach 20x20 cm w gruncie kat.III-IV",
+    "knr": "KNR 2-31 0401-02"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Podłączenie przewodów pojedynczych w izolacji polwinitowej pod zaciski lub bolce (przekrój żył do 2.5 mm2)",
+    "knr": "KNR 5-08 0812-01"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Izolacje przeciwwilgoc.powłokowe bitumiczne poziome - wyk.na zimno z masy dyspersyjnej - pierwsza warstwa",
+    "knr": "KNR 2-02 0602-03"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Płyty żelbetowe B-20, płaskie, grubość 15 cm, beton podawany pompą - gr 15cm - nad parterem przy windzie",
+    "knr": "KNR 2-02 0216-2"
+  },
+  {
+    "jednostka": "szt",
+    "opis": "Sadzenie drzew i krzewów liściastych form naturalnych na terenie płaskim w gruncie kategorii III, z zaprawą dołów całkowitą, średnica i głębokość dołów 0,5·m, ziemia urodzajna (humus)",
+    "knr": "KNR 2-21 0302-5"
+  },
+  {
+    "jednostka": "kpl.",
+    "opis": "Montaż certyfikowanego zestawu Przeciwpożarowego Wyłącznika prądu 100A",
+    "knr": "KNNR 5 0401-01"
+  },
+  {
+    "jednostka": "m",
+    "opis": "gów r. 28-48 mm otulinami Thermaflex ą ś FRZ lub otulinami Thermaflex FRZ i matami (płytami) Thermasheet FR - gr. izolacji 40 mm",
+    "knr": "KNR 0-34 0110-14"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Rozścielenie ziemi urodzajnej spycharkami na terenie płaskim",
+    "knr": "KNR 2-21 0218-03"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Zasypywanie wykopów spycharkami z przemieszczeniem gruntu na odl. do 10 m w gruncie kat. I-III",
+    "knr": "KNR 2-01 0230-01"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Demontaż brodzika kpl. d",
+    "knr": "KNNR 5 0406-02"
+  },
+  {
+    "jednostka": "m",
+    "opis": "ciankach belek ś",
+    "knr": "KNR 4-01 0703-03"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Przygotowanie podłoża pod osprzęt instalacyjny mocowany na zaprawie cementowej lub gipsowej - wykonanie ślepych otworów w podłożu ceglanym 70",
+    "knr": "KNNR 5 0301-11"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Wykopy oraz przekopy o głęb. do 3.0 m wyk. na odkład koparkami podsiębiernymi o poj. łyżki 0.25-0.60 m3 w gr. kat. III-IV - 95% wykopu",
+    "knr": "KNNR 1 0210-03"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Montaż zestawu - Lampka sygnalizacyjna PWP",
+    "knr": "KNR AL-01 0110-01"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Podbudowa z kruszywa łamanego - warstwa górna - za każdy dalszy 1 cm grubości po zagęszczeniu",
+    "knr": "KNR 2-31 0114-08"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Podsypka piaskowa z zagęszczeniem mechanicznym - za każdy dalszy 1 cm grubości warstwy po zagęszczeniu",
+    "knr": "KNR 2-31 0105-04"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Izolacje cieplne z wełny mineralnej gr. 15 cm pionowe",
+    "knr": "KNR 2-02 0613-06"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Demontaż ustępu z miską fajansową kpl. d",
+    "knr": "KNNR 4 0140-"
+  },
+  {
+    "jednostka": "kpl po-",
+    "opis": "Sprawdzenie i pomiar kompletnego 1-fazowego obwodu elektrycznego niskiego napi cia ę",
+    "knr": "KNR 4-03 1202-01"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Układanie kabli o masie do 3.0 kg/m w rowach kablowych ręcznie",
+    "knr": "KNNR 5 0707-04"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Wykonanie pasów tynku zwykłego kat. III o szeroko ci do 15 cm na mu- ś rach z cegieł lub ś ą niem siatk ci to-ci gnion ą ę ą ą",
+    "knr": "KNR 4-01 0705-04"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Zagęszczenie gruntu ubijakami mechanicznymi; grunty sypkie kat. I-III",
+    "knr": "KNR 2-01 0236-01"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Montaż rur spustowych",
+    "knr": "KNR K-05 0502-02"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Usunięcie warstwy ziemi urodzajnej (humus) przy pomocy spycharek, dodatek za każde dalsze 5·cm grubości",
+    "knr": "KNR 2-01 0126-2"
+  },
+  {
+    "jednostka": "pomiar.",
+    "opis": "Sprawdzenie i pomiar kompletnego 1-fazowego obwodu elektrycznego niskiego napięcia",
+    "knr": "KNR-W 4-03 1202-01"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Przymocowanie płyt styropianowych dyblami plastik. do ścian z gazobetonu",
+    "knr": "KNR 0-23 2612-03"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Okładziny ścian z wykładzin z tworzyw sztucznych, zgrzewanie wykładzin rulonowych heterogenicznych",
+    "knr": "KNR 19-01 0907-9"
+  },
+  {
+    "jednostka": "km",
+    "opis": "Roboty pomiarowe przy liniowych robotach ziemnych - trasa kanalizacji w terenie równinnym - tyczenie",
+    "knr": "KNNR 1 0111-01"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Koryta wykonywane na całej szerokości chodników, ręcznie, grunt kategorii I-II, na głębokości 20·cm",
+    "knr": "KNR 2-31 0101-5"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Belki i podciągi żelbetowe o stosunku deskowanego obwodu do przekroju do 8 - z zastosowaniem pompy do betonu",
+    "knr": "KNR-W 2-02 0210-01"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Mocowanie na gotowym podłożu zestawu zacisków do wyrównania potencjałów z pokrywą z częściowym rozebraniem i złożeniem bez podłączenia (ilość otworów mocujących do 2).",
+    "knr": "KNR-W 5-08 0403-01"
+  },
+  {
+    "jednostka": "kpl.pom.",
+    "opis": "Pomiary natężenia oświetlenia - każdy dalszy kpl.pomiarów dok.na tym samym stanowisku",
+    "knr": "KNR 13-21 0301-04"
+  },
+  {
+    "jednostka": "pomiar",
+    "opis": "Sprawdzenie samoczynnego wyłączenia zasilania - próby działania wyłącznika różnicowoprądowego - każdy następny",
+    "knr": "KNR-W 5-08 0902-06"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Podbudowa zasadnicza z kruszywa łamanego 0/63,0 mm stabilizowanego mechanicznie do Wnoś 60%, o grubości po zagęszczeniu 8 cm",
+    "knr": "KNR 2-31 0114-7"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Wykucie otworów w ścianach z cegieł dla otworów drzwiowych i okiennych, zaprawa wapienna lub cementowo-wapienna, grubość ponad 1/2 cegły - powiększenie otworów okiennych i drzwiowych",
+    "knr": "KNR 4-01 0329-3"
+  },
+  {
+    "knr": "KNNR 5 0401-02",
+    "opis": "Złącza kablowe typu ZK4a 400 A + !P",
+    "jednostka": "kpl."
+  },
+  {
+    "jednostka": "otw.",
+    "opis": "Mechaniczne przebijanie otworów w ścianach lub stropach betonowych o długości przebicia do 30 cm - śr. rury do 110 mm",
+    "knr": "KNR 4-03 1004-15"
+  },
+  {
+    "jednostka": "kpl.",
+    "opis": "Montaż wyposażenia szaf dystrybucyjnych 19\" - listwa zasilająca",
+    "knr": "KNR AT-15 0109-10"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Przygotowanie podłoża pod osprzęt instalacyjny mocowany przez przykręcenie - wykonanie otworów w blasze",
+    "knr": "KNNR 5 0301-14"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Wykucie bruzd dla przewodów wtynkowych w cegle",
+    "knr": "KNNR 5 1207-01"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Montaż płyt OSB gr. 22cm pod obróbkę blacharską",
+    "knr": "KNR 2-02 0410-01"
+  },
+  {
+    "jednostka": "kg",
+    "opis": "Przygotowanie i montaż zbrojenia elem.budynków i budowli - pręty gładkie fi 6mm",
+    "knr": "KNR 2-02 0290-01"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Roboty ziemne koparkami z transportem urobku samochodami samowyładowczymi na odl. do 1 km",
+    "knr": "KNR 2-01 0211-05"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Izolacja z papy pod murłatę",
+    "knr": "KNR-W 2-02 0604-05"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Warstwy wyrównawcze pod posadzki z zaprawy cementowej grubo ci 50 ś",
+    "knr": "KNR 2-02 1102-02"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Montaż uchwytów pod rury winidurowe układane pojedynczo z przygotowaniem podłoża mechanicznie - przykręcenie do kołków plastykowych w podłożu z cegły",
+    "knr": "KNR 5-08 0101-03"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Ocieplenie ścian budynków płytami styropianowymi gr. 2 cm - przyklejenie płyt styropianowych do ościeży",
+    "knr": "KNR 0-23 2612-02"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Kable N2XH-J 6mm2 układane w gotowych bruzdach bez zaprawiania bruzd na podłożu nie-betonowym",
+    "knr": "KNR 5-08 0210-01"
+  },
+  {
+    "jednostka": "kpl.",
+    "opis": "Elementy montażowe do miski ustępowej na ścianie nps",
+    "knr": "KNR 2-15 0101-01"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Obrzeża betonowe, 25x8 cm na podsypce cementowo-piaskowej z wypełnieniem spoin zaprawą cementową",
+    "knr": "KNR 2-31 0407-5"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Podłączenie przewodów pojedynczych w izolacji polwinitowej pod zaciski lub bolce (przekrój żył do 50 mm2)",
+    "knr": "KNR 5-08 0812-05"
+  },
+  {
+    "jednostka": "pomiar",
+    "opis": "Sprawdzenie samoczynnego wyłączenia zasilania - pomiar impedancji pętli zwarciowej - każdy następny",
+    "knr": "KNR-W 5-08 0902-02"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Zaprawianie bruzd o szer. do 50 mm",
+    "knr": "KNR 4-03 1012-02"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Rozebranie posadzki z płytek na zaprawie cementowej",
+    "knr": "KNR 4-01 0811-07"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Montaż okien R-U o pow. do 2.0 m2",
+    "knr": "KNR 0-19 1024-03"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Skręcanie połączeń śrubami - połączenie belek śrubami M",
+    "knr": "KNR K-05 0402-"
+  },
+  {
+    "jednostka": "otw.",
+    "opis": "Mechaniczne przebijanie otworów w ścianach lub stropach betonowych o długości przebicia do 30 cm - śr.rury do 40 mm",
+    "knr": "KNR-W 4-03 1004-12"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Roboty ziemne koparkami podsiębiernymi z transportem urobku samochodami samowyładowczymi do 1·km, w ziemi uprzednio zmagazynowanej w hałdach, koparka 0,25·m3, grunt kategorii I-III, spycharka 55·kW",
+    "knr": "KNR 2-01 0212-3"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Otwory w ścianach murowanych - ułożenie nadproży prefabrykowanych",
+    "knr": "KNR-W 2-02 0132-05"
+  },
+  {
+    "jednostka": "kpl.",
+    "opis": "Montaż wyposażenia szaf dystrybucyjnych 19\" -Panel wentylacyjny 4W z wbudowanym termostatem",
+    "knr": "KNR AT-15 0109-12"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Monta czujki ruchu- pasywna podczerwieni ż",
+    "knr": "KNR AL- 01"
+  },
+  {
+    "jednostka": "gniazd",
+    "opis": "Wykucie gniazd o gł boko ci 1 ceg. w cianach z cegieł na zaprawie ce- ę ś ś mentowej dla belek stalowych",
+    "knr": "KNR 4-01 0346-05"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Osłony okien i drzwi folią polietylenową",
+    "knr": "KNR-W 2-02 0923-01"
+  },
+  {
+    "jednostka": "kpl.",
+    "opis": "Iglice typu IO-3.5  montowane na trójnogach",
+    "knr": "KNNR 5 0615-01"
+  },
+  {
+    "jednostka": "szt.żył",
+    "opis": "Podłączenie przewodów kabelkowych pod zaciski lub bolce; przekrój żył do 25 mm2 (p.analogie)",
+    "knr": "KNR-W 5-08 0804-04"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Odbicie tynków wewnętrznych, stropy płaskie, belki, biegi, spoczniki schodowe, do 5·m2, z zaprawy cementowo-wapiennej - przyjęto 5%",
+    "knr": "KNR 4-01 0701-8"
+  },
+  {
+    "jednostka": "pomiar.",
+    "opis": "Następny pomiar instalacji odgromowej.",
+    "knr": "KNR-W 4-03 1205-04"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Zasobnikowe podgrzewacze wody użytkowej, elektryczne",
+    "knr": "KNR 0-35 0122-08"
+  },
+  {
+    "jednostka": "km",
+    "opis": "Roboty pomiarowe przy liniowych robotach ziemnych, trasa dróg w terenie równinnym",
+    "knr": "KNR 2-01 0119-3"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Łączniki i przyciski jednobiegunowe podtynkowe w puszce instalacyjnej",
+    "knr": "KNNR 5 0306-02"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Montaż ręcznych ostrzegaczy pożaru - przycisk typu konwencjonalnego",
+    "knr": "KNR AL-01 0402-01"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Warstwy odsączające z piasku wykonanie i zagęszczanie mechaniczne do Is = 0,98 grubość warstwy po zagęszczeniu za 5 cm do 15cm",
+    "knr": "KNR 2-31 0104-8"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Rowki pod krawężniki i ławy krawężnikowe o wymiarach 40x40 cm w gruncie kat.III-IV",
+    "knr": "KNR 2-31 0401-08"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Docieplenie ścian z pustaków ceramicznych styropianowymi gr. 20cm przy użyciu got. zapraw klejących wraz z przyg. podłoża i ręczne wyk. wyprawy elew. z got. suchej mieszanki - ściana gr. 25cm",
+    "knr": "KNR 0-23 2614-02"
+  },
+  {
+    "jednostka": "km",
+    "opis": "Przykrycie kabli ułożonych w rowie kablowym taśma ostrzegawcza",
+    "knr": "KNR 5-02 0312-06"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Podbudowa wyk.ręcznie z gruntu stabilizowanego cementem",
+    "knr": "KNR 2-31 0113-01"
+  },
+  {
+    "jednostka": "m kabla",
+    "opis": "Układanie kabla HDMI pod tynkiem",
+    "knr": "KNR AT-15 0102-01"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Tablice rozdzielcze 19\" 24xRJ45 - analogia",
+    "knr": "KNR AT-15 0112-01"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Wykucie bruzd o przekroju do 0.040 m2 poziomych lub pionowych w ele- mentach z betonu wirowego ż",
+    "knr": "KNR 4-01 0210-02"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Okładziny sufitowe - warstwa paroizolacji",
+    "knr": "KNR AT-43 0103-03"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Montaż drzwi zewnętrznych jednoskrzydłowych",
+    "knr": "KNR 0-19 1024-06"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Wywożenie dłużyc, karpiny i gałęzi, transport na odległość do 2·km, dłużyce",
+    "knr": "KNR 2-01 0110-1"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Okładziny z płyt gipsowo-kartonowych (suche tynki gipsowe) - dodatek za drug na rusztach na cianach Robota w pomieszczeniu mniej- ą ę ś",
+    "knr": "KNR 2-02 2006-07"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Przecieranie istniejących tynków wewnętrznych, z zeskrobaniem farby, na sufit",
+    "knr": "KNRW 4-01 0713-2"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Ręczne wykucie wnęki o objętości do 1.00 dm3 w podłożu betonowym.",
+    "knr": "KNR-W 4-03 1011-17"
+  },
+  {
+    "jednostka": "pomiar.",
+    "opis": "Pierwszy pomiar instalacji odgromowej.",
+    "knr": "KNR-W 4-03 1205-03"
+  },
+  {
+    "jednostka": "kpl.przew.",
+    "opis": "Montaż przewodów do opraw oświetleniowych - wciąganie w słupy, rury osłonowe i wysięgniki przy wysokości latarń do 7 m",
+    "knr": "KNNR 5 1003-02"
+  },
+  {
+    "jednostka": "kpl.",
+    "opis": "Jednostki klimatyzacyjne zewnętrzne - komplet z montażem",
+    "knr": "KNR 7-24 0101-02"
+  },
+  {
+    "jednostka": "pomiar",
+    "opis": "Wykonanie pomiarów torów transmisyjnych - pierwsza linia",
+    "knr": "KNR AT-15 0118-01"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Układanie rur instalacyjnych odgromowych fi 20mm n.t. na gotowych uchwytach (pod elewacją)",
+    "knr": "KNR-W 5-08 0110-03"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Wykonanie przesklepie otworów w cianach z cegieł - dostarczenie i ob- ń ś sadzenie belek stalowych (dobór kształtownika przez uprawnionego pro- jektanta branzy konstrukcyjnej na bazie sporz dzonego projektu) ą",
+    "knr": "KNR 4-01 0313-04"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Tynkowanie wnęk o powierzchni do 0.25 m2.",
+    "knr": "KNR-W 4-03 1013-01"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Zabudowy instalacyjne płytami gipsowo-kartonowymi gkbi na rusztach me-",
+    "knr": "KNR 2-02 2004-01"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Montaż skrzydeł drzwiowych wewnętrznych",
+    "knr": "KNNR 2 1104-04"
+  },
+  {
+    "jednostka": "otw.",
+    "opis": "Przebicie otworów o pow.ponad 0.1 do 0.5 m2 dla koryt kablowych w ścianach betonowych o grub.do 30 cm (p. analogie)",
+    "knr": "KNR 7-28 0206-09"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Podbudowa pomocnicza z pospółki stabilizowanej, bez dylatacji, dodatek za 3·cm grubości warstwy",
+    "knr": "KNR 2-31 0109-4"
+  },
+  {
+    "jednostka": "kpl.",
+    "opis": "Oprawy oświetleniowe w sufitach podwieszanych - świetlówkowa do 3x40 W",
+    "knr": "KNNR 5 0503-02"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Rurociągi z PE o śr. 63 mm - przyłącze wodociągowe",
+    "knr": "KNR-W 2-15 0101-02"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Wykonanie połączenia połaci ze ścianami - boczne",
+    "knr": "KNR K-05 0402-02"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Przewody kabelkowe o łącznym przekroju żył do Cu-12/Al-20 mm2 układane w gotowych bruzdach bez zaprawiania bruzd na podłożu betonowym - zasilanie UPS w pom. 20",
+    "knr": "KNR 5-08 0210-05"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Montaż kurtyny ppoż EI30",
+    "knr": "KNR-W 2-02 1038-01"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Próba szczelności instalacji wody zimnej i ciepłej w budynkach mieszkal- m d",
+    "knr": "KNR 0-31 0301-"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Układanie bednarki w rowach kablowych - bednarka do 120mm2",
+    "knr": "KNR-W 5-08 0608-07"
+  },
+  {
+    "jednostka": "t",
+    "opis": "Zbrojenie nadbetonu, siatka stalowa",
+    "knr": "KNR 2-02 0290-2"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Kopanie koparkami podsiębiernymi rowów dla kabli o głębokości do 0,8 m i szerokości dna do 0.6 m w gruncie kat. III-IV",
+    "knr": "KNR-W 2-01 0702-0402"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Ława pod krawężniki - dodatek za wykonanie ławy betonowej na łukach o promieniu do 40 m",
+    "knr": "KNR 2-31 0402-05"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Monta okien rozwieranych i uchylno-rozwieranych jednodzielnych z PCV ż z obróbk obsadzenia o pow. do 1.0 m2 ą",
+    "knr": "KNR 0-19 1023-05"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Rurociągi PEX o śr. 26 mm",
+    "knr": "KNR 0-13 0127-02"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Nawierzchnia betonowa B-15 opaski, grubość warstwy po zagęszczeniu 12·cm",
+    "knr": "KNR 2-31 0109-1"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Roboty ziemne wykonywane ładowarkami kołowymi o poj. łyżki 1.25 m3 z transportem urobku samochodami samowył. na odl do 1 km w grunt kat. III",
+    "knr": "KNR 2-01 0239-02"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Przemieszczenie spycharkami mas ziemnych w gruncie kat. III - dodatek za każde rozpoczęte 10 m w przedziale ponad 10 do 30 m",
+    "knr": "KNR 2-01 0229-05"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Montaż uziomów poziomych w wykopie o głębokości do 0.6 m; kat.gruntu III",
+    "knr": "KNNR 5 0605-02"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Łączenie przewodów instalacji odgromowej lub przewodów wyrównawczych z bednarki o przekroju do 120 mm2 w wykopie",
+    "knr": "KNNR 5 0611-01"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Przewody NHXH 5x2,5mm2/E90 pt mocowane na uprzednio zainstalowanych uchwytach odstępowych",
+    "knr": "KNR 5-08 0211-06"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Wyłącznik nadprądowy 1-biegunowy w rozdzielnicach 6A",
+    "knr": "KNNR 5 0407-01"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Ręczne układanie kabli YKY 4x35 w rowach kablowych",
+    "knr": "KNR 5-10 0103-04"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Rozebranie podłoża, z betonu żwirowego grubości 5 cm - szlichta - założono 20%",
+    "knr": "KNR 4-04 0301-2"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Warstwy podsypkowe, podsypka piaskowa, zagęszczenie mechaniczne grubość warstwy po zagęszczeniu 3·cm",
+    "knr": "KNR 2-31 0105-3"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Nawierzchnia z kostki betonowej 14x12 cm na podsypce cementowej z wyp.spoin zaprawą cem.",
+    "knr": "KNR 2-31 0303-03"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Przemieszczenie spycharkami mas ziemnych na odległość do 10 m w gruncie kat. III",
+    "knr": "KNR 2-01 0229-02"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Bramy garażowe uchylne szybkobieżne",
+    "knr": "KNR-W 2-02 1032-01"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Wymiana klamek okiennych z regulacj skrzydeł okiennych ą",
+    "knr": "KNR 4-01 0919-20"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Wykucie z muru o cie nic drewnianych o powierzchni ponad 2 m2 - okno ś ż",
+    "knr": "KNR 4-01 0354-05"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Nakłady uzupełniające do tablic 0201-0213 za każde dalsze rozpoczęte 0,5·km odległości transportu, ponad 1·km samochodami samowyładowczymi, po drogach utwardzonych, grunt kategorii III-IV, samochód 5-10·t",
+    "knr": "KNR 2-01 0214-4"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Układanie kabli 3x2,5 o masie do 0.5 kg/m w budynkach, budowlach lub na estakadach",
+    "knr": "KNNR 5 0714-01"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Wywóz ziemi samochodami samowyładowczymi na odległość do 1 km grunt kat. I-II",
+    "knr": "KNR 4-01 0108-05"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Krawężniki betonowe - dodatek za ustawienie na łukach o promieniu do 10 m",
+    "knr": "KNR 2-31 0403-07"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Licowanie ścian płytkami o wymiarach 20x20 cm na klej metodą zwykłą do wys. 2,0m",
+    "knr": "KNR 2-02 0829-08"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Ręczne profilowanie i zagęszczenie podłoża pod warstwy konstrukcyjne",
+    "knr": "KNR 2-31 0103-02"
+  },
+  {
+    "jednostka": "szt",
+    "opis": "Ścinanie drzew piłą mechaniczną, Fi· do 45·cm",
+    "knr": "KNR 2-01 0103-4"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Wymiany i rozpory, przekrój do 180 cm2 z tarcicy nasyconej",
+    "knr": "KNR 2-02 0409-04"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Warstwy odsączające z piasku w korycie lub na całej szerokości drogi, wykonanie ręczne, zagęszczanie mechaniczne - grubość warstwy po zagęszczeniu 10 cm",
+    "knr": "KNR 2-31 0104-05"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Podbudowy z kruszyw, piasek gruby, warstwa dolna, grubość warstwy po zagęszczeniu 20 cm",
+    "knr": "KNR 2-31 0114-1"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Montaż kasety kamery kolorowej",
+    "knr": "KNR AL-01 0301-03"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Rozebranie ś piennej wraz z okładzinami",
+    "knr": "KNR 4-01 0348-03"
+  },
+  {
+    "jednostka": "szt.żył",
+    "opis": "Podłączenie przewodów pojedynczych o przekroju żyły do 2.5 mm2 pod zaciski lub bolce",
+    "knr": "KNNR 5 1203-01"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Demonta elementów uzbrojenia ruroci gu - wpust eliwny podłogowy r. ż ą ż ś 50 mm",
+    "knr": "KNR 4-02 0234-02"
+  },
+  {
+    "knr": "KNNR 5 0403-04",
+    "opis": "Urządzenia szlaban zestaw NICE M7BAK o masie ponad 20 kg na fundamencie wylewanym na mokro",
+    "jednostka": "szt."
+  },
+  {
+    "jednostka": "kpl.",
+    "opis": "Przygotowanie podłoża pod oprawy oświetleniowe przykręcane na gipsie, gazobetonie mocowane na kołkach plastikowych (ilość mocowań 4)",
+    "knr": "KNR 5-08 0502-04"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "u aparatów o masie do 2.5 kg bez cz cio- ż ęś wego rozebrania i podł czenia (il. otworów mocuj cych do 2) - suszarka ą ą do r k w wykonaniu nierdzewnym ą Instalacja uziemiaj ca i poł cze wyrównawczych ą ą ń",
+    "knr": "KNR 5-08 0402-01"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Wypełnienie oczek siatki ci to-ci gnionej na cianach i stropach zapraw ę ą ś ą cementow ą",
+    "knr": "KNR 4-01 0704-03"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Drzwiczki rewizyjne osadzone w cianach GK o powierzchni elementu do ś 0.2 m2",
+    "knr": "KNR 2-02 1215-02"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Wyprawa elewacyjna cienkowarstwowa z akrylowych tynków dekoracyjnych wykonana ręcznie",
+    "knr": "KNR 0-23 0933-02"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Puszki instalacyjne podtynkowe pojedyncze o śr.do 60 mm",
+    "knr": "KNNR 5 0302-01"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Pokrycie stropu płytą DURIPANEL B1 gr. 18 mm",
+    "knr": "KNR 0-24 2013-01"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Słupy żelbetowe w ścianach murowanych o grubości do 0,3 m dwustronnie deskowane",
+    "knr": "KNR 2-02 0211-01"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Dwukrotne malowanie farbami silikonowymi, zmywalnymi powierzchni wewnętrznych",
+    "knr": "KNR-W 2-02 1510-01"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Place i zatoki postojowe z kostki betonowej typu ażur o wymiarach 60 ^ 40 x 8 cm na podsypce z miału kamiennego o gubości.3 cm z wypełnieniem drobnym żwirem, z pasami rozdzielczymi z kostki brukowej betonowej 20 * 10 * 8 cm w kolorze grafitowym",
+    "knr": "KNR 11 0327-7"
+  },
+  {
+    "jednostka": "ha",
+    "opis": "Wałowanie mechaniczne kat. gruntu III",
+    "knr": "KNR 2-21 0207-04"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Formowanie i zagęszczanie nasypów o wys. do 3.0 m spycharkami w gruncie kat. III-IV",
+    "knr": "KNR 2-01 0235-02"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Montaż zwodów poziomych instalacji odgromowej nienaprężanych z pręta DFe/Zn fi 8 mm na dachu płaskim",
+    "knr": "KNR-W 5-08 0604-03"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Rozebranie ścian, filarów i kolumn z cegieł na zaprawie cementowo-wapiennej",
+    "knr": "KNR 4-01 0349-02"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Ścianki działowe, dodatek za zbrojenie ścianek pełnych",
+    "knr": "KNR 2-02 0120-9"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Wykonanie przesklepie otworów w cianach z cegieł z wykuciem bruzd ń ś dla belek",
+    "knr": "KNR 4-01 0313-02"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Profilowanie i zagęszczanie podłoża pod warstwy konstrukcyjne nawierzchni, mechanicznie, grunt kategorii I-IV",
+    "knr": "KNR 2-31 0103-4"
+  },
+  {
+    "jednostka": "złącz.",
+    "opis": "Montaż zestawu certyfikowanego przeciw pożarowego wyłącznika prądu typ CX 2004 PWP/UW rozłącznik 250A zestaw wraz z PWP/UU (PWP1-W01 -A-30-2LED7-M) w obudowie wolnostojącej jak dla złącz kablowych",
+    "knr": "KNR 5-18 0403-03"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Układanie kabli YKY 4x35mm2 w rurach pustakach lub kanałach zamkniętych",
+    "knr": "KNR 5-10 0114-01"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Wykopy oraz przekopy wykonywane koparkami podsiębiernymi 0.25 m3 na odkład w gruncie kat.III",
+    "knr": "KNR 2-01 0217-04"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Obrzeża betonowe o wym. 30x8 cm na podsypce piaskowej z wyp.spoin piaskiem",
+    "knr": "KNR 2-31 0407-02"
+  },
+  {
+    "jednostka": "kpl.",
+    "opis": "Ogrzewanie podłogowe - rury, rozdzielacze, armatura - komplet",
+    "knr": "KNR 0-35 0215-01"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Uzupełnienie tynków zwykłych wewnętrznych kat. III, (ściany płaskie, słupy prostokątne, z cegły, pustaków ceramicznych, gazo- i pianobetonu) zaprawa cem-wap - uzupełnienia tynków po odbiciu",
+    "knr": "KNR 4-01 0711-2"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Posadzki z wykładzin z tworzyw sztucznych z warstwą izolacyjną rulonowe wraz z cokolikami",
+    "knr": "KNR 2-02 1112-02"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Podsypka cementowo-piaskowa z zagęszczeniem mechanicznym - za każdy dalszy 1 cm grubości warstwy po zagęszczeniu",
+    "knr": "KNR 2-31 0105-08"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Rozebranie podłoża, z betonu - dościa, tarasy zew nawierzchnia z płyty betonowej",
+    "knr": "KNR 4-04 0301-3"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Skucie wyst pów 20x10 cm na cianach z kamienia mi kkiego - posze- ę ś ę rzenie otworu Krotno = 2 ść",
+    "knr": "KNR 4-01 0347-02"
+  },
+  {
+    "jednostka": "szt.żył",
+    "opis": "Podłączenie końcówek pod zaciski (przekrój żył do 6mm2)",
+    "knr": "KNNR 5 1203-03"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Rozebranie nawierzchni, z tłucznia mechanicznie, grubość nawierzchni 15·cm",
+    "knr": "KNR 2-31 0804-3"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Podbudowa z kruszywa naturalnego - warstwa dolna o grubości po zagęszczeniu 20 cm",
+    "knr": "KNR 2-31 0114-01"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Rozebranie nawierzchni z płyt drogowych betonowych, z wypełnieniem spoin zaprawą cementową, grubość płyt 15·cm",
+    "knr": "KNR 2-31 0811-4"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Rozebranie wykładziny ciennej z płytek ś",
+    "knr": "KNR 4-01 0819-15"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Zagęszczanie nasypów walcami ciągnionymi; grunt sypki kat. I-III",
+    "knr": "KNR 2-01 0237-01"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Skr canie poł cze rubami - poł czenie belek rubami M12 kl. 5,8 ę ą ń ś ą ś",
+    "knr": "KNR 4-06 0112-01"
+  },
+  {
+    "jednostka": "szt.żył",
+    "opis": "Podłączenie przewodów kabelkowych o przekroju żyły do 2.5 mm2 pod zaciski lub bolce",
+    "knr": "KNNR 5 1203-08"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Obsadzenie podokienników stalowych do 1.5 m w cianach z cegieł ze- ś wn trznych - parapet aluminiowy gi ę ę",
+    "knr": "KNR 4-01 0321-01"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Krawężniki betonowe, dodatek za ustawienie krawężników na łukach o promieniu do 40·m",
+    "knr": "KNR 2-31 0403-8"
+  },
+  {
+    "jednostka": "kpl.",
+    "opis": "Demonta pisuaru ż",
+    "knr": "KNR 4-02 0235-01"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Zasypywanie wykopów o ścianach pionowych o szerokości 0.8-2.5 m i głęb. do 3.0 m w gr. kat. I-III - 15% wykopu",
+    "knr": "KNNR 1 0318-03"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Mechaniczne wykonanie koryta na całej szerokości jezdni i chodników w gruncie kat. I-IV głębokości 20 cm",
+    "knr": "KNR 2-31 0101-01"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Montaż na gotowym podłożu puszek bakelitowych o średnicy do 80 mm o ilości wylotów 3.",
+    "knr": "KNR-W 5-08 0302-02"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Montaż na gotowym podłożu odgałęźników PON56- 80x80Z z tworzyw sztucznych natynkowych do 4mm2 przez przykręcenie z podłączeniem przewodów kabelkowych 2.5 mm2 (4 wyloty).",
+    "knr": "KNR-W 5-08 0306-19"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Montaż masztu odgromowego aluminiowego h=1,5 m",
+    "knr": "KNR-W 5-08 0622-05"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Przygotowanie podłoża pod mocowanie osprzętu na zaprawie cementowej lub gipsowej z wykonaniem ślepych otworów ręcznie w cegle",
+    "knr": "KNR-W 5-08 0301-23"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Kopanie rowów dla kabli w sposób ręczny w gruncie kat. IV",
+    "knr": "KNNR 5 0701-03"
+  },
+  {
+    "jednostka": "kpl po-",
+    "opis": "Pomiar skuteczno ś",
+    "knr": "KNR 4-03 1205-05"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Usunięcie warstwy ziemi urodzajnej (humusu) za pomocą spycharek - dodatek za każde dalsze 5 cm grubości",
+    "knr": "KNR 2-01 0126-02"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Demontaż umywalki kpl. d",
+    "knr": "KNR -W 2-15 -"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Próby ci nieniowe szczelno ci instalacji wewn trznej c.o. w budynkach ś ś ę niemieszkalnych",
+    "knr": "KNR 2-15 0404-02"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Gruntowanie, Unigrunt",
+    "knr": "KNR 7-11 0101-1"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Podbudowy z kruszyw, tłuczeń, warstwa dolna, grubość warstwy po zagęszczeniu 15 cm",
+    "knr": "KNR 2-31 0114-5"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Puszki z tworzywa sztucznego o wym. 75x75 mm o 4 wylotach dla przewodów o przekroju do 2.5 mm2",
+    "knr": "KNNR 5 0303-02"
+  },
+  {
+    "jednostka": "kpl.",
+    "opis": "Wymiana grzejnika eliwnego członowego na stalowy grzejnik panelowy ż termostatyczn , (grzejniki stalowe ą ą",
+    "knr": "KNR-W 4- 02"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Podkłady, z ubitych materiałów sypkich na podłożu gruntowym, piasek 20cm - POM 32",
+    "knr": "KNR 2-02 1101-7"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Izolacje przeciwwilgoc.powlokowe bitumiczne pionowe - wyk.na zimno z masy dyspersyjnej - druga i nast.warstwa",
+    "knr": "KNR 2-02 0603-04"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Nawietrzaki okienne z frezowaniem otworów szt. d",
+    "knr": "KNR 2-17 0147-"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Gładź gipsowa na ścianach 2-warstwowa",
+    "knr": "KNR 2-02 0815-4"
+  },
+  {
+    "jednostka": "pomiar",
+    "opis": "Wykonanie pomiarów torów transmisyjnych - każda następna linia",
+    "knr": "KNR AT-15 0118-02"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Zaprawianie bruzd o szerokości do 25 mm",
+    "knr": "KNNR 5 1208-01"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Krawężniki betonowe wystające o wymiarach 15x30 cm na podsypce cementowo-piaskowej",
+    "knr": "KNR 2-31 0403-03"
+  },
+  {
+    "jednostka": "szt.",
+    "opis": "Zainstalowanie centralek sygnalizacji pożaru CSP do 5 NN na cegle, wraz z UTA",
+    "knr": "KNR 5-06 1601-02"
+  },
+  {
+    "jednostka": "aparat",
+    "opis": "Przygotowanie podłoża do zabudowania rozdzielnic - kucie ręczne pod śruby kotwowe w podłożu z betonu - 3-4 otwory mocujące.",
+    "knr": "KNR-W 5-08 0401-06"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Roboty rozbiórkowe, betonowe czapki kominowe",
+    "knr": "KNR 4-01 0212-4"
+  },
+  {
+    "jednostka": "m",
+    "opis": "Obrzeża betonowe o wymiarach 30x8 cm na podsypce cementowo-piaskowej z wypełnieniem spoin zaprawą cementową",
+    "knr": "KNR 2-31 0407-05"
+  },
+  {
+    "jednostka": "m2",
+    "opis": "Podbudowy z kruszyw, piasek, warstwa dolna, minus 10·cm grubości",
+    "knr": "KNR 2-31 0114-2"
+  },
+  {
+    "jednostka": "otw.",
+    "opis": "Mechaniczne wiercenie otworów o śr. do 20 mm w drewnie",
+    "knr": "KNR 4-03 1017-03"
+  },
+  {
+    "jednostka": "m3",
+    "opis": "Roboty ziemne wykonywane koparkami przedsiębiernymi o poj. łyżki 0.40 m3 w gruncie kat. III z transportem urobku samochodami samowyładowczymi na odległość do 1 km",
+    "knr": "KNR 2-01 0202-02"
+  },
+  {
+    "knr": "AT-15 0102-01 1",
+    "opis": "Układanie poziomego okablowania strukturalnego - odcinek poziomy, Kabel U/UTP kat. 6 (B2ca)",
+    "jednostka": "m"
+  },
+  {
+    "knr": "AT-15 0109-03 1",
+    "opis": "Montaż szafy (15U 600x600x770) szafa RACK 19\" wisząca",
+    "jednostka": "kpl."
+  },
+  {
+    "knr": "AT-15 0109-12 1",
+    "opis": "Montaż wyposażenia szaf dystrybucyjnych 19\" -Panel wentylacyjny 4W z wbudowanym termostatem",
+    "jednostka": "kpl."
+  },
+  {
+    "knr": "AT-15 0109-10 1",
+    "opis": "Montaż wyposażenia szaf dystrybucyjnych 19\" - listwa zasilająca",
+    "jednostka": "kpl."
+  },
+  {
+    "knr": "AT-15 0109-15 1",
+    "opis": "Montaż wyposażenia szaf dystrybucyjnych 19\" - półka",
+    "jednostka": "kpl."
+  },
+  {
+    "knr": "AT-15 0112-01 1",
+    "opis": "Tablice rozdzielcze 19\" 24xRJ45 - analogia",
+    "jednostka": "szt."
+  },
+  {
+    "knr": "AT-15 0109-14 1",
+    "opis": "Montaż wyposażenia szaf dystrybucyjnych 19\" - urządzenia aktywne",
+    "jednostka": "kpl."
+  },
+  {
+    "knr": "AT-15 0119-02 1",
+    "opis": "Krosowanie - kabel miedziany w szafie dystrybucyjnej 1,5m",
+    "jednostka": "szt."
+  },
+  {
+    "knr": "AL-01 0501-02 1",
+    "opis": "Montaż ochronników przepięciowych do zewnętrznych kamer IP",
+    "jednostka": "szt."
+  },
+  {
+    "knr": "AT-15 0118-01 1",
+    "opis": "Wykonanie pomiarów torów transmisyjnych - pierwsza linia",
+    "jednostka": "pomiar"
+  },
+  {
+    "knr": "AT-15 0118-02 1",
+    "opis": "Wykonanie pomiarów torów transmisyjnych - każda następna linia",
+    "jednostka": "pomiar"
+  },
+  {
+    "knr": "KNR-W 4-03 1202-02",
+    "opis": "Sprawdzenie i pomiar kompletnego 3-fazowego obwodu elektrycznego niskiego napięcia",
+    "jednostka": "pomiar."
+  },
+  {
+    "knr": "AL-01 0604-02 1",
+    "opis": "Praca próbna i testowanie systemu alarmowego do 48 elementów liniowych",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "AL-01 0302-06 1",
+    "opis": "Montaż elementów systemu przywoławczego - terminalNODE LCD z wezwaniem lekarza",
+    "jednostka": "szt."
+  },
+  {
+    "knr": "AL-01 0301-03 1",
+    "opis": "Montaż kasety kamery kolorowej",
+    "jednostka": "szt."
+  },
+  {
+    "knr": "AL-01 0112-05 1",
+    "opis": "Dekoder dla czterech urzytkowników",
+    "jednostka": "szt."
+  },
+  {
+    "knr": "KSNR 5 0201-01",
+    "opis": "Montaż tablic rozdzielczych o masie do 10kg skrzynka telekomunikacyjna  typ A/Z-200  + wyposarzenie",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR 5-06 1612-02",
+    "opis": "Instalowanie optycznych czujek dymu w uprzednio zainstalowanych gniazdach i obudowach wraz ze sprawdzeniem",
+    "jednostka": "szt."
+  },
+  {
+    "knr": "AL-01 0402-01 0",
+    "opis": "Montaż ręcznych ostrzegaczy pożaru - przycisk typu konwencjonalnego",
+    "jednostka": "szt."
+  },
+  {
+    "knr": "AL-01 0404-09 0",
+    "opis": "Zaprogramowanie centrali",
+    "jednostka": "szt."
+  },
+  {
+    "knr": "AT-15 0114-01 1",
+    "opis": "Podłączenie kabla wieloparowego do łączówki - pierwsze połączenie w łączówce, 1 para",
+    "jednostka": "szt."
+  },
+  {
+    "knr": "AT-15 0114-03 1",
+    "opis": "Podłączenie kabla wieloparowego do łączówki - każde następne połączenie w łączówce, 1 para",
+    "jednostka": "szt."
+  },
+  {
+    "knr": "AT-28 0111-01 1",
+    "opis": "Montaż  elementów telewizji urzytkowej -urządzenie do zapisu cyfrowego",
+    "jednostka": "szt."
+  },
+  {
+    "knr": "AT-28 0122-02 1",
+    "opis": "Krosowanie - kabel miedziany w szafie dystrybucyjnej",
+    "jednostka": "szt."
+  },
+  {
+    "knr": "KNBK 2 0303-1",
+    "opis": "Wykopy nieumocnione wykonywane na zewnątrz budynku wykop przy odkrywaniu odcinkami istnie. fundamentów z odrzuceniem ziemi do 3 m lub załadowanie w gruncie suchym kategorii I-III (poz 161)",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "ORGB 2-02 0160-1",
+    "opis": "Ułożenie nadproży prefabrykowanych porotherm h+h",
+    "jednostka": "m"
+  },
+  {
+    "knr": "B3803803803803803803 0803 0803-3",
+    "opis": "Remont stopni lastrykowych wraz ze ścięciem kapinosów - naprawa okładziny lastryko stopni schodów",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "B 05 0618-6",
+    "opis": "Rozbiórka nadbetonu oraz warstw posadzki na stropie gr nadbetonu 5cm",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "DUALNA 00 0000",
+    "opis": "Opłata za składowisko odpadów",
+    "jednostka": "t"
+  },
+  {
+    "knr": "KNK 2-06 0806-02",
+    "opis": "Ręczna rozbiórka nawierzchni betonowej",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "KNK 2-06 0806-01",
+    "opis": "Mechaniczna rozbiórka nawierzchni betonowej w jezdni drogowej",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "NNRNKB 202 0230",
+    "opis": "(z.II) Schody żelbetowe wspornikowe proste z płytą gr. 9 cm",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-22 0603-04",
+    "opis": "schody drewniane deskowane na strychu",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 2-02 0602-04",
+    "opis": "Izolacje przeciwwilgoc.powłokowe bitumiczne poziome - wyk.na zimno z masy dyspersyjnej - druga i nast.warstwa",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-02 0609-04",
+    "opis": "Izolacje cieplne i przeciwdźwiękowe z płyt styropianowych poziome na wierzchu konstrukcji na sucho - każda następna warstwa 8cm",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-02 0210-05",
+    "opis": "Belki i podciągi, żelbetowe stos.desk.obw.do przekr.do 16",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "KNR 2-02 0210-06",
+    "opis": "Belki i podciągi żelbetowe; stosunek deskowanego obwodu do przekroju ponad 16 - z zastosowaniem pompy do betonu",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "KNR 2-02 0219-03",
+    "opis": "Zadaszenie wejścia głównego, o wysięgu ponad 150 cm",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "KNR-W 2-02 0214-04",
+    "opis": "Stropy gęstożebrowe RECTOR",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR-W 2-02 0259-01",
+    "opis": "Przygotowanie i montaż zbrojenia elementów budynków i budowli - pręty gładkie o śr. do 7 mm t",
+    "jednostka": "t"
+  },
+  {
+    "knr": "KNR-W 2-02 0259-02",
+    "opis": "Przygotowanie i montaż zbrojenia elementów budynków i budowli - pręty żebrowane o śr. do 7 mm t",
+    "jednostka": "t"
+  },
+  {
+    "knr": "KNR 2-02 2011-02",
+    "opis": "Okładziny gipsowo-kartonowe, pojedyncze na stropach, na rusztach metalowych; rozstaw profili nośnych 40 cm",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-02 2011-04",
+    "opis": "Okładziny gipsowo-kartonowe, pojedyncze na stropach, na rusztach metalowych - dodatek za drugą warstwę płyt",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-02 1505-05",
+    "opis": "Dwukrotne malowanie farbami emulsyjnymi powierzchni wewnętrznych - płyt gipsowych spoinowanych szpachlowanych z gruntowaniem - sufit",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 0-19 1024-10",
+    "opis": "analogia Montaż systemowych ścianek sanitarnych z płyty wiórowej melaminowanej gr. 25mm",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-02 1219-03",
+    "opis": "Wycieraczki systemowe do obuwia",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR-W 2-02 0504-01",
+    "opis": "Pokrycie dachów papą termozgrzewalną jednowarstwowe",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 0-17 2609-05",
+    "opis": "Ocieplenie stropu budynków płytami styropianowymi metodą lekką-mokrą przy użyciu gotowych zapraw klejących - przymocowanie płyt styropianowych za pomocą dybli plastikowych do ścian z betonu",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR-W 2-02 0504-02",
+    "opis": "Pokrycie dachów papą termozgrzewalną dwuwarstwowe",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 0-23 2614-05",
+    "opis": "Docieplenie ościeży o szer. 20 cm z cegły płytami styropianowymi - przy użyciu got. zapraw klejących wraz z przyg. podłoża i ręczne wyk. wyprawy elew. z got. suchej mieszanki",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 0-23 0931-05",
+    "opis": "Wyprawa elewacyjna cienkowarstwowa z tynku mineralnego gr. 2 mm wykonana ręcznie na uprzednio przygotowanym podłożu - kominy",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-31 0812-03",
+    "opis": "Rozebranie ław pod krawężniki z betonu",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "KNR 2-31 0813-01",
+    "opis": "Rozebranie krawężników betonowych 15x30 cm na podsypce piaskowej",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 2-31 0802-05",
+    "opis": "Ręczne rozebranie podbudowy z kruszywa kamiennego o grubości",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-31 0807-01",
+    "opis": "Rozebranie nawierzchni z kostki betonowej 14x12 cm lub żużlowej",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-31 0105-05",
+    "opis": "Podsypka cementowo-piaskowa z zagęszczeniem ręcznym - 3 cm grubości warstwy po zagęszczeniu",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-02 0205-01",
+    "opis": "Płyty fundamentowe żelbetowe pod pompę ciepła",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "KNR 2-01 0310-01",
+    "opis": "Ręczne wykopy ciągłe lub jamiste ze skarpami o szer. dna do 1,5 m i gł. do 1,5 m ze złożeniem urobku na odkład (kat. gruntu I-II)",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 2-02 1802-02",
+    "opis": "Ogrodzenie z siatki wysokości 1,8",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 2-02 1808-11",
+    "opis": "Wrota z furtkami wysokości 1,8 m; szerokość wrót 4 m z siatki w ramach stalowych na gotowych słupkach z pasem dolnym z blachy o wysokości 25 cm",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 2-02 0202-02",
+    "opis": "Ławy fundamentowe prostokątne żelbetowe, szerokości do 0,8 m - z zastosowaniem pompy do betonu",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 2-02 0604-01",
+    "opis": "Izolacje poziome przeciwwilgociowe z folii izolacyjnej ław fundamentowych",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-02 0609-08",
+    "opis": "Izolacje cieplne i przeciwdzwiękowe z płyt polistyrenowych pionowe na lepiku bez siatki metal. - ocieplenie ścian fundamentowych",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-02 0613-04",
+    "opis": "Izolacje cieplne i przeciwdźwiękowe z wełny mineralnej poziome z płyt układanych na sucho - każda następna warstwa",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 0-19 1023-03",
+    "opis": "Montaż okien uchylnych jednodzielnych z PCV z obróbką obsadzenia o pow. do 1.0 m2 - okno podawcze",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR-W 2-02 0135-01",
+    "opis": "Obsadzenie prefabrykowanych podokienników długości do 1 m",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 2-02 1017-01",
+    "opis": "Skrzydła drzwiowe płytowe wewnętrzne jednodzielne pełne o powierzchni do 1,6 m2 fabrycznie wykończone -80x200 drzwi z kratkami transferowymi",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-02 0410-04",
+    "opis": "Kontrłaty 3x4cm",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR-W 4-01 0819-03",
+    "opis": "Przybicie od góry do dolnych pasów wiązarów podłogi z płyt OSB gr. 25mm (podest roboczy instalacyjny)",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR-W 2-02 1036-02",
+    "opis": "Obudowa wiązara od spodu w postaci boazeri z listew drewnianych",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR-W 2-02 1036-09",
+    "opis": "Boazerie - lakierowanie dwukrotne m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-31 0511-04",
+    "opis": "Nawierzchnie z kostki brukowej betonowej o grubości 8 cm na podsypce piaskowej",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-31 0511-01",
+    "opis": "Nawierzchnie z kostki brukowej betonowej o grubości 6 cm na podsypce piaskowej",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR-W 2-18 0421-03",
+    "opis": "Kształtki PVC kanalizacji zewnętrznej jednokielichowe łączone na wcisk",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR 2-18 0501-02",
+    "opis": "Kanały rurowe - podłoża z materiałów sypkich o grubości 15 cm",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-18 0804-02",
+    "opis": "Próba szczelności kanałów rurowych o śr.nom. do",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR-W 2-19 0306-05",
+    "opis": "Rury ochronne (osłonowe) z PE, PCW, PP o śr. nom.",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 2-01 0320-02",
+    "opis": "01 Zasypywanie wykopów liniowych o ścianach pionowych w gruntach kat.III-IV; głębokość do 1.5 m, szerokość 0.8-1.5 m",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 4-01 0108-01",
+    "opis": "Wywóz ziemi samochodami skrzyniowymi na odległość do 1 km grunt.kat. I-II",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "KNR-W 2-15 0211-08",
+    "opis": "Dodatki za wykonanie podejść odpływowych z PVC o śr. 110 mm o połączeniach klejonych pode j.",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR-W 2-18 0517-02",
+    "opis": "Studzienki kanalizacyjne systemowe \"WAVIN\" o śr",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR 2-18 0614-08",
+    "opis": "analogia Montaż zbiornika szczelnego na deszczówkę stud.",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR-W 2-01 0310-02",
+    "opis": "Wykopy liniowe szer. 0.8-1.5 m pod fundamenty, rurociągi, kolektory w gruntach suchych z wydobyciem urobku łopatą lub wyciągiem ręcznymkat. III-IV; głębokość do 1.5 m",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR-W 2-01 0506-01",
+    "opis": "Plantowanie skarp i dna wykopów wykonywanych ręcznie w gr. kat. I-III",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-18 0501-01",
+    "opis": "Kanały rurowe - podłoża z materiałów sypkich o grub.10 cm",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR-W 2-19 0119-03",
+    "opis": "Rury ochronne o śr.nom.250 mm",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR-W 2-01 0312-02",
+    "opis": "Zasypywanie wykopów liniowych o ścianach pionowych głębokości do 1.5 m i szer. 0.8-1.5 m; kat. gr. III-IV",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR-W 2-15 0211-03",
+    "opis": "Dodatki za wykonanie podejść odpływowych z PP o śr. 110 mm o połączeniach wciskowych pode j.",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR-W 2-15 0203-03",
+    "opis": "Rurociągi z PVC kanalizacyjne o śr. 110 mm w gotowych wykopach, wewnątrz budynków o połączeniach wciskowych",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR-W 2-18 0706-02",
+    "opis": "Próba wodna szczelności kanałów rurowych o śr.nominalnej 200 mm odc. -1 prób",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR-W 2-15 0412-05",
+    "opis": "Zawory napowietrzające pływakowe, Dn 50·mm",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR 5-18 1712-07",
+    "opis": "Przebicia przez ściany betonowe grubości 30 cm",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR 7-08 0904-02",
+    "opis": "Przekucie otworów przez ściany i stropy z betonu dm3",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 0-36 1115-01",
+    "opis": "Uszczelnienie przejść instalacyjnych",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 0-35 0114-01",
+    "opis": "Baterie umywalkowe uruchomione łokciem dla osób niepełnosprawnych",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR 0-35 0114-05",
+    "opis": "Zawór spłukujący do pisuaru",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR 2-15 0114-01",
+    "opis": "Zawory czerpalne o śr. nom. 15 mm",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR 0-35 0116-02",
+    "opis": "Maskownice do zakrywania otworów z wodomierzami lub zaworami odcinającymi w ścianach o wym. 15x20 cm",
+    "jednostka": "kpl"
+  },
+  {
+    "knr": "KNR 0-31 0301-02",
+    "opis": "analogia Montaż ogrzewania podłogowego - układ wężownicy ślimakowy - część instalacyjna; rurociągi z polibutylenu PB o śr. 16 mm woda grzewcza o temperaturze 40/30 do 55/45 st. C",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 0-31 0312-09",
+    "opis": "analogia Rozdzielacze do ogrzewania podłogowego HP10/16 (9obwodów, 3/4\"/16)",
+    "jednostka": "kpl"
+  },
+  {
+    "knr": "KNR 0-31 0218-02",
+    "opis": "analogia Próba szczelności instalacji centralnego ogrzewania w budynkach mieszkalnych - próba wodna ciśnieniowa",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR-W 4-03 1004-13",
+    "opis": "Mechaniczne przebijanie otworów w ścianach lub stropach betonowych o długości przebicia do 30 cm - śr.rury do 60 mm otw.",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR-W 2-15 0123-02",
+    "opis": "Dodatki za wykonanie obustronnych podejść do wodomierzy skrzydełkowych o śr. nominalnej 20 mm w rurociągach z tworzyw sztucznych",
+    "jednostka": "kpl"
+  },
+  {
+    "knr": "KNR-W 2-15 0130-03",
+    "opis": "Zawory przelotowe i zwrotne instalacji wodociągowych z rur stalowych o śr. nominalnej 25 mm",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR-W 2-15 0130-02",
+    "opis": "Zawory przelotowe i zwrotne instalacji wodociągowych z rur stalowych o śr. nominalnej 20 mm",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR-W 2-15 0130-01",
+    "opis": "Zawory instalacji wodociągowych kątowe o śr. nominalnej 15 mm - zawory do baterii umywalkowych i zlewowych stojących.",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR 2-15 0120-02",
+    "opis": "Hydrant przeciwpożarowy, podtynkowy DN 25 z wężem półsztywnym długości 30m i gaśnicą proszkową umieszczoną pod zwijadłem o wymiarach",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR 2-15 0122-01",
+    "opis": "Zasobnik cwu o poj. 120 dm3",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR-W 2-15 0116-06",
+    "opis": "Dodatki za podejścia dopływowe w rurociągach z tworzyw sztucznych do płuczek ustępowych o połączeniu sztywnym o śr. zewnętrznej 20 mm",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR-W 2-15 0116-01",
+    "opis": "Dodatki za podejścia dopływowe w rurociągach z tworzyw sztucznych do zaworów czerpalnych, baterii, mieszaczy, hydrantów itp. o połączeniu sztywnym o śr. zewnętrznej 20 mm",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR 2-15 0104-03",
+    "opis": "Rurociągi w instalacjach wodociągowych o śr. nom.",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR-W 2-15 0410-05",
+    "opis": "Rurociąg z polietylenu sieciowanego PE-X/Al/PE",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 0-34 0101-01",
+    "opis": "Izolacja rurociągów śr.12-22 mm otulinami Thermaflex FRZ - jednowarstwowymi gr.6 mm (C)",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR-W 4-03 1006-06",
+    "opis": "Ręczne przebijanie otworów w scianach lub stropach z cegły o długości przebicia do 1 cegły - śr.rury do 25 mm - budowle o wys.do 12 m otw.",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR-W 4-03 1006-07",
+    "opis": "Ręczne przebijanie otworów w scianach lub stropach z cegły o długości przebicia do 1 cegły - śr.rury do 40 mm - budowle o wys.do 12 m otw.",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR-W 2-15 0127-01",
+    "opis": "Próba szczelności instalacji wodociągowych z rur z tworzyw sztucznych w budynkach mieszkalnych (rurociąg o śr. do 63 mm)",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 4-04 1101-02",
+    "opis": "Transport gruzu z terenu rozbiórki przy ręcznym załadowaniu i wyładowaniu samochodem skrzyniowym na odległość do 1 km",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "KNR 4-04 1101-05",
+    "opis": "Transport gruzu z terenu rozbiórki przy ręcznym załadowaniu i wyładowaniu samochodem ciężarowym - dodatek za każdy następny rozpoczęty",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "KNR-W 2-17 0202-06",
+    "opis": "analogia Centrala wentylacyjna nawiewno-wywiewna z wymiennikiem krzyżowym z nagrzewnicą kanałową i osprzętem - CW1 Strumień obliczonej objetości powietrza: Gn = 1100m3/h Gw = 730 m3/h Spręż dyspozycyjny dobranej centrali: Hn = 440-325 Pa Hw = 435-320 Pa",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "KNR-W 2-17 0155-02",
+    "opis": "Tłumik rurowy fi200/fi300, L=80cm",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR-W 2-17 0147-01",
+    "opis": "Czerpnie ścienne kołowe 400 mm",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR-W 2-17 0145-01",
+    "opis": "Wyrzutnie dachowe kołowe o śr. do 400 mm",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR-W 2-17 0148-06",
+    "opis": "Podstawy dachowe stalowe prostokątne",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR 2-15 0203-08",
+    "opis": "analogia Montaż przewodów z blachy ocynkowanej z kształtkami, średnica dn 100mm",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 2-15 0203-09",
+    "opis": "analogia Montaż przewodów z blachy ocynkowanej z kształtkami, średnica dn 125mm",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 2-15 0203-10",
+    "opis": "analogia Montaż przewodów z blachy ocynkowanej z kształtkami, średnica dn 200mm",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR-W 2-17 0140-01",
+    "opis": "Anemostat nawiewny okrągły Dn 100 - z kołnierzem montażowym - z regulowaną szczeliną - łatwy do utrzymania w czystości - odporny na środki czyszczące i dezynfekcyjne obiekty modernizowane - wraz z próbą montażową - obiekty służby zdrowia lub szkolnictwa wyższego",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR-W 2-17 0153-03",
+    "opis": "Klapy rewizyjne 80mm",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR-W 2-16 0312-01",
+    "opis": "Izolacja matami z wełny mineralnej na folii aluminiowejo gr. 50 powierzchni płaskich",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 4-01 0208-02",
+    "opis": "Przebicie otworów o powierzchni do 0.05 m2 Krotność = 2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 4-01 0333-06",
+    "opis": "Przebicie otworów w ścianach z cegieł o grubości 3 ceg. na zaprawie wapiennej",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR 4-01 0304-04",
+    "opis": "Uzupełnienie ścian lub zamurowanie otworów w ścianach na zaprawie cementowej cegłami - uzupełnienie szczelin przejść przez przegrody budowlane po montażu przewodów wentylacji mechanicznej.",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "KNR-W 2-17 0153-04",
+    "opis": "Klapy rewizyjne 400mm",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR-W 2-17 0131-04",
+    "opis": "Klapa p.poż 400 EIS60",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR-W 2-17 0147-02",
+    "opis": "Czerpnie ścienne kołowe o śr. do 400 mm",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR-W 2-17 0145-04",
+    "opis": "Wyrzutnie dachowe kołowe typ śr. do 400 mm",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR-W 2-17 0202-01",
+    "opis": "analogia Wentylator wyciągowy WD125 o prędkości obrotowej",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "KNR-W 2-17 0141-06",
+    "opis": "Okap przyścienny skośny 1600×700×450 mm wykonany ze stali nierdzewnej. Okap powinien być wyposażony w filtry, w rynienkę ociekową na tłuszcz i skropliny ściekające z labiryntowych filtrów tłuszczu oraz w kranik do opróżniania zawartości rynienki. Podłączenie okapu do projektowanego komina należy wyk",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR 7-24 0147-06",
+    "opis": "Wykonanie konstrukcji wsporczej do zamocowania maszyn i urządzeń z elem.o masie 200 kg",
+    "jednostka": "kg"
+  },
+  {
+    "knr": "KNR 7-24 0147-03",
+    "opis": "Wykonanie konstrukcji wsporczej do zamocowania maszyn i urządzeń z elem.o masie 10 kg",
+    "jednostka": "kg"
+  },
+  {
+    "knr": "KNR 7-24 0148-01",
+    "opis": "Montaż konstrukcji wsporczej do zamocowania rurociągów i aparatów z elem.o masie 1 kg",
+    "jednostka": "kg"
+  },
+  {
+    "knr": "KNR 7-24 0130-03",
+    "opis": "Agregat chłodniczy JZ1, moc chłodnicza 10,6 kW, moc grzania 10,8kW,",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR-W 2-15 0432-01",
+    "opis": "analogia Klimatyzator kasetonowy JW4, moc chłodnicza 3,6 kW, moc grzewcza 3,8 kW , sterowanie: panel naścienny, pompka skroplin",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR-W 7-09 2701-01",
+    "opis": "Rurociągi z rur miedzianych w instalacji obiegu freonu z izolacją o śr. 6,35 mm",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 7-24 0236-01",
+    "opis": "Podłaczenie klimatyzatorów do instalacji chłodniczej",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR-W 7-09 0801-01",
+    "opis": "Spawanie ręczne w osłonie argonu metodą TIG rurociągów z miedzi i jej stopów o średnicy do 20.0 mm.Grubość ścianki do 2.5 mm złąc z.",
+    "jednostka": "kpl"
+  },
+  {
+    "knr": "KNR 7-24 0501-01",
+    "opis": "Przedmuchiwanie sprężonym powietrzem urządzeń i instalacji chłodniczych wewnątrz - obieg bezpośredni - wydajność urządzenia 30 tys. kcal/h",
+    "jednostka": "kpl"
+  },
+  {
+    "knr": "KNR 7-24 0514-08",
+    "opis": "Próba szczelności urządzeń i instalacji obiegu freonu itp. o wydajności 15.0 tys.kcal/h",
+    "jednostka": "kpl"
+  },
+  {
+    "knr": "KNR 7-24 0515-08",
+    "opis": "Napełnienie urządzeń i instalacji obiegu freonu i podobnych czynników czynnikiem chłodniczym - wydajność 15.0 tys.kcal/h",
+    "jednostka": "kpl"
+  },
+  {
+    "knr": "KNR 7-24 0516-08",
+    "opis": "Uruchomienie i uzyskanie niskich temperatur - wydajność 15.0 tys.kcal/h",
+    "jednostka": "kpl"
+  },
+  {
+    "knr": "KNR-W 4-03 1004-11",
+    "opis": "Mechaniczne przebijanie otworów w ścianach lub stropach betonowych o długości przebicia do 30 cm - śr.rury do 25 mm otw.",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR-W 4-03 1004-16",
+    "opis": "Mechaniczne przebijanie otworów w ścianach lub stropach betonowych o długości przebicia do 40 cm - śr.rury do 25 mm otw.",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR-W 4-03 1008-02",
+    "opis": "Montaż przepustów rurowych w ścianie - długość przepustu do 0,5 m - śr.zewnętrzna rury do 40 mm prze pust.",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 0-35 0221-06",
+    "opis": "Urządzemia technologiczne pompy ciepła wg rys.S-7",
+    "jednostka": "kpl"
+  },
+  {
+    "knr": "KNR-W 2-15 0525-01",
+    "opis": "Złącze samoodcinające SU 1\"",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR 0-35 0121-09",
+    "opis": "analogia Bufor ciepła V=200l",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR-W 2-15 0527-04",
+    "opis": "separator zanieczyszczeń i powietrza",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR 0-35 0208-02",
+    "opis": "Pompa obiegu instalacji górnego źródła (wg dostawy z pompą ciepła).",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR-W 2-15 0513-01",
+    "opis": "Rozdzielacze do kotłów i instalacji c.o. z rur o śr. nominalnej do 40 mm z izolacja i obudową z blachy ocynkowanej",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 0-35 0208-03",
+    "opis": "Pompa obiegu centralnego ogrzewania ELEKTRONICZNA 25/60",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR-W 2-15 0530-03",
+    "opis": "Czujnik temperatury zewnętrznej",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR-W 2-15 0530-04",
+    "opis": "Manometry montowane wraz z wykonaniem tulei",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR-W 2-15 0411-03",
+    "opis": "Zawór ze złączką do węża dn=25 mm",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR-W 2-15 0411-06",
+    "opis": "Filtr siatkowy o połączeniach gwintowanych o śr. nominalnej 50mm",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR-W 2-15 0411-04",
+    "opis": "Filtr siatkowy o połączeniach gwintowanych o śr. nominalnej 25 mm",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR-W 2-15 0411-02",
+    "opis": "Zawory przelotowe o połączeniach gwintowanych o śr. nominalnej 20 mm",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR-W 2-15 0411-01",
+    "opis": "Zawory przelotowe o połączeniach gwintowanych o śr. nominalnej 15 mm",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR-W 2-15 0514-05",
+    "opis": "Rurociągi z rur stalowych czarnych o śr. nominalnej",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR-W 2-15 0514-03",
+    "opis": "Rurociągi z rur stalowych czarnych o śr. nominalnej",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR-W 2-15 0514-02",
+    "opis": "Rurociągi z rur stalowych czarnych o śr. nominalnej",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR-W 2-15 0514-01",
+    "opis": "Rurociągi z rur stalowych czarnych o śr. nominalnej",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR-W 7-12 0101-04",
+    "opis": "Czyszczenie przez szczotkowanie ręczne do trzeciego stopnia czystości rurociągów o średnicy zewnętrznej do 57 mm (stan wyjściowy powierzchni B)",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR-W 7-12 0101-05",
+    "opis": "Czyszczenie przez szczotkowanie ręczne do trzeciego stopnia czystości rurociągów o średnicy zewnętrznej 58-219 mm (stan wyjściowy powierzchni B)",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR-W 7-12 0201-04",
+    "opis": "Malowanie pędzlem farbami do gruntowania miniowymi rurociągów o średnicy zewnętrznej do 57 mm Krotność = 2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR-W 7-12 0201-05",
+    "opis": "Malowanie pędzlem farbami do gruntowania miniowymi rurociągów o średnicy zewnętrznej 58-219 mm Krotność = 2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR-W 2-15 0406-02",
+    "opis": "Próby szczelności instalacji c.o. z rur stalowych i miedzianych w budynkach niemieszkalnych",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR-W 2-15 0126-04",
+    "opis": "Próba szczelności instalacji wodociągowych z rur żeliwnych, stalowych i miedzianych w budynkach niemieszkalnych (rurociąg o śr. do 65 mm)",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR-W 2-15 0516-03",
+    "opis": "Próby szczelności węzłów cieplnych wymiennikowych o ogólnej powierzchni ogrzewalnej wymienników do 25 m2 węz eł",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR-W 2-15 0517-01",
+    "opis": "analogia Uruchomienie układu",
+    "jednostka": "kpl"
+  },
+  {
+    "knr": "KNR-W 2-15 0134-06",
+    "opis": "ZAWÓR ANTYZAMROŻENIOWY DN32 TEMP. OTW/ZAMK..",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR 5-08 0403-10",
+    "opis": "analogia Montaż skrzynek probierczych - puszka do złącza odgromowego w elewacji",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR 5-08 0608-07",
+    "opis": "analogia Układanie bednarki w fundamęcie - bednarka ocynkowana FeZn",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR-W 5-08 0617-01",
+    "opis": "Łączenie przewodów instalacji odgromowej przez spawanie w wykopie - elektroda rutylowo-celulozowa",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR 19-01 0118-05",
+    "opis": "Wywóz ziemi samochodami samowyładowczymi na odl. do 1 km, grunt kat. IV - dodatek za przegłębienie - 16cm więcej niż zakładano pierwotnie",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "KNR 19-01 1019-03",
+    "opis": "Demontaż ościeżnic i drzwi wewnętrznych obmiar = 136.800000 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 4-04 0105-04",
+    "opis": "Rozebranie ścianek, ścianki pełne z cegły o gru- bości 1/2 cegły, na zaprawie cementowo-wapien- nej obmiar = 651.810000 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 4-01 0329-03",
+    "opis": "Wykucie otworów w ścianach z cegieł dla otwo- rów drzwiowych i okiennych, zaprawa wapienna lub cementowo-wapienna, grubość ponad 1/2 cegły - powiększenie otworów okiennych i drzwio- wych obmiar = 17.960000 m3",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "KNR 4-04 0305-02",
+    "opis": "Rozebranie płyt żelbetowych , płyta schody gru- bości do 15 cm - balkony obmiar = 14.800000 m3",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "KNR 4-04 0305-03",
+    "opis": "Rozebranie płyt żelbetowych ,schody grubości do",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "KNR 4-04 0804-01",
+    "opis": "Rozebranie balustrad z kształtowników stalowych obmiar = 169.000000 m",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 4-04 0301-03",
+    "opis": "Rozebranie podłoża, z betonu - dościa, tarasy zew nawierzchnia z płyty betonowej obmiar = 57.780000 m3",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "KNR 4-04 0602-01",
+    "opis": "Burzenie murków dojść/tarasów zewnętrznych obmiar = 60.810000 m3",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "KNR 4-01 0212-04",
+    "opis": "Roboty rozbiórkowe, betonowe czapki kominowe obmiar = 17.800000 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 4-01 0535-04",
+    "opis": "Rozebranie rynien z blachy nie nadającej się do użytku obmiar = 145.000000 m",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 4-01 0535-06",
+    "opis": "Rozebranie rur spustowych z blachy nie nadają- cej się do użytku obmiar = 81.000000 m",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 4-01 0535-08",
+    "opis": "Rozebranie obróbek blacharskich: murów ognio- wych, okapów kołnierzy, gzymsów itp. z blachy nie nadającej się do użytku obmiar = 50.750000 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 4-01 0519-06",
+    "opis": "Rozbiórka pokrycia z papy, dach betonowy, 1 warstwa obmiar = 818.110000 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 4-01 0519-07",
+    "opis": "Rozbiórka pokrycia z papy, dach betonowy, wars- twa następna obmiar = 818.110000 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 13-23 0106-08",
+    "opis": "Rozbiórki izolacji cieplnych ze styropianu obmiar = 122.720000 m3",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "KNR 4-04 0301-02",
+    "opis": "Rozebranie podłoża, z betonu żwirowego gruboś- ci 5 cm - szlichta - założono 20% obmiar = 8.150000 m3",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "KNR 4-01 0304-02",
+    "opis": "Uzupełnienie ścian lub zamurowanie otworów, zaprawa cementowo-wapienna, bloczkami z be- tonu komórkowego obmiar = 11.560000 m3",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "KNR 2-05 0101-06",
+    "opis": "Nadroża stalowe z przygotowaniem i montażem obmiar = 4.350000 t t -- R --",
+    "jednostka": "t"
+  },
+  {
+    "knr": "KNR 2-02 0121-01",
+    "opis": "Ścianki działowe, z płytek piano- lub gazobetono- wych o grubości 8 cm obmiar = 66.340000 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-02 0121-03",
+    "opis": "Ścianki działowe, z płytek piano- lub gazobetono- wych o grubości 12 cm obmiar = 250.890000 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-02 0120-09",
+    "opis": "Ścianki działowe, dodatek za zbrojenie ścianek pełnych obmiar = 317.230000 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-02 0216-02",
+    "opis": "Płyty żelbetowe B-20, płaskie, grubość 15 cm, beton podawany pompą - gr 15cm - nad parte- rem przy windzie obmiar = 1.750000 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-02 0216-05",
+    "opis": "Płyty żelbetowe B-25, minus 7cm różnicy w gru- bości płyty, beton podawany pompą - łącznie",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-02 9933-01",
+    "opis": "(WaCeTOB 6/98) Nadbeton stropu gr 5cm B-20 obmiar = 0.980000 m3",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "KNR 2-02 1106-03",
+    "opis": "Posadzki cementowe, dodatek za pogrubienie posadzki o 2,5 cm ponad 25 mm - posadzka na stropie piętro Krotność = 3.5 obmiar = 19.680000 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-02 9011-01",
+    "opis": "Obsadzenie drzwi wewnętrznych płycinowych obmiar = 158.130000 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNRW 4-01 0713-01",
+    "opis": "Przecieranie istniejących tynków wewnętrznych, z zeskrobaniem farby, na ścianach obmiar = 3293.100000 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNRW 4-01 0713-02",
+    "opis": "Przecieranie istniejących tynków wewnętrznych, z zeskrobaniem farby, na sufit obmiar = 1280.100000 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 4-01 0701-02",
+    "opis": "Odbicie tynków wewnętrznych, na ścianach, fila- rach, pilastrach, do 5·m2, z zaprawy cementowo- wapiennej - przyjęto 5% obmiar = 164.660000 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 4-01 0701-08",
+    "opis": "Odbicie tynków wewnętrznych, stropy płaskie, belki, biegi, spoczniki schodowe, do 5·m2, z za- prawy cementowo-wapiennej - przyjęto 5% obmiar = 64.010000 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 4-01 0703-01",
+    "opis": "Umocowanie siatek Rabitz na ścianach obmiar = 264.550000 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 4-01 0711-02",
+    "opis": "Uzupełnienie tynków zwykłych wewnętrznych kat. III, (ściany płaskie, słupy prostokątne, z cegły, pustaków ceramicznych, gazo- i pianobetonu) za- prawa cem-wap - uzupełnienia tynków po odbiciu obmiar = 268.100000 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-02 0801-04",
+    "opis": "Tynki zwykłe wykonane mechanicznie, stropy i podciągi, kategoria·III, budynki do 8 kondygnacji obmiar = 18.000000 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-02 0815-04",
+    "opis": "Gładź gipsowa na ścianach 2-warstwowa obmiar = 3906.580000 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-02 0815-06",
+    "opis": "Gładź gipsowa na sufitach 2-warstwowa obmiar = 1280.100000 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 7-11 0101-01",
+    "opis": "Gruntowanie, Unigrunt obmiar = 5186.680000 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-02 1505-01",
+    "opis": "Malowanie farbami lateksowymi wewnętrznych tynków gładkich bez gruntowania, 2-krotne obmiar = 2426.160000 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 19-01 0907-05",
+    "opis": "Okładziny ścian z wykładzin z tworzyw sztucz- nych, rulonowe heterogeniczne klejone obmiar = 1617.450000 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 19-01 0907-09",
+    "opis": "Okładziny ścian z wykładzin z tworzyw sztucz- nych, zgrzewanie wykładzin rulonowych hetero- genicznych obmiar = 1617.450000 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-02 1214-05",
+    "opis": "Balustrada - schodowa obmiar = 16.000000 m",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 4-04 0504-06",
+    "opis": "Rozebranie posadzek, z wykładzin z tworzyw",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-01 0212-03",
+    "opis": "Roboty ziemne koparkami podsiębiernymi z transportem urobku samochodami samowyła- dowczymi do 1·km, w ziemi uprzednio zmagazy- nowanej w hałdach, koparka 0,25·m3, grunt kate- gorii I-III, spycharka 55·kW obmiar = 124.160000 m3",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "KNR 2-01 0214-04",
+    "opis": "Nakłady uzupełniające do tablic 0201-0213 za każde dalsze rozpoczęte 0,5·km odległości trans- portu, ponad 1·km samochodami samowyładow- czymi, po drogach utwardzonych, grunt kategorii III-IV, samochód 5-10·t Krotność = 9 obmiar = 124.160000 m3",
+    "jednostka": "t"
+  },
+  {
+    "knr": "KNR 2-02 0238-01",
+    "opis": "Ściany oporowe żelbetowe - podstawa ściany (część pozioma), prostokątna, o stopie płaskiej, transport betonu taczkami, japonkami obmiar = 6.580000 m3",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "KNR 2-02 0239-05",
+    "opis": "Ściany oporowe (część pionowa), przekrój pros- tokątny, grubość do 30·cm, transport betonu taczkami, japonkami obmiar = 5.080000 m3",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "KNR 2-31 0104-07",
+    "opis": "Warstwy odsączające z piasku wykonanie i za- gęszczanie mechaniczne do Is = 0,98 grubość warstwy po zagęszczeniu 15 cm obmiar = 310.400000 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-31 0101-05",
+    "opis": "Koryta wykonywane na całej szerokości chodni- ków, ręcznie, grunt kategorii I-II, na głębokości",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-31 0101-06",
+    "opis": "Koryta wykonywane na całej szerokości jezdni i chodników, ręcznie, grunt kategorii I-II, dodatek za dalsze 10·cm głębokości Krotność = 2 obmiar = 42.270000 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-31 0114-02",
+    "opis": "Podbudowy z kruszyw, piasek, warstwa dolna, minus 10·cm grubości Krotność = -10 obmiar = 42.270000 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-31 0109-01",
+    "opis": "Nawierzchnia betonowa B-15 opaski, grubość warstwy po zagęszczeniu 12·cm obmiar = 42.270000 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-31 0109-02",
+    "opis": "Nawierzchnia betonowa opaski minus 7cm gru- bości Krotność = -7 obmiar = 42.270000 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-31 0109-03",
+    "opis": "Podbudowa pomocnicza z pospółki stabilizowa- nej cementem o Rm 5 MPa wytważanej w wy- twórni o grubości 12 cm obmiar = 308.800000 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-31 0109-04",
+    "opis": "Podbudowa pomocnicza z pospółki stabilizowa- nej, bez dylatacji, dodatek za 3·cm grubości war- stwy obmiar = 308.800000 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-31 0407-04",
+    "opis": "Obrzeża betonowe, 30x8·cm na podsypce pias- kowej z wypełnieniem spoin zaprawą cementową obmiar = 102.000000 m",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 2-01 0103-04",
+    "opis": "Ścinanie drzew piłą mechaniczną, Fi· do 45·cm obmiar = 6.000000 szt",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR 2-01 0103-07",
+    "opis": "Ścinanie drzew piłą mechaniczną, Fi· do 75·cm obmiar = 4.000000 szt",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR 2-01 0105-04",
+    "opis": "Mechaniczne karczowanie pni, Fi· do-45·cm obmiar = 6.000000 szt",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR 2-01 0105-07",
+    "opis": "Mechaniczne karczowanie pni, Fi· do 75·cm obmiar = 4.000000 szt",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR 2-01 0110-01",
+    "opis": "Wywożenie dłużyc, karpiny i gałęzi, transport na odległość do 2·km, dłużyce obmiar = 96.000000 m3",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "KNR 2-01 0110-03",
+    "opis": "Wywożenie dłużyc, karpiny i gałęzi, transport na odległość do 2·km, gałęzie obmiar = 100.000000 mp mp -- R --",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 2-21 0302-05",
+    "opis": "Sadzenie drzew i krzewów liściastych form natu- ralnych na terenie płaskim w gruncie kategorii III, z zaprawą dołów całkowitą, średnica i głębokość dołów 0,5·m, ziemia urodzajna (humus) obmiar = 23.000000 szt",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 2-31 0811-04",
+    "opis": "Rozebranie nawierzchni z płyt drogowych beto- nowych, z wypełnieniem spoin zaprawą cemento- wą, grubość płyt 15·cm obmiar = 515.430000 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 4-04 1103-01",
+    "opis": "Wywiezienie gruzu z terenu rozbiórki przy me- chanicznym załadowaniu i wyładowaniu, załado- wanie koparko-ładowarką samochodów samowy- ładowczych, przy obsłudze 3 samochodów na zmianę obmiar = 115.368000 m3",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "KNR 4-04 1103-04",
+    "opis": "Wywiezienie gruzu z terenu rozbiórki przy me- chanicznym załadowaniu i wyładowaniu, trans- port samochodem samowyładowczym na odleg- łość 1 km obmiar = 115.368000 m3",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "KNR 4-04 1103-05",
+    "opis": "Wywiezienie gruzu z terenu rozbiórki przy me- chanicznym załadowaniu i wyładowaniu, nakłądy uzupełniające na każdy dalszy rozpoczęty 1·km ponad 1·km transportu Krotność = 9 obmiar = 115.368000 m3",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "KNR 2-31 0103-04",
+    "opis": "Profilowanie i zagęszczanie podłoża pod warstwy konstrukcyjne nawierzchni, mechanicznie, grunt kategorii I-IV obmiar = 1308.300000 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-31 0813-03",
+    "opis": "Rozebranie krawężników, betonowych 15x30·cm na podsypce cementowo-piaskowej obmiar = 15.000000 m",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 2-31 0803-03",
+    "opis": "Mechaniczne rozebranie nawierzchni chodnika z mieszanek mineralno-bitumicznych o grubości 4 cm obmiar = 66.000000 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-31 0804-03",
+    "opis": "Rozebranie nawierzchni, z tłucznia mechanicznie, grubość nawierzchni 15·cm obmiar = 66.000000 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-31 0814-02",
+    "opis": "Rozebranie obrzeży8x30 cm na podsypce pias- kowej obmiar = 49.000000 m",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 2-01 0119-03",
+    "opis": "Roboty pomiarowe przy liniowych robotach ziem- nych, trasa dróg w terenie równinnym obmiar = 0.200000 km km -- R --",
+    "jednostka": "t"
+  },
+  {
+    "knr": "KNR 2-31 0403-08",
+    "opis": "Krawężniki betonowe, dodatek za ustawienie kra- wężników na łukach o promieniu do 40·m obmiar = 90.600000 m",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 2-31 0104-08",
+    "opis": "Warstwy odsączające z piasku wykonanie i za- gęszczanie mechaniczne do Is = 0,98 grubość warstwy po zagęszczeniu za 5 cm do 15cm Krotność = 5 obmiar = 101.000000 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-31 0702-02",
+    "opis": "Słupki do znaków drogowych z rur stalowych o śr. 70 mm obmiar = 4.000000 szt",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR 2-31 0703-01",
+    "opis": "Przymocowanie tablic znaków drogowych typu B obmiar = 2.000000 szt",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR 2-31 0706-06",
+    "opis": "Mechaniczne malowanie linii na skrzyżowaniach i przejściach dla pieszych farbą chlorokauczukową obmiar = 11.000000 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 4-01 0519-04",
+    "opis": "Rozbiórka pokrycia z papy na dachach drewnianych - pierwsza warstwa, również w części zawalonej",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 4-01 0519-05",
+    "opis": "Rozbiórka pokrycia z papy na dachach drewnianych - następna warstwa, również w części zawalonej Krotność = 4",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 4-01 0430-02",
+    "opis": "Rozebranie deskowanie dachu z desek na styk, również w części zawalo- nej",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 4-01 0430-10",
+    "opis": "analogia Rozebranie desek okapowych pionowych i poziomych",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 4-01 0426-04",
+    "opis": "analogia Rozebranie ocieplenia z płyt wiórowo-cementowych gr. do 5 cm przybija- nych do rusztu od spodu łącznie z rusztem drewnianym i usunięciem zwa- lonych na posadzkę płyt",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 4-04 0401-04",
+    "opis": "analogia Rozebranie wiązarów dachowych, również w części zawalonej",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 4-01 0346-03",
+    "opis": "analogia Wykucie gniazd o głębokości 1 ceg. w ścianach z cegieł na zaprawie ce- mentowo-wapiennej dla belek stalowych - wręby dla wieńca 40x25x12 cm gnia zd.",
+    "jednostka": ""
+  },
+  {
+    "knr": "KNR 4-01 0333-09",
+    "opis": "analogia Przebicie otworów w ścianach z cegieł o grubości 1 ceg. na zaprawie ce- mentowo-wapiennej dla kanałów Z",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR 4-01 0310-01",
+    "opis": "analogia Przemurowanie ścian z cegieł o objętości w jednym miejscu do 0.5",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "KNR 4-01 0307-03",
+    "opis": "Przemurowanie ciągłe pęknięć o głębokości 1 1/2 ceg. przy użyciu zapra- wy cementowej w ścianach z cegieł na zaprawie cementowo- wapiennej",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 4-01 0304-01",
+    "opis": "Uzupełnienie ścian na zaprawie cementowo wapiennej cegłami",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "KNR 4-01 0303-02",
+    "opis": "Uzupełnienie ścianek z cegieł o grubości 1/2 ceg. lub zamurowanie otworów w ścianach na zaprawie cementowo- wapiennej",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-02 0212-13",
+    "opis": "Wieńce monolityczne na ścianach zewnętrznych o szerokości ponad",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "KNR 2-02 0290-04",
+    "opis": "Przygotowanie i montaż zbrojenia konstrukcji monolitycznych budowli - pręty żebrowane Wieńce t",
+    "jednostka": "t"
+  },
+  {
+    "knr": "KNR 2-17 0101-03",
+    "opis": "analogia Przewody wentylacyjne z blachy stalowej, prostokątne, o obwodzie do 1000 mm - kanały nawiewne typu Z z kratami na obu końcach",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-02 0405-03",
+    "opis": "analogia Dachy z dźwigarów-wiązarów deskowych pełnych z tarcicy nasyconej o rozpiętości 7,5 m na wzór istniejących zabezpieczonych do klasy B- s1,d0. W zakresie prac projekt wykonawczy i warsztatowy wiązarów zachowują- cy gabaryty i kształty wiązarów rozebranych. Dla dolnego pasa należy przewidzieć ",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 2-22 0602-03",
+    "opis": "Podsufitki drewniane z desek grubości 25 mm - przybicie desek okapo- wych struganych jednostronnie o grubości 25 mm na styk lakierowanych",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 4-01 0414-11",
+    "opis": "analogia Montaż łat dystansowych 100x60 mm w rozstawie na szerokość wełny mocowanych do deskowania za pomocą kątowników ciesielskich dla uło- żenia wełny mineralnej",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 0-15 0522-09",
+    "opis": "Pokrycie dachów blachami powlekanymi profilowanymi (trapezowymi) mocowanymi wkrętami samogwintującymi do łat drewnianych (kolor do ustalenia z Zamawiającym na etapie wykonawstwa prac). Blacha: wysokość profilu min. 35 mm, grubość min. 0,70 mm",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR-W 2-02 0522-02",
+    "opis": "analogia Rynny dachowe półokrągłe o śr.",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR-W 2-02 0522-05",
+    "opis": "Zbiorniczki przy rynnach z blachy ocynkowanej - montaż z gotowych ele- mentów",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR-W 2-02 0529-02",
+    "opis": "analogia Rury spustowe okrągłe o śr. 12 cm - montaż z gotowych elementów z bla- chy stalowej ocynkowanej",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 2-17 0143-02",
+    "opis": "analogia Kominki wentylacyjne dachowe z blachy ocynkowanej powlekanej zakoń- czone nasadami obrotowymi typu Turbowent o śr.",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR 4-01 0104-01",
+    "opis": "Wykopy o ścianach pionowych przy odkrywaniu odcinkami istniejących fundamentów o głębokości do 1.5 m w gruncie kat. I-II",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 4-01 0619-06",
+    "opis": "Odgrzybianie powierzchni ścian trudno dostępnych o powierzchni ponad 5 m2 z cegły przy użyciu szczotek stalowych - ściany fundamentowe",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR-W 4-01 0736-02",
+    "opis": "Wykucie starych spoin z zaprawy cementowo-wapiennej w murach gład- kich z cegły ceramicznej",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 4-01 0704-02",
+    "opis": "Gruntowanie powierzchni ceglanych na ścianach zaprawą cementową z wypełnieniem spoin",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-02 0817-01",
+    "opis": "analogia Osiatkowanie tynku zewnętrznego na ścianach fundamentowych np. siat- ka Rabitza",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-02 0902-01",
+    "opis": "Tynki zewnętrzne cementowe zwykłe kat. III na ścianach fundamento- wych wykonywane ręcznie",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 0-41 0107-02",
+    "opis": "Wysokoelastyczna izolacja powierzchni pionowych gr. 3,0 mm w techno- logii KMB - uszczelnienie powierzchni poddanych działaniu wilgoci pocho- dzącej z gruntu",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 0-41 0115-01",
+    "opis": "analogia Maty ochronne do uszczelnień bitumicznych mocowane punktowo np. So- pro KDS 663 z górną listwą cokołową zakańczającą matę",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 4-01 0105-02",
+    "opis": "Zasypanie wykopów ziemią z ukopów z przerzutem ziemi na odległość do 3 m i ubiciem warstwami co 15 cm w gruncie kat. III z wywozem nadmia- ru ziemi",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 5-08 0604-07",
+    "opis": "Montaż zwodów poziomych nienaprężanych z pręta o śr. do",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 5-08 0615-03",
+    "opis": "Montaż zwodów pionowych z pręta ocynkowanego o śr.18 mm na dachu lub dymniku płaskim - iglica: przy kominkach",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR 5-08 0619-01",
+    "opis": "Montaż złączy do rynny okapowej na dachu w instalacji uziemiającej i od- gromowej",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR 5-08 0607-03",
+    "opis": "Montaż przewodów odprowadzających instalacji odgromowej na budyn- kach na cegle z wykonaniem otworu mechanicznie - pręt o śr. do 10 mm",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 5-08 0618-01",
+    "opis": "Łączenie pręta o śr. do 10 mm na dachu za pomocą złączy skręcanych uniwersalnych krzyżowych",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR 4-03 0711-06",
+    "opis": "Wymiana złączy kontrolnych instalacji odgromowych z połączeniem pręt- płaskownik",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR 5-08 0607-11",
+    "opis": "Montaż przewodów odprowadzających instalacji odgromowej na budyn- kach na cegle z wykonaniem otworu mechanicznie - bednarka do 120 mm2",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 4-03 1205-03",
+    "opis": "Pierwszy pomiar instalacji odgromowej pomi ar.",
+    "jednostka": ""
+  },
+  {
+    "knr": "KNR 4-03 1205-04",
+    "opis": "Następny pomiar instalacji odgromowej pomi ar.",
+    "jednostka": ""
+  },
+  {
+    "knr": "KNR 4-01 0339-05",
+    "opis": "Wykucie bruzd pionowych 1/2x1",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 4-01 0206-02",
+    "opis": "analogia Zabetonowanie otworów w stropach i ścianach o powierzchni do 0.1 m2 przy głębokości ponad",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 19-01 0321-05",
+    "opis": "Szpałdowanie belek do NP 180",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 4-01 0354-04",
+    "opis": "Wykucie z muru ościeżnic drewnianych o powierzchni do 2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-02 1211-01",
+    "opis": "Kraty prętowe o powierzchni do 1",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 4-01 0354-10",
+    "opis": "Wykucie z muru ościeżnic stalowych i drzwi o powierzchni ponad 2 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-02 1203-02",
+    "opis": "Drzwi stalowe pełne o powierzchni ponad 2 m2 dwuskrzydłowe (90+",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 19-01 0628-01",
+    "opis": "Rozebranie izolacji na ścianach z płyt wiórowo-cementowych gr. do",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 19-01 0639-03",
+    "opis": "Oczyszczenie powierzchni murów w miejscach łatwodostępnych przy uży- ciu szczotek stalowych - pow. ponad 5,0 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 4-01 0621-01",
+    "opis": "Dwukrotne odgrzybianie ścian ceglanych o powierzchni do 2 m2 metodą smarowania",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-02 0923-01",
+    "opis": "Spoinowanie ścian zaprawą cementową, niebarwiona",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 4-01 0708-02",
+    "opis": "Wykonanie tynków zwykłych wewnętrznych kat. III z zaprawy cementowo- wapiennej na ościeżach szerokości do 25 cm",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 4-01 0322-03",
+    "opis": "Obsadzenie narożników stalowych z kątowników zimnogiętych min. 40x40x3 mm ocynkowanych i malowanych proszkowo w pasy żółto--czar- ne w ścianach z cegieł przy bramach do wysokości 2,0 m",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 0-23 2611-03",
+    "opis": "Przygotowanie starego podłoża - dwukrotne gruntowanie emulsją",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 4-01 1204-02",
+    "opis": "Dwukrotne malowanie farbami emulsyjnymi lateksowymi starych tynków wewnętrznych ścian.",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 4-01 0802-06",
+    "opis": "Rozebranie posadzki z cegły pełnej lub klinkierowej o grubości",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 4-01 0212-01",
+    "opis": "Rozbiórka elementów konstrukcji betonowych niezbrojonych o grubości do 15 cm - posadzka",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "KNR 2-31 0103-01",
+    "opis": "Ręczne profilowanie i zagęszczenie podłoża pod warstwy konstrukcyjne nawierzchni w gruncie kat. I-II",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-31 0107-02",
+    "opis": "Wyrownanie istniejącej podbudowy tłuczniem kamiennym sortowanym z zagęszczeniem mechanicznym - średnia grubość warstwy po zagęszcze- niu ponad",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "KNR 2-02 0616-02",
+    "opis": "analogia Izolacje z foli PE na sucho pozioma - dwie warstwy",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-31 0308-03",
+    "opis": "analogia Posadzka betonowa przemysłowa z betonu min. C25/30 - warstwa górna o grubości 17 cm z zatarciem na gładko. W zakresie prac projekt wyko- nawczy posadzki betonowej.",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR-W 2-02 1129-01",
+    "opis": "analogia Wzmocnienie i uodpornienie powierzchni betonowych",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR-W 2-02 0701-10",
+    "opis": "analogia Dostawa i montaż progów z ocynkowanego katownika",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR-W 5-10 1002-01",
+    "opis": "Montaż wysięgników rurowych o ciężarze do 15 kg na ścianie",
+    "jednostka": "kg"
+  },
+  {
+    "knr": "KNR 5-08 0309-05",
+    "opis": "Montaż do gotowego podłoża gniazd wtyczkowych natynkowych przykrę- canych 10A/2.5 mm2 z podłączeniem IP44",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR 5-08 0307-06",
+    "opis": "Montaż na gotowym podłożu łączników instalacyjnych natynkowych z podłączeniem (przycisk zwierny)",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR-W 5-08 0901-03",
+    "opis": "analogia Pomiar rezystancji izolacji instalacji elektrycznych - obwód 3- fazowy, pomi ar",
+    "jednostka": ""
+  },
+  {
+    "knr": "KNR-W 5-08 0901-01",
+    "opis": "analogia Pomiar rezystancji izolacji instalacji elektrycznych - obwód 1- fazowy, pomi ar",
+    "jednostka": ""
+  },
+  {
+    "knr": "KNR 4-01 0308-02",
+    "opis": "Naprawienie uszkodzonych w murze cegieł w ilości do 3 szt.",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR 4-01 0308-03",
+    "opis": "Naprawienie uszkodzonych w murze cegieł w ilości do 5 szt.",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR 4-01 0308-04",
+    "opis": "Naprawienie uszkodzonych w murze powierzchni do 0.25 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 4-01 0308-05",
+    "opis": "Naprawienie uszkodzonych w murze powierzchni do 0.50 m2",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 4-01 0619-03",
+    "opis": "Odgrzybianie powierzchni ścian łatwo dostępnych o powierzchni ponad 5 m2 z cegły przy użyciu szczotek stalowych",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 0-28 2622-01",
+    "opis": "Wyrównanie ścian budynku płytami styropianowymi o gr. do 5 cm z przy- gotowaniem podłoża ręcznym wyk. wyprawy elewacyjnej i pomalowaniem (kolor do ustalenia z Zamawiającym na etapie wykonawstwa prac)",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-02 1213-03",
+    "opis": "Systemowe drabiny zewnętrzne z kabłąkami o długości ponad 4 m z za- mknięciem przy pierwszym pałąku",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 2-01 0111-04",
+    "opis": "analogia Oczyszczenie terenu z gałęzi, korzeni, ściółki ze zrębkowaniem",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-31 0801-01",
+    "opis": "analogia Ręczne rozebranie nawierzchni przed bramą o grubości 15 cm",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-31 0102-05",
+    "opis": "Wykonanie koryta pod opaskę w gruncie kat. II-IV - 10 cm głębokości ko- ryta",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-31 0104-01",
+    "opis": "Ręczne zagęszczenie warstwy odsączającej w korycie i na poszerzeniach - grubość warstwy po zag. 10 cm",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 4-01 0213-01",
+    "opis": "Wykonanie opaski betonowej o szerokości 50 cm, grubości 15 cm i wierz- chniej warstwie grub. 2 cm na podłożu gruntowym przy budynku",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-31 0606-03",
+    "opis": "Ścieki z prefabrykatów betonowych o grubości 15 cm na podsypce ce- mentowo-piaskowej i zaprawie cementowej przy elewacji frontowej i tylnej",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 2-01 0217-01",
+    "opis": "analogia Wykopy oraz przekopy wykonywane koparkami podsiębiernymi 0.15 m3 na odkład w gruncie kat.I-II",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "KNR 2-28 0501-09",
+    "opis": "Obsypka rurociągu kruszywem dowiezionym",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "KNR-W 2-15 0222-03",
+    "opis": "Czyszczaki z PVC kanalizacyjne o połączeniach wciskowych z połącze- niem z rurą spustową - osdanik rynnowy osadzony w opasce",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR 2-31 0604-01",
+    "opis": "Studnie chłonne z kręgów o śr. 0.8",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 2-01 0505-01",
+    "opis": "Ręczne plantowanie powierzchni gruntu rodzimego kat. I-III z wykopów przy opasce",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-25 0307-03",
+    "opis": "Ogrodzenia z siatki na słupkach stalowych obetonowanych - rozebranie",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-25 0312-03",
+    "opis": "Bramy z siatki w ramach z kształtowników stalowych ze słupkami z rur lub kształtowników stalowych - rozebranie",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 2-02 1802-04",
+    "opis": "analiza indywidualna Ogrodzenie z siatki wysokości 2 m w ramach na słupkach stalowych w rozstawie 2,50 m - ogrodzenie panelowe z prętów stalowych ocynkowa- nych ogniowo i powlekanych 3D",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 2-23 0402-02",
+    "opis": "analogia Brama dwuskrzydłowa o wym.",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR 4-02 0235-03",
+    "opis": "Demontaż zlewu kuchennego przedmiar = 3.000 kpl.",
+    "jednostka": "kpl"
+  },
+  {
+    "knr": "KNR 4-02 0235-06",
+    "opis": "Demontaż umywalki przedmiar = 46.000 kpl.",
+    "jednostka": "kpl"
+  },
+  {
+    "knr": "KNR-W 4-02 0234-07",
+    "opis": "analogia Demontaż urządzeń sanitarnych z korkowaniem podejść dopływowych i odpływowych - wanna przedmiar = 10.000 kpl.",
+    "jednostka": "kpl"
+  },
+  {
+    "knr": "KNR 4-02 0520-04",
+    "opis": "Demontaż grzejnika żeliwnego członowego o po- wierzchni ogrzewalnej do 10.0 m2 przedmiar = 80.000 kpl.",
+    "jednostka": "m2"
+  },
+  {
+    "knr": "KNR 4-02 0506-05",
+    "opis": "Demontaż rurociągu stalowego o połączeniach spawanych o śr. 40-50 mm przedmiar = 300.000 m",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 4-02 0114-03",
+    "opis": "Demontaż rurociągu stalowego ocynkowanego o śr. 40-50 mm przedmiar = 200.000 m",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 4-02 0132-01",
+    "opis": "Demontaż baterii umywalkowej i zmywakowej przedmiar = 49.000 szt.",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR 4-02 0132-02",
+    "opis": "Demontaż baterii wannowej dwudrogowej przedmiar = 1.000 szt.",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR 4-01 0106-02",
+    "opis": "kalk. własna Wykopy nieumocnione o ścianach pionowych wykonywane wewnątrz budynku przy istniejących fundamentach przedmiar = 24.000 m3",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "KNR 4-01 0106-03",
+    "opis": "Wykopy nieumocnione o ścianach pionowych wykonywane wewnątrz budynku - zasypanie zie- mią z ukopów przedmiar = 12.000 m3",
+    "jednostka": "m3"
+  },
+  {
+    "knr": "KNR 4-04 1107-04",
+    "opis": "Wywiezienie złomu na odległość do 10 km przedmiar = 8.000 t t -- R --",
+    "jednostka": "t"
+  },
+  {
+    "knr": "KNR 2-15 0112-01",
+    "opis": "Zawory o śr.nom. 15 mm do spłuczek ustępo- wych przedmiar = 20.000 szt.",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR 2-15 0112-02",
+    "opis": "Zawory o śr.nom. do 20 mm do pralki przedmiar = 1.000 szt.",
+    "jednostka": "szt"
+  },
+  {
+    "knr": "KNR 0-34 0101-02",
+    "opis": "Izolacja rurociągów śr.28-35 mm otulinami gr.6 mm otuliny Thermaflex FRZ gr. 6 mm przedmiar = 120.000 m",
+    "jednostka": "m"
+  },
+  {
+    "knr": "KNR 0-34 0101-14",
+    "opis": "Izolacja rurociągów śr.25 mm otulinami gr.25 mm (P) przedmiar = 240.000 m",
+    "jednostka": "m"
+  }
+]

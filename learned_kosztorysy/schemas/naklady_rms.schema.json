@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "naklady_rms.schema.json",
+  "title": "Nakłady R+M+S",
+  "description": "Baza nakładów kosztorysowych (Robocizna, Materiały, Sprzęt)",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["knr", "jm"],
+    "properties": {
+      "knr": {
+        "type": "string",
+        "description": "Numer podstawy (KNR, KNNR, KSNR, etc.)",
+        "pattern": "^[A-Z]{2,5}[- ]?\\d"
+      },
+      "opis": {
+        "type": "string",
+        "description": "Opis pozycji kosztorysowej",
+        "maxLength": 500
+      },
+      "jm": {
+        "type": "string",
+        "description": "Jednostka miary (m2, m3, szt., kg, etc.)",
+        "maxLength": 20
+      },
+      "R": {
+        "type": "number",
+        "description": "Koszt robocizny (PLN)",
+        "minimum": 0
+      },
+      "M": {
+        "type": "number",
+        "description": "Koszt materiałów (PLN)",
+        "minimum": 0
+      },
+      "S": {
+        "type": "number",
+        "description": "Koszt sprzętu (PLN)",
+        "minimum": 0
+      },
+      "suma": {
+        "type": "number",
+        "description": "Suma R+M+S (opcjonalnie, może być obliczona)",
+        "minimum": 0
+      }
+    },
+    "additionalProperties": true
+  },
+  "minItems": 1
+}

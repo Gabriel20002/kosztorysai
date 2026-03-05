@@ -1,0 +1,5524 @@
+[KOSZTORYS ATHENASOFT]
+co=Copyright Athenasoft Sp. z o.o.
+wf=4
+pr=NORMA	5.11.400.12
+op=1
+opn=0	1	0	1	1	0	19	8	0	0	1	0	0	0	1.	1	1	0	1	1	1
+prn=2	2	2	3	4	1	6	0	1
+own=3	1	1	0	1	0	0	1	1	0	0	0	1	0	1	1	poz.	<	>	1	0	0	0	0	0	0	0	0	2	0	1	1	1	1	0	0	0
+wan=PLN
+wbn=PLN	zl
+na=Koszty posrednie	Zysk	Koszt zakupu
+wn=0	0	0
+
+[STRONA TYT]
+na=KOSZTORYS	test_przedmiar
+dt=04.03.2026	0
+
+[NARZUTY NORMA 2]
+na=Koszty posrednie	Kp
+wa=70	1	0	
+op=1	0
+nr=1
+ns=1
+
+[NARZUTY NORMA 2]
+na=Zysk	Z
+wa=12	2	0	
+op=1	0
+nr=2
+ns=1
+
+[NARZUTY NORMA 2]
+na=Koszt zakupu	Kz
+wa=0	1	0	
+op=1	0
+nr=3
+nm=1
+
+
+[RMS ZEST 1]
+ty=R	0
+na=robocizna	0
+id=999	1
+jm=r-g	149
+ce=35,00	int(time.time())	1	SEK_RMS
+cw=35,00	PLN	35,00
+il=0
+
+[RMS ZEST 2]
+ty=M	0
+na=Materia³y	0
+id=998	1
+jm=szt	020
+ce=1,00	int(time.time())	1	SEK_RMS
+cw=1,00	PLN	1,00
+il=0
+
+[RMS ZEST 3]
+ty=S	0
+na=Sprzêt	0
+id=997	1
+jm=m-g	150
+ce=100,00	int(time.time())	1	SEK_RMS
+cw=100,00	PLN	100,00
+il=0
+
+[ELEMENT 1]
+na=KOSZTORYS
+wa=0
+kn=1	2	3
+wn=0	0	0
+id=1
+nu=1
+
+[POZYCJA]
+id=2
+pd=KALK	KNR	9-29 0103-01	9-29	0103-01		0
+mpn=1211
+na=Rozbiórka œcianek dzia³owych z p³yt gipsowo-kartonowych na szkielecie pojedynczym przy powierzchni rozbiórki do 5 m2
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=180,5	180,5		1
+jm=m2	050
+kj=205,50	0	1,0
+cj=205,50		25,00	180,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=37092,75	4512,50	32490,00	90,25
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=180,5	1	180,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=4512,50
+wb=4512,50
+il=128,9286
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=32490,00
+wb=32490,00
+il=32490
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=90,25
+wb=90,25
+il=0,9025
+
+[POZYCJA]
+id=3
+pd=KALK	KNR	9-29 0105-02	9-29	0105-02		0
+mpn=1211
+na=Rozbiórka obudów pionów instalacyjnych, s³upów i belek z p³yt kartonowych przy powierzchni rozbiórki do 2 m2
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=180,5	180,5		1
+jm=m2	050
+kj=205,50	0	1,0
+cj=205,50		25,00	180,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=37092,75	4512,50	32490,00	90,25
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=180,5	1	180,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=4512,50
+wb=4512,50
+il=128,9286
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=32490,00
+wb=32490,00
+il=32490
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=90,25
+wb=90,25
+il=0,9025
+
+[POZYCJA]
+id=4
+pd=KALK	KNR	9-29 0101-01	9-29	0101-01		0
+mpn=1211
+na=Rozbiórka ok³adzin œcian z p³yt gipsowo-kartonowych przy powierzchni rozbiórki do 5 m2 po skutych p³ytkach
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=180,5	180,5		1
+jm=m2	050
+kj=205,50	0	1,0
+cj=205,50		25,00	180,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=37092,75	4512,50	32490,00	90,25
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=180,5	1	180,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=4512,50
+wb=4512,50
+il=128,9286
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=32490,00
+wb=32490,00
+il=32490
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=90,25
+wb=90,25
+il=0,9025
+
+[POZYCJA]
+id=5
+pd=KALK	KNR	7-12 0101-01	7-12	0101-01		0
+mpn=1211
+na=Czyszczenie i odt³uszczanie belek stalowych i malowanie pêdzlem
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=855	855		1
+jm=m2	050
+kj=1035,00	0	1,0
+cj=1035,00		180,00	850,00	5,00
+cjw=		0
+kjw=			0	0	0
+wn=884925,00	153900,00	726750,00	4275,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=855	1	855							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=153900,00
+wb=153900,00
+il=4397,1429
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=726750,00
+wb=726750,00
+il=726750
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=4275,00
+wb=4275,00
+il=42,75
+
+[POZYCJA]
+id=6
+pd=KALK	KNR	4-06 0112-01	4-06	0112-01		0
+mpn=1211
+na=Skrêcanie po³¹czeñ œrubami po³¹czenie belek œrubami M12 kl. 5,8 d.1.
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=181,5	181,5		1
+jm=szt	020
+kj=216,50	0	1,0
+cj=216,50		35,00	180,00	1,50
+cjw=		0
+kjw=			0	0	0
+wn=39294,75	6352,50	32670,00	272,25
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=181,5	1	181,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6352,50
+wb=6352,50
+il=181,5
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=32670,00
+wb=32670,00
+il=32670
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=272,25
+wb=272,25
+il=2,7225
+
+[POZYCJA]
+id=7
+pd=KALK	KNR	0-40 0110-01	0-40	0110-01		0
+mpn=1211
+na=Uszczelnienie i wype³nienie szczelin miêdzy wykutym otworem i nikiem zapraw¹ wype³niaj¹c¹ poz.22 m 5.400
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=3,5	3,5		1
+jm=m	010
+kj=6,00	0	1,0
+cj=6,00		2,50	3,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=21,00	8,75	12,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=3,5	1	3,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=8,75
+wb=8,75
+il=0,25
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=12,25
+wb=12,25
+il=12,25
+
+[POZYCJA]
+id=8
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Ok³adanie (szpa³dowanie) belek stalowych wype³nie belek
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=m2	050
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=9
+pd=KALK	KNR	9-29 0306-01	9-29	0306-01		0
+mpn=1211
+na=Uzupe³nienie ok³adzin z p³yt gipsowo-kartonowych œcianek dzia³owych i przedœcianek przy powierzchni uzupe³nienia do 5 m2 pierwsza warstwa o 3 gruboœci do 12,5 mm poz.5 m2 18.348
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=180,5	180,5		1
+jm=m2	050
+kj=205,50	0	1,0
+cj=205,50		25,00	180,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=37092,75	4512,50	32490,00	90,25
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=180,5	1	180,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=4512,50
+wb=4512,50
+il=128,9286
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=32490,00
+wb=32490,00
+il=32490
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=90,25
+wb=90,25
+il=0,9025
+
+[POZYCJA]
+id=10
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Œcianki dzia³owe GR z p³yt gipsowo-kartonowych gkbi na rusztach metalo-
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=m2	050
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=11
+pd=KALK	KNR	2-02 0000-00	2-02	0000-00		0
+mpn=1211
+na=Zabudowy instalacyjne p³ytami gipsowo-kartonowymi gkbi na rusztach me-
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=m2	050
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=12
+pd=KALK	KNR	2-02 0812-01	2-02	0812-01		0
+mpn=1211
+na=Tynki wewnêtrzne pocienione kat. III na œcianach powy¿ej p³ytek dla ich zlicowania wykonywane rêcznie wraz z naro¿nikami 4
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=m2	050
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=13
+pd=KALK	KNR	2-02 2006-07	2-02	2006-07		0
+mpn=1211
+na=Ok³adziny z p³yt gipsowo-kartonowych (suche tynki gipsowe) dodatek za drug¹ warstwê na rusztach na œcianach Robota w pomieszczeniu mniej4 z.sz. 5.2. szym ni¿ 5 m2.p³ytek dla ich zl
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=m2	050
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=14
+pd=KALK	KNR	2-02 2009-04	2-02	2009-04		0
+mpn=1211
+na=Tynki (g³adzie) jednowarstwowe wewnêtrzne gr. 3 mm z gipsu wego wykonywane rêcznie na stropach na pod³o¿u z tynku poz.39A m2 40.470
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=m2	050
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=15
+pd=KALK	KNR	2-02 2009-02	2-02	2009-02		0
+mpn=1211
+na=Tynki (g³adzie) jednowarstwowe wewnêtrzne gr. 3 mm z gipsu wego wykonywane rêcznie na œcianach na pod³o¿u z tynku poz.42 m2 69.115
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=m2	050
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=16
+pd=KALK	KNR	2-02 0829-11	2-02	0829-11		0
+mpn=1211
+na=Licowanie œcian p³ytkami o wymiarach 30x60 cm (lub innych wskazanych przez Zamawiaj¹cego na etapie wykonawstwa) na klej
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=m2	050
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=17
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Licowanie œcian p³ytkami z kamieni sztucznych na zaprawie klejowej list-
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=m	010
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=18
+pd=KALK	KNR	2-02 1505-03	2-02	1505-03		0
+mpn=1211
+na=Dwukrotne malowanie farbami emulsyjnymi powierzchni wewnêtrznych pod³o¿y gipsowych z gruntowaniem poz.41 m2 16.895
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=m2	050
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=19
+pd=KALK	KNR	2-02 1505-06	2-02	1505-06		0
+mpn=1211
+na=Malowanie farbami emulsyjnymi powierzchni wewnêtrznych p³yt wych spoinowanych szpachlowanych z gruntowaniem dodatek za ka¿de 4 dalsze malowanie poz.53 m2 140.990
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=m2	050
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=20
+pd=KALK	KNR	2-02 1102-02	2-02	1102-02		0
+mpn=1211
+na=Warstwy wyrównawcze pod posadzki z zaprawy cementowej gruboœci 50 mm zatarte na g³adko z ukszta³towaniem spadków
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=m2	050
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=21
+pd=KALK	KNR	2-02 1106-07	2-02	1106-07		0
+mpn=1211
+na=Posadzki cementowe wraz z cokolikami dop³ata za zbrojenie siatk¹ low¹ poz.57 m2 40.470
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=m2	050
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=22
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Warstwy niweluj¹co-wyrównawcze cementowe gruboœci 2 mm zatarte na
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=m2	050
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=23
+pd=KALK	KNR	2-02 1118-11	2-02	1118-11		0
+mpn=1211
+na=Posadzki p³ytkowe z kamieni sztucznych; p³ytki 60x60 cm (lub innych wskazanych przez Zamawiaj¹cego na etapie silikonów,
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=m2	050
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=24
+pd=KALK	KNR	2-02 1017-02	2-02	1017-02		0
+mpn=1211
+na=Skrzyd³a drzwiowe p³ytowe wewnêtrzne jednodzielne pe³ne o ponad 1.6 m2 fabrycznie wykoñczone z kompletem okuæ, kratk¹ lub pod6 ciêciem wentylacyjnym poz.67 m2
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=m2	050
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=25
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Systemowe œcianki sanitarne z drzwiami
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=m2	050
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=26
+pd=KALK	KNR	2-02 0000-00	2-02	0000-00		0
+mpn=1211
+na=Naœwietla PCV d.1. 07 1009-06 (1.20+1.50)*0.80 m2 2.160 1.50*0.80 m2
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=m2	050
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=27
+pd=KALK	KNR	2-02 1215-02	2-02	1215-02		0
+mpn=1211
+na=Drzwiczki rewizyjne osadzone w œcianach GK o powierzchni elementu
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=szt	020
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=28
+pd=KALK	KNR	4-02 0000-00	4-02	0000-00		0
+mpn=1211
+na=Demonta¿ umywalki d.1. 01 0235-06 2+1+2 kpl. 5.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,5	0,5		1
+jm=kpl	090
+kj=12,50	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=6,25	6,00	0,00	0,25
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,5	1	0,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6,00
+wb=6,00
+il=0,1714
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,25
+wb=0,25
+il=0,0025
+
+[POZYCJA]
+id=29
+pd=KALK	KNR	4-02 0000-00	4-02	0000-00		0
+mpn=1211
+na=Demonta¿ ustêpu z misk¹ fajansow¹ d.1. 01 0235-08 2+1+2 kpl. 5.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,5	0,5		1
+jm=kpl	090
+kj=12,50	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=6,25	6,00	0,00	0,25
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,5	1	0,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6,00
+wb=6,00
+il=0,1714
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,25
+wb=0,25
+il=0,0025
+
+[POZYCJA]
+id=30
+pd=KALK	KNR	4-02 0000-00	4-02	0000-00		0
+mpn=1211
+na=Demonta¿ brodzika d.1. 01 0235-07 1+1 kpl. 2.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,5	0,5		1
+jm=kpl	090
+kj=12,50	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=6,25	6,00	0,00	0,25
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,5	1	0,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6,00
+wb=6,00
+il=0,1714
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,25
+wb=0,25
+il=0,0025
+
+[POZYCJA]
+id=31
+pd=KALK	KNR	4-02 0000-00	4-02	0000-00		0
+mpn=1211
+na=Demonta¿ pisuaru d.1. 01 0235-01 1+1 kpl. 2.000 Norma PRO Wersja PRZEDMIAR Lp. Nr PodstaOpis i wyliczenia j.m. Poszcz Razem spec. wa te
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,5	0,5		1
+jm=szt	020
+kj=12,50	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=6,25	6,00	0,00	0,25
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,5	1	0,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6,00
+wb=6,00
+il=0,1714
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,25
+wb=0,25
+il=0,0025
+
+[POZYCJA]
+id=32
+pd=KALK	KNR	4-02 0230-04	4-02	0230-04		0
+mpn=1211
+na=Demonta¿ ruroci¹gu ¿eliwnego/PCV kanalizacyjnego o œrednicy 50 na œcianach budynku i poziomy 30.00 m
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,5	0,5		1
+jm=m	010
+kj=12,50	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=6,25	6,00	0,00	0,25
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,5	1	0,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6,00
+wb=6,00
+il=0,1714
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,25
+wb=0,25
+il=0,0025
+
+[POZYCJA]
+id=33
+pd=KALK	KNR	4-02 0230-05	4-02	0230-05		0
+mpn=1211
+na=Demonta¿ ruroci¹gu ¿eliwnego/PCV kanalizacyjnego o œrednicy 150 mm œcianach budynku i poziomy 20.00 m 20.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,5	0,5		1
+jm=m	010
+kj=12,50	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=6,25	6,00	0,00	0,25
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,5	1	0,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6,00
+wb=6,00
+il=0,1714
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,25
+wb=0,25
+il=0,0025
+
+[POZYCJA]
+id=34
+pd=KALK	KNR	4-02 0234-02	4-02	0234-02		0
+mpn=1211
+na=Demonta¿ elementów uzbrojenia ruroci¹gu wpust ¿eliwny pod³ogowy œr.
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,5	0,5		1
+jm=szt	020
+kj=12,50	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=6,25	6,00	0,00	0,25
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,5	1	0,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6,00
+wb=6,00
+il=0,1714
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,25
+wb=0,25
+il=0,0025
+
+[POZYCJA]
+id=35
+pd=KALK	KNR	4-02 0202-09	4-02	0202-09		0
+mpn=1211
+na=Po³¹czenie nowo budowanej kanalizacji sanitarnej z istniej¹c¹ instalacj¹ kanalizacji w piwnicy 4 kpl 4.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,5	0,5		1
+jm=kpl	090
+kj=12,50	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=6,25	6,00	0,00	0,25
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,5	1	0,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6,00
+wb=6,00
+il=0,1714
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,25
+wb=0,25
+il=0,0025
+
+[POZYCJA]
+id=36
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Dodatki za wykonanie podejœæ odp³ywowych z PVC o œrednicy 110 mm mm o po³¹podej.
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=szt	020
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=37
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Dodatki za wykonanie podejœæ odp³ywowych z PVC o œrednicy 50 mm mm o po³¹podej.
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=szt	020
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=38
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Pisuary pojedyncze wyposa¿one w zawory sp³ukuj¹ce uruchamiane przy-
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=kpl	090
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=39
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Umywalki pojedyncze porcelanowe (komplet z syfonem i zawiesiami)
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=kpl	090
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=40
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Pó³postument porcelanowy do umywalek
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=kpl	090
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=41
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Brodziki natryskowe na podstawie styropianowej z obudow¹ 90x100 cm
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=kpl	090
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=42
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Wpusty œciekowe z stal nierdzewna o œrednicy 50 mm mm
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=szt	020
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=43
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Próba szczelnoœci instalacji kanalizacyjnej z rur PVC w budynkach miesz-
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=m	010
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=44
+pd=KALK	KNR	4-02 0111-03	4-02	0111-03		0
+mpn=1211
+na=Po³¹czenie instalacji c.w.u. z istniej¹c¹ wewnêtrzn¹ instalacj¹ w¹ w piwnicy z monta¿em zaworu
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,5	0,5		1
+jm=szt	020
+kj=12,50	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=6,25	6,00	0,00	0,25
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,5	1	0,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6,00
+wb=6,00
+il=0,1714
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,25
+wb=0,25
+il=0,0025
+
+[POZYCJA]
+id=45
+pd=KALK	KNR	4-02 0111-03	4-02	0111-03		0
+mpn=1211
+na=Po³¹czenie instalacji w.z. z istniej¹c¹ wewnêtrzn¹ instalacj¹ w piwnicy z monta¿em zaworu
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,5	0,5		1
+jm=szt	020
+kj=12,50	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=6,25	6,00	0,00	0,25
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,5	1	0,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6,00
+wb=6,00
+il=0,1714
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,25
+wb=0,25
+il=0,0025
+
+[POZYCJA]
+id=46
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Ruroci¹gi z tworzyw sztucznych PP-R w systemie fusiotherm Stabi Glass
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=m	010
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=47
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Ruroci¹gi z tworzyw sztucznych PP-R w systemie fusiotherm Stabi Glass
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=m	010
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=48
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Ruroci¹gi z tworzyw sztucznych PP-R w systemie fusiotherm Stabi Glass
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=m	010
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=49
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Ruroci¹gi z tworzyw sztucznych PP-R w systemie fusiotherm Stabi Glass
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=m	010
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=50
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Zawory kulowe instalacji wodoci¹gowych z rur z tworzyw sztucznych o œr.
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=szt	020
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=51
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Dodatki za podejœcia dop³ywowe w ruroci¹gach z tworzyw sztucznych do
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=szt	020
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=52
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Zawory czerpalne ze z³¹czk¹ o œr. nominalnej 15 mm
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=szt	020
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=53
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Baterie umywalkowe stoj¹ce o œr. nominalnej 15 mm
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=szt	020
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=54
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Baterie natryskowe z natryskiem przesuwnym o œr. nominalnej 15 mm
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=szt	020
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=55
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Dezynfekcja ruroci¹gów sieci wodoci¹gowych o œr.nominalnej do 150 mm odc.20
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=szt	020
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=56
+pd=KALK	KNR	0-34 0101-06	0-34	0101-06		0
+mpn=1211
+na=Izolacja ruroci¹gów œrednicy 20 mm mm otulinami Thermaflex FRZ wymi gr.13 mm (J) (poz.114+poz.115)*0.6 m 39.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=16,5	16,5		1
+jm=m	010
+kj=16,50	0	1,0
+cj=16,50		0,00	16,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=272,25	0,00	272,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=16,5	1	16,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=272,25
+wb=272,25
+il=272,25
+
+[POZYCJA]
+id=57
+pd=KALK	KNR	0-34 0101-10	0-34	0101-10		0
+mpn=1211
+na=Izolacja ruroci¹gów œrednicy 12 mm-22 mm otulinami Thermaflex FRZ wowymi gr. 20 mm (N)
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=16,5	16,5		1
+jm=m	010
+kj=16,50	0	1,0
+cj=16,50		0,00	16,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=272,25	0,00	272,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=16,5	1	16,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=272,25
+wb=272,25
+il=272,25
+
+[POZYCJA]
+id=58
+pd=KALK	KNR	0-34 0101-11	0-34	0101-11		0
+mpn=1211
+na=Izolacja ruroci¹gów œrednicy 28 mm-48 mm otulinami Thermaflex FRZ wowymi gr. 20 mm (N) woda ciep³a
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=16,5	16,5		1
+jm=m	010
+kj=16,50	0	1,0
+cj=16,50		0,00	16,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=272,25	0,00	272,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=16,5	1	16,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=272,25
+wb=272,25
+il=272,25
+
+[POZYCJA]
+id=59
+pd=KALK	KNR	0-34 0101-07	0-34	0101-07		0
+mpn=1211
+na=Izolacja ruroci¹gów œrednicy 28 mm-48 mm otulinami Thermaflex FRZ wowymi gr. 13 mm (J) woda zimna poz.128 m 22.500
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=16,5	16,5		1
+jm=m	010
+kj=16,50	0	1,0
+cj=16,50		0,00	16,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=272,25	0,00	272,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=16,5	1	16,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=272,25
+wb=272,25
+il=272,25
+
+[POZYCJA]
+id=60
+pd=KALK	KNR	0-34 0110-14	0-34	0110-14		0
+mpn=1211
+na=Izolacja dwuwarstwowa ruroci¹gów œrednicy 28 mm-48 mm otulinami FRZ lub otulinami Thermaflex FRZ i matami
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=16,5	16,5		1
+jm=m	010
+kj=16,50	0	1,0
+cj=16,50		0,00	16,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=272,25	0,00	272,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=16,5	1	16,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=272,25
+wb=272,25
+il=272,25
+
+[POZYCJA]
+id=61
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Wentylator ³azienkowy z timerem regulowanym, czujnikiem ruchu obiekty
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=szt	020
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=62
+pd=KALK	KNR	5-08 0309-03	5-08	0309-03		0
+mpn=1211
+na=Monta¿ do gotowego pod³o¿a gniazd wtyczkowych podtynkowych nowych z uziemieniem w puszkach podwójnych z pod³¹czeniem poz.148 szt. 5.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=28,35	28,35		1
+jm=szt	020
+kj=62,69	0	1,0
+cj=62,69		34,34	0,00	28,35
+cjw=		0
+kjw=			0	0	0
+wn=1777,26	973,54	0,00	803,72
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=28,35	1	28,35							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=973,54
+wb=973,54
+il=27,8154
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=803,72
+wb=803,72
+il=8,0372
+
+[POZYCJA]
+id=63
+pd=KALK	KNR	5-08 0402-01	5-08	0402-01		0
+mpn=1211
+na=Mocowanie na gotowym pod³o¿u aparatów o masie do 2.5 kg bez wego rozebrania i pod³¹czenia (il. otworów mocuj¹cych do 2) suszarka 11 do r¹k w wykonaniu nierdzewnym
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=28,35	28,35		1
+jm=szt	020
+kj=62,69	0	1,0
+cj=62,69		34,34	0,00	28,35
+cjw=		0
+kjw=			0	0	0
+wn=1777,26	973,54	0,00	803,72
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=28,35	1	28,35							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=973,54
+wb=973,54
+il=27,8154
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=803,72
+wb=803,72
+il=8,0372
+
+[POZYCJA]
+id=64
+pd=KALK	KNR	9-29 0105-02	9-29	0105-02		0
+mpn=1211
+na=Rozbiórka obudów pionów instalacyjnych, s³upów i belek z p³yt kartonowych przy powierzchni rozbiórki do 2 m2
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=180,5	180,5		1
+jm=m2	050
+kj=205,50	0	1,0
+cj=205,50		25,00	180,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=37092,75	4512,50	32490,00	90,25
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=180,5	1	180,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=4512,50
+wb=4512,50
+il=128,9286
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=32490,00
+wb=32490,00
+il=32490
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=90,25
+wb=90,25
+il=0,9025
+
+[POZYCJA]
+id=65
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Œcianki dzia³owe GR z p³yt gipsowo-kartonowych gkbi na rusztach metalo-
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=m2	050
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=66
+pd=KALK	KNR	2-02 0000-00	2-02	0000-00		0
+mpn=1211
+na=Zabudowy instalacyjne p³ytami gipsowo-kartonowymi gkbi na rusztach me-
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=m2	050
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=67
+pd=KALK	KNR	2-02 2006-07	2-02	2006-07		0
+mpn=1211
+na=Ok³adziny z p³yt gipsowo-kartonowych (suche tynki gipsowe) dodatek za drug¹ warstwê na rusztach na œcianach Robota w pomieszczeniu mniej3 z.sz. 5.2. szym ni¿ 5 m2.p³ytek dla ich zl
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=m2	050
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=68
+pd=KALK	KNR	2-02 0812-01	2-02	0812-01		0
+mpn=1211
+na=Tynki wewnêtrzne pocienione kat. III na œcianach powy¿ej p³ytek dla ich zlicowania wykonywane rêcznie wraz z naro¿nikami 3
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=m2	050
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=69
+pd=KALK	KNR	2-02 2009-04	2-02	2009-04		0
+mpn=1211
+na=Tynki (g³adzie) jednowarstwowe wewnêtrzne gr. 3 mm z gipsu wego wykonywane rêcznie na stropach na pod³o¿u z tynku poz.181A m2 46.766
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=m2	050
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=70
+pd=KALK	KNR	2-02 2009-02	2-02	2009-02		0
+mpn=1211
+na=Tynki (g³adzie) jednowarstwowe wewnêtrzne gr. 3 mm z gipsu wego wykonywane rêcznie na œcianach na pod³o¿u z tynku poz.185 m2 52.920
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=m2	050
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=71
+pd=KALK	KNR	2-02 0829-11	2-02	0829-11		0
+mpn=1211
+na=Licowanie œcian p³ytkami o wymiarach 30x60 cm (lub innych wskazanych przez Zamawiaj¹cego na etapie wykonawstwa) na klej
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=m2	050
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=72
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Licowanie œcian p³ytkami z kamieni sztucznych na zaprawie klejowej list-
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=m	010
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=73
+pd=KALK	KNR	2-02 1505-03	2-02	1505-03		0
+mpn=1211
+na=Dwukrotne malowanie farbami emulsyjnymi powierzchni wewnêtrznych pod³o¿y gipsowych z gruntowaniem
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=m2	050
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=74
+pd=KALK	KNR	2-02 1505-06	2-02	1505-06		0
+mpn=1211
+na=Malowanie farbami emulsyjnymi powierzchni wewnêtrznych p³yt wych spoinowanych szpachlowanych z gruntowaniem dodatek za ka¿de 3 dalsze malowanie poz.195 m2
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=m2	050
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=75
+pd=KALK	KNR	2-02 1102-02	2-02	1102-02		0
+mpn=1211
+na=Warstwy wyrównawcze pod posadzki z zaprawy cementowej gruboœci 50 mm zatarte na g³adko z ukszta³towaniem spadków
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=m2	050
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=76
+pd=KALK	KNR	2-02 1106-07	2-02	1106-07		0
+mpn=1211
+na=Posadzki cementowe wraz z cokolikami dop³ata za zbrojenie siatk¹ low¹ poz.199 m2 47.566
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=m2	050
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=77
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Warstwy niweluj¹co-wyrównawcze cementowe gruboœci 2 mm zatarte na
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=m2	050
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=78
+pd=KALK	KNR	2-02 1118-11	2-02	1118-11		0
+mpn=1211
+na=Posadzki p³ytkowe z kamieni sztucznych; p³ytki 60x60 cm (lub innych wskazanych przez Zamawiaj¹cego na etapie silikonów,
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=m2	050
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=79
+pd=KALK	KNR	2-02 1017-02	2-02	1017-02		0
+mpn=1211
+na=Skrzyd³a drzwiowe p³ytowe wewnêtrzne jednodzielne pe³ne o ponad 1.6 m2 fabrycznie wykoñczone z kompletem okuæ, kratk¹ lub pod5 ciêciem wentylacyjnym, spód drzwi zabezpiec
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=m2	050
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=80
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Systemowe œcianki sanitarne z drzwiami
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=m2	050
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=81
+pd=KALK	KNR	2-02 0000-00	2-02	0000-00		0
+mpn=1211
+na=Naœwietla PCV d.2. 07 1009-06 5 analogia 1.50*0.80*3 m2 3.600
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=m2	050
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=82
+pd=KALK	KNR	2-02 1215-02	2-02	1215-02		0
+mpn=1211
+na=Drzwiczki rewizyjne osadzone w œcianach GK o powierzchni elementu
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=szt	020
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=83
+pd=KALK	KNR	4-02 0000-00	4-02	0000-00		0
+mpn=1211
+na=Demonta¿ zlewu d.2. 01 0235-03 1 kpl. 1.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,5	0,5		1
+jm=kpl	090
+kj=12,50	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=6,25	6,00	0,00	0,25
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,5	1	0,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6,00
+wb=6,00
+il=0,1714
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,25
+wb=0,25
+il=0,0025
+
+[POZYCJA]
+id=84
+pd=KALK	KNR	4-02 0000-00	4-02	0000-00		0
+mpn=1211
+na=Demonta¿ umywalki d.2. 01 0235-06 2+2+1 kpl. 5.000 Norma PRO Wersja 4.32 Nr seryjny: 24959 Sanitariaty budynek nr Poszcz Razem spec. wa
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,5	0,5		1
+jm=szt	020
+kj=12,50	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=6,25	6,00	0,00	0,25
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,5	1	0,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6,00
+wb=6,00
+il=0,1714
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,25
+wb=0,25
+il=0,0025
+
+[POZYCJA]
+id=85
+pd=KALK	KNR	4-02 0000-00	4-02	0000-00		0
+mpn=1211
+na=Demonta¿ ustêpu z misk¹ fajansow¹ d.2. 01 0235-08 2+2+1 kpl. 5.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,5	0,5		1
+jm=kpl	090
+kj=12,50	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=6,25	6,00	0,00	0,25
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,5	1	0,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6,00
+wb=6,00
+il=0,1714
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,25
+wb=0,25
+il=0,0025
+
+[POZYCJA]
+id=86
+pd=KALK	KNR	4-02 0000-00	4-02	0000-00		0
+mpn=1211
+na=Demonta¿ pisuaru d.2. 01 0235-01 2 kpl. 2.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,5	0,5		1
+jm=kpl	090
+kj=12,50	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=6,25	6,00	0,00	0,25
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,5	1	0,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6,00
+wb=6,00
+il=0,1714
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,25
+wb=0,25
+il=0,0025
+
+[POZYCJA]
+id=87
+pd=KALK	KNR	4-02 0000-00	4-02	0000-00		0
+mpn=1211
+na=Demonta¿ brodzika d.2. 01 0235-07 1+1 kpl. 2.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,5	0,5		1
+jm=kpl	090
+kj=12,50	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=6,25	6,00	0,00	0,25
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,5	1	0,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6,00
+wb=6,00
+il=0,1714
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,25
+wb=0,25
+il=0,0025
+
+[POZYCJA]
+id=88
+pd=KALK	KNR	4-02 0230-04	4-02	0230-04		0
+mpn=1211
+na=Demonta¿ ruroci¹gu ¿eliwnego/PCV kanalizacyjnego o œrednicy 50 na œcianach budynku i poziomy 15.00 m
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,5	0,5		1
+jm=m	010
+kj=12,50	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=6,25	6,00	0,00	0,25
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,5	1	0,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6,00
+wb=6,00
+il=0,1714
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,25
+wb=0,25
+il=0,0025
+
+[POZYCJA]
+id=89
+pd=KALK	KNR	4-02 0230-05	4-02	0230-05		0
+mpn=1211
+na=Demonta¿ ruroci¹gu ¿eliwnego/PCV kanalizacyjnego o œrednicy 150 mm œcianach budynku i poziomy 20.00 m 20.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,5	0,5		1
+jm=m	010
+kj=12,50	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=6,25	6,00	0,00	0,25
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,5	1	0,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6,00
+wb=6,00
+il=0,1714
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,25
+wb=0,25
+il=0,0025
+
+[POZYCJA]
+id=90
+pd=KALK	KNR	4-02 0234-02	4-02	0234-02		0
+mpn=1211
+na=Demonta¿ elementów uzbrojenia ruroci¹gu wpust ¿eliwny pod³ogowy œr.
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,5	0,5		1
+jm=szt	020
+kj=12,50	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=6,25	6,00	0,00	0,25
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,5	1	0,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6,00
+wb=6,00
+il=0,1714
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,25
+wb=0,25
+il=0,0025
+
+[POZYCJA]
+id=91
+pd=KALK	KNR	4-02 0202-09	4-02	0202-09		0
+mpn=1211
+na=Po³¹czenie nowo budowanej kanalizacji sanitarnej z istniej¹c¹ instalacj¹ kanalizacji 5 kpl 5.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,5	0,5		1
+jm=kpl	090
+kj=12,50	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=6,25	6,00	0,00	0,25
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,5	1	0,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6,00
+wb=6,00
+il=0,1714
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,25
+wb=0,25
+il=0,0025
+
+[POZYCJA]
+id=92
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Dodatki za wykonanie podejœæ odp³ywowych z PVC o œrednicy 110 mm mm o po³¹podej.
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=szt	020
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=93
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Dodatki za wykonanie podejœæ odp³ywowych z PVC o œrednicy 50 mm mm o po³¹podej.
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=szt	020
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=94
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Wpusty œciekowe z stal nierdzewna o œrednicy 50 mm mm
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=szt	020
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=95
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Umywalki pojedyncze porcelanowe (komplet z syfonem i zawiesiami)
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=kpl	090
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=96
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Pó³postument porcelanowy do umywalek
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=kpl	090
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=97
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Pisuary pojedyncze wyposa¿one w zawory sp³ukuj¹ce uruchamiane przy-
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=kpl	090
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=98
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Brodziki natryskowe na podstawie styropianowej z obudow¹ 90x100 cm
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=kpl	090
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=99
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Próba szczelnoœci instalacji kanalizacyjnej z rur PVC w budynkach miesz-
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=m	010
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=100
+pd=KALK	KNR	4-02 0111-03	4-02	0111-03		0
+mpn=1211
+na=Po³¹czenie instalacji c.w.u. z istniej¹c¹ wewnêrzn¹ instalacj¹ w¹ z monta¿em zaworu odcinaj¹cego 7
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,5	0,5		1
+jm=szt	020
+kj=12,50	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=6,25	6,00	0,00	0,25
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,5	1	0,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6,00
+wb=6,00
+il=0,1714
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,25
+wb=0,25
+il=0,0025
+
+[POZYCJA]
+id=101
+pd=KALK	KNR	4-02 0111-03	4-02	0111-03		0
+mpn=1211
+na=Po³¹czenie instalacji w.z. z istniej¹c¹ wewnêrzn¹ instalacj¹ z monta¿em zaworu odcinaj¹cego 7
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,5	0,5		1
+jm=szt	020
+kj=12,50	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=6,25	6,00	0,00	0,25
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,5	1	0,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6,00
+wb=6,00
+il=0,1714
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,25
+wb=0,25
+il=0,0025
+
+[POZYCJA]
+id=102
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Ruroci¹gi z tworzyw sztucznych PP-R w systemie fusiotherm Stabi Glass
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=m	010
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=103
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Ruroci¹gi z tworzyw sztucznych PP-R w systemie fusiotherm Stabi Glass
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=m	010
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=104
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Ruroci¹gi z tworzyw sztucznych PP-R w systemie fusiotherm Stabi Glass
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=m	010
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=105
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Ruroci¹gi z tworzyw sztucznych PP-R w systemie fusiotherm Stabi Glass
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=m	010
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=106
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Zawory kulowe instalacji wodoci¹gowych z rur z tworzyw sztucznych o œr.
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=szt	020
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=107
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Dodatki za podejœcia dop³ywowe w ruroci¹gach z tworzyw sztucznych do
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=szt	020
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=108
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Zawory czerpalne ze z³¹czk¹ o œr. nominalnej 15 mm
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=szt	020
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=109
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Baterie umywalkowe stoj¹ce o œr. nominalnej 15 mm
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=szt	020
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=110
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Baterie natryskowe z natryskiem przesuwnym o œr. nominalnej 15 mm
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=szt	020
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=111
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Dezynfekcja ruroci¹gów sieci wodoci¹gowych o œr.nominalnej do 150 mm odc.20
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=szt	020
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=112
+pd=KALK	KNR	0-34 0101-06	0-34	0101-06		0
+mpn=1211
+na=Izolacja ruroci¹gów œrednicy 20 mm mm otulinami Thermaflex FRZ wymi gr.13 mm (J) (poz.258+poz.259)*0.6 m 48.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=16,5	16,5		1
+jm=m	010
+kj=16,50	0	1,0
+cj=16,50		0,00	16,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=272,25	0,00	272,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=16,5	1	16,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=272,25
+wb=272,25
+il=272,25
+
+[POZYCJA]
+id=113
+pd=KALK	KNR	0-34 0101-10	0-34	0101-10		0
+mpn=1211
+na=Izolacja ruroci¹gów œrednicy 12 mm-22 mm otulinami Thermaflex FRZ wowymi gr. 20 mm (N)
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=16,5	16,5		1
+jm=m	010
+kj=16,50	0	1,0
+cj=16,50		0,00	16,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=272,25	0,00	272,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=16,5	1	16,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=272,25
+wb=272,25
+il=272,25
+
+[POZYCJA]
+id=114
+pd=KALK	KNR	0-34 0101-11	0-34	0101-11		0
+mpn=1211
+na=Izolacja ruroci¹gów œrednicy 28 mm-48 mm otulinami Thermaflex FRZ wowymi gr. 20 mm (N) woda ciep³a
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=16,5	16,5		1
+jm=m	010
+kj=16,50	0	1,0
+cj=16,50		0,00	16,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=272,25	0,00	272,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=16,5	1	16,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=272,25
+wb=272,25
+il=272,25
+
+[POZYCJA]
+id=115
+pd=KALK	KNR	0-34 0101-07	0-34	0101-07		0
+mpn=1211
+na=Izolacja ruroci¹gów œrednicy 28 mm-48 mm otulinami Thermaflex FRZ wowymi gr. 13 mm (J) woda zimna Norma PRO Wersja 4.32 Nr seryjny: 24959 Sanitariaty budynek nr 33_pr
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=16,5	16,5		1
+jm=m	010
+kj=16,50	0	1,0
+cj=16,50		0,00	16,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=272,25	0,00	272,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=16,5	1	16,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=272,25
+wb=272,25
+il=272,25
+
+[POZYCJA]
+id=116
+pd=KALK	KNR	0-34 0110-14	0-34	0110-14		0
+mpn=1211
+na=Izolacja dwuwarstwowa ruroci¹gów œrednicy 28 mm-48 mm otulinami FRZ lub otulinami Thermaflex FRZ i matami
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=16,5	16,5		1
+jm=m	010
+kj=16,50	0	1,0
+cj=16,50		0,00	16,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=272,25	0,00	272,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=16,5	1	16,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=272,25
+wb=272,25
+il=272,25
+
+[POZYCJA]
+id=117
+pd=KALK	KNR	5-08 0309-03	5-08	0309-03		0
+mpn=1211
+na=Monta¿ do gotowego pod³o¿a gniazd wtyczkowych podtynkowych nowych z uziemieniem w puszkach podwójnych z pod³¹czeniem poz.292 szt. 5.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=28,35	28,35		1
+jm=szt	020
+kj=62,69	0	1,0
+cj=62,69		34,34	0,00	28,35
+cjw=		0
+kjw=			0	0	0
+wn=1777,26	973,54	0,00	803,72
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=28,35	1	28,35							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=973,54
+wb=973,54
+il=27,8154
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=803,72
+wb=803,72
+il=8,0372
+
+[POZYCJA]
+id=118
+pd=KALK	KNR	5-08 0402-01	5-08	0402-01		0
+mpn=1211
+na=Mocowanie na gotowym pod³o¿u aparatów o masie do 2.5 kg bez wego rozebrania i pod³¹czenia (il. otworów mocuj¹cych do 2) suszarka 10 do r¹k w wykonaniu nierdzewnym
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=28,35	28,35		1
+jm=szt	020
+kj=62,69	0	1,0
+cj=62,69		34,34	0,00	28,35
+cjw=		0
+kjw=			0	0	0
+wn=1777,26	973,54	0,00	803,72
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=28,35	1	28,35							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=973,54
+wb=973,54
+il=27,8154
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=803,72
+wb=803,72
+il=8,0372
+
+[POZYCJA]
+id=119
+pd=KALK	KNR	9-29 0105-02	9-29	0105-02		0
+mpn=1211
+na=Rozbiórka obudów pionów instalacyjnych, s³upów i belek z p³yt kartonowych przy powierzchni rozbiórki do 2 m2
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=180,5	180,5		1
+jm=m2	050
+kj=205,50	0	1,0
+cj=205,50		25,00	180,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=37092,75	4512,50	32490,00	90,25
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=180,5	1	180,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=4512,50
+wb=4512,50
+il=128,9286
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=32490,00
+wb=32490,00
+il=32490
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=90,25
+wb=90,25
+il=0,9025
+
+[POZYCJA]
+id=120
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Œcianki dzia³owe GR z p³yt gipsowo-kartonowych gkbi na rusztach metalo-
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=m2	050
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=121
+pd=KALK	KNR	2-02 0000-00	2-02	0000-00		0
+mpn=1211
+na=Zabudowy instalacyjne p³ytami gipsowo-kartonowymi gkbi na rusztach me-
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=m2	050
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=122
+pd=KALK	KNR	2-02 2006-07	2-02	2006-07		0
+mpn=1211
+na=Ok³adziny z p³yt gipsowo-kartonowych (suche tynki gipsowe) dodatek za drug¹ warstwê na rusztach na œcianach Robota w pomieszczeniu mniej3 z.sz. 5.2. szym ni¿ 5 m2.p³ytek dla ich zl
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=m2	050
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=123
+pd=KALK	KNR	2-02 0812-01	2-02	0812-01		0
+mpn=1211
+na=Tynki wewnêtrzne pocienione kat. III na œcianach powy¿ej p³ytek dla ich zlicowania wykonywane rêcznie wraz z naro¿nikami 3
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=m2	050
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=124
+pd=KALK	KNR	2-02 2009-04	2-02	2009-04		0
+mpn=1211
+na=Tynki (g³adzie) jednowarstwowe wewnêtrzne gr. 3 mm z gipsu wego wykonywane rêcznie na stropach na pod³o¿u z tynku poz.327A m2 68.015
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=m2	050
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=125
+pd=KALK	KNR	2-02 2009-02	2-02	2009-02		0
+mpn=1211
+na=Tynki (g³adzie) jednowarstwowe wewnêtrzne gr. 3 mm z gipsu wego wykonywane rêcznie na œcianach na pod³o¿u z tynku poz.331 m2 64.240
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=m2	050
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=126
+pd=KALK	KNR	2-02 0829-11	2-02	0829-11		0
+mpn=1211
+na=Licowanie œcian p³ytkami o wymiarach 30x60 cm (lub innych wskazanych przez Zamawiaj¹cego na etapie wykonawstwa) na klej
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=m2	050
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=127
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Licowanie œcian p³ytkami z kamieni sztucznych na zaprawie klejowej list-
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=m	010
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=128
+pd=KALK	KNR	2-02 1505-03	2-02	1505-03		0
+mpn=1211
+na=Dwukrotne malowanie farbami emulsyjnymi powierzchni wewnêtrznych pod³o¿y gipsowych z gruntowaniem
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=m2	050
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=129
+pd=KALK	KNR	2-02 1505-06	2-02	1505-06		0
+mpn=1211
+na=Malowanie farbami emulsyjnymi powierzchni wewnêtrznych p³yt wych spoinowanych szpachlowanych z gruntowaniem dodatek za ka¿de 3 dalsze malowanie poz.341 m2
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=m2	050
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=130
+pd=KALK	KNR	2-02 1102-02	2-02	1102-02		0
+mpn=1211
+na=Warstwy wyrównawcze pod posadzki z zaprawy cementowej gruboœci 50 mm zatarte na g³adko z ukszta³towaniem spadków
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=m2	050
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=131
+pd=KALK	KNR	2-02 1106-07	2-02	1106-07		0
+mpn=1211
+na=Posadzki cementowe wraz z cokolikami dop³ata za zbrojenie siatk¹ low¹ poz.345 m2 69.215
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=m2	050
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=132
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Warstwy niweluj¹co-wyrównawcze cementowe gruboœci 2 mm zatarte na
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=m2	050
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=133
+pd=KALK	KNR	2-02 1118-11	2-02	1118-11		0
+mpn=1211
+na=Posadzki p³ytkowe z kamieni sztucznych; p³ytki 60x60 cm (lub innych wskazanych przez Zamawiaj¹cego na etapie silikonów,
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=m2	050
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=134
+pd=KALK	KNR	0-19 1023-05	0-19	1023-05		0
+mpn=1211
+na=Monta¿ okien rozwieranych i uchylno-rozwieranych jednodzielnych z z obróbk¹ obsadzenia o pow. do 1.0 m2 0.50*0.70 m2 0.350
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=650	650		1
+jm=m2	050
+kj=650,00	0	1,0
+cj=650,00		0,00	650,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=422500,00	0,00	422500,00	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=650	1	650							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=422500,00
+wb=422500,00
+il=422500
+
+[POZYCJA]
+id=135
+pd=KALK	KNR	0-19 1023-11	0-19	1023-11		0
+mpn=1211
+na=Monta¿ okien rozwieranych i uchylno-rozwieranych dwudzielnych z PCV obróbk¹ obsadzenia o pow. ponad 2.5 m2 1.45*2.05*2 m2 5.945
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=650	650		1
+jm=m2	050
+kj=650,00	0	1,0
+cj=650,00		0,00	650,00	0,00
+cjw=		0
+kjw=			0	0	0
+wn=422500,00	0,00	422500,00	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=650	1	650							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=422500,00
+wb=422500,00
+il=422500
+
+[POZYCJA]
+id=136
+pd=KALK	KNR	2-02 1017-02	2-02	1017-02		0
+mpn=1211
+na=Skrzyd³a drzwiowe p³ytowe wewnêtrzne jednodzielne pe³ne o ponad 1.6 m2 fabrycznie wykoñczone z kompletem okuæ, kratk¹ lub pod5 ciêciem wentylacyjnym, spód drzwi zabezpiec
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=m2	050
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=137
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Systemowe œcianki sanitarne z drzwiami
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=m2	050
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=138
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Systemowe œcianki sanitarne prysznicowe z zas³onkami
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=m2	050
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=139
+pd=KALK	KNR	2-02 0000-00	2-02	0000-00		0
+mpn=1211
+na=Naœwietla PCV d.3. 07 1009-06 5 analogia 1.50*0.80*3 m2 3.600
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=m2	050
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=140
+pd=KALK	KNR	2-02 1215-02	2-02	1215-02		0
+mpn=1211
+na=Drzwiczki rewizyjne osadzone w œcianach GK o powierzchni elementu
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=45,5	45,5		1
+jm=szt	020
+kj=45,50	0	1,0
+cj=45,50		0,00	45,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=2070,25	0,00	2070,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=45,5	1	45,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=2070,25
+wb=2070,25
+il=2070,25
+
+[POZYCJA]
+id=141
+pd=KALK	KNR	4-02 0000-00	4-02	0000-00		0
+mpn=1211
+na=Demonta¿ zlewu d.3. 01 0235-03 1 kpl. 1.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,5	0,5		1
+jm=kpl	090
+kj=12,50	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=6,25	6,00	0,00	0,25
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,5	1	0,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6,00
+wb=6,00
+il=0,1714
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,25
+wb=0,25
+il=0,0025
+
+[POZYCJA]
+id=142
+pd=KALK	KNR	4-02 0000-00	4-02	0000-00		0
+mpn=1211
+na=Demonta¿ umywalki d.3. 01 0235-06 2+2+1+7 kpl. 12.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,5	0,5		1
+jm=kpl	090
+kj=12,50	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=6,25	6,00	0,00	0,25
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,5	1	0,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6,00
+wb=6,00
+il=0,1714
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,25
+wb=0,25
+il=0,0025
+
+[POZYCJA]
+id=143
+pd=KALK	KNR	4-02 0000-00	4-02	0000-00		0
+mpn=1211
+na=Demonta¿ ustêpu z misk¹ fajansow¹ d.3. 01 0235-08 2+2+1 kpl. 5.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,5	0,5		1
+jm=kpl	090
+kj=12,50	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=6,25	6,00	0,00	0,25
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,5	1	0,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6,00
+wb=6,00
+il=0,1714
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,25
+wb=0,25
+il=0,0025
+
+[POZYCJA]
+id=144
+pd=KALK	KNR	4-02 0000-00	4-02	0000-00		0
+mpn=1211
+na=Demonta¿ pisuaru d.3. 01 0235-01 2+2 kpl. 4.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,5	0,5		1
+jm=kpl	090
+kj=12,50	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=6,25	6,00	0,00	0,25
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,5	1	0,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6,00
+wb=6,00
+il=0,1714
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,25
+wb=0,25
+il=0,0025
+
+[POZYCJA]
+id=145
+pd=KALK	KNR	4-02 0000-00	4-02	0000-00		0
+mpn=1211
+na=Demonta¿ brodzika d.3. 01 0235-07 3 kpl. 3.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,5	0,5		1
+jm=kpl	090
+kj=12,50	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=6,25	6,00	0,00	0,25
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,5	1	0,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6,00
+wb=6,00
+il=0,1714
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,25
+wb=0,25
+il=0,0025
+
+[POZYCJA]
+id=146
+pd=KALK	KNR	4-02 0230-04	4-02	0230-04		0
+mpn=1211
+na=Demonta¿ ruroci¹gu ¿eliwnego/PCV kanalizacyjnego o œrednicy 50 na œcianach budynku i poziomy 25.00 m
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,5	0,5		1
+jm=m	010
+kj=12,50	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=6,25	6,00	0,00	0,25
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,5	1	0,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6,00
+wb=6,00
+il=0,1714
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,25
+wb=0,25
+il=0,0025
+
+[POZYCJA]
+id=147
+pd=KALK	KNR	4-02 0230-05	4-02	0230-05		0
+mpn=1211
+na=Demonta¿ ruroci¹gu ¿eliwnego/PCV kanalizacyjnego o œrednicy 150 mm œcianach budynku i poziomy 30.00 m 30.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,5	0,5		1
+jm=m	010
+kj=12,50	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=6,25	6,00	0,00	0,25
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,5	1	0,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6,00
+wb=6,00
+il=0,1714
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,25
+wb=0,25
+il=0,0025
+
+[POZYCJA]
+id=148
+pd=KALK	KNR	4-02 0234-02	4-02	0234-02		0
+mpn=1211
+na=Demonta¿ elementów uzbrojenia ruroci¹gu wpust ¿eliwny pod³ogowy œr.
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,5	0,5		1
+jm=szt	020
+kj=12,50	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=6,25	6,00	0,00	0,25
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,5	1	0,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6,00
+wb=6,00
+il=0,1714
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,25
+wb=0,25
+il=0,0025
+
+[POZYCJA]
+id=149
+pd=KALK	KNR	4-02 0202-09	4-02	0202-09		0
+mpn=1211
+na=Po³¹czenie nowo budowanej kanalizacji sanitarnej z istniej¹c¹ instalacj¹ kanalizacji 6 kpl 6.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,5	0,5		1
+jm=kpl	090
+kj=12,50	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=6,25	6,00	0,00	0,25
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,5	1	0,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6,00
+wb=6,00
+il=0,1714
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,25
+wb=0,25
+il=0,0025
+
+[POZYCJA]
+id=150
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Dodatki za wykonanie podejœæ odp³ywowych z PVC o œrednicy 110 mm mm o po³¹podej.
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=szt	020
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=151
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Dodatki za wykonanie podejœæ odp³ywowych z PVC o œrednicy 50 mm mm o po³¹podej.
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=szt	020
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=152
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Wpusty œciekowe z stal nierdzewna o œrednicy 50 mm mm
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=szt	020
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=153
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Odp³yw liniowy prysznicowy ze stali nierdzewnej (konstrukcja wykonana,
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=szt	020
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=154
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Umywalki pojedyncze porcelanowe (komplet z syfonem i zawiesiami)
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=kpl	090
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=155
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Pó³postument porcelanowy do umywalek
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=kpl	090
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=156
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Pisuary pojedyncze wyposa¿one w zawory sp³ukuj¹ce uruchamiane przy-
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=kpl	090
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=157
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Brodziki natryskowe na podstawie styropianowej z obudow¹ 90x100 cm
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=kpl	090
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=158
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Próba szczelnoœci instalacji kanalizacyjnej z rur PVC w budynkach miesz-
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=m	010
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=159
+pd=KALK	KNR	4-02 0111-03	4-02	0111-03		0
+mpn=1211
+na=Po³¹czenie instalacji c.w.u. z istniej¹c¹ wewnêrzn¹ instalacj¹ w¹ z monta¿em zaworu odcinaj¹cego 7
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,5	0,5		1
+jm=szt	020
+kj=12,50	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=6,25	6,00	0,00	0,25
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,5	1	0,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6,00
+wb=6,00
+il=0,1714
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,25
+wb=0,25
+il=0,0025
+
+[POZYCJA]
+id=160
+pd=KALK	KNR	4-02 0111-03	4-02	0111-03		0
+mpn=1211
+na=Po³¹czenie instalacji w.z. z istniej¹c¹ wewnêrzn¹ instalacj¹ z monta¿em zaworu odcinaj¹cego 7
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,5	0,5		1
+jm=szt	020
+kj=12,50	0	1,0
+cj=12,50		12,00	0,00	0,50
+cjw=		0
+kjw=			0	0	0
+wn=6,25	6,00	0,00	0,25
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,5	1	0,5							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=6,00
+wb=6,00
+il=0,1714
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,25
+wb=0,25
+il=0,0025
+
+[POZYCJA]
+id=161
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Ruroci¹gi z tworzyw sztucznych PP-R w systemie fusiotherm Stabi Glass
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=m	010
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=162
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Ruroci¹gi z tworzyw sztucznych PP-R w systemie fusiotherm Stabi Glass
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=m	010
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=163
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Ruroci¹gi z tworzyw sztucznych PP-R w systemie fusiotherm Stabi Glass
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=m	010
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=164
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Ruroci¹gi z tworzyw sztucznych PP-R w systemie fusiotherm Stabi Glass
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=m	010
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=165
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Zawory kulowe instalacji wodoci¹gowych z rur z tworzyw sztucznych o œr.
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=szt	020
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=166
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Dodatki za podejœcia dop³ywowe w ruroci¹gach z tworzyw sztucznych do
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=szt	020
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=167
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Zawory czerpalne ze z³¹czk¹ o œr. nominalnej 15 mm
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=szt	020
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=168
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Baterie umywalkowe stoj¹ce o œr. nominalnej 15 mm
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=szt	020
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=169
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Baterie natryskowe podtynkowe o œr. nominalnej 15 mm z g³owicami na-
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=szt	020
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=170
+pd=KALK	KNR	0-00 0000-00	0-00	0000-00		0
+mpn=1211
+na=Dezynfekcja ruroci¹gów sieci wodoci¹gowych o œr.nominalnej do 150 mm odc.20
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=0,41	0,41		1
+jm=szt	020
+kj=0,68	0	1,0
+cj=0,68		0,27	0,00	0,41
+cjw=		0
+kjw=			0	0	0
+wn=0,28	0,11	0,00	0,17
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=0,41	1	0,41							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=0,11
+wb=0,11
+il=0,0031
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=0,17
+wb=0,17
+il=0,0017
+
+[POZYCJA]
+id=171
+pd=KALK	KNR	0-34 0101-06	0-34	0101-06		0
+mpn=1211
+na=Izolacja ruroci¹gów œrednicy 20 mm mm otulinami Thermaflex FRZ wymi gr.13 mm (J) (poz.408+poz.409)*0.6 m 84.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=16,5	16,5		1
+jm=m	010
+kj=16,50	0	1,0
+cj=16,50		0,00	16,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=272,25	0,00	272,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=16,5	1	16,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=272,25
+wb=272,25
+il=272,25
+
+[POZYCJA]
+id=172
+pd=KALK	KNR	0-34 0101-10	0-34	0101-10		0
+mpn=1211
+na=Izolacja ruroci¹gów œrednicy 12 mm-22 mm otulinami Thermaflex FRZ wowymi gr. 20 mm (N)
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=16,5	16,5		1
+jm=m	010
+kj=16,50	0	1,0
+cj=16,50		0,00	16,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=272,25	0,00	272,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=16,5	1	16,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=272,25
+wb=272,25
+il=272,25
+
+[POZYCJA]
+id=173
+pd=KALK	KNR	0-34 0101-11	0-34	0101-11		0
+mpn=1211
+na=Izolacja ruroci¹gów œrednicy 28 mm-48 mm otulinami Thermaflex FRZ wowymi gr. 20 mm (N) woda ciep³a Norma PRO Wersja 4.32 Nr seryjny: 24959 Sanitariaty budynek nr 33_p
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=16,5	16,5		1
+jm=m	010
+kj=16,50	0	1,0
+cj=16,50		0,00	16,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=272,25	0,00	272,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=16,5	1	16,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=272,25
+wb=272,25
+il=272,25
+
+[POZYCJA]
+id=174
+pd=KALK	KNR	0-34 0101-07	0-34	0101-07		0
+mpn=1211
+na=Izolacja ruroci¹gów œrednicy 28 mm-48 mm otulinami Thermaflex FRZ wowymi gr. 13 mm (J) woda zimna poz.422 m 30.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=16,5	16,5		1
+jm=m	010
+kj=16,50	0	1,0
+cj=16,50		0,00	16,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=272,25	0,00	272,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=16,5	1	16,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=272,25
+wb=272,25
+il=272,25
+
+[POZYCJA]
+id=175
+pd=KALK	KNR	0-34 0110-14	0-34	0110-14		0
+mpn=1211
+na=Izolacja dwuwarstwowa ruroci¹gów œrednicy 28 mm-48 mm otulinami FRZ lub otulinami Thermaflex FRZ i matami
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=16,5	16,5		1
+jm=m	010
+kj=16,50	0	1,0
+cj=16,50		0,00	16,50	0,00
+cjw=		0
+kjw=			0	0	0
+wn=272,25	0,00	272,25	0,00
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=16,5	1	16,5							
+
+[RMS 2]
+nz=2	0	1
+np=0	0
+wa=272,25
+wb=272,25
+il=272,25
+
+[POZYCJA]
+id=176
+pd=KALK	KNR	5-08 0309-03	5-08	0309-03		0
+mpn=1211
+na=Monta¿ do gotowego pod³o¿a gniazd wtyczkowych podtynkowych nowych z uziemieniem w puszkach podwójnych z pod³¹czeniem poz.445 szt. 11.000
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=28,35	28,35		1
+jm=szt	020
+kj=62,69	0	1,0
+cj=62,69		34,34	0,00	28,35
+cjw=		0
+kjw=			0	0	0
+wn=1777,26	973,54	0,00	803,72
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=28,35	1	28,35							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=973,54
+wb=973,54
+il=27,8154
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=803,72
+wb=803,72
+il=8,0372
+
+[POZYCJA]
+id=177
+pd=KALK	KNR	5-08 0402-01	5-08	0402-01		0
+mpn=1211
+na=Mocowanie na gotowym pod³o¿u aparatów o masie do 2.5 kg bez wego rozebrania i pod³¹czenia (il. otworów mocuj¹cych do 2) suszarka 10 do r¹k w wykonaniu nierdzewnym Nazwa R+M+S osiemset jeden tysiêcy tr
+op=0	1	0	0	1	0	0	0
+nu=1
+ob=28,35	28,35		1
+jm=szt	020
+kj=62,69	0	1,0
+cj=62,69		34,34	0,00	28,35
+cjw=		0
+kjw=			0	0	0
+wn=1777,26	973,54	0,00	803,72
+wcn=1	1	1	1	1	1	1	1
+
+[PRZEDMIAR]
+wo=28,35	1	28,35							
+
+[RMS 1]
+nz=1	0	1
+np=0	0
+wa=973,54
+wb=973,54
+il=27,8154
+
+[RMS 3]
+nz=3	0	1
+np=0	0
+wa=803,72
+wb=803,72
+il=8,0372

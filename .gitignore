@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+
+# Frontend build (budowane przez Dockerfile)
+dist/
+frontend/node_modules/
+
+# Środowisko
+.env
+.env.*
+venv/
+.venv/
+
+# Cache aplikacji
+output/cache/
+pdf_cache/
+
+# Pliki tymczasowe i logi
+*.log
+*.tmp
+extraction_progress.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Git
+.git/

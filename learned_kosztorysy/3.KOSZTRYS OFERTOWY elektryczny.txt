@@ -1,0 +1,208 @@
+KLONEX II DŁUGI GRZEGORZ ul. Kasztanowa 10 49-318 Skarbimierz-
+Osiedle
+KOSZTORYS OFERTOWY - BRANŻA
+ELEKTRYCZNA
+NAZWA INWESTYCJI: Budowa budyku domu ludowego wraz z wiatą w miejscowości
+Małujowice na dz. nr 253
+ADRES INWESTYCJI: Małujowice dz. 253
+NAZWA INWESTORA: Gmina Skarbimierz
+ADRES INWESTORA: ul. Parkowa 12
+WYKONAWCA: KLONEX II DŁUGI GRZEGORZ
+ADRES WYKONAWCY: ul. KASZTANOWA 10, 49-318 Skarbimierz-Osiedle
+DATA OPRACOWANIA: 12.2025
+Stawka roboczogodziny
+KOSZTORYS 35,00 zł
+Poz.: 1 1 800,00 zł
+WARTOŚĆ KOSZTORYSOWA ROBÓT BEZ PODATKU VAT: 114 686,09 zł
+PODATEK VAT: (23%) 26 377,80 zł
+OGÓŁEM WARTOŚĆ KOSZTORYSOWA ROBÓT: 141 063,89 zł
+SŁOWNIE: sto czterdzieści jeden tysięcy sześćdziesiąt trzy i 89/100 zł
+WYKONAWCA: INWESTOR:
+Data opracowania Data zatwierdzenia
+12.2025
+Norma STANDARD - 365 Wersja: 5.17.100.8 Nr seryjny: 4539 Użytkownik: KLONEX II
+BRANŻA ELEKTRYCZNA
+- 2 -
+Norma STANDARD - 365 Wersja: 5.17.100.8 Nr seryjny: 4539 Użytkownik: KLONEX II
+BRANŻA ELEKTRYCZNA
+Kosztorys ofertowy
+Lp. Podstawa Opis j.m. Ilość Cena Wartość
+KOSZTORYS: BRANŻA ELEKTRYCZNA
+1 LINIA KABLOWA I ROZDZIELNICA ELEKTRYZNA
+1 Obsługa geodezyjna kpl 1,000 3 483,32 3 483,32
+d.1 wycena
+indywidualna
+2 KNR-W 2-01 Wykopy liniowe o ścianach pionowych szerokości m3 (20 + 16) * 111,76 2 816,35
+d.1 0310-0201 0.8-1.5 m pod fundamenty, rurociągi, kolektory w 1 * 0,7 =
+gruntach suchych z wydobyciem urobku łopatą lub 25,200
+wyciągiem ręcznym kat. III-IV; głębokość do 1.5 m
+3 KNR 5-10 Ręczne układanie kabli wielożyłowych o masie do m 20 + 16 = 29,62 1 066,32
+d.1 0103-02 1.0 kg/m na napięcie znamionowe poniżej 110 kV w 36,000
+rowach kablowych
+4 KNR-W 2-01 Zasypywanie wykopów liniowych o ścianach m3 poz.2 = 82,63 2 082,28
+d.1 0312-0201 pionowych głębokości do 1.5 m i szerokości 0.8-1.5 25,200
+m; kat. gr. III-IV
+5 KNNR 5 Montaż rozdzielnicy RG szt. 1,000 8 785,57 8 785,57
+d.1 0405-10
+6 KNNR 5 Montaż certyfikowanego zestawu kpl. 1,000 7 764,99 7 764,99
+d.1 0401-01 Przeciwpożarowego Wyłącznika prądu 100A
+7 KNNR 5 Montaż wyłącznika PWP szt. 1,000 318,26 318,26
+d.1 0406-02
+8 KNR AL-01 Montaż zestawu - Lampka sygnalizacyjna PWP szt. 1,000 167,30 167,30
+d.1 0110-01
+9 KNP 18 Pomiary rozdzielnic elektrycznych szt. 1,000 1 246,25 1 246,25
+d.1 1301-01.03
+10 kalk. własna Pomiary obciążenia, dobór baterii kompensacji mocy kpl 1,000 6 000,00 6 000,00
+d.1 biernej
+Razem dział: LINIA KABLOWA I ROZDZIELNICA ELEKTRYZNA 33 730,64
+- 3 -
+Norma STANDARD - 365 Wersja: 5.17.100.8 Nr seryjny: 4539 Użytkownik: KLONEX II
+BRANŻA ELEKTRYCZNA
+Kosztorys ofertowy
+Lp. Podstawa Opis j.m. Ilość Cena Wartość
+2 Montaż opraw ośwetleniowych
+11 KNNR 5 Montaż opraw oświetleniowych typ 1 kpl. 8,000 326,50 2 612,00
+d.2 0502-03
+12 KNNR 5 Montaż opraw oświetleniowych typ 2 kpl. 21,000 357,21 7 501,41
+d.2 0502-03
+13 KNNR 5 Oprawy oświetleniowe w sufitach podwieszanych - kpl. 22,000 372,79 8 201,38
+d.2 0503-02 świetlówkowa do 3x40 W
+14 KNNR 5 Montaż opraw oświetleniowych typ 4 kpl. 10,000 326,50 3 265,00
+d.2 0502-03
+15 KNNR 5 Oprawy oświetleniowe w sufitach podwieszanych - kpl. 4,000 380,47 1 521,88
+d.2 0503-02 świetlówkowa do 3x40 W
+16 KNNR 5 Montaż opraw awaryjnych kierunkowych AW kpl. 16,000 318,38 5 094,08
+d.2 0502-02
+17 KNNR 5 Montaż opraw Z1 kpl. 6,000 272,31 1 633,86
+d.2 0502-02
+18 KNNR 5 Montaż opraw Z2 kpl. 2,000 272,31 544,62
+d.2 0502-02
+Razem dział: Montaż opraw ośwetleniowych 30 374,23
+- 4 -
+Norma STANDARD - 365 Wersja: 5.17.100.8 Nr seryjny: 4539 Użytkownik: KLONEX II
+BRANŻA ELEKTRYCZNA
+Kosztorys ofertowy
+Lp. Podstawa Opis j.m. Ilość Cena Wartość
+3 Osprzęt elektroinstalacyjny
+19 KNNR 5 Przygotowanie podłoża pod osprzęt instalacyjny szt. 410,000 2,14 877,40
+d.3 0301-14 mocowany przez przykręcenie - wykonanie otworów
+w blasze
+20 KNNR 5 Przebijanie otworów śr. 25 mm o długości do 40 cm otw. 40,000 126,66 5 066,40
+d.3 1209-1201 w ścianach lub stropach z betonu
+21 KNNR 5 Puszki instalacyjne podtynkowe pojedyncze o śr.do szt. 15,000 6,59 98,85
+d.3 0302-01 60 mm
+22 KNNR 5 Puszki z tworzywa sztucznego o wym. 75x75 mm o 4 szt. 37,000 35,56 1 315,72
+d.3 0303-02 wylotach dla przewodów o przekroju do 2.5 mm2
+23 KNNR 5 Łączniki i przyciski jednobiegunowe podtynkowe w szt. 3,000 29,50 88,50
+d.3 0306-02 puszce instalacyjnej
+24 KNNR 5 Łączniki świecznikowe podtynkowe w puszce szt. 1,000 31,60 31,60
+d.3 0306-03 instalacyjnej
+25 KNNR 5 Łączniki krzyżowe, dwubiegunowe podtynkowe w szt. 2,000 34,45 68,90
+d.3 0306-04 puszce instalacyjnej
+26 KNNR 5 Łączniki krzyżowe, dwubiegunowe podtynkowe w szt. 2,000 34,45 68,90
+d.3 0306-04 puszce instalacyjnej
+27 KNNR 5 Aparaty elektryczne o masie do 2.5 kg szt. 11,000 171,07 1 881,77
+d.3 0406-01
+28 KNNR 5 Gniazda instalacyjne wtyczkowe ze stykiem szt. 4,000 37,29 149,16
+d.3 0308-02 ochronnym podtynkowe 2-biegunowe przelotowe
+pojedyncze o obciążalności do 10 A i przekroju
+przewodów do 2.5 mm2
+29 KNNR 5 Gniazda instalacyjne wtyczkowe ze stykiem szt. 9,000 37,29 335,61
+d.3 0308-02 ochronnym podtynkowe 2-biegunowe przelotowe
+pojedyncze o obciążalności do 10 A i przekroju
+przewodów do 2.5 mm2
+30 KNNR 5 Gniazda instalacyjne wtyczkowe ze stykiem szt. 10,000 37,29 372,90
+d.3 0308-02 ochronnym podtynkowe 2-biegunowe przelotowe
+pojedyncze o obciążalności do 10 A i przekroju
+przewodów do 2.5 mm2
+31 KNNR 5 Gniazda instalacyjne wtyczkowe ze stykiem szt. 13,000 37,29 484,77
+d.3 0308-02 ochronnym podtynkowe 2-biegunowe przelotowe
+pojedyncze o obciążalności do 10 A i przekroju
+przewodów do 2.5 mm2
+32 KNNR 5 Gniazda instalacyjne wtyczkowe ze stykiem szt. 1,000 54,35 54,35
+d.3 0308-08 ochronnym wodoszczelne 3-biegunowe przykręcane
+o obciążalności do 32 A i przekroju przewodów do 10
+mm2
+Razem dział: Osprzęt elektroinstalacyjny 10 894,83
+- 5 -
+Norma STANDARD - 365 Wersja: 5.17.100.8 Nr seryjny: 4539 Użytkownik: KLONEX II
+BRANŻA ELEKTRYCZNA
+Kosztorys ofertowy
+Lp. Podstawa Opis j.m. Ilość Cena Wartość
+4 Przewody
+33 KNNR 5 Przewody kabelkowe w gotowych bruzdach w m 650,000 11,68 7 592,00
+d.4 0205-01 podłożu innym niż betonowe
+34 KNNR 5 Przewody kabelkowe 3x2,5 układane p.t. w gotowych m 380,000 12,96 4 924,80
+d.4 0205-01 bruzdach w podłożu innym niż betonowe
+35 KNNR 5 Przewody kabelkowe 5x4 układane p.t. w gotowych m 40,000 35,45 1 418,00
+d.4 0716-01 bruzdach w podłożu innym niż betonowe
+36 KNNR 5 Przewody kabelkowe 5x2,5 w korytach i kanałach m 60,000 29,06 1 743,60
+d.4 0716-01 elektroinstalacyjnych
+37 KNNR 5 Podłączenie przewodów kabelkowych o przekroju szt.ż 5 782,000 1,36 7 863,52
+d.4 1203-08 żyły do 2.5 mm2 pod zaciski lub bolce ył
+Razem dział: Przewody 23 541,92
+- 6 -
+Norma STANDARD - 365 Wersja: 5.17.100.8 Nr seryjny: 4539 Użytkownik: KLONEX II
+BRANŻA ELEKTRYCZNA
+Kosztorys ofertowy
+Lp. Podstawa Opis j.m. Ilość Cena Wartość
+5 Instalacja ekwipotencjalna i odgromowa
+38 KNNR 5 Montaż głównej i miejscowej szyny uziemiającej szt. 1,000 194,92 194,92
+d.5 0612-06
+39 KNNR 5 Montaż LSWP (lokalna szyna) szt. 1,000 194,92 194,92
+d.5 0612-06
+40 KNNR 5 Montaż bednarki FeZn 30x4 m 140,000 23,61 3 305,40
+d.5 0603-03
+41 KNNR 5 Montaż wsporników dachowych m 35,000 36,76 1 286,60
+d.5 0601-02
+42 KNNR 5 Montaż przewodów uziemiających i wyrównawczych m 110,000 18,54 2 039,40
+d.5 0602-04 głównych i lokalnych
+43 KNNR 5 Montaż przewodów uziemiających i wyrównawczych m 2,000 18,54 37,08
+d.5 0602-04 głównych i lokalnych - zwód pionowy 2m
+44 KNNR 5 Przewód odprowadzający (prowadzony w rurce w szt. 6,000 93,18 559,08
+d.5 1204-03 ociepleniu)
+45 KNNR 5 Złącza kontrolne w instalacji odgromowej lub szt. 6,000 63,31 379,86
+d.5 0612-06 przewodach wyrównawczych - połączenie
+pręt-płaskownik w skrzynce kontrolnej na elewacji
+46 KNNR 5 Podłączenie końcówek pod zaciski (przekroju żyły do szt.ż 4,000 2,56 10,24
+d.5 1203-05 25 mm2 ) ył
+47 KNNR 5 Montaż końcówek przez zaciskanie - przekrój żył do szt. 60,000 4,69 281,40
+d.5 1204-01 6 mm2
+48 KNNR 5 Podłączenie końcówek pod zaciski (przekrój żył do szt.ż 60,000 1,57 94,20
+d.5 1203-03 6mm2) ył
+Razem dział: Instalacja ekwipotencjalna i odgromowa 8 383,10
+- 7 -
+Norma STANDARD - 365 Wersja: 5.17.100.8 Nr seryjny: 4539 Użytkownik: KLONEX II
+BRANŻA ELEKTRYCZNA
+Kosztorys ofertowy
+Lp. Podstawa Opis j.m. Ilość Cena Wartość
+6 Prace pomiarowe
+49 KNNR 5 Sprawdzenie i pomiar 1-fazowego obwodu pomi 43,000 88,05 3 786,15
+d.6 1301-01 elektrycznego niskiego napięcia ar
+50 KNNR 5 Sprawdzenie i pomiar 3-fazowego obwodu pomi 17,000 119,21 2 026,57
+d.6 1301-02 elektrycznego niskiego napięcia ar
+51 KNNR 5 Sprawdzenie samoczynnego wyłączania zasilania prób 19,000 22,35 424,65
+d.6 1305-01 (pierwsza próba) .
+52 KNNR-W 9 Pomiar natężenia oświetlenia wnętrz bezpośrednio punk 45,000 20,32 914,40
+d.6 1201-01 na stanowisku roboczym t
+53 KNNR-W 9 Pomiar natężenia oświetlenia awaryjnego punk 30,000 20,32 609,60
+d.6 1201-01 bezpośrednio na stanowisku roboczym t
+Razem dział: Prace pomiarowe 7 761,37
+Kosztorys netto 114 686,09
+VAT 23% 26 377,80
+Kosztorys brutto 141 063,89
+- 8 -
+Norma STANDARD - 365 Wersja: 5.17.100.8 Nr seryjny: 4539 Użytkownik: KLONEX II
+Spis treści
+Strona Tytułowa 1
+Ogólna charakterystyka obiektu 2
+Kosztorys ofertowy 3
+1.LINIA KABLOWA I ROZDZIELNICA ELEKTRYZNA 3
+2.Montaż opraw ośwetleniowych 4
+3.Osprzęt elektroinstalacyjny 5
+4.Przewody 6
+5.Instalacja ekwipotencjalna i odgromowa 7
+6.Prace pomiarowe 8
+Spis treści 9
+- 9 -
+Norma STANDARD - 365 Wersja: 5.17.100.8 Nr seryjny: 4539 Użytkownik: KLONEX II

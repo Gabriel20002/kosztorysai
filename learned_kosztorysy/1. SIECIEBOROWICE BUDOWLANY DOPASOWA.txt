@@ -1,0 +1,2793 @@
+KOSZTORYS INWESTORSKI
+NAZWA INWESTYCJI: Budowa budynku przedszkola w Skarbimierzu Osiedle - Roboty
+budowlane inwestycyjne
+ADRES INWESTYCJI: Skarbimierz Osiedle, ul. Akacjowa, dz. nr 49
+NAZWA INWESTORA: Gmina Skarbimierz
+ADRES INWESTORA: Skarbimierz Osiedle, ul. Parkowa 12
+BRANŻE: budowlana
+SPORZĄDZIŁ KALKULACJE
+mgr inż. Robert Łukiewicz
+DATA OPRACOWANIA: 20.12.2018
+Stawka roboczogodziny
+KOSZTORYS 28,00 zł
+Poz.: 99 5 000,00 zł
+Poz.: 71, 72, 73, 74, 75, 32,00 zł
+76, 77, 78
+WARTOŚĆ KOSZTORYSOWA ROBÓT BEZ PODATKU VAT: 954 040,66 zł
+PODATEK VAT: (23%) 219 429,35 zł
+OGÓŁEM WARTOŚĆ KOSZTORYSOWA ROBÓT: 1 173 470,01 zł
+SŁOWNIE: jeden milion sto siedemdziesiąt trzy tysiące czterysta siedemdziesiąt i
+1/100 zł
+WYKONAWCA: INWESTOR:
+Data opracowania Data zatwierdzenia
+20.12.2018
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Tabela elementów scalonych
+Uproszcz Robocizn
+Lp. Nazwa Materiały Sprzęt Kp Z Razem Udział %
+one a
+1 PRACE 54 0,00 0,00 0,00 0,00 0,00 54 416,46 4,64%
+PROJEKTOWE, 416,46
+UZGONIENIA, OPINIE
+ORGANIZACJA
+PLACU BUDOWY
+2 Roboty ziemne i 0,00 24 26 4 485,34 17 4 669,66 78 251,78 6,67%
+fundamentowe 701,52 883,20 512,06
+3 Posadzki 0,00 32 38 178,78 19 5 220,53 96 112,70 8,19%
+448,00 689,35 576,04
+4 Roboty murowe i 0,00 18 38 19,20 11 2 976,24 71 647,04 6,11%
+ścianki działowe 582,61 907,89 161,10
+5 Roboty betonowe 0,00 3 390,43 3 645,68 298,66 2 213,67 589,85 10 138,29 0,86%
+6 Tynki, okładziny i 0,00 50 79 1 620,34 31 8 355,09 171 585,59 14,62%
+roboty malarskie 601,25 676,02 332,89
+7 Okna, drzwi, parapety 0,00 3 885,70 54 81,38 2 380,21 634,77 61 717,52 5,26%
+wewnętrzne 735,46
+8 Dach, pokrycie 46 31 43 530,90 19 5 173,91 146 887,29 12,52%
+dachowe, rynny, rury 099,20 802,52 881,02 399,74
+spustowe, wyłaz na
+dach
+9 Elewacja i prace 0,00 49 14 686,11 29 7 961,69 101 779,29 8,67%
+wykończeniowe 073,54 202,20 855,75
+10 Zagospodarowanie 0,00 32 37 1 296,78 19 5 332,41 95 929,99 8,17%
+terenu 031,65 272,96 996,19
+11 Rusztowanie 0,00 3 700,50 99,74 1 588,07 3 173,02 846,48 9 407,81 0,80%
+12 Obsługa geodezyjna 0,00 5 000,00 0,00 0,00 3 000,00 800,00 8 800,00 0,75%
+13 WYPOSAŻENIE 47 0,00 0,00 0,00 0,00 0,00 47 366,90 4,04%
+KUCHNI I ZAPLECZA 366,90
+KUCHENNEGO
+Kosztorys netto 147 255 337 10 159 42 954 040,66 81,30%
+882,56 217,72 993,52 785,56 600,67 560,63
+VAT 23% 219 429,35 18,70%
+Kosztorys brutto 1 173 470,01 100,00%
+Słownie: jeden milion sto siedemdziesiąt trzy tysiące czterysta siedemdziesiąt i 1/100 zł
+- 2 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Kosztorys
+Koszt
+Lp. Podstawa Opis j.m. Nakłady R M S
+jedn.
+KOSZTORYS:
+1 PRACE PROJEKTOWE, UZGONIENIA, OPINIE ORGANIZACJA PLACU BUDOWY
+1 PRACE PROJEKTOWE 1,000 0,000
+d.1
+obmiar = 1,000
+Razem z narzutami 54 416,46 54 416,4
+60
+Cena jednostkowa 54 416,460
+Razem dział: PRACE PROJEKTOWE, UZGONIENIA,
+OPINIE ORGANIZACJA PLACU BUDOWY
+Razem koszty bezpośrednie: 0,00
+RAZEM: 54 416,46
+2 Roboty ziemne i fundamentowe
+2 KNR 2-01 Usunięcie warstwy ziemi m2 409,886 0,272
+d.2 0126-01 urodzajnej (humusu) o grubości
+do 15 cm za pomocą spycharek
+obmiar = 409,886 m2
+-- R --
+1* robocizna r-g 2,1531 0,147 60,25
+0,0055 * 0,955 = 0,005253 r-g/m2
+* 28,00 zł/r-g
+-- S --
+2* spycharka gąsienicowa 74 kW m-g 1,0247 0,125 51,24
+(100 KM)
+0,0025 m-g/m2 * 50,00 zł/m-g
+Razem koszty bezpośrednie 111,49 0,272 60,25 51,24
+Jednostkowe koszty bezpośrednie 0,272 0,147 0,125
+Razem z narzutami 196,34 0,479 106,16 90,18
+Cena jednostkowa 0,479 0,259 0,220
+3 KNR 2-01 Usunięcie warstwy ziemi m2 409,886 0,272
+d.2 0126-02 urodzajnej (humusu) za pomocą
+spycharek - dodatek za każde
+dalsze 5 cm grubości
+Krotność = 3
+obmiar = 409,886 m2
+-- R --
+1* robocizna r-g 2,2314 0,152 62,30
+0,0019 * 0,955 * 3 = 0,005444 r-
+g/m2 * 28,00 zł/r-g
+-- S --
+2* spycharka gąsienicowa 74 kW m-g 0,9837 0,120 49,19
+(100 KM)
+0,0008 * 3 = 0,0024 m-g/m2 *
+50,00 zł/m-g
+Razem koszty bezpośrednie 111,49 0,272 62,30 49,19
+Jednostkowe koszty bezpośrednie 0,272 0,152 0,120
+Razem z narzutami 195,93 0,478 109,44 86,49
+Cena jednostkowa 0,478 0,267 0,211
+4 KNR 2-01 Wykopy oraz przekopy m3 52,039 6,800
+d.2 0217-04 wykonywane koparkami
+podsiębiernymi 0.25 m3 na odkład
+w gruncie kat.III
+obmiar = 52,039 m3
+-- R --
+1* robocizna r-g 7,2855 3,920 203,99
+0,14 r-g/m3 * 28,00 zł/r-g
+-- S --
+2* koparka gąsienicowa 0.25 m3 m-g 2,9974 2,880 149,87
+0,0576 m-g/m3 * 50,00 zł/m-g
+Razem koszty bezpośrednie 353,86 6,800 203,99 149,87
+Jednostkowe koszty bezpośrednie 6,800 3,920 2,880
+Razem z narzutami 622,80 11,968 359,02 263,78
+- 3 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Kosztorys
+Koszt
+Lp. Podstawa Opis j.m. Nakłady R M S
+jedn.
+Cena jednostkowa 11,968 6,899 5,069
+5 KNR 2-01 Wykopy oraz przekopy m3 53,760 6,800
+d.2 0217-04 wykonywane koparkami
+podsiębiernymi 0.25 m3 na odkład
+w gruncie kat.III - pogłębienie pod
+fundamentami
+obmiar = 53,760 m3
+-- R --
+1* robocizna r-g 7,5264 3,920 210,74
+0,14 r-g/m3 * 28,00 zł/r-g
+-- S --
+2* koparka gąsienicowa 0.25 m3 m-g 3,0966 2,880 154,83
+0,0576 m-g/m3 * 50,00 zł/m-g
+Razem koszty bezpośrednie 365,57 6,800 210,74 154,83
+Jednostkowe koszty bezpośrednie 6,800 3,920 2,880
+Razem z narzutami 643,40 11,968 370,89 272,51
+Cena jednostkowa 11,968 6,899 5,069
+6 KNR 2-01 Przemieszczenie spycharkami m3 105,799 0,585
+d.2 0229-02 mas ziemnych na odległość do 10
+m w gruncie kat. III
+obmiar = 105,799 m3
+-- S --
+1* Spych.gąsienicowa 55kW (1) m-g 1,2378 0,585 61,89
+0,0117 m-g/m3 * 50,00 zł/m-g
+Razem koszty bezpośrednie 61,89 0,585 61,89
+Jednostkowe koszty bezpośrednie 0,585 0,585
+Razem z narzutami 108,97 1,030 108,97
+Cena jednostkowa 1,030 1,030
+7 KNR 2-01 Przemieszczenie spycharkami m3 105,799 0,290
+d.2 0229-05 mas ziemnych w gruncie kat. III -
+dodatek za każde rozpoczęte 10
+m w przedziale ponad 10 do 30 m
+obmiar = 105,799 m3
+-- S --
+1* Spych.gąsienicowa 55kW (1) m-g 0,6136 0,290 30,68
+0,0058 m-g/m3 * 50,00 zł/m-g
+Razem koszty bezpośrednie 30,68 0,290 30,68
+Jednostkowe koszty bezpośrednie 0,290 0,290
+Razem z narzutami 53,96 0,510 53,96
+Cena jednostkowa 0,510 0,510
+8 KNR 2-01 Roboty ziemne wykonywane m3 161,060 14,747
+d.2 0239-02 ładowarkami kołowymi o poj. łyżki
+1.25 m3 z transportem urobku
+samochodami samowył. na odl do
+1 km w grunt kat. III
+obmiar = 161,060 m3
+-- R --
+1* robocizna r-g 34,7245 6,037 972,32
+0,2156 r-g/m3 * 28,00 zł/r-g
+-- S --
+2* ładowarka kołowa 1.25 m3 m-g 8,4073 2,610 420,37
+0,0522 m-g/m3 * 50,00 zł/m-g
+3* spycharka gąsienicowa 74 kW m-g 1,4818 0,460 74,09
+(100 KM)
+0,0092 m-g/m3 * 50,00 zł/m-g
+4* samochód samowyładowczy 5-10 m-g 18,1676 5,640 908,38
+t
+0,1128 m-g/m3 * 50,00 zł/m-g
+Razem koszty bezpośrednie 2 375,16 14,747 972,32 1 40
+2,84
+Jednostkowe koszty bezpośrednie 14,747 6,037 8,710
+- 4 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Kosztorys
+Koszt
+Lp. Podstawa Opis j.m. Nakłady R M S
+jedn.
+Razem z narzutami 4 180,31 25,955 1 71 2 46
+1,26 9,05
+Cena jednostkowa 25,955 10,625 15,330
+9 KNR 4-01 Wywóz ziemi samochodami m3 161,060 12,771
+d.2 0108-08 samowyładowczymi - za każdy
+nast. 1 km
+Krotność = 10
+obmiar = 161,060 m3
+-- S --
+1* samochód samowyładowczy 5 t m-g 48,3180 12,771 2 056,90
+0,03 * 10 = 0,3 m-g/m3 * 42,57
+zł/m-g
+Razem koszty bezpośrednie 2 056,90 12,771 2 05
+6,90
+Jednostkowe koszty bezpośrednie 12,771 12,771
+Razem z narzutami 3 620,15 22,477 3 62
+0,15
+Cena jednostkowa 22,477 22,477
+10 Opłata za zrzut ziemi na m3 161,060 20,988
+d.2 kalk. własna wysypisko
+obmiar = 161,060 m3
+-- M --
+1* opłata za zrzut ziemi na wysypisko t 289,9080 20,988 3 380,33
+1,8 t/m3 * 11,66 zł/t
+Razem koszty bezpośrednie 3 380,33 20,988 3 380,33
+Jednostkowe koszty bezpośrednie 20,988 20,988
+Razem z narzutami 3 380,33 20,988 3 380,33
+Cena jednostkowa 20,988 20,988
+11 KNR 2-02 Ławy fundamentowe prostokątne m3 38,400 245,597
+d.2 0202-02 żelbetowe, szerokości do 0,8 m - z
+zastosowaniem pompy do betonu
+obmiar = 38,400 m3
+-- R --
+1* robocizna r-g 103,2115 75,258 2 889,91
+2,6878 r-g/m3 * 28,00 zł/r-g
+-- M --
+2* beton zwykły z kruszywa m3 38,9760 150,261 5 770,02
+naturalnego
+1,015 m3/m3 * 148,04 zł/m3
+3* drewno okrągłe na stemple m3 0,1152 0,657 25,23
+budowlane
+0,003 m3/m3 * 219,15 zł/m3
+4* deski iglaste obrzynane 25 mm m3 0,1920 2,190 84,10
+kl.III
+0,005 m3/m3 * 438,03 zł/m3
+5* deski iglaste obrzynane 38 mm m3 0,1536 3,444 132,25
+kl.III
+0,004 m3/m3 * 861,02 zł/m3
+6* gwoździe budowlane okrągłe gołe kg 16,1280 1,625 62,40
+0,42 kg/m3 * 3,87 zł/kg
+7* materiały pomocnicze(od M) % 2,373 91,12
+1,5 %
+-- S --
+8* środek transportowy m-g 1,1520 0,876 33,64
+0,03 m-g/m3 * 29,19 zł/m-g
+9* pompa do betonu na samochodzie m-g 3,0720 8,913 342,26
+0,08 m-g/m3 * 111,41 zł/m-g
+Razem koszty bezpośrednie 9 430,93 245,597 2 88 6 165,12 375,90
+9,91
+Jednostkowe koszty bezpośrednie 245,597 75,258 160,550 9,789
+Razem z narzutami 11 912,91 310,232 5 08 6 165,12 661,55
+6,24
+Cena jednostkowa 310,232 132,454 160,550 17,228
+- 5 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Kosztorys
+Koszt
+Lp. Podstawa Opis j.m. Nakłady R M S
+jedn.
+12 KNR 2-02 Przygotowanie i montaż zbrojenia kg 538,100 3,152
+d.2 0290-02 elem.budynków i budowli - pręty
+żebrowane fi 12
+obmiar = 538,100 kg
+-- R --
+1* robocizna r-g 23,0737 1,201 646,26
+0,04288 r-g/kg * 28,00 zł/r-g
+-- M --
+2* Pręty żebr.skoś.do zbr.bet. fi kg 548,8620 1,846 993,33
+12mm
+1,02 kg/kg * 1,81 zł/kg
+3* materiały pomocnicze(od M) % 0,028 15,07
+1,5 %
+-- S --
+4* Giętarka do prętów do fi 40mm m-g 2,3138 0,011 5,92
+0,0043 m-g/kg * 2,65 zł/m-g
+5* Nożyce gilotynowe do fi 25mm m-g 3,1210 0,019 10,22
+0,0058 m-g/kg * 3,19 zł/m-g
+6* środek transportowy m-g 0,8610 0,047 25,29
+0,0016 m-g/kg * 29,19 zł/m-g
+Razem koszty bezpośrednie 1 696,09 3,152 646,26 1 008,40 41,43
+Jednostkowe koszty bezpośrednie 3,152 1,201 1,874 0,077
+Razem z narzutami 2 218,59 4,123 1 13 1 008,40 72,64
+7,55
+Cena jednostkowa 4,123 2,114 1,874 0,135
+13 KNR 2-02 Przygotowanie i montaż zbrojenia kg 117,700 2,933
+d.2 0290-01 elem.budynków i budowli - pręty
+gładkie fi 6mm
+obmiar = 117,700 kg
+-- R --
+1* robocizna r-g 4,2042 1,000 117,70
+0,03572 r-g/kg * 28,00 zł/r-g
+-- M --
+2* Pręty okr.gład.do zbr.bet. fi 6mm kg 117,9354 1,834 215,86
+1,002 kg/kg * 1,83 zł/kg
+3* materiały pomocnicze(od M) % 0,028 3,30
+1,5 %
+-- S --
+4* prościarka do prętów m-g 0,4237 0,010 1,18
+0,0036 m-g/kg * 2,69 zł/m-g
+5* nożyce do prętów m-g 0,5591 0,013 1,53
+0,00475 m-g/kg * 2,66 zł/m-g
+6* giętarka do prętów m-g 0,4743 0,010 1,18
+0,00403 m-g/kg * 2,57 zł/m-g
+7* środek transportowy m-g 0,1530 0,038 4,47
+0,0013 m-g/kg * 29,19 zł/m-g
+Razem koszty bezpośrednie 345,22 2,933 117,70 219,16 8,36
+Jednostkowe koszty bezpośrednie 2,933 1,000 1,862 0,071
+Razem z narzutami 441,02 3,747 207,15 219,16 14,71
+Cena jednostkowa 3,747 1,760 1,862 0,125
+14 KNR 2-02 Izolacje poziome m2 36,000 20,871
+d.2 0604-01 przeciwwilgociowe z folii
+izolacyjnej ław fundamentowych
+obmiar = 36,000 m2
+-- R --
+1* robocizna r-g 23,9832 18,654 671,54
+0,6662 r-g/m2 * 28,00 zł/r-g
+-- M --
+2* folia izolacyjna m2 39,6000 1,793 64,55
+1,1 m2/m2 * 1,63 zł/m2
+3* materiały pomocnicze(od M) % 0,027 0,97
+1,5 %
+- 6 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Kosztorys
+Koszt
+Lp. Podstawa Opis j.m. Nakłady R M S
+jedn.
+-- S --
+4* środek transportowy m-g 0,4896 0,397 14,29
+0,0136 m-g/m2 * 29,19 zł/m-g
+Razem koszty bezpośrednie 751,35 20,871 671,54 65,52 14,29
+Jednostkowe koszty bezpośrednie 20,871 18,654 1,820 0,397
+Razem z narzutami 1 272,60 35,350 1 18 65,52 25,16
+1,92
+Cena jednostkowa 35,350 32,831 1,820 0,699
+15 KNR-W 2-02 Ściany fundamentowe z bloczków m3 15,580 380,973
+d.2 0101-06 żwirobetonowych gr. 25cm na
+zaprawie cementowej
+obmiar = 15,580 m3
+-- R --
+1* robocizna r-g 86,7806 155,960 2 429,86
+5,57 r-g/m3 * 28,00 zł/r-g
+-- M --
+2* bloczki żwirobetonowe o wym szt 1 366,3660 193,817 3 019,67
+38x25x12 cm
+87,7 szt/m3 * 2,21 zł/szt
+3* zaprawa m3 2,8044 27,871 434,23
+0,18 m3/m3 * 154,84 zł/m3
+4* materiały pomocnicze(od M) % 3,325 51,80
+1,5 %
+Razem koszty bezpośrednie 5 935,56 380,973 2 42 3 505,70
+9,86
+Jednostkowe koszty bezpośrednie 380,973 155,960 225,013
+Razem z narzutami 7 782,26 499,503 4 27 3 505,70
+6,56
+Cena jednostkowa 499,503 274,490 225,013
+16 KNR-W 2-02 trzpienie żelbetowe, w ścianach m3 0,455 732,880
+d.2 0211-01 murowanych o gr. do 0.3 m
+dwustronnie deskowane
+obmiar = 0,455 m3
+-- R --
+1* robocizna r-g 8,7815 540,400 245,88
+19,3 r-g/m3 * 28,00 zł/r-g
+-- M --
+2* beton zwykły z kruszywa m3 0,4641 165,974 75,52
+naturalnego
+1,02 m3/m3 * 162,72 zł/m3
+3* deski iglaste obrzynane 19-25 mm m3 0,0091 7,095 3,23
+kl.III
+0,02 m3/m3 * 354,74 zł/m3
+4* gwoździe budowlane okrągłe gołe kg 0,2867 1,556 0,71
+0,63 kg/m3 * 2,47 zł/kg
+5* drut stalowy okrągły kg 0,8190 3,636 1,65
+1,8 kg/m3 * 2,02 zł/kg
+6* materiały pomocnicze(od M) % 2,674 1,22
+1,5 %
+-- S --
+7* wyciąg m-g 0,7963 9,590 4,36
+1,75 m-g/m3 * 5,48 zł/m-g
+8* środek transportowy m-g 0,0273 1,955 0,89
+0,06 m-g/m3 * 32,58 zł/m-g
+Razem koszty bezpośrednie 333,46 732,880 245,88 82,33 5,25
+Jednostkowe koszty bezpośrednie 732,880 540,400 180,935 11,545
+Razem z narzutami 524,32 1 152,35 432,75 82,33 9,24
+8
+Cena jednostkowa 1 152,358 951,104 180,935 20,319
+17 KNR 2-02 Izolacje przeciwwilgoc.powlokowe m2 124,640 6,197
+d.2 0603-03 bitumiczne pionowe - wyk.na
+zimno z masy dyspersyjnej -
+pierwsza warstwa
+- 7 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Kosztorys
+Koszt
+Lp. Podstawa Opis j.m. Nakłady R M S
+jedn.
+obmiar = 124,640 m2
+-- R --
+1* robocizna r-g 14,0220 3,150 392,62
+0,1125 r-g/m2 * 28,00 zł/r-g
+-- M --
+2* Masa dyspers.asfalt-kaucz.izol. kg 155,8000 2,950 367,69
+1,25 kg/m2 * 2,36 zł/kg
+3* materiały pomocnicze(od M) % 0,044 5,48
+1,5 %
+-- S --
+4* środek transportowy m-g 0,2244 0,053 6,61
+0,0018 m-g/m2 * 29,19 zł/m-g
+Razem koszty bezpośrednie 772,40 6,197 392,62 373,17 6,61
+Jednostkowe koszty bezpośrednie 6,197 3,150 2,994 0,053
+Razem z narzutami 1 075,89 8,632 691,00 373,17 11,72
+Cena jednostkowa 8,632 5,544 2,994 0,094
+18 KNR 2-02 Izolacje przeciwwilgoc.powlokowe m2 124,640 5,017
+d.2 0603-04 bitumiczne pionowe - wyk.na
+zimno z masy dyspersyjnej -
+druga i nast.warstwa
+obmiar = 124,640 m2
+-- R --
+1* robocizna r-g 10,9434 2,458 306,37
+0,0878 r-g/m2 * 28,00 zł/r-g
+-- M --
+2* Masa dyspers.asfalt-kaucz.izol. kg 130,8720 2,478 308,86
+1,05 kg/m2 * 2,36 zł/kg
+3* materiały pomocnicze(od M) % 0,037 4,61
+1,5 %
+-- S --
+4* środek transportowy m-g 0,1870 0,044 5,48
+0,0015 m-g/m2 * 29,19 zł/m-g
+Razem koszty bezpośrednie 625,32 5,017 306,37 313,47 5,48
+Jednostkowe koszty bezpośrednie 5,017 2,458 2,515 0,044
+Razem z narzutami 862,26 6,918 539,20 313,47 9,59
+Cena jednostkowa 6,918 4,326 2,515 0,077
+19 KNR 2-02 Izolacje cieplne i m2 54,908 66,466
+d.2 0609-08 przeciwdzwiękowe z płyt
+polistyrenowych pionowe na
+lepiku bez siatki metal. -
+ocieplenie ścian fundamentowych
+obmiar = 54,908 m2
+-- R --
+1* robocizna r-g 16,2308 8,277 454,47
+0,2956 r-g/m2 * 28,00 zł/r-g
+-- M --
+2* roztwór asfaltowy do gruntowania kg 19,2178 0,994 54,58
+0,35 kg/m2 * 2,84 zł/kg
+3* Płyty z polistyrenu m3 5,7653 51,226 2 812,72
+ekstrudow.odmiany 500, gr. 10cm
+0,105 m3/m2 * 487,87 zł/m3
+4* Lepik asfalt.stos.na zimno kg 101,5798 4,718 259,06
+1,85 kg/m2 * 2,55 zł/kg
+5* materiały pomocnicze(od M) % 0,854 46,89
+1,5 %
+-- S --
+6* wyciąg m-g 0,4118 0,041 2,25
+0,0075 m-g/m2 * 5,48 zł/m-g
+7* środek transportowy m-g 0,6699 0,356 19,55
+0,0122 m-g/m2 * 29,19 zł/m-g
+Razem koszty bezpośrednie 3 649,52 66,466 454,47 3 173,25 21,80
+Jednostkowe koszty bezpośrednie 66,466 8,277 57,792 0,397
+- 8 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Kosztorys
+Koszt
+Lp. Podstawa Opis j.m. Nakłady R M S
+jedn.
+Razem z narzutami 4 011,47 73,058 799,84 3 173,25 38,38
+Cena jednostkowa 73,058 14,567 57,792 0,699
+20 KNR 2-02 Izolacje ścian fundamentowych z m2 54,908 11,089
+d.2 0616-04 folii kubełkowej
+obmiar = 54,908 m2
+-- R --
+1* robocizna r-g 7,6267 3,889 213,54
+0,1389 r-g/m2 * 28,00 zł/r-g
+-- M --
+2* folia kubełkowa m2 63,1442 7,038 386,44
+1,15 m2/m2 * 6,12 zł/m2
+3* materiały pomocnicze(od M) % 0,106 5,82
+1,5 %
+-- S --
+4* wyciąg m-g 0,2361 0,024 1,32
+0,0043 m-g/m2 * 5,48 zł/m-g
+5* środek transportowy m-g 0,0604 0,032 1,76
+0,0011 m-g/m2 * 29,19 zł/m-g
+Razem koszty bezpośrednie 608,88 11,089 213,54 392,26 3,08
+Jednostkowe koszty bezpośrednie 11,089 3,889 7,144 0,056
+Razem z narzutami 773,49 14,087 375,79 392,26 5,44
+Cena jednostkowa 14,087 6,844 7,144 0,099
+21 KNR 2-01 Zasypywanie wykopów m3 67,704 0,675
+d.2 0230-01 spycharkami z przemieszczeniem
+gruntu na odl. do 10 m w gruncie
+kat. I-III
+obmiar = 67,704 m3
+-- S --
+1* Spych.gąsienicowa 55kW (1) m-g 0,9140 0,675 45,70
+0,0135 m-g/m3 * 50,00 zł/m-g
+Razem koszty bezpośrednie 45,70 0,675 45,70
+Jednostkowe koszty bezpośrednie 0,675 0,675
+Razem z narzutami 80,43 1,188 80,43
+Cena jednostkowa 1,188 1,188
+22 KNR 2-02 Podkłady z ubitych materiałów m3 82,413 144,999
+d.2 1101-07 sypkich na podł.gruntowym pod
+posadzki
+obmiar = 82,413 m3
+-- R --
+1* robocizna r-g 356,0242 120,960 9 968,68
+4,32 r-g/m3 * 28,00 zł/r-g
+-- M --
+2* pospółka m3 89,0060 23,684 1 951,87
+1,08 m3/m3 * 21,93 zł/m3
+3* materiały pomocnicze(od M) % 0,355 29,26
+1,5 %
+Razem koszty bezpośrednie 11 949,81 144,999 9 96 1 981,13
+8,68
+Jednostkowe koszty bezpośrednie 144,999 120,960 24,039
+Razem z narzutami 19 526,03 236,929 17 544, 1 981,13
+90
+Cena jednostkowa 236,929 212,890 24,039
+23 KNR 2-02 Podkłady betonowe gr. 15cm na m3 32,965 336,067
+d.2 1101-01 podł.gruntowym
+obmiar = 32,965 m3
+-- R --
+1* robocizna r-g 173,3959 147,280 4 855,09
+5,26 r-g/m3 * 28,00 zł/r-g
+-- M --
+2* Beton zwykły B-15 (C12/15) m3 33,9540 185,997 6 131,39
+1,03 m3/m3 * 180,58 zł/m3
+- 9 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Kosztorys
+Koszt
+Lp. Podstawa Opis j.m. Nakłady R M S
+jedn.
+3* materiały pomocnicze(od M) % 2,790 91,97
+1,5 %
+Razem koszty bezpośrednie 11 078,45 336,067 4 85 6 223,36
+5,09
+Jednostkowe koszty bezpośrednie 336,067 147,280 188,787
+Razem z narzutami 14 768,32 448,000 8 54 6 223,36
+4,96
+Cena jednostkowa 448,000 259,213 188,787
+Razem dział: Roboty ziemne i fundamentowe
+Razem koszty bezpośrednie: 56 070,06 24 26 883,20 4 485,34
+701,52
+RAZEM: 78 251,78 43 26 883,20 7 893,95
+474,63
+3 Posadzki
+24 KNR 2-02 Izolacje przeciwwilgoc.i m2 302,181 12,289
+d.3 0607-01 przeciwwodne z folii
+polietylen.szerokiej poziome
+podposadzkowe
+obmiar = 302,181 m2
+-- R --
+1* robocizna r-g 108,6643 10,069 3 042,66
+0,3596 r-g/m2 * 28,00 zł/r-g
+-- M --
+2* folia polietylenowa szeroka (6 lub m2 362,6172 1,992 601,94
+12m) 0.2 mm
+1,2 m2/m2 * 1,66 zł/m2
+3* materiały pomocnicze(od M) % 0,030 9,07
+1,5 %
+-- S --
+4* środek transportowy m-g 2,0548 0,198 59,83
+0,0068 m-g/m2 * 29,19 zł/m-g
+Razem koszty bezpośrednie 3 713,50 12,289 3 04 611,01 59,83
+2,66
+Jednostkowe koszty bezpośrednie 12,289 10,069 2,022 0,198
+Razem z narzutami 6 071,42 20,092 5 35 611,01 105,46
+4,95
+Cena jednostkowa 20,092 17,721 2,022 0,349
+25 KNR 2-02 Izolacje cieplne i m2 274,710 18,987
+d.3 0609-03 przeciwdzwiękowe z płyt
+styropianowych gr. 12cm poziome
+na wierzchu konstr.na sucho -
+jedna warstwa
+obmiar = 274,710 m2
+-- R --
+1* robocizna r-g 24,4767 2,495 685,40
+0,0891 r-g/m2 * 28,00 zł/r-g
+-- M --
+2* Płyty styropianowe EPS 100-038 m3 34,3388 15,856 4 355,80
+0,125 m3/m2 * 126,85 zł/m3
+3* materiały pomocnicze(od M) % 0,238 65,38
+1,5 %
+-- S --
+4* dźwig m-g 0,8791 0,261 71,70
+0,0032 m-g/m2 * 81,41 zł/m-g
+5* środek transportowy m-g 1,2911 0,137 37,64
+0,0047 m-g/m2 * 29,19 zł/m-g
+Razem koszty bezpośrednie 5 215,92 18,987 685,40 4 421,18 109,34
+Jednostkowe koszty bezpośrednie 18,987 2,495 16,094 0,398
+Razem z narzutami 5 820,01 21,186 1 20 4 421,18 192,58
+6,25
+Cena jednostkowa 21,186 4,391 16,094 0,701
+- 10 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Kosztorys
+Koszt
+Lp. Podstawa Opis j.m. Nakłady R M S
+jedn.
+26 KNR 2-02 Podkłady betonowe na m3 192,297 319,832
+d.3 1101-01 podł.gruntowym gr. 7cm
+obmiar = 192,297 m3
+-- R --
+1* robocizna r-g 1 011,4822 147,280 28
+5,26 r-g/m3 * 28,00 zł/r-g 321,50
+-- M --
+2* Beton zwykły B-20 (C16/20) m3 198,0659 170,002 32 690,87
+1,03 m3/m3 * 165,05 zł/m3
+3* materiały pomocnicze(od M) % 2,550 490,36
+1,5 %
+Razem koszty bezpośrednie 61 502,73 319,832 28 321, 33 181,23
+50
+Jednostkowe koszty bezpośrednie 319,832 147,280 172,552
+Razem z narzutami 83 027,11 431,765 49 845, 33 181,23
+88
+Cena jednostkowa 431,765 259,213 172,552
+27 KNR 2-02 Posadzki cementowe wraz z m2 192,297 4,597
+d.3 1106-07 cokolikami - dopłata za zbrojenie
+analogia siatką stalową
+obmiar = 192,297 m2
+-- R --
+1* robocizna r-g 14,2300 2,072 398,44
+0,074 r-g/m2 * 28,00 zł/r-g
+-- M --
+2* siatka fi 3mm, 15x15cm m2 196,1429 2,438 468,82
+1,02 m2/m2 * 2,39 zł/m2
+3* materiały pomocnicze(od M) % 0,037 7,11
+1,5 %
+-- S --
+4* środek transportowy m-g 0,3269 0,050 9,61
+0,0017 m-g/m2 * 29,19 zł/m-g
+Razem koszty bezpośrednie 883,98 4,597 398,44 475,93 9,61
+Jednostkowe koszty bezpośrednie 4,597 2,072 2,475 0,050
+Razem z narzutami 1 194,16 6,210 701,31 475,93 16,92
+Cena jednostkowa 6,210 3,647 2,475 0,088
+Razem dział: Posadzki
+Razem koszty bezpośrednie: 71 316,13 32 38 689,35 178,78
+448,00
+RAZEM: 96 112,70 57 38 689,35 314,96
+108,39
+4 Roboty murowe i ścianki działowe
+28 KNR 2-02 Izolacje poziome m2 36,000 20,871
+d.4 0604-01 przeciwwilgociowe z folii
+izolacyjnej ścian
+fundamentowych murowanych
+obmiar = 36,000 m2
+-- R --
+1* robocizna r-g 23,9832 18,654 671,54
+0,6662 r-g/m2 * 28,00 zł/r-g
+-- M --
+2* folia izolacyjna m2 39,6000 1,793 64,55
+1,1 m2/m2 * 1,63 zł/m2
+3* materiały pomocnicze(od M) % 0,027 0,97
+1,5 %
+-- S --
+4* środek transportowy m-g 0,4896 0,397 14,29
+0,0136 m-g/m2 * 29,19 zł/m-g
+Razem koszty bezpośrednie 751,35 20,871 671,54 65,52 14,29
+Jednostkowe koszty bezpośrednie 20,871 18,654 1,820 0,397
+Razem z narzutami 1 272,60 35,350 1 18 65,52 25,16
+1,92
+- 11 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Kosztorys
+Koszt
+Lp. Podstawa Opis j.m. Nakłady R M S
+jedn.
+Cena jednostkowa 35,350 32,831 1,820 0,699
+29 KNR 0-27 Ściany budynków m2 385,016 111,192
+d.4 0160-02 jednokondygnacyjnych o wys. do
+4,5 m i gr. 25 cm z pustaków
+ceramicznych 25P+W (pióro i
+wpust)
+obmiar = 385,016 m2
+-- R --
+1* robocizna r-g 473,5697 34,440 13
+1,23 r-g/m2 * 28,00 zł/r-g 259,95
+-- M --
+2* pustaki ceramiczne gr. 25cm szt 4 188,9741 73,114 28 150,06
+10,88 szt/m2 * 6,72 zł/szt
+3* zaprawa m3 5,7752 2,504 964,08
+0,015 m3/m2 * 166,95 zł/m3
+4* materiały pomocnicze(od M) % 1,134 436,61
+1,5 %
+Razem koszty bezpośrednie 42 810,70 111,192 13 259, 29 550,75
+95
+Jednostkowe koszty bezpośrednie 111,192 34,440 76,752
+Razem z narzutami 52 888,11 137,366 23 337, 29 550,75
+36
+Cena jednostkowa 137,366 60,614 76,752
+30 KNR 0-27 Ścianki działowe budynków m2 178,634 70,823
+d.4 0162-02 jednokondygnacyjnych o wys. do
+4,5 m i gr. 11,5 cm z pustaków
+ceramicznych 11,5P+W (pióro i
+wpust)
+obmiar = 178,634 m2
+-- R --
+1* robocizna r-g 155,4116 24,360 4 351,52
+0,87 r-g/m2 * 28,00 zł/r-g
+-- M --
+2* pustaki ceramiczne 11.5 P+W o szt 1 454,0808 44,607 7 968,33
+wym. 115x250x238 mm
+8,14 szt/m2 * 5,48 zł/szt
+3* zaprawa m3 1,2504 1,169 208,82
+0,007 m3/m2 * 166,95 zł/m3
+4* materiały pomocnicze(od M) % 0,687 122,72
+1,5 %
+Razem koszty bezpośrednie 12 651,39 70,823 4 35 8 299,87
+1,52
+Jednostkowe koszty bezpośrednie 70,823 24,360 46,463
+Razem z narzutami 15 958,63 89,337 7 65 8 299,87
+8,76
+Cena jednostkowa 89,337 42,874 46,463
+31 KNR 2-02 Otwory w ścianach murowanych szt 14,000 27,100
+d.4 0126-05 -ułożenie nadproży prefabr. typu
+L19/120
+obmiar = 14,000 szt
+-- R --
+1* robocizna r-g 3,3600 6,720 94,08
+0,24 r-g/szt * 28,00 zł/r-g
+-- M --
+2* nadproża prefabrykowane D/120 szt 14,0000 19,970 279,58
+1 szt/szt * 19,97 zł/szt
+3* materiały pomocnicze(od M) % 0,300 4,20
+1,5 %
+-- S --
+4* wyciąg jednomasztowy z m-g 0,3360 0,110 1,54
+napędem elektrycznym 0,5 t
+0,024 m-g/szt * 4,59 zł/m-g
+Razem koszty bezpośrednie 379,40 27,100 94,08 283,78 1,54
+- 12 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Kosztorys
+Koszt
+Lp. Podstawa Opis j.m. Nakłady R M S
+jedn.
+Jednostkowe koszty bezpośrednie 27,100 6,720 20,270 0,110
+Razem z narzutami 452,07 32,291 165,58 283,78 2,71
+Cena jednostkowa 32,291 11,827 20,270 0,194
+32 KNR 2-02 Otwory w ścianach murowanych szt 2,000 28,927
+d.4 0126-05 -ułożenie nadproży prefabr. typu
+L19/180
+obmiar = 2,000 szt
+-- R --
+1* robocizna r-g 0,4800 6,720 13,44
+0,24 r-g/szt * 28,00 zł/r-g
+-- M --
+2* nadproża prefabrykowane D/180 szt 2,0000 21,770 43,54
+1 szt/szt * 21,77 zł/szt
+3* materiały pomocnicze(od M) % 0,327 0,65
+1,5 %
+-- S --
+4* wyciąg jednomasztowy z m-g 0,0480 0,110 0,22
+napędem elektrycznym 0,5 t
+0,024 m-g/szt * 4,59 zł/m-g
+Razem koszty bezpośrednie 57,85 28,927 13,44 44,19 0,22
+Jednostkowe koszty bezpośrednie 28,927 6,720 22,097 0,110
+Razem z narzutami 68,24 34,118 23,66 44,19 0,39
+Cena jednostkowa 34,118 11,827 22,097 0,194
+33 KNR 2-02 Otwory w ścianach murowanych szt 4,000 32,713
+d.4 0126-05 -ułożenie nadproży prefabr. typu
+L19/210
+obmiar = 4,000 szt
+-- R --
+1* robocizna r-g 0,9600 6,720 26,88
+0,24 r-g/szt * 28,00 zł/r-g
+-- M --
+2* nadproża prefabrykowane D/210 szt 4,0000 25,500 102,00
+1 szt/szt * 25,50 zł/szt
+3* materiały pomocnicze(od M) % 0,383 1,53
+1,5 %
+-- S --
+4* wyciąg jednomasztowy z m-g 0,0960 0,110 0,44
+napędem elektrycznym 0,5 t
+0,024 m-g/szt * 4,59 zł/m-g
+Razem koszty bezpośrednie 130,85 32,713 26,88 103,53 0,44
+Jednostkowe koszty bezpośrednie 32,713 6,720 25,883 0,110
+Razem z narzutami 151,62 37,904 47,32 103,53 0,77
+Cena jednostkowa 37,904 11,827 25,883 0,194
+34 KNR 2-02 Otwory w ścianach murowanych szt 10,000 35,230
+d.4 0126-05 -ułożenie nadproży prefabr. typu
+L19/240
+obmiar = 10,000 szt
+-- R --
+1* robocizna r-g 2,4000 6,720 67,20
+0,24 r-g/szt * 28,00 zł/r-g
+-- M --
+2* nadproża prefabrykowane D/240 szt 10,0000 27,980 279,80
+1 szt/szt * 27,98 zł/szt
+3* materiały pomocnicze(od M) % 0,420 4,20
+1,5 %
+-- S --
+4* wyciąg jednomasztowy z m-g 0,2400 0,110 1,10
+napędem elektrycznym 0,5 t
+0,024 m-g/szt * 4,59 zł/m-g
+Razem koszty bezpośrednie 352,30 35,230 67,20 284,00 1,10
+Jednostkowe koszty bezpośrednie 35,230 6,720 28,400 0,110
+Razem z narzutami 404,21 40,421 118,27 284,00 1,94
+- 13 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Kosztorys
+Koszt
+Lp. Podstawa Opis j.m. Nakłady R M S
+jedn.
+Cena jednostkowa 40,421 11,827 28,400 0,194
+35 KNR 2-02 Otwory w ścianach murowanych szt 14,000 26,847
+d.4 0126-05 -ułożenie nadproży prefabr.
+Porotherm 11,5/125
+obmiar = 14,000 szt
+-- R --
+1* robocizna r-g 3,5000 7,000 98,00
+0,25 r-g/szt * 28,00 zł/r-g
+-- M --
+2* nadproża prefabrykowane szt 14,0000 19,440 272,16
+Porotherm 11,5/125
+1 szt/szt * 19,44 zł/szt
+3* materiały pomocnicze(od M) % 0,292 4,09
+1,5 %
+-- S --
+4* wyciąg jednomasztowy z m-g 0,3500 0,115 1,61
+napędem elektrycznym 0,5 t
+0,025 m-g/szt * 4,59 zł/m-g
+Razem koszty bezpośrednie 375,86 26,847 98,00 276,25 1,61
+Jednostkowe koszty bezpośrednie 26,847 7,000 19,732 0,115
+Razem z narzutami 451,56 32,254 172,48 276,25 2,83
+Cena jednostkowa 32,254 12,320 19,732 0,202
+Razem dział: Roboty murowe i ścianki działowe
+Razem koszty bezpośrednie: 57 509,70 18 38 907,89 19,20
+582,61
+RAZEM: 71 647,04 32 38 907,89 33,80
+705,35
+5 Roboty betonowe
+36 KNR-W 2-02 Trzpienie żelbetowe, w ścianach m3 2,909 732,880
+d.5 0211-01 murowanych o gr. do 0.3 m
+dwustronnie deskowane
+obmiar = 2,909 m3
+-- R --
+1* robocizna r-g 56,1437 540,400 1 572,02
+19,3 r-g/m3 * 28,00 zł/r-g
+-- M --
+2* beton zwykły z kruszywa m3 2,9672 165,974 482,82
+naturalnego
+1,02 m3/m3 * 162,72 zł/m3
+3* deski iglaste obrzynane 19-25 mm m3 0,0582 7,095 20,64
+kl.III
+0,02 m3/m3 * 354,74 zł/m3
+4* gwoździe budowlane okrągłe gołe kg 1,8327 1,556 4,53
+0,63 kg/m3 * 2,47 zł/kg
+5* drut stalowy okrągły kg 5,2362 3,636 10,58
+1,8 kg/m3 * 2,02 zł/kg
+6* materiały pomocnicze(od M) % 2,674 7,78
+1,5 %
+-- S --
+7* wyciąg m-g 5,0908 9,590 27,90
+1,75 m-g/m3 * 5,48 zł/m-g
+8* środek transportowy m-g 0,1745 1,955 5,69
+0,06 m-g/m3 * 32,58 zł/m-g
+Razem koszty bezpośrednie 2 131,96 732,880 1 57 526,35 33,59
+2,02
+Jednostkowe koszty bezpośrednie 732,880 540,400 180,935 11,545
+Razem z narzutami 3 352,21 1 152,35 2 76 526,35 59,11
+8 6,75
+Cena jednostkowa 1 152,358 951,104 180,935 20,319
+37 KNR 2-02 Belki i podciągi, żelbetowe m3 0,144 1 272,067
+d.5 0210-05 stos.desk.obw.do przekr.do 16
+obmiar = 0,144 m3
+- 14 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Kosztorys
+Koszt
+Lp. Podstawa Opis j.m. Nakłady R M S
+jedn.
+-- R --
+1* robocizna r-g 4,7144 916,692 132,00
+32,739 r-g/m3 * 28,00 zł/r-g
+-- M --
+2* beton zwykły z kruszywa m3 0,1469 151,001 21,74
+naturalnego
+1,02 m3/m3 * 148,04 zł/m3
+3* drewno okrągłe na stemple m3 0,0046 7,013 1,01
+budowlane
+0,032 m3/m3 * 219,15 zł/m3
+4* deski iglaste obrzynane 25 mm m3 0,0252 76,655 11,04
+kl.III
+0,175 m3/m3 * 438,03 zł/m3
+5* Deski iglaste obrzynane gr.28- m3 0,0166 54,363 7,83
+45mm,kl.III
+0,115 m3/m3 * 472,72 zł/m3
+6* gwoździe budowlane okrągłe gołe kg 1,1520 30,960 4,46
+8 kg/m3 * 3,87 zł/kg
+7* materiały pomocnicze(od M) % 4,800 0,69
+1,5 %
+-- S --
+8* wyciąg m-g 0,3086 11,745 1,69
+2,1432 m-g/m3 * 5,48 zł/m-g
+9* środek transportowy m-g 0,0490 9,925 1,43
+0,34 m-g/m3 * 29,19 zł/m-g
+10* pompa do betonu na samochodzie m-g 0,0115 8,913 1,28
+0,08 m-g/m3 * 111,41 zł/m-g
+Razem koszty bezpośrednie 183,17 1 272,06 132,00 46,77 4,40
+7
+Jednostkowe koszty bezpośrednie 1 272,067 916,692 324,792 30,583
+Razem z narzutami 286,85 1 991,99 232,34 46,77 7,74
+6
+Cena jednostkowa 1 991,996 1 613,3 324,792 53,826
+78
+38 KNR-W 2-02 Wieńce monolityczne na ścianach m3 7,500 304,310
+d.5 20225-04 o szer. do 30 cm
+obmiar = 7,500 m3
+-- R --
+1* robocizna r-g 23,7750 88,760 665,70
+3,17 r-g/m3 * 28,00 zł/r-g
+-- M --
+2* beton z kruszywa naturalnego B m3 7,6500 153,500 1 151,25
+20
+1,02 m3/m3 * 150,49 zł/m3
+3* deski iglaste obrzynane 19-25 mm m3 0,3000 14,190 106,43
+kl.III
+0,04 m3/m3 * 354,74 zł/m3
+4* deski iglaste obrzynane 28-45 mm m3 0,1650 9,075 68,06
+kl.III
+0,022 m3/m3 * 412,48 zł/m3
+5* gwoździe budowlane okrągłe gołe kg 30,7500 10,127 75,95
+4,1 kg/m3 * 2,47 zł/kg
+6* materiały pomocnicze(od M) % 2,803 21,02
+1,5 %
+-- S --
+7* pompa do betonu na samochodzie m-g 0,6000 8,913 66,85
+0,08 m-g/m3 * 111,41 zł/m-g
+8* środek transportowy m-g 3,9000 16,942 127,07
+0,52 m-g/m3 * 32,58 zł/m-g
+Razem koszty bezpośrednie 2 282,33 304,310 665,70 1 422,71 193,92
+Jednostkowe koszty bezpośrednie 304,310 88,760 189,695 25,855
+Razem z narzutami 2 935,64 391,418 1 17 1 422,71 341,30
+1,63
+- 15 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Kosztorys
+Koszt
+Lp. Podstawa Opis j.m. Nakłady R M S
+jedn.
+Cena jednostkowa 391,418 156,218 189,695 45,505
+39 KNR 2-02 Przygotowanie i montaż zbrojenia kg 692,100 3,152
+d.5 0290-02 elem.budynków i budowli - pręty
+żebrowane fi 12
+obmiar = 692,100 kg
+-- R --
+1* robocizna r-g 29,6772 1,201 831,21
+0,04288 r-g/kg * 28,00 zł/r-g
+-- M --
+2* Pręty żebr.skoś.do zbr.bet. fi kg 705,9420 1,846 1 277,62
+12mm
+1,02 kg/kg * 1,81 zł/kg
+3* materiały pomocnicze(od M) % 0,028 19,38
+1,5 %
+-- S --
+4* Giętarka do prętów do fi 40mm m-g 2,9760 0,011 7,61
+0,0043 m-g/kg * 2,65 zł/m-g
+5* Nożyce gilotynowe do fi 25mm m-g 4,0142 0,019 13,15
+0,0058 m-g/kg * 3,19 zł/m-g
+6* środek transportowy m-g 1,1074 0,047 32,53
+0,0016 m-g/kg * 29,19 zł/m-g
+Razem koszty bezpośrednie 2 181,50 3,152 831,21 1 297,00 53,29
+Jednostkowe koszty bezpośrednie 3,152 1,201 1,874 0,077
+Razem z narzutami 2 853,53 4,123 1 46 1 297,00 93,44
+3,09
+Cena jednostkowa 4,123 2,114 1,874 0,135
+40 KNR 2-02 Przygotowanie i montaż zbrojenia kg 189,500 2,933
+d.5 0290-01 elem.budynków i budowli - pręty
+gładkie fi 6mm
+obmiar = 189,500 kg
+-- R --
+1* robocizna r-g 6,7689 1,000 189,50
+0,03572 r-g/kg * 28,00 zł/r-g
+-- M --
+2* Pręty okr.gład.do zbr.bet. fi 6mm kg 189,8790 1,834 347,54
+1,002 kg/kg * 1,83 zł/kg
+3* materiały pomocnicze(od M) % 0,028 5,31
+1,5 %
+-- S --
+4* prościarka do prętów m-g 0,6822 0,010 1,90
+0,0036 m-g/kg * 2,69 zł/m-g
+5* nożyce do prętów m-g 0,9001 0,013 2,46
+0,00475 m-g/kg * 2,66 zł/m-g
+6* giętarka do prętów m-g 0,7637 0,010 1,90
+0,00403 m-g/kg * 2,57 zł/m-g
+7* środek transportowy m-g 0,2464 0,038 7,20
+0,0013 m-g/kg * 29,19 zł/m-g
+Razem koszty bezpośrednie 555,81 2,933 189,50 352,85 13,46
+Jednostkowe koszty bezpośrednie 2,933 1,000 1,862 0,071
+Razem z narzutami 710,06 3,747 333,52 352,85 23,69
+Cena jednostkowa 3,747 1,760 1,862 0,125
+Razem dział: Roboty betonowe
+Razem koszty bezpośrednie: 7 334,77 3 390,43 3 645,68 298,66
+RAZEM: 10 138,29 5 967,33 3 645,68 525,28
+6 Tynki, okładziny i roboty malarskie
+41 KNR 2-02 Tynki wewn.zwykłe kat.III m2 580,965 14,749
+d.6 0801-02 wykon.mechanicznie na ścianach,
+słupach, ościeżach i kominach
+obmiar = 580,965 m2
+-- R --
+1* robocizna r-g 214,7828 10,352 6 014,15
+0,3697 r-g/m2 * 28,00 zł/r-g
+- 16 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Kosztorys
+Koszt
+Lp. Podstawa Opis j.m. Nakłady R M S
+jedn.
+-- M --
+2* zaprawa wapienna M 4 m3 1,7429 0,394 228,90
+0,003 m3/m2 * 131,27 zł/m3
+3* zaprawa cementowo wapienna M m3 12,3165 2,958 1 718,49
+15
+0,0212 m3/m2 * 139,55 zł/m3
+4* zaprawa cementowo-wapienna m m3 1,2200 0,299 173,71
+50
+0,0021 m3/m2 * 142,38 zł/m3
+5* materiały pomocnicze(od M) % 0,055 31,95
+1,5 %
+-- S --
+6* agregat tynkarski m-g 23,7615 0,691 401,45
+0,0409 m-g/m2 * 16,89 zł/m-g
+Razem koszty bezpośrednie 8 568,65 14,749 6 01 2 153,05 401,45
+4,15
+Jednostkowe koszty bezpośrednie 14,749 10,352 3,706 0,691
+Razem z narzutami 13 444,69 23,142 10 584, 2 153,05 707,04
+60
+Cena jednostkowa 23,142 18,219 3,706 1,217
+42 KNR 2-02 Licowanie ścian płytkami o m2 161,319 72,515
+d.6 0829-08 wymiarach 20x40 cm na klej
+metodą zwykłą do wys. 2,0m
+obmiar = 161,319 m2
+-- R --
+1* robocizna r-g 197,3738 34,258 5 526,47
+1,2235 r-g/m2 * 28,00 zł/r-g
+-- M --
+2* płytki ceramiczne 25x40 m2 164,5454 30,773 4 964,27
+1,02 m2/m2 * 30,17 zł/m2
+3* zaprawa klejąca kg 766,2653 4,988 804,66
+4,75 kg/m2 * 1,05 zł/kg
+4* zaprawa spoinująca kg 64,5276 0,980 158,09
+0,4 kg/m2 * 2,45 zł/kg
+5* materiały pomocnicze(od M) % 0,551 88,89
+1,5 %
+-- S --
+6* wyciąg m-g 4,7589 0,162 26,13
+0,0295 m-g/m2 * 5,48 zł/m-g
+7* środek transportowy m-g 4,4363 0,803 129,54
+0,0275 m-g/m2 * 29,19 zł/m-g
+Razem koszty bezpośrednie 11 698,05 72,515 5 52 6 015,91 155,67
+6,47
+Jednostkowe koszty bezpośrednie 72,515 34,258 37,292 0,965
+Razem z narzutami 16 016,40 99,284 9 72 6 015,91 273,91
+6,58
+Cena jednostkowa 99,284 60,294 37,292 1,698
+43 NNRNKB (z.VII) Gruntowanie podłoży m2 742,284 3,475
+d.6 202 1134-02 preparatami - powierzchnie
+pionowe
+obmiar = 742,284 m2
+-- R --
+1* robocizna r-g 59,3827 2,240 1 662,72
+0,08 r-g/m2 * 28,00 zł/r-g
+-- M --
+2* preparat gruntujący dm3 163,3025 1,206 895,19
+0,22 dm3/m2 * 5,48 zł/dm3
+3* materiały pomocnicze(od M) % 0,018 13,36
+1,5 %
+-- S --
+4* wyciąg m-g 0,1485 0,001 0,74
+0,0002 m-g/m2 * 5,48 zł/m-g
+- 17 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Kosztorys
+Koszt
+Lp. Podstawa Opis j.m. Nakłady R M S
+jedn.
+5* środek transportowy m-g 0,2227 0,010 7,42
+0,0003 m-g/m2 * 32,58 zł/m-g
+Razem koszty bezpośrednie 2 579,43 3,475 1 66 908,55 8,16
+2,72
+Jednostkowe koszty bezpośrednie 3,475 2,240 1,224 0,011
+Razem z narzutami 3 849,48 5,186 2 92 908,55 14,84
+6,09
+Cena jednostkowa 5,186 3,942 1,224 0,020
+44 KNR 2-02 Dwukrotne malowanie farbami m2 580,965 6,123
+d.6 1505-03 emulsyjnymi powierzchni
+wewnętrznych - podłoży
+gipsowych z gruntowaniem
+obmiar = 580,965 m2
+-- R --
+1* robocizna r-g 102,0175 4,917 2 856,60
+0,1756 r-g/m2 * 28,00 zł/r-g
+-- M --
+2* farba akrylowa dm3 160,3463 1,179 684,96
+0,276 dm3/m2 * 4,27 zł/dm3
+3* materiały pomocnicze(od M) % 0,018 10,46
+1,5 %
+-- S --
+4* środek transportowy m-g 0,1743 0,009 5,23
+0,0003 m-g/m2 * 29,19 zł/m-g
+Razem koszty bezpośrednie 3 557,25 6,123 2 85 695,42 5,23
+6,60
+Jednostkowe koszty bezpośrednie 6,123 4,917 1,197 0,009
+Razem z narzutami 5 731,80 9,866 5 02 695,42 8,71
+7,67
+Cena jednostkowa 9,866 8,654 1,197 0,015
+45 KNR AT-43 Sufit podwieszany z płyt m2 128,470 105,776
+d.6 0210-01 gipsowo-kartonowych RIGIPS
+RIGIMETR na konstrukcji
+krzyżowej dwupoziomowej z profili
+CD 60; pokrycie jednowarstwowe
+(system 4.05.24)
+obmiar = 128,470 m2
+-- R --
+1* robocizna r-g 271,0717 59,080 7 590,01
+2,11 r-g/m2 * 28,00 zł/r-g
+-- M --
+2* Płyty gipsowo-kartonowe zwykłe, m2 132,3241 6,211 797,93
+gr. 12,5 mm
+1,03 m2/m2 * 6,03 zł/m2
+3* profil RIGIPS UD 30 ULTRASTIL m 161,8722 3,994 513,11
+1,26 m/m2 * 3,17 zł/m
+4* profil RIGIPS CD 60 ULTRASTIL m 444,5062 15,708 2 018,01
+3,46 m/m2 * 4,54 zł/m
+5* wieszak obrotowy RIGIPS szt 161,8722 2,407 309,23
+noniuszowy
+1,26 szt/m2 * 1,91 zł/szt
+6* część górna wieszaka szt 161,8722 3,629 466,22
+noniuszowego RIGIPS
+1,26 szt/m2 * 2,88 zł/szt
+7* klamra zabezpieczająca do szt 323,7444 1,688 216,86
+wieszaków noniuszowych RIGIPS
+2,52 szt/m2 * 0,67 zł/szt
+8* łącznik krzyżowy RIGIPS do CD szt 269,7870 2,646 339,93
+60
+2,1 szt/m2 * 1,26 zł/szt
+9* łącznik wzdłużny RIGIPS do CD szt 80,9361 0,680 87,36
+60
+0,63 szt/m2 * 1,08 zł/szt
+- 18 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Kosztorys
+Koszt
+Lp. Podstawa Opis j.m. Nakłady R M S
+jedn.
+10* wkręt RIGIPS TN 25 op. 13,4894 0,875 112,41
+0,105 op./m2 * 8,33 zł/op.
+11* kotwy metalowe op. 29,6766 5,075 651,99
+0,231 op./m2 * 21,97 zł/op.
+12* masa szpachlowa RIGIPS VARIO kg 33,4022 1,443 185,38
+0,26 kg/m2 * 5,55 zł/kg
+13* taśma spoinowa RIGIPS szt 3,7770 0,206 26,46
+0,0294 szt/m2 * 7,00 zł/szt
+14* masa szpachlowa wykończeniowa kg 14,1317 0,655 84,15
+RIGIPS ProFin Mix
+0,11 kg/m2 * 5,95 zł/kg
+15* materiały pomocnicze(od M) % 0,226 29,03
+0,5 %
+-- S --
+16* wyciąg m-g 5,7812 0,247 31,73
+0,045 m-g/m2 * 5,48 zł/m-g
+17* środek transportowy m-g 1,7986 1,006 129,24
+0,014 m-g/m2 * 71,83 zł/m-g
+Razem koszty bezpośrednie 13 589,05 105,776 7 59 5 838,07 160,97
+0,01
+Jednostkowe koszty bezpośrednie 105,776 59,080 45,443 1,253
+Razem z narzutami 19 479,91 151,630 13 358, 5 838,07 283,40
+44
+Cena jednostkowa 151,630 103,981 45,443 2,206
+46 KNR AT-43 Sufit podwieszany z płyt m2 139,920 108,444
+d.6 0209-06 gipsowo-kartonowych na
+konstrukcji krzyżowej
+jednopoziomowej z profili CD 60
+ULTRASTIL , pokrycie
+jednowarstwowe,
+obmiar = 139,920 m2
+-- R --
+1* robocizna r-g 288,2352 57,680 8 070,59
+2,06 r-g/m2 * 28,00 zł/r-g
+-- M --
+2* Płyty gipsowo-kartonowe m2 144,1176 8,796 1 230,74
+wodoodporne, gr. 12,5 mm
+1,03 m2/m2 * 8,54 zł/m2
+3* profil RIGIPS UD 30 ULTRASTIL m 176,2992 3,994 558,84
+1,26 m/m2 * 3,17 zł/m
+4* profil RIGIPS CD 60 ULTRASTIL m 499,5144 16,208 2 267,82
+3,57 m/m2 * 4,54 zł/m
+5* wieszak obrotowy RIGIPS szt 162,3072 2,216 310,06
+noniuszowy
+1,16 szt/m2 * 1,91 zł/szt
+6* część górna wieszaka szt 162,3072 3,341 467,47
+noniuszowego RIGIPS
+1,16 szt/m2 * 2,88 zł/szt
+7* klamra zabezpieczająca do szt 323,2152 1,548 216,60
+wieszaków noniuszowych RIGIPS
+2,31 szt/m2 * 0,67 zł/szt
+8* łącznik poprzeczny RIGIPS do CD szt 440,7480 5,292 740,46
+60
+3,15 szt/m2 * 1,68 zł/szt
+9* łącznik wzdłużny RIGIPS do CD szt 22,3872 0,173 24,21
+60
+0,16 szt/m2 * 1,08 zł/szt
+10* wkręt RIGIPS TN 25 op. 14,6916 0,875 122,43
+0,105 op./m2 * 8,33 zł/op.
+11* kotwy metalowe op. 30,9223 4,855 679,31
+0,221 op./m2 * 21,97 zł/op.
+12* masa szpachlowa RIGIPS VARIO kg 29,3832 1,166 163,15
+0,21 kg/m2 * 5,55 zł/kg
+- 19 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Kosztorys
+Koszt
+Lp. Podstawa Opis j.m. Nakłady R M S
+jedn.
+13* taśma spoinowa RIGIPS szt 4,1136 0,206 28,82
+0,0294 szt/m2 * 7,00 zł/szt
+14* masa szpachlowa wykończeniowa kg 13,9920 0,595 83,25
+RIGIPS ProFin Mix
+0,1 kg/m2 * 5,95 zł/kg
+15* materiały pomocnicze(od M) % 0,246 34,42
+0,5 %
+-- S --
+16* wyciąg m-g 6,2964 0,247 34,56
+0,045 m-g/m2 * 5,48 zł/m-g
+17* środek transportowy m-g 1,9589 1,006 140,76
+0,014 m-g/m2 * 71,83 zł/m-g
+Razem koszty bezpośrednie 15 173,49 108,444 8 07 6 927,58 175,32
+0,59
+Jednostkowe koszty bezpośrednie 108,444 57,680 49,511 1,253
+Razem z narzutami 21 440,50 153,234 14 204, 6 927,58 308,66
+26
+Cena jednostkowa 153,234 101,517 49,511 2,206
+47 KNR AT-09 Folia paroizolacyjna m2 268,390 18,967
+d.6 0103-01
+obmiar = 268,390 m2
+-- R --
+1* robocizna r-g 150,2984 15,680 4 208,36
+0,56 r-g/m2 * 28,00 zł/r-g
+-- M --
+2* folia paroizolacyjna m2 322,0680 1,740 467,00
+1,2 m2/m2 * 1,45 zł/m2
+3* Łaty i listwy iglaste, nasycone, kl.II m3 0,5368 1,048 281,27
+0,002 m3/m2 * 523,77 zł/m3
+4* Gwoździe budowlane okrągłe gołe kg 2,4155 0,033 8,86
+0,009 kg/m2 * 3,70 zł/kg
+5* materiały pomocnicze(od M) % 0,042 11,27
+1,5 %
+-- S --
+6* dźwig m-g 1,0736 0,326 87,50
+0,004 m-g/m2 * 81,41 zł/m-g
+7* środek transportowy m-g 0,8052 0,098 26,30
+0,003 m-g/m2 * 32,58 zł/m-g
+Razem koszty bezpośrednie 5 090,56 18,967 4 20 768,40 113,80
+8,36
+Jednostkowe koszty bezpośrednie 18,967 15,680 2,863 0,424
+Razem z narzutami 8 375,38 31,206 7 40 768,40 200,22
+6,76
+Cena jednostkowa 31,206 27,597 2,863 0,746
+48 KNR 2-02 Izolacje cieplne i m2 268,390 39,963
+d.6 0613-03 przeciwdźwiękowe z wełny
+mineralnej poziome z płyt
+układanych na sucho - jedna
+warstwa 10cm
+obmiar = 268,390 m2
+-- R --
+1* robocizna r-g 24,3430 2,540 681,71
+0,0907 r-g/m2 * 28,00 zł/r-g
+-- M --
+2* płyty z wełny mineralnej m2 281,8095 36,572 9 815,56
+1,05 m2/m2 * 34,83 zł/m2
+3* materiały pomocnicze(od M) % 0,549 147,35
+1,5 %
+-- S --
+4* wyciąg m-g 2,0666 0,042 11,27
+0,0077 m-g/m2 * 5,48 zł/m-g
+5* środek transportowy m-g 2,3887 0,260 69,78
+0,0089 m-g/m2 * 29,19 zł/m-g
+- 20 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Kosztorys
+Koszt
+Lp. Podstawa Opis j.m. Nakłady R M S
+jedn.
+Razem koszty bezpośrednie 10 725,67 39,963 681,71 9 962,91 81,05
+Jednostkowe koszty bezpośrednie 39,963 2,540 37,121 0,302
+Razem z narzutami 11 305,12 42,122 1 19 9 962,91 142,51
+9,70
+Cena jednostkowa 42,122 4,470 37,121 0,531
+49 KNR 2-02 Izolacje cieplne i m2 456,775 39,963
+d.6 0613-03 przeciwdźwiękowe z wełny
+mineralnej poziome z płyt
+układanych na sucho - jedna
+warstwa 10cm docieplenie dachu
+obmiar = 456,775 m2
+-- R --
+1* robocizna r-g 41,4295 2,540 1 160,21
+0,0907 r-g/m2 * 28,00 zł/r-g
+-- M --
+2* płyty z wełny mineralnej m2 479,6138 36,572 16 705,18
+1,05 m2/m2 * 34,83 zł/m2
+3* materiały pomocnicze(od M) % 0,549 250,77
+1,5 %
+-- S --
+4* wyciąg m-g 3,5172 0,042 19,18
+0,0077 m-g/m2 * 5,48 zł/m-g
+5* środek transportowy m-g 4,0653 0,260 118,76
+0,0089 m-g/m2 * 29,19 zł/m-g
+Razem koszty bezpośrednie 18 254,10 39,963 1 16 16 955,95 137,94
+0,21
+Jednostkowe koszty bezpośrednie 39,963 2,540 37,121 0,302
+Razem z narzutami 19 240,28 42,122 2 04 16 955,95 242,55
+1,78
+Cena jednostkowa 42,122 4,470 37,121 0,531
+50 KNR 2-02 Izolacje cieplne i m2 268,390 39,165
+d.6 0613-04 przeciwdźwiękowe z wełny
+mineralnej poziome z płyt
+układanych na sucho - każda
+następna warstwa
+obmiar = 268,390 m2
+-- R --
+1* robocizna r-g 16,6939 1,742 467,54
+0,0622 r-g/m2 * 28,00 zł/r-g
+-- M --
+2* płyty z wełny mineralnej m2 281,8095 36,572 9 815,56
+1,05 m2/m2 * 34,83 zł/m2
+3* materiały pomocnicze(od M) % 0,549 147,35
+1,5 %
+-- S --
+4* wyciąg m-g 2,0666 0,042 11,27
+0,0077 m-g/m2 * 5,48 zł/m-g
+5* środek transportowy m-g 2,3887 0,260 69,78
+0,0089 m-g/m2 * 29,19 zł/m-g
+Razem koszty bezpośrednie 10 511,50 39,165 467,54 9 962,91 81,05
+Jednostkowe koszty bezpośrednie 39,165 1,742 37,121 0,302
+Razem z narzutami 10 928,30 40,718 822,88 9 962,91 142,51
+Cena jednostkowa 40,718 3,066 37,121 0,531
+51 KNR 2-02 Dwukrotne malowanie farbami m2 268,390 20,115
+d.6 1505-05 emulsyjnymi powierzchni
+wewnętrznych - płyt gipsowych
+spoinowanych szpachlowanych z
+gruntowaniem - sufit
+obmiar = 268,390 m2
+-- R --
+1* robocizna r-g 85,4285 8,912 2 391,89
+0,3183 r-g/m2 * 28,00 zł/r-g
+- 21 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Kosztorys
+Koszt
+Lp. Podstawa Opis j.m. Nakłady R M S
+jedn.
+-- M --
+2* farba akrylowa dm3 69,5130 1,106 296,84
+0,259 dm3/m2 * 4,27 zł/dm3
+3* szpachlówka gipsowa z kg 805,1700 9,840 2 640,96
+dodatkiem farby emulsyjnej
+3 kg/m2 * 3,28 zł/kg
+4* materiały pomocnicze(od M) % 0,164 44,02
+1,5 %
+-- S --
+5* środek transportowy m-g 0,8588 0,093 24,96
+0,0032 m-g/m2 * 29,19 zł/m-g
+Razem koszty bezpośrednie 5 398,67 20,115 2 39 2 981,82 24,96
+1,89
+Jednostkowe koszty bezpośrednie 20,115 8,912 11,110 0,093
+Razem z narzutami 7 235,53 26,959 4 20 2 981,82 44,02
+9,69
+Cena jednostkowa 26,959 15,685 11,110 0,164
+52 NNRNKB (z.VII) Gruntowanie podłoży m2 268,390 2,859
+d.6 202 1134-01 preparatami - powierzchnie
+poziome
+obmiar = 268,390 m2
+-- R --
+1* robocizna r-g 16,1034 1,680 450,90
+0,06 r-g/m2 * 28,00 zł/r-g
+-- M --
+2* preparat gruntujący dm3 56,3619 1,151 308,92
+0,21 dm3/m2 * 5,48 zł/dm3
+3* materiały pomocnicze(od M) % 0,017 4,56
+1,5 %
+-- S --
+4* wyciąg m-g 0,0537 0,001 0,27
+0,0002 m-g/m2 * 5,48 zł/m-g
+5* środek transportowy m-g 0,0805 0,010 2,68
+0,0003 m-g/m2 * 32,58 zł/m-g
+Razem koszty bezpośrednie 767,33 2,859 450,90 313,48 2,95
+Jednostkowe koszty bezpośrednie 2,859 1,680 1,168 0,011
+Razem z narzutami 1 112,48 4,145 793,63 313,48 5,37
+Cena jednostkowa 4,145 2,957 1,168 0,020
+53 NNRNKB (z.VI) Posadzki jednobarwne z m2 139,920 93,069
+d.6 202 2806-05 płytek kamionkowych na zaprawie
+klejowej o grub.warstwy 5 mm
+obmiar = 139,920 m2
+-- R --
+1* robocizna r-g 239,2632 47,880 6 699,37
+1,71 r-g/m2 * 28,00 zł/r-g
+-- M --
+2* płytki kamionkowe GRES m2 142,7184 34,966 4 892,44
+1,02 m2/m2 * 34,28 zł/m2
+3* zaprawa klejowa - sucha kg 1 010,2224 7,581 1 060,73
+mieszanka
+7,22 kg/m2 * 1,05 zł/kg
+4* zaprawa do spoinowania - sucha kg 37,7784 0,662 92,63
+mieszanka
+0,27 kg/m2 * 2,45 zł/kg
+5* materiały pomocnicze(od M) % 0,648 90,67
+1,5 %
+-- S --
+6* wyciąg m-g 4,1976 0,164 22,95
+0,03 m-g/m2 * 5,48 zł/m-g
+7* środek transportowy m-g 5,5968 1,168 163,43
+0,04 m-g/m2 * 29,19 zł/m-g
+- 22 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Kosztorys
+Koszt
+Lp. Podstawa Opis j.m. Nakłady R M S
+jedn.
+Razem koszty bezpośrednie 13 022,22 93,069 6 69 6 136,47 186,38
+9,37
+Jednostkowe koszty bezpośrednie 93,069 47,880 43,857 1,332
+Razem z narzutami 18 255,36 130,470 11 790, 6 136,47 327,98
+91
+Cena jednostkowa 130,470 84,269 43,857 2,344
+54 NNRNKB (z.VI) Cokoliki z płytek m 0,000 14,650
+d.6 202 2809-04 kamionkowych na zaprawie
+klejowej
+obmiar = 0,000 m
+-- R --
+1* robocizna r-g 0,0000 9,240 0,00
+0,33 r-g/m * 28,00 zł/r-g
+-- M --
+2* płytki kamionkowe GRES m2 0,0000 4,422 0,00
+0,129 m2/m * 34,28 zł/m2
+3* zaprawa klejowa - sucha kg 0,0000 0,567 0,00
+mieszanka
+0,54 kg/m * 1,05 zł/kg
+4* zaprawa do spoinowania - sucha kg 0,0000 0,147 0,00
+mieszanka
+0,06 kg/m * 2,45 zł/kg
+5* materiały pomocnicze(od M) % 0,077 0,00
+1,5 %
+-- S --
+6* wyciąg m-g 0,0000 0,022 0,00
+0,004 m-g/m * 5,48 zł/m-g
+7* środek transportowy m-g 0,0000 0,175 0,00
+0,006 m-g/m * 29,19 zł/m-g
+Razem koszty bezpośrednie 0,00 14,650
+Jednostkowe koszty bezpośrednie 14,650 9,240 5,213 0,197
+Razem z narzutami 0,00 21,822
+Cena jednostkowa 21,822 16,262 5,213 0,347
+55 NNRNKB (z.VII) Warstwy wyrównujące i m2 128,470 15,147
+d.6 202 1130-02 wygładzające z zaprawy
+samopoziomującej gr. do 5mm
+obmiar = 128,470 m2
+-- R --
+1* robocizna r-g 17,9858 3,920 503,60
+0,14 r-g/m2 * 28,00 zł/r-g
+-- M --
+2* sucha mieszanka kg 1 002,0660 10,686 1 372,83
+7,8 kg/m2 * 1,37 zł/kg
+3* materiały pomocnicze(od M) % 0,160 20,56
+1,5 %
+-- S --
+4* wyciąg m-g 1,2847 0,055 7,07
+0,01 m-g/m2 * 5,48 zł/m-g
+5* środek transportowy m-g 1,2847 0,326 41,88
+0,01 m-g/m2 * 32,58 zł/m-g
+Razem koszty bezpośrednie 1 945,94 15,147 503,60 1 393,39 48,95
+Jednostkowe koszty bezpośrednie 15,147 3,920 10,846 0,381
+Razem z narzutami 2 365,90 18,416 886,30 1 393,39 86,21
+Cena jednostkowa 18,416 6,899 10,846 0,671
+56 KNR 2-02 Posadzki z wykładzin z tworzyw m2 141,317 41,979
+d.6 1112-02 sztucznych z warstwą izolacyjną
+rulonowe wraz z cokolikami
+obmiar = 141,317 m2
+-- R --
+1* robocizna r-g 59,6216 11,813 1 669,38
+0,4219 r-g/m2 * 28,00 zł/r-g
+-- M --
+- 23 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Kosztorys
+Koszt
+Lp. Podstawa Opis j.m. Nakłady R M S
+jedn.
+2* wykładzina podłogowa m2 154,0355 26,149 3 695,30
+1,09 m2/m2 * 23,99 zł/m2
+3* klej winylowy kg 113,0536 2,968 419,43
+0,8 kg/m2 * 3,71 zł/kg
+4* pasta podłogowa bezbarwna kg 14,1317 0,485 68,54
+0,1 kg/m2 * 4,85 zł/kg
+5* materiały pomocnicze(od M) % 0,444 62,74
+1,5 %
+-- S --
+6* wyciąg m-g 0,6218 0,024 3,39
+0,0044 m-g/m2 * 5,48 zł/m-g
+7* środek transportowy m-g 0,4663 0,096 13,57
+0,0033 m-g/m2 * 29,19 zł/m-g
+Razem koszty bezpośrednie 5 932,35 41,979 1 66 4 246,01 16,96
+9,38
+Jednostkowe koszty bezpośrednie 41,979 11,813 30,046 0,120
+Razem z narzutami 7 213,95 51,048 2 93 4 246,01 29,82
+8,12
+Cena jednostkowa 51,048 20,791 30,046 0,211
+57 KNR 2-02 Posadzki z wykładzin z tworzyw m2 141,317 4,083
+d.6 1112-09 sztucznych - zgrzewanie
+wykładzin rulonowych
+obmiar = 141,317 m2
+-- R --
+1* robocizna r-g 17,8201 3,531 498,99
+0,1261 r-g/m2 * 28,00 zł/r-g
+-- M --
+2* pręty spawalnicze z PCW kg 4,2395 0,544 76,88
+nieplastyfikowanego
+0,03 kg/m2 * 18,14 zł/kg
+3* materiały pomocnicze(od M) % 0,008 1,13
+1,5 %
+Razem koszty bezpośrednie 577,00 4,083 498,99 78,01
+Jednostkowe koszty bezpośrednie 4,083 3,531 0,552
+Razem z narzutami 956,29 6,767 878,28 78,01
+Cena jednostkowa 6,767 6,215 0,552
+58 KNR 0-19 Montaż systemowych ścianek m2 10,780 258,902
+d.6 1024-10 sanitarnych HPL
+analogia
+obmiar = 10,780 m2
+-- M --
+1* ścianka płytowe m2 10,7800 257,150 2 772,08
+1 m2/m2 * 257,15 zł/m2
+-- S --
+2* samochód dostawczy 0.9 t m-g 0,6468 1,752 18,89
+0,06 m-g/m2 * 29,20 zł/m-g
+Razem koszty bezpośrednie 2 790,97 258,902 2 772,08 18,89
+Jednostkowe koszty bezpośrednie 258,902 257,150 1,752
+Razem z narzutami 2 805,31 260,233 2 772,08 33,23
+Cena jednostkowa 260,233 257,150 3,083
+59 KNR 2-02 Wycieraczki systemowe do szt. 3,000 571,796
+d.6 1219-03 obuwia
+obmiar = 3,000 szt.
+-- R --
+1* robocizna r-g 5,3130 49,588 148,76
+1,771 r-g/szt. * 28,00 zł/r-g
+-- M --
+2* wycieraczka systemowa szt 3,0000 514,290 1 542,87
+1 szt/szt. * 514,29 zł/szt
+3* materiały pomocnicze(od M) % 7,714 23,14
+1,5 %
+-- S --
+- 24 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Kosztorys
+Koszt
+Lp. Podstawa Opis j.m. Nakłady R M S
+jedn.
+4* środek transportowy m-g 0,0210 0,204 0,61
+0,007 m-g/szt. * 29,19 zł/m-g
+Razem koszty bezpośrednie 1 715,38 571,796 148,76 1 566,01 0,61
+Jednostkowe koszty bezpośrednie 571,796 49,588 522,004 0,204
+Razem z narzutami 1 828,91 609,638 261,82 1 566,01 1,08
+Cena jednostkowa 609,638 87,275 522,004 0,359
+Razem dział: Tynki, okładziny i roboty malarskie
+Razem koszty bezpośrednie: 131 897,61 50 79 676,02 1 620,34
+601,25
+RAZEM: 171 585,59 89 79 676,02 2 852,06
+057,51
+7 Okna, drzwi, parapety wewnętrzne
+60 KNR 0-19 Montaż okien uchylnych szt 1,000 461,408
+d.7 1023-03 jednodzielnych z PCV z obróbką
+obsadzenia o pow. do 1.0 m2 -
+okno podawcze
+obmiar = 1,000 szt
+-- R --
+1* robocizna r-g 4,4160 123,648 123,65
+4,416 r-g/szt * 28,00 zł/r-g
+-- M --
+2* kotwy stalowe szt 6,8800 11,834 11,83
+6,88 szt/szt * 1,72 zł/szt
+3* pianka poliuretanowa dm3 0,3280 5,333 5,33
+0,328 dm3/szt * 16,26 zł/dm3
+4* silikon dm3 0,0720 0,697 0,70
+0,072 dm3/szt * 9,68 zł/dm3
+5* gips szpachlowy kg 2,9440 2,944 2,94
+2,944 kg/szt * 1,00 zł/kg
+6* mineralna szpachlówka do tynków kg 5,3040 6,736 6,74
+zewnętrznych
+5,304 kg/szt * 1,27 zł/kg
+7* materiały pomocnicze(od M2+M3 % 0,413 0,41
++M4+M5+M6)
+1,5 %
+8* okna i drzwi balkonowe z tworzyw szt 1,0000 307,760 307,76
+1 szt/szt * 307,76 zł/szt
+-- S --
+9* wyciąg m-g 0,0400 0,219 0,22
+0,04 m-g/szt * 5,48 zł/m-g
+10* środek transportowy m-g 0,0560 1,824 1,82
+0,056 m-g/szt * 32,58 zł/m-g
+Razem koszty bezpośrednie 461,40 461,408 123,65 335,71 2,04
+Jednostkowe koszty bezpośrednie 461,408 123,648 335,717 2,043
+Razem z narzutami 556,93 556,934 217,62 335,71 3,60
+Cena jednostkowa 556,934 217,621 335,717 3,596
+61 KNR 0-19 Montaż okien rozwieranych i szt 1,000 1 300,447
+d.7 1023-11 uchylno-rozwieranych
+dwudzielnych z PCV z obróbką
+obsadzenia o pow. ponad 2.5 m2 -
+1,8x1,5
+obmiar = 1,000 szt
+-- R --
+1* robocizna r-g 7,7220 216,216 216,22
+7,722 r-g/szt * 28,00 zł/r-g
+-- M --
+2* kotwy stalowe szt 11,8800 20,434 20,43
+11,88 szt/szt * 1,72 zł/szt
+3* pianka poliuretanowa dm3 0,6750 10,976 10,98
+0,675 dm3/szt * 16,26 zł/dm3
+4* silikon dm3 0,1350 1,307 1,31
+0,135 dm3/szt * 9,68 zł/dm3
+- 25 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Kosztorys
+Koszt
+Lp. Podstawa Opis j.m. Nakłady R M S
+jedn.
+5* gips szpachlowy kg 4,9680 4,968 4,97
+4,968 kg/szt * 1,00 zł/kg
+6* mineralna szpachlówka do tynków kg 8,9370 11,350 11,35
+zewnętrznych
+8,937 kg/szt * 1,27 zł/kg
+7* materiały pomocnicze(od M2+M3 % 0,736 0,74
++M4+M5+M6)
+1,5 %
+8* okna i drzwi balkonowe z tworzyw szt 1,0000 1 028,590 1 028,59
+1 szt/szt * 1 028,59 zł/szt
+-- S --
+9* wyciąg m-g 0,1080 0,592 0,59
+0,108 m-g/szt * 5,48 zł/m-g
+10* środek transportowy m-g 0,1620 5,278 5,28
+0,162 m-g/szt * 32,58 zł/m-g
+Razem koszty bezpośrednie 1 300,46 1 300,44 216,22 1 078,37 5,87
+7
+Jednostkowe koszty bezpośrednie 1 300,447 216,216 1 078,361 5,870
+Razem z narzutami 1 469,23 1 469,23 380,53 1 078,37 10,33
+3
+Cena jednostkowa 1 469,233 380,541 1 078,361 10,331
+62 KNR 0-19 Montaż okien rozwieranych i szt 5,000 1 484,227
+d.7 1023-11 uchylno-rozwieranych
+dwudzielnych z PCV z obróbką
+obsadzenia o pow. ponad 2.5 m2 -
+1,8x2,0
+obmiar = 5,000 szt
+-- R --
+1* robocizna r-g 38,6100 216,216 1 081,08
+7,722 r-g/szt * 28,00 zł/r-g
+-- M --
+2* kotwy stalowe szt 59,4000 20,434 102,17
+11,88 szt/szt * 1,72 zł/szt
+3* pianka poliuretanowa dm3 3,3750 10,976 54,88
+0,675 dm3/szt * 16,26 zł/dm3
+4* silikon dm3 0,6750 1,307 6,54
+0,135 dm3/szt * 9,68 zł/dm3
+5* gips szpachlowy kg 24,8400 4,968 24,84
+4,968 kg/szt * 1,00 zł/kg
+6* mineralna szpachlówka do tynków kg 44,6850 11,350 56,75
+zewnętrznych
+8,937 kg/szt * 1,27 zł/kg
+7* materiały pomocnicze(od M2+M3 % 0,736 3,68
++M4+M5+M6)
+1,5 %
+8* okna i drzwi balkonowe z tworzyw szt 5,0000 1 212,370 6 061,85
+1 szt/szt * 1 212,37 zł/szt
+-- S --
+9* wyciąg m-g 0,5400 0,592 2,96
+0,108 m-g/szt * 5,48 zł/m-g
+10* środek transportowy m-g 0,8100 5,278 26,39
+0,162 m-g/szt * 32,58 zł/m-g
+Razem koszty bezpośrednie 7 421,14 1 484,22 1 08 6 310,71 29,35
+7 1,08
+Jednostkowe koszty bezpośrednie 1 484,227 216,216 1 262,141 5,870
+Razem z narzutami 8 265,07 1 653,01 1 90 6 310,71 51,66
+3 2,70
+Cena jednostkowa 1 653,013 380,541 1 262,141 10,331
+63 KNR 0-19 Montaż drzwi PCV z obróbką szt 3,000 5 879,166
+d.7 1023-12 obsadzenia 180x200+100
+obmiar = 3,000 szt
+-- R --
+- 26 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Kosztorys
+Koszt
+Lp. Podstawa Opis j.m. Nakłady R M S
+jedn.
+1* robocizna r-g 33,9300 316,680 950,04
+11,31 r-g/szt * 28,00 zł/r-g
+-- M --
+2* kotwy stalowe szt 47,5200 27,245 81,74
+15,84 szt/szt * 1,72 zł/szt
+3* pianka poliuretanowa dm3 2,9700 16,097 48,29
+0,99 dm3/szt * 16,26 zł/dm3
+4* silikon dm3 0,5400 1,742 5,23
+0,18 dm3/szt * 9,68 zł/dm3
+5* gips szpachlowy kg 21,7800 7,260 21,78
+7,26 kg/szt * 1,00 zł/kg
+6* mineralna szpachlówka do tynków kg 39,2400 16,612 49,84
+zewnętrznych
+13,08 kg/szt * 1,27 zł/kg
+7* materiały pomocnicze(od M2+M3 % 1,034 3,10
++M4+M5+M6)
+1,5 %
+8* okna i drzwi balkonowe z tworzyw kpl. 3,0000 5 485,810 16 457,43
+1 kpl./szt * 5 485,81 zł/kpl.
+-- S --
+9* wyciąg m-g 0,4500 0,822 2,47
+0,15 m-g/szt * 5,48 zł/m-g
+10* środek transportowy m-g 0,5400 5,864 17,59
+0,18 m-g/szt * 32,58 zł/m-g
+Razem koszty bezpośrednie 17 637,51 5 879,16 950,04 16 667,41 20,06
+6
+Jednostkowe koszty bezpośrednie 5 879,166 316,680 5 555,800 6,686
+Razem z narzutami 18 374,78 6 124,92 1 67 16 667,41 35,31
+5 2,06
+Cena jednostkowa 6 124,925 557,357 5 555,800 11,768
+64 KNR 2-02 Obsadzenie szt 6,000 178,736
+d.7 0129-02 prefabr.podokienników, dl.ponad
+1m - parapety pcv dł. 185cm i
+szer. 25cm
+obmiar = 6,000 szt
+-- R --
+1* robocizna r-g 12,7200 59,360 356,16
+2,12 r-g/szt * 28,00 zł/r-g
+-- M --
+2* zaprawa m3 0,0780 2,170 13,02
+0,013 m3/szt * 166,95 zł/m3
+3* materiały pomocnicze(od M2) % 0,033 0,20
+1,5 %
+4* parapet pcv 185x25 szt 6,0000 116,570 699,42
+1 szt/szt * 116,57 zł/szt
+-- S --
+5* wyciąg m-g 0,6600 0,603 3,62
+0,11 m-g/szt * 5,48 zł/m-g
+Razem koszty bezpośrednie 1 072,42 178,736 356,16 712,64 3,62
+Jednostkowe koszty bezpośrednie 178,736 59,360 118,773 0,603
+Razem z narzutami 1 345,85 224,309 626,84 712,64 6,37
+Cena jednostkowa 224,309 104,474 118,773 1,062
+65 KNR-W 2-02 Obsadzenie prefabrykowanych szt. 1,000 135,464
+d.7 0135-01 podokienników długości do 1 m
+obmiar = 1,000 szt.
+-- R --
+1* robocizna r-g 1,6900 47,320 47,32
+1,69 r-g/szt. * 28,00 zł/r-g
+-- M --
+2* zaprawa m3 0,0090 1,394 1,39
+0,009 m3/szt. * 154,84 zł/m3
+- 27 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Kosztorys
+Koszt
+Lp. Podstawa Opis j.m. Nakłady R M S
+jedn.
+3* materiały pomocnicze(od M2) % 0,021 0,02
+1,5 %
+4* podokienniki prefabrykowane szt. 1,0000 86,400 86,40
+1 szt./szt. * 86,40 zł/szt.
+-- S --
+5* wyciąg m-g 0,0600 0,329 0,33
+0,06 m-g/szt. * 5,48 zł/m-g
+Razem koszty bezpośrednie 135,46 135,464 47,32 87,81 0,33
+Jednostkowe koszty bezpośrednie 135,464 47,320 87,815 0,329
+Razem z narzutami 171,68 171,677 83,29 87,81 0,58
+Cena jednostkowa 171,677 83,283 87,815 0,579
+66 KNR 2-02 Skrzydła drzwiowe płytowe m2 9,000 223,560
+d.7 1017-02 wewnętrzne jednodzielne pełne o
+pow. ponad 1.6 m2 fabrycznie
+wykończone z ościeżnicą -
+90x200cm
+obmiar = 9,000 m2
+-- R --
+1* robocizna r-g 3,3300 10,360 93,24
+0,37 r-g/m2 * 28,00 zł/r-g
+-- M --
+2* skrzydła drzwiowe płytowe m2 9,0000 171,430 1 542,87
+wewnętrzne 90x200
+1 m2/m2 * 171,43 zł/m2
+3* ościeżnica stalowa m2 9,0000 41,140 370,26
+1 m2/m2 * 41,14 zł/m2
+-- S --
+4* wyciąg jednomasztowy z m-g 0,0900 0,046 0,41
+napędem elektrycznym 0,5 t
+0,01 m-g/m2 * 4,59 zł/m-g
+5* środek transportowy m-g 0,1800 0,584 5,26
+0,02 m-g/m2 * 29,19 zł/m-g
+Razem koszty bezpośrednie 2 012,04 223,560 93,24 1 913,13 5,67
+Jednostkowe koszty bezpośrednie 223,560 10,360 212,570 0,630
+Razem z narzutami 2 087,22 231,913 164,11 1 913,13 9,98
+Cena jednostkowa 231,913 18,234 212,570 1,109
+67 KNR 2-02 Skrzydła drzwiowe płytowe m2 10,800 875,000
+d.7 1017-02 wewnętrzne jednodzielne pełne o
+powierzchni ponad 1,6 m2
+fabrycznie wykończone 90x200 - z
+kratką transferową
+obmiar = 10,800 m2
+-- R --
+1* robocizna r-g 3,9960 10,360 111,89
+0,37 r-g/m2 * 28,00 zł/r-g
+-- M --
+2* skrzydła drzwiowe płytowe m2 10,8000 864,010 9 331,31
+wewnętrzne wewnątrzlokalowe
+1 m2/m2 * 864,01 zł/m2
+-- S --
+3* wyciąg jednomasztowy z m-g 0,1080 0,046 0,50
+napędem elektrycznym 0,5 t
+0,01 m-g/m2 * 4,59 zł/m-g
+4* środek transportowy m-g 0,2160 0,584 6,31
+0,02 m-g/m2 * 29,19 zł/m-g
+Razem koszty bezpośrednie 9 450,01 875,000 111,89 9 331,31 6,81
+Jednostkowe koszty bezpośrednie 875,000 10,360 864,010 0,630
+Razem z narzutami 9 540,21 883,353 196,92 9 331,31 11,98
+Cena jednostkowa 883,353 18,234 864,010 1,109
+- 28 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Kosztorys
+Koszt
+Lp. Podstawa Opis j.m. Nakłady R M S
+jedn.
+68 KNR 2-02 Skrzydła drzwiowe płytowe m2 6,400 878,138
+d.7 1017-01 wewnętrzne jednodzielne pełne o
+powierzchni do 1,6 m2 fabrycznie
+wykończone -80x200 drzwi z
+kratkami transferowymi
+obmiar = 6,400 m2
+-- R --
+1* robocizna r-g 3,0080 13,160 84,22
+0,47 r-g/m2 * 28,00 zł/r-g
+-- M --
+2* skrzydła drzwiowe płytowe m2 6,4000 864,010 5 529,66
+wewnętrzne wewnątrzlokalowe
+1 m2/m2 * 864,01 zł/m2
+-- S --
+3* wyciąg jednomasztowy z m-g 0,1280 0,092 0,59
+napędem elektrycznym 0,5 t
+0,02 m-g/m2 * 4,59 zł/m-g
+4* środek transportowy m-g 0,1920 0,876 5,61
+0,03 m-g/m2 * 29,19 zł/m-g
+Razem koszty bezpośrednie 5 620,08 878,138 84,22 5 529,66 6,20
+Jednostkowe koszty bezpośrednie 878,138 13,160 864,010 0,968
+Razem z narzutami 5 688,81 888,876 148,24 5 529,66 10,91
+Cena jednostkowa 888,876 23,162 864,010 1,704
+69 KNNR 2 Montaż drzwi stalowych i przegród m2 8,736 1 555,864
+d.7 1302-03 pełnych
+obmiar = 8,736 m2
+-- R --
+1* robocizna r-g 29,3530 94,080 821,88
+3,36 r-g/m2 * 28,00 zł/r-g
+-- M --
+2* drzwi stalowe pełne m2 8,7360 1 440,020 12 580,01
+1 m2/m2 * 1 440,02 zł/m2
+3* materiały pomocnicze(od M) % 21,600 188,70
+1,5 %
+-- S --
+4* wyciąg m-g 0,2621 0,164 1,43
+0,03 m-g/m2 * 5,48 zł/m-g
+Razem koszty bezpośrednie 13 592,02 1 555,86 821,88 12 768,71 1,43
+4
+Jednostkowe koszty bezpośrednie 1 555,864 94,080 1 461,620 0,164
+Razem z narzutami 14 217,74 1 627,48 1 44 12 768,71 2,52
+9 6,51
+Cena jednostkowa 1 627,489 165,581 1 461,620 0,288
+Razem dział: Okna, drzwi, parapety wewnętrzne
+Razem koszty bezpośrednie: 58 702,54 3 885,70 54 735,46 81,38
+RAZEM: 61 717,52 6 838,82 54 735,46 143,24
+8 Dach, pokrycie dachowe, rynny, rury spustowe, wyłaz na dach
+70 wiązary dachowe - konstrukcja kpl. 1,000 0,000
+d.8 dostawa i montaż
+prefebrykowanych wiązarów
+dachowych
+obmiar = 1,000 kpl.
+Razem z narzutami 46 099,20 46 099,2
+00
+Cena jednostkowa 46 099,200
+71 KNR AT-09 Folie wstępnego krycia (FWK) m2 472,368 37,019
+d.8 0103-01 układane na krokwiach - rozstaw
+kontrłat 0,60 m
+obmiar = 472,368 m2
+-- R --
+1* robocizna r-g 264,5261 17,920 8 464,83
+0,56 r-g/m2 * 32,00 zł/r-g
+- 29 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Kosztorys
+Koszt
+Lp. Podstawa Opis j.m. Nakłady R M S
+jedn.
+-- M --
+2* folia dachowa (FWK) z tworzywa m2 566,8416 17,604 8 315,57
+sztucznego
+1,2 m2/m2 * 14,67 zł/m2
+3* łaty iglaste nasycone 24x48 kl.II m3 0,9447 1,073 506,85
+0,002 m3/m2 * 536,56 zł/m3
+4* gwoździe budowlane okrągłe gołe kg 4,2513 0,022 10,39
+0,009 kg/m2 * 2,47 zł/kg
+5* materiały pomocnicze(od M) % 0,280 132,26
+1,5 %
+-- S --
+6* wyciąg m-g 1,8895 0,022 10,39
+0,004 m-g/m2 * 5,48 zł/m-g
+7* środek transportowy m-g 1,4171 0,098 46,29
+0,003 m-g/m2 * 32,58 zł/m-g
+Razem koszty bezpośrednie 17 486,58 37,019 8 46 8 965,07 56,68
+4,83
+Jednostkowe koszty bezpośrednie 37,019 17,920 18,979 0,120
+Razem z narzutami 23 962,76 50,729 14 898, 8 965,07 99,66
+03
+Cena jednostkowa 50,729 31,539 18,979 0,211
+72 KNR 2-02 Łaty 6x6cm m2 472,368 16,590
+d.8 0410-04
+obmiar = 472,368 m2
+-- R --
+1* robocizna r-g 165,3288 11,200 5 290,52
+0,35 r-g/m2 * 32,00 zł/r-g
+-- M --
+2* łaty iglaste nasycone 38-50 mm m3 3,7789 4,697 2 218,71
+kl.II
+0,008 m3/m2 * 587,10 zł/m3
+3* gwoździe budowlane okrągłe gołe kg 33,0658 0,271 128,01
+0,07 kg/m2 * 3,87 zł/kg
+4* materiały pomocnicze(od M) % 0,075 35,43
+1,5 %
+-- S --
+5* wyciąg m-g 4,7237 0,055 25,98
+0,01 m-g/m2 * 5,48 zł/m-g
+6* środek transportowy m-g 4,7237 0,292 137,93
+0,01 m-g/m2 * 29,19 zł/m-g
+Razem koszty bezpośrednie 7 836,58 16,590 5 29 2 382,15 163,91
+0,52
+Jednostkowe koszty bezpośrednie 16,590 11,200 5,043 0,347
+Razem z narzutami 11 982,09 25,366 9 31 2 382,15 288,61
+1,33
+Cena jednostkowa 25,366 19,712 5,043 0,611
+73 KNR 2-02 Kontrłaty 3x4cm m2 472,368 16,590
+d.8 0410-04
+obmiar = 472,368 m2
+-- R --
+1* robocizna r-g 165,3288 11,200 5 290,52
+0,35 r-g/m2 * 32,00 zł/r-g
+-- M --
+2* łaty iglaste nasycone 38-50 mm m3 3,7789 4,697 2 218,71
+kl.II
+0,008 m3/m2 * 587,10 zł/m3
+3* gwoździe budowlane okrągłe gołe kg 33,0658 0,271 128,01
+0,07 kg/m2 * 3,87 zł/kg
+4* materiały pomocnicze(od M) % 0,075 35,43
+1,5 %
+-- S --
+- 30 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Kosztorys
+Koszt
+Lp. Podstawa Opis j.m. Nakłady R M S
+jedn.
+5* wyciąg m-g 4,7237 0,055 25,98
+0,01 m-g/m2 * 5,48 zł/m-g
+6* środek transportowy m-g 4,7237 0,292 137,93
+0,01 m-g/m2 * 29,19 zł/m-g
+Razem koszty bezpośrednie 7 836,58 16,590 5 29 2 382,15 163,91
+0,52
+Jednostkowe koszty bezpośrednie 16,590 11,200 5,043 0,347
+Razem z narzutami 11 982,09 25,366 9 31 2 382,15 288,61
+1,33
+Cena jednostkowa 25,366 19,712 5,043 0,611
+74 KNNR 2 Pokrycie dachowe z dachówki m2 472,368 63,580
+d.8 0502-03 zakładkowej
+obmiar = 472,368 m2
+-- R --
+1* robocizna r-g 250,3550 16,960 8 011,36
+0,53 r-g/m2 * 32,00 zł/r-g
+-- M --
+2* dachówka ceramiczna szt 4 204,0752 40,228 19 002,42
+zakładkowa
+8,9 szt/m2 * 4,52 zł/szt
+3* gąsiory dachowe ceramiczne szt 77,0000 3,911 1 847,43
+77 szt * 23,99 zł/szt
+4* materiały pomocnicze(od M) % 2,207 1 042,52
+5 %
+-- S --
+5* wyciąg m-g 23,6184 0,274 129,43
+0,05 m-g/m2 * 5,48 zł/m-g
+Razem koszty bezpośrednie 30 033,16 63,580 8 01 21 892,37 129,43
+1,36
+Jednostkowe koszty bezpośrednie 63,580 16,960 46,346 0,274
+Razem z narzutami 36 220,23 76,678 14 100, 21 892,37 227,68
+18
+Cena jednostkowa 76,678 29,850 46,346 0,482
+75 KNR 2-02 Obróbki przy szer.w rozw.ponad m2 30,280 102,392
+d.8 0507-02 25cm- z blachy z tytan-cynku
+obmiar = 30,280 m2
+-- R --
+1* robocizna r-g 54,9885 58,112 1 759,63
+1,816 r-g/m2 * 32,00 zł/r-g
+-- M --
+2* blacha z tytan-cynku grub. 0,5 mm kg 147,7664 42,017 1 272,27
+4,88 kg/m2 * 8,61 zł/kg
+3* spoiwo cynowo-ołowiowe LC-60 kg 1,6957 1,264 38,27
+0,056 kg/m2 * 22,58 zł/kg
+4* zaprawa cementowa M 80 m3 0,0303 0,150 4,54
+0,001 m3/m2 * 150,42 zł/m3
+5* materiały pomocnicze(od M) % 0,651 19,71
+1,5 %
+-- S --
+6* środek transportowy m-g 0,2059 0,198 6,00
+0,0068 m-g/m2 * 29,19 zł/m-g
+Razem koszty bezpośrednie 3 100,42 102,392 1 75 1 334,79 6,00
+9,63
+Jednostkowe koszty bezpośrednie 102,392 58,112 44,082 0,198
+Razem z narzutami 4 442,32 146,708 3 09 1 334,79 10,57
+6,96
+Cena jednostkowa 146,708 102,277 44,082 0,349
+76 KNNR 2 Wyłazy dachowe fabrycznie m2 1,120 840,742
+d.8 1105-02 wykończone
+analogia
+obmiar = 1,120 m2
+-- R --
+- 31 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Kosztorys
+Koszt
+Lp. Podstawa Opis j.m. Nakłady R M S
+jedn.
+1* robocizna r-g 7,7616 221,760 248,37
+6,93 r-g/m2 * 32,00 zł/r-g
+-- M --
+2* pianka poliuretanowa szt 0,0560 1,259 1,41
+0,05 szt/m2 * 25,17 zł/szt
+3* materiały pomocnicze(od M2) % 0,189 0,21
+15 %
+4* wyłaz dachowy m2 1,1200 617,150 691,21
+1 m2/m2 * 617,15 zł/m2
+-- S --
+5* wyciąg m-g 0,0784 0,384 0,43
+0,07 m-g/m2 * 5,48 zł/m-g
+Razem koszty bezpośrednie 941,63 840,742 248,37 692,83 0,43
+Jednostkowe koszty bezpośrednie 840,742 221,760 618,598 0,384
+Razem z narzutami 1 130,72 1 009,57 437,13 692,83 0,76
+1
+Cena jednostkowa 1 009,571 390,298 618,598 0,675
+77 NNRNKB (z.I) Montaż prefabrykowanych m 60,560 66,906
+d.8 202 0517-05 rynien dachowych z blachy
+tytanowo-cynkowej gr. 0,55mm
+półokrągłych o śr. 12,5 cm
+obmiar = 60,560 m
+-- R --
+1* robocizna r-g 29,6138 15,648 947,64
+0,489 r-g/m * 32,00 zł/r-g
+-- M --
+2* elementy prefabrykowane z kg 118,6976 40,317 2 441,60
+blachy tytanowo-cynkowej gr. 0.55
+mm
+1,96 kg/m * 20,57 zł/kg
+3* spoiwo cynowo-ołowiowe LC-60 kg 1,4534 0,542 32,82
+0,024 kg/m * 22,58 zł/kg
+4* uchwyty do rynien dachowych szt 121,1200 9,520 576,53
+2 szt/m * 4,76 zł/szt
+5* materiały pomocnicze(od M) % 0,756 45,78
+1,5 %
+-- S --
+6* środek transportowy m-g 0,2301 0,111 6,72
+0,0038 m-g/m * 29,19 zł/m-g
+7* wyciąg m-g 0,1272 0,012 0,73
+0,0021 m-g/m * 5,48 zł/m-g
+Razem koszty bezpośrednie 4 051,82 66,906 947,64 3 096,73 7,45
+Jednostkowe koszty bezpośrednie 66,906 15,648 51,135 0,123
+Razem z narzutami 4 777,76 78,893 1 66 3 096,73 13,14
+7,89
+Cena jednostkowa 78,893 27,541 51,135 0,217
+78 NNRNKB (z.I) Montaż prefabrykowanych rur m 31,200 70,190
+d.8 202 0519-04 spustowych z blachy
+tytanowo-cynkowej gr. 0,55mm
+okrągłych o śr. 12 cm
+obmiar = 31,200 m
+-- R --
+1* robocizna r-g 19,9118 20,422 637,17
+0,6382 r-g/m * 32,00 zł/r-g
+-- M --
+2* elementy prefabrykowane z kg 71,1360 46,900 1 463,28
+blachy tytanowo-cynkowej gr. 0.55
+mm
+2,28 kg/m * 20,57 zł/kg
+3* spoiwo cynowo-ołowiowe LC-60 kg 0,6864 0,497 15,51
+0,022 kg/m * 22,58 zł/kg
+- 32 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Kosztorys
+Koszt
+Lp. Podstawa Opis j.m. Nakłady R M S
+jedn.
+4* uchwyty do rur spustowych szt 10,2960 1,538 47,99
+ocynkowane
+0,33 szt/m * 4,66 zł/szt
+5* materiały pomocnicze(od M) % 0,734 22,90
+1,5 %
+-- S --
+6* środek transportowy m-g 0,1061 0,099 3,09
+0,0034 m-g/m * 29,19 zł/m-g
+Razem koszty bezpośrednie 2 189,94 70,190 637,17 1 549,68 3,09
+Jednostkowe koszty bezpośrednie 70,190 20,422 49,669 0,099
+Razem z narzutami 2 676,52 85,786 1 12 1 549,68 5,43
+1,41
+Cena jednostkowa 85,786 35,943 49,669 0,174
+79 KNR-W 4-01 Przybicie od góry do dolnych m2 84,000 32,592
+d.8 0819-03 pasów wiązarów podłogi z płyt
+OSB gr. 25mm (podest roboczy
+instalacyjny)
+obmiar = 84,000 m2
+-- R --
+1* robocizna r-g 41,1600 13,720 1 152,48
+0,49 r-g/m2 * 28,00 zł/r-g
+-- M --
+2* płyty OSB gr. 22mm m2 88,2000 18,008 1 512,67
+1,05 m2/m2 * 17,15 zł/m2
+3* gwoździe budowlane okrągłe gołe kg 16,8000 0,494 41,50
+0,2 kg/m2 * 2,47 zł/kg
+4* materiały pomocnicze(od M) % 0,370 31,08
+2 %
+Razem koszty bezpośrednie 2 737,73 32,592 1 15 1 585,25
+2,48
+Jednostkowe koszty bezpośrednie 32,592 13,720 18,872
+Razem z narzutami 3 613,60 43,019 2 02 1 585,25
+8,35
+Cena jednostkowa 43,019 24,147 18,872
+Razem dział: Dach, pokrycie dachowe, rynny, rury spustowe, wyłaz na dach
+Razem koszty bezpośrednie: 76 214,44 31 43 881,02 530,90
+802,52
+RAZEM: 146 887,29 55 43 881,02 934,46
+972,61
+9 Elewacja i prace wykończeniowe
+80 KNR 0-23 Docieplenie ścian z cegły płytami m2 358,690 120,814
+d.9 2614-02 styropianowymi gr. 20cm przy
+użyciu got. zapraw klejących wraz
+z przyg. podłoża i ręczne wyk.
+wyprawy elew. z got. suchej
+mieszanki - ściana gr. 25cm
+obmiar = 358,690 m2
+-- R --
+1* robocizna r-g 1 134,3213 88,547 31
+3,1624 r-g/m2 * 28,00 zł/r-g 760,92
+-- M --
+2* emulsja gruntująca kg 71,7380 0,964 345,78
+0,2 kg/m2 * 4,82 zł/kg
+3* płyty styropianowe 15 cm m3 54,7899 13,696 4 912,62
+0,15275 m3/m2 * 89,66 zł/m3
+4* uniwersalna zaprawa klejowa do kg 3 597,6607 9,127 3 273,76
+płyt styropianowych
+10,03 kg/m2 * 0,91 zł/kg
+5* dyble plastikowe "z grzybkami" szt 1 492,1504 0,570 204,45
+4,16 szt/m2 * 0,14 zł/szt
+6* siatka z włókna szklanego m2 407,1132 2,179 781,59
+1,135 m2/m2 * 1,92 zł/m2
+- 33 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Kosztorys
+Koszt
+Lp. Podstawa Opis j.m. Nakłady R M S
+jedn.
+7* podkładowa masa tynkarska kg 107,6070 1,155 414,29
+0,3 kg/m2 * 3,85 zł/kg
+8* sucha mieszanka tynkarska kg 1 076,0700 3,150 1 129,87
+mineralna
+3 kg/m2 * 1,05 zł/kg
+9* materiały pomocnicze(od M) % 0,463 166,07
+1,5 %
+-- S --
+10* żuraw okienny przenośny m-g 10,6890 0,064 22,96
+0,0298 m-g/m2 * 2,16 zł/m-g
+11* środek transportowy m-g 9,8998 0,899 322,46
+0,0276 m-g/m2 * 32,58 zł/m-g
+Razem koszty bezpośrednie 43 334,77 120,814 31 760, 11 228,43 345,42
+92
+Jednostkowe koszty bezpośrednie 120,814 88,547 31,304 0,963
+Razem z narzutami 67 735,74 188,842 55 899, 11 228,43 607,98
+33
+Cena jednostkowa 188,842 155,843 31,304 1,695
+81 KNR 0-23 Docieplenie ościeży o szer. 15 cm m2 69,000 186,938
+d.9 2614-05 z cegły płytami styropianowymi -
+przy użyciu got. zapraw klejących
+wraz z przyg. podłoża i ręczne
+wyk. wyprawy elew. z got. suchej
+mieszanki
+obmiar = 69,000 m2
+-- R --
+1* robocizna r-g 405,5889 164,587 11
+5,8781 r-g/m2 * 28,00 zł/r-g 356,50
+-- M --
+2* emulsja gruntująca kg 13,8000 0,964 66,52
+0,2 kg/m2 * 4,82 zł/kg
+3* płyty styropianowe 2 cm m3 1,3800 1,901 131,17
+0,02 m3/m2 * 95,05 zł/m3
+4* uniwersalna zaprawa klejowa do kg 692,0700 9,127 629,76
+płyt styropianowych
+10,03 kg/m2 * 0,91 zł/kg
+5* dyble plastikowe "z grzybkami" szt 287,0400 0,570 39,33
+4,16 szt/m2 * 0,14 zł/szt
+6* siatka z włókna szklanego m2 113,3670 3,155 217,70
+1,643 m2/m2 * 1,92 zł/m2
+7* podkładowa masa tynkarska kg 20,7000 1,155 79,70
+0,3 kg/m2 * 3,85 zł/kg
+8* sucha mieszanka tynkarska kg 276,0000 4,200 289,80
+mineralna
+4 kg/m2 * 1,05 zł/kg
+9* materiały pomocnicze(od M) % 0,316 21,80
+1,5 %
+-- S --
+10* żuraw okienny przenośny m-g 2,0562 0,064 4,42
+0,0298 m-g/m2 * 2,16 zł/m-g
+11* środek transportowy m-g 1,9044 0,899 62,03
+0,0276 m-g/m2 * 32,58 zł/m-g
+Razem koszty bezpośrednie 12 898,73 186,938 11 356, 1 475,78 66,45
+50
+Jednostkowe koszty bezpośrednie 186,938 164,587 21,388 0,963
+Razem z narzutami 21 580,16 312,756 19 987, 1 475,78 116,96
+42
+Cena jednostkowa 312,756 289,673 21,388 1,695
+82 KNR-W 2-02 Obudowa wiązara od spodu w m2 53,002 111,978
+d.9 1036-02 postaci boazeri z listew
+drewnianych
+obmiar = 53,002 m2
+-- R --
+- 34 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Kosztorys
+Koszt
+Lp. Podstawa Opis j.m. Nakłady R M S
+jedn.
+1* robocizna r-g 167,4863 88,480 4 689,62
+3,16 r-g/m2 * 28,00 zł/r-g
+-- M --
+2* listwy boazeryjne m2 54,5921 18,334 971,74
+1,03 m2/m2 * 17,80 zł/m2
+-- S --
+3* wyciąg m-g 5,8302 0,603 31,96
+0,11 m-g/m2 * 5,48 zł/m-g
+4* środek transportowy m-g 7,4203 4,561 241,74
+0,14 m-g/m2 * 32,58 zł/m-g
+Razem koszty bezpośrednie 5 935,06 111,978 4 68 971,74 273,70
+9,62
+Jednostkowe koszty bezpośrednie 111,978 88,480 18,334 5,164
+Razem z narzutami 9 707,16 183,147 8 25 971,74 481,68
+3,74
+Cena jednostkowa 183,147 155,725 18,334 9,088
+83 KNR-W 2-02 Boazerie - lakierowanie dwukrotne m2 53,002 28,327
+d.9 1036-09
+obmiar = 53,002 m2
+-- R --
+1* robocizna r-g 39,2215 20,720 1 098,20
+0,74 r-g/m2 * 28,00 zł/r-g
+-- M --
+2* szpachlówka celulozowa dm3 6,3602 0,772 40,92
+0,12 dm3/m2 * 6,43 zł/dm3
+3* lakierobejca dm3 21,7308 6,835 362,27
+0,41 dm3/m2 * 16,67 zł/dm3
+Razem koszty bezpośrednie 1 501,39 28,327 1 09 403,19
+8,20
+Jednostkowe koszty bezpośrednie 28,327 20,720 7,607
+Razem z narzutami 2 336,01 44,074 1 93 403,19
+2,82
+Cena jednostkowa 44,074 36,467 7,607
+84 KNR 2-02 Parapety zewnętrzne z blachy m2 2,775 105,188
+d.9 0507-03
+analogia
+obmiar = 2,775 m2
+-- R --
+1* robocizna r-g 6,0107 60,648 168,30
+2,166 r-g/m2 * 28,00 zł/r-g
+-- M --
+2* blacha z tytan-cynku grub. 0,5 mm kg 13,4865 41,845 116,12
+4,86 kg/m2 * 8,61 zł/kg
+3* spoiwo cynowo-ołowiowe LC-60 kg 0,1526 1,242 3,45
+0,055 kg/m2 * 22,58 zł/kg
+4* zaprawa cementowa M 80 m3 0,0111 0,602 1,67
+0,004 m3/m2 * 150,42 zł/m3
+5* materiały pomocnicze(od M) % 0,655 1,82
+1,5 %
+-- S --
+6* środek transportowy m-g 0,0186 0,196 0,54
+0,0067 m-g/m2 * 29,19 zł/m-g
+Razem koszty bezpośrednie 291,90 105,188 168,30 123,06 0,54
+Jednostkowe koszty bezpośrednie 105,188 60,648 44,344 0,196
+Razem z narzutami 420,22 151,430 296,20 123,06 0,96
+Cena jednostkowa 151,430 106,741 44,344 0,345
+Razem dział: Elewacja i prace wykończeniowe
+Razem koszty bezpośrednie: 63 961,85 49 14 202,20 686,11
+073,54
+RAZEM: 101 779,29 86 14 202,20 1 207,58
+369,51
+- 35 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Kosztorys
+Koszt
+Lp. Podstawa Opis j.m. Nakłady R M S
+jedn.
+10 Zagospodarowanie terenu
+85 KNR 2-01 Roboty pomiarowe przy m2 538,000 0,099
+d.10 0121-01 powierzchniowych robotach
+ziemnych - niwelacja terenu
+obmiar = 538,000 m2
+-- R --
+1* robocizna r-g 1,7985 0,094 50,57
+0,0035 * 0,955 = 0,003343 r-g/m2
+* 28,00 zł/r-g
+-- M --
+2* słupki drewniane iglaste śr.70mm m3 0,0038 0,001 0,54
+0,000007 m3/m2 * 96,66 zł/m3
+-- S --
+3* samochód dostawczy 0.9 t m-g 0,0823 0,004 2,15
+0,000153 m-g/m2 * 29,20 zł/m-g
+Razem koszty bezpośrednie 53,26 0,099 50,57 0,54 2,15
+Jednostkowe koszty bezpośrednie 0,099 0,094 0,001 0,004
+Razem z narzutami 93,07 0,173 88,76 0,54 3,77
+Cena jednostkowa 0,173 0,165 0,001 0,007
+86 KNR 2-01 Usunięcie warstwy ziemi m2 538,000 0,272
+d.10 0126-01 urodzajnej (humusu) o grubości
+do 15 cm za pomocą spycharek
+obmiar = 538,000 m2
+-- R --
+1* robocizna r-g 2,8261 0,147 79,09
+0,0055 * 0,955 = 0,005253 r-g/m2
+* 28,00 zł/r-g
+-- S --
+2* spycharka gąsienicowa 74 kW m-g 1,3450 0,125 67,25
+(100 KM)
+0,0025 m-g/m2 * 50,00 zł/m-g
+Razem koszty bezpośrednie 146,34 0,272 79,09 67,25
+Jednostkowe koszty bezpośrednie 0,272 0,147 0,125
+Razem z narzutami 257,70 0,479 139,34 118,36
+Cena jednostkowa 0,479 0,259 0,220
+87 KNR 2-01 Wykopy wykonywane m3 189,460 3,746
+d.10 0228-02 spycharkami o mocy 55 kW (75
+KM) w gruncie kat. III
+obmiar = 189,460 m3
+-- R --
+1* robocizna r-g 20,6132 3,046 577,10
+0,1088 r-g/m3 * 28,00 zł/r-g
+-- S --
+2* Spych.gąsienicowa 55kW (1) m-g 2,6524 0,700 132,62
+0,014 m-g/m3 * 50,00 zł/m-g
+Razem koszty bezpośrednie 709,72 3,746 577,10 132,62
+Jednostkowe koszty bezpośrednie 3,746 3,046 0,700
+Razem z narzutami 1 249,11 6,593 1 01 233,41
+5,70
+Cena jednostkowa 6,593 5,361 1,232
+88 KNR 2-02 Podkłady z ubitych materiałów m3 12,200 144,999
+d.10 1101-07 sypkich na podł.gruntowym
+obmiar = 12,200 m3
+-- R --
+1* robocizna r-g 52,7040 120,960 1 475,71
+4,32 r-g/m3 * 28,00 zł/r-g
+-- M --
+2* pospółka m3 13,1760 23,684 288,94
+1,08 m3/m3 * 21,93 zł/m3
+3* materiały pomocnicze(od M) % 0,355 4,33
+1,5 %
+- 36 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Kosztorys
+Koszt
+Lp. Podstawa Opis j.m. Nakłady R M S
+jedn.
+Razem koszty bezpośrednie 1 768,98 144,999 1 47 293,27
+5,71
+Jednostkowe koszty bezpośrednie 144,999 120,960 24,039
+Razem z narzutami 2 890,53 236,929 2 59 293,27
+7,26
+Cena jednostkowa 236,929 212,890 24,039
+89 KNR 2-31 Podsypka cementowo-piaskowa z m2 416,000 35,802
+d.10 0105-07 zagęszczeniem mechanicznym -
+0105-08 15 cm grubości warstwy po
+zagęszczeniu
+obmiar = 416,000 m2
+-- R --
+1* robocizna r-g 251,5968 16,934 7 044,54
+0,6048 r-g/m2 * 28,00 zł/r-g
+-- M --
+2* piasek m3 80,5792 4,289 1 784,22
+0,0389+12*0,0129 = 0,1937
+m3/m2 * 22,14 zł/m3
+3* cement portlandzki zwykły bez t 18,1376 14,220 5 915,52
+dodatków 35
+0,0088+12*0,0029 = 0,0436 t/m2 *
+326,14 zł/t
+4* woda m3 9,3600 0,093 38,69
+0,0045+12*0,0015 = 0,0225
+m3/m2 * 4,12 zł/m3
+5* materiały pomocnicze(od M) % 0,093 38,69
+0,5 %
+-- S --
+6* walec statyczny samojezdny 4-6 t m-g 2,5376 0,173 71,97
+0,0013+12*0,0004 = 0,0061 m-
+g/m2 * 28,43 zł/m-g
+Razem koszty bezpośrednie 14 893,63 35,802 7 04 7 777,12 71,97
+4,54
+Jednostkowe koszty bezpośrednie 35,802 16,934 18,695 0,173
+Razem z narzutami 20 302,05 48,803 12 398, 7 777,12 126,88
+05
+Cena jednostkowa 48,803 29,803 18,695 0,305
+90 KNR 2-31 Podbudowa z kruszywa m2 447,500 13,319
+d.10 0114-01 naturalnego - warstwa dolna o
+grubości po zagęszczeniu 20 cm
+obmiar = 447,500 m2
+-- R --
+1* robocizna r-g 7,5180 0,470 210,33
+0,0168 r-g/m2 * 28,00 zł/r-g
+-- M --
+2* pospółka t 175,7780 11,592 5 187,42
+0,3928 t/m2 * 29,51 zł/t
+3* woda m3 8,9500 0,082 36,70
+0,02 m3/m2 * 4,12 zł/m3
+4* materiały pomocnicze(od M) % 0,058 25,96
+0,5 %
+-- S --
+5* równiarka samojezdna 74 kW m-g 1,1635 0,150 67,13
+(100 KM)
+0,0026 m-g/m2 * 57,63 zł/m-g
+6* walec statyczny samojezdny 10 t m-g 8,1445 0,967 432,73
+0,0182 m-g/m2 * 53,14 zł/m-g
+Razem koszty bezpośrednie 5 960,27 13,319 210,33 5 250,08 499,86
+Jednostkowe koszty bezpośrednie 13,319 0,470 11,732 1,117
+Razem z narzutami 6 499,94 14,525 370,08 5 250,08 879,78
+Cena jednostkowa 14,525 0,827 11,732 1,966
+- 37 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Kosztorys
+Koszt
+Lp. Podstawa Opis j.m. Nakłady R M S
+jedn.
+91 KNR 2-31 Podsypka piaskowa z m2 538,000 2,208
+d.10 0105-03 zagęszczeniem mechanicznym - 3
+cm grub.warstwy po zagęszcz.
+obmiar = 538,000 m2
+-- R --
+1* robocizna r-g 25,7164 1,338 719,84
+0,0478 r-g/m2 * 28,00 zł/r-g
+-- M --
+2* piasek m3 19,9060 0,819 440,62
+0,037 m3/m2 * 22,14 zł/m3
+3* woda m3 0,9684 0,007 3,77
+0,0018 m3/m2 * 4,12 zł/m3
+4* materiały pomocnicze(od M) % 0,004 2,15
+0,5 %
+-- S --
+5* walec statyczny samojezdny 4-6 t m-g 0,7532 0,040 21,52
+0,0014 m-g/m2 * 28,43 zł/m-g
+Razem koszty bezpośrednie 1 187,90 2,208 719,84 446,54 21,52
+Jednostkowe koszty bezpośrednie 2,208 1,338 0,830 0,040
+Razem z narzutami 1 751,19 3,255 1 26 446,54 37,66
+6,99
+Cena jednostkowa 3,255 2,355 0,830 0,070
+92 KNR 2-31 Ława pod krawężniki betonowa z m3 9,840 431,238
+d.10 0402-04 oporem
+obmiar = 9,840 m3
+-- R --
+1* robocizna r-g 88,7568 252,560 2 485,19
+9,02 r-g/m3 * 28,00 zł/r-g
+-- M --
+2* Deski iglaste obrzynane gr.19- m3 0,3936 16,679 164,12
+25mm,kl.III
+0,04 m3/m3 * 416,97 zł/m3
+3* piasek m3 2,6568 5,978 58,82
+0,27 m3/m3 * 22,14 zł/m3
+4* woda m3 4,6248 1,936 19,05
+0,47 m3/m3 * 4,12 zł/m3
+5* materiały pomocnicze(od M2+M3 % 0,123 1,21
++M4)
+0,5 %
+6* beton zwykły z kruszywa m3 10,2336 153,962 1 514,99
+naturalnego
+1,04 m3/m3 * 148,04 zł/m3
+Razem koszty bezpośrednie 4 243,38 431,238 2 48 1 758,19
+5,19
+Jednostkowe koszty bezpośrednie 431,238 252,560 178,678
+Razem z narzutami 6 132,13 623,184 4 37 1 758,19
+3,94
+Cena jednostkowa 623,184 444,506 178,678
+93 KNR 2-31 Krawężniki betonowe wystające o m 164,000 35,752
+d.10 0403-03 wym. 15x30 cm na podsypce
+analogia cem.piaskowej
+obmiar = 164,000 m
+-- R --
+1* robocizna r-g 70,3560 12,012 1 969,97
+0,429 r-g/m * 28,00 zł/r-g
+-- M --
+2* krawężniki drogowe betonowe m 167,2800 22,052 3 616,53
+15x30 cm
+1,02 m/m * 21,62 zł/m
+3* piasek m3 2,0828 0,281 46,08
+0,0127 m3/m * 22,14 zł/m3
+- 38 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Kosztorys
+Koszt
+Lp. Podstawa Opis j.m. Nakłady R M S
+jedn.
+4* cement portlandzki zwykły bez t 0,6396 1,272 208,61
+dodatków 35
+0,0039 t/m * 326,14 zł/t
+5* woda m3 0,6888 0,017 2,79
+0,0042 m3/m * 4,12 zł/m3
+6* materiały pomocnicze(od M) % 0,118 19,35
+0,5 %
+Razem koszty bezpośrednie 5 863,33 35,752 1 96 3 893,36
+9,97
+Jednostkowe koszty bezpośrednie 35,752 12,012 23,740
+Razem z narzutami 7 360,48 44,881 3 46 3 893,36
+7,12
+Cena jednostkowa 44,881 21,141 23,740
+94 KNR 2-31 Obrzeża betonowe o wym. 20x6 m 69,000 11,334
+d.10 0407-02 cm na podsypce piaskowej z
+wyp.spoin piaskiem
+obmiar = 69,000 m
+-- R --
+1* robocizna r-g 14,0553 5,704 393,58
+0,2037 r-g/m * 28,00 zł/r-g
+-- M --
+2* obrzeża betonowe 20x6 cm m 70,3800 5,498 379,36
+1,02 m/m * 5,39 zł/m
+3* piasek m3 0,3243 0,104 7,18
+0,0047 m3/m * 22,14 zł/m3
+4* materiały pomocnicze(od M) % 0,028 1,93
+0,5 %
+Razem koszty bezpośrednie 782,05 11,334 393,58 388,47
+Jednostkowe koszty bezpośrednie 11,334 5,704 5,630
+Razem z narzutami 1 081,16 15,669 692,69 388,47
+Cena jednostkowa 15,669 10,039 5,630
+95 KNR 2-31 Nawierzchnie z kostki brukowej m2 416,000 65,851
+d.10 0511-04 betonowej o grubości 8 cm na
+podsypce piaskowej
+obmiar = 416,000 m2
+-- R --
+1* robocizna r-g 475,1968 31,984 13
+1,1423 r-g/m2 * 28,00 zł/r-g 305,34
+-- M --
+2* kostka brukowa 8 cm szara m2 426,4000 30,924 12 864,38
+1,025 m2/m2 * 30,17 zł/m2
+3* piasek m3 32,9888 1,756 730,50
+0,0793 m3/m2 * 22,14 zł/m3
+4* woda m3 9,1520 0,091 37,86
+0,022 m3/m2 * 4,12 zł/m3
+5* materiały pomocnicze(od M) % 0,164 68,22
+0,5 %
+-- S --
+6* wibrator powierzchniowy m-g 54,0800 0,605 251,68
+0,13 m-g/m2 * 4,65 zł/m-g
+7* piła do cięcia kostki r-g 10,4000 0,327 136,03
+0,025 r-g/m2 * 13,06 zł/r-g
+Razem koszty bezpośrednie 27 394,01 65,851 13 305, 13 700,96 387,71
+34
+Jednostkowe koszty bezpośrednie 65,851 31,984 32,935 0,932
+Razem z narzutami 37 800,26 90,866 23 417, 13 700,96 682,23
+07
+Cena jednostkowa 90,866 56,291 32,935 1,640
+96 KNR 2-31 Nawierzchnie z kostki brukowej m2 122,000 62,283
+d.10 0511-01 betonowej o grubości 6 cm na
+podsypce piaskowej
+obmiar = 122,000 m2
+- 39 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Kosztorys
+Koszt
+Lp. Podstawa Opis j.m. Nakłady R M S
+jedn.
+-- R --
+1* robocizna r-g 132,8702 30,495 3 720,39
+1,0891 r-g/m2 * 28,00 zł/r-g
+-- M --
+2* kostka brukowa 6 cm szara m2 125,0500 28,926 3 528,97
+1,025 m2/m2 * 28,22 zł/m2
+3* piasek m3 9,3086 1,689 206,06
+0,0763 m3/m2 * 22,14 zł/m3
+4* woda m3 2,5620 0,087 10,61
+0,021 m3/m2 * 4,12 zł/m3
+5* materiały pomocnicze(od M) % 0,154 18,79
+0,5 %
+-- S --
+6* wibrator powierzchniowy m-g 15,8600 0,605 73,81
+0,13 m-g/m2 * 4,65 zł/m-g
+7* piła do cięcia kostki r-g 3,0500 0,327 39,89
+0,025 r-g/m2 * 13,06 zł/r-g
+Razem koszty bezpośrednie 7 598,52 62,283 3 72 3 764,43 113,70
+0,39
+Jednostkowe koszty bezpośrednie 62,283 30,495 30,856 0,932
+Razem z narzutami 10 512,37 86,167 6 54 3 764,43 200,08
+7,86
+Cena jednostkowa 86,167 53,671 30,856 1,640
+Razem dział: Zagospodarowanie terenu
+Razem koszty bezpośrednie: 70 601,39 32 37 272,96 1 296,78
+031,65
+RAZEM: 95 929,99 56 37 272,96 2 282,17
+374,86
+11 Rusztowanie
+97 KNR 2-02 Rusztowania zewnętrzne rurowe o m2 311,700 13,164
+d.11 1604-01 wys.do 10 m
+obmiar = 311,700 m2
+-- R --
+1* robocizna r-g 132,1608 11,872 3 700,50
+0,424 r-g/m2 * 28,00 zł/r-g
+-- M --
+2* płyty pomostowe robocze m2 4,3950 0,042 13,09
+0,0141 m2/m2 * 2,97 zł/m2
+3* płyty komunikacyjne długie m2 0,1247 0,016 4,99
+0,0004 m2/m2 * 39,08 zł/m2
+4* płyty komunikacyjne krótkie m2 0,0623 0,008 2,49
+0,0002 m2/m2 * 38,40 zł/m2
+5* Bale iglaste obrzynane gr.50- m3 0,0094 0,016 4,99
+100mm kl.II
+0,00003 m3/m2 * 543,97 zł/m3
+6* deski iglaste obrzynane gr. 25 mm m3 0,0561 0,081 25,25
+kl.II
+0,00018 m3/m2 * 450,17 zł/m3
+7* Deski iglaste obrzynane gr.19- m3 0,0062 0,008 2,49
+25mm,kl.III
+0,00002 m3/m2 * 416,97 zł/m3
+8* haki do muru kg 3,7404 0,049 15,27
+0,012 kg/m2 * 4,06 zł/kg
+9* drut stalowy okrągły 3 mm kg 2,8053 0,026 8,10
+0,009 kg/m2 * 2,84 zł/kg
+10* maty (płyty) trzcinowe gr. 3.5 cm m2 2,1819 0,069 21,51
+0,007 m2/m2 * 9,83 zł/m2
+11* materiały pomocnicze(od M) % 0,005 1,56
+1,5 %
+-- S --
+12* Ruszt.do 10m fasad.ram.Al b/os m-g 48,6252 0,972 302,97
+0,156 m-g/m2 * 6,23 zł/m-g
+- 40 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Kosztorys
+Koszt
+Lp. Podstawa Opis j.m. Nakłady R M S
+jedn.
+Razem koszty bezpośrednie 4 103,21 13,164 3 70 99,74 302,97
+0,50
+Jednostkowe koszty bezpośrednie 13,164 11,872 0,320 0,972
+Razem z narzutami 7 146,03 22,926 6 51 99,74 533,32
+2,97
+Cena jednostkowa 22,926 20,895 0,320 1,711
+98 Czas pracy rusztowań grupy
+d.11 (pozycje: 77, 78, 80, 81, 82, 83)
+-- S --
+1* czas pracy rusztowania m-g 213,8266 6,010 1 285,10
+1 796,143636/(0,84*10) m-g *
+6,01 zł/m-g
+Razem koszty bezpośrednie 1 285,10 1 28
+5,10
+Razem z narzutami 2 261,78 2 26
+1,78
+Razem dział: Rusztowanie
+Razem koszty bezpośrednie: 5 388,31 3 700,50 99,74 1 588,07
+RAZEM: 9 407,81 6 512,97 99,74 2 795,10
+12 Obsługa geodezyjna
+99 Obsługa geodezyjna kpl 1,000 5 000,000
+d.12 wycena
+indywidualna
+obmiar = 1,000 kpl
+-- R --
+1* robocizna kpl 1,0000 5 000,000 5 000,00
+1 kpl/kpl * 5 000,00 zł/kpl
+Razem koszty bezpośrednie 5 000,00 5 000,00 5 00
+0 0,00
+Jednostkowe koszty bezpośrednie 5 000,000 5 000,0
+00
+Razem z narzutami 8 800,00 8 800,00 8 80
+0 0,00
+Cena jednostkowa 8 800,000 8 800,0
+00
+Razem dział: Obsługa geodezyjna
+Razem koszty bezpośrednie: 5 000,00 5 000,00
+RAZEM: 8 800,00 8 800,00
+13 WYPOSAŻENIE KUCHNI I ZAPLECZA KUCHENNEGO
+100 ZMYWARKA KAPTUROWA 1,000 0,000
+d.13
+obmiar = 1,000
+Razem z narzutami 10 756,48 10 756,4
+80
+Cena jednostkowa 10 756,480
+101 ZLEW KUCHENNY Z kpl. 2,000 0,000
+d.13 OCIEKACZEM
+obmiar = 2,000 kpl.
+Razem z narzutami 9 219,84 4 609,92
+0
+Cena jednostkowa 4 609,920
+102 ZLEW KUCHENNY Z kpl. 1,000 0,000
+d.13 OCIEKACZEM - POM.
+SOCJALNE
+obmiar = 1,000 kpl.
+Razem z narzutami 614,66 614,660
+Cena jednostkowa 614,660
+103 SZAFKI STOJĄCE I WISZĄCE m 8,000 0,000
+d.13 KUCHENNE
+obmiar = 8,000 m
+Razem z narzutami 6 146,56 768,320
+Cena jednostkowa 768,320
+- 41 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+Kosztorys
+Koszt
+Lp. Podstawa Opis j.m. Nakłady R M S
+jedn.
+104 LODÓWKA szt 1,000 0,000
+d.13
+obmiar = 1,000 szt
+Razem z narzutami 8 989,34 8 989,34
+0
+Cena jednostkowa 8 989,340
+105 REGŁY MAGAZYNOWE m 5,000 0,000
+d.13
+obmiar = 5,000 m
+Razem z narzutami 4 033,70 806,740
+Cena jednostkowa 806,740
+106 KUCHENKA 4RO PALNIKOWA szt 1,000 0,000
+d.13 ELEKTRYCZNA
+obmiar = 1,000 szt
+Razem z narzutami 3 150,06 3 150,06
+0
+Cena jednostkowa 3 150,060
+107 OKAP KUCHENNY kpl. 1,000 0,000
+d.13 kalk. własna
+obmiar = 1,000 kpl.
+Razem z narzutami 1 152,48 1 152,48
+0
+Cena jednostkowa 1 152,480
+108 SZAFA PRZELOTOWA NA szt 1,000 0,000
+d.13 kalk. własna NACZYNIA 100X70X180
+obmiar = 1,000 szt
+Razem z narzutami 3 303,78 3 303,78
+0
+Cena jednostkowa 3 303,780
+Razem dział: WYPOSAŻENIE KUCHNI I ZAPLECZA KUCHENNEGO
+Razem koszty bezpośrednie: 0,00
+RAZEM: 47 366,90
+PODSUMOWANIE KOSZTORYSU
+Razem Uproszczone Robocizna Materiały Sprzęt
+1 PRACE 0,00
+PROJEKTOWE,
+UZGONIENIA, OPINIE
+ORGANIZACJA PLACU
+2 Roboty ziemne i 56 070,06 24 701,52 26 883,20 4 485,34
+fundamentowe
+3 Posadzki 71 316,13 32 448,00 38 689,35 178,78
+4 Roboty murowe i 57 509,70 18 582,61 38 907,89 19,20
+ścianki działowe
+5 Roboty betonowe 7 334,77 3 390,43 3 645,68 298,66
+6 Tynki, okładziny i 131 897,61 50 601,25 79 676,02 1 620,34
+roboty malarskie
+7 Okna, drzwi, parapety 58 702,54 3 885,70 54 735,46 81,38
+wewnętrzne
+8 Dach, pokrycie 76 214,44 31 802,52 43 881,02 530,90
+dachowe, rynny, rury
+spustowe, wyłaz na dach
+9 Elewacja i prace 63 961,85 49 073,54 14 202,20 686,11
+wykończeniowe
+10 Zagospodarowanie 70 601,39 32 031,65 37 272,96 1 296,78
+terenu
+11 Rusztowanie 5 388,31 3 700,50 99,74 1 588,07
+12 Obsługa geodezyjna 5 000,00 5 000,00
+- 42 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623
+13 WYPOSAŻENIE 0,00
+KUCHNI I ZAPLECZA
+KUCHENNEGO
+Razem koszty 603 996,80 255 217,72 337 993,52 10 785,56
+bezpośrednie
+Koszty pośrednie [Kp] 159 600,67 153 129,84 6 470,83
+60%R+60%S
+RAZEM 763 597,47 408 347,56 337 993,52 17 256,39
+Zysk [Z] 10%(R+Kp(R))+ 42 560,63 40 834,42 1 726,21
+10%(S+Kp(S))
+RAZEM 806 158,10 449 181,98 337 993,52 18 982,60
+Pozycje uproszczone 147 882,56 147 882,56
+RAZEM 954 040,66 147 882,56 449 181,98 337 993,52 18 982,60
+VAT 23% (R+Kp(R)+Z(R) 219 429,35
++M+S+Kp(S)+Z(S)+U)
+RAZEM 1 173 470,01
+OGÓŁEM 1 173 470,01
+Słownie: jeden milion sto siedemdziesiąt trzy tysiące czterysta siedemdziesiąt i 1/100 zł
+- 43 -
+Norma STANDARD - 365 Wersja: 5.16.200.16 Nr seryjny: 4250 Użytkownik: 147A-FBF0-D132-079E-E623

@@ -1,0 +1,11 @@
+frontend/node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.git/
+.gitignore
+dist/
+*.log
+knr_database/chroma/
+tests/__pycache__/
+.pytest_cache/

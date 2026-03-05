@@ -1,0 +1,1030 @@
+KLONEX II DŁUGI GRZEGORZ ul. Kasztanowa 10 49-318 Skarbimierz-
+Osiedle
+KOSZTORYS OFERTOWY - BRANŻA
+SANITARNA
+Klasyfikacja robót wg Wspólnego Słownika Zamówień
+45200000-9 Roboty budowlane w zakresie wznoszenia kompletnych obiektów
+budowlanych lub ich części oraz roboty w zakresie inżynierii lądowej i
+wodnej
+45111300-1 Roboty rozbiórkowe
+45231300-8 Roboty budowlane w zakresie budowy wodociągów i rurociągów do
+odprowadzania ścieków
+45332200-5 Roboty instalacyjne hydrauliczne
+45332300-6 Roboty instalacyjne kanalizacyjne
+45331100-7 Instalowanie centralnego ogrzewania
+45331210-1 Instalowanie wentylacji
+45331220-4 Instalowanie urządzeń klimatyzacyjnych
+NAZWA INWESTYCJI: BUDOWA DOMU LUDOWEGO
+ADRES INWESTYCJI: MAŁUJOWICE dz.nr 253 OBRĘB 0108 MAŁUJOWICE GMINA
+SKARBIMIERZ
+NAZWA INWESTORA: Gmina Skarbimierz
+ADRES INWESTORA: ul. Parkowa 12, 49-318 Skarbimierz Osiedle
+WYKONAWCA: KLONEX II DŁUGI GRZEGORZ
+ADRES WYKONAWCY: ul. KASZTANOWA 10, 49-318 Skarbimierz-Osiedle
+SPORZĄDZIŁ KALKULACJE
+Instalacje sanitarne
+DATA OPRACOWANIA: 12.2025
+Stawka roboczogodziny
+KOSZTORYS 35,00 zł
+Poz.: 27, 32, 33, 38 38,00 zł
+WARTOŚĆ KOSZTORYSOWA ROBÓT BEZ PODATKU VAT: 664 619,21 zł
+PODATEK VAT: (23%) 152 862,42 zł
+OGÓŁEM WARTOŚĆ KOSZTORYSOWA ROBÓT: 817 481,63 zł
+SŁOWNIE: osiemset siedemnaście tysięcy czterysta osiemdziesiąt jeden i 63/100 zł
+WYKONAWCA: INWESTOR:
+Data opracowania Data zatwierdzenia
+12.2025
+Norma STANDARD - 365 Wersja: 5.17.100.8 Nr seryjny: 4539 Użytkownik: KLONEX II
+- 2 -
+Norma STANDARD - 365 Wersja: 5.17.100.8 Nr seryjny: 4539 Użytkownik: KLONEX II
+Kosztorys ofertowy
+Lp. Podstawa Opis j.m. Ilość Cena Wartość
+KOSZTORYS:
+1 ROBOTY ZEWNĘTRZNE
+1.1 CPV PRZYŁĄCZA ZEWNĘTRZNE
+45231300-8
+1.1.1 CPV PRZYŁĄCZA KANALIZACJI SANITARNEJ
+45231300-8
+1.1.1. CPV ROBOTY ZIEMNE
+1 45231300-8
+1 KNNR 1 Roboty pomiarowe przy liniowych robotach ziemnych km 0,025 4 117,98 102,95
+d.1.1.1 0111-01 - trasa dróg w terenie równinnym.
+.1
+2 KNR 2-01 Wykopy oraz przekopy wykonywane koparkami m3 (25 * 1,2 * 25,98 935,28
+d.1.1.1 0217-04 podsiębiernymi 0.25 m3 na odkład w gruncie kat. III - 1,5) * 0,8 =
+.1 80% 36,000
+3 KNNR 1 Wykopy liniowe wykonane ręcznie -20% wykopów. m3 (25 * 1,2 * 81,28 731,52
+d.1.1.1 0307-01 1,5) * 0,2 =
+.1 9,000
+4 KNNR 1 Zasypywanie wykopów o ścianach pionowych o m3 (25 * 1,2 * 54,19 2 438,55
+d.1.1.1 0318-01 szerokości 0.8-2.5 m i głęb.do 1.5 m w gr.kat. I-III 1,5) =
+.1 45,000
+5 KNR 2-01 Zagęszczenie nasypów ubijakami mechanicznymi; m3 45,000 10,49 472,05
+d.1.1.1 0236-01 grunty sypkie kat. I-III
+.1
+Razem dział: ROBOTY ZIEMNE 4 680,35
+1.1.1. CPV ROBOTY MONTAŻOWE
+2 45231300-8
+6 KNNR 4 Separator tłuszczu z osadnikiem fi1200 stud. 1,000 17 508,98 17 508,98
+d.1.1.1 1415-01
+.2
+7 KNNR 4 Montaż z rur PVC łączonych na wcisk o śr. zewn. m 25,000 102,14 2 553,50
+d.1.1.1 1308-02 160 mm
+.2
+8 KNNR 4 Studzienki kanalizacyjne systemowe o śr 315 mm - szt. 1,000 1 292,44 1 292,44
+d.1.1.1 1417-02 zamknięcie rurą teleskopową i włazem typu
+.2 ciężkiego.
+9 KNR-W 2-18 Kształtki PVC kanalizacji zewnętrznej szt 4,000 115,66 462,64
+d.1.1.1 0421-03 jednokielichowe łączone na wcisk
+.2
+10 KNR 2-18 Kanały rurowe - podłoża z materiałów sypkich o m2 25 * 1,2 = 36,31 1 089,30
+d.1.1.1 0501-02 grubości 15 cm 30,000
+.2
+11 KNR 2-18 Próba szczelności kanałów rurowych o śr.nom. do m 25,000 28,81 720,25
+d.1.1.1 0804-02 200 mm.
+.2
+Razem dział: ROBOTY MONTAŻOWE 23 627,11
+Razem dział: PRZYŁĄCZA KANALIZACJI SANITARNEJ 28 307,46
+1.1.2 CPV PRZYŁĄCZE WODY
+45231300-8
+1.1.2. CPV ROBOTY ZIEMNE
+1 45231300-8
+12 KNNR 1 Roboty pomiarowe przy liniowych robotach ziemnych km 0,025 4 117,98 102,95
+d.1.1.2 0111-01 - trasa dróg w terenie równinnym.
+.1
+13 KNNR 1 Wykopy liniowe o szerokości 0,8-2,5 m i głębokości m3 (25 * 1,4 * 81,28 142,24
+d.1.1.2 0307-01 do 1,5 m o ścianach pionowych w gruntach suchych 1) * 0,05 =
+.1 kat. I-II -5% wykopów. 1,750
+14 KNNR 1 Wykopy oraz przekopy o głęb.do 3.0 m wyk.na m3 (25 * 1,4 * 22,62 752,12
+d.1.1.2 0210-02 odkład koparkami podsiębiernymi o poj.łyżki 0.25 - 1) * 0,95 =
+.1 0.60 m3 w gr.kat. I-II. - 95% wykopów. 33,250
+15 KNNR 1 Zasypywanie wykopów mechanicznie m3 (25,0 * 1,4 4,82 168,70
+d.1.1.2 0215-01 * 1) =
+.1 35,000
+Razem dział: ROBOTY ZIEMNE 1 166,01
+1.1.2. CPV ROBOTY MONTAŻOWE
+2 45231300-8
+- 3 -
+Norma STANDARD - 365 Wersja: 5.17.100.8 Nr seryjny: 4539 Użytkownik: KLONEX II
+Kosztorys ofertowy
+Lp. Podstawa Opis j.m. Ilość Cena Wartość
+16 KNNR 4 Nawiertka do nawiercania pod ciśnieniem typ NWZ kpl. 2,000 1 071,95 2 143,90
+d.1.1.2 1101-01 fi90x63PE100
+.2
+17 KNNR 4 Zasuwy żeliwne klinowe owalne kielichowe o śr.50 kpl. 1,000 966,60 966,60
+d.1.1.2 1101-01 mm z obudową teleskopową i skrzynką uliczną
+.2
+18 KNNR 4 Próba wodna szczelności sieci wodociągowych z rur 200 0,010 1 957,09 19,57
+d.1.1.2 1606-01 typu HOBAS, PCW, PVC, PE, PEHD o śr. do 110 m -1
+.2 mm prób
+.
+19 KNNR 4 Sieci wodociągowe - montaż rurociągów z rur m 27,500 37,27 1 024,93
+d.1.1.2 1009-01 polietylenowych (PE, PEHD) o śr.zewnętrznej 63mm
+.2
+20 KNNR 4 Montaż kształtek ciśnieniowych PE, PEHD o szt 6,000 181,33 1 087,98
+d.1.1.2 1012-01 połączeniach zgrzewano-kołnierzowych (tuleje
+.2 kołnierzowe na luźny kołnierz) o śr.zewnętrznej do
+60mm
+21 KNR-W 2-19 Rury ochronne (osłonowe) z PE, PCW, PP o śr. nom. m 3,000 116,40 349,20
+d.1.1.2 0306-05 110x6.6mm z płaszczem ochronnym klasy TS
+.2
+Razem dział: ROBOTY MONTAŻOWE 5 592,18
+Razem dział: PRZYŁĄCZE WODY 6 758,19
+Razem dział: PRZYŁĄCZA ZEWNĘTRZNE 35 065,65
+1.2 KANALIZACJA DESZCZOWA
+1.2.1 Przyłacze kanalizacji deszczowej
+1.2.1. Roboty ziemne
+1
+22 KNR 2-01 Ręczne wykopy ciągłe lub jamiste ze skarpami o m3 114 * (1,2 * 91,20 2 495,23
+d.1.2.1 0310-02 szer.dna do 1.5 m i głębok.do 1.5m ze złożeniem 1,0) * 0,2 =
+.1 urobku na odkład (kat.gr.III) przyjęto 10% wykopu 27,360
+23 KNR 2-01 Wykopy oraz przekopy wykonywane koparkami m3 114 * (1,2 * 48,01 5 254,21
+d.1.2.1 0217-04 podsiębiernymi 0.25 m3 na odkład w gruncie kat. III 1,0) * 0,8 =
+.1 109,440
+24 KNR 2-01 Zasypywanie wykopów spycharkami z m3 109,440 6,37 697,13
+d.1.2.1 0230-01 przemieszczeniem gruntu na odl. do 10 m w gruncie
+.1 kat. I-III
+25 KNR 2-01 Zasypywanie wykopów liniowych o ścianach m3 27,360 79,07 2 163,36
+d.1.2.1 0320-0201 pionowych w gruntach kat.III-IV; głębokość do 1.5 m,
+.1 szerokość 0.8-1.5 m
+26 KNR 4-01 Wywóz ziemi samochodami skrzyniowymi na m3 41,000 281,89 11 557,49
+d.1.2.1 0108-01 odległość do 1 km grunt.kat. I-II
+.1
+Razem dział: Roboty ziemne 22 167,42
+1.2.1. Roboty montażowe
+2
+27 KNR-W 2-15 Dodatki za wykonanie podejść odpływowych z PVC o pode 8,000 220,28 1 762,24
+d.1.2.1 0211-08 śr. 110 mm o połączeniach klejonych j.
+.2
+28 KNNR 4 Montaż z rur PVC łączonych na wcisk o śr. zewn. m 39,000 102,14 3 983,46
+d.1.2.1 1308-02 160 mm
+.2
+29 KNNR 4 Montaż z rur PVC łączonych na wcisk o śr. zewn. m 9,5 + 4,5 + 102,14 3 350,19
+d.1.2.1 1308-02 200mm 18,8 =
+.2 32,800
+30 KNNR 4 Montaż z rur PVC łączonych na wcisk o śr. zewn. m 5,8 + 10,5 135,70 2 211,91
+d.1.2.1 1308-02 250mm = 16,300
+.2
+31 KNR-W 2-18 Kształtki PVC kanalizacji zewnętrznej szt 6,000 72,89 437,34
+d.1.2.1 0421-03 jednokielichowe łączone na wcisk o śr. zewn. 160,
+.2 200
+32 KNR-W 2-18 Studzienki kanalizacyjne systemowe "WAVIN" o śr szt. 5,000 1 282,68 6 413,40
+d.1.2.1 0517-02 315-425 mm - zamknięcie rurą teleskopową
+.2
+- 4 -
+Norma STANDARD - 365 Wersja: 5.17.100.8 Nr seryjny: 4539 Użytkownik: KLONEX II
+Kosztorys ofertowy
+Lp. Podstawa Opis j.m. Ilość Cena Wartość
+33 KNR-W 2-18 Studzienki kanalizacyjne systemowe "WAVIN" o śr szt. 2,000 1 622,67 3 245,34
+d.1.2.1 0517-02 600 mm - zamknięcie rurą teleskopową
+.2
+34 KNR 2-18 Kanały rurowe - podłoża z materiałów sypkich o m2 114 * 1,2 = 35,52 4 859,14
+d.1.2.1 0501-02 grubości 15 cm 136,800
+.2
+35 KNNR 6 Regulacja pionowa studzienek dla urządzeń m3 0,010 4 420,50 44,21
+d.1.2.1 1305-01 podziemnych przy objętości betonu w jednym
+.2 miejscu do 0.1 m3
+Razem dział: Roboty montażowe 26 307,23
+1.2.1. Zbiorniki na deszczówkę
+3
+1.2.1. Roboty ziemne
+3.1
+36 KNR 2-01 Wykopy oraz przekopy wykonywane koparkami m3 7,000 48,01 336,07
+d.1.2.1 0217-04 podsiębiernymi 0.25 m3 na odkład w gruncie kat. III
+.3.1
+37 KNR 2-01 Zasypywanie wykopów spycharkami z m3 7,000 6,37 44,59
+d.1.2.1 0230-01 przemieszczeniem gruntu na odl. do 10 m w gruncie
+.3.1 kat. I-III
+38 KNR 2-18 Montaż zbiornika szczelnego na deszczówkę stud. 1,000 11 046,68 11 046,68
+d.1.2.1 0614-08
+.3.1 analogia
+Razem dział: Roboty ziemne 11 427,34
+Razem dział: Zbiorniki na deszczówkę 11 427,34
+Razem dział: Przyłacze kanalizacji deszczowej 59 901,99
+Razem dział: KANALIZACJA DESZCZOWA 59 901,99
+Razem dział: ROBOTY ZEWNĘTRZNE 94 967,64
+- 5 -
+Norma STANDARD - 365 Wersja: 5.17.100.8 Nr seryjny: 4539 Użytkownik: KLONEX II
+Kosztorys ofertowy
+Lp. Podstawa Opis j.m. Ilość Cena Wartość
+2 ROBOTY WEWNĘTRZNE
+2.1 45332000-3 INSTALACJA KANALIZACJI SANITARNEJ PODPOSADZKOWEJ W BUDYNKU
+2.1.1 45231100-6 Roboty ziemne instalacji kanalizacji sanitarnej
+39 kalk. własna Obsługa geodezyjna kpl 1,000 1 422,35 1 422,35
+d.2.1.1
+40 KNR-W 2-01 Wykopy liniowe szer. 0.8-1.5 m pod fundamenty, m3 60, * 1 * 111,76 4 023,36
+d.2.1.1 0310-02 rurociągi, kolektory w gruntach suchych z 0,6 =
+wydobyciem urobku łopatą lub wyciągiem 36,000
+ręcznymkat. III-IV; głębokość do 1.5 m
+41 KNR-W 2-01 Plantowanie skarp i dna wykopów wykonywanych m2 36 * 1 = 11,24 404,64
+d.2.1.1 0506-01 ręcznie w gr. kat. I-III 36,000
+42 KNR 2-18 Kanały rurowe - podłoża z materiałów sypkich o m2 60 * 1 = 19,38 1 162,80
+d.2.1.1 0501-01 grub.10 cm 60,000
+43 KNR-W 2-19 Rury ochronne o śr.nom.250 mm m 2,000 269,73 539,46
+d.2.1.1 0119-03
+44 KNR-W 2-01 Zasypywanie wykopów liniowych o ścianach m3 36,000 82,63 2 974,68
+d.2.1.1 0312-02 pionowych głębokości do 1.5 m i szer. 0.8-1.5 m; kat.
+gr. III-IV
+45 KNR 2-01 Zagęszczenie nasypów ubijakami mechanicznymi; m3 70 * 1 * 0,2 10,49 146,86
+d.2.1.1 0236-01 grunty sypkie kat. I-III = 14,000
+46 KNR 2-01 Zagęszczenie nasypów ubijakami mechanicznymi; m3 14,000 10,49 146,86
+d.2.1.1 0236-01 grunty sypkie kat. I-III
+Razem dział: Roboty ziemne instalacji kanalizacji sanitarnej 10 821,01
+2.1.2 45330000-9 Roboty montażowe instalacja kanalizacji sanitarnej
+47 KNR-W 2-15 Dodatki za wykonanie podejść odpływowych z PP o pode 12,000 150,19 1 802,28
+d.2.1.2 0211-03 śr. 110 mm o połączeniach wciskowych j.
+48 KNR-W 2-15 Rurociągi z PVC kanalizacyjne o śr. 110 mm w m 48,000 48,63 2 334,24
+d.2.1.2 0203-03 gotowych wykopach, wewnątrz budynków o
+połączeniach wciskowych
+49 KNR-W 2-15 Rurociągi z PVC kanalizacyjne o śr. 160 mm w m 12,000 85,75 1 029,00
+d.2.1.2 0203-04 gotowych wykopach, wewnątrz budynków o
+połączeniach wciskowych
+50 KNR-W 2-18 Próba wodna szczelności kanałów rurowych o odc. 1,000 1 278,85 1 278,85
+d.2.1.2 0706-02 śr.nominalnej 200 mm -1
+prób
+.
+Razem dział: Roboty montażowe instalacja kanalizacji sanitarnej 6 444,37
+Razem dział: INSTALACJA KANALIZACJI SANITARNEJ PODPOSADZKOWEJ W BUDYNKU 17 265,38
+2.2 CPV INSTALACJA KANALIZACJI SANITARNEJ NADDPOSADZKOWEJ W BUDYNKU
+45332300-6
+2.2.1 CPV POZIOMY
+45332300-6
+51 KNNR 4 Dodatki za wykonanie podejść odpływowych z PVC o szt. 18,000 50,71 912,78
+d.2.2.1 0211-01 śr. 50 mm o połączeniach wciskowych
+52 KNNR 4 Dodatki za wykonanie podejść odpływowych z PVC o szt. 14,000 120,56 1 687,84
+d.2.2.1 0211-03 śr. 110 mm o połączeniach wciskowych
+53 KNNR 4 Rurociągi kanalizacyjne z PVC o śr. 32mm na m 22,000 23,27 511,94
+d.2.2.1 0208-01 ścianach w budynkach niemieszkalnych o
+analogia połączeniach wciskowych
+54 KNNR 4 Rurociągi kanalizacyjne z PVC o śr. 40 mm na m 6,000 24,44 146,64
+d.2.2.1 0208-01 ścianach w budynkach niemieszkalnych o
+analogia połączeniach wciskowych
+55 KNNR 4 Rurociągi kanalizacyjne z PVC o śr. 50 mm na m 18,000 26,31 473,58
+d.2.2.1 0208-01 ścianach w budynkach niemieszkalnych o
+połączeniach wciskowych
+56 KNNR 4 Rurociągi kanalizacyjne z PVC o śr. 75 mm na m 22,000 30,30 666,60
+d.2.2.1 0208-02 ścianach w budynkach niemieszkalnych o
+połączeniach wciskowych
+57 KNNR 4 Rurociągi kanalizacyjne z PVC o śr. 110 mm na m 22,000 44,72 983,84
+d.2.2.1 0208-03 ścianach w budynkach niemieszkalnych o
+połączeniach wciskowych
+58 KNNR 4 Rury wywiewne z PVC o połączeniu wciskowym o śr. szt. 3,000 223,95 671,85
+d.2.2.1 0213-05 110/160 mm
+59 KNR-W 2-15 Zawory napowietrzające pływakowe, Dn 50·mm szt. 1,000 60,58 60,58
+d.2.2.1 0412-05
+- 6 -
+Norma STANDARD - 365 Wersja: 5.17.100.8 Nr seryjny: 4539 Użytkownik: KLONEX II
+Kosztorys ofertowy
+Lp. Podstawa Opis j.m. Ilość Cena Wartość
+60 KNNR 4 Czyszczaki z PVC kanalizacyjne o śr. 110 mm o szt. 3,000 48,91 146,73
+d.2.2.1 0222-02 połączeniach wciskowych
+61 KNNR 4 Rewizja gazoszczelna nierdzewna 110/160 szt. 1,000 394,73 394,73
+d.2.2.1 0222-02
+62 KNNR 4 Wpust podłogowy 110 szt. 3,000 394,73 1 184,19
+d.2.2.1 0222-02
+63 KNR 5-18 Przebicia przez ściany betonowe grubości 30 cm szt. 2,000 158,47 316,94
+d.2.2.1 1712-07
+64 KNR 7-08 Przekucie otworów przez ściany i stropy z betonu dm3 350,000 10,84 3 794,00
+d.2.2.1 0904-02
+65 KNR 0-36 Uszczelnienie przejść instalacyjnych m 3,200 249,07 797,02
+d.2.2.1 1115-01 obw
+odu
+66 KNNR 4 Wpusty ściekowe z tworzywa sztucznego o śr. 50 szt. 3,000 182,20 546,60
+d.2.2.1 0218-01 mm
+Razem dział: POZIOMY 13 295,86
+2.2.2 CPV ARMAURA I BIAŁY MONTAŻ
+45332300-6
+2.2.2. CPV ARMATURA I BIAŁY MONTAŻ
+1 45332300-6
+67 KNNR 4 Umywalki pojedyncze porcelanowe z syfonem kpl. 6,000 988,95 5 933,70
+d.2.2.2 0230-01 podtynkowym
+.1
+68 KNNR 4 Umywalki pojedyncze porcelanowe z syfonem kpl. 1,000 988,95 988,95
+d.2.2.2 0230-01 podtynkowym dla osób niepełnosprawnych
+.1
+69 KNNR 4 Postument porcelanowy do umywalek kpl. 7,000 103,68 725,76
+d.2.2.2 0230-05
+.1
+70 KNNR 4 Pisuary pojedyncze z zaworem spłukującym kpl. 3,000 975,28 2 925,84
+d.2.2.2 0234-02
+.1
+71 KNNR 4 Ustępy z płuczką ustępową obejmujący stelaż i kpl. 6,000 2 502,48 15 014,88
+d.2.2.2 0233-03 przycisk.
+.1
+72 KNNR 4 Ustępy z płuczką ustępową dla osób kpl. 1,000 2 502,48 2 502,48
+d.2.2.2 0233-03 niepełnosprawnych obejmujący stelaż i przycisk.
+.1
+73 KNNR 4 Zlewozmywaki szt. 2,000 1 169,19 2 338,38
+d.2.2.2 0229-04
+.1
+74 KNNR 4 Zlewy techniczne szt. 1,000 796,53 796,53
+d.2.2.2 0229-01
+.1
+75 KNR 0-35 Baterie umywalkowe uruchomione łokciem dla osób szt. 1,000 677,66 677,66
+d.2.2.2 0114-01 niepełnosprawnych
+.1
+76 KNR 0-35 Baterie umywalkowe stojące śr. nom dn15mm szt. 6,000 677,66 4 065,96
+d.2.2.2 0114-01
+.1
+77 1 Baterie zlewozmywakowe stojące śr. nom dn15mm szt. 3,000 677,66 2 032,98
+d.2.2.2
+.1
+78 KNR 0-35 Zawór spłukujący do pisuaru szt. 3,000 486,21 1 458,63
+d.2.2.2 0114-05
+.1
+79 KNR 2-15 Zawory czerpalne o śr. nom. 15 mm szt. 2,000 28,51 57,02
+d.2.2.2 0114-01
+.1
+80 KNR 0-35 Maskownice do zakrywania otworów z wodomierzami kpl. 6,000 209,07 1 254,42
+d.2.2.2 0116-02 lub zaworami odcinającymi w ścianach o wym. 15x20
+.1 cm
+Razem dział: ARMATURA I BIAŁY MONTAŻ 40 773,19
+2.2.2. CPV WYPOSAŻENIE ŁAZIENEK DLA NIEPEŁNOSPRAWNYCH
+2 45332300-6
+- 7 -
+Norma STANDARD - 365 Wersja: 5.17.100.8 Nr seryjny: 4539 Użytkownik: KLONEX II
+Kosztorys ofertowy
+Lp. Podstawa Opis j.m. Ilość Cena Wartość
+81 KALKULACJ ZAKUP I MONTAŻ UCHWYTÓW DLA OSÓB szt. 4,000 1 495,25 5 981,00
+d.2.2.2 A WŁASNA NIEPEŁNOSPRAWNYCH
+.2
+Razem dział: WYPOSAŻENIE ŁAZIENEK DLA NIEPEŁNOSPRAWNYCH 5 981,00
+Razem dział: ARMAURA I BIAŁY MONTAŻ 46 754,19
+Razem dział: INSTALACJA KANALIZACJI SANITARNEJ NADDPOSADZKOWEJ W BUDYNKU 60 050,05
+2.3 45331100-7 INSTALACJA WEWNĘTRZNA CENTRALNEGO GRZEWANIA
+2.3.1 1. Ogrzewanie podłogowe
+82 KNR 0-31 Montaż ogrzewania podłogowego - układ wężownicy m2 98,000 122,55 12 009,90
+d.2.3.1 0301-02 ślimakowy - część instalacyjna; rurociągi z
+analogia polibutylenu PB o śr. 16 mm woda grzewcza o
+temperaturze 40/30 do 55/45 st. C
+83 KNR 0-31 Rozdzielacze do ogrzewania podłogowego HP10/16 kpl. 1,000 1 670,95 1 670,95
+d.2.3.1 0312-09 (9obwodów, 3/4"/16)
+analogia
+84 KNR 0-31 Rozdzielacze do ogrzewania podłogowego HP10/16 kpl. 1,000 1 787,34 1 787,34
+d.2.3.1 0312-09 (6obwodów, 3/4"/16)
+analogia
+85 S-215 Montaż szafki SWP-4,SWN-4 4-10 centralnego szt. 2,000 676,68 1 353,36
+d.2.3.1 0900-04 ogrzewania - system "rura w rurze"
+analogia
+86 KNR INSTAL Rura wielowarstwowa 25 x 3,0 PERT/Al/PERT w m 12,000 45,34 544,08
+d.2.3.1 0408-06 zwojach
+analogia
+87 KNR INSTAL Rura wielowarstwowa 32 x 3,0 PERT/Al/PERT w m 12,000 45,34 544,08
+d.2.3.1 0408-06 zwojach
+analogia
+88 Automatyka do ogrzewania podłogowego: kpl. 1,000 3 911,49 3 911,49
+d.2.3.1 kalk. własna Moduł rozszerzenia skrzynki podłączeniowej - 1szt.
+Skrzynka połączeniowa bezprzewodowa - 5szt.
+Siłownik term. 230 V gwint M30x1,5 - 44szt.
+Układy sterujące przewodowe zasilane bateryjnie
+(termostat) -24szt.
+89 KNR INSTAL Kształtki zaciskowe rozłączne do rur stalowych o kpl. 1,000 2 085,36 2 085,36
+d.2.3.1 0410-07 śr.zew. 32-63 mm
+analogia
+Razem dział: 1. Ogrzewanie podłogowe 23 906,56
+2.3.2 45331100-7 D.III.1 Roboty montażowe instalacji c.o
+90 KNR INSTAL Płukanie instalacji c.o. m 100,000 5,83 583,00
+d.2.3.2 0307-01
+91 KNR 0-31 Próba szczelności instalacji centralnego ogrzewania m 100,000 3,68 368,00
+d.2.3.2 0218-02 w budynkach mieszkalnych - próba wodna
+analogia ciśnieniowa
+92 KNR INSTAL Sprawdzenie działania instalacji c.o. podczas próby urzą 5,000 24,65 123,25
+d.2.3.2 0307-04 na gorąco z dokonaniem regulacji dz.
+Razem dział: D.III.1 Roboty montażowe instalacji c.o 1 074,25
+2.3.3 45450000-6 D.III.2 Roboty budowlane instalacji c.o.
+93 KNR-W 4-03 Mechaniczne przebijanie otworów w ścianach lub otw. 12,000 92,79 1 113,48
+d.2.3.3 1004-13 stropach betonowych o długości przebicia do 30 cm -
+śr.rury do 60 mm
+Razem dział: D.III.2 Roboty budowlane instalacji c.o. 1 113,48
+2.3.4 45321000-3 D.III.3 Roboty izolacyjne c.o.
+94 KNR 0-34 Izolacja rurociągów śr.28-48 mm otulinami - m 134,000 31,43 4 211,62
+d.2.3.4 0101-11 jednowarstwowymi gr.20 mm (N)
+Razem dział: D.III.3 Roboty izolacyjne c.o. 4 211,62
+Razem dział: INSTALACJA WEWNĘTRZNA CENTRALNEGO GRZEWANIA 30 305,91
+2.4 CPV INSTALACJA WODY ZIMNEJ , C.W.U,
+45332200-5
+2.4.1 CPV INSTALACJA WODY ZIMNEJ , C.W.U i p.poż
+45332200-5
+2.4.1. CPV Roboty montażowe instalacji zimnej i ciepłej wody
+1 45332200-5
+- 8 -
+Norma STANDARD - 365 Wersja: 5.17.100.8 Nr seryjny: 4539 Użytkownik: KLONEX II
+Kosztorys ofertowy
+Lp. Podstawa Opis j.m. Ilość Cena Wartość
+95 KNR-W 2-15 Dodatki za wykonanie obustronnych podejść do kpl. 1,000 96,26 96,26
+d.2.4.1 0123-02 wodomierzy skrzydełkowych o śr. nominalnej 20 mm
+.1 w rurociągach z tworzyw sztucznych
+96 KNR-W 2-15 Wodomierze skrzydełkowe domowe o śr. nominalnej kpl. 1,000 198,72 198,72
+d.2.4.1 0140-01 20 mm
+.1
+97 KNR-W 2-15 Zawory przelotowe i zwrotne instalacji szt. 5,000 58,14 290,70
+d.2.4.1 0130-03 wodociągowych z rur stalowych o śr. nominalnej 25
+.1 mm
+98 KNR-W 2-15 Zawory przelotowe i zwrotne instalacji szt. 3,000 66,65 199,95
+d.2.4.1 0130-02 wodociągowych z rur stalowych o śr. nominalnej 20
+.1 mm
+99 KNR-W 2-15 Zawory antyskarzeniowe typ EA instalacji szt. 2,000 936,42 1 872,84
+d.2.4.1 0130-03 wodociągowych z rur stalowych o śr. nominalnej 25
+.1 mm
+100 KNR-W 2-15 Zawory pierszeństwa instalacji wodociągowych z rur szt. 1,000 865,72 865,72
+d.2.4.1 0130-03 stalowych o śr. nominalnej 25 mm
+.1
+101 KNR-W 2-15 Zawory instalacji wodociągowych kątowe o śr. szt. 18,000 35,46 638,28
+d.2.4.1 0130-01 nominalnej 15 mm - zawory do baterii umywalkowych
+.1 i zlewowych stojących.
+102 KNR-W 2-15 Zawory ze złączką do węża instalacji szt. 2,000 35,46 70,92
+d.2.4.1 0130-01 wodociągowych z rur stalowych o śr. nominalnej 15
+.1 mm
+103 KNR 2-15 Hydrant przeciwpożarowy, podtynkowy DN 25 z szt. 1,000 2 098,76 2 098,76
+d.2.4.1 0120-02 wężem półsztywnym długości 30m i gaśnicą
+.1 proszkową umieszczoną pod zwijadłem o wymiarach
+75x90x18cm
+104 KNR 2-15 Zasobnik cwu o poj. 120 dm3 szt. 2,000 2 225,72 4 451,44
+d.2.4.1 0122-01
+.1
+105 KNR-W 2-15 Dodatki za podejścia dopływowe w rurociągach z szt. 8,000 144,76 1 158,08
+d.2.4.1 0116-06 tworzyw sztucznych do płuczek ustępowych o
+.1 połączeniu sztywnym o śr. zewnętrznej 20 mm
+106 KNR-W 2-15 Dodatki za podejścia dopływowe w rurociągach z szt. 22,000 75,60 1 663,20
+d.2.4.1 0116-01 tworzyw sztucznych do zaworów czerpalnych, baterii,
+.1 mieszaczy, hydrantów itp. o połączeniu sztywnym o
+śr. zewnętrznej 20 mm
+107 KNR 2-15 Rurociągi w instalacjach wodociągowych o śr. nom. m 43,000 57,15 2 457,45
+d.2.4.1 0104-03 25 mm stalowe ocynkowane o połączeniach
+.1 gwintowanych, na ścianach w budynkach
+niemieszkalnych
+108 KNR-W 2-15 Rurociąg z polietylenu sieciowanego PE-X/Al/PE m 39,000 65,38 2 549,82
+d.2.4.1 0410-05 25x2,5 sieci
+.1
+109 KNR-W 2-15 Rurociąg z polietylenu sieciowanego PE-X/Al/PE m 48,000 51,22 2 458,56
+d.2.4.1 0410-05 20x2,0 sieci
+.1
+110 KNR-W 2-15 Rurociąg z polietylenu sieciowanego PE-X/Al/PE m 123,000 51,22 6 300,06
+d.2.4.1 0410-05 16x2,0 sieci
+.1
+111 KNR 0-34 Izolacja rurociągów śr.12-22 mm otulinami m 123,000 14,10 1 734,30
+d.2.4.1 0101-01 Thermaflex FRZ - jednowarstwowymi gr.6 mm (C)
+.1
+112 KNR 0-34 Izolacja rurociągów śr.28 mm otulinami Thermaflex m 39 + 43 + 19,47 2 531,10
+d.2.4.1 0101-07 FRZ - jednowarstwowymi gr.13 mm (J) 48 =
+.1 130,000
+113 KNR-W 4-03 Ręczne wykucie bruzd m 106,000 15,79 1 673,74
+d.2.4.1 1001-13
+.1 analogia
+114 KNR-W 4-03 Ręczne przebijanie otworów w scianach lub stropach otw. 8,000 56,04 448,32
+d.2.4.1 1006-06 z cegły o długości przebicia do 1 cegły - śr.rury do 25
+.1 mm - budowle o wys.do 12 m
+115 KNNR-W 3 Wiercenie otworów o śr. 60 mm w konstrukcjach cm 260,000 5,97 1 552,20
+d.2.4.1 0408-08 żelbetowych wiertnicami diamentowymi
+.1
+- 9 -
+Norma STANDARD - 365 Wersja: 5.17.100.8 Nr seryjny: 4539 Użytkownik: KLONEX II
+Kosztorys ofertowy
+Lp. Podstawa Opis j.m. Ilość Cena Wartość
+116 KNR-W 4-03 Montaż przepustów rurowych w ścianie - długość prze 8,000 11,06 88,48
+d.2.4.1 1008-01 przepustu do 1 m - śr.zewnętrzna rury do 25 mm - pust.
+.1 budowle o wys.do 12 m
+117 KNR-W 4-03 Ręczne przebijanie otworów w scianach lub stropach otw. 6,000 67,21 403,26
+d.2.4.1 1006-07 z cegły o długości przebicia do 1 cegły - śr.rury do 40
+.1 mm - budowle o wys.do 12 m
+118 KNNR 4 Jednokrotne płukanie sieci wodociągowej o śr. odc. 1,000 73,31 73,31
+d.2.4.1 1612-01 nominalnej do 150 mm 200
+.1 m
+119 KNR-W 2-15 Próba szczelności instalacji wodociągowych z rur z m 106,000 7,95 842,70
+d.2.4.1 0127-01 tworzyw sztucznych w budynkach mieszkalnych
+.1 (rurociąg o śr. do 63 mm)
+Razem dział: Roboty montażowe instalacji zimnej i ciepłej wody 36 718,17
+2.4.1. UTYLIZACJA ODPADÓW
+2
+120 KNR 4-04 Transport gruzu z terenu rozbiórki przy ręcznym m3 2,100 283,73 595,83
+d.2.4.1 1101-02 załadowaniu i wyładowaniu samochodem
+.2 skrzyniowym na odległość do 1 km
+121 KNR 4-04 Transport gruzu z terenu rozbiórki przy ręcznym m3 2,100 103,58 217,52
+d.2.4.1 1101-05 załadowaniu i wyładowaniu samochodem
+.2 ciężarowym - dodatek za każdy następny rozpoczęty
+1 km
+Krotność = 10
+122 KALKULACJ OPŁATA ZA SKŁADOWANIE GRUZU NA m3 2,100 67,73 142,23
+d.2.4.1 A WŁASNA WYSYPISKU- OPŁATY ŚRODOWISKOWE
+.2
+Razem dział: UTYLIZACJA ODPADÓW 955,58
+Razem dział: INSTALACJA WODY ZIMNEJ , C.W.U i p.poż 37 673,75
+Razem dział: INSTALACJA WODY ZIMNEJ , C.W.U, 37 673,75
+2.5 CPV WENTYLACJA MECHANICZNA Z REKUPERACJĄ
+45331210-1
+2.5.1 UKŁAD WENTYLACJI MECHANICZNEJ CW1
+2.5.1. ROBOTY MONTAŻOWE UKŁAD CW1
+1
+123 KNR-W 2-17 Centrala wentylacyjna nawiewno-wywiewna z szt. 1,000 44 601,42 44 601,42
+d.2.5.1 0202-06 wymiennikiem krzyżowym z nagrzewnicą kanałową i
+.1 analogia osprzętem - CW1 Strumień obliczonej
+objetości powietrza:
+Gn = 1100m3/h
+Gw = 730 m3/h
+Spręż dyspozycyjny dobranej centrali:
+Hn = 440-325 Pa
+Hw = 435-320 Pa
+124 KNR-W 2-17 Tłumik rurowy fi200/fi300, L=80cm szt. 2,000 862,24 1 724,48
+d.2.5.1 0155-02
+.1
+125 KNR-W 2-17 Czerpnie ścienne kołowe 400 mm szt. 1,000 882,55 882,55
+d.2.5.1 0147-01
+.1
+126 KNR-W 2-17 Wyrzutnie dachowe kołowe o śr. do 400 mm szt. 1,000 928,00 928,00
+d.2.5.1 0145-01
+.1
+127 KNR-W 2-17 Podstawy dachowe stalowe prostokątne szt. 1,000 2 180,21 2 180,21
+d.2.5.1 0148-06 600x600mm.
+.1
+128 KNR 2-15 Montaż przewodów z blachy ocynkowanej z m 8,200 158,94 1 303,31
+d.2.5.1 0203-08 kształtkami, średnica dn 100mm
+.1 analogia
+129 KNR 2-15 Montaż przewodów z blachy ocynkowanej z m 26,500 195,84 5 189,76
+d.2.5.1 0203-09 kształtkami, średnica dn 125mm
+.1 analogia
+130 KNR 2-15 Montaż przewodów z blachy ocynkowanej z m 13,600 241,75 3 287,80
+d.2.5.1 0203-09 kształtkami, średnica dn 160mm
+.1 analogia
+- 10 -
+Norma STANDARD - 365 Wersja: 5.17.100.8 Nr seryjny: 4539 Użytkownik: KLONEX II
+Kosztorys ofertowy
+Lp. Podstawa Opis j.m. Ilość Cena Wartość
+131 KNR 2-15 Montaż przewodów z blachy ocynkowanej z m 16,200 234,47 3 798,41
+d.2.5.1 0203-10 kształtkami, średnica dn 200mm
+.1 analogia
+132 KNR 2-15 Montaż przewodów z blachy ocynkowanej z m 11,000 234,47 2 579,17
+d.2.5.1 0203-10 kształtkami, średnica dn 250mm
+.1 analogia
+133 KNR 2-15 Montaż przewodów z blachy ocynkowanej z m 19,000 234,47 4 454,93
+d.2.5.1 0203-10 kształtkami, średnica dn315mm
+.1 analogia
+134 KNR-W 2-17 Anemostat nawiewny okrągły Dn 100 szt. 2,000 172,87 345,74
+d.2.5.1 0140-01 - z kołnierzem montażowym
+.1 - z regulowaną szczeliną
+- łatwy do utrzymania w czystości
+- odporny na środki czyszczące i dezynfekcyjne
+obiekty modernizowane - wraz z próbą montażową -
+obiekty służby zdrowia lub szkolnictwa wyższego
+135 KNR-W 2-17 Anemostat wywiewny okrągły Dn 100 szt. 8,000 172,87 1 382,96
+d.2.5.1 0140-01 - z kołnierzem montażowym
+.1 - z regulowaną szczeliną
+- łatwy do utrzymania w czystości
+- odporny na środki czyszczące i dezynfekcyjne
+- wraz z próbą montażową - obiekty służby zdrowia
+lub szkolnictwa wyższego
+136 KNR-W 2-17 Anemostat nawiewny okrągły Dn 150 szt. 2,000 217,84 435,68
+d.2.5.1 0140-01 - z kołnierzem montażowym
+.1 - z regulowaną szczeliną
+- łatwy do utrzymania w czystości
+- odporny na środki czyszczące i dezynfekcyjne
+obiekty modernizowane - wraz z próbą montażową -
+obiekty służby zdrowia lub szkolnictwa wyższego
+137 KNR-W 2-17 Anemostat nawiewny okrągły Dn 125 szt. 2,000 217,84 435,68
+d.2.5.1 0140-01 - z kołnierzem montażowym
+.1 - z regulowaną szczeliną
+- łatwy do utrzymania w czystości
+- odporny na środki czyszczące i dezynfekcyjne
+obiekty modernizowane - wraz z próbą montażową -
+obiekty służby zdrowia lub szkolnictwa wyższego
+138 KNR-W 2-17 Anemostat nawiewny okrągły Dn 160 szt. 2,000 172,87 345,74
+d.2.5.1 0140-01 - z kołnierzem montażowym
+.1 - z regulowaną szczeliną
+- łatwy do utrzymania w czystości
+- odporny na środki czyszczące i dezynfekcyjne
+obiekty modernizowane - wraz z próbą montażową -
+obiekty służby zdrowia lub szkolnictwa wyższego
+139 KNR-W 2-17 Anemostat nawiewny okrągły Dn 160 szt. 2,000 172,87 345,74
+d.2.5.1 0140-01 - z kołnierzem montażowym
+.1 - z regulowaną szczeliną
+- łatwy do utrzymania w czystości
+- odporny na środki czyszczące i dezynfekcyjne
+obiekty modernizowane - wraz z próbą montażową -
+obiekty służby zdrowia lub szkolnictwa wyższego
+140 KNR-W 2-17 Klapy rewizyjne 80mm szt. 1,000 157,88 157,88
+d.2.5.1 0153-03
+.1
+141 KNR-W 2-17 Klapy rewizyjne 100mm szt. 4,000 157,88 631,52
+d.2.5.1 0153-03
+.1
+142 KNR-W 2-17 Klapy rewizyjne 125mm szt. 1,000 157,88 157,88
+d.2.5.1 0153-03
+.1
+143 KNR-W 2-17 Klapy rewizyjne 160mm szt. 1,000 157,88 157,88
+d.2.5.1 0153-03
+.1
+Razem dział: ROBOTY MONTAŻOWE UKŁAD CW1 75 326,74
+2.5.1. CPV Roboty izoloacyjne układu CW1
+2 45331210-1
+- 11 -
+Norma STANDARD - 365 Wersja: 5.17.100.8 Nr seryjny: 4539 Użytkownik: KLONEX II
+Kosztorys ofertowy
+Lp. Podstawa Opis j.m. Ilość Cena Wartość
+144 KNR-W 2-16 Izolacja matami z wełny mineralnej na folii m2 44,300 84,96 3 763,73
+d.2.5.1 0312-01 aluminiowejo gr. 50 powierzchni płaskich
+.2
+Razem dział: Roboty izoloacyjne układu CW1 3 763,73
+2.5.1. CPV Roboty budowlane towarzyszące
+3 45331210-1
+145 KNR 4-01 Przebicie otworów o powierzchni do 0.05 m2 szt. 2,000 97,53 195,06
+d.2.5.1 0208-02 Krotność = 2
+.3
+146 KNR 4-01 Przebicie otworów w ścianach z cegieł o grubości 3 szt. 21,000 141,56 2 972,76
+d.2.5.1 0333-06 ceg. na zaprawie wapiennej
+.3
+147 KNR 4-01 Uzupełnienie ścian lub zamurowanie otworów w m3 0,240 3 187,83 765,08
+d.2.5.1 0304-04 ścianach na zaprawie cementowej cegłami -
+.3 uzupełnienie szczelin przejść przez przegrody
+budowlane po montażu przewodów wentylacji
+mechanicznej.
+Razem dział: Roboty budowlane towarzyszące 3 932,90
+Razem dział: UKŁAD WENTYLACJI MECHANICZNEJ CW1 83 023,37
+2.5.2 UKŁAD WENTYLACJI MECHANICZNEJ CW2
+2.5.2. ROBOTY MONTAŻOWE UKŁAD CW2
+1
+148 KNR-W 2-17 Centrala wentylacyjna nawiewno-wywiewna z szt. 1,000 48 022,48 48 022,48
+d.2.5.2 0202-06 nagrzewnicą kanałową i osprzętem - CW2
+.1 analogia
+Strumień objetości powietrza dobranej centrali:
+Gn = 2000-3000 m?/h
+Gw = 2000-3000 m?/h
+Spręż dyspozycyjny dobranej centrali:
+Hn = 635-250 Pa
+Hw = 635-250 Pa
+149 KNR 2-15 Montaż przewodów z blachy ocynkowanej z m 3,49 * 4 = 241,75 3 374,83
+d.2.5.2 0203-09 kształtkami, średnica dn 160mm 13,960
+.1 analogia
+150 KNR 2-15 Montaż przewodów z blachy ocynkowanej z m 3,48 * 4 = 234,47 3 263,82
+d.2.5.2 0203-10 kształtkami, średnica dn 224mm 13,920
+.1 analogia
+151 KNR 2-15 Montaż przewodów z blachy ocynkowanej z m 36,000 234,47 8 440,92
+d.2.5.2 0203-10 kształtkami, średnica dn 280mm
+.1 analogia
+152 KNR 2-15 Montaż przewodów z blachy ocynkowanej z m 26,000 234,47 6 096,22
+d.2.5.2 0203-10 kształtkami, średnica dn 400mm
+.1 analogia
+153 KNR-W 2-17 Anemostat nawiewny okrągły Dn 160 szt. 8,000 172,87 1 382,96
+d.2.5.2 0140-01 - z kołnierzem montażowym
+.1 - z regulowaną szczeliną
+- łatwy do utrzymania w czystości
+- odporny na środki czyszczące i dezynfekcyjne
+obiekty modernizowane - wraz z próbą montażową -
+obiekty służby zdrowia lub szkolnictwa wyższego
+154 KNR-W 2-17 Anemostat wywiewny okrągły Dn 160 szt. 8,000 172,87 1 382,96
+d.2.5.2 0140-01 - z kołnierzem montażowym
+.1 - z regulowaną szczeliną
+- łatwy do utrzymania w czystości
+- odporny na środki czyszczące i dezynfekcyjne
+- wraz z próbą montażową - obiekty służby zdrowia
+lub szkolnictwa wyższego
+155 KNR-W 2-17 Tłumik rurowy fi200/fi300, L=80cm szt. 2,000 862,24 1 724,48
+d.2.5.2 0155-02
+.1
+156 KNR-W 2-17 Klapy rewizyjne 280mm szt. 1,000 157,88 157,88
+d.2.5.2 0153-03
+.1
+157 KNR-W 2-17 Klapy rewizyjne 400mm szt. 2,000 198,31 396,62
+d.2.5.2 0153-04
+.1
+- 12 -
+Norma STANDARD - 365 Wersja: 5.17.100.8 Nr seryjny: 4539 Użytkownik: KLONEX II
+Kosztorys ofertowy
+Lp. Podstawa Opis j.m. Ilość Cena Wartość
+158 KNR-W 2-17 Klapa p.poż 400 EIS60 szt. 4,000 104,40 417,60
+d.2.5.2 0131-04
+.1
+159 KNR-W 2-17 Czerpnie ścienne kołowe o śr. do 400 mm szt. 1,000 809,77 809,77
+d.2.5.2 0147-02
+.1
+160 KNR-W 2-17 Wyrzutnie dachowe kołowe typ śr. do 400 mm szt. 1,000 1 062,31 1 062,31
+d.2.5.2 0145-04
+.1
+Razem dział: ROBOTY MONTAŻOWE UKŁAD CW2 76 532,85
+2.5.2. CPV Roboty izoloacyjne układu NW
+2 45331210-1
+161 KNR-W 2-16 Izolacja matami z wełny mineralnej na folii m2 64,300 84,96 5 462,93
+d.2.5.2 0312-01 aluminiowejo gr. 50 powierzchni płaskich
+.2
+Razem dział: Roboty izoloacyjne układu NW 5 462,93
+2.5.2. CPV Roboty budowlane towarzyszące
+3 45331210-1
+162 KNR 4-01 Przebicie otworów o powierzchni do 0.05 m2 szt. 2,000 97,53 195,06
+d.2.5.2 0208-02 Krotność = 2
+.3
+163 KNR 4-01 Przebicie otworów w ścianach z cegieł o grubości 3 szt. 21,000 141,56 2 972,76
+d.2.5.2 0333-06 ceg. na zaprawie wapiennej
+.3
+164 KNR 4-01 Uzupełnienie ścian lub zamurowanie otworów w m3 0,240 3 187,83 765,08
+d.2.5.2 0304-04 ścianach na zaprawie cementowej cegłami -
+.3 uzupełnienie szczelin przejść przez przegrody
+budowlane po montażu przewodów wentylacji
+mechanicznej.
+Razem dział: Roboty budowlane towarzyszące 3 932,90
+Razem dział: UKŁAD WENTYLACJI MECHANICZNEJ CW2 85 928,68
+2.5.3 WENTYLACJA WYWIEWNA - OKAP
+165 KNR-W 2-17 Wentylator wyciągowy WD125 o prędkości obrotowej szt. 1,000 1 409,91 1 409,91
+d.2.5.3 0202-01 2979 obr./min i głośności 66 db(A), załączany
+analogia ręcznie. Wydajność wentylatora 330 m3/h, moc 34
+W, stopień ochrony IP44.
+166 KNR-W 2-17 Okap przyścienny skośny 1600×700×450 mm szt. 1,000 3 079,62 3 079,62
+d.2.5.3 0141-06 wykonany ze stali nierdzewnej. Okap powinien być
+wyposażony w filtry, w rynienkę ociekową na tłuszcz i
+skropliny ściekające z labiryntowych filtrów tłuszczu
+oraz w kranik do opróżniania zawartości rynienki.
+Podłączenie okapu do projektowanego komina
+należy wykonać jednościenną rurą stalową ze stali
+nierdzewnej.
+167 KNR 2-15 Montaż przewodów z blachy nierdzewnej z m 3,200 423,80 1 356,16
+d.2.5.3 0203-09 kształtkami, średnica dn 160mm
+analogia
+Razem dział: WENTYLACJA WYWIEWNA - OKAP 5 845,69
+2.5.4 WENTYLACJA WYWIEWNA - WC MĘSKI ,DAMSKI I NN
+168 KNR-W 2-17 Wentylator wyciągowy działającymi z higrostatem szt. 1,000 1 409,91 1 409,91
+d.2.5.4 0202-01 oraz z regulacją prędkości obrotowej, o niskim
+analogia poziomie hałasu o wydajność wentylatora min 380
+m3/h,Wentylator powinien posiadać wbudowany
+zawór zwrotny, zapobiegający napływowi powietrza
+do pomieszczenia, w czasie gdy wentylator jest
+wyłączony oraz utracie ciepła z wentylowanego
+pomieszczenia w czasie czuwania wentylatora.
+Wentylator powinien posiadać ochronę IP45
+169 KNR-W 2-17 Anemostat wywiewny okrągły Dn 100 szt. 8,000 172,87 1 382,96
+d.2.5.4 0140-01 - z kołnierzem montażowym
+- z regulowaną szczeliną
+- łatwy do utrzymania w czystości
+- odporny na środki czyszczące i dezynfekcyjne
+- wraz z próbą montażową - obiekty służby zdrowia
+lub szkolnictwa wyższego
+- 13 -
+Norma STANDARD - 365 Wersja: 5.17.100.8 Nr seryjny: 4539 Użytkownik: KLONEX II
+Kosztorys ofertowy
+Lp. Podstawa Opis j.m. Ilość Cena Wartość
+170 KNR 2-15 Montaż przewodów z blachy ocynkowanej z m 8,200 158,94 1 303,31
+d.2.5.4 0203-08 kształtkami, średnica dn 100mm
+analogia
+171 KNR 2-15 Montaż przewodów z blachy ocynkowanej z m 6,200 195,84 1 214,21
+d.2.5.4 0203-09 kształtkami, średnica dn 125mm
+analogia
+172 KNR 2-15 Montaż przewodów z blachy ocynkowanej z m 6,300 241,75 1 523,03
+d.2.5.4 0203-09 kształtkami, średnica dn 160mm
+analogia
+173 KNR 2-15 Montaż przewodów z blachy ocynkowanej z m 8,200 234,47 1 922,65
+d.2.5.4 0203-10 kształtkami, średnica dn 200mm
+analogia
+174 KNR-W 2-16 Izolacja matami z wełny mineralnej na folii m2 3,600 84,96 305,86
+d.2.5.4 0312-01 aluminiowejo gr. 50 powierzchni płaskich
+175 KNR-W 2-17 Wyrzutnie dachowe kołowe o śr. do 200 mm szt. 1,000 926,91 926,91
+d.2.5.4 0145-01
+Razem dział: WENTYLACJA WYWIEWNA - WC MĘSKI ,DAMSKI I NN 9 988,84
+2.5.5 CPV KLIMATYZACJA
+45331220-4)
+2.5.5. CPV Instalacja chłodnicza w budynku
+1 45331220-4)
+176 KNR 7-24 Wykonanie konstrukcji wsporczej do zamocowania kg 125,000 9,27 1 158,75
+d.2.5.5 0147-06 maszyn i urządzeń z elem.o masie 200 kg
+.1
+177 KNR 7-24 Wykonanie konstrukcji wsporczej do zamocowania kg 60,000 28,66 1 719,60
+d.2.5.5 0147-03 maszyn i urządzeń z elem.o masie 10 kg
+.1
+178 KNR 7-24 Montaż konstrukcji wsporczej do zamocowania kg 5,000 73,43 367,15
+d.2.5.5 0148-01 rurociągów i aparatów z elem.o masie 1 kg
+.1
+179 KNR 7-24 Agregat chłodniczy JZ1, moc chłodnicza 10,6 kW, szt. 2,000 18 180,17 36 360,34
+d.2.5.5 0130-03 moc grzania 10,8kW,
+.1
+180 KNR-W 2-15 Klimatyzator kasetonowy JW4, moc chłodnicza 3,6 szt. 2,000 6 500,05 13 000,10
+d.2.5.5 0432-01 kW, moc grzewcza 3,8 kW , sterowanie: panel
+.1 analogia naścienny, pompka skroplin
+181 KNR-W 7-09 Rurociągi z rur miedzianych w instalacji obiegu m 39,800 98,91 3 936,62
+d.2.5.5 2701-01 freonu z izolacją o śr. 6,35 mm
+.1
+182 KNR-W 7-09 Rurociągi z rur miedzianych w instalacji obiegu m 39,800 135,31 5 385,34
+d.2.5.5 2701-01 freonu z izolacją o śr. 12,7 mm
+.1
+183 KNR 7-24 Podłaczenie klimatyzatorów do instalacji chłodniczej szt. 4,000 27,77 111,08
+d.2.5.5 0236-01
+.1
+184 KNR-W 7-09 Spawanie ręczne w osłonie argonu metodą TIG złąc 11,000 7,72 84,92
+d.2.5.5 0801-01 rurociągów z miedzi i jej stopów o średnicy do 20.0 z.
+.1 mm.Grubość ścianki do 2.5 mm
+185 KNR 7-24 Przedmuchiwanie sprężonym powietrzem urządzeń i kpl. 0,500 3 427,85 1 713,93
+d.2.5.5 0501-01 instalacji chłodniczych wewnątrz - obieg bezpośredni
+.1 - wydajność urządzenia 30 tys. kcal/h
+186 KNR 7-24 Próba szczelności urządzeń i instalacji obiegu freonu kpl. 1,000 2 726,11 2 726,11
+d.2.5.5 0514-08 itp. o wydajności 15.0 tys.kcal/h
+.1
+187 KNR 7-24 Napełnienie urządzeń i instalacji obiegu freonu i kpl. 1,000 2 474,05 2 474,05
+d.2.5.5 0515-08 podobnych czynników czynnikiem chłodniczym -
+.1 wydajność 15.0 tys.kcal/h
+188 KNR 7-24 Uruchomienie i uzyskanie niskich temperatur - kpl. 1,000 3 050,31 3 050,31
+d.2.5.5 0516-08 wydajność 15.0 tys.kcal/h
+.1
+Razem dział: Instalacja chłodnicza w budynku 72 088,30
+2.5.5. CPV Roboty ogólnobudowlane
+2 45331220-4)
+- 14 -
+Norma STANDARD - 365 Wersja: 5.17.100.8 Nr seryjny: 4539 Użytkownik: KLONEX II
+Kosztorys ofertowy
+Lp. Podstawa Opis j.m. Ilość Cena Wartość
+189 KNR-W 4-03 Mechaniczne przebijanie otworów w ścianach lub otw. 161,000 71,80 11 559,80
+d.2.5.5 1004-11 stropach betonowych o długości przebicia do 30 cm -
+.2 śr.rury do 25 mm
+190 KNR-W 4-03 Mechaniczne przebijanie otworów w ścianach lub otw. 16,000 126,66 2 026,56
+d.2.5.5 1004-16 stropach betonowych o długości przebicia do 40 cm -
+.2 śr.rury do 25 mm
+191 KNR-W 4-03 Montaż przepustów rurowych w ścianie - długość prze 11,000 14,25 156,75
+d.2.5.5 1008-02 przepustu do 0,5 m - śr.zewnętrzna rury do 40 mm pust.
+.2
+192 wycena Przejścia p.poz rur niepalnych otw. 2,000 120,32 240,64
+d.2.5.5 własna
+.2
+Razem dział: Roboty ogólnobudowlane 13 983,75
+Razem dział: KLIMATYZACJA 86 072,05
+Razem dział: WENTYLACJA MECHANICZNA Z REKUPERACJĄ 270 858,63
+2.6 45330000-9 KOTŁOWNIA
+2.6.1 45330000-9 Roboty montażowe kotłowni - technologia
+193 KNNR 4 Zewnętrzna powietrzna pompa ciepła kaskadowa o szt. 2,000 29 220,83 58 441,66
+d.2.6.1 0507-10 mocy grzewczej 14 KW - TYP: TYP:
+analogia YKF16ARB + YKF160ANB
+WYDAJNOŚĆ GRZEWCZA DLA TEMP.
+ZEW/ZASILANIA -25°C: 16 kW
+MOŻLIWOŚĆ STEROWANIA STYKIEM ON/OFF;
+WBUDOWANA POMPA C.O.; ZAWÓR
+BEZPIECZEŃSTWA 3 BAR
+ZASILANIE 380-415/3/50
+194 Prace związane z montażem pompy ciepła, wraz z kpl. 1,000 23 236,18 23 236,18
+d.2.6.1 analiza osprzętem, rurociągami preizolowanymi,
+indywidualna sterowaniem, automatyką oraz posadowieniem.
+195 KNR 0-35 Urządzemia technologiczne pompy ciepła wg rys.S-7 kpl. 1,000 13 660,80 13 660,80
+d.2.6.1 0221-06
+196 KNR-W 2-15 Złącze samoodcinające SU 1" szt. 3,000 197,42 592,26
+d.2.6.1 0525-01
+197 KNR 0-35 Bufor ciepła V=200l szt. 1,000 5 401,84 5 401,84
+d.2.6.1 0121-09
+analogia
+198 KNR-W 2-15 separator zanieczyszczeń i powietrza szt. 1,000 1 646,80 1 646,80
+d.2.6.1 0527-04
+199 KNR 0-35 Pompa obiegu instalacji górnego źródła (wg dostawy szt. 2,000 2 512,72 5 025,44
+d.2.6.1 0208-02 z pompą ciepła).
+200 KNR-W 2-15 Rozdzielacze do kotłów i instalacji c.o. z rur o śr. m 3,000 307,73 923,19
+d.2.6.1 0513-01 nominalnej do 40 mm z izolacja i obudową z blachy
+ocynkowanej
+201 KNR 0-35 Pompa obiegu centralnego ogrzewania szt. 2,000 2 350,77 4 701,54
+d.2.6.1 0208-03 ELEKTRONICZNA 25/60
+202 KNR 0-35 Pompa obiegu centralnego ogrzewania szt. 3,000 2 350,77 7 052,31
+d.2.6.1 0208-03 ELEKTRONICZNA 25/40
+203 KNR-W 2-15 Czujnik temperatury zewnętrznej szt. 1,000 743,23 743,23
+d.2.6.1 0530-03
+204 KNR-W 2-15 Manometry montowane wraz z wykonaniem tulei szt. 6,000 232,33 1 393,98
+d.2.6.1 0530-04
+205 KNR-W 2-15 Termometry montowane wraz z wykonaniem tulei szt. 6,000 205,62 1 233,72
+d.2.6.1 0530-03
+206 KNR-W 2-15 Czujnik temperatury zanurzeniowy z osłona czujnika szt. 4,000 612,08 2 448,32
+d.2.6.1 0530-03
+207 KNR-W 2-15 Czujnik temperatury wody w podgrzewaczu szt. 1,000 608,78 608,78
+d.2.6.1 0530-03
+208 KNR-W 2-15 Zawór napełniania instalacji 3/4" szt. 1,000 406,82 406,82
+d.2.6.1 0525-01
+209 KNR-W 2-15 Zawór ze złączką do węża dn=25 mm szt. 1,000 46,98 46,98
+d.2.6.1 0411-03
+210 KNR-W 2-15 Filtr siatkowy o połączeniach gwintowanych o śr. szt. 2,000 228,06 456,12
+d.2.6.1 0411-06 nominalnej 50mm
+- 15 -
+Norma STANDARD - 365 Wersja: 5.17.100.8 Nr seryjny: 4539 Użytkownik: KLONEX II
+Kosztorys ofertowy
+Lp. Podstawa Opis j.m. Ilość Cena Wartość
+211 KNR-W 2-15 Filtr siatkowy o połączeniach gwintowanych o śr. szt. 1,000 101,08 101,08
+d.2.6.1 0411-04 nominalnej 25 mm
+212 KNR-W 2-15 Zawory przelotowe o połączeniach gwintowanych o szt. 9,000 228,06 2 052,54
+d.2.6.1 0411-06 śr. nominalnej 50 mm
+213 KNR-W 2-15 Zawory przelotowe o połączeniach gwintowanych o szt. 2,000 104,20 208,40
+d.2.6.1 0411-04 śr. nominalnej 40 mm
+214 KNR-W 2-15 Zawory przelotowe o połączeniach gwintowanych o szt. 3,000 84,52 253,56
+d.2.6.1 0411-04 śr. nominalnej 32 mm
+215 KNR-W 2-15 Zawory przelotowe o połączeniach gwintowanych o szt. 6,000 55,59 333,54
+d.2.6.1 0411-03 śr. nominalnej 25 mm
+216 KNR-W 2-15 Zawory przelotowe o połączeniach gwintowanych o szt. 2,000 40,51 81,02
+d.2.6.1 0411-02 śr. nominalnej 20 mm
+217 KNR-W 2-15 Zawory przelotowe o połączeniach gwintowanych o szt. 8,000 32,27 258,16
+d.2.6.1 0411-01 śr. nominalnej 15 mm
+218 KNR-W 2-15 Zawory zwrotne o połączeniach gwintowanych o śr. szt. 2,000 201,17 402,34
+d.2.6.1 0411-06 nominalnej 50 mm
+219 KNR-W 2-15 Zawory zwrotne o połączeniach gwintowanych o śr. szt. 1,000 74,62 74,62
+d.2.6.1 0411-04 nominalnej 25 mm
+220 KNR-W 2-15 Zawory zwrotne o połączeniach gwintowanych o śr. szt. 1,000 38,89 38,89
+d.2.6.1 0411-02 nominalnej 20 mm
+221 KNR-W 2-15 Rurociągi z rur stalowych czarnych o śr. nominalnej m 12,000 103,13 1 237,56
+d.2.6.1 0514-05 50 mm i grubości ścianek do 3.65 mm łączonych
+przez spawanie
+222 KNR-W 2-15 Rurociągi z rur stalowych czarnych o śr. nominalnej m 12,000 77,06 924,72
+d.2.6.1 0514-03 40 mm łączonych przez spawanie
+223 KNR-W 2-15 Rurociągi z rur stalowych czarnych o śr. nominalnej m 6,000 64,68 388,08
+d.2.6.1 0514-02 32 mm łączonych przez spawanie
+224 KNR-W 2-15 Rurociągi z rur stalowych czarnych o śr. nominalnej m 6,000 56,68 340,08
+d.2.6.1 0514-02 20 mm łączonych przez spawanie
+225 KNR-W 2-15 Rurociągi z rur stalowych czarnych o śr. nominalnej m 5,000 48,27 241,35
+d.2.6.1 0514-01 15 mm łączonych przez spawanie
+226 KNR-W 7-12 Czyszczenie przez szczotkowanie ręczne do m2 3,400 69,29 235,59
+d.2.6.1 0101-04 trzeciego stopnia czystości rurociągów o średnicy
+zewnętrznej do 57 mm (stan wyjściowy powierzchni
+B)
+227 KNR-W 7-12 Czyszczenie przez szczotkowanie ręczne do m2 1,500 40,27 60,41
+d.2.6.1 0101-05 trzeciego stopnia czystości rurociągów o średnicy
+zewnętrznej 58-219 mm (stan wyjściowy powierzchni
+B)
+228 KNR-W 7-12 Malowanie pędzlem farbami do gruntowania m2 3,400 42,00 142,80
+d.2.6.1 0201-04 miniowymi rurociągów o średnicy zewnętrznej do 57
+mm
+Krotność = 2
+229 KNR-W 7-12 Malowanie pędzlem farbami do gruntowania m2 1,500 27,17 40,76
+d.2.6.1 0201-05 miniowymi rurociągów o średnicy zewnętrznej 58-219
+mm
+Krotność = 2
+230 KNR-W 2-15 Próby szczelności instalacji c.o. z rur stalowych i m 8 + 12 + 6 7,04 260,48
+d.2.6.1 0406-02 miedzianych w budynkach niemieszkalnych + 6 + 5 =
+37,000
+231 KNR-W 2-15 Rurociągi stalowe podwójnie ocynkowane o śr. m 12,000 97,47 1 169,64
+d.2.6.1 0106-05 nominalnej 40 mm o połączeniach gwintowanych, na
+z.sz.3.3. ścianach w budynkach niemieszkalnych -
+9903-1 hydrofornie, kotłownie itp.
+232 KNR-W 2-15 Rurociągi stalowe podwójnie ocynkowane o śr. m 12,000 84,06 1 008,72
+d.2.6.1 0106-04 nominalnej 32 mm o połączeniach gwintowanych, na
+z.sz.3.3. ścianach w budynkach niemieszkalnych -
+9903-1 hydrofornie, kotłownie itp.
+233 KNR-W 2-15 Rurociągi stalowe podwójnie ocynkowane o śr. m 5,000 67,14 335,70
+d.2.6.1 0106-03 nominalnej 25 mm o połączeniach gwintowanych, na
+z.sz.3.3. ścianach w budynkach niemieszkalnych -
+9903-1 hydrofornie, kotłownie itp.
+234 KNR-W 2-15 Rurociągi stalowe podwójnie ocynkowane o śr. m 10,000 56,27 562,70
+d.2.6.1 0106-02 nominalnej 20 mm o połączeniach gwintowanych, na
+z.sz.3.3. ścianach w budynkach niemieszkalnych -
+9903-1 hydrofornie, kotłownie itp.
+- 16 -
+Norma STANDARD - 365 Wersja: 5.17.100.8 Nr seryjny: 4539 Użytkownik: KLONEX II
+Kosztorys ofertowy
+Lp. Podstawa Opis j.m. Ilość Cena Wartość
+235 KNR-W 2-15 Rurociągi stalowe podwójnie ocynkowane o śr. m 3,000 46,43 139,29
+d.2.6.1 0106-01 nominalnej 15 mm o połączeniach gwintowanych, na
+z.sz.3.3. ścianach w budynkach niemieszkalnych -
+9903-1 hydrofornie, kotłownie itp.
+236 KNR-W 2-15 Próba szczelności instalacji wodociągowych z rur m 84,000 5,74 482,16
+d.2.6.1 0126-04 żeliwnych, stalowych i miedzianych w budynkach
+niemieszkalnych (rurociąg o śr. do 65 mm)
+237 KNR-W 2-15 Próby szczelności węzłów cieplnych węz 1,000 433,48 433,48
+d.2.6.1 0516-03 wymiennikowych o ogólnej powierzchni ogrzewalnej eł
+wymienników do 25 m2
+238 KNR-W 2-15 Uruchomienie układu kpl. 1,000 10 144,24 10 144,24
+d.2.6.1 0517-01
+analogia
+Razem dział: Roboty montażowe kotłowni - technologia 149 971,88
+2.6.2 45321000-3 Roboty izolacyjne
+239 KNZ-15 Montaż otulin termoizolacyjnych dla rurociągów o śr. m 12,000 58,30 699,60
+d.2.6.2 30-04 50 mm, gr. izolacji 50 mm
+240 KNZ-15 Montaż otulin termoizolacyjnych dla rurociągów o śr. m 12,000 48,47 581,64
+d.2.6.2 29-04 40 mm, gr. izolacji 40 mm
+241 KNZ-15 Montaż otulin termoizolacyjnych dla rurociągów o śr. m 6,000 45,77 274,62
+d.2.6.2 28-04 32 mm, gr. izolacji 40 mm
+242 KNZ-15 Montaż otulin termoizolacyjnych dla rurociągów o śr. m 6,000 36,37 218,22
+d.2.6.2 26-03 20 mm, gr. izolacji 30 mm
+243 KNZ-15 Montaż otulin termoizolacyjnych dla rurociągów o śr. m 5,000 30,65 153,25
+d.2.6.2 25-01 15 mm, gr. izolacji 20 mm
+244 KNR 0-34 Izolacja rurociągów śr.50mm otulinami - m 10,000 35,76 357,60
+d.2.6.2 0101-08 jednowarstwowymi gr.13 mm (J) - w kotłowniach
+z.o.3.1.
+9903-1
+245 KNR 0-34 Izolacja rurociągów śr.40 mm otulinami - m 12,000 27,32 327,84
+d.2.6.2 0101-07 jednowarstwowymi gr.13 mm (J) - w kotłowniach
+z.o.3.1.
+9903-1
+246 KNR 0-34 Izolacja rurociągów śr.32 mm otulinami - m 12,000 25,51 306,12
+d.2.6.2 0101-07 jednowarstwowymi gr.13 mm (J) - w kotłowniach
+z.o.3.1.
+9903-1
+247 KNR 0-34 Izolacja rurociągów śr.25 mm otulinami - m 5,000 24,22 121,10
+d.2.6.2 0101-07 jednowarstwowymi gr.13 mm (J) - w kotłowniach
+z.o.3.1.
+9903-1
+248 KNR 0-34 Izolacja rurociągów śr.20 mm otulinami - m 10,000 40,24 402,40
+d.2.6.2 0101-19 jednowarstwowymi gr.30 mm (S) - w kotłowniach
+z.o.3.1.
+9903-1
+249 KNR 0-34 Izolacja rurociągów śr.15 mm otulinami - m 3,000 27,86 83,58
+d.2.6.2 0101-10 jednowarstwowymi gr.20 mm (N) - w kotłowniach
+z.o.3.1.
+9903-1
+Razem dział: Roboty izolacyjne 3 525,97
+Razem dział: KOTŁOWNIA 153 497,85
+Razem dział: ROBOTY WEWNĘTRZNE 569 651,57
+Kosztorys netto 664 619,21
+VAT 23% 152 862,42
+Kosztorys brutto 817 481,63
+- 17 -
+Norma STANDARD - 365 Wersja: 5.17.100.8 Nr seryjny: 4539 Użytkownik: KLONEX II
+Spis treści
+Strona Tytułowa 1
+Ogólna charakterystyka obiektu 2
+Kosztorys ofertowy 3
+1.ROBOTY ZEWNĘTRZNE 3
+2.ROBOTY WEWNĘTRZNE 6
+Spis treści 18
+- 18 -
+Norma STANDARD - 365 Wersja: 5.17.100.8 Nr seryjny: 4539 Użytkownik: KLONEX II

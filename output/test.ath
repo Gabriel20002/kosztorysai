@@ -1,0 +1,47 @@
+[NAGLOWEK]
+  Typ=Kosztorys
+  Wersja=1
+  Data utworzenia=2026-02-26
+
+[PRZEDMIOT_KOSZTORYSU]
+  Nazwa="Test"
+  Adres=""
+
+[STRONA_TYTULOWA INWESTOR]
+  Nazwa=""
+  Adres=""
+
+[STRONA_TYTULOWA WYKONAWCA]
+  Nazwa="KLONEKS"
+  Adres=""
+
+[PARAMETRY]
+  Stawka robocizny=35.00
+  Stawka sprzetu=100.00
+  Koszty posrednie=70.0
+  Zysk=12.0
+  VAT=23.0
+
+[POZYCJA 1]
+  Podstawa="KNR 2-31 0703-03"
+  Opis="Rozbiórka nawierzchni"
+  Jednostka="m2"
+  Ilosc=150.0000
+  R=450.00
+  M=0.00
+  S=225.00
+  Wartosc=675.00
+
+[RMS ZEST 1]
+  R robocizna r-g 12.8571 35.00
+  S sprzet m-g 2.2500 100.00
+
+[PODSUMOWANIE]
+  Robocizna=450.00
+  Materialy=0.00
+  Sprzet=225.00
+  Koszty posrednie=472.50
+  Zysk=137.70
+  Netto=1285.20
+  VAT=295.60
+  Brutto=1580.80

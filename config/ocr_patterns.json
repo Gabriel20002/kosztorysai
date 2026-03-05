@@ -1,0 +1,47 @@
+{
+  "_comment": "Konfigurowalne wzorce OCR dla TextFixer. Regex -> replacement. {} = liczba z dopasowania.",
+  
+  "ocr_patterns": {
+    "otiße?\\d+": "odległość do {} km",
+    "odleg[łl]o[śs][ćc]\\s*\\d+": "odległość do {} km",
+    "przem\\d+": "przemysłowa",
+    "co\\s*\\d{3,}": "co 3-4 m",
+    "gr\\.\\s*\\d+\\s*cm": "grubości {} cm",
+    "szer\\.\\s*\\d+": "szerokości {} cm",
+    "wys\\.\\s*\\d+": "wysokości {} cm",
+    "śr\\.\\s*\\d+": "średnicy {} mm",
+    "fi\\s*\\d+": "fi {} mm",
+    "cermentow": "cementow",
+    "betonu\\s+cermentowego": "betonu cementowego"
+  },
+  
+  "rms_separators": [
+    "--\\s*R\\s*--",
+    "-+\\s*R\\s*-*",
+    "--\\s*M\\s*--",
+    "-+\\s*M\\s*-*",
+    "--\\s*S\\s*--",
+    "-+\\s*S\\s*-*"
+  ],
+  
+  "cp1250_fix": {
+    "ą": "ą", "ć": "ć", "ę": "ę", "ł": "ł", "ń": "ń",
+    "ó": "ó", "ś": "ś", "ź": "ź", "ż": "ż",
+    "Ą": "Ą", "Ć": "Ć", "Ę": "Ę", "Ł": "Ł", "Ń": "Ń",
+    "Ó": "Ó", "Ś": "Ś", "Ź": "Ź", "Ż": "Ż",
+    "¹": "ą", "³": "ł", "¿": "ż", "£": "Ł",
+    "ďż˝": "", "�": ""
+  },
+  
+  "unit_mapping": {
+    "m2": "m2", "m²": "m2", "mkw": "m2", "mkw.": "m2",
+    "m3": "m3", "m³": "m3", "m.szes": "m3",
+    "m": "m", "mb": "m", "mb.": "m", "m.b.": "m",
+    "szt": "szt.", "szt.": "szt.", "sztuk": "szt.",
+    "kpl": "kpl.", "kpl.": "kpl.", "komplet": "kpl.",
+    "kg": "kg", "kilogram": "kg",
+    "t": "t", "tona": "t",
+    "r-g": "r-g", "rg": "r-g", "r-": "r-g", "roboczogodzina": "r-g",
+    "m-g": "m-g", "maszynogodzina": "m-g"
+  }
+}
