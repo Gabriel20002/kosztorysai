@@ -334,11 +334,11 @@ class KosztorysGenerator:
                 found_positions = zuzia
                 parser_used = 'zuzia'
 
-        if len(found_positions) < self._MIN_POSITIONS:
-            norma_std = self._parse_with_norma_standard_d(pdf_path)
-            if len(norma_std) > len(found_positions):
-                found_positions = norma_std
-                parser_used = 'norma_standard_d'
+        # Norma Standard d-parser — zawsze sprawdzany (lepsze KNR niż regex)
+        norma_std = self._parse_with_norma_standard_d(pdf_path)
+        if len(norma_std) > len(found_positions):
+            found_positions = norma_std
+            parser_used = 'norma_standard_d'
 
         if len(found_positions) < self._MIN_POSITIONS:
             ocr_pipe = self._parse_with_ocr_pipe_table(pdf_path)
@@ -635,6 +635,12 @@ class KosztorysGenerator:
                         continue
                     if _NEXT_POS_PATTERN.match(next_line):
                         break
+                    # Pomiń linie akcji/kalkulacji SST: "d.1.1. 0308-04 + 1.1 KNNR 5 ..."
+                    if re.match(r'^d\.\d', next_line):
+                        continue
+                    # Pomiń linie kalkulacyjne zawierające KNR (np. "1.1 KNNR 5 KNNR 5 36 + 3...")
+                    if _KNR_SIMPLE_PATTERN.search(next_line):
+                        continue
                     if next_line and len(next_line) > 5:
                         opis += ' ' + next_line
 
@@ -868,20 +874,27 @@ class KosztorysGenerator:
                 all_rows = []
                 for page in pdf.pages:
                     words = page.extract_words(x_tolerance=3, y_tolerance=3)
-                    content = [w for w in words if _COL_HDR_YMAX <= w['top'] <= _COL_FTR_YMIN]
+                    # Wykryj dolną granicę nagłówka kolumn per-strona (wiersz z "Lp.")
+                    hdr_word = next((w for w in words if w['text'] == 'Lp.'), None)
+                    min_y = (hdr_word['top'] + 12) if hdr_word else _COL_HDR_YMAX
+                    content = [w for w in words if min_y <= w['top'] <= _COL_FTR_YMIN]
                     all_rows.extend(_group_words_by_row(content, y_tolerance=4))
 
             for row in all_rows:
                 left  = [w for w in row if w['x0'] < 100]
-                knr_w = [w for w in row if 100 <= w['x0'] < 162]
-                desc  = [w for w in row if 162 <= w['x0'] < 410]
+                # Kolumna KNR kończy się przed x=161 — opis zaczyna się od ~161.9
+                # jm zaczyna się od ~402 (szt./kpl. na x=404.9, m2 na x=405.7)
+                knr_w = [w for w in row if 100 <= w['x0'] < 161]
+                desc  = [w for w in row if 161 <= w['x0'] < 402]
                 vals  = [w for w in row if w['x0'] > 445]
+                jm_w  = [w for w in row if 402 <= w['x0'] < 445]
 
                 left_text = ' '.join(w['text'] for w in left).strip()
                 knr_text  = ' '.join(w['text'] for w in knr_w).strip()
 
-                # Wiersz nagłówka pozycji: left = cyfra lp, knr = kod katalogowy
-                if _LP_PAT.match(left_text) and _KNR_SIMPLE_PATTERN.search(knr_text):
+                # Wiersz nagłówka pozycji: left = cyfra lp + KNR lub jm obecne
+                # (handles: KNR-W X-XX, KNR K-04, KNR AT-16, kalk. własna)
+                if _LP_PAT.match(left_text) and (_KNR_SIMPLE_PATTERN.search(knr_text) or jm_w):
                     if current is not None and current['_q'] != 0:
                         positions.append(self._finalise_coord_pos(current))
                     elif current is not None and current['_vals']:
@@ -889,7 +902,6 @@ class KosztorysGenerator:
                         current['_q'] = sum(current['_vals'])
                         if current['_q'] > 0:
                             positions.append(self._finalise_coord_pos(current))
-                    jm_w = [w for w in row if 405 <= w['x0'] < 445]
                     current = {
                         'lp':    int(left_text),
                         '_k':    [w['text'] for w in knr_w],

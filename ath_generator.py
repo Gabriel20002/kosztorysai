@@ -89,7 +89,7 @@ def _parse_podstawa(podstawa: str) -> Tuple[str, str, str]:
     m = re.match(
         r'^(KN+R(?:-[A-Z]+)?|KSNR|KNK|AT|AL)'
         r'\s+'
-        r'([A-Za-z]*[\d]+-?[\d]*)'
+        r'([A-Za-z]*-?[\d]+-?[\d]*)'
         r'(?:\s+(\d{4}-\d{2}))?',
         s, re.IGNORECASE,
     )
