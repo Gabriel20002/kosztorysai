@@ -1470,10 +1470,17 @@ class KosztorysGenerator:
             n = self._naklady_index[podstawa_norm]
             return n.get('R', 0), n.get('M', 0), n.get('S', 0), 0.95, 'exact', n.get('knr', podstawa)
 
-        # Częściowe dopasowanie
-        for knr_norm, n in self._naklady_index.items():
-            if podstawa_norm in knr_norm or knr_norm in podstawa_norm:
-                return n.get('R', 0), n.get('M', 0), n.get('S', 0), 0.7, 'partial', n.get('knr', podstawa)
+        # Częściowe dopasowanie (tylko gdy podstawa niepusta — pusta pasuje do WSZYSTKIEGO)
+        if podstawa_norm:
+            for knr_norm, n in self._naklady_index.items():
+                if podstawa_norm in knr_norm or knr_norm in podstawa_norm:
+                    return n.get('R', 0), n.get('M', 0), n.get('S', 0), 0.7, 'partial', n.get('knr', podstawa)
+
+        # Dokładne dopasowanie po opisie (dla pozycji bez KNR wyekstrahowanych z ATH)
+        opis_key_norm = _WHITESPACE_PATTERN.sub('', ('OPIS:' + opis.upper().strip()))
+        if opis_key_norm in self._naklady_index:
+            n = self._naklady_index[opis_key_norm]
+            return n.get('R', 0), n.get('M', 0), n.get('S', 0), 0.85, 'opis_exact', n.get('knr', podstawa)
 
         # Szukaj po opisie (fuzzy)
         opis_lower = opis.lower()
