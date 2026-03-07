@@ -854,7 +854,7 @@ class KosztorysGenerator:
           405–445  → j.m.
           > 445    → wartości Poszcz. i RAZEM
         """
-        _LP_PAT      = re.compile(r'^\d+$')
+        _LP_PAT      = re.compile(r'^\d+(\.\d+)*$')  # obsługuje "1", "1.1", "1.1.1"
         _D_PAT       = re.compile(r'^d\.[\d.]+$', re.IGNORECASE)          # d.1 / d.1.1 / d.1.2
         _D_MERGED    = re.compile(r'^(d\.[\d.]+?)(\d{4}-\d{2,4})$', re.IGNORECASE)  # d.1.10201-01
         _ACT_PAT     = re.compile(r'^\d{4}-\d{2,4}$')
@@ -903,7 +903,7 @@ class KosztorysGenerator:
                         if current['_q'] > 0:
                             positions.append(self._finalise_coord_pos(current))
                     current = {
-                        'lp':    int(left_text),
+                        'lp':    int(left_text.split('.')[0]),
                         '_k':    [w['text'] for w in knr_w],
                         'opis':  ' '.join(w['text'] for w in desc),
                         'jm':    ' '.join(w['text'] for w in jm_w).strip() or 'szt.',

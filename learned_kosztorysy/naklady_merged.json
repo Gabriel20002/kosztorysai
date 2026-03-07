@@ -468,7 +468,7 @@
     "opis": "Zasypanie wykopów fundamentowych z zagęszczeniem mechanicznym - 85%",
     "jm": "m3",
     "R": 3.59,
-    "M": 0.0,
+    "M": 1.79,
     "S": 14.36
   },
   {
@@ -1267,7 +1267,7 @@
     "knr": "KNNR 5 0602-04",
     "opis": "Montaż przewodów uziemiających i wyrównawczych głównych i lokalnych",
     "jm": "m",
-    "R": 0.0,
+    "R": 3.047,
     "M": 0.204,
     "S": 0.0
   },
@@ -2300,7 +2300,7 @@
     "knr": "KNR 0-31 0116-02",
     "opis": "Wywożenie gruzu spryzmowanego - dodatek za każdy następny 1 km",
     "jm": "m3",
-    "R": 0.0,
+    "R": 35.0,
     "M": 0.0,
     "S": 5.0
   },
@@ -2640,7 +2640,7 @@
     "jm": "m2",
     "R": 2.5,
     "M": 3.5,
-    "S": 0.0
+    "S": 1.0
   },
   {
     "knr": "KNR 0-41 0107-02",
@@ -2865,7 +2865,7 @@
     "jm": "m3",
     "R": 4.029,
     "M": 0.003,
-    "S": 0.0
+    "S": 0.36
   },
   {
     "knr": "KNR 2-01 0126-01",
@@ -3009,7 +3009,7 @@
     "jm": "m3",
     "R": 1.64,
     "M": 201.99,
-    "S": 0.0
+    "S": 3.294
   },
   {
     "knr": "KNR 2-01 0235-02",
@@ -3041,7 +3041,7 @@
     "jm": "m3",
     "R": 9.1,
     "M": 68.0,
-    "S": 0.0
+    "S": 27.406
   },
   {
     "knr": "KNR 2-01 0310-01",
@@ -3866,7 +3866,7 @@
     "jm": "m3",
     "R": 339.92,
     "M": 176.57,
-    "S": 0.0
+    "S": 17.21
   },
   {
     "knr": "KNR 2-02 1101-1",
@@ -4419,7 +4419,7 @@
     "jm": "kpl.",
     "R": 27.4425,
     "M": 681.12,
-    "S": 0.0
+    "S": 77.16
   },
   {
     "knr": "KNR 2-15/GEBERIT 0105-02",
@@ -4427,7 +4427,7 @@
     "jm": "kpl.",
     "R": 20.8359,
     "M": 163.68,
-    "S": 0.0
+    "S": 21.61
   },
   {
     "knr": "KNR 2-15/GEBERIT 0317-03",
@@ -5534,8 +5534,8 @@
     "knr": "KNR 4-01 0108-08",
     "opis": "Wywóz ziemi samochodami samowyładowczymi - za każdy nast. 1 km",
     "jm": "m3",
-    "R": 0.0,
-    "M": 0.0,
+    "R": 7.3,
+    "M": 3.65,
     "S": 83.983
   },
   {
@@ -5616,7 +5616,7 @@
     "jm": "szt.",
     "R": 25.0,
     "M": 15.0,
-    "S": 0.0
+    "S": 1.0
   },
   {
     "knr": "KNR 4-01 0212-03",
@@ -6112,7 +6112,7 @@
     "jm": "m2",
     "R": 27.037,
     "M": 0.0,
-    "S": 0.0
+    "S": 1.0
   },
   {
     "knr": "KNR 4-01 0701-2",
@@ -6144,7 +6144,7 @@
     "jm": "m",
     "R": 7.84,
     "M": 10.17,
-    "S": 0.0
+    "S": 1.0
   },
   {
     "knr": "KNR 4-01 0703-1",
@@ -6240,7 +6240,7 @@
     "jm": "m2",
     "R": 2.5,
     "M": 3.0,
-    "S": 0.0
+    "S": 1.0
   },
   {
     "knr": "KNR 4-01 0804-07",
@@ -6495,7 +6495,7 @@
     "opis": "Mechaniczne przebijanie otworów w ścianach betonowych",
     "jm": "otw.",
     "R": 17.28,
-    "M": 0.0,
+    "M": 8.64,
     "S": 69.14
   },
   {
@@ -6544,7 +6544,7 @@
     "jm": "kpl pomiar.",
     "R": 106.509,
     "M": 0.0,
-    "S": 0.0
+    "S": 1.0
   },
   {
     "knr": "KNR 4-03 1202-02",
@@ -6584,7 +6584,7 @@
     "jm": "kpl pomiar.",
     "R": 40.966,
     "M": 0.0,
-    "S": 0.0
+    "S": 1.0
   },
   {
     "knr": "KNR 4-04 0105-4",
@@ -6913,7 +6913,7 @@
     "jm": "szt.",
     "R": 6.42,
     "M": 36.59,
-    "S": 0.0
+    "S": 1.0
   },
   {
     "knr": "KNR 5-08 0309-05",
@@ -7530,7 +7530,7 @@
     "jm": "m2",
     "R": 45.88,
     "M": 8.496,
-    "S": 0.0
+    "S": 1.1
   },
   {
     "knr": "KNR AT-09 0803-06",
@@ -10430,7 +10430,7 @@
     "opis": "Wyrzutnie dachowe z podstawą fi 350 mm mm typu turbo z głowica obrotową wykonanie z blachy aluminiowej malowanej proszkowo, kolor jak istnieją- ce pokrycie dachu lub innych zatwierdzony przez Zamawiaj",
     "jm": "szt",
     "R": 101.93,
-    "M": 0.0,
+    "M": 780.0029,
     "S": 1.0
   },
   {
@@ -11277,7 +11277,7 @@
     "knr": "OPIS:OBSŁUGA GEODEZYJNA",
     "opis": "Obsługa geodezyjna",
     "jm": "kpl",
-    "R": 0.0,
+    "R": 1595.0,
     "M": 2020.0,
     "S": 0.0
   },
@@ -11328,5 +11328,2733 @@
     "R": 0.0,
     "M": 15.0,
     "S": 0.0
+  },
+  {
+    "knr": "KNNR 4 0211-01",
+    "opis": "Dodatki za wykonanie podejść odpływowych z PVC o śr. 50 mm o połączeniach wciskowych",
+    "jm": "szt.",
+    "R": 16.24,
+    "M": 10.1703,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 4 0211-03",
+    "opis": "Dodatki za wykonanie podejść odpływowych z PVC o śr. 110 mm o połączeniach wciskowych",
+    "jm": "szt.",
+    "R": 37.12,
+    "M": 26.8975,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 4 0208-01",
+    "opis": "Rurociągi kanalizacyjne z PVC o śr. 32mm na ścianach w budynkach niemieszkalnych o połączeniach wciskowych",
+    "jm": "m",
+    "R": 5.162,
+    "M": 8.9113,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 4 0208-02",
+    "opis": "Rurociągi kanalizacyjne z PVC o śr. 75 mm na ścianach w budynkach niemieszkalnych o połączeniach wciskowych",
+    "jm": "m",
+    "R": 6.67,
+    "M": 11.6992,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 4 0208-03",
+    "opis": "Rurociągi kanalizacyjne z PVC o śr. 110 mm na ścianach w budynkach niemieszkalnych o połączeniach wciskowych",
+    "jm": "m",
+    "R": 7.83,
+    "M": 21.0187,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 4 0213-05",
+    "opis": "Rury wywiewne z PVC o połączeniu wciskowym o śr. 110/160 mm",
+    "jm": "szt.",
+    "R": 9.86,
+    "M": 159.7001,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 4 0222-02",
+    "opis": "Czyszczaki z PVC kanalizacyjne o śr. 110 mm o połączeniach wciskowych",
+    "jm": "szt.",
+    "R": 11.02,
+    "M": 18.4224,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 4 0218-01",
+    "opis": "Wpusty ściekowe z tworzywa sztucznego o śr. 50 mm",
+    "jm": "szt.",
+    "R": 15.08,
+    "M": 116.8267,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 4 0230-01",
+    "opis": "Umywalki pojedyncze porcelanowe z syfonem podtynkowym",
+    "jm": "kpl.",
+    "R": 69.89,
+    "M": 656.3283,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 4 0230-05",
+    "opis": "Postument porcelanowy do umywalek",
+    "jm": "kpl.",
+    "R": 14.21,
+    "M": 56.0247,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 4 0234-02",
+    "opis": "Pisuary pojedyncze z zaworem spłukującym",
+    "jm": "kpl.",
+    "R": 53.07,
+    "M": 676.6798,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 4 0233-03",
+    "opis": "Ustępy z płuczką ustępową obejmujący stelaż i przycisk.",
+    "jm": "kpl.",
+    "R": 106.14,
+    "M": 1792.0733,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 4 0229-04",
+    "opis": "Zlewozmywaki",
+    "jm": "szt.",
+    "R": 63.8,
+    "M": 810.8987,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 4 0229-01",
+    "opis": "Zlewy techniczne",
+    "jm": "szt.",
+    "R": 28.71,
+    "M": 579.8309,
+    "S": 0.0
+  },
+  {
+    "knr": "OPIS:BATERIE ZLEWOZMYWAKOWE STOJĄCE ŚR. NOM DN15MM",
+    "opis": "Baterie zlewozmywakowe stojące śr. nom dn15mm",
+    "jm": "szt.",
+    "R": 21.17,
+    "M": 497.75,
+    "S": 0.5425
+  },
+  {
+    "knr": "OPIS:ZAKUP I MONTAŻ UCHWYTÓW DLA OSÓB NIEPEŁNOSPRAWNYCH",
+    "opis": "ZAKUP I MONTAŻ UCHWYTÓW DLA OSÓB NIEPEŁNOSPRAWNYCH",
+    "jm": "szt.",
+    "R": 65.25,
+    "M": 1067.38,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR-W 3 0408-08",
+    "opis": "Wiercenie otworów o śr. 60 mm w konstrukcjach żelbetowych wiertnicami diamentowymi",
+    "jm": "cm",
+    "R": 2.146,
+    "M": 0.0322,
+    "S": 0.4724
+  },
+  {
+    "knr": "KNNR 4 1612-01",
+    "opis": "Jednokrotne płukanie sieci wodociągowej o śr. nominalnej do 150 mm",
+    "jm": "odc.200m",
+    "R": 19.14,
+    "M": 22.7531,
+    "S": 0.0
+  },
+  {
+    "knr": "OPIS:OPŁATA ZA SKŁADOWANIE GRUZU NA WYSYPISKU- OPŁATY ŚRODOWISKOWE",
+    "opis": "OPŁATA ZA SKŁADOWANIE GRUZU NA WYSYPISKU- OPŁATY ŚRODOWISKOWE",
+    "jm": "m3",
+    "R": 29.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "OPIS:MONTAŻ SZAFKI SWP-4,SWN-4 4-10 CENTRALNEGO OGRZEWANIA - SYSTEM \"RURA W RURZE\"",
+    "opis": "Montaż szafki SWP-4,SWN-4 4-10  centralnego ogrzewania - system \"rura w rurze\"",
+    "jm": "szt.",
+    "R": 110.2,
+    "M": 311.0509,
+    "S": 7.42
+  },
+  {
+    "knr": "OPIS:AUTOMATYKA DO OGRZEWANIA PODŁOGOWEGO:\u001b13\u001b10MODUŁ ROZSZERZENIA SKRZYNKI PODŁĄCZENIOWEJ - 1SZT. \u001b13\u001b10SKRZYNKA POŁĄCZENIOWA BEZPRZEWODOWA - 5SZT. \u001b13\u001b10SIŁOWNIK TERM. 230 V GWINT M30X1,5 - 44SZT. \u001b13\u001b10",
+    "opis": "Automatyka do ogrzewania podłogowego:\u001b13\u001b10Moduł rozszerzenia skrzynki podłączeniowej - 1szt. \u001b13\u001b10Skrzynka połączeniowa bezprzewodowa - 5szt. \u001b13\u001b10Siłownik term. 230 V gwint M30x1,5 - 44szt. \u001b13\u001b10",
+    "jm": "kpl.",
+    "R": 348.0,
+    "M": 2463.05,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 1 0307-01",
+    "opis": "Wykopy liniowe wykonane ręcznie -20% wykopów.",
+    "jm": "m3",
+    "R": 34.8,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 1 0318-01",
+    "opis": "Zasypywanie wykopów o ścianach pionowych o szerokości 0.8-2.5 m i głęb.do 1.5 m w gr.kat. I-III",
+    "jm": "m3",
+    "R": 23.2,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 4 1308-02",
+    "opis": "Montaż z rur PVC łączonych na wcisk o śr. zewn. 160 mm",
+    "jm": "m",
+    "R": 10.005,
+    "M": 60.6913,
+    "S": 0.7749
+  },
+  {
+    "knr": "KNNR 4 1415-01",
+    "opis": "Separator tłuszczu z osadnikiem fi1200",
+    "jm": "stud.",
+    "R": 690.2,
+    "M": 10773.242,
+    "S": 888.72
+  },
+  {
+    "knr": "KNNR 4 1417-02",
+    "opis": "Studzienki kanalizacyjne systemowe  o śr 315 mm - zamknięcie rurą teleskopową i włazem typu ciężkiego.",
+    "jm": "szt.",
+    "R": 70.18,
+    "M": 880.8635,
+    "S": 6.3
+  },
+  {
+    "knr": "KNNR 1 0210-02",
+    "opis": "Wykopy oraz przekopy o głęb.do 3.0 m wyk.na odkład koparkami podsiębiernymi o poj.łyżki 0.25 - 0.60 m3 w gr.kat. I-II. - 95% wykopów.",
+    "jm": "m3",
+    "R": 4.814,
+    "M": 0.0,
+    "S": 7.961
+  },
+  {
+    "knr": "KNNR 1 0215-01",
+    "opis": "Zasypywanie wykopów mechanicznie",
+    "jm": "m3",
+    "R": 0.0,
+    "M": 0.0,
+    "S": 1.2188
+  },
+  {
+    "knr": "KNNR 4 1101-01",
+    "opis": "Nawiertka przyłączeniowa fi160x63PE100",
+    "jm": "kpl.",
+    "R": 100.34,
+    "M": 634.0226,
+    "S": 11.0
+  },
+  {
+    "knr": "KNNR 4 1009-01",
+    "opis": "Sieci wodociągowe - montaż rurociągów z rur polietylenowych (PE, PEHD) o śr.zewnętrznej 63mm",
+    "jm": "m",
+    "R": 6.496,
+    "M": 12.3304,
+    "S": 2.553
+  },
+  {
+    "knr": "KNNR 4 1606-01",
+    "opis": "Próba wodna szczelności sieci wodociągowych z rur typu HOBAS, PCW, PVC, PE, PEHD o śr. do 110 mm",
+    "jm": "200m -1 prób.",
+    "R": 253.46,
+    "M": 355.9967,
+    "S": 295.0176
+  },
+  {
+    "knr": "KNNR 4 1012-01",
+    "opis": "Montaż kształtek ciśnieniowych PE, PEHD o połączeniach zgrzewano-kołnierzowych (tuleje kołnierzowe na luźny kołnierz) o śr.zewnętrznej do 60mm",
+    "jm": "szt",
+    "R": 16.53,
+    "M": 74.2168,
+    "S": 15.8712
+  },
+  {
+    "knr": "KNNR 4 0507-10",
+    "opis": "Zewnętrzna powietrzna pompa ciepła kaskadowa  o mocy grzewczej  18 KW",
+    "jm": "szt.",
+    "R": 1873.4,
+    "M": 19748.61,
+    "S": 0.0
+  },
+  {
+    "knr": "OPIS:PRACE ZWIĄZANE Z MONTAŻEM POMPY CIEPŁA, WRAZ Z OSPRZĘTEM, RUROCIĄGAMI PREIZOLOWANYMI, STEROWANIEM, AUTOMATYKĄ ORAZ POSADOWIENIEM.",
+    "opis": "Prace związane z  montażem pompy ciepła, wraz z osprzętem, rurociągami preizolowanymi, sterowaniem, automatyką oraz posadowieniem.",
+    "jm": "kpl.",
+    "R": 7083.25,
+    "M": 5319.88,
+    "S": 0.0
+  },
+  {
+    "knr": "OPIS:MONTAŻ OTULIN TERMOIZOLACYJNYCH DLA RUROCIĄGÓW O ŚR. 50 MM, GR. IZOLACJI 50 MM",
+    "opis": "Montaż otulin termoizolacyjnych dla rurociągów o śr. 50 mm, gr. izolacji 50 mm",
+    "jm": "m",
+    "R": 5.51,
+    "M": 33.22,
+    "S": 0.74
+  },
+  {
+    "knr": "OPIS:MONTAŻ OTULIN TERMOIZOLACYJNYCH DLA RUROCIĄGÓW O ŚR. 40 MM, GR. IZOLACJI 40 MM",
+    "opis": "Montaż otulin termoizolacyjnych dla rurociągów o śr. 40 mm, gr. izolacji 40 mm",
+    "jm": "m",
+    "R": 5.51,
+    "M": 25.4026,
+    "S": 0.74
+  },
+  {
+    "knr": "OPIS:MONTAŻ OTULIN TERMOIZOLACYJNYCH DLA RUROCIĄGÓW O ŚR. 32 MM, GR. IZOLACJI 40 MM",
+    "opis": "Montaż otulin termoizolacyjnych dla rurociągów o śr. 32 mm, gr. izolacji 40 mm",
+    "jm": "m",
+    "R": 5.51,
+    "M": 23.2513,
+    "S": 0.74
+  },
+  {
+    "knr": "OPIS:MONTAŻ OTULIN TERMOIZOLACYJNYCH DLA RUROCIĄGÓW O ŚR. 20 MM, GR. IZOLACJI 30 MM",
+    "opis": "Montaż otulin termoizolacyjnych dla rurociągów o śr. 20 mm, gr. izolacji 30 mm",
+    "jm": "m",
+    "R": 5.423,
+    "M": 15.9591,
+    "S": 0.74
+  },
+  {
+    "knr": "OPIS:MONTAŻ OTULIN TERMOIZOLACYJNYCH DLA RUROCIĄGÓW O ŚR. 15 MM, GR. IZOLACJI 20 MM",
+    "opis": "Montaż otulin termoizolacyjnych dla rurociągów o śr. 15 mm, gr. izolacji 20 mm",
+    "jm": "m",
+    "R": 5.423,
+    "M": 11.404,
+    "S": 0.74
+  },
+  {
+    "knr": "KNR 2-01 0320-0201",
+    "opis": "Zasypywanie wykopów liniowych o ścianach pionowych w gruntach kat.III-IV; głębokość do 1.5 m, szerokość 0.8-1.5 m",
+    "jm": "m3",
+    "R": 33.854,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "KNR 4-01 0108-01",
+    "opis": "Wywóz ziemi samochodami skrzyniowymi na odległość do 1 km grunt.kat. I-II",
+    "jm": "m3",
+    "R": 37.99,
+    "M": 0.0,
+    "S": 61.41
+  },
+  {
+    "knr": "KNR-W 2-15 0211-08",
+    "opis": "Dodatki za wykonanie podejść odpływowych z PVC o śr. 110 mm o połączeniach klejonych",
+    "jm": "podej.",
+    "R": 54.34,
+    "M": 101.069,
+    "S": 1.386
+  },
+  {
+    "knr": "KNNR 6 1305-01",
+    "opis": "Regulacja pionowa studzienek dla urządzeń podziemnych przy objętości betonu w jednym miejscu do 0.1 m3",
+    "jm": "m3",
+    "R": 1632.7,
+    "M": 567.503,
+    "S": 0.0
+  },
+  {
+    "knr": "KNR 2-18 0614-08",
+    "opis": "Montaż zbiornika szczelnego na deszczówkę",
+    "jm": "stud.",
+    "R": 781.324,
+    "M": 7023.3,
+    "S": 690.874
+  },
+  {
+    "knr": "S 215 0900-04",
+    "opis": "Montaż szafki SWP-4,SWN-4 4-10  centralnego ogrzewania - system \"rura w rurze\"",
+    "jm": "szt.",
+    "R": 110.2,
+    "M": 365.73,
+    "S": 7.42
+  },
+  {
+    "knr": "KNR-W 2-17 0131-04",
+    "opis": "Klapa p.poż 400 EIS60",
+    "jm": "szt.",
+    "R": 21.995,
+    "M": 31.955,
+    "S": 3.71
+  },
+  {
+    "knr": "OPIS:PRZEJŚCIA P.POZ RUR NIEPALNYCH",
+    "opis": "Przejścia p.poz rur niepalnych",
+    "jm": "otw.",
+    "R": 33.125,
+    "M": 33.322,
+    "S": 0.0
+  },
+  {
+    "knr": "KNZ 15 30-04",
+    "opis": "Montaż otulin termoizolacyjnych dla rurociągów o śr. 50 mm, gr. izolacji 50 mm",
+    "jm": "m",
+    "R": 5.51,
+    "M": 39.057,
+    "S": 0.74
+  },
+  {
+    "knr": "KNZ 15 29-04",
+    "opis": "Montaż otulin termoizolacyjnych dla rurociągów o śr. 40 mm, gr. izolacji 40 mm",
+    "jm": "m",
+    "R": 5.51,
+    "M": 29.866,
+    "S": 0.74
+  },
+  {
+    "knr": "KNZ 15 28-04",
+    "opis": "Montaż otulin termoizolacyjnych dla rurociągów o śr. 32 mm, gr. izolacji 40 mm",
+    "jm": "m",
+    "R": 5.51,
+    "M": 27.341,
+    "S": 0.74
+  },
+  {
+    "knr": "KNZ 15 26-03",
+    "opis": "Montaż otulin termoizolacyjnych dla rurociągów o śr. 20 mm, gr. izolacji 30 mm",
+    "jm": "m",
+    "R": 5.423,
+    "M": 18.756,
+    "S": 0.74
+  },
+  {
+    "knr": "KNZ 15 25-01",
+    "opis": "Montaż otulin termoizolacyjnych dla rurociągów o śr. 15 mm, gr. izolacji 20 mm",
+    "jm": "m",
+    "R": 5.423,
+    "M": 13.403,
+    "S": 0.74
+  },
+  {
+    "knr": "KNNR 5 0405-10",
+    "opis": "Montaż rozdzielnicy RG",
+    "jm": "szt.",
+    "R": 96.637,
+    "M": 6000.0,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 5 0401-01",
+    "opis": "Montaż certyfikowanego zestawu Przeciwpożarowego Wyłącznika Prądu 100A",
+    "jm": "kpl.",
+    "R": 117.821,
+    "M": 12095.0,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 5 0406-02",
+    "opis": "Montaż wyłącznika PWP",
+    "jm": "szt.",
+    "R": 21.765,
+    "M": 143.5,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 5 0715-04",
+    "opis": "Układanie kabli  N2XH 5x1,5",
+    "jm": "m",
+    "R": 8.706,
+    "M": 7.351,
+    "S": 0.514
+  },
+  {
+    "knr": "KNNR 5 1201-05",
+    "opis": "Osadzenie w podłożu kołków metalowych kotwiących M10 w stropie",
+    "jm": "szt.",
+    "R": 0.691,
+    "M": 1.63,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 5 0502-03",
+    "opis": "Montaż opraw oświetleniowych typ 1",
+    "jm": "kpl.",
+    "R": 21.475,
+    "M": 299.3,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 5 0503-02",
+    "opis": "Montaż opraw oświetleniowych typ 2",
+    "jm": "kpl.",
+    "R": 18.283,
+    "M": 106.088,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 5 0502-02",
+    "opis": "Montaż opraw awaryjnych kierunkowych EW1",
+    "jm": "kpl.",
+    "R": 17.992,
+    "M": 201.884,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 5 0301-14",
+    "opis": "Przygotowanie podłoża pod osprzęt instalacyjny mocowany przez przykręcenie",
+    "jm": "szt.",
+    "R": 0.914,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 5 1209-12",
+    "opis": "Otwory w ścianach śr. 100 mm",
+    "jm": "otw.",
+    "R": 92.574,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "OPIS:USZCZELNIENIE MASĄ OGNIOODPORNĄ PRZEJŚĆ PRZEZ ŚCIANĘ",
+    "opis": "Uszczelnienie masą ognioodporną przejść przez ścianę",
+    "jm": "szt",
+    "R": 116.08,
+    "M": 161.25,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 5 0303-02",
+    "opis": "Puszki z tworzywa sztucznego o wym. 75x75 mm o 4 wylotach dla przewodów o przekroju do 2.5 mm2",
+    "jm": "szt.",
+    "R": 13.32,
+    "M": 3.722,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 5 0307-01",
+    "opis": "Montaż na gotowym podłożu łączników oświetleniowych IP20 z podłączeniem",
+    "jm": "szt.",
+    "R": 6.704,
+    "M": 12.651,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 5 0307-03",
+    "opis": "Montaż na gotowym podłożu łączników  świecznikowy z podłączeniem",
+    "jm": "szt.",
+    "R": 9.751,
+    "M": 16.237,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 5 0308-02",
+    "opis": "Gniazda instalacyjne wtyczkowe ze stykiem ochronnym 2-biegunowe 230V 16A pojedyńcze",
+    "jm": "szt.",
+    "R": 7.922,
+    "M": 12.755,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 5 0308-08",
+    "opis": "Gniazda instalacyjne wtyczkowe ze stykiem ochronnym wodoszczelne 3-biegunowe 400V 32A IP44",
+    "jm": "szt.",
+    "R": 8.909,
+    "M": 120.233,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 5 0716-01",
+    "opis": "Przewody kabelkowe  5x4 układane p.t. w gotowych bruzdach w podłożu innym niż betonowe",
+    "jm": "m",
+    "R": 3.424,
+    "M": 13.762,
+    "S": 0.987
+  },
+  {
+    "knr": "KNNR 5 1203-08",
+    "opis": "Podłączenie przewodów kabelkowych o przekroju żyły do 2.5 mm2 pod zaciski lub bolce",
+    "jm": "szt.żył",
+    "R": 0.58,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 5 0612-06",
+    "opis": "Montaż głównej i miejscowej szyny uziemiającej",
+    "jm": "szt.",
+    "R": 83.142,
+    "M": 54.12,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 5 0603-03",
+    "opis": "Montaż bednarki FeZn 30x4",
+    "jm": "m",
+    "R": 5.108,
+    "M": 7.91,
+    "S": 0.628
+  },
+  {
+    "knr": "KNNR 5 0601-02",
+    "opis": "Montaż wsporników dachowych",
+    "jm": "szt",
+    "R": 3.54,
+    "M": 17.066,
+    "S": 0.121
+  },
+  {
+    "knr": "KNNR 5 1204-03",
+    "opis": "Przewód odprowadzający (prowadzony w rurce w ociepleniu)",
+    "jm": "szt.",
+    "R": 3.628,
+    "M": 0.295,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 5 1203-05",
+    "opis": "Podłączenie końcówek pod zaciski (przekrój żył do 25 mm2)",
+    "jm": "szt.",
+    "R": 1.098,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 5 1204-01",
+    "opis": "Montaż końcówek przez zaciskanie - przekrój żył do 6 mm2",
+    "jm": "szt.",
+    "R": 1.524,
+    "M": 0.295,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 5 1203-03",
+    "opis": "Podłączenie końcówek pod zaciski (przekrój żył do 6 mm2)",
+    "jm": "szt.",
+    "R": 0.671,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 5 1101-02",
+    "opis": "Konstrukcje wsporcze pod panele fotowoltaiczne",
+    "jm": "szt.",
+    "R": 2.835,
+    "M": 252.15,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 5 0406-05",
+    "opis": "Montaż paneli fotowoltaicznych 450Wp",
+    "jm": "szt.",
+    "R": 59.781,
+    "M": 438.0,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 5 0102-02",
+    "opis": "Rury winidurowe karbowane (giętkie) o śr.do 23 mm 1200N UV układane na dachu - korytko kablowe K50H50 z pokrywą",
+    "jm": "m",
+    "R": 2.652,
+    "M": 5.522,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 5 0201-04",
+    "opis": "Przewody solarne 6 mm2 wciągane do rur",
+    "jm": "m",
+    "R": 0.853,
+    "M": 4.094,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 5 1305-01",
+    "opis": "Sprawdzenie samoczynnego wyłączania zasilania, działanie wyłącznika różnicowoprądowego",
+    "jm": "prób.",
+    "R": 9.577,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR-W 9 1201-01",
+    "opis": "Pomiar natężenia oświetlenia wnętrz bezpośrednio na stanowisku roboczym",
+    "jm": "punkt",
+    "R": 8.706,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "NNRNKB 202 1134-02",
+    "opis": "(z.VII) Gruntowanie podłoży preparatami - powierzchnie pionowe",
+    "jm": "m2",
+    "R": 3.12,
+    "M": 1.911,
+    "S": 0.064
+  },
+  {
+    "knr": "NNRNKB 202 2702-01",
+    "opis": "(z.V) Sufity podwieszone o konstrukcji metalowej z wypełnieniem płytami z włókien mineralnych z zastosowaniem profili poprzecznych o dług. 60 cm",
+    "jm": "m2",
+    "R": 46.02,
+    "M": 102.606,
+    "S": 2.196
+  },
+  {
+    "knr": "NNRNKB 202 1134-01",
+    "opis": "(z.VII) Gruntowanie podłoży preparatami - powierzchnie poziome",
+    "jm": "m2",
+    "R": 2.34,
+    "M": 1.825,
+    "S": 0.064
+  },
+  {
+    "knr": "NNRNKB 202 2806-05",
+    "opis": "(z.VI) Posadzki z płytek gresowych na zaprawie klejowej o grub.warstwy 5 mm",
+    "jm": "m2",
+    "R": 66.69,
+    "M": 68.381,
+    "S": 8.587
+  },
+  {
+    "knr": "NNRNKB 202 2809-04",
+    "opis": "(z.VI) Cokoliki z płytek gresowych na zaprawie klejowej o wysokości 8cm",
+    "jm": "m",
+    "R": 12.87,
+    "M": 8.131,
+    "S": 1.278
+  },
+  {
+    "knr": "NNRNKB 202 2809-05",
+    "opis": "(z.VI) Cokoliki z płytek kamionkowych na zaprawie klejowej, listwa wykańczająca",
+    "jm": "m",
+    "R": 6.24,
+    "M": 3.168,
+    "S": 0.0
+  },
+  {
+    "knr": "NNRNKB 202 1130-02",
+    "opis": "(z.VII) Warstwy wyrównujące i wygładzające z zaprawy samopoziomującej gr. do 5mm",
+    "jm": "m2",
+    "R": 5.46,
+    "M": 16.942,
+    "S": 2.196
+  },
+  {
+    "knr": "NNRNKB 202 0416-01",
+    "opis": "(z.II) konstrukcje dachowe z tarcicy nasyconej - murłaty o przekroju do 180 cm2",
+    "jm": "m3",
+    "R": 459.42,
+    "M": 2085.314,
+    "S": 240.106
+  },
+  {
+    "knr": "NNRNKB 202 0517-05",
+    "opis": "(z.I) Montaż prefabrykowanych rynien dachowych z blachy tytanowo-cynkowej gr. 0,55mm półokrągłych o śr. 15 cm",
+    "jm": "m",
+    "R": 19.071,
+    "M": 79.739,
+    "S": 0.801
+  },
+  {
+    "knr": "NNRNKB 202 0519-04",
+    "opis": "(z.I) Montaż prefabrykowanych rur spustowych z blachy tytanowo-cynkowej gr. 0,55mm okrągłych o śr. 12 cm",
+    "jm": "m",
+    "R": 24.89,
+    "M": 77.507,
+    "S": 0.68
+  },
+  {
+    "knr": "OPIS:SZAFKA Z ZAWOREM TERMOSTATYCZNYM, KOMPLETNYM UZBROJENIEM, ORUROWANIEM",
+    "opis": "Szafka z zaworem termostatycznym, kompletnym uzbrojeniem, orurowaniem",
+    "jm": "kpl.",
+    "R": 137.2,
+    "M": 1444.5988,
+    "S": 6.36
+  },
+  {
+    "knr": "OPIS:INSTALACJA WODY - RUROCIĄGI O ŚR.ZEW. 32 MM Z RUR POLIETYLENOWYCH, NA ŚCIANACH BUDYNKÓW",
+    "opis": "Instalacja wody - rurociągi o śr.zew. 32 mm z rur polietylenowych, na ścianach budynków",
+    "jm": "m",
+    "R": 7.644,
+    "M": 99.7884,
+    "S": 0.106
+  },
+  {
+    "knr": "OPIS:INSTALACJA WODY - RUROCIĄGI O ŚR.ZEW. 40 MM Z RUR POLIETYLENOWYCH, NA ŚCIANACH BUDYNKÓW",
+    "opis": "Instalacja wody - rurociągi o śr.zew. 40 mm z rur polietylenowych, na ścianach budynków",
+    "jm": "m",
+    "R": 8.624,
+    "M": 35.4301,
+    "S": 0.2894
+  },
+  {
+    "knr": "OPIS:BADANIE HYDRANTÓW WEWNĘTRZNYCH",
+    "opis": "Badanie hydrantów wewnętrznych",
+    "jm": "kpl.",
+    "R": 112.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "OPIS:PRZEJŚCIA P.POZ RUR NIEPALNYCH - ŚR.RURY DO 60 MM",
+    "opis": "Przejścia p.poz rur niepalnych - śr.rury do 60 mm",
+    "jm": "otw.",
+    "R": 35.0,
+    "M": 22.0054,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 4 1411-02",
+    "opis": "Podłoża pod kanały i obiekty z materiałów sypkich grub. 15 cm z zagęszczeniem",
+    "jm": "m3",
+    "R": 54.04,
+    "M": 38.741,
+    "S": 31.489
+  },
+  {
+    "knr": "KNNR 4 1411-04",
+    "opis": "Obsypka rur d=110-200mm z materiałów sypkich - z zagęszczeniem",
+    "jm": "m3",
+    "R": 50.96,
+    "M": 38.741,
+    "S": 29.715
+  },
+  {
+    "knr": "KNNR 4 1427-03",
+    "opis": "Przejście przez ściany, pod fundamentem - tuleja stalowa ochr. d=250/ 273*7,1mm - L=800 ;gr.ściany ~20 cm - otwór do śr. 310 mm",
+    "jm": "szt",
+    "R": 17.92,
+    "M": 147.51,
+    "S": 5.443
+  },
+  {
+    "knr": "KNNR 4 0203-04",
+    "opis": "Rurociągi z PVC kanalizacyjne o śr. 160 mm w gotowych wykopach, wewnątrz budynków o połączeniach wciskowych",
+    "jm": "m",
+    "R": 9.016,
+    "M": 57.222,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 4 0211-035",
+    "opis": "anal-Dodatki za wykonanie podejść odpływowych z PVC o śr. 160mm o połączeniach wciskowych- do pionów",
+    "jm": "szt.",
+    "R": 35.84,
+    "M": 44.427,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 4 0216-02",
+    "opis": "Wpust ściek.piwn.- d=100 - typ francuski  - odpł.pion.",
+    "jm": "szt.",
+    "R": 18.76,
+    "M": 557.648,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 4 0112-04 z.sz. 3.3.",
+    "opis": "Rurociągi z tworzyw sztucznych PP20 o śr. zewnętrznej 40 mm o połącz. zgrzewanych, na śc. w bud. pompowniach, węzłach cieplnych jw",
+    "jm": "m",
+    "R": 10.304,
+    "M": 21.39,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 16 1002-100",
+    "opis": "Próba wodna szczelności kanałów rurowych o śr.<= 160 mm",
+    "jm": "odc.",
+    "R": 0.0,
+    "M": 357.71,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 4 0222-03",
+    "opis": "Czyszczaki z PVC kanalizacyjne o śr. 160 mm o połączeniach wciskowych",
+    "jm": "szt.",
+    "R": 16.128,
+    "M": 32.966,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 4 0207-03",
+    "opis": "Rurociągi kanalizacyjne z PVC o śr. 110 mm na ścianach w budynkach mieszkalnych o połączeniach wciskowych",
+    "jm": "m",
+    "R": 9.946,
+    "M": 41.893,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 4 0207-02",
+    "opis": "Rurociągi kanalizacyjne z PVC o śr. 75 mm na ścianach w budynkach mieszkalnych o połączeniach wciskowych",
+    "jm": "m",
+    "R": 8.568,
+    "M": 21.236,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 4 0207-01",
+    "opis": "Rurociągi kanalizacyjne z PVC o śr. 50 mm na ścianach w budynkach mieszkalnych o połączeniach wciskowych",
+    "jm": "m",
+    "R": 6.619,
+    "M": 18.556,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 4 0142-02",
+    "opis": "Szafki wnękowe na wodomierze mieszkaniowe wody zimnej i ciepłej",
+    "jm": "kpl.",
+    "R": 37.52,
+    "M": 150.382,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 4 0123-05",
+    "opis": "Dodatki za wykonanie obustronnych podejść do wodomierzy skrzydełkowych mieszkaniowych o śr. nominalnej 20 mm w rurociągach z tworzyw sztucznych",
+    "jm": "kpl.",
+    "R": 32.48,
+    "M": 11.409,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 4 0140-01",
+    "opis": "Wodomierze skrzydełkowe domowe lub mieszkaniowe o śr. nominalnej 15 mm -wodomierz wody ciepłej",
+    "jm": "kpl.",
+    "R": 11.76,
+    "M": 87.189,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 4 0130-02",
+    "opis": "Zawory przelotowe  instalacji wodociągowych o śr. nominalnej 20 mm",
+    "jm": "szt.",
+    "R": 6.72,
+    "M": 9.065,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 4 0116-012",
+    "opis": "Dodatki za podejścia dopływowe w rurociągach z pex-press do zaworów podumywalk.,o śr. zewn. 16 mm",
+    "jm": "kpl.",
+    "R": 8.12,
+    "M": 30.815,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 4 0106-04",
+    "opis": "Rurociągi stalowe ocynkowane o śr.nominalnej 32 mm o połączeniach gwintowanych, na ścianach w budynkach mieszkalnych",
+    "jm": "m",
+    "R": 13.272,
+    "M": 25.042,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 4 0106-05",
+    "opis": "Rurociągi stalowe ocynkowane o śr.nominalnej 40 mm o połączeniach gwintowanych, na ścianach w budynkach \u001b13\u001b10mieszkalnych",
+    "jm": "m",
+    "R": 14.616,
+    "M": 22.024,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 4 0106-07",
+    "opis": "Rurociągi stalowe ocynkowane o śr.nominalnej 50 mm o połączeniach gwintowanych, na ścianach w budynkach mieszkalnych",
+    "jm": "m",
+    "R": 18.984,
+    "M": 43.358,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 4 0130-07",
+    "opis": "Filtry osadnikowe siatkowe instalacji wodociągowych z rur stalowych oc. d= 65 mm",
+    "jm": "szt.",
+    "R": 15.96,
+    "M": 130.238,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 4 0126-02",
+    "opis": "Próba szczelności instalacji wodociągowych z rur żeliwnych, stalowych i miedzianych w budynkach (rurociąg o śr. do 150 mm)",
+    "jm": "m",
+    "R": 2.996,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 4 0128-02",
+    "opis": "2-kr. płukanie instalacji wodociągowej w budynkach niemieszkalnych - [",
+    "jm": "m",
+    "R": 1.557,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 4 1611-01",
+    "opis": "Dezynfekcja rurociągów sieci wodociągowych o śr.nominalnej do 150 mm",
+    "jm": "odc.200m",
+    "R": 114.52,
+    "M": 80.166,
+    "S": 78.178
+  },
+  {
+    "knr": "OPIS:KOSZTY ZWIĄZANE Z BADANIEM WODY W SANEPIDZIE",
+    "opis": "Koszty związane z badaniem wody w Sanepidzie",
+    "jm": "kpl.",
+    "R": 0.0,
+    "M": 150.99,
+    "S": 0.0
+  },
+  {
+    "knr": "OPIS:BADANIE WYPŁYWU W HYDRANTACH",
+    "opis": "Badanie wypływu w hydrantach",
+    "jm": "szt.",
+    "R": 0.0,
+    "M": 100.65,
+    "S": 0.0
+  },
+  {
+    "knr": "OPIS:ZABEZPIECZENIE PPOŻ SYST.CP636/EIS120/ + PAROC SECTION ALU COAT T DLA RUR NIEPALNYCH DZ=35-89MM / ŚCIANA G=25CM",
+    "opis": "Zabezpieczenie ppoż syst.CP636/EIS120/ + paroc section alu coat T dla rur niepalnych Dz=35-89mm / ściana g=25cm",
+    "jm": "kpl.",
+    "R": 0.0,
+    "M": 6.43,
+    "S": 0.0
+  },
+  {
+    "knr": "OPIS:OPŁATY NA SKŁADOWISKU ZA ODPADY : GRUZ BET - KOD.17.01.01",
+    "opis": "Opłaty na składowisku za odpady : gruz bet - kod.17.01.01",
+    "jm": "t",
+    "R": 0.0,
+    "M": 64.26,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 4 1308-03",
+    "opis": "Kanały z rur PVC łączonych na wcisk o śr. zewn. 200 mm",
+    "jm": "m",
+    "R": 14.0,
+    "M": 81.047,
+    "S": 0.971
+  },
+  {
+    "knr": "KNNR 4 1414-01",
+    "opis": "Studnie rewizyjne z kręgów betonowych i żelbetowych o śr. 1000 mm wykonywane metodą studniarską w gruncie kat.I-II - głębokość 3 m",
+    "jm": "stud.",
+    "R": 506.8,
+    "M": 5742.061,
+    "S": 383.743
+  },
+  {
+    "knr": "KNNR 4 1009-02",
+    "opis": "Sieci wodociągowe - montaż rurociągów z rur polietylenowych (PE, PEHD) o śr.zewnętrznej 75 mm",
+    "jm": "m",
+    "R": 7.196,
+    "M": 12.941,
+    "S": 2.601
+  },
+  {
+    "knr": "KNNR 4 1009-03",
+    "opis": "Sieci wodociągowe - montaż rurociągów z rur polietylenowych (PE, PEHD) o śr.zewnętrznej 90 mm",
+    "jm": "m",
+    "R": 9.072,
+    "M": 21.793,
+    "S": 5.323
+  },
+  {
+    "knr": "KNNR 4 1101-02",
+    "opis": "Zasuwy żeliwne klinowe owalne kielichowe z obudową uszczelniane folią aluminiową o śr. DN80 mm",
+    "jm": "kpl.",
+    "R": 114.52,
+    "M": 1458.407,
+    "S": 12.37
+  },
+  {
+    "knr": "KNNR 4 1308-04",
+    "opis": "Kanały z rur PVC łączonych na wcisk o śr. zewn. 250 mm",
+    "jm": "m",
+    "R": 16.156,
+    "M": 120.055,
+    "S": 2.129
+  },
+  {
+    "knr": "KNNR 4 1424-01",
+    "opis": "Studzienki ściekowe uliczne betonowe o śr.500 mm z osadnikiem",
+    "jm": "szt.",
+    "R": 365.4,
+    "M": 1184.084,
+    "S": 97.094
+  },
+  {
+    "knr": "OPIS:PRÓBA SZCZELNOŚCI KANAŁÓW RUROWYCH O ŚR.NOM. 250 MM",
+    "opis": "Próba szczelności kanałów rurowych o śr.nom. 250 mm",
+    "jm": "m",
+    "R": 9.514,
+    "M": 2.597,
+    "S": 1.859
+  },
+  {
+    "knr": "KNR 2-01 0201-01",
+    "opis": "Roboty ziemne wykonywane koparkami przedsiębiernymi o poj. łyżki 0.15 m3 w gruncie kat. I-II z transportem urobku samochodami samowyładowczymi na odległość do 1 km Grunt oblepiający naczynie robocze.",
+    "jm": "m3",
+    "R": 6.2838,
+    "M": 0.0,
+    "S": 41.3875
+  },
+  {
+    "knr": "KNR 2-01 0236-02",
+    "opis": "Zagęszczenie nasypów ubijakami mechanicznymi; grunty spoiste kat. III-IV",
+    "jm": "m3",
+    "R": 6.7417,
+    "M": 0.0,
+    "S": 2.2522
+  },
+  {
+    "knr": "KNR-W 4-01 0209-03",
+    "opis": "Przebicie otworów o powierzchni 0.05 m2 - 0.10 m2 w elementach z betonu żwirowego o grubości do 20 cm",
+    "jm": "m2",
+    "R": 358.886,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "KNR 2-01 0322-07",
+    "opis": "Ażurowe umocnienie pionowych ścian wykopów liniowych o gł. do 3,0 m wypraskami w gruntach suchych kat. III-IV wraz z rozbiórką(szer. do 1 m)",
+    "jm": "m2",
+    "R": 15.3608,
+    "M": 4.9677,
+    "S": 0.0
+  },
+  {
+    "knr": "KNR-W 2-18 0201-01",
+    "opis": "Zasuwy żeliwne klinowe owalne kielichowe z obudową uszczelniane folią aluminiową o śr. 50 mm bez nasuwki",
+    "jm": "kpl.",
+    "R": 80.082,
+    "M": 785.9779,
+    "S": 16.64
+  },
+  {
+    "knr": "KNR-W 2-18 0524-01",
+    "opis": "Studzienki ściekowe uliczne betonowe o śr. 500 mm z osadnikiem i syfonem",
+    "jm": "szt.",
+    "R": 387.063,
+    "M": 1174.6739,
+    "S": 122.8864
+  },
+  {
+    "knr": "KNR 9-26 0103-04",
+    "opis": "Odwodnienia liniowe z polimerobetonu lub tworzywa sztucznego o szerokości w świetle 100 mm i wysokości ponad 150 do 200 mm; klasa obciążenia D400",
+    "jm": "m",
+    "R": 52.4685,
+    "M": 747.7926,
+    "S": 3.6608
+  },
+  {
+    "knr": "KNR 0-13 0128-01",
+    "opis": "Rurociągi o śr. 16 mm - wykonanie bruzd dla rurociągów w podejściach - ściany z betonu żwirowego",
+    "jm": "m",
+    "R": 7.1614,
+    "M": 24.0799,
+    "S": 0.0666
+  },
+  {
+    "knr": "KNR 0-13 0128-02",
+    "opis": "Rurociągi o śr. 25 mm - wykonanie bruzd dla rurociągów w podejściach - ściany z betonu żwirowego",
+    "jm": "m",
+    "R": 7.9485,
+    "M": 28.6886,
+    "S": 0.0832
+  },
+  {
+    "knr": "KNR 0-13 0128-03",
+    "opis": "Rurociągi o śr. 32 mm - wykonanie bruzd dla rurociągów w podejściach - ściany z betonu żwirowego",
+    "jm": "m",
+    "R": 8.2258,
+    "M": 24.2802,
+    "S": 0.1664
+  },
+  {
+    "knr": "KNR 0-13 0128-04",
+    "opis": "Rurociągi o śr. 40 mm - ściany z betonu żwirowego",
+    "jm": "m",
+    "R": 7.3474,
+    "M": 25.4575,
+    "S": 0.2496
+  },
+  {
+    "knr": "KNR 0-13 0128-05",
+    "opis": "Rurociągi o śr. 50 mm",
+    "jm": "m",
+    "R": 7.4269,
+    "M": 27.239,
+    "S": 0.3328
+  },
+  {
+    "knr": "KNR 0-31 0114-05",
+    "opis": "Otuliny termoizolacyjne z pianki polietylenowej gr. 6 mm powlekane folią; rurociąg o śr. 22 mm",
+    "jm": "m",
+    "R": 0.8631,
+    "M": 5.9165,
+    "S": 0.0083
+  },
+  {
+    "knr": "KNR 0-31 0114-06",
+    "opis": "Otuliny termoizolacyjne z pianki polietylenowej gr. 6 mm powlekane folią; rurociąg o śr. 28 mm",
+    "jm": "m",
+    "R": 0.9936,
+    "M": 8.1052,
+    "S": 0.0083
+  },
+  {
+    "knr": "KNR 0-31 0113-12",
+    "opis": "Otuliny termoizolacyjne z pianki polietylenowej gr. 20 mm z nacięciem wzdłużnym; rurociąg do 50 mm",
+    "jm": "m",
+    "R": 2.447,
+    "M": 5.5895,
+    "S": 0.0083
+  },
+  {
+    "knr": "KNR INSTAL 0309-08",
+    "opis": "Zawór termostatyczny do regulacji c.w.u o śr.nom. 15 mm, zakres: 20-38 st.C",
+    "jm": "szt.",
+    "R": 13.9402,
+    "M": 149.35,
+    "S": 0.832
+  },
+  {
+    "knr": "KNR-W 2-15 0137-02",
+    "opis": "Baterie umywalkowe lub zmywakowe stojące o śr. nominalnej 15 mm",
+    "jm": "szt.",
+    "R": 28.3846,
+    "M": 290.445,
+    "S": 0.7488
+  },
+  {
+    "knr": "KNR INSTAL 0109-02",
+    "opis": "Zawór czerpalny wodociągowy gwintowany o śr.nom. 20 mm",
+    "jm": "szt.",
+    "R": 7.1184,
+    "M": 27.9542,
+    "S": 0.832
+  },
+  {
+    "knr": "KNR-W 2-15 0233-03",
+    "opis": "Ustępy z płuczką ustępową, wiszący",
+    "jm": "kpl.",
+    "R": 107.9624,
+    "M": 626.2,
+    "S": 7.488
+  },
+  {
+    "knr": "KNR-W 2-15 0135-04",
+    "opis": "Zawory umywalkowe stojące o śr. nominalnej 15 mm",
+    "jm": "szt.",
+    "R": 19.4273,
+    "M": 176.5082,
+    "S": 0.2496
+  },
+  {
+    "knr": "KNR-W 2-15 0218-01",
+    "opis": "Wpusty ściekowe z tworzywa sztucznego o śr. 50 mm",
+    "jm": "szt.",
+    "R": 15.4232,
+    "M": 113.12,
+    "S": 1.664
+  },
+  {
+    "knr": "KNR 2-15 0209-06",
+    "opis": "Montaż rur wywiewnych z blachy stalowej o śr. 100 mm",
+    "jm": "szt.",
+    "R": 13.0296,
+    "M": 127.0518,
+    "S": 0.832
+  },
+  {
+    "knr": "KNR 2-15/GEBERIT 0101-01",
+    "opis": "Elementy montażowe Geberit Kombifix do miski ustępowej montowane na ścianie",
+    "jm": "kpl.",
+    "R": 23.728,
+    "M": 450.0,
+    "S": 92.62
+  },
+  {
+    "knr": "KNR 2-15/GEBERIT 0101-04",
+    "opis": "Elementy montażowe Geberit Kombifix do bidetu montowane na ścianie",
+    "jm": "kpl.",
+    "R": 16.0164,
+    "M": 450.0,
+    "S": 0.0
+  },
+  {
+    "knr": "KNR 2-15/GEBERIT 0104-04",
+    "opis": "Urządzenia sanitarne na elemencie montażowym - bidet",
+    "jm": "szt.",
+    "R": 14.2368,
+    "M": 488.0,
+    "S": 0.0
+  },
+  {
+    "knr": "KNR 2-15 0121-03",
+    "opis": "Urządzenia do podgrzewania wody ze zbiornikami o poj. 750 dm3",
+    "jm": "kpl.",
+    "R": 202.2426,
+    "M": 15475.5375,
+    "S": 13.312
+  },
+  {
+    "knr": "KNR-W 2-15 0140-05",
+    "opis": "Wodomierze skrzydełkowe domowe o śr. nominalnej 40 mm",
+    "jm": "kpl.",
+    "R": 51.0152,
+    "M": 431.1213,
+    "S": 4.992
+  },
+  {
+    "knr": "KNR-W 2-15 0130-05",
+    "opis": "Zawory przelotowe i zwrotne instalacji wodociągowych z rur stalowych o śr. nominalnej 40 mm",
+    "jm": "szt.",
+    "R": 10.7666,
+    "M": 1529.61,
+    "S": 1.1648
+  },
+  {
+    "knr": "KNR-W 2-15 0138-01",
+    "opis": "Zawór hydrantowy o śr. nominalnej 25 mm montowany na ścianie",
+    "jm": "szt.",
+    "R": 10.0251,
+    "M": 26.3813,
+    "S": 0.9152
+  },
+  {
+    "knr": "KNR-W 2-15 0501-01",
+    "opis": "Kotłownia  (komplet) wraz z montażem pompy ciepła",
+    "jm": "kocioł",
+    "R": 1468.17,
+    "M": 73.4085,
+    "S": 345.28
+  },
+  {
+    "knr": "KNR 0-31 0211-09",
+    "opis": "Szafki rozdzielaczowe podtynkowe",
+    "jm": "szt.",
+    "R": 52.4982,
+    "M": 515.9306,
+    "S": 1.664
+  },
+  {
+    "knr": "KNR 0-31 0308-06",
+    "opis": "Regulacja ogrzewania podłogowego przy rozstawie rur 150 mm",
+    "jm": "m2",
+    "R": 1.5156,
+    "M": 0.0,
+    "S": 0.0083
+  },
+  {
+    "knr": "KNR-W 2-15 0404-01",
+    "opis": "Rurociągi w instalacjach c.o. z tworzyw sztucznych o śr. zewnętrznej 20 mm o połączeniach zaciskanych PEX/ALU/PEX",
+    "jm": "m",
+    "R": 9.7878,
+    "M": 22.3347,
+    "S": 0.1331
+  },
+  {
+    "knr": "KNR-W 2-15 0404-02",
+    "opis": "Rurociągi w instalacjach c.o. z tworzyw sztucznych o śr. zewnętrznej 25 mm o połączeniach zaciskanych PEX/ALU/PEX",
+    "jm": "m",
+    "R": 10.4403,
+    "M": 28.0672,
+    "S": 0.1498
+  },
+  {
+    "knr": "KNR-W 2-15 0404-03",
+    "opis": "Rurociągi w instalacjach c.o. z tworzyw sztucznych o śr. zewnętrznej 32 mm o połączeniach zaciskanych PEX/ALU/PEX",
+    "jm": "m",
+    "R": 11.3301,
+    "M": 34.8512,
+    "S": 0.1997
+  },
+  {
+    "knr": "KNR-W 2-15 0404-04",
+    "opis": "Rurociągi w instalacjach c.o. z tworzyw sztucznych o śr. zewnętrznej 40 mm o połączeniach zaciskanych PEX/ALU/PEX",
+    "jm": "m",
+    "R": 11.8343,
+    "M": 21.1148,
+    "S": 0.2829
+  },
+  {
+    "knr": "KNR 2-17 0114-02",
+    "opis": "Przewody wentylacyjne z blachy stalowej, kołowe, typ B/I o śr. do 200 mm - udział kształtek do 55 %",
+    "jm": "m2",
+    "R": 58.6334,
+    "M": 117.6772,
+    "S": 6.904
+  },
+  {
+    "knr": "KNR 2-17 0114-04",
+    "opis": "Przewody wentylacyjne z blachy stalowej, kołowe, typ B/I o śr. do 450 mm - udział kształtek do 55 %",
+    "jm": "m2",
+    "R": 32.0076,
+    "M": 103.9049,
+    "S": 8.32
+  },
+  {
+    "knr": "KNR 2-17 0114-05",
+    "opis": "Przewody wentylacyjne z blachy stalowej, kołowe, typ B/I o śr. do 630 mm - udział kształtek do 55 %",
+    "jm": "m2",
+    "R": 27.4755,
+    "M": 96.2265,
+    "S": 7.488
+  },
+  {
+    "knr": "KNR 2-17 0144-03",
+    "opis": "Czerpnie lub wyrzutnie dachowe kołowe typ C do przewodów o śr. do 400 mm",
+    "jm": "szt.",
+    "R": 46.4535,
+    "M": 780.0029,
+    "S": 14.144
+  },
+  {
+    "knr": "KNR 2-17 0147-02",
+    "opis": "Czerpnie lub wyrzutnie ścienne kołowe typ B i C o śr. do 500 mm",
+    "jm": "szt.",
+    "R": 63.4487,
+    "M": 1271.1698,
+    "S": 3.328
+  },
+  {
+    "knr": "KNR-W 2-17 0322-01",
+    "opis": "Centrala UW2",
+    "jm": "szt.",
+    "R": 1110.3518,
+    "M": 1050.5387,
+    "S": 134.2984
+  },
+  {
+    "knr": "KNR-W 2-17 0205-01",
+    "opis": "Wentylatory osiowe o średnicy otworu ssącego do 400 mm z wirnikiem na wale silnika - do wentylacji przewodowej (masa do 90 kg)",
+    "jm": "szt.",
+    "R": 161.647,
+    "M": 565.1461,
+    "S": 14.144
+  },
+  {
+    "knr": "KNR-W 2-17 0208-02",
+    "opis": "Wentylatory dachowe stalowe lub z polichlorku winylu o średnicy otworu ssącego do 315 mm (masa do 42 kg)",
+    "jm": "szt.",
+    "R": 162.2402,
+    "M": 12.6847,
+    "S": 13.312
+  },
+  {
+    "knr": "KNR-W 2-17 0140-02",
+    "opis": "Anemostaty kołowe typ D o śr. do 280 mm",
+    "jm": "szt.",
+    "R": 33.5158,
+    "M": 134.3951,
+    "S": 2.496
+  },
+  {
+    "knr": "KNR 2-11 0911-05",
+    "opis": "Sprawdzenie skuteczności działania wentylacji",
+    "jm": "szt.",
+    "R": 3796.48,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "OPIS:KLIMATYZACJA (KOMPLET)",
+    "opis": "Klimatyzacja (komplet)",
+    "jm": "kpl.",
+    "R": 4686.28,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "NNRNKB 202 0421-02",
+    "opis": "(z.VI) Łacenie połaci dachowych dla pokryć z blach powlekanych - przy- bicie deski czołowej okapowej",
+    "jm": "m",
+    "R": 6.816,
+    "M": 2.513,
+    "S": 0.0
+  },
+  {
+    "knr": "NNRNKB 202 0421-01",
+    "opis": "(z.VI) Ołacenie połaci dachowych dla pokryć z blach powlekanych",
+    "jm": "m2",
+    "R": 6.816,
+    "M": 0.613,
+    "S": 0.0
+  },
+  {
+    "knr": "NNRNKB 202 0541-02",
+    "opis": "(z.VI) Obróbki blacharskie z blachy powlekanej o szer.w rozwinięciu po- nad 25 cm - okapy (kolor do ustalenia z Zamawiającym na etapie wyko- nawstwa prac)",
+    "jm": "m2",
+    "R": 57.51,
+    "M": 45.806,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 1 0214-05",
+    "opis": "Zasypanie wykopów fundamentowych podłużnych, punktowych, rowów, wykopów obiektowych spycharkami z zagęszczeniem mechanicznym ubijakami (grubość warstwy w stanie luźnym 25 cm) - kat. gruntu III-IV",
+    "jm": "m3",
+    "R": 9.67,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "OPIS:MECHANICZNE ROZEBRANIE NAWIERZCHNI Z MAS MINERALNO-ASFALTOWYCH O GRUBOŚCI 10 CM",
+    "opis": "Mechaniczne rozebranie nawierzchni z mas mineralno-asfaltowych o grubości 10 cm",
+    "jm": "m2",
+    "R": 4.5,
+    "M": 0.0,
+    "S": 8.5
+  },
+  {
+    "knr": "OPIS:ZAŁADUNEK GRUZU KOPARKO-ŁADOWARKĄ PRZY OBSŁUDZE 2-OSOBOWEJ - ASFALT",
+    "opis": "Załadunek gruzu koparko-ładowarką przy obsłudze 2-osobowej - asfalt",
+    "jm": "m3",
+    "R": 2.8,
+    "M": 0.0,
+    "S": 12.5
+  },
+  {
+    "knr": "OPIS:WYWÓZ GRUZU ASFALTOWEGO SAMOCHODAMI SAMOWYŁADOWCZYMI NA ODLEGŁOŚĆ DO 10 KM",
+    "opis": "Wywóz gruzu asfaltowego samochodami samowyładowczymi na odległość do 10 km",
+    "jm": "m3",
+    "R": 0.5,
+    "M": 0.0,
+    "S": 35.0
+  },
+  {
+    "knr": "OPIS:UTYLIZACJA ODPADÓW ASFALTOWYCH (OPŁATA ZA SKŁADOWANIE)",
+    "opis": "Utylizacja odpadów asfaltowych (opłata za składowanie)",
+    "jm": "m3",
+    "R": 0.0,
+    "M": 180.0,
+    "S": 0.0
+  },
+  {
+    "knr": "OPIS:WYKOPY ORAZ PRZEKOPY WYKONYWANE KOPARKAMI PODSIĘBIERNYMI 0.40 M3 NA ODKŁAD W GRUNCIE KAT. III - KORYTOWANIE POD PODBUDOWĘ GR. 20 CM",
+    "opis": "Wykopy oraz przekopy wykonywane koparkami podsiębiernymi 0.40 m3 na odkład w gruncie kat. III - korytowanie pod podbudowę gr. 20 cm",
+    "jm": "m3",
+    "R": 1.2,
+    "M": 0.0,
+    "S": 18.5
+  },
+  {
+    "knr": "OPIS:ZAŁADUNEK UROBKU KOPARKO-ŁADOWARKĄ - GRUNT Z KORYTOWANIA",
+    "opis": "Załadunek urobku koparko-ładowarką - grunt z korytowania",
+    "jm": "m3",
+    "R": 2.8,
+    "M": 0.0,
+    "S": 12.5
+  },
+  {
+    "knr": "OPIS:WYWÓZ GRUNTU Z KORYTOWANIA SAMOCHODAMI SAMOWYŁADOWCZYMI NA ODLEGŁOŚĆ DO 10 KM",
+    "opis": "Wywóz gruntu z korytowania samochodami samowyładowczymi na odległość do 10 km",
+    "jm": "m3",
+    "R": 0.5,
+    "M": 0.0,
+    "S": 35.0
+  },
+  {
+    "knr": "OPIS:PROFILOWANIE I ZAGĘSZCZANIE PODŁOŻA POD WARSTWY KONSTRUKCYJNE NAWIERZCHNI WYKONYWANE RĘCZNIE W GRUNCIE KAT. II-IV",
+    "opis": "Profilowanie i zagęszczanie podłoża pod warstwy konstrukcyjne nawierzchni wykonywane ręcznie w gruncie kat. II-IV",
+    "jm": "m2",
+    "R": 3.5,
+    "M": 0.0,
+    "S": 2.5
+  },
+  {
+    "knr": "OPIS:PODBUDOWA Z KRUSZYWA ŁAMANEGO 0-31.5 MM STABILIZOWANEGO MECHANICZNIE, WARSTWA DOLNA O GRUBOŚCI PO ZAGĘSZCZENIU 10 CM",
+    "opis": "Podbudowa z kruszywa łamanego 0-31.5 mm stabilizowanego mechanicznie, warstwa dolna o grubości po zagęszczeniu 10 cm",
+    "jm": "m2",
+    "R": 2.8,
+    "M": 28.5,
+    "S": 6.5
+  },
+  {
+    "knr": "OPIS:PRZYGOTOWANIE I MONTAŻ ZBROJENIA KONSTRUKCJI MONOLITYCZNYCH - SIATKI ZGRZEWANE FI 8 MM, OCZKA 15×15 CM (OK. 6.5 KG/M?)",
+    "opis": "Przygotowanie i montaż zbrojenia konstrukcji monolitycznych - siatki zgrzewane fi 8 mm, oczka 15×15 cm (ok. 6.5 kg/m?)",
+    "jm": "m2",
+    "R": 12.5,
+    "M": 32.5,
+    "S": 1.5
+  },
+  {
+    "knr": "OPIS:WYKONANIE PŁYTY BETONOWEJ Z BETONU C35/45 W8 ZBROJONEGO WŁÓKNAMI ROZPROSZONYMI STALOWYMI 25 KG/M?, GR. 20 CM - Z POMPOWANIEM",
+    "opis": "Wykonanie płyty betonowej z betonu C35/45 W8 zbrojonego włóknami rozproszonymi stalowymi 25 kg/m?, gr. 20 cm - z pompowaniem",
+    "jm": "m3",
+    "R": 18.5,
+    "M": 485.0,
+    "S": 35.0
+  },
+  {
+    "knr": "OPIS:ZATARCIE MECHANICZNE NAWIERZCHNI BETONOWEJ NA GŁADKO",
+    "opis": "Zatarcie mechaniczne nawierzchni betonowej na gładko",
+    "jm": "m2",
+    "R": 5.5,
+    "M": 0.0,
+    "S": 8.5
+  },
+  {
+    "knr": "OPIS:PIELĘGNACJA BETONU PRZEZ POSYPANIE I ZWILŻANIE WODĄ PRZEZ 7 DNI",
+    "opis": "Pielęgnacja betonu przez posypanie i zwilżanie wodą przez 7 dni",
+    "jm": "m2",
+    "R": 2.5,
+    "M": 1.5,
+    "S": 0.0
+  },
+  {
+    "knr": "OPIS:WYKONANIE DYLATACJI (SZCZELIN SKURCZOWYCH) POPRZEZ NACIĘCIE PIŁĄ DIAMENTOWĄ, CO 3-4 M",
+    "opis": "Wykonanie dylatacji (szczelin skurczowych) poprzez nacięcie piłą diamentową, co 3-4 m",
+    "jm": "m",
+    "R": 8.5,
+    "M": 2.5,
+    "S": 12.0
+  },
+  {
+    "knr": "OPIS:MECHANICZNE ROZEBRANIE NAWIERZCHNI Z MAS MINERALNO-ASFALTOWYCH O GRUBOSCI 10 CM",
+    "opis": "Mechaniczne rozebranie nawierzchni z mas mineralno-asfaltowych o grubosci 10 cm",
+    "jm": "m2",
+    "R": 28.5,
+    "M": 0.0,
+    "S": 18.5
+  },
+  {
+    "knr": "OPIS:ZALADOWANIE GRUZU KOPARKO-LADOWARKA PRZY OBSLUDZE 2-OSOBOWEJ - ASFALT",
+    "opis": "Zaladowanie gruzu koparko-ladowarka przy obsludze 2-osobowej - asfalt",
+    "jm": "m3",
+    "R": 15.5,
+    "M": 0.0,
+    "S": 24.5
+  },
+  {
+    "knr": "OPIS:WYWOZ GRUZU ASFALTOWEGO SAMOCHODAMI SAMOWYLADOWCZYMI NA ODLEGLOSC DO 10 KM",
+    "opis": "Wywoz gruzu asfaltowego samochodami samowyladowczymi na odleglosc do 10 km",
+    "jm": "m3",
+    "R": 4.5,
+    "M": 0.0,
+    "S": 55.0
+  },
+  {
+    "knr": "OPIS:UTYLIZACJA ODPADOW ASFALTOWYCH (OPLATA ZA SKLADOWANIE)",
+    "opis": "Utylizacja odpadow asfaltowych (oplata za skladowanie)",
+    "jm": "m3",
+    "R": 0.0,
+    "M": 250.0,
+    "S": 0.0
+  },
+  {
+    "knr": "OPIS:WYKOPY ORAZ PRZEKOPY WYKONYWANE KOPARKAMI PODSIEBIERNYMI 0.40 M3 NA ODKLAD W GRUNCIE KAT. III",
+    "opis": "Wykopy oraz przekopy wykonywane koparkami podsiebiernymi 0.40 m3 na odklad w gruncie kat. III",
+    "jm": "m3",
+    "R": 22.5,
+    "M": 0.0,
+    "S": 38.5
+  },
+  {
+    "knr": "OPIS:ZALADOWANIE UROBKU KOPARKO-LADOWARKA - GRUNT Z KORYTOWANIA",
+    "opis": "Zaladowanie urobku koparko-ladowarka - grunt z korytowania",
+    "jm": "m3",
+    "R": 15.5,
+    "M": 0.0,
+    "S": 24.5
+  },
+  {
+    "knr": "OPIS:WYWOZ GRUNTU Z KORYTOWANIA SAMOCHODAMI SAMOWYLADOWCZYMI NA ODLEGLOSC DO 10 KM",
+    "opis": "Wywoz gruntu z korytowania samochodami samowyladowczymi na odleglosc do 10 km",
+    "jm": "m3",
+    "R": 5.5,
+    "M": 0.0,
+    "S": 58.0
+  },
+  {
+    "knr": "OPIS:PROFILOWANIE I ZAGESZCZANIE PODLOZA POD WARSTWY KONSTRUKCYJNE NAWIERZCHNI W GRUNCIE KAT. II-IV",
+    "opis": "Profilowanie i zageszczanie podloza pod warstwy konstrukcyjne nawierzchni w gruncie kat. II-IV",
+    "jm": "m2",
+    "R": 22.5,
+    "M": 0.0,
+    "S": 10.5
+  },
+  {
+    "knr": "OPIS:PODBUDOWA Z KRUSZYWA LAMANEGO 0-31.5 MM STABILIZOWANEGO MECHANICZNIE, WARSTWA O GRUBOSCI 10 CM",
+    "opis": "Podbudowa z kruszywa lamanego 0-31.5 mm stabilizowanego mechanicznie, warstwa o grubosci 10 cm",
+    "jm": "m2",
+    "R": 4.8,
+    "M": 32.5,
+    "S": 8.5
+  },
+  {
+    "knr": "OPIS:PRZYGOTOWANIE I MONTAZ ZBROJENIA - SIATKI ZGRZEWANE FI 8 MM OCZKA 15X15 CM",
+    "opis": "Przygotowanie i montaz zbrojenia - siatki zgrzewane fi 8 mm oczka 15x15 cm",
+    "jm": "m2",
+    "R": 14.5,
+    "M": 35.5,
+    "S": 2.5
+  },
+  {
+    "knr": "OPIS:WYKONANIE PLYTY BETONOWEJ Z BETONU C35/45 W8 Z WLOKNAMI ROZPROSZONYMI GR. 20 CM",
+    "opis": "Wykonanie plyty betonowej z betonu C35/45 W8 z wloknami rozproszonymi gr. 20 cm",
+    "jm": "m3",
+    "R": 22.5,
+    "M": 520.0,
+    "S": 42.0
+  },
+  {
+    "knr": "OPIS:ZATARCIE MECHANICZNE NAWIERZCHNI BETONOWEJ NA GLADKO",
+    "opis": "Zatarcie mechaniczne nawierzchni betonowej na gladko",
+    "jm": "m2",
+    "R": 8.5,
+    "M": 0.0,
+    "S": 12.5
+  },
+  {
+    "knr": "OPIS:PIELEGNACJA BETONU PRZEZ POSYPANIE I ZWILZANIE WODA PRZEZ 7 DNI",
+    "opis": "Pielegnacja betonu przez posypanie i zwilzanie woda przez 7 dni",
+    "jm": "m2",
+    "R": 4.5,
+    "M": 2.5,
+    "S": 0.0
+  },
+  {
+    "knr": "OPIS:WYKONANIE DYLATACJI POPRZEZ NACIECIE PILA DIAMENTOWA CO 3-4 M",
+    "opis": "Wykonanie dylatacji poprzez naciecie pila diamentowa co 3-4 m",
+    "jm": "m",
+    "R": 12.5,
+    "M": 3.5,
+    "S": 15.0
+  },
+  {
+    "knr": "S 215 0800-02",
+    "opis": "Instalacja wody - rurociągi o śr.zew. 32 mm z rur polietylenowych, na ścianach budynków",
+    "jm": "m",
+    "R": 7.644,
+    "M": 99.7884,
+    "S": 0.106
+  },
+  {
+    "knr": "S 215 0800-03",
+    "opis": "Instalacja wody - rurociągi o śr.zew. 40 mm z rur polietylenowych, na ścianach budynków",
+    "jm": "m",
+    "R": 8.624,
+    "M": 35.4301,
+    "S": 0.2894
+  },
+  {
+    "knr": "KNNR 2 1302-03",
+    "opis": "Montaż drzwi stalowych i przegród pełnych",
+    "jm": "m2",
+    "R": 94.08,
+    "M": 0.0,
+    "S": 0.252
+  },
+  {
+    "knr": "KSNR 2 0502-01",
+    "opis": "Pokrycie dachowe z dachówki zakładkowej",
+    "jm": "m2",
+    "R": 21.535,
+    "M": 85.356,
+    "S": 0.56
+  },
+  {
+    "knr": "KNNR 2 1105-02",
+    "opis": "Wyłazy dachowe fabrycznie wykończone",
+    "jm": "m2",
+    "R": 194.04,
+    "M": 690.527,
+    "S": 0.587
+  },
+  {
+    "knr": "KNNR 6 0113-06",
+    "opis": "Warstwa górna podbudowy z kruszyw łamanych o grubości po zagęszczeniu 15 cm",
+    "jm": "m2",
+    "R": 0.0,
+    "M": 0.65,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 6 0401-01",
+    "opis": "Krawężniki betonowe wystające o wymiarach 15x30 cm bez ław na podsypce piaskowej",
+    "jm": "m",
+    "R": 0.0,
+    "M": 32.17,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 1 0202-08",
+    "opis": "Roboty ziemne wykonywane koparkami podsiębiernymi o poj. łyżki 0.60 m3 w gruncie kat. III-IV z transportem urobku na odległość do 1 km samochodami samowyładowczymi",
+    "jm": "m3",
+    "R": 6.26,
+    "M": 0.0,
+    "S": 28.52
+  },
+  {
+    "knr": "KNNR 1 0206-04",
+    "opis": "Roboty ziemne wykonywane koparkami podsiębiernymi o poj. łyżki 0.60 m3 w gruncie kat. I-III w ziemi uprzednio zmagazynowanej w hałdach z transportem urobku na odległość do 1 km samochodami samowyładow",
+    "jm": "m3",
+    "R": 1.39,
+    "M": 0.0,
+    "S": 29.85
+  },
+  {
+    "knr": "KNNR 2 0301-03",
+    "opis": "Fundamenty z bloczków betonowych",
+    "jm": "m3",
+    "R": 216.77,
+    "M": 536.48,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 2 1902-07",
+    "opis": "Docieplenie ścian budynków płytami styropianowymi gr 20 cm - metoda lekka \"; faktura nakrapiana lub rustykalna nakładana ręcznie, grubość 3,0 mm na ścianach",
+    "jm": "m2",
+    "R": 113.29,
+    "M": 163.29,
+    "S": 1.11
+  },
+  {
+    "knr": "KNNR 2 0602-05",
+    "opis": "Izolacje poziome przeciwdźwiękowe z wełny mineralnej układane na sucho jednowarstwowo - izolacja dachu - 15 cm",
+    "jm": "m2",
+    "R": 3.71,
+    "M": 138.86,
+    "S": 0.19
+  },
+  {
+    "knr": "KNNR 7 0802-03",
+    "opis": "Szklenie ram szybami ze szkła bezpiecznego o pow.do 3.0 m2 - dach",
+    "jm": "m2",
+    "R": 163.6,
+    "M": 500.68,
+    "S": 59.14
+  },
+  {
+    "knr": "KNNR 2 1201-03",
+    "opis": "Podkłady na podłożu gruntowym z ubitych materiałów sypkich - piasek do zapraw",
+    "jm": "m3",
+    "R": 204.5,
+    "M": 85.2,
+    "S": 0.0
+  },
+  {
+    "knr": "KNNR 2 1203-02",
+    "opis": "Posadzki jedno i dwubarwne z płytek z kamieni sztucznych o wym. ponad 15x15 cm na zaprawie klejowej",
+    "jm": "m2",
+    "R": 83.03,
+    "M": 83.85,
+    "S": 1.07
+  },
+  {
+    "knr": "KNNR 6 0404-04",
+    "opis": "Obrzeża betonowe o wymiarach 30x8 cm lub oporniki na podsypce piaskowej, spoiny wypełnione zaprawą cementową",
+    "jm": "m",
+    "R": 10.06,
+    "M": 17.07,
+    "S": 0.0
+  },
+  {
+    "knr": "KNR AT-17 0103-01",
+    "opis": "Wiercenie otworów o głębokości do 40 cm średnicy 40 mm mm techniką diamento- wą w cegle - roboty z rusztowania lub pomostu",
+    "jm": "cm",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "TZKNBK XXIV-3215 03-00",
+    "opis": "Wiercenie otworów o śr.do 14 mm wiertarką ręczną elektryczną w ściance do 10 mm",
+    "jm": "szt",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KNR W-2 02-0129",
+    "opis": "Okładanie (szpałdowanie) belek stalowych - wypełnie belek Roboty murowe, ścianki i zabudowy GK",
+    "jm": "m2",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KNR W-4 01-0327",
+    "opis": "Zamurowanie bruzd pionowych lub pochyłych o przekroju 1/4 x 1/2 ceg. w ścianach z cegieł",
+    "jm": "m",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KNR W-4 01-0326",
+    "opis": "Zamurowanie bruzd poziomych o przekroju 1/4 x 1/2 ceg. w ścianach z cegieł",
+    "jm": "m",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KNR W-2 02-2003",
+    "opis": "Ścianki działowe GR z płyt gipsowo-kartonowych gkbi na rusztach metalo- wych pojedynczych z pokryciem obustronnym dwuwarstwowo 75-02",
+    "jm": "m2",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KNR AT-43 0119-02",
+    "opis": "Przygotowanie otworów w ściankach działowych z profili UA 75 pod mon- taż drzwi i naświetli",
+    "jm": "szt",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "NNRNKB 202-1134 02-00",
+    "opis": "(z.VII) Gruntowanie podłoży preparatami powierzchni pod gładzie",
+    "jm": "m2",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KNR AT-27 0401-01",
+    "opis": "Pionowa izolacja podpłytkowa przeciwwilgociowa gr. 1 mm z folii w płynie wykonywana ręcznie",
+    "jm": "m2",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KNR AT-27 0401-04",
+    "opis": "Pionowa izolacja podpłytkowa z folii w płynie wykonywana ręcznie - doda- tek za kolejną warstwę gr. 0,5 mm",
+    "jm": "m2",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KNR AT-27 0401-05",
+    "opis": "Izolacja podpłytkowa folii w płynie - wklejenie taśmy uszczelniającej",
+    "jm": "m",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KNR W-2 02-0840",
+    "opis": "Licowanie ścian płytkami z kamieni sztucznych na zaprawie klejowej - list- wy narożnikowe aluminiowe",
+    "jm": "m",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KNR W-2 02-1105",
+    "opis": "Warstwy niwelująco-wyrównawcze cementowe grubości 2 mm zatarte na gładko",
+    "jm": "m2",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KNR AT-27 0401-03",
+    "opis": "Pozioma izolacja podpłytkowa przeciwwilgociowa gr. 1 mm z folii w płynie wykonywana ręcznie",
+    "jm": "m2",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KNR W-2 02-1029",
+    "opis": "Systemowe ścianki sanitarne z drzwiami",
+    "jm": "m2",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KALKULACJA 0-00 0000-00",
+    "opis": "Tuleje ochronne dla przejsc rurociągow przez przegrody budowlane - uszczelnione zaprawą p.poż.",
+    "jm": "szt",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KNR AT-17 0104-04",
+    "opis": "Cięcie piłą diamentową betonu zbrojonego o grubości powyżej 15 do 40 cm; miejsce cięcia - posadzka i podłoże",
+    "jm": "m2",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KNR W-4 01-0212",
+    "opis": "Mechaniczna rozbiórka elementów konstrukcji betonowych niezbrojonych o grubości do 15 cm",
+    "jm": "m3",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "S 215-0200 01-00",
+    "opis": "Zawory napowietrzające pływakowe o śr.nom. 50 mm",
+    "jm": "szt",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KNR W-2 15-0211",
+    "opis": "Dodatki za wykonanie podejść odpływowych z PVC o średnicy 110 mm mm o połą- czeniach wciskowych",
+    "jm": "podej",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KNR 2-15/ GEBERIT-0101",
+    "opis": "Elementy montażowe/stelaż do miski ustępowej montowane na ścianie z przyciskiem spłukującym",
+    "jm": "kpl",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KNR 2-15/ GEBERIT-0104",
+    "opis": "Urządzenia sanitarne na elemencie montażowym - ustęp bezkołnierzowy z deską sedesową wolnopadającą",
+    "jm": "kpl",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KNR W-2 15-0234",
+    "opis": "Pisuary pojedyncze wyposażone w zawory spłukujące uruchamiane przy- ciskiem z wyłącznikiem czasowym",
+    "jm": "kpl",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KNR W-2 15-0230",
+    "opis": "Umywalki pojedyncze porcelanowe (komplet z syfonem i zawiesiami)",
+    "jm": "kpl",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KNR W-2 15-0232",
+    "opis": "Brodziki natryskowe na podstawie styropianowej z obudową 90x100 cm",
+    "jm": "kpl",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KNR W-2 15-0218",
+    "opis": "Wpusty ściekowe z stal nierdzewna o średnicy 50 mm mm",
+    "jm": "szt",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KNR W-2 15-0127",
+    "opis": "Próba szczelności instalacji kanalizacyjnej z rur PVC w budynkach miesz- kalnych (rurociąg o śr. do 160 mm) Przedmiar dodatkowy - ilość prób szczelności",
+    "jm": "m",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "ANALIZA IN-DYWIDUAL NA-00",
+    "opis": "Demontaż rurociągów, podejść, armatury itp.",
+    "jm": "kpl",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KNR W-2 15-0111",
+    "opis": "Rurociągi z tworzyw sztucznych PP-R w systemie fusiotherm Stabi Glass SDR 7,4 o średnicy 16 mm mm o połączeniach zgrzewanych, na ścianach w budyn- kach mieszkalnych",
+    "jm": "m",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KNR W-2 15-0132",
+    "opis": "Zawory kulowe instalacji wodociągowych z rur z tworzyw sztucznych o śr. nominalnej 25 mm",
+    "jm": "szt",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KNR W-2 15-0116",
+    "opis": "Dodatki za podejścia dopływowe w rurociągach z tworzyw sztucznych do zaworów czerpalnych, baterii, płuczek o połączeniu elastycznym metalo- wym o śr. zewnętrznej 20 mm; PP-R, 20/3,4 mm Muszle Umywalki",
+    "jm": "szt",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KNR W-2 15-0135",
+    "opis": "Zawory czerpalne ze złączką o śr. nominalnej 15 mm Muszle Umywalki Pisuar Zawór czerpalny",
+    "jm": "szt",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KNR W-2 15-0137",
+    "opis": "Baterie umywalkowe stojące o śr. nominalnej 15 mm",
+    "jm": "szt",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KNR W-2 18-0707",
+    "opis": "Dezynfekcja rurociągów sieci wodociągowych o śr.nominalnej do 150 mm",
+    "jm": "odc20",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KNR W-4 02-0515",
+    "opis": "Wymiana grzejnika żeliwnego członowego na stalowy grzejnik panelowy płytowy malowany z zaworem i głowicą termostatyczną, (grzejniki stalowe dwupłytowe ocynkowane). W zakresie prac obliczenia i dobór w",
+    "jm": "kpl",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KNR W-4 02-0517",
+    "opis": "Wymiana rur przyłącznych do grzejnika z rur stalowych ze stali nierdzew- nej o złączach zaprasowywanych o średnicy 15 mm mm z wykonaniem i zaprawie- niem bruzd i montażem otuliny termoizolacyjnej Prze",
+    "jm": "kpl",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KNR W-2 17-0206",
+    "opis": "Wentylator łazienkowy z timerem regulowanym, czujnikiem ruchu - obiektyszt. modernizowane Instalacja elektryczna i oświetleniowa",
+    "jm": "szt",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KSNR 5-0406 05-ANALOGIA",
+    "opis": "Wypust oświetleniowy podtynkowy z wykonaniem i zaprawieniem bruzd i wpięciem do rozdzielnicy piętrowej sufitowe nad umywalką",
+    "jm": "wyp",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KSNR 5-0502 02-00",
+    "opis": "Montaż opraw oświetleniowych LED przykręcanych odpowiedniej klasie szczelności - węzły sanitarne z modułem oświetlenia ewakuacyjnego",
+    "jm": "kpl",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KSNR 5-0502 01-00",
+    "opis": "Montaż opraw oświetleniowych przykręcanych ewakuacyjnych (kierunko- wych)",
+    "jm": "kpl",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KNR AL-01 0201-01",
+    "opis": "Montaż czujki ruchu- pasywna podczerwieni",
+    "jm": "szt",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KSNR 5-0405 01-ANALOGIA",
+    "opis": "Wypusty wykonywane przewodami wtynkowymi w budynkach administra- cyjnych na wyłącznik, przełącznik świecznikowy podłoże z cegły w puszce instalacyjnej z podłączeniem. Włączniki pojedyncze opraw nad um",
+    "jm": "wyp",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KSNR 5-0406 07-ANALOGIA",
+    "opis": "Wypusty dla gniazd 230V podtynkowo z wykonaniem i zaprawieniem bruzd oraz odtworzeniem tynków i powłok malarskich i wpięciem do roz- dzielnicy piętrowej - gniazdo pojedyńcze",
+    "jm": "wyp",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KNR W-4 03-1208",
+    "opis": "Pierwszy pomiar rezystancji izolacji instalacji elektrycznych w obwodzie 1- fazowym",
+    "jm": "kplpo-",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KNR W-2 15-0216",
+    "opis": "Odpływ liniowy prysznicowy ze stali nierdzewnej (konstrukcja wykonana, jako monolit ze stali nierdzewnej) o śr. odpływu 50 mm dł. 95 cm",
+    "jm": "szt",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KNR W-2 0000-00",
+    "opis": "- Okładanie (szpałdowanie) belek stalowych - wypełnie belek",
+    "jm": "m2",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KNR W-4 0000-00",
+    "opis": "- Zamurowanie bruzd pionowych lub pochyłych o przekroju 1/4 x 1/2 ceg. w",
+    "jm": "m",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KSNR 5-00 0000-00",
+    "opis": "Wypust oświetleniowy podtynkowy z wykonaniem i zaprawieniem bruzd i wyp.",
+    "jm": "szt",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KNR 13-00 0000-00",
+    "opis": "- Pomiary natężenia oświetlenia pom.",
+    "jm": "szt",
+    "R": 35.0,
+    "M": 0.0,
+    "S": 1.0
+  },
+  {
+    "knr": "KNR AT- 17",
+    "opis": "Wiercenie otworów o gł boko ci do 40 cm r. 40 mm technik diamento- ę ś ś ą w ą",
+    "jm": "cm",
+    "R": 28.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "01 z.sz. 1.3.",
+    "opis": "",
+    "jm": "cm",
+    "R": 28.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "OPIS:WIERCENIE OTWORÓW O R.DO 14 MM WIERTARK R CZN ELEKTRYCZN W CIANCE Ś Ą Ę Ą Ą Ś DO 10 MM",
+    "opis": "Wiercenie otworów o r.do 14 mm wiertark r czn elektryczn w ciance ś ą ę ą ą ś do 10 mm",
+    "jm": "szt.",
+    "R": 28.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "KNR-W 2- 02",
+    "opis": "",
+    "jm": "m",
+    "R": 28.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "KNR-W 4- 01",
+    "opis": "cianach z cegieł ś",
+    "jm": "m",
+    "R": 28.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "KNR AT- 43",
+    "opis": "ciankach działowych z profili UA 75 pod mon- ś ta drzwi i na wietli ż ś",
+    "jm": "szt.",
+    "R": 28.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "z.sz. 5.2. 9930",
+    "opis": "szym ni ż",
+    "jm": "m",
+    "R": 28.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "NNRNKB 202 1134-",
+    "opis": "y preparatami powierzchni pod gładzie ż",
+    "jm": "m",
+    "R": 28.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "KNR AT- 27",
+    "opis": "cznie ę",
+    "jm": "m",
+    "R": 28.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "OPIS:STRONY KORYTARZA",
+    "opis": "strony korytarza",
+    "jm": "m",
+    "R": 28.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "OPIS:TULEJE OCHRONNE DLA PRZEJSC RUROCI GOW PRZEZ PRZEGRODY BUDOWLANE - Ą USZCZELNIONE ZAPRAW P.PO . Ą Ż",
+    "opis": "Tuleje ochronne dla przejsc ruroci gow przez przegrody budowlane - ą uszczelnione zapraw p.po . ą ż",
+    "jm": "szt.",
+    "R": 28.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "S 215 0200-01",
+    "opis": "Zawory napowietrzaj r.nom. 50 mm ą ś",
+    "jm": "szt.",
+    "R": 28.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "KNR 2-15/ GEBERIT",
+    "opis": "Elementy monta owe/stela do miski ust cianie z ż ż ę ś przyciskiem spłukuj cym ą",
+    "jm": "kpl.",
+    "R": 28.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "OPIS:PRZEDMIAR DODATKOWY - ILO PRÓB SZCZELNO CI ŚĆ Ś",
+    "opis": "Przedmiar dodatkowy - ilo prób szczelno ci ść ś",
+    "jm": "prób.",
+    "R": 28.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "na analiza in-",
+    "opis": "Demonta ruroci gów, podej , armatury itp. ż ą ść",
+    "jm": "kpl",
+    "R": 28.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "OPIS:KACH MIESZKALNYCH",
+    "opis": "kach mieszkalnych",
+    "jm": "m",
+    "R": 28.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "OPIS:WYM O R. ZEWN TRZNEJ 20 MM; PP-R, 20/3,4 MM Ś Ę MUSZLE PISUAR PRYSZNIC ZAWÓR CZERPALNY",
+    "opis": "wym o r. zewn trznej 20 mm; PP-R, 20/3,4 mm ś ę Muszle Pisuar Prysznic Zawór czerpalny",
+    "jm": "szt.",
+    "R": 28.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "OPIS:MUSZLE PISUAR ZAWÓR CZERPALNY",
+    "opis": "Muszle Pisuar Zawór czerpalny",
+    "jm": "szt.",
+    "R": 28.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "KNR-W 2- 18",
+    "opis": "Dezynfekcja ruroci gów sieci wodoci gowych o r.nominalnej do 150 mm ą ą ś",
+    "jm": "odc.20",
+    "R": 28.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "KNR-W 4- 02",
+    "opis": "Wymiana grzejnika eliwnego członowego na stalowy grzejnik panelowy ż termostatyczn , (grzejniki stalowe ą ą",
+    "jm": "kpl.",
+    "R": 28.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "OPIS:CI Ś GRZEJNIKA",
+    "opis": "ci ś grzejnika",
+    "jm": "kpl.",
+    "R": 28.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "05 kalk. włas-",
+    "opis": "niem bruzd i monta em otuliny termoizolacyjnej ż Przedmiar dodatkowy - ł czna długo ą ść ciem nowych ś rur przez stropy i zł czeniem na kondygnacji poni ej i powy ej oraz mon- ą ż ż",
+    "jm": "m",
+    "R": 28.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "dywidual- na kalk.",
+    "opis": "lokalizacj , ocen stanu technicznego i dro no ci. W zakresie czyszcze- ą ą ż ś cych kanałów ą Wentylacja mechaniczna. Wykonanie i monta w pomieszczeniu w zła sanitarnego wentylacji me- ż ę",
+    "jm": "kpl",
+    "R": 28.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "OPIS:CHANICZNEJ Z WENTYLATORAMI WYWIEWNYMI KANAŁOWYMI O WYDAJNO CI DOSTO- Ś CI POMIESZCZENIA Z TŁUMIKAMI AKUSTYCZNYMI I Ś KLAP ZWROTN . WENTYLATORY URUCHAMIANE Ł CZNIE Z O WIETLENIEM Z OPÓ - Ą Ą Ą Ś Ź NIEN",
+    "opis": "chanicznej z wentylatorami wywiewnymi kanałowymi o wydajno ci dosto- ś ci pomieszczenia z tłumikami akustycznymi i ś klap zwrotn . Wentylatory uruchamiane ł cznie z o wietleniem z opó - ą ą ą ś ź nien",
+    "jm": "pom",
+    "R": 28.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "01 z.o.3.3. 9902",
+    "opis": "",
+    "jm": "szt.",
+    "R": 28.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "na kalk. włas-",
+    "opis": "elektrycznej Demonta istniej cej instalacji elektrycznej i o wietleniowej (przewody, ż ą ś oprawy, gniazda, wł czniki itp.) ą",
+    "jm": "kpl",
+    "R": 28.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "KSNR 5-01 0406-05",
+    "opis": "Wypust o wietleniowy podtynkowy z wykonaniem i zaprawieniem bruzd i ś wpi ciem do rozdzielnicy pi trowej ę ę sufitowe ą",
+    "jm": "wyp.",
+    "R": 28.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "KSNR 5-01 0502-02",
+    "opis": "Monta opraw o wietleniowych LED przykr canych odpowiedniej klasie ż ś ę szczelno ci - w zły sanitarne z modułem o ś ę ś",
+    "jm": "kpl.",
+    "R": 28.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "KSNR 5-01 0502-01",
+    "opis": "Monta opraw o wietleniowych przykr ż ś ę wych)",
+    "jm": "kpl.",
+    "R": 28.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "KNR AL- 01",
+    "opis": "Monta czujki ruchu- pasywna podczerwieni ż",
+    "jm": "szt.",
+    "R": 28.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "KSNR 5-01 0405-01",
+    "opis": "cyjnych na wył cznik, przeł cznik wiecznikowy podło e z cegły w puszce ą ą ś ż instalacyjnej z podł czeniem. Wł ą ą wych",
+    "jm": "wyp.",
+    "R": 28.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "KSNR 5-01 0406-07",
+    "opis": "Wypusty dla gniazd 230V podtynkowo z wykonaniem i zaprawieniem bruzd oraz odtworzeniem tynków i powłok malarskich i wpi ciem do roz- ę dzielnicy pi trowej - gniazdo pojedy cze ę ń",
+    "jm": "wyp.",
+    "R": 28.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "KNR-W 4- 03",
+    "opis": "Pierwszy pomiar rezystancji izolacji instalacji elektrycznych w obwodzie 1- fazowym",
+    "jm": "kpl po-",
+    "R": 28.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "KNR 13- 21",
+    "opis": "Pomiary nat enia o wietlenia ęż ś",
+    "jm": "pom.",
+    "R": 28.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "OPIS:Ę I PI TRO",
+    "opis": "Ę I PI TRO",
+    "jm": "pom.",
+    "R": 28.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "OPIS:WYM O R. ZEWN TRZNEJ 20 MM; PP-R, 20/3,4 MM Ś Ę MUSZLE PRYSZNICE PISUAR ZAWÓR CZERPALNY",
+    "opis": "wym o r. zewn trznej 20 mm; PP-R, 20/3,4 mm ś ę Muszle Prysznice Pisuar Zawór czerpalny",
+    "jm": "szt.",
+    "R": 28.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "OPIS:Ę II PI TRO",
+    "opis": "Ę II PI TRO",
+    "jm": "pom.",
+    "R": 28.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "09 analiza in-",
+    "opis": "",
+    "jm": "szt.",
+    "R": 28.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "dywidual- na analiza",
+    "opis": "lokalizacj , ocen stanu technicznego i dro no ci. W zakresie czyszcze- ą ą ż ś cych kanałów ą Projekt wentylacji z obliczeniem i doborem urz dze , wielko ci kanałów i ą ń ś automatyki, uszczegółowiaj ",
+    "jm": "kpl",
+    "R": 28.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "OPIS:CHANICZNEJ NAWIEWNO-WYWIEWNA O WYDAJNO Ś WIELKO Ś W CENTRALACH WENTYLACYJNYCH. NALE NE UKŁADY DLA Ż Ż GRUPY POMIESZCZE SZATNIA+PRYSZNICE. AUTOMATYKA NA BAZIE STEROWNIKA Ń LIWIAJ Ż Ą PUNKTÓW PRACY I CY",
+    "opis": "chanicznej nawiewno-wywiewna o wydajno ś wielko ś w centralach wentylacyjnych. Nale ne układy dla ż ż grupy pomieszcze szatnia+prysznice. Automatyka na bazie sterownika ń liwiaj ż ą punktów pracy i cy",
+    "jm": "pom.",
+    "R": 28.0,
+    "M": 0.0,
+    "S": 0.0
+  },
+  {
+    "knr": "KNR K-28 0101-03",
+    "opis": "Ściany piwniczne i fundamentowe zewnętrzne z bloków SILKA E24S na zaprawie zwykłej",
+    "jm": "m2",
+    "R": 34.16,
+    "M": 182.21,
+    "S": 11.39
+  },
+  {
+    "knr": "NNRNKB 202 0618-01",
+    "opis": "(z.V) Izolacje przeciwwilgociowe ław fundamentowych z papy zgrzewalnej",
+    "jm": "m2",
+    "R": 3.62,
+    "M": 19.29,
+    "S": 1.21
+  },
+  {
+    "knr": "KNR AT-33 0103-03",
+    "opis": "Wykonanie faset",
+    "jm": "m",
+    "R": 12.55,
+    "M": 19.73,
+    "S": 3.59
+  },
+  {
+    "knr": "KNR K-02 0104-09",
+    "opis": "Ściany z bloków SILKA M24 w budynkach wielokondygnacyjnych na zaprawie cienkospoinowej (klejowej)",
+    "jm": "m2",
+    "R": 37.9,
+    "M": 202.15,
+    "S": 12.63
+  },
+  {
+    "knr": "KNR K-02 0105-06",
+    "opis": "Ścianki działowe z bloków SILKA M12 o wys. do 4,5 m na zaprawie cienkospoinowej (klejowej)",
+    "jm": "m2",
+    "R": 23.7,
+    "M": 126.39,
+    "S": 7.9
+  },
+  {
+    "knr": "KNR AT-17 0101-01",
+    "opis": "Wiercenie otworów o głębokości do 40 cm śr. do 40 mm techniką diamentową w betonie zbrojonym",
+    "jm": "cm",
+    "R": 1.14,
+    "M": 0.57,
+    "S": 3.98
+  },
+  {
+    "knr": "KNR DC-03 0110-04",
+    "opis": "Mocowanie elementów za pomocą kotew chemicznych w ampułkach z żywicy syntetycznej i prętów ocynkowanych gwintowanych fi 16",
+    "jm": "szt.",
+    "R": 9.21,
+    "M": 49.12,
+    "S": 3.07
+  },
+  {
+    "knr": "KNR K-05 0105-03",
+    "opis": "Montaż łat przy rozstawie krokwi 80 do 100 cm",
+    "jm": "m2",
+    "R": 9.51,
+    "M": 14.95,
+    "S": 2.72
+  },
+  {
+    "knr": "KNR K-05 0402-01",
+    "opis": "Wykonanie połączenia połaci ze ścianami - przednie",
+    "jm": "m",
+    "R": 26.15,
+    "M": 41.09,
+    "S": 7.47
+  },
+  {
+    "knr": "KNR K-05 0402-02",
+    "opis": "Wykonanie połączenia połaci ze ścianami - boczne",
+    "jm": "m",
+    "R": 26.57,
+    "M": 41.75,
+    "S": 7.59
+  },
+  {
+    "knr": "NNRNKB 202 0541-01",
+    "opis": "(z.VI) Obróbki blacharskie z blachy powlekanej o szer. w rozwinięciu do 25 cm",
+    "jm": "m2",
+    "R": 34.46,
+    "M": 183.8,
+    "S": 11.49
+  },
+  {
+    "knr": "KNR K-05 0501-01",
+    "opis": "Montaż rynien dachowych",
+    "jm": "m",
+    "R": 17.89,
+    "M": 95.39,
+    "S": 5.96
+  },
+  {
+    "knr": "KNR K-05 0501-06",
+    "opis": "Montaż rynien dachowych - lej spustowy",
+    "jm": "szt.",
+    "R": 10.06,
+    "M": 53.66,
+    "S": 3.35
+  },
+  {
+    "knr": "KNR K-05 0501-07",
+    "opis": "Montaż rynien dachowych - denko",
+    "jm": "szt.",
+    "R": 2.52,
+    "M": 13.45,
+    "S": 0.84
+  },
+  {
+    "knr": "KNR K-05 0502-02",
+    "opis": "Montaż rur spustowych",
+    "jm": "m",
+    "R": 11.72,
+    "M": 62.5,
+    "S": 3.91
+  },
+  {
+    "knr": "KNR K-05 0502-03",
+    "opis": "Montaż rur spustowych - kolanko",
+    "jm": "szt.",
+    "R": 5.9,
+    "M": 31.48,
+    "S": 1.97
+  },
+  {
+    "knr": "KNR K-05 0502-06",
+    "opis": "Montaż rur spustowych - klapa burzowa",
+    "jm": "szt.",
+    "R": 20.0,
+    "M": 106.65,
+    "S": 6.67
+  },
+  {
+    "knr": "KNR AT-43 0103-03",
+    "opis": "Okładziny sufitowe - warstwa paroizolacji",
+    "jm": "m2",
+    "R": 1.85,
+    "M": 9.88,
+    "S": 0.62
+  },
+  {
+    "knr": "KNR AT-43 0209-01",
+    "opis": "Sufit podwieszany z płyt gipsowo-kartonowych na konstrukcji krzyżowej jednopoziomowej z profili CD 60",
+    "jm": "m2",
+    "R": 14.81,
+    "M": 79.01,
+    "S": 4.94
+  },
+  {
+    "knr": "KNR AT-43 0104-02",
+    "opis": "Okładziny ścienne z płyt gipsowo-kartonowych mocowane na pojedynczej metalowej konstrukcji o grubości 75 mm",
+    "jm": "m2",
+    "R": 13.15,
+    "M": 70.11,
+    "S": 4.38
+  },
+  {
+    "knr": "OPIS:DODATKI ZA PODEJŚCIA DOPŁYWOWE DO PŁUCZEK USTĘPOWYCH, PISUARÓW ŚR. 16 MM",
+    "opis": "Dodatki za podejścia dopływowe do płuczek ustępowych, pisuarów śr. 16 mm",
+    "jm": "szt.",
+    "R": 30.25,
+    "M": 47.53,
+    "S": 8.64
+  },
+  {
+    "knr": "OPIS:DODATKI ZA PODEJŚCIA DO PŁUCZEK USTĘPOWYCH ŚR. 16 MM",
+    "opis": "Dodatki za podejścia do płuczek ustępowych śr. 16 mm",
+    "jm": "szt.",
+    "R": 30.24,
+    "M": 40.02,
+    "S": 0.0
+  },
+  {
+    "knr": "OPIS:POZYCJA TESTOWA",
+    "opis": "Pozycja testowa",
+    "jm": "m2",
+    "R": 10.0,
+    "M": 20.0,
+    "S": 10.65
   }
 ]

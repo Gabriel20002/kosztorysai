@@ -19,6 +19,8 @@ ATH_SOURCES = [
     "/mnt/c/Users/Gabriel/Downloads/Kosztorys - usunięcie skutków zalania - przykładowy.ath",
     "/mnt/c/Users/Gabriel/Desktop/przedmiary",
     "/mnt/c/Users/Gabriel/Downloads/kosztorysy",
+    "/mnt/c/Users/Gabriel/Desktop/kosztorysy",
+    "/mnt/c/Users/Gabriel/Downloads",
 ]
 
 DB_PATH = Path(__file__).parent / "learned_kosztorysy" / "naklady_merged.json"
