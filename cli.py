@@ -18,6 +18,13 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
+# Załaduj .env jeśli istnieje (lokalnie)
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
+
 # Import generatora (wspiera: moduł, bezpośrednie uruchomienie, pip install)
 try:
     from .kosztorys_generator import KosztorysGenerator

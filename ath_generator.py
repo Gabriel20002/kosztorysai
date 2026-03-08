@@ -212,7 +212,23 @@ class ATHGenerator:
             except Exception as e:
                 log.warning("AI materials niedostępne: %s", e)
 
-        # Krok 3: przypisz numery ZEST do wszystkich materiałów
+        # Krok 3a: dla pozycji bez materiałów (fallback) — stwórz dedykowany zasób
+        # ce = M_nj (cena za jednostkę roboty), nz = 1.0 — zamiast ce=1/szt
+        for idx, poz in enumerate(pozycje):
+            if pos_mats[idx] is not None:
+                continue
+            M = poz.get('M', 0.0) or 0.0
+            ilosc = poz.get('ilosc', 1) or 1
+            M_nj = M / ilosc if ilosc else 0.0
+            if M_nj <= 0:
+                continue  # brak materiałów — OK
+            jm = poz.get('jm', 'szt') or 'szt'
+            # Skrócona nazwa z opisu
+            opis_short = (poz.get('opis', '') or '')[:40].strip()
+            name = f"Materiały: {opis_short}" if opis_short else "Materiały budowlane"
+            pos_mats[idx] = [{'name': name, 'jm': jm, 'nz': 1.0, 'ce': round(M_nj, 4)}]
+
+        # Krok 3b: przypisz numery ZEST do wszystkich materiałów
         for idx, mats in enumerate(pos_mats):
             if not mats:
                 continue
@@ -235,13 +251,7 @@ class ATHGenerator:
                 zn = mat['zest_num']
                 mat_il_total[zn] = mat_il_total.get(zn, 0.0) + mat['nz'] * ob
 
-        # Suma M dla pozycji fallback (bez indywidualnych materiałów)
-        suma_M_fallback = sum(
-            (poz.get('M', 0.0) or 0.0)
-            for poz, mats in zip(pozycje, pos_mats)
-            if mats is None
-        )
-        needs_m_fallback = suma_M_fallback > 0
+        needs_m_fallback = False  # ZEST 2 już nie potrzebny
 
         # ──────────────────── NAGŁÓWEK ──────────────────────────────────────
         lines += [
@@ -449,17 +459,7 @@ class ATHGenerator:
                         f"il={_dot(il, 4)}",
                         "",
                     ]
-            elif M > 0:
-                # Fallback: zbiorczy materiał ce=1
-                lines += [
-                    "[RMS 2]",
-                    f"nz={_dot(M_nj)}\t0\t{_dot(M_nj)}",
-                    "np=1",
-                    "wa=0",
-                    "wb=0",
-                    f"il={_dot(M_il, 2)}",
-                    "",
-                ]
+            # (fallback obsłużony w pre-pass jako dedykowany ZEST)
 
             # ZEST 3: Sprzęt
             if S > 0:
