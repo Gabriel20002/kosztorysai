@@ -27,7 +27,9 @@ ZASADY:
 - WAŻNE: suma(nz * ce) musi być ≈ wartości "m_per_jm" podanej w danych wejściowych
 - Podaj realistyczne ceny materiałów budowlanych 2024/2025 w Polsce
 - Nazwy materiałów po polsku, konkretne (np. "cement portlandzki CEM I 42.5" nie "cement")
-- Jeśli robota jest czysto usługowa (brak materiałów) zwróć pustą listę []
+- KRYTYCZNE: jeśli "Wartość materiałów" > 0, ZAWSZE podaj co najmniej jeden materiał — nigdy nie zwracaj []
+  Jeśli praca polega na montażu gotowego elementu (kabina, bateria, wpust itp.), tym materiałem jest ten element
+- Jeśli "Wartość materiałów" = 0, wtedy możesz zwrócić []
 - Odpowiadaj WYŁĄCZNIE jako poprawny JSON, bez tekstu przed/po"""
 
 
@@ -135,12 +137,15 @@ def estimate_materials_batch(items: list) -> dict:
                 normalized = _normalize(raw_mats, it['m_per_jm'])
                 normalized = [m for m in normalized if m.get('ce', 0) > 0 and m.get('nz', 0) > 0]
                 cache[norm_key] = normalized
-            else:
+                saved += 1
+            elif it.get('m_per_jm', 0) <= 0:
+                # Brak materiałów i M=0 — poprawne, cachuj jako puste
                 cache[norm_key] = []
-            saved += 1
+                saved += 1
+            # else: M>0 ale AI zwrócił [] — nie cachuj, spróbuj ponownie następnym razem
         except Exception as e:
             log.warning("AI materials błąd dla %s: %s", it['knr'], e)
-            cache[norm_key] = []  # nie pytaj ponownie
+            # Nie cachuj błędu jeśli M>0 — spróbuj ponownie następnym razem
 
     _save_cache(cache)
     log.info("AI materials: zapisano %d/%d KNR do cache", saved, len(to_fetch))
