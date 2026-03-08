@@ -1,0 +1,66 @@
+{
+  "KNR-W4-010701-11": [
+    {
+      "name": "zaprawa cementowo-wapienną gotową do stosowania",
+      "jm": "kg",
+      "nz": 6.432916,
+      "ce": 0.95
+    },
+    {
+      "name": "woda",
+      "jm": "dm3",
+      "nz": 0.887299,
+      "ce": 0.1
+    }
+  ],
+  "KNRK-040305-04": [
+    {
+      "name": "zaprawa gipsowa jednowarstwowa (Rigips, Knauf)",
+      "jm": "kg",
+      "nz": 4.175926,
+      "ce": 1.08
+    }
+  ],
+  "KNNR6-010113-06": [
+    {
+      "name": "frez do rozbioru nawierzchni bitumicznej",
+      "jm": "m2",
+      "nz": 1.0,
+      "ce": 0.65
+    }
+  ],
+  "KNNR1": [
+    {
+      "name": "paliwo diesel do kopania",
+      "jm": "l",
+      "nz": 7.252194,
+      "ce": 6.2
+    },
+    {
+      "name": "narzędzia drobne i zużycie sprzętu",
+      "jm": "m3",
+      "nz": 0.853199,
+      "ce": 306.29
+    }
+  ],
+  "KNNR40132-01": [
+    {
+      "name": "piasek średni",
+      "jm": "m3",
+      "nz": 0.642747,
+      "ce": 55.0
+    },
+    {
+      "name": "żwir pośredni 16-32 mm",
+      "jm": "m3",
+      "nz": 0.409021,
+      "ce": 65.74
+    },
+    {
+      "name": "geowłóknina drenażowa 100 g/m2",
+      "jm": "m2",
+      "nz": 5.843157,
+      "ce": 2.87
+    }
+  ]
+}

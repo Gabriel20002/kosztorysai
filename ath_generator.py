@@ -171,20 +171,59 @@ class ATHGenerator:
         unique_mats: Dict[tuple, int] = {}   # key -> zest_num
         pos_mats: List = []                   # per pozycja: list[dict] lub None
 
-        for poz in pozycje:
+        # Krok 1: DB lookup — zbierz brakujące do AI
+        ai_needed = []  # [{knr_norm, knr, opis, jm, m_per_jm, poz_idx}]
+        for idx, poz in enumerate(pozycje):
             knr_norm = _podstawa_to_norm(poz.get('podstawa', ''))
             db_mats = self._mat_db.get(knr_norm, []) if knr_norm else []
-            if not db_mats:
-                pos_mats.append(None)
+            if db_mats:
+                pos_mats.append(db_mats)
+            else:
+                pos_mats.append(None)   # placeholder — może zastąpiony przez AI
+                M = poz.get('M', 0.0) or 0.0
+                ilosc = poz.get('ilosc', 1) or 1
+                if knr_norm and M > 0:
+                    ai_needed.append({
+                        'knr_norm': knr_norm,
+                        'knr': poz.get('podstawa', ''),
+                        'opis': poz.get('opis', '')[:80],
+                        'jm': poz.get('jm', ''),
+                        'm_per_jm': M / ilosc,
+                        'poz_idx': idx,
+                    })
+
+        # Krok 2: AI estimation dla brakujących (deduplikacja wg knr_norm)
+        if ai_needed:
+            try:
+                from ai_materials import estimate_materials_batch
+                # Deduplikuj — jeden wpis per unikalny KNR
+                seen_knr: Dict[str, int] = {}  # knr_norm -> first poz_idx
+                unique_ai = []
+                for item in ai_needed:
+                    if item['knr_norm'] not in seen_knr:
+                        seen_knr[item['knr_norm']] = item['poz_idx']
+                        unique_ai.append(item)
+                ai_results = estimate_materials_batch(unique_ai)
+                # Wypełnij pos_mats wynikami AI
+                for item in ai_needed:
+                    mats = ai_results.get(item['knr_norm'], [])
+                    if mats:
+                        pos_mats[item['poz_idx']] = mats
+            except Exception as e:
+                log.warning("AI materials niedostępne: %s", e)
+
+        # Krok 3: przypisz numery ZEST do wszystkich materiałów
+        for idx, mats in enumerate(pos_mats):
+            if not mats:
                 continue
             assigned = []
-            for mat in db_mats:
+            for mat in mats:
                 key = (mat['name'], mat['jm'], round(mat['ce'], 2))
                 if key not in unique_mats:
                     unique_mats[key] = next_zest
                     next_zest += 1
                 assigned.append({**mat, 'zest_num': unique_mats[key]})
-            pos_mats.append(assigned)
+            pos_mats[idx] = assigned
 
         # Totalne il= na ZEST materiałowy (suma nz*ob po wszystkich pozycjach)
         mat_il_total: Dict[int, float] = {}
