@@ -1,20 +1,26 @@
 # -*- coding: utf-8 -*-
 """
-ATH Generator v5.0
+ATH Generator v6.0
 Generator plików ATH (format Norma PRO / Athenasoft)
 
 Format wzorowany na prawdziwych plikach ATH z Normy PRO:
 - pd= z referencją KNR, kj=0, cj=0, wn= puste
 - [RMS ZEST N] = definicje zasobów z cenami
-- [RMS N] per pozycja: N = numer ZEST, nz = nakład jednostkowy (kropka), il = nz×ob
-- Norma PRO sama oblicza kj/wn z RMS
+  ZEST 1 = R (robocizna, stawka_rg)
+  ZEST 2 = M zbiorcze (fallback ce=1 dla pozycji bez danych materiałowych)
+  ZEST 3 = S (sprzęt, stawka_sprzetu)
+  ZEST 4..N = indywidualne materiały z realnymi cenami
+- [RMS N] per pozycja: N = numer ZEST
+  Norma PRO sama oblicza kj/wn z RMS
 """
 
+import json
 import logging
 import math
 import re
 import time
 from datetime import datetime
+from pathlib import Path
 from typing import Dict, List, Tuple
 
 from formatters import fmt_ath as fmt
@@ -98,10 +104,18 @@ def _parse_podstawa(podstawa: str) -> Tuple[str, str, str]:
     return '', '', ''
 
 
+def _podstawa_to_norm(podstawa: str) -> str:
+    """Normalizuje podstawę KNR do klucza DB (identycznie jak extract_materialy)."""
+    typ, short, num = _parse_podstawa(podstawa)
+    if not typ:
+        return ''
+    return re.sub(r'\s+', '', f"{typ}{short}{num}".upper())
+
+
 # ── Generator ─────────────────────────────────────────────────────────────────
 
 class ATHGenerator:
-    """Generator plików ATH (format Norma PRO v5)."""
+    """Generator plików ATH (format Norma PRO v6)."""
 
     DEFAULT_PARAMS = {
         'stawka_rg': 35.00,
@@ -113,6 +127,17 @@ class ATHGenerator:
 
     def __init__(self, params: Dict = None):
         self.params = {**self.DEFAULT_PARAMS, **(params or {})}
+        self._mat_db = self._load_mat_db()
+
+    def _load_mat_db(self) -> dict:
+        """Ładuje knr_materialy.json (indywidualne materiały z cenami)."""
+        db_path = Path(__file__).parent / "learned_kosztorysy" / "knr_materialy.json"
+        if db_path.exists():
+            try:
+                return json.loads(db_path.read_text(encoding='utf-8'))
+            except Exception:
+                pass
+        return {}
 
     def generate(
         self,
@@ -127,10 +152,10 @@ class ATHGenerator:
         data = datetime.now().strftime("%d.%m.%Y")
         lines = []
 
-        kp  = self.params['kp_procent']
-        z   = self.params['z_procent']
-        sr  = self.params['stawka_rg']
-        ss  = self.params['stawka_sprzetu']
+        kp = self.params['kp_procent']
+        z  = self.params['z_procent']
+        sr = self.params['stawka_rg']
+        ss = self.params['stawka_sprzetu']
 
         suma_R = podsumowanie.get('suma_R', 0.0)
         suma_M = podsumowanie.get('suma_M', 0.0)
@@ -138,6 +163,46 @@ class ATHGenerator:
 
         total_rg = suma_R / sr if sr else 0.0
         total_mg = suma_S / ss if ss else 0.0
+
+        # ── Pre-pass: przypisz indywidualne materiały do pozycji ─────────────
+        # ZEST 1=R, 2=M fallback, 3=S, 4..=indywidualne materiały
+        next_zest = 4
+        # Klucz unikatowości materiału: (name, jm, ce_rounded)
+        unique_mats: Dict[tuple, int] = {}   # key -> zest_num
+        pos_mats: List = []                   # per pozycja: list[dict] lub None
+
+        for poz in pozycje:
+            knr_norm = _podstawa_to_norm(poz.get('podstawa', ''))
+            db_mats = self._mat_db.get(knr_norm, []) if knr_norm else []
+            if not db_mats:
+                pos_mats.append(None)
+                continue
+            assigned = []
+            for mat in db_mats:
+                key = (mat['name'], mat['jm'], round(mat['ce'], 2))
+                if key not in unique_mats:
+                    unique_mats[key] = next_zest
+                    next_zest += 1
+                assigned.append({**mat, 'zest_num': unique_mats[key]})
+            pos_mats.append(assigned)
+
+        # Totalne il= na ZEST materiałowy (suma nz*ob po wszystkich pozycjach)
+        mat_il_total: Dict[int, float] = {}
+        for poz, mats in zip(pozycje, pos_mats):
+            if not mats:
+                continue
+            ob = poz.get('ilosc', 0) or 1
+            for mat in mats:
+                zn = mat['zest_num']
+                mat_il_total[zn] = mat_il_total.get(zn, 0.0) + mat['nz'] * ob
+
+        # Suma M dla pozycji fallback (bez indywidualnych materiałów)
+        suma_M_fallback = sum(
+            (poz.get('M', 0.0) or 0.0)
+            for poz, mats in zip(pozycje, pos_mats)
+            if mats is None
+        )
+        needs_m_fallback = suma_M_fallback > 0
 
         # ──────────────────── NAGŁÓWEK ──────────────────────────────────────
         lines += [
@@ -188,7 +253,7 @@ class ATHGenerator:
             "",
         ]
 
-        # ──────────────────── RMS ZEST (zasoby globalne z cenami) ────────────
+        # ──────────────────── RMS ZEST — zasoby globalne ─────────────────────
         # ZEST 1 — Robocizna
         lines += [
             "[RMS ZEST 1]",
@@ -202,18 +267,19 @@ class ATHGenerator:
             "",
         ]
 
-        # ZEST 2 — Materiały (ce=1 PLN/szt — il = wartość PLN)
-        lines += [
-            "[RMS ZEST 2]",
-            "ty=M",
-            "na=materia\u0142y\t0",
-            "id=998\t1",
-            "jm=szt\t020",
-            f"ce=1\t{ts}",
-            "cw=1\tPLN",
-            f"il={_dot(suma_M, 2)}",
-            "",
-        ]
+        # ZEST 2 — Materiały zbiorcze (fallback ce=1, tylko jeśli potrzebne)
+        if needs_m_fallback:
+            lines += [
+                "[RMS ZEST 2]",
+                "ty=M",
+                "na=materia\u0142y\t0",
+                "id=998\t1",
+                "jm=szt\t020",
+                f"ce=1\t{ts}",
+                "cw=1\tPLN",
+                f"il={_dot(suma_M_fallback, 2)}",
+                "",
+            ]
 
         # ZEST 3 — Sprzęt
         lines += [
@@ -227,6 +293,22 @@ class ATHGenerator:
             f"il={_dot(total_mg)}",
             "",
         ]
+
+        # ZEST 4..N — Indywidualne materiały z realnymi cenami
+        for (name, jm, _ce), zest_num in sorted(unique_mats.items(), key=lambda x: x[1]):
+            jm_code = get_jm_code(jm)
+            il_total = mat_il_total.get(zest_num, 0.0)
+            lines += [
+                f"[RMS ZEST {zest_num}]",
+                "ty=M",
+                f"na={name}\t0",
+                "id=0\t3",
+                f"jm={jm}\t{jm_code}",
+                f"ce={_dot(_ce, 2)}\t{ts}",
+                f"cw={_dot(_ce, 2)}\tPLN",
+                f"il={_dot(il_total, 4)}",
+                "",
+            ]
 
         # ──────────────────── ELEMENT ────────────────────────────────────────
         lines += [
@@ -242,7 +324,7 @@ class ATHGenerator:
         # ──────────────────── POZYCJE ────────────────────────────────────────
         pos_id = 2
 
-        for lp, poz in enumerate(pozycje, 1):
+        for lp, (poz, mats) in enumerate(zip(pozycje, pos_mats), 1):
             jm       = poz.get('jm', 'szt.')
             jm_clean = jm.replace('.', '')
             jm_code  = get_jm_code(jm)
@@ -254,15 +336,16 @@ class ATHGenerator:
             M = poz.get('M', 0.0)
             S = poz.get('S', 0.0)
 
-            # Nakłady jednostkowe
-            R_nj = R / sr / ilosc if (R > 0 and sr > 0) else 0.0  # r-g / jm
-            M_nj = M / ilosc      if M > 0               else 0.0  # PLN / jm
-            S_nj = S / ss / ilosc if (S > 0 and ss > 0) else 0.0  # m-g / jm
+            # Nakłady jednostkowe (dla ZEST 1 i ZEST 3)
+            R_nj = R / sr / ilosc if (R > 0 and sr > 0) else 0.0
+            S_nj = S / ss / ilosc if (S > 0 and ss > 0) else 0.0
 
-            # Sumaryczne ilości zasobu
-            R_il = R / sr if (R > 0 and sr) else 0.0   # total r-g
-            M_il = M      if M > 0          else 0.0   # total PLN
-            S_il = S / ss if (S > 0 and ss) else 0.0   # total m-g
+            R_il = R / sr if (R > 0 and sr) else 0.0
+            S_il = S / ss if (S > 0 and ss) else 0.0
+
+            # Dla fallback M (ZEST 2)
+            M_nj = M / ilosc if M > 0 else 0.0
+            M_il = M if M > 0 else 0.0
 
             # Linia pd= z referencją KNR
             knr_typ, knr_short, knr_num = _parse_podstawa(podstawa)
@@ -275,7 +358,7 @@ class ATHGenerator:
             else:
                 pd_line = "pd=\t\t\t\t\t\t0"
 
-            # Obmiar (liczba lub formuła)
+            # Obmiar
             ilosc_str = _dot(ilosc, 4)
             formula   = poz.get('formula_str', '')
             wo_val    = formula if formula else ilosc_str
@@ -300,7 +383,7 @@ class ATHGenerator:
             ]
 
             # ── RMS per pozycja ─────────────────────────────────────────────
-            # N = numer ZEST (1=R, 2=M, 3=S)
+            # ZEST 1: Robocizna
             if R > 0:
                 lines += [
                     "[RMS 1]",
@@ -312,7 +395,23 @@ class ATHGenerator:
                     "",
                 ]
 
-            if M > 0:
+            # Materiały: indywidualne (ZEST 4+) lub zbiorcze fallback (ZEST 2)
+            if mats:
+                # Indywidualne materiały z realnymi cenami
+                for mat in mats:
+                    nz = mat['nz']
+                    il = nz * ilosc
+                    lines += [
+                        f"[RMS {mat['zest_num']}]",
+                        f"nz={_dot(nz)}\t0\t{_dot(nz)}",
+                        "np=0",
+                        "wa=0",
+                        "wb=0",
+                        f"il={_dot(il, 4)}",
+                        "",
+                    ]
+            elif M > 0:
+                # Fallback: zbiorczy materiał ce=1
                 lines += [
                     "[RMS 2]",
                     f"nz={_dot(M_nj)}\t0\t{_dot(M_nj)}",
@@ -323,6 +422,7 @@ class ATHGenerator:
                     "",
                 ]
 
+            # ZEST 3: Sprzęt
             if S > 0:
                 lines += [
                     "[RMS 3]",
@@ -348,7 +448,12 @@ class ATHGenerator:
         with open(output_path, 'w', encoding='cp1250', errors='replace') as f:
             f.write(content)
 
-        log.info("Zapisano ATH (%d pozycji): %s", len(pozycje), output_path)
+        mat_count = sum(1 for m in pos_mats if m is not None)
+        fallback_count = sum(1 for m in pos_mats if m is None)
+        log.info(
+            "Zapisano ATH (%d pozycji, %d z mat. indywid., %d fallback): %s",
+            len(pozycje), mat_count, fallback_count, output_path,
+        )
         return output_path
 
 
@@ -359,5 +464,5 @@ if __name__ == "__main__":
          'jm': 'szt.', 'ilosc': 10, 'R': 1000.0, 'M': 500.0, 'S': 200.0},
     ]
     test_pods = {'suma_R': 1000.0, 'suma_M': 500.0, 'suma_S': 200.0}
-    test_dane = {'nazwa_inwestycji': 'Test v5'}
-    print(gen.generate(test_poz, test_pods, test_dane, '/tmp/test_v5.ath'))
+    test_dane = {'nazwa_inwestycji': 'Test v6'}
+    print(gen.generate(test_poz, test_pods, test_dane, '/tmp/test_v6.ath'))
