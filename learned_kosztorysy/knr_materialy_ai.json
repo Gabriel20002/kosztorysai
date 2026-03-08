@@ -62,5 +62,751 @@
       "nz": 5.843157,
       "ce": 2.87
     }
+  ],
+  "KNR2-021102-02": [
+    {
+      "name": "cement portlandzki CEM I 42.5",
+      "jm": "kg",
+      "nz": 54.742389,
+      "ce": 0.42
+    },
+    {
+      "name": "piasek do zaprawy 0-2 mm",
+      "jm": "kg",
+      "nz": 218.969555,
+      "ce": 0.08
+    },
+    {
+      "name": "woda",
+      "jm": "dm3",
+      "nz": 28.981265,
+      "ce": 0.5
+    }
+  ],
+  "KNR2-021118-11": [
+    {
+      "name": "płytki gresowe 60x60 cm",
+      "jm": "m2",
+      "nz": 1.189624,
+      "ce": 65.0
+    },
+    {
+      "name": "zaprawa klejowa do płytek",
+      "jm": "kg",
+      "nz": 9.063804,
+      "ce": 1.2
+    },
+    {
+      "name": "zaprawa do spoin",
+      "jm": "kg",
+      "nz": 2.832439,
+      "ce": 2.4
+    }
+  ],
+  "KNR4-010411-08": [
+    {
+      "name": "listwa progowa aluminiowa 80 mm",
+      "jm": "szt.",
+      "nz": 1.0,
+      "ce": 450.0
+    }
+  ],
+  "KNR2-021009-06": [
+    {
+      "name": "panel poliwęglanowy 4 mm",
+      "jm": "m2",
+      "nz": 1.0,
+      "ce": 320.0
+    },
+    {
+      "name": "uszczelka EPDM do połączeń",
+      "jm": "mb",
+      "nz": 3.2,
+      "ce": 18.75
+    }
+  ],
+  "KNR2-021215-02": [
+    {
+      "name": "drzwiczki rewizyjne GK 300x300",
+      "jm": "szt.",
+      "nz": 1.0,
+      "ce": 12.0
+    }
+  ],
+  "KNR2-170156-01": [
+    {
+      "name": "nawietrzak okienny z siatką",
+      "jm": "szt.",
+      "nz": 1.0,
+      "ce": 350.0
+    }
+  ],
+  "KNR4-010919-20": [
+    {
+      "name": "klamka okienna z regulacją",
+      "jm": "szt.",
+      "nz": 1.0,
+      "ce": 5.0
+    }
+  ],
+  "KNR4-020235-08": [],
+  "KNR4-020230-04": [],
+  "KNR4-020230-05": [],
+  "KNR4-020234-02": [],
+  "KNR2-150205-04": [
+    {
+      "name": "rura PCV 160 mm",
+      "jm": "m",
+      "nz": 1.0,
+      "ce": 75.0
+    },
+    {
+      "name": "złączka PCV 160 mm",
+      "jm": "szt.",
+      "nz": 0.25,
+      "ce": 80.0
+    }
+  ],
+  "KNR2-150205-03": [
+    {
+      "name": "rura PCV 75 mm",
+      "jm": "m",
+      "nz": 1.133333,
+      "ce": 65.0
+    },
+    {
+      "name": "złączka PCV 75 mm",
+      "jm": "szt.",
+      "nz": 0.283333,
+      "ce": 40.0
+    }
+  ],
+  "KNR2-150205-02": [
+    {
+      "name": "rura PCV 50 mm",
+      "jm": "m",
+      "nz": 1.160714,
+      "ce": 50.0
+    },
+    {
+      "name": "złączka PCV 50 mm",
+      "jm": "szt.",
+      "nz": 0.290179,
+      "ce": 24.0
+    }
+  ],
+  "KNR2": [
+    {
+      "name": "ustęp bezkołnierzowy Geberit",
+      "jm": "szt.",
+      "nz": 1.0,
+      "ce": 480.0
+    },
+    {
+      "name": "deska sedesowa wolnoopadająca",
+      "jm": "szt.",
+      "nz": 1.0,
+      "ce": 150.0
+    },
+    {
+      "name": "element montażowy Geberit",
+      "jm": "szt.",
+      "nz": 1.0,
+      "ce": 51.12
+    }
+  ],
+  "KNR2-150404-02": [],
+  "KNR5-080309-03": [
+    {
+      "name": "gniazdo wtyczkowe podtynkowe 2-biegu",
+      "jm": "szt.",
+      "nz": 1.0,
+      "ce": 36.59
+    }
+  ],
+  "KNR5-080402-01": [
+    {
+      "name": "kocki dystansowe, śruby montażowe",
+      "jm": "kpl.",
+      "nz": 1.0,
+      "ce": 120.0
+    }
+  ],
+  "KNR13-210301-03": [],
+  "KNR4-010702-06": [],
+  "KNR4-010804-07": [],
+  "KNR0-191023-05": [
+    {
+      "name": "okno PCV 1-dzielne uchylno-rozwijające",
+      "jm": "m2",
+      "nz": 0.988725,
+      "ce": 1800.0
+    },
+    {
+      "name": "uszczelka okienna EPDM",
+      "jm": "mb",
+      "nz": 4.449263,
+      "ce": 8.0
+    },
+    {
+      "name": "montaż ościeżnicy i parapetu",
+      "jm": "m2",
+      "nz": 0.988725,
+      "ce": 470.02
+    }
+  ],
+  "KNR4-010703-03": [
+    {
+      "name": "siatka Rabitza ocynkowana 25x25 mm",
+      "jm": "m2",
+      "nz": 0.977885,
+      "ce": 8.5
+    },
+    {
+      "name": "drut stalowy ocynkowany Ø 1.0 mm",
+      "jm": "kg",
+      "nz": 0.488942,
+      "ce": 3.8
+    }
+  ],
+  "KNR4-010704-03": [
+    {
+      "name": "zaprawa cementowo-wapienną gotową",
+      "jm": "kg",
+      "nz": 18.461538,
+      "ce": 0.65
+    }
+  ],
+  "KNR9-290306-01": [
+    {
+      "name": "płyta gipsowo-kartonowa GKB 12.5 mm",
+      "jm": "m2",
+      "nz": 8.748542,
+      "ce": 18.5
+    },
+    {
+      "name": "taśma papierowa do spoin 50 mm",
+      "jm": "m",
+      "nz": 16.663889,
+      "ce": 0.45
+    },
+    {
+      "name": "masa szpachlowa do spoin",
+      "jm": "kg",
+      "nz": 33.327779,
+      "ce": 2.1
+    },
+    {
+      "name": "śruba do GK 3.5x25 mm",
+      "jm": "szt.",
+      "nz": 133.311115,
+      "ce": 0.08
+    }
+  ],
+  "KNR2-022004-01": [
+    {
+      "name": "profil rozstępu UD 28/27 mm",
+      "jm": "m",
+      "nz": 2.631579,
+      "ce": 3.5
+    },
+    {
+      "name": "profil pionowy CD 60/27 mm",
+      "jm": "m",
+      "nz": 3.947368,
+      "ce": 4.2
+    },
+    {
+      "name": "płyta gipsowo-kartonowa GKBI 12.5 mm",
+      "jm": "m2",
+      "nz": 0.394737,
+      "ce": 21.0
+    },
+    {
+      "name": "łącznik do profili typ 'krzyżak'",
+      "jm": "szt.",
+      "nz": 2.631579,
+      "ce": 0.35
+    }
+  ],
+  "KNR4-010705-04": [
+    {
+      "name": "zaprawa cementowo-wapienną zwykłą",
+      "jm": "kg",
+      "nz": 23.333333,
+      "ce": 0.6
+    }
+  ],
+  "KNR4-010716-02": [
+    {
+      "name": "zaprawa cementowo-wapienną zwykłą",
+      "jm": "kg",
+      "nz": 4.612546,
+      "ce": 0.6
+    },
+    {
+      "name": "siatka tynkarska 160 g/m2",
+      "jm": "m2",
+      "nz": 0.193727,
+      "ce": 1.2
+    }
+  ],
+  "KNR4-010711-14": [
+    {
+      "name": "zaprawa cementowo-wapienną do uzupełnień",
+      "jm": "kg",
+      "nz": 11.872727,
+      "ce": 0.55
+    }
+  ],
+  "KNR4-010713-01": [
+    {
+      "name": "emerytu do szlifowania 120",
+      "jm": "szt.",
+      "nz": 0.666667,
+      "ce": 12.0
+    }
+  ],
+  "KNR2-020812-01": [
+    {
+      "name": "zaprawa cementowo-wapienną zwykłą",
+      "jm": "kg",
+      "nz": 126.865672,
+      "ce": 0.6
+    },
+    {
+      "name": "siatka tynkarska 160 g/m2",
+      "jm": "m2",
+      "nz": 7.400498,
+      "ce": 1.2
+    }
+  ],
+  "KNR2-022006-07": [
+    {
+      "name": "płyta gipsowo-kartonowa GKB 12.5 mm",
+      "jm": "m2",
+      "nz": 1.048951,
+      "ce": 14.3
+    }
+  ],
+  "KNR2-022009-04": [
+    {
+      "name": "gips szpachlowy do gładzi",
+      "jm": "kg",
+      "nz": 4.500237,
+      "ce": 21.11
+    }
+  ],
+  "KNR2-022009-02": [
+    {
+      "name": "gips szpachlowy do gładzi",
+      "jm": "kg",
+      "nz": 3.499767,
+      "ce": 21.43
+    }
+  ],
+  "KNR2-020829-11": [
+    {
+      "name": "płytki ceramiczne 30x60 cm",
+      "jm": "m2",
+      "nz": 1.182558,
+      "ce": 45.0
+    },
+    {
+      "name": "zaprawa do płytek elastyczna",
+      "jm": "kg",
+      "nz": 3.503876,
+      "ce": 1.26
+    }
+  ],
+  "KNR2-021505-06": [
+    {
+      "name": "farba emulsyjna wewnętrzna biała",
+      "jm": "l",
+      "nz": 0.15997,
+      "ce": 26.38
+    }
+  ],
+  "KNR4-011206-05": [
+    {
+      "name": "farba olejna do drewna i tynku",
+      "jm": "l",
+      "nz": 0.776904,
+      "ce": 321.79
+    }
+  ],
+  "KNR9-290103-01": [
+    {
+      "name": "Worki na odpady budowlane LDPE 120L",
+      "jm": "szt",
+      "nz": 0.725875,
+      "ce": 8.5
+    },
+    {
+      "name": "Taśma ochronna papierowa 48mm x 50m",
+      "jm": "rol",
+      "nz": 0.217763,
+      "ce": 12.0
+    },
+    {
+      "name": "Folia ochronna LDPE 2x50m",
+      "jm": "szt",
+      "nz": 0.11614,
+      "ce": 45.0
+    },
+    {
+      "name": "Płyn do czyszczenia i dezynfekcji prac rozbiórkowych",
+      "jm": "l",
+      "nz": 0.435525,
+      "ce": 28.0
+    },
+    {
+      "name": "Narzędzia rozdrabniające (amortyzacja na m2)",
+      "jm": "m2",
+      "nz": 1.451751,
+      "ce": 25.0
+    },
+    {
+      "name": "Urządzenie ekstrakcji pyłu przy rozbiórce",
+      "jm": "m2",
+      "nz": 1.451751,
+      "ce": 15.5
+    }
+  ],
+  "KNR9-290105-02": [
+    {
+      "name": "Worek na gruz i odpady 120 L",
+      "jm": "szt",
+      "nz": 1.254902,
+      "ce": 12.5
+    },
+    {
+      "name": "Taśma naprawcza polietylenowa 50 mm x 50 m",
+      "jm": "rolka",
+      "nz": 0.235294,
+      "ce": 18.0
+    },
+    {
+      "name": "Rękawice robocze bawełniane z PVC",
+      "jm": "para",
+      "nz": 0.470588,
+      "ce": 15.0
+    },
+    {
+      "name": "Maska ochronna wielokrotnego użytku FFP2",
+      "jm": "szt",
+      "nz": 0.627451,
+      "ce": 8.5
+    },
+    {
+      "name": "Okulary ochronne poliwęglanowe",
+      "jm": "szt",
+      "nz": 0.156863,
+      "ce": 25.0
+    },
+    {
+      "name": "Workodaw na odpady budowlane 1,5 m3",
+      "jm": "m3",
+      "nz": 0.282353,
+      "ce": 280.0
+    },
+    {
+      "name": "Rozpychacz uniwersalny nylonowy",
+      "jm": "szt",
+      "nz": 0.031373,
+      "ce": 150.0
+    }
+  ],
+  "KNR9-290101-01": [
+    {
+      "name": "Worki na odpady budowlane 120 l",
+      "jm": "szt",
+      "nz": 0.837859,
+      "ce": 8.5
+    },
+    {
+      "name": "Tarcza diamentowa do cięcia gipsu 125 mm",
+      "jm": "szt",
+      "nz": 0.111715,
+      "ce": 45.0
+    },
+    {
+      "name": "Sprężone powietrze do narzędzi pneumatycznych",
+      "jm": "m3",
+      "nz": 6.70287,
+      "ce": 12.0
+    },
+    {
+      "name": "Środek ochronny do rąk roboczych 5 l",
+      "jm": "l",
+      "nz": 0.279286,
+      "ce": 35.0
+    },
+    {
+      "name": "Maska ochronna FFP2 do pracy przy rozbiórkach",
+      "jm": "szt",
+      "nz": 2.792863,
+      "ce": 4.0
+    },
+    {
+      "name": "Rękawice robocze bawełniane",
+      "jm": "par",
+      "nz": 1.117145,
+      "ce": 15.0
+    },
+    {
+      "name": "Materiał uszczelniający szczeliny po rozbiórkach 0,5 kg",
+      "jm": "kg",
+      "nz": 1.675718,
+      "ce": 25.0
+    },
+    {
+      "name": "Papier do osłony przeszkleń i otworów 1x50 m",
+      "jm": "m2",
+      "nz": 2.23429,
+      "ce": 3.5
+    }
+  ],
+  "KNR4-010819-15": [
+    {
+      "name": "Worki na gruz o pojemności 120 l",
+      "jm": "szt",
+      "nz": 0.910364,
+      "ce": 12.0
+    },
+    {
+      "name": "Taśma ochronna papierowa 50 mm x 50 m",
+      "jm": "rolka",
+      "nz": 0.182073,
+      "ce": 25.0
+    },
+    {
+      "name": "Folia ochronna PE 200 µm",
+      "jm": "m2",
+      "nz": 2.184874,
+      "ce": 8.5
+    },
+    {
+      "name": "Płyn zmniejszający kurz podczas rozbierania",
+      "jm": "l",
+      "nz": 0.546218,
+      "ce": 45.0
+    },
+    {
+      "name": "Masła silikonowe do narzędzi (spray 400 ml)",
+      "jm": "szt",
+      "nz": 0.182073,
+      "ce": 35.0
+    }
+  ],
+  "KNR4-011202-08": [
+    {
+      "name": "Препарат do zeskrobywania farby (pasta)",
+      "jm": "kg",
+      "nz": 1.836735,
+      "ce": 45.0
+    },
+    {
+      "name": "Szpachla stalowa (150mm)",
+      "jm": "szt",
+      "nz": 0.114796,
+      "ce": 120.0
+    },
+    {
+      "name": "Papier ścierny P120",
+      "jm": "m2",
+      "nz": 3.443878,
+      "ce": 12.0
+    },
+    {
+      "name": "Papier ścierny P180",
+      "jm": "m2",
+      "nz": 3.443878,
+      "ce": 14.0
+    },
+    {
+      "name": "Woda demineralizowana",
+      "jm": "l",
+      "nz": 6.887755,
+      "ce": 8.0
+    },
+    {
+      "name": "Detergent do mycia ścian",
+      "jm": "l",
+      "nz": 1.147959,
+      "ce": 25.0
+    },
+    {
+      "name": "Gąbka zmywarek (opakownie)",
+      "jm": "szt",
+      "nz": 4.591837,
+      "ce": 18.0
+    },
+    {
+      "name": "Ścierka bawełniana",
+      "jm": "szt",
+      "nz": 2.295918,
+      "ce": 35.0
+    },
+    {
+      "name": "Rękawice ochronne nitrylowe (opakowanie)",
+      "jm": "opak",
+      "nz": 0.688776,
+      "ce": 25.0
+    }
+  ],
+  "KNR4-010811-07": [
+    {
+      "name": "Worek na gruz budowlany polietylenowy 120L",
+      "jm": "szt",
+      "nz": 1.111111,
+      "ce": 8.0
+    },
+    {
+      "name": "Folia ochronna PE 0,1mm do zamurzowania",
+      "jm": "m2",
+      "nz": 2.444444,
+      "ce": 3.5
+    },
+    {
+      "name": "Taśma maskująca papierowa 48mm x 50m",
+      "jm": "szt",
+      "nz": 0.444444,
+      "ce": 12.0
+    },
+    {
+      "name": "Płyn czyszczący universal do usuwania zacieku zaprawy",
+      "jm": "l",
+      "nz": 0.666667,
+      "ce": 25.0
+    },
+    {
+      "name": "Olej ochronny do narzędzi i sprzętu",
+      "jm": "l",
+      "nz": 0.222222,
+      "ce": 35.0
+    },
+    {
+      "name": "Materiał chłonny do sprzątania (trociny, piasek)",
+      "jm": "kg",
+      "nz": 4.444444,
+      "ce": 8.5
+    }
+  ],
+  "KNR4-010211-03": [
+    {
+      "name": "Płyn ochronny do betonu",
+      "jm": "l",
+      "nz": 0.112782,
+      "ce": 45.0
+    },
+    {
+      "name": "Szpachla elastyczna do wyrównywania",
+      "jm": "kg",
+      "nz": 0.18797,
+      "ce": 32.0
+    },
+    {
+      "name": "Papier ścierny do betonu granulacja 80",
+      "jm": "m2",
+      "nz": 0.075188,
+      "ce": 25.0
+    },
+    {
+      "name": "Papier ścierny do betonu granulacja 120",
+      "jm": "m2",
+      "nz": 0.112782,
+      "ce": 18.0
+    }
+  ],
+  "KNR7-120101-01": [
+    {
+      "name": "Rozpuszczalnik ortoksilol techniczny",
+      "jm": "l",
+      "nz": 0.766197,
+      "ce": 285.0
+    },
+    {
+      "name": "Zmywacz do rozcieńczania farb",
+      "jm": "l",
+      "nz": 0.574648,
+      "ce": 195.0
+    },
+    {
+      "name": "Farba syntetyczna do elementów stalowych RAL 7035",
+      "jm": "l",
+      "nz": 0.861972,
+      "ce": 425.0
+    },
+    {
+      "name": "Grunt epoksydowy do stali",
+      "jm": "l",
+      "nz": 0.478873,
+      "ce": 320.0
+    }
+  ],
+  "KNR4-060112-01": [
+    {
+      "name": "Śruba zwykła M12 kl. 5.8 DIN 933",
+      "jm": "szt",
+      "nz": 6.122449,
+      "ce": 8.5
+    },
+    {
+      "name": "Nakrętka sześciokątna M12 kl. 8 DIN 934",
+      "jm": "szt",
+      "nz": 6.122449,
+      "ce": 2.8
+    },
+    {
+      "name": "Podkładka okrągła M12 DIN 125",
+      "jm": "szt",
+      "nz": 12.244898,
+      "ce": 0.45
+    },
+    {
+      "name": "Podkładka sprężysta M12 DIN 127",
+      "jm": "szt",
+      "nz": 6.122449,
+      "ce": 1.2
+    },
+    {
+      "name": "Pasta montażowa MOLYKOTE 111 (opakowanie 100g)",
+      "jm": "g",
+      "nz": 30.612245,
+      "ce": 1.6
+    },
+    {
+      "name": "Olej do czyszczenia połączeń śrubowych (opakowanie 1L)",
+      "jm": "ml",
+      "nz": 61.22449,
+      "ce": 0.08
+    },
+    {
+      "name": "Uszczelniacz anaerobic Loctite 243 (opakowanie 50ml)",
+      "jm": "ml",
+      "nz": 18.367347,
+      "ce": 2.4
+    }
+  ],
+  "KNR0-400110-01": [
+    {
+      "name": "Pianka poliuretanowa jednoskładnikowa",
+      "jm": "szt.",
+      "nz": 0.084541,
+      "ce": 15.0
+    },
+    {
+      "name": "Silikonn do uszczelniania szary",
+      "jm": "kg",
+      "nz": 0.067633,
+      "ce": 18.0
+    },
+    {
+      "name": "Papier uszczelniający",
+      "jm": "m",
+      "nz": 0.845411,
+      "ce": 1.2
+    }
   ]
 }

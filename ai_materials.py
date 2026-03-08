@@ -17,7 +17,7 @@ from pathlib import Path
 log = logging.getLogger(__name__)
 
 _CACHE_PATH = Path(__file__).parent / "learned_kosztorysy" / "knr_materialy_ai.json"
-_BATCH_SIZE = 25  # max KNR na jedno wywołanie API
+_BATCH_SIZE = 1  # 1 KNR na wywołanie — niezawodny JSON
 
 SYSTEM_MATERIALS = """Jesteś doświadczonym kosztorysantem budowlanym w Polsce.
 Podajesz realny skład materiałowy dla robót budowlanych wg katalogów KNR.
@@ -65,36 +65,25 @@ def _normalize(mats: list, target_m: float) -> list:
     ]
 
 
-def _call_api(items: list, api_key: str) -> dict:
+def _call_api_one(item: dict, api_key: str) -> list:
     """
-    items: [{knr_norm, knr, opis, jm, m_per_jm}, ...]
-    Zwraca: {knr_norm: [{name, jm, nz, ce}]}
+    Jeden KNR → lista materiałów [{name, jm, nz, ce}].
     """
     import anthropic
 
-    payload = [
-        {
-            "knr_norm": it['knr_norm'],
-            "knr": it['knr'],
-            "opis": it['opis'][:80],
-            "jm": it['jm'],
-            "m_per_jm": round(it['m_per_jm'], 4),
-        }
-        for it in items
-    ]
-
     user_msg = (
-        "Podaj skład materiałowy dla poniższych pozycji kosztorysowych.\n"
-        "Dla każdej pozycji: lista materiałów gdzie suma(nz*ce) ≈ m_per_jm.\n\n"
-        f"POZYCJE:\n{json.dumps(payload, ensure_ascii=False, indent=2)}\n\n"
-        "Format odpowiedzi (klucz = knr_norm):\n"
-        '{"KNR2-010122-01": [{"name": "cement", "jm": "kg", "nz": 5.2, "ce": 0.65}, ...], ...}'
+        f"KNR: {item['knr']}\n"
+        f"Opis: {item['opis'][:80]}\n"
+        f"Jednostka miary: {item['jm']}\n"
+        f"Wartość materiałów: {item['m_per_jm']:.4f} PLN/{item['jm']}\n\n"
+        "Podaj skład materiałowy jako JSON — lista materiałów, gdzie suma(nz*ce) ≈ wartości powyżej.\n"
+        'Format: [{"name": "nazwa", "jm": "jm", "nz": 1.23, "ce": 4.56}, ...]'
     )
 
     client = anthropic.Anthropic(api_key=api_key)
     msg = client.messages.create(
         model="claude-haiku-4-5-20251001",
-        max_tokens=2048,
+        max_tokens=512,
         system=SYSTEM_MATERIALS,
         messages=[{"role": "user", "content": user_msg}],
     )
@@ -104,6 +93,10 @@ def _call_api(items: list, api_key: str) -> dict:
         if text.startswith("json"):
             text = text[4:]
         text = text.strip()
+    start = text.find('[')
+    end = text.rfind(']')
+    if start != -1 and end != -1:
+        text = text[start:end + 1]
     return json.loads(text)
 
 
@@ -132,26 +125,25 @@ def estimate_materials_batch(items: list) -> dict:
 
     log.info("AI materials: szacuję %d KNR (batch po %d)", len(to_fetch), _BATCH_SIZE)
 
-    # Batch calls
-    for start in range(0, len(to_fetch), _BATCH_SIZE):
-        batch = to_fetch[start:start + _BATCH_SIZE]
+    # Wywołania jeden po jednym — niezawodne
+    saved = 0
+    for it in to_fetch:
+        norm_key = it['knr_norm']
         try:
-            result = _call_api(batch, api_key)
-            # Normalizuj i zapisz do cache
-            for it in batch:
-                norm_key = it['knr_norm']
-                raw_mats = result.get(norm_key, [])
-                if isinstance(raw_mats, list) and raw_mats:
-                    normalized = _normalize(raw_mats, it['m_per_jm'])
-                    # Filtruj materiały z ce <= 0
-                    normalized = [m for m in normalized if m.get('ce', 0) > 0 and m.get('nz', 0) > 0]
-                    cache[norm_key] = normalized
-                else:
-                    cache[norm_key] = []  # brak materiałów — zapamiętaj żeby nie pytać ponownie
-            _save_cache(cache)
-            log.info("AI materials: zapisano batch %d-%d do cache", start + 1, start + len(batch))
+            raw_mats = _call_api_one(it, api_key)
+            if isinstance(raw_mats, list) and raw_mats:
+                normalized = _normalize(raw_mats, it['m_per_jm'])
+                normalized = [m for m in normalized if m.get('ce', 0) > 0 and m.get('nz', 0) > 0]
+                cache[norm_key] = normalized
+            else:
+                cache[norm_key] = []
+            saved += 1
         except Exception as e:
-            log.warning("AI materials błąd API (batch %d): %s", start, e)
+            log.warning("AI materials błąd dla %s: %s", it['knr'], e)
+            cache[norm_key] = []  # nie pytaj ponownie
+
+    _save_cache(cache)
+    log.info("AI materials: zapisano %d/%d KNR do cache", saved, len(to_fetch))
 
     # Zwróć wyniki dla wszystkich items
     return {it['knr_norm']: cache.get(it['knr_norm'], []) for it in items}
