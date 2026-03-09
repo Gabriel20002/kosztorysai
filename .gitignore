@@ -5,13 +5,12 @@ __pycache__/
 *.pyd
 .Python
 *.egg-info/
-dist/
 build/
 .pytest_cache/
 .mypy_cache/
 
 # Frontend build (budowane przez Dockerfile)
-dist/
+# dist/ — celowo nie ignorujemy, wgrywamy zbudowany frontend do repo
 frontend/node_modules/
 
 # Środowisko
