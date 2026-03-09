@@ -38,6 +38,57 @@ def _dot(val: float, decimals: int = 4) -> str:
     return f"{val:.{decimals}f}".rstrip("0").rstrip(".") or "0"
 
 
+# ── Korekty jednostek miary materiałów ───────────────────────────────────────
+# Aplikowane do WSZYSTKICH materiałów (DB + AI cache + fallback)
+
+_JM_CORRECTIONS_ATH = {
+    # Przewody i kable → m
+    'kabel': 'm', 'przewód': 'm', 'przewod': 'm', 'linka': 'm',
+    'kable solar': 'm', 'kable solarne': 'm',
+    # Rury i kanały → m
+    'rura': 'm', 'rurka': 'm', 'rury': 'm', 'rurociąg': 'm', 'rurociag': 'm',
+    'rury winidur': 'm', 'winidur': 'm',
+    # Taśmy, bednarka, drut → m
+    'bednarka': 'm', 'taśma': 'm', 'tasma': 'm', 'drut': 'm',
+    # Profile, kątowniki → m
+    'listwa': 'm', 'profil': 'm', 'kątownik': 'm', 'katownik': 'm',
+    # Elementy szt
+    'wspornik': 'szt', 'uchwyt': 'szt', 'obejma': 'szt',
+    'śruba': 'szt', 'sruba': 'szt', 'wkręt': 'szt', 'wkret': 'szt',
+    'nakrętka': 'szt', 'nakretka': 'szt', 'podkładka': 'szt', 'podkladka': 'szt',
+    'puszka': 'szt', 'skrzynka': 'szt', 'rozdzielnica': 'szt',
+    'wyłącznik': 'szt', 'wylacznik': 'szt', 'łącznik': 'szt', 'lacznik': 'szt',
+    'gniazdo': 'szt', 'wtyk': 'szt', 'wtyczka': 'szt',
+    'bezpiecznik': 'szt', 'wkładka': 'szt',
+    'lampa': 'szt', 'oprawa': 'szt', 'świetlówka': 'szt', 'swietlowka': 'szt',
+    'żarówka': 'szt', 'zarowka': 'szt',
+    'zawór': 'szt', 'zawor': 'szt', 'kurek': 'szt',
+    'klips': 'szt', 'końcówka': 'szt', 'koncowka': 'szt', 'tulejka': 'szt',
+    'złączka': 'szt', 'zlaczka': 'szt', 'kołek': 'szt', 'kolek': 'szt',
+    'panel fotowoltaic': 'szt', 'panel pv': 'szt', 'moduł': 'szt', 'modул': 'szt',
+    'falownik': 'szt', 'inwerter': 'szt', 'sterownik': 'szt',
+    'konstrukcja wsporcza': 'szt', 'konstrukcje wsporcze': 'szt',
+    'dzwonek': 'szt', 'sygnalizator': 'szt', 'czujnik': 'szt', 'detektor': 'szt',
+    # Masy i farby → kg/l
+    'klej': 'kg', 'cement': 'kg', 'zaprawa': 'kg',
+    'farba': 'l', 'lakier': 'l',
+}
+
+
+def _apply_jm_corrections(mats: list) -> list:
+    """Koryguje jm materiałów na podstawie słownika — stosowane do wszystkich źródeł."""
+    result = []
+    for mat in mats:
+        name_l = (mat.get('name') or '').lower()
+        corrected_jm = mat.get('jm', 'szt')
+        for fragment, correct_jm in _JM_CORRECTIONS_ATH.items():
+            if fragment in name_l:
+                corrected_jm = correct_jm
+                break
+        result.append({**mat, 'jm': corrected_jm})
+    return result
+
+
 # ── Jednostki ─────────────────────────────────────────────────────────────────
 
 JEDNOSTKI_KODY = {
@@ -263,6 +314,9 @@ class ATHGenerator:
             pos_mats[idx] = [{'name': name, 'jm': jm, 'nz': 1.0, 'ce': round(M_nj, 4)}]
 
         # Krok 3b: przypisz numery ZEST do wszystkich materiałów
+        # Najpierw aplikuj korekty JM do wszystkich materiałów (DB + AI + fallback)
+        pos_mats = [_apply_jm_corrections(m) if m else m for m in pos_mats]
+
         for idx, mats in enumerate(pos_mats):
             if not mats:
                 continue
