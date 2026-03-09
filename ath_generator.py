@@ -317,6 +317,13 @@ class ATHGenerator:
         # Najpierw aplikuj korekty JM do wszystkich materiałów (DB + AI + fallback)
         pos_mats = [_apply_jm_corrections(m) if m else m for m in pos_mats]
 
+        # Krok 3c: walidacja i korekta cen — wykrywa przestarzałe ceny z DB
+        try:
+            from price_validator import validate_and_correct_prices
+            pos_mats = [validate_and_correct_prices(m) if m else m for m in pos_mats]
+        except Exception as e:
+            log.warning("Walidacja cen niedostępna: %s", e)
+
         for idx, mats in enumerate(pos_mats):
             if not mats:
                 continue
