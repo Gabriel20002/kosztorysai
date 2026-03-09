@@ -1,12 +1,14 @@
 import { Routes, Route } from 'react-router-dom'
 import React from 'react'
 
+import { AuthProvider } from './context/AuthContext'
 import Navbar from './components/layout/Navbar'
 import Footer from './components/layout/Footer'
 import Home from './pages/Home'
 import Dashboard from './pages/Dashboard'
 import Pricing from './pages/Pricing'
 import Login from './pages/Login'
+import Register from './pages/Register'
 import Features from './pages/Features'
 import HowItWorks from './pages/HowItWorks'
 import GetStarted from './pages/GetStarted'
@@ -14,6 +16,7 @@ import AddProgram from './pages/AddProgram'
 
 function App() {
   return (
+    <AuthProvider>
     <div className="relative flex flex-col w-full grow min-h-screen">
       {/* Background Ambient Glow */}
       <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden">
@@ -29,6 +32,7 @@ function App() {
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
           <Route path="/features" element={<Features />} />
           <Route path="/how-it-works" element={<HowItWorks />} />
           <Route path="/get-started" element={<GetStarted />} />
@@ -38,6 +42,7 @@ function App() {
 
       <Footer />
     </div>
+    </AuthProvider>
   )
 }
 

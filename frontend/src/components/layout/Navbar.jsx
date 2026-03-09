@@ -1,5 +1,6 @@
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
+import { useAuth } from '../../context/AuthContext';
 
 function SmartLink({ to, children, className, onClick }) {
     const location = useLocation();
@@ -22,6 +23,14 @@ function SmartLink({ to, children, className, onClick }) {
 
 export default function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const { user, logout } = useAuth();
+    const navigate = useNavigate();
+
+    function handleLogout() {
+        logout();
+        navigate('/');
+        setIsMenuOpen(false);
+    }
 
     return (
         <header className="sticky top-0 z-50 w-full glass-card border-b border-b-slate-800/50">
@@ -39,10 +48,27 @@ export default function Navbar() {
                     <SmartLink className="text-slate-600 dark:text-slate-300 hover:text-primary transition-colors text-sm font-medium" to="/add-program">Dodaj Program</SmartLink>
                 </div>
                 <div className="flex items-center gap-4">
-                    <SmartLink className="hidden sm:block text-slate-600 dark:text-slate-300 hover:text-white transition-colors text-sm font-medium" to="/login">Zaloguj się</SmartLink>
-                    <SmartLink to="/get-started" className="hidden sm:flex items-center justify-center rounded-lg h-9 px-4 bg-primary hover:bg-primary/90 text-white text-sm font-bold transition-all shadow-[0_0_15px_rgba(19,146,236,0.4)]">
-                        Zacznij Tworzyć
-                    </SmartLink>
+                    {user ? (
+                        <>
+                            <SmartLink to="/dashboard" className="hidden sm:flex items-center gap-2 text-slate-300 hover:text-white text-sm font-medium transition-colors">
+                                <span className="material-symbols-outlined text-base text-primary">person</span>
+                                {user.name || user.email}
+                            </SmartLink>
+                            <button
+                                onClick={handleLogout}
+                                className="hidden sm:flex items-center justify-center rounded-lg h-9 px-4 border border-slate-700 text-slate-300 hover:text-white hover:border-slate-500 text-sm font-bold transition-all"
+                            >
+                                Wyloguj
+                            </button>
+                        </>
+                    ) : (
+                        <>
+                            <SmartLink className="hidden sm:block text-slate-600 dark:text-slate-300 hover:text-white transition-colors text-sm font-medium" to="/login">Zaloguj się</SmartLink>
+                            <SmartLink to="/register" className="hidden sm:flex items-center justify-center rounded-lg h-9 px-4 bg-primary hover:bg-primary/90 text-white text-sm font-bold transition-all shadow-[0_0_15px_rgba(19,146,236,0.4)]">
+                                Zacznij Tworzyć
+                            </SmartLink>
+                        </>
+                    )}
 
                     {/* Mobile Menu Button */}
                     <button
@@ -62,8 +88,20 @@ export default function Navbar() {
                     <SmartLink onClick={() => setIsMenuOpen(false)} className="text-slate-300 hover:text-primary py-2 font-medium" to="/pricing">Cennik</SmartLink>
                     <SmartLink onClick={() => setIsMenuOpen(false)} className="text-slate-300 hover:text-primary py-2 font-medium" to="/add-program">Dodaj Program</SmartLink>
                     <hr className="border-slate-800" />
-                    <SmartLink onClick={() => setIsMenuOpen(false)} className="text-slate-300 hover:text-white py-2 font-medium" to="/login">Zaloguj się</SmartLink>
-                    <SmartLink onClick={() => setIsMenuOpen(false)} className="text-white bg-primary hover:bg-primary/90 rounded-lg p-3 text-center font-bold" to="/get-started">Zacznij Tworzyć</SmartLink>
+                    {user ? (
+                        <>
+                            <SmartLink onClick={() => setIsMenuOpen(false)} className="text-slate-300 hover:text-white py-2 font-medium flex items-center gap-2" to="/dashboard">
+                                <span className="material-symbols-outlined text-base text-primary">person</span>
+                                {user.name || user.email}
+                            </SmartLink>
+                            <button onClick={handleLogout} className="text-slate-300 hover:text-white py-2 font-medium text-left">Wyloguj się</button>
+                        </>
+                    ) : (
+                        <>
+                            <SmartLink onClick={() => setIsMenuOpen(false)} className="text-slate-300 hover:text-white py-2 font-medium" to="/login">Zaloguj się</SmartLink>
+                            <SmartLink onClick={() => setIsMenuOpen(false)} className="text-white bg-primary hover:bg-primary/90 rounded-lg p-3 text-center font-bold" to="/register">Zacznij Tworzyć</SmartLink>
+                        </>
+                    )}
                 </div>
             )}
         </header>

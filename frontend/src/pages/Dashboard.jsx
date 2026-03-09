@@ -1,4 +1,5 @@
-import { useState, useRef } from 'react'
+import { useState, useRef, useEffect } from 'react'
+import { useAuth } from '../context/AuthContext'
 
 const API = import.meta.env.VITE_API_URL ?? ''
 
@@ -14,12 +15,15 @@ function downloadB64(filename, b64content) {
 }
 
 export default function Dashboard() {
+    const { user, getToken } = useAuth()
     const [file, setFile] = useState(null)
     const [loading, setLoading] = useState(false)
     const [result, setResult] = useState(null)
     const [error, setError] = useState(null)
     const [dragging, setDragging] = useState(false)
     const inputRef = useRef(null)
+    const [history, setHistory] = useState([])
+    const [historyLoading, setHistoryLoading] = useState(false)
 
     const [params, setParams] = useState({
         nazwa: '',
@@ -60,7 +64,9 @@ export default function Dashboard() {
         Object.entries(params).forEach(([k, v]) => form.append(k, v))
 
         try {
-            const res = await fetch(`${API}/api/generate`, { method: 'POST', body: form })
+            const token = getToken()
+            const headers = token ? { Authorization: `Bearer ${token}` } : {}
+            const res = await fetch(`${API}/api/generate`, { method: 'POST', body: form, headers })
             const data = await res.json()
             if (!res.ok) throw new Error(data.detail || 'Błąd serwera')
             setResult(data)
@@ -76,6 +82,19 @@ export default function Dashboard() {
     }
 
     const setParam = (k, v) => setParams(p => ({ ...p, [k]: v }))
+
+    useEffect(() => {
+        if (!user) return
+        setHistoryLoading(true)
+        const token = getToken()
+        fetch(`${API}/api/history`, {
+            headers: { Authorization: `Bearer ${token}` }
+        })
+            .then(r => r.ok ? r.json() : [])
+            .then(data => setHistory(Array.isArray(data) ? data : []))
+            .catch(() => {})
+            .finally(() => setHistoryLoading(false))
+    }, [user, result])
 
     return (
         <div className="flex-1 w-full max-w-[1440px] mx-auto px-4 sm:px-8 py-6 sm:py-12 relative z-10 font-sans">
@@ -331,6 +350,68 @@ export default function Dashboard() {
                     </div>
                 </div>
             </div>
+
+            {/* Historia kosztorysów */}
+            {user && (
+                <div className="mt-12">
+                    <h2 className="text-2xl font-bold text-white mb-6 flex items-center gap-3">
+                        <span className="material-symbols-outlined text-primary">history</span>
+                        Historia Kosztorysów
+                    </h2>
+                    {historyLoading ? (
+                        <div className="glass-panel rounded-2xl p-8 border border-slate-700 flex items-center justify-center">
+                            <svg className="animate-spin h-5 w-5 text-primary mr-3" fill="none" viewBox="0 0 24 24">
+                                <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"/>
+                                <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z"/>
+                            </svg>
+                            <span className="text-slate-400">Ładowanie historii...</span>
+                        </div>
+                    ) : history.length === 0 ? (
+                        <div className="glass-panel rounded-2xl p-8 border border-slate-700 text-center text-slate-500">
+                            Brak poprzednich kosztorysów. Wygeneruj pierwszy!
+                        </div>
+                    ) : (
+                        <div className="glass-panel rounded-2xl border border-slate-700 overflow-hidden">
+                            <table className="w-full text-sm">
+                                <thead>
+                                    <tr className="border-b border-slate-700 text-slate-400 text-xs uppercase tracking-wider">
+                                        <th className="text-left px-6 py-4">Nazwa</th>
+                                        <th className="text-left px-6 py-4 hidden md:table-cell">Data</th>
+                                        <th className="text-left px-6 py-4 hidden sm:table-cell">Pozycji</th>
+                                        <th className="text-right px-6 py-4">Pobierz</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {history.map((item, i) => (
+                                        <tr key={item.id || i} className="border-b border-slate-800 hover:bg-white/[0.02] transition-colors">
+                                            <td className="px-6 py-4 text-white font-medium">{item.name || item.filename || `Kosztorys ${i + 1}`}</td>
+                                            <td className="px-6 py-4 text-slate-400 hidden md:table-cell">
+                                                {item.created_at ? new Date(item.created_at).toLocaleDateString('pl-PL') : '—'}
+                                            </td>
+                                            <td className="px-6 py-4 text-slate-400 hidden sm:table-cell">{item.positions_count ?? '—'}</td>
+                                            <td className="px-6 py-4 text-right">
+                                                <div className="flex items-center justify-end gap-2">
+                                                    {item.ath_url && (
+                                                        <a href={item.ath_url} className="text-xs font-bold text-primary hover:text-sky-400 transition-colors flex items-center gap-1">
+                                                            <span className="material-symbols-outlined text-sm">download</span>ATH
+                                                        </a>
+                                                    )}
+                                                    {item.pdf_url && (
+                                                        <a href={item.pdf_url} className="text-xs font-bold text-slate-400 hover:text-white transition-colors flex items-center gap-1">
+                                                            <span className="material-symbols-outlined text-sm">picture_as_pdf</span>PDF
+                                                        </a>
+                                                    )}
+                                                    {!item.ath_url && !item.pdf_url && <span className="text-slate-600 text-xs">brak plików</span>}
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    ))}
+                                </tbody>
+                            </table>
+                        </div>
+                    )}
+                </div>
+            )}
         </div>
     )
 }
