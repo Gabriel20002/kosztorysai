@@ -30,7 +30,37 @@ ZASADY:
 - KRYTYCZNE: jeśli "Wartość materiałów" > 0, ZAWSZE podaj co najmniej jeden materiał — nigdy nie zwracaj []
   Jeśli praca polega na montażu gotowego elementu (kabina, bateria, wpust itp.), tym materiałem jest ten element
 - Jeśli "Wartość materiałów" = 0, wtedy możesz zwrócić []
+- BEZWZGLĘDNY ZAKAZ: w liście materiałów NIE może pojawić się czynność ani usługa.
+  NIE wpisuj: demontaż, montaż (jako usługa), rozebranie, transport, wywóz, czyszczenie, malowanie itp.
+  Materiał to fizyczny przedmiot kupowany na budowie: rura, kształtka, cement, klej, śruba, kabina, zawór itp.
+  Jeśli robota to demontaż/rozbiórka i nie ma fizycznych materiałów — zwróć []
 - Odpowiadaj WYŁĄCZNIE jako poprawny JSON, bez tekstu przed/po"""
+
+
+# Czasowniki oznaczające czynności — materiał o takiej nazwie jest błędem
+_ACTION_VERBS = {
+    'demontaż', 'montaż', 'rozebranie', 'rozbiórka', 'wykonanie', 'układanie',
+    'roboty', 'prace', 'instalacja', 'wymiana', 'naprawa', 'czyszczenie',
+    'malowanie', 'oczyszczenie', 'załadunek', 'transport', 'wywóz', 'usunięcie',
+    'odtłuszczenie', 'obróbka', 'wykucie', 'zamurowanie', 'tynkowanie',
+    'betonowanie', 'zbrojenie', 'szpachlowanie', 'gruntowanie',
+    'zeskrobanie', 'skucie', 'odbicie', 'kucie', 'ługowanie', 'przecieranie',
+    'zasypanie', 'zagęszczenie', 'uzupełnienie', 'nawiercenie', 'przebicie',
+    'likwidacja', 'demontowanie', 'rozbieranie', 'skuwanie',
+}
+
+
+def _filter_action_materials(mats: list) -> list:
+    """Usuwa z listy wpisy których nazwa jest czynnością, nie materiałem."""
+    result = []
+    for m in mats:
+        name = (m.get('name') or '').strip()
+        first_word = name.split()[0].lower().rstrip(',') if name else ''
+        if first_word in _ACTION_VERBS:
+            log.warning("AI zwrócił czynność zamiast materiału — pomijam: '%s'", name)
+            continue
+        result.append(m)
+    return result
 
 
 def _load_cache() -> dict:
@@ -134,6 +164,7 @@ def estimate_materials_batch(items: list) -> dict:
         try:
             raw_mats = _call_api_one(it, api_key)
             if isinstance(raw_mats, list) and raw_mats:
+                raw_mats = _filter_action_materials(raw_mats)
                 normalized = _normalize(raw_mats, it['m_per_jm'])
                 normalized = [m for m in normalized if m.get('ce', 0) > 0 and m.get('nz', 0) > 0]
                 cache[norm_key] = normalized

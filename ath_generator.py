@@ -112,6 +112,42 @@ def _podstawa_to_norm(podstawa: str) -> str:
     return re.sub(r'\s+', '', f"{typ}{short}{num}".upper())
 
 
+# ── Pomocnicze ────────────────────────────────────────────────────────────────
+
+# Czasowniki oznaczające czynności — nie powinny być nazwami materiałów
+_ACTION_VERBS = {
+    'demontaż', 'montaż', 'rozebranie', 'rozbiórka', 'wykonanie', 'układanie',
+    'roboty', 'prace', 'instalacja', 'wymiana', 'naprawa', 'czyszczenie',
+    'malowanie', 'oczyszczenie', 'załadunek', 'transport', 'wywóz', 'usunięcie',
+    'odtłuszczenie', 'obróbka', 'wykucie', 'zamurowanie', 'tynkowanie',
+    'betonowanie', 'zbrojenie', 'szpachlowanie', 'gruntowanie', 'izolacja',
+    'zeskrobanie', 'skucie', 'odbicie', 'kucie', 'ługowanie', 'przecieranie',
+    'zasypanie', 'zagęszczenie', 'uzupełnienie', 'nawiercenie', 'przebicie',
+    'likwidacja', 'likwidacja', 'demontowanie', 'rozbieranie', 'skuwanie',
+}
+
+
+def _is_action_name(name: str) -> bool:
+    """Zwraca True jeśli nazwa wygląda jak czynność, nie materiał.
+    Ignoruje prefiksy w nawiasach, np. '(z.VII) Gruntowanie...'"""
+    if not name:
+        return False
+    # Usuń wiodące fragmenty w nawiasach: "(z.VII)", "(pkt.3)" itp.
+    s = re.sub(r'^\s*\([^)]+\)\s*', '', name).strip()
+    if not s:
+        return False
+    first_word = s.split()[0].lower().rstrip(',.')
+    return first_word in _ACTION_VERBS
+
+
+def _fallback_mat_name(opis: str) -> str:
+    """Tworzy nazwę fallback-materiału z opisu pozycji.
+    Jeśli opis zaczyna się czynnością — zwraca ogólną nazwę zamiast kopiować."""
+    if not opis or _is_action_name(opis):
+        return "Materiały budowlane"
+    return f"Materiały: {opis}"
+
+
 # ── Generator ─────────────────────────────────────────────────────────────────
 
 class ATHGenerator:
@@ -127,11 +163,11 @@ class ATHGenerator:
 
     def __init__(self, params: Dict = None):
         self.params = {**self.DEFAULT_PARAMS, **(params or {})}
-        self._mat_db = self._load_mat_db()
+        self._mat_db = self._load_json_db("knr_materialy.json")
+        self._spr_db = self._load_json_db("knr_sprzet.json")
 
-    def _load_mat_db(self) -> dict:
-        """Ładuje knr_materialy.json (indywidualne materiały z cenami)."""
-        db_path = Path(__file__).parent / "learned_kosztorysy" / "knr_materialy.json"
+    def _load_json_db(self, filename: str) -> dict:
+        db_path = Path(__file__).parent / "learned_kosztorysy" / filename
         if db_path.exists():
             try:
                 return json.loads(db_path.read_text(encoding='utf-8'))
@@ -162,10 +198,9 @@ class ATHGenerator:
         suma_S = podsumowanie.get('suma_S', 0.0)
 
         total_rg = suma_R / sr if sr else 0.0
-        total_mg = suma_S / ss if ss else 0.0
 
-        # ── Pre-pass: przypisz indywidualne materiały do pozycji ─────────────
-        # ZEST 1=R, 2=M fallback, 3=S, 4..=indywidualne materiały
+        # ── Pre-pass: przypisz indywidualne materiały i sprzęt do pozycji ────
+        # ZEST 1=R, 4..=materiały, potem sprzęt indywidualny lub fallback
         next_zest = 4
         # Klucz unikatowości materiału: (name, jm, ce_rounded)
         unique_mats: Dict[tuple, int] = {}   # key -> zest_num
@@ -223,9 +258,8 @@ class ATHGenerator:
             if M_nj <= 0:
                 continue  # brak materiałów — OK
             jm = poz.get('jm', 'szt') or 'szt'
-            # Skrócona nazwa z opisu
             opis_short = (poz.get('opis', '') or '')[:40].strip()
-            name = f"Materiały: {opis_short}" if opis_short else "Materiały budowlane"
+            name = _fallback_mat_name(opis_short)
             pos_mats[idx] = [{'name': name, 'jm': jm, 'nz': 1.0, 'ce': round(M_nj, 4)}]
 
         # Krok 3b: przypisz numery ZEST do wszystkich materiałów
@@ -241,6 +275,74 @@ class ATHGenerator:
                 assigned.append({**mat, 'zest_num': unique_mats[key]})
             pos_mats[idx] = assigned
 
+        # ── Pre-pass sprzętu: identycznie jak materiały ───────────────────────
+        pos_sprzet: List = []  # per pozycja: list[dict] lub None
+
+        _FALLBACK_SPR_CE = 50.0  # realistyczna stawka maszyny fallback [PLN/m-g]
+
+        # Krok 1: DB lookup sprzętu — zbierz brakujące do AI
+        ai_spr_needed = []
+        for idx, poz in enumerate(pozycje):
+            knr_norm = _podstawa_to_norm(poz.get('podstawa', ''))
+            db_spr = self._spr_db.get(knr_norm, []) if knr_norm else []
+            if db_spr:
+                pos_sprzet.append(db_spr)
+            else:
+                pos_sprzet.append(None)
+                S = poz.get('S', 0.0) or 0.0
+                ilosc = poz.get('ilosc', 1) or 1
+                if knr_norm and S > 0:
+                    ai_spr_needed.append({
+                        'knr_norm': knr_norm,
+                        'knr': poz.get('podstawa', ''),
+                        'opis': poz.get('opis', '')[:80],
+                        'jm': poz.get('jm', ''),
+                        's_per_jm': S / ilosc,
+                        'poz_idx': idx,
+                    })
+
+        # Krok 2: AI estimation dla brakującego sprzętu
+        if ai_spr_needed:
+            try:
+                from ai_sprzet import estimate_sprzet_batch
+                seen_knr: Dict[str, int] = {}
+                unique_ai_spr = []
+                for item in ai_spr_needed:
+                    if item['knr_norm'] not in seen_knr:
+                        seen_knr[item['knr_norm']] = item['poz_idx']
+                        unique_ai_spr.append(item)
+                ai_spr_results = estimate_sprzet_batch(unique_ai_spr)
+                for item in ai_spr_needed:
+                    machines = ai_spr_results.get(item['knr_norm'], [])
+                    if machines:
+                        pos_sprzet[item['poz_idx']] = machines
+            except Exception as e:
+                log.warning("AI sprzęt niedostępny: %s", e)
+
+        # Krok 3: fallback dla pozycji bez sprzętu w DB i AI
+        for idx, poz in enumerate(pozycje):
+            if pos_sprzet[idx] is not None:
+                continue
+            S = poz.get('S', 0.0) or 0.0
+            ilosc = poz.get('ilosc', 1) or 1
+            if S > 0:
+                nz = (S / ilosc) / _FALLBACK_SPR_CE
+                pos_sprzet[idx] = [{'name': 'sprzęt budowlany', 'jm': 'm-g', 'nz': round(nz, 6), 'ce': _FALLBACK_SPR_CE}]
+
+        # Przypisz numery ZEST do sprzętu (po materiałach, ten sam next_zest)
+        unique_spr: Dict[tuple, int] = {}
+        for idx, machines in enumerate(pos_sprzet):
+            if not machines:
+                continue
+            assigned = []
+            for m in machines:
+                key = (m['name'], m['jm'], round(m['ce'], 2))
+                if key not in unique_spr:
+                    unique_spr[key] = next_zest
+                    next_zest += 1
+                assigned.append({**m, 'zest_num': unique_spr[key]})
+            pos_sprzet[idx] = assigned
+
         # Totalne il= na ZEST materiałowy (suma nz*ob po wszystkich pozycjach)
         mat_il_total: Dict[int, float] = {}
         for poz, mats in zip(pozycje, pos_mats):
@@ -250,6 +352,16 @@ class ATHGenerator:
             for mat in mats:
                 zn = mat['zest_num']
                 mat_il_total[zn] = mat_il_total.get(zn, 0.0) + mat['nz'] * ob
+
+        # Totalne il= na ZEST sprzętowy
+        spr_il_total: Dict[int, float] = {}
+        for poz, machines in zip(pozycje, pos_sprzet):
+            if not machines:
+                continue
+            ob = poz.get('ilosc', 0) or 1
+            for m in machines:
+                zn = m['zest_num']
+                spr_il_total[zn] = spr_il_total.get(zn, 0.0) + m['nz'] * ob
 
         needs_m_fallback = False  # ZEST 2 już nie potrzebny
 
@@ -330,19 +442,6 @@ class ATHGenerator:
                 "",
             ]
 
-        # ZEST 3 — Sprzęt
-        lines += [
-            "[RMS ZEST 3]",
-            "ty=S",
-            "na=sprz\u0119t\t0",
-            "id=997\t1",
-            "jm=m-g\t150",
-            f"ce={_dot(ss, 2)}\t{ts}",
-            f"cw={_dot(ss, 2)}\tPLN",
-            f"il={_dot(total_mg)}",
-            "",
-        ]
-
         # ZEST 4..N — Indywidualne materiały z realnymi cenami
         for (name, jm, _ce), zest_num in sorted(unique_mats.items(), key=lambda x: x[1]):
             jm_code = get_jm_code(jm)
@@ -352,6 +451,22 @@ class ATHGenerator:
                 "ty=M",
                 f"na={name}\t0",
                 "id=0\t3",
+                f"jm={jm}\t{jm_code}",
+                f"ce={_dot(_ce, 2)}\t{ts}",
+                f"cw={_dot(_ce, 2)}\tPLN",
+                f"il={_dot(il_total, 4)}",
+                "",
+            ]
+
+        # ZEST S — Indywidualny sprzęt z realnymi cenami (lub fallback)
+        for (name, jm, _ce), zest_num in sorted(unique_spr.items(), key=lambda x: x[1]):
+            jm_code = get_jm_code(jm) if jm != 'm-g' else '150'
+            il_total = spr_il_total.get(zest_num, 0.0)
+            lines += [
+                f"[RMS ZEST {zest_num}]",
+                "ty=S",
+                f"na={name}\t0",
+                "id=0\t1",
                 f"jm={jm}\t{jm_code}",
                 f"ce={_dot(_ce, 2)}\t{ts}",
                 f"cw={_dot(_ce, 2)}\tPLN",
@@ -373,7 +488,7 @@ class ATHGenerator:
         # ──────────────────── POZYCJE ────────────────────────────────────────
         pos_id = 2
 
-        for lp, (poz, mats) in enumerate(zip(pozycje, pos_mats), 1):
+        for lp, (poz, mats, machines) in enumerate(zip(pozycje, pos_mats, pos_sprzet), 1):
             jm       = poz.get('jm', 'szt.')
             jm_clean = jm.replace('.', '')
             jm_code  = get_jm_code(jm)
@@ -385,16 +500,9 @@ class ATHGenerator:
             M = poz.get('M', 0.0)
             S = poz.get('S', 0.0)
 
-            # Nakłady jednostkowe (dla ZEST 1 i ZEST 3)
+            # Nakłady jednostkowe dla robocizny
             R_nj = R / sr / ilosc if (R > 0 and sr > 0) else 0.0
-            S_nj = S / ss / ilosc if (S > 0 and ss > 0) else 0.0
-
             R_il = R / sr if (R > 0 and sr) else 0.0
-            S_il = S / ss if (S > 0 and ss) else 0.0
-
-            # Dla fallback M (ZEST 2)
-            M_nj = M / ilosc if M > 0 else 0.0
-            M_il = M if M > 0 else 0.0
 
             # Linia pd= z referencją KNR
             knr_typ, knr_short, knr_num = _parse_podstawa(podstawa)
@@ -461,17 +569,20 @@ class ATHGenerator:
                     ]
             # (fallback obsłużony w pre-pass jako dedykowany ZEST)
 
-            # ZEST 3: Sprzęt
-            if S > 0:
-                lines += [
-                    "[RMS 3]",
-                    f"nz={_dot(S_nj)}\t0\t{_dot(S_nj)}",
-                    "np=1",
-                    "wa=0",
-                    "wb=0",
-                    f"il={_dot(S_il)}",
-                    "",
-                ]
+            # Sprzęt: indywidualne maszyny (ZEST N)
+            if machines:
+                for mach in machines:
+                    nz = mach['nz']
+                    il = nz * ilosc
+                    lines += [
+                        f"[RMS {mach['zest_num']}]",
+                        f"nz={_dot(nz)}\t0\t{_dot(nz)}",
+                        "np=1",
+                        "wa=0",
+                        "wb=0",
+                        f"il={_dot(il, 4)}",
+                        "",
+                    ]
 
             pos_id += 1
 
@@ -488,10 +599,11 @@ class ATHGenerator:
             f.write(content)
 
         mat_count = sum(1 for m in pos_mats if m is not None)
-        fallback_count = sum(1 for m in pos_mats if m is None)
+        spr_db_count = sum(1 for m in pos_sprzet if m and m[0]['name'] != 'sprzęt budowlany')
+        spr_fallback_count = sum(1 for m in pos_sprzet if m and m[0]['name'] == 'sprzęt budowlany')
         log.info(
-            "Zapisano ATH (%d pozycji, %d z mat. indywid., %d fallback): %s",
-            len(pozycje), mat_count, fallback_count, output_path,
+            "Zapisano ATH (%d poz, mat=%d, sprzet_db=%d, sprzet_fallback=%d): %s",
+            len(pozycje), mat_count, spr_db_count, spr_fallback_count, output_path,
         )
         return output_path
 

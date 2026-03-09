@@ -149,10 +149,6 @@
       "ce": 5.0
     }
   ],
-  "KNR4-020235-08": [],
-  "KNR4-020230-04": [],
-  "KNR4-020230-05": [],
-  "KNR4-020234-02": [],
   "KNR2-150205-04": [
     {
       "name": "rura PCV 160 mm",
@@ -215,7 +211,6 @@
       "ce": 51.12
     }
   ],
-  "KNR2-150404-02": [],
   "KNR5-080309-03": [
     {
       "name": "gniazdo wtyczkowe podtynkowe 2-biegu",
@@ -232,9 +227,6 @@
       "ce": 120.0
     }
   ],
-  "KNR13-210301-03": [],
-  "KNR4-010702-06": [],
-  "KNR4-010804-07": [],
   "KNR0-191023-05": [
     {
       "name": "okno PCV 1-dzielne uchylno-rozwijające",
@@ -247,12 +239,6 @@
       "jm": "mb",
       "nz": 4.449263,
       "ce": 8.0
-    },
-    {
-      "name": "montaż ościeżnicy i parapetu",
-      "jm": "m2",
-      "nz": 0.988725,
-      "ce": 470.02
     }
   ],
   "KNR4-010703-03": [
@@ -807,6 +793,214 @@
       "jm": "m",
       "nz": 0.845411,
       "ce": 1.2
+    }
+  ],
+  "KNR4-020235-06": [
+    {
+      "name": "Materiały pomocnicze do demontażu sanitariatów",
+      "jm": "kpl",
+      "nz": 1.0,
+      "ce": 450.0
+    }
+  ],
+  "KNR4-020235-08": [
+    {
+      "name": "Materiały pomocnicze do demontażu ustępu",
+      "jm": "kpl",
+      "nz": 1.0,
+      "ce": 1200.0
+    }
+  ],
+  "KNNR20604-01": [
+    {
+      "name": "Folia polietylenowa PE 0.2 mm",
+      "jm": "m2",
+      "nz": 2.103448,
+      "ce": 1.16
+    }
+  ],
+  "KNNR21209-03": [
+    {
+      "name": "Płytki ceramiczne podłogowe 30x30 cm",
+      "jm": "m2",
+      "nz": 1.123708,
+      "ce": 55.0
+    },
+    {
+      "name": "Klej do płytek elastyczny",
+      "jm": "kg",
+      "nz": 5.350989,
+      "ce": 3.0
+    },
+    {
+      "name": "Fuga do płytek ceramicznych",
+      "jm": "kg",
+      "nz": 0.535099,
+      "ce": 7.0
+    },
+    {
+      "name": "Gruntownik do podłoży chłonnych",
+      "jm": "l",
+      "nz": 0.16053,
+      "ce": 14.0
+    }
+  ],
+  "KNNR21103-01": [
+    {
+      "name": "Skrzydło drzwiowe wewnętrzne pełne wykończone",
+      "jm": "szt",
+      "nz": 1.089588,
+      "ce": 390.0
+    },
+    {
+      "name": "Pianka montażowa PU 750 ml",
+      "jm": "szt",
+      "nz": 0.544794,
+      "ce": 22.0
+    },
+    {
+      "name": "Wkręty do montażu ościeżnicy 50mm",
+      "jm": "opak",
+      "nz": 0.217918,
+      "ce": 15.0
+    },
+    {
+      "name": "Uszczelka drzwiowa gumowa",
+      "jm": "m",
+      "nz": 2.179177,
+      "ce": 4.5
+    }
+  ],
+  "KNNR30608-02": [
+    {
+      "name": "Płytki ceramiczne ścienne 20x20 cm",
+      "jm": "m2",
+      "nz": 1.05094,
+      "ce": 38.0
+    },
+    {
+      "name": "Klej do płytek ściennych C1",
+      "jm": "kg",
+      "nz": 5.004475,
+      "ce": 2.8
+    },
+    {
+      "name": "Fuga ceramiczna biała 2 kg",
+      "jm": "kg",
+      "nz": 0.300269,
+      "ce": 7.0
+    },
+    {
+      "name": "Gruntownik kontaktowy",
+      "jm": "l",
+      "nz": 0.150134,
+      "ce": 14.0
+    }
+  ],
+  "KNNR21402-05": [
+    {
+      "name": "Farba emulsyjna do płyt gipsowo-kartonowych",
+      "jm": "l",
+      "nz": 0.353787,
+      "ce": 28.0
+    },
+    {
+      "name": "Grunt głęboko penetrujący do GK",
+      "jm": "l",
+      "nz": 0.151623,
+      "ce": 16.0
+    }
+  ],
+  "KNR4-020230-04": [
+    {
+      "name": "Rura żeliwna/PCV kanalizacyjna średnica 50-100 mm - materiał odzyskany",
+      "jm": "m",
+      "nz": 1.0,
+      "ce": 150.0
+    }
+  ],
+  "KNR4-020230-05": [
+    {
+      "name": "Rura żeliwna kanalizacyjna DN 150 mm",
+      "jm": "m",
+      "nz": 1.0,
+      "ce": 250.0
+    }
+  ],
+  "KNR4-020234-02": [
+    {
+      "name": "Wpust żeliwny podłogowy DN 100",
+      "jm": "szt.",
+      "nz": 1.0,
+      "ce": 85.0
+    }
+  ],
+  "KNR2-150404-02": [
+    {
+      "name": "Nitrogen techniczny do testów ciśnieniowych (zbiornik 40L)",
+      "jm": "szt",
+      "nz": 0.023594,
+      "ce": 2800.0
+    },
+    {
+      "name": "Manometr analogowy 0-4 bar do prób ciśnieniowych",
+      "jm": "szt",
+      "nz": 0.012583,
+      "ce": 450.0
+    },
+    {
+      "name": "Reduktor ciśnienia z manometrem do instalacji c.o.",
+      "jm": "szt",
+      "nz": 0.023594,
+      "ce": 380.0
+    },
+    {
+      "name": "Uszczelniacz uniwersalny do systemów grzewczych (pasta 200g)",
+      "jm": "szt",
+      "nz": 0.039323,
+      "ce": 28.0
+    },
+    {
+      "name": "Zaślepki tymczasowe na gwinty G1/2\" (opakowanie 10szt)",
+      "jm": "opak",
+      "nz": 0.078645,
+      "ce": 12.0
+    },
+    {
+      "name": "Przewód elastyczny do próby ciśnieniowej DN10 (szpula 50m)",
+      "jm": "szp",
+      "nz": 0.012583,
+      "ce": 180.0
+    }
+  ],
+  "KNR13-210301-03": [
+    {
+      "name": "Luksomierz cyfrowy do pomiaru natężenia oświetlenia",
+      "jm": "szt.",
+      "nz": 1.0,
+      "ce": 140.1
+    }
+  ],
+  "KNR4-010702-06": [
+    {
+      "name": "zaprawa cementowo-wapiennia gotowa do użytku",
+      "jm": "kg",
+      "nz": 14.59854,
+      "ce": 0.65
+    },
+    {
+      "name": "papier do szlifowania tynków P100",
+      "jm": "m2",
+      "nz": 0.145985,
+      "ce": 3.5
+    }
+  ],
+  "KNR4-010804-07": [
+    {
+      "name": "Piasek do wyrównania podłoża",
+      "jm": "m3",
+      "nz": 0.015,
+      "ce": 800.0
     }
   ]
 }

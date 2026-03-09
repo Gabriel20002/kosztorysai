@@ -1,0 +1,4894 @@
+{
+  "KNR-W4-010715-09": [
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 0.03,
+      "ce": 12.25
+    },
+    {
+      "name": "betoniarka 150 dm3",
+      "jm": "m-g",
+      "nz": 0.04,
+      "ce": 6.76
+    }
+  ],
+  "KNRK-040305-04": [
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 0.028,
+      "ce": 12.25
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.008,
+      "ce": 95.97
+    }
+  ],
+  "KNRK-040201-02": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0003,
+      "ce": 95.97
+    }
+  ],
+  "KNRK-040305-01": [
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 0.028,
+      "ce": 12.25
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.008,
+      "ce": 95.97
+    }
+  ],
+  "KNR-W2-021026-01": [
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 12.25
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.02,
+      "ce": 95.97
+    }
+  ],
+  "KNR-W2-010119-01": [
+    {
+      "name": "Spych.gąsienicowa 74kW  (1)",
+      "jm": "m-g",
+      "nz": 0.0025,
+      "ce": 89.53
+    }
+  ],
+  "KNR-W2-010212-04": [
+    {
+      "name": "Kop.j-nacz.na p.gąs.0.25m3 (1)",
+      "jm": "m-g",
+      "nz": 0.0576,
+      "ce": 220.48
+    }
+  ],
+  "KNR-W4-010109-02": [
+    {
+      "name": "Samochód dostaw.do 0.9t (1)",
+      "jm": "m-g",
+      "nz": 0.85,
+      "ce": 80.0
+    }
+  ],
+  "KNR-W4-010109-04": [
+    {
+      "name": "Samochód dostaw.do 0.9t (1)",
+      "jm": "m-g",
+      "nz": 0.03,
+      "ce": 80.0
+    }
+  ],
+  "KNR2-010236-01": [
+    {
+      "name": "Ubijak wibracyjny 66-78 kg",
+      "jm": "m-g",
+      "nz": 0.0704,
+      "ce": 10.52
+    }
+  ],
+  "KNR-W2-010222-01": [
+    {
+      "name": "Spych.gąsienicowa 55kW  (1)",
+      "jm": "m-g",
+      "nz": 0.0135,
+      "ce": 77.48
+    }
+  ],
+  "KNR2-210101-04": [
+    {
+      "name": "Samochód samowyład.do 5t (1)",
+      "jm": "m-g",
+      "nz": 0.294,
+      "ce": 80.0
+    }
+  ],
+  "KNR-W2-180408-02": [
+    {
+      "name": "Samochód skrzyn.5-10t (1)",
+      "jm": "m-g",
+      "nz": 0.0083,
+      "ce": 80.0
+    }
+  ],
+  "KNR-W2-180421-02": [
+    {
+      "name": "Samochód skrzyn.5-10t (1)",
+      "jm": "m-g",
+      "nz": 0.085,
+      "ce": 80.0
+    }
+  ],
+  "KNR-W2-180408-03": [
+    {
+      "name": "Samochód skrzyn.5-10t (1)",
+      "jm": "m-g",
+      "nz": 0.0104,
+      "ce": 80.0
+    }
+  ],
+  "KNR-W2-180421-03": [
+    {
+      "name": "Samochód skrzyn.5-10t (1)",
+      "jm": "m-g",
+      "nz": 0.093,
+      "ce": 80.0
+    }
+  ],
+  "KNR-W2-180408-04": [
+    {
+      "name": "Samochód skrzyn.5-10t (1)",
+      "jm": "m-g",
+      "nz": 0.0228,
+      "ce": 80.0
+    }
+  ],
+  "KNR-W2-180422-04": [
+    {
+      "name": "Samochód skrzyn.5-10t (1)",
+      "jm": "m-g",
+      "nz": 0.101,
+      "ce": 80.0
+    }
+  ],
+  "KNR-W2-180524-02": [
+    {
+      "name": "Samochód skrzyn.do 5.0t (1)",
+      "jm": "m-g",
+      "nz": 1.04,
+      "ce": 80.0
+    }
+  ],
+  "KNR-W2-180513-01": [
+    {
+      "name": "Samochód skrzyn.5-10t (1)",
+      "jm": "m-g",
+      "nz": 2.35,
+      "ce": 80.0
+    },
+    {
+      "name": "Żuraw samochodowy do 4t (1)",
+      "jm": "m-g",
+      "nz": 3.04,
+      "ce": 71.96
+    }
+  ],
+  "KNR-W2-180515-01": [
+    {
+      "name": "samochód skrzyniowy 5-10 t",
+      "jm": "m-g",
+      "nz": 5.37,
+      "ce": 125.0
+    },
+    {
+      "name": "wyciąg wolnostojący z napędem spalinowym 0.75 t",
+      "jm": "m-g",
+      "nz": 6.99,
+      "ce": 89.0
+    }
+  ],
+  "KNR-W2-180517-02": [
+    {
+      "name": "Samochód skrzyn.do 5.0t (1)",
+      "jm": "m-g",
+      "nz": 0.07,
+      "ce": 80.0
+    }
+  ],
+  "KNR-W2-180706-03": [
+    {
+      "name": "Samochód skrzyn.5-10t (1)",
+      "jm": "m-g",
+      "nz": 3.16,
+      "ce": 80.0
+    }
+  ],
+  "KNNR50705-01": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.014,
+      "ce": 150.0
+    },
+    {
+      "name": "żuraw do 5t",
+      "jm": "m-g",
+      "nz": 0.007,
+      "ce": 150.0
+    }
+  ],
+  "KNR5-020312-06": [
+    {
+      "name": "samochód skrzyniowy do 5 t",
+      "jm": "m-g",
+      "nz": 3.5,
+      "ce": 96.91
+    }
+  ],
+  "KNR5-100301-02": [
+    {
+      "name": "samochód samowyładowczy 5 t",
+      "jm": "m-g",
+      "nz": 0.0114,
+      "ce": 10.0
+    }
+  ],
+  "KNR5-100303-01": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.0039,
+      "ce": 10.0
+    },
+    {
+      "name": "samochód skrzyniowy do 5 t",
+      "jm": "m-g",
+      "nz": 0.0055,
+      "ce": 10.0
+    }
+  ],
+  "KNR5-100114-01": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.0067,
+      "ce": 10.0
+    },
+    {
+      "name": "przyczepa do przewożenia kabli do 4 t",
+      "jm": "m-g",
+      "nz": 0.0043,
+      "ce": 10.0
+    },
+    {
+      "name": "ciągnik kołowy 55-63 kW (75-85 KM)",
+      "jm": "m-g",
+      "nz": 0.0043,
+      "ce": 10.0
+    },
+    {
+      "name": "żuraw samochodowy 4 t",
+      "jm": "m-g",
+      "nz": 0.0043,
+      "ce": 10.0
+    }
+  ],
+  "KNR5-100103-04": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.0067,
+      "ce": 10.0
+    },
+    {
+      "name": "samochód skrzyniowy do 5 t",
+      "jm": "m-g",
+      "nz": 0.0082,
+      "ce": 10.0
+    },
+    {
+      "name": "przyczepa do przewożenia kabli do 4 t",
+      "jm": "m-g",
+      "nz": 0.0045,
+      "ce": 10.0
+    },
+    {
+      "name": "ciągnik kołowy 55-63 kW (75-85 KM)",
+      "jm": "m-g",
+      "nz": 0.0045,
+      "ce": 10.0
+    },
+    {
+      "name": "żuraw samochodowy 4 t",
+      "jm": "m-g",
+      "nz": 0.0045,
+      "ce": 10.0
+    }
+  ],
+  "KNR5-100118-04": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.0067,
+      "ce": 10.0
+    },
+    {
+      "name": "przyczepa do przewożenia kabli do 4 t",
+      "jm": "m-g",
+      "nz": 0.0045,
+      "ce": 10.0
+    },
+    {
+      "name": "ciągnik kołowy 55-63 kW (75-85 KM)",
+      "jm": "m-g",
+      "nz": 0.0045,
+      "ce": 10.0
+    },
+    {
+      "name": "żuraw samochodowy 4 t",
+      "jm": "m-g",
+      "nz": 0.0045,
+      "ce": 10.0
+    }
+  ],
+  "KNRAT-150118-01": [
+    {
+      "name": "przyrząd pomiarowy okablowania strukturalnego kpl.",
+      "jm": "m-g",
+      "nz": 0.42,
+      "ce": 20.0
+    },
+    {
+      "name": "środek łączności bezprzewodowej kpl.",
+      "jm": "m-g",
+      "nz": 0.42,
+      "ce": 5.0
+    }
+  ],
+  "KNRAT-150118-02": [
+    {
+      "name": "przyrząd pomiarowy okablowania strukturalnego kpl.",
+      "jm": "m-g",
+      "nz": 0.15,
+      "ce": 20.0
+    },
+    {
+      "name": "środek łączności bezprzewodowej kpl.",
+      "jm": "m-g",
+      "nz": 0.15,
+      "ce": 5.0
+    }
+  ],
+  "KNR-W5-080608-07": [
+    {
+      "name": "spawarka",
+      "jm": "m-g",
+      "nz": 0.052,
+      "ce": 5.0
+    }
+  ],
+  "KNR-W5-100303-02": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0073,
+      "ce": 10.0
+    }
+  ],
+  "KNR-W5-100207-01": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0087,
+      "ce": 10.0
+    },
+    {
+      "name": "przyczepa do przewożenia kabli",
+      "jm": "m-g",
+      "nz": 0.0069,
+      "ce": 10.0
+    },
+    {
+      "name": "ciągnik kołowy",
+      "jm": "m-g",
+      "nz": 0.0069,
+      "ce": 10.0
+    },
+    {
+      "name": "żuraw samochodowy",
+      "jm": "m-g",
+      "nz": 0.0069,
+      "ce": 10.0
+    }
+  ],
+  "KNNR50601-01": [
+    {
+      "name": "spawarka",
+      "jm": "m-g",
+      "nz": 0.033,
+      "ce": 200.0
+    }
+  ],
+  "KNNR50611-01": [
+    {
+      "name": "spawarka'",
+      "jm": "m-g",
+      "nz": 0.124,
+      "ce": 200.0
+    }
+  ],
+  "KNNR50707-04": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0149,
+      "ce": 80.0
+    }
+  ],
+  "KNNR51001-01": [
+    {
+      "name": "środek transportowy'''''",
+      "jm": "m-g",
+      "nz": 0.06,
+      "ce": 300.0
+    }
+  ],
+  "KNNR51008-04": [
+    {
+      "name": "środek transportowy5",
+      "jm": "m-g",
+      "nz": 0.02,
+      "ce": 200.0
+    }
+  ],
+  "KNNR50707-08": [
+    {
+      "name": "środek transportowy'",
+      "jm": "m-g",
+      "nz": 0.0149,
+      "ce": 200.0
+    },
+    {
+      "name": "przyczepa do przewożenia kabli",
+      "jm": "m-g",
+      "nz": 0.0052,
+      "ce": 300.0
+    }
+  ],
+  "KNR4-040804-1": [
+    {
+      "name": "Zestaw spawalniczy tlenowo-acetylenowy 2-butlowy z przewodami i palnikami - kpl.",
+      "jm": "m-g",
+      "nz": 0.06,
+      "ce": 6.32
+    }
+  ],
+  "KNR4-040602-1": [
+    {
+      "name": "Sprężarka powietrzna przewoźna spalinowa 4-5 m3/min (1)",
+      "jm": "m-g",
+      "nz": 1.08,
+      "ce": 50.76
+    }
+  ],
+  "KNR13-230106-8": [
+    {
+      "name": "Samochód skrzyniowy do 5 t (1)",
+      "jm": "m-g",
+      "nz": 0.02,
+      "ce": 66.01
+    },
+    {
+      "name": "Wyciąg jednomasztowy z napędem elektrycznym 0,50 t",
+      "jm": "m-g",
+      "nz": 0.12,
+      "ce": 10.19
+    }
+  ],
+  "KNR4-010304-2": [
+    {
+      "name": "Betoniarka wolnospadowa elektryczna 250 dm3'",
+      "jm": "m-g",
+      "nz": 0.13,
+      "ce": 6.75
+    },
+    {
+      "name": "Wyciąg jednomasztowy z napędem elektrycznym 0,50 t",
+      "jm": "m-g",
+      "nz": 0.9,
+      "ce": 10.19
+    }
+  ],
+  "KNR2-050101-6": [
+    {
+      "name": "Żuraw samochodowy 5-6 t (1)",
+      "jm": "m-g",
+      "nz": 0.5,
+      "ce": 110.19
+    },
+    {
+      "name": "Żuraw samochodowy 12-16 t (1)",
+      "jm": "m-g",
+      "nz": 3.9,
+      "ce": 129.69
+    },
+    {
+      "name": "Ciągnik kołowy 55-63 kW (75-85 KM) (1)",
+      "jm": "m-g",
+      "nz": 0.8,
+      "ce": 63.63
+    },
+    {
+      "name": "Przyczepa dłużycowa do samochodu 10 t",
+      "jm": "m-g",
+      "nz": 0.8,
+      "ce": 9.0
+    },
+    {
+      "name": "Spawarka elektryczna transformatorowa 500 A",
+      "jm": "m-g",
+      "nz": 3.5,
+      "ce": 6.34
+    }
+  ],
+  "B380380380380380380308030803-300000-0": [
+    {
+      "name": "Szlifierka do lastryka 4,50 kW",
+      "jm": "m-g",
+      "nz": 1.0,
+      "ce": 10.01
+    }
+  ],
+  "KNR2-020216-2": [
+    {
+      "name": "Pompa do betonu na samochodzie 60 m3/h (1)",
+      "jm": "m-g",
+      "nz": 0.014,
+      "ce": 236.94
+    },
+    {
+      "name": "Samochód skrzyniowy pow. 5-10 t (1)",
+      "jm": "m-g",
+      "nz": 0.0168,
+      "ce": 60.0
+    }
+  ],
+  "KNR2-020216-5": [
+    {
+      "name": "Pompa do betonu na samochodzie 60 m3/h (1)",
+      "jm": "m-g",
+      "nz": 0.001,
+      "ce": 236.94
+    }
+  ],
+  "B050618-600000-0": [
+    {
+      "name": "Sprężarka powietrzna przewoźna spalinowa 4-5 m3/min (1)",
+      "jm": "m-g",
+      "nz": 5.66,
+      "ce": 50.76
+    }
+  ],
+  "KNR2-029933-1": [
+    {
+      "name": "Pompa do betonu na samochodzie 60 m3/h (1)",
+      "jm": "m-g",
+      "nz": 0.08,
+      "ce": 236.94
+    }
+  ],
+  "KNR2-020290-2": [
+    {
+      "name": "Prościarka automatyczna do prętów Fi 4-10 mm",
+      "jm": "m-g",
+      "nz": 4.3,
+      "ce": 5.79
+    },
+    {
+      "name": "Nożyce elektro-mechaniczne do prętów Fi 40 mm",
+      "jm": "m-g",
+      "nz": 5.8,
+      "ce": 7.76
+    },
+    {
+      "name": "Giętarka mechaniczna do prętów zbrojeniowych Fi 40 mm",
+      "jm": "m-g",
+      "nz": 4.8,
+      "ce": 7.67
+    },
+    {
+      "name": "Samochód skrzyniowy pow. 5-10 t (1)",
+      "jm": "m-g",
+      "nz": 1.6,
+      "ce": 60.0
+    }
+  ],
+  "KNR2-020609-3": [
+    {
+      "name": "Samochód skrzyniowy pow. 5-10 t (1)",
+      "jm": "m-g",
+      "nz": 0.0047,
+      "ce": 60.0
+    }
+  ],
+  "KNR2-021106-7": [
+    {
+      "name": "Samochód skrzyniowy pow. 5-10 t (1)",
+      "jm": "m-g",
+      "nz": 0.0017,
+      "ce": 60.0
+    }
+  ],
+  "KNR2-029011-1": [
+    {
+      "name": "Samochód skrzyniowy pow. 5-10 t (1)",
+      "jm": "m-g",
+      "nz": 0.02,
+      "ce": 60.0
+    }
+  ],
+  "KNR150526-2": [
+    {
+      "name": "Samochód skrzyniowy pow. 5-10 t (1)",
+      "jm": "m-g",
+      "nz": 0.012,
+      "ce": 60.0
+    }
+  ],
+  "KNRW4-010713-1": [
+    {
+      "name": "Wyciąg jednomasztowy z napędem elektrycznym 0,50 t",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 10.19
+    }
+  ],
+  "KNRW4-010713-2": [
+    {
+      "name": "Wyciąg jednomasztowy z napędem elektrycznym 0,50 t",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 10.19
+    }
+  ],
+  "KNR4-010711-2": [
+    {
+      "name": "Betoniarka wolnospadowa elektryczna 250 dm3'",
+      "jm": "m-g",
+      "nz": 0.04,
+      "ce": 6.75
+    },
+    {
+      "name": "Wyciąg jednomasztowy z napędem elektrycznym 0,50 t",
+      "jm": "m-g",
+      "nz": 0.05,
+      "ce": 10.19
+    }
+  ],
+  "KNR2-020801-2": [
+    {
+      "name": "Agregat tynkarski 1,10-3,00 m3/h (1)",
+      "jm": "m-g",
+      "nz": 0.0409,
+      "ce": 31.0
+    }
+  ],
+  "KNR2-020801-4": [
+    {
+      "name": "Agregat tynkarski 1,10-3,00 m3/h (1)",
+      "jm": "m-g",
+      "nz": 0.0519,
+      "ce": 31.0
+    }
+  ],
+  "KNR2-021505-1": [
+    {
+      "name": "Samochód skrzyniowy pow. 5-10 t (1)",
+      "jm": "m-g",
+      "nz": 0.0003,
+      "ce": 60.0
+    }
+  ],
+  "KNR19-010907-5": [
+    {
+      "name": "Wyciąg jednomasztowy z napędem elektrycznym 0,50 t",
+      "jm": "m-g",
+      "nz": 0.012,
+      "ce": 10.19
+    },
+    {
+      "name": "Samochód skrzyniowy pow. 5-10 t (1)",
+      "jm": "m-g",
+      "nz": 0.008,
+      "ce": 60.0
+    }
+  ],
+  "KNR2-021214-5": [
+    {
+      "name": "Spawarka elektryczna transformatorowa 500 A",
+      "jm": "m-g",
+      "nz": 0.3354,
+      "ce": 6.34
+    },
+    {
+      "name": "Samochód skrzyniowy pow. 5-10 t (1)",
+      "jm": "m-g",
+      "nz": 0.0042,
+      "ce": 60.0
+    }
+  ],
+  "KNNRW21207-1": [
+    {
+      "name": "Wyciąg jednomasztowy z napędem elektrycznym 0,50 t",
+      "jm": "m-g",
+      "nz": 0.031,
+      "ce": 10.19
+    },
+    {
+      "name": "Agregat do wylewek samopoziomujących",
+      "jm": "m-g",
+      "nz": 0.344,
+      "ce": 30.0
+    }
+  ],
+  "KNR2-021101-1": [
+    {
+      "name": "Pompa do betonu na samochodzie 60 m3/h (1)",
+      "jm": "m-g",
+      "nz": 0.1,
+      "ce": 236.94
+    }
+  ],
+  "KNR2-310101-1": [
+    {
+      "name": "Spycharka gąsienicowa 74 kW (100 KM) (1)'",
+      "jm": "m-g",
+      "nz": 0.0035,
+      "ce": 200.0
+    },
+    {
+      "name": "Walec wibracyjny samojezdny 7,50 t (1)",
+      "jm": "m-g",
+      "nz": 0.0086,
+      "ce": 79.02
+    }
+  ],
+  "KNR2-310101-2": [
+    {
+      "name": "Spycharka gąsienicowa 74 kW (100 KM) (1)'",
+      "jm": "m-g",
+      "nz": 0.0009,
+      "ce": 200.0
+    }
+  ],
+  "KNR2-010212-3": [
+    {
+      "name": "Koparka jednonaczyniowa na podwoziu gąsienicowym 0.25·m3 (1)",
+      "jm": "m-g",
+      "nz": 0.0864,
+      "ce": 60.0
+    },
+    {
+      "name": "Samochód samowyładowczy pow. 5-10 t (1)",
+      "jm": "m-g",
+      "nz": 0.2146,
+      "ce": 60.0
+    },
+    {
+      "name": "Spycharka gąsienicowa 55kW (75KM) (1)'",
+      "jm": "m-g",
+      "nz": 0.0326,
+      "ce": 180.0
+    }
+  ],
+  "KNR2-010214-4": [
+    {
+      "name": "Samochód samowyładowczy pow. 5-10 t (1)",
+      "jm": "m-g",
+      "nz": 0.0107,
+      "ce": 60.0
+    }
+  ],
+  "KNR2-020238-1": [
+    {
+      "name": "Samochód skrzyniowy pow. 5-10 t (1)'",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 104.41
+    }
+  ],
+  "KNR2-020239-5": [
+    {
+      "name": "Przenośnik taśmowy przewoźny do 10·m",
+      "jm": "m-g",
+      "nz": 0.42,
+      "ce": 4.55
+    },
+    {
+      "name": "Samochód skrzyniowy pow. 5-10 t (1)'",
+      "jm": "m-g",
+      "nz": 0.13,
+      "ce": 104.41
+    }
+  ],
+  "KNR2-310104-7": [
+    {
+      "name": "Równiarka samojezdna 74 kW (100 KM) (1)'",
+      "jm": "m-g",
+      "nz": 0.002,
+      "ce": 82.73
+    },
+    {
+      "name": "Walec statyczny samojezdny 10 t (1)",
+      "jm": "m-g",
+      "nz": 0.0041,
+      "ce": 70.0
+    }
+  ],
+  "KNR2-310114-7": [
+    {
+      "name": "Równiarka samojezdna 74 kW (100 KM) (1)'",
+      "jm": "m-g",
+      "nz": 0.0025,
+      "ce": 82.73
+    },
+    {
+      "name": "Walec statyczny samojezdny 10 t (1)",
+      "jm": "m-g",
+      "nz": 0.0256,
+      "ce": 70.0
+    }
+  ],
+  "KNR2-310114-8": [
+    {
+      "name": "Równiarka samojezdna 74 kW (100 KM) (1)'",
+      "jm": "m-g",
+      "nz": 0.0002,
+      "ce": 82.73
+    },
+    {
+      "name": "Walec statyczny samojezdny 10 t (1)",
+      "jm": "m-g",
+      "nz": 0.0013,
+      "ce": 70.0
+    }
+  ],
+  "KNR110317-1": [
+    {
+      "name": "Piła do cięcia płytek - kpl.",
+      "jm": "m-g",
+      "nz": 0.025,
+      "ce": 5.53
+    }
+  ],
+  "KNR2-310101-5": [
+    {
+      "name": "Walec wibracyjny samojezdny 7,50 t (1)",
+      "jm": "m-g",
+      "nz": 0.0094,
+      "ce": 79.02
+    }
+  ],
+  "KNR2-310114-1": [
+    {
+      "name": "Równiarka samojezdna 74 kW (100 KM) (1)'",
+      "jm": "m-g",
+      "nz": 0.0026,
+      "ce": 82.73
+    },
+    {
+      "name": "Walec statyczny samojezdny 10 t (1)",
+      "jm": "m-g",
+      "nz": 0.0182,
+      "ce": 70.0
+    }
+  ],
+  "KNR2-310114-2": [
+    {
+      "name": "Równiarka samojezdna 74 kW (100 KM) (1)'",
+      "jm": "m-g",
+      "nz": 0.0001,
+      "ce": 82.73
+    },
+    {
+      "name": "Walec statyczny samojezdny 10 t (1)",
+      "jm": "m-g",
+      "nz": 0.0004,
+      "ce": 70.0
+    }
+  ],
+  "KNR2-310114-5": [
+    {
+      "name": "Równiarka samojezdna 74 kW (100 KM) (1)'",
+      "jm": "m-g",
+      "nz": 0.0027,
+      "ce": 82.73
+    },
+    {
+      "name": "Walec statyczny samojezdny 10 t (1)",
+      "jm": "m-g",
+      "nz": 0.0387,
+      "ce": 70.0
+    }
+  ],
+  "KNR2-310109-3": [
+    {
+      "name": "Walec wibracyjny samojezdny 7,50 t (1)",
+      "jm": "m-g",
+      "nz": 0.0402,
+      "ce": 79.02
+    }
+  ],
+  "KNR2-310109-4": [
+    {
+      "name": "Walec wibracyjny samojezdny 7,50 t (1)",
+      "jm": "m-g",
+      "nz": 0.0034,
+      "ce": 79.02
+    }
+  ],
+  "KNR2-010105-4": [
+    {
+      "name": "Spycharka gąsienicowa 74 kW (100 KM) (1)'",
+      "jm": "m-g",
+      "nz": 0.115,
+      "ce": 200.0
+    }
+  ],
+  "KNR2-010105-7": [
+    {
+      "name": "Spycharka gąsienicowa 74 kW (100 KM) (1)'",
+      "jm": "m-g",
+      "nz": 0.274,
+      "ce": 200.0
+    }
+  ],
+  "KNR2-010110-1": [
+    {
+      "name": "Ciągnik kołowy 55-63 kW (75-85 KM) (1)",
+      "jm": "m-g",
+      "nz": 0.54,
+      "ce": 63.63
+    },
+    {
+      "name": "Przyczepa dłużycowa do samochodu 10 t'",
+      "jm": "m-g",
+      "nz": 0.54,
+      "ce": 11.0
+    }
+  ],
+  "KNR2-010110-3": [
+    {
+      "name": "Ciągnik kołowy 55-63 kW (75-85 KM) (1)",
+      "jm": "m-g",
+      "nz": 0.4,
+      "ce": 63.63
+    },
+    {
+      "name": "Przyczepa skrzyniowa 5 t",
+      "jm": "m-g",
+      "nz": 0.8,
+      "ce": 9.54
+    }
+  ],
+  "KNR4-041103-1": [
+    {
+      "name": "Koparka jednonaczyniowa kołowa 0.60·m3 (1)",
+      "jm": "m-g",
+      "nz": 0.143,
+      "ce": 200.0
+    }
+  ],
+  "KNR4-041103-4": [
+    {
+      "name": "Samochód samowyładowczy pow. 5-10 t (1)",
+      "jm": "m-g",
+      "nz": 0.177,
+      "ce": 60.0
+    }
+  ],
+  "KNR4-041103-5": [
+    {
+      "name": "Samochód samowyładowczy pow. 5-10 t (1)",
+      "jm": "m-g",
+      "nz": 0.037,
+      "ce": 60.0
+    }
+  ],
+  "KNR2-310103-4": [
+    {
+      "name": "Spycharka gąsienicowa 55kW (75KM) (1)'",
+      "jm": "m-g",
+      "nz": 0.0039,
+      "ce": 180.0
+    },
+    {
+      "name": "Walec wibracyjny samojezdny 7,50 t (1)",
+      "jm": "m-g",
+      "nz": 0.0043,
+      "ce": 79.02
+    }
+  ],
+  "KNR2-310803-3": [
+    {
+      "name": "Sprężarka powietrzna przewoźna elektryczna 4-5·m3/min (1)",
+      "jm": "m-g",
+      "nz": 0.1249,
+      "ce": 56.73
+    }
+  ],
+  "KNR2-310804-3": [
+    {
+      "name": "Zrywarka przyczepna - kpl.",
+      "jm": "m-g",
+      "nz": 0.0079,
+      "ce": 8.8
+    }
+  ],
+  "KNR2-010119-3": [
+    {
+      "name": "Samochód dostawczy do 0,90 t (1)",
+      "jm": "m-g",
+      "nz": 7.5,
+      "ce": 75.24
+    }
+  ],
+  "KNR2-310105-3": [
+    {
+      "name": "Walec statyczny samojezdny 4-6·t (1)",
+      "jm": "m-g",
+      "nz": 0.0014,
+      "ce": 92.29
+    }
+  ],
+  "KNR2-310105-4": [
+    {
+      "name": "Walec statyczny samojezdny 4-6·t (1)",
+      "jm": "m-g",
+      "nz": 0.0005,
+      "ce": 92.29
+    }
+  ],
+  "KNR110321-1": [
+    {
+      "name": "Piła do cięcia płytek - kpl.",
+      "jm": "m-g",
+      "nz": 0.03,
+      "ce": 5.53
+    }
+  ],
+  "KNR2-310104-8": [
+    {
+      "name": "Równiarka samojezdna 74 kW (100·KM) (1)",
+      "jm": "m-g",
+      "nz": 4e-05,
+      "ce": 102.95
+    },
+    {
+      "name": "Walec statyczny samojezdny 10 t (1)",
+      "jm": "m-g",
+      "nz": 0.0004,
+      "ce": 70.0
+    }
+  ],
+  "KNR110327-7": [
+    {
+      "name": "Piła do cięcia płytek - kpl.",
+      "jm": "m-g",
+      "nz": 0.025,
+      "ce": 5.53
+    }
+  ],
+  "KNR2-310706-6": [
+    {
+      "name": "Malowarka do poziomego znakowania dróg (samobieżna) - kpl. (1)",
+      "jm": "m-g",
+      "nz": 0.0309,
+      "ce": 63.78
+    },
+    {
+      "name": "Samochód dostawczy do 0,90 t (1)",
+      "jm": "m-g",
+      "nz": 0.0309,
+      "ce": 75.24
+    }
+  ],
+  "KNK2-060806-01": [
+    {
+      "name": "sprężarka przewoźna 4.0-4.7 m3/min",
+      "jm": "m-g",
+      "nz": 0.307,
+      "ce": 72.19
+    }
+  ],
+  "KNR2-010202-02": [
+    {
+      "name": "koparka gąsienicowa 0.4 m3",
+      "jm": "m-g",
+      "nz": 0.0577,
+      "ce": 150.0
+    },
+    {
+      "name": "samochód samowyładowczy 5 t",
+      "jm": "m-g",
+      "nz": 0.1812,
+      "ce": 126.3
+    }
+  ],
+  "KNR2-310104-05": [
+    {
+      "name": "walec statyczny samojezdny 10 t",
+      "jm": "m-g",
+      "nz": 0.0041,
+      "ce": 106.7
+    }
+  ],
+  "KNR2-310105-07": [
+    {
+      "name": "walec statyczny samojezdny 4-6 t",
+      "jm": "m-g",
+      "nz": 0.0013,
+      "ce": 83.83
+    }
+  ],
+  "KNR2-310105-08": [
+    {
+      "name": "walec statyczny samojezdny 4-6 t",
+      "jm": "m-g",
+      "nz": 0.0004,
+      "ce": 83.83
+    }
+  ],
+  "KNR2-310114-01": [
+    {
+      "name": "równiarka samojezdna 74 kW (100 KM)",
+      "jm": "m-g",
+      "nz": 0.0026,
+      "ce": 137.71
+    },
+    {
+      "name": "walec statyczny samojezdny 10 t",
+      "jm": "m-g",
+      "nz": 0.0182,
+      "ce": 106.7
+    }
+  ],
+  "KNR2-310511-03": [
+    {
+      "name": "wibrator powierzchniowy",
+      "jm": "m-g",
+      "nz": 0.13,
+      "ce": 6.66
+    },
+    {
+      "name": "piła do cięcia kostki",
+      "jm": "m-g",
+      "nz": 0.025,
+      "ce": 22.5
+    }
+  ],
+  "KNR2-310114-05": [
+    {
+      "name": "równiarka samojezdna 74 kW (100 KM)",
+      "jm": "m-g",
+      "nz": 0.0027,
+      "ce": 137.71
+    },
+    {
+      "name": "walec statyczny samojezdny 10 t",
+      "jm": "m-g",
+      "nz": 0.0387,
+      "ce": 106.7
+    }
+  ],
+  "KNR2-310114-07": [
+    {
+      "name": "równiarka samojezdna 74 kW (100 KM)",
+      "jm": "m-g",
+      "nz": 0.0025,
+      "ce": 137.71
+    },
+    {
+      "name": "walec statyczny samojezdny 10 t",
+      "jm": "m-g",
+      "nz": 0.0256,
+      "ce": 106.7
+    }
+  ],
+  "NNRNKB2020230C-03": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.02,
+      "ce": 150.0
+    },
+    {
+      "name": "żuraw do 5t",
+      "jm": "m-g",
+      "nz": 0.1,
+      "ce": 150.0
+    }
+  ],
+  "KNR2-020359-03": [
+    {
+      "name": "żuraw",
+      "jm": "m-g",
+      "nz": 0.61,
+      "ce": 150.0
+    },
+    {
+      "name": "spawarka elektryczna wirująca 300 A",
+      "jm": "m-g",
+      "nz": 0.43,
+      "ce": 7.9
+    }
+  ],
+  "KNR2-310101-02": [
+    {
+      "name": "spycharka gąsienicowa 74 kW (100 KM)",
+      "jm": "m-g",
+      "nz": 0.0009,
+      "ce": 155.54
+    }
+  ],
+  "KNR2-310105-03": [
+    {
+      "name": "walec statyczny samojezdny 4-6 t",
+      "jm": "m-g",
+      "nz": 0.0014,
+      "ce": 106.5
+    }
+  ],
+  "KNR2-310105-04": [
+    {
+      "name": "walec statyczny samojezdny 4-6 t",
+      "jm": "m-g",
+      "nz": 0.0005,
+      "ce": 106.5
+    }
+  ],
+  "KNR2-310114-08": [
+    {
+      "name": "równiarka samojezdna 74 kW (100 KM)",
+      "jm": "m-g",
+      "nz": 0.0002,
+      "ce": 126.42
+    },
+    {
+      "name": "walec statyczny samojezdny 10 t",
+      "jm": "m-g",
+      "nz": 0.0013,
+      "ce": 111.24
+    }
+  ],
+  "KNR2-010229-02": [
+    {
+      "name": "spycharka 55 kW (75 KM)",
+      "jm": "m-g",
+      "nz": 1.0,
+      "ce": 250.0
+    }
+  ],
+  "KNR2-010229-05": [
+    {
+      "name": "spycharka 55 kW (75 KM)",
+      "jm": "m-g",
+      "nz": 1.0,
+      "ce": 250.0
+    }
+  ],
+  "KNR2-010235-02": [
+    {
+      "name": "spycharka 55 kW (75 KM)",
+      "jm": "m-g",
+      "nz": 0.0471,
+      "ce": 250.0
+    }
+  ],
+  "KNR2-010237-01": [
+    {
+      "name": "walec statyczny ciągniony gładki lub okołkowany 3-5 t",
+      "jm": "m-g",
+      "nz": 0.0406,
+      "ce": 59.42
+    },
+    {
+      "name": "ciągnik 55 kW (75KM)",
+      "jm": "m-g",
+      "nz": 0.0203,
+      "ce": 64.22
+    },
+    {
+      "name": "beczkowóz ciągniony 1500 dm3",
+      "jm": "m-g",
+      "nz": 0.0203,
+      "ce": 9.33
+    }
+  ],
+  "KNR-W2-190119-03": [
+    {
+      "name": "Spawarka elektr.wirująca 300A",
+      "jm": "m-g",
+      "nz": 0.7,
+      "ce": 5.6
+    },
+    {
+      "name": "zestaw dłużycowy",
+      "jm": "m-g",
+      "nz": 0.06,
+      "ce": 87.44
+    }
+  ],
+  "KNR-W2-150211-03": [
+    {
+      "name": "Samochód dostaw.do 0.9t (1)",
+      "jm": "m-g",
+      "nz": 0.018,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-150203-03": [
+    {
+      "name": "Samochód dostaw.do 0.9t (1)",
+      "jm": "m-g",
+      "nz": 0.0099,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-150203-04": [
+    {
+      "name": "Samochód dostaw.do 0.9t (1)",
+      "jm": "m-g",
+      "nz": 0.02,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-180706-02": [
+    {
+      "name": "Samochód skrzyn.do 5.0t (1)",
+      "jm": "m-g",
+      "nz": 3.16,
+      "ce": 57.08
+    }
+  ],
+  "KNR-W2-150412-05": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.014,
+      "ce": 40.58
+    }
+  ],
+  "KNR0-350114-01": [
+    {
+      "name": "samochód dostawczy do 0,9 t",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 54.25
+    }
+  ],
+  "KNR0-350114-05": [
+    {
+      "name": "samochód dostawczy do 0,9 t",
+      "jm": "m-g",
+      "nz": 0.02,
+      "ce": 54.25
+    }
+  ],
+  "KNR0-350116-02": [
+    {
+      "name": "samochód dostawczy do 0,9 t",
+      "jm": "m-g",
+      "nz": 0.05,
+      "ce": 54.25
+    }
+  ],
+  "KNR-W2-150140-01": [
+    {
+      "name": "środek transportowy'",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 55.22
+    }
+  ],
+  "KNR-W2-150130-03": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.007,
+      "ce": 76.79
+    }
+  ],
+  "KNR-W2-150130-02": [
+    {
+      "name": "środek transportowy'",
+      "jm": "m-g",
+      "nz": 0.005,
+      "ce": 55.22
+    }
+  ],
+  "KNR-W2-150130-01": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.003,
+      "ce": 55.0
+    }
+  ],
+  "KNR2-150120-02": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.07,
+      "ce": 55.0
+    }
+  ],
+  "KNR2-150122-01": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.55,
+      "ce": 55.0
+    }
+  ],
+  "KNR2-150104-03": [
+    {
+      "name": "samochód skrzyniowy do 5 t",
+      "jm": "m-g",
+      "nz": 0.0152,
+      "ce": 57.7
+    }
+  ],
+  "KNR-W2-150116-06": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.001,
+      "ce": 55.0
+    }
+  ],
+  "KNR-W2-150116-01": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.001,
+      "ce": 55.0
+    }
+  ],
+  "KNR-W2-150410-05": [
+    {
+      "name": "Samochód dostaw.do 0.9t (1)'''''''''''''''",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 44.49
+    }
+  ],
+  "KNR0-340101-01": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0006,
+      "ce": 55.0
+    }
+  ],
+  "KNR0-340101-07": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.00305,
+      "ce": 55.0
+    }
+  ],
+  "KNNR-W30408-08": [
+    {
+      "name": "wiertnica diamentowa do otworów żelbetowych",
+      "jm": "m-g",
+      "nz": 0.046,
+      "ce": 10.27
+    }
+  ],
+  "KNR-W2-150127-01": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.0001,
+      "ce": 55.0
+    }
+  ],
+  "KNR4-041101-02": [
+    {
+      "name": "samochód skrzyniowy do 5 t",
+      "jm": "m-g",
+      "nz": 0.474,
+      "ce": 57.7
+    }
+  ],
+  "KNR4-041101-05": [
+    {
+      "name": "samochód skrzyniowy do 5 t",
+      "jm": "m-g",
+      "nz": 0.037,
+      "ce": 57.7
+    }
+  ],
+  "KNR0-310301-02": [
+    {
+      "name": "Samochód dostaw.do 0.9t (1)",
+      "jm": "m-g",
+      "nz": 0.0035,
+      "ce": 53.0
+    }
+  ],
+  "KNR0-310312-09": [
+    {
+      "name": "samochód dostawczy do 0,9 t",
+      "jm": "m-g",
+      "nz": 0.08,
+      "ce": 55.0
+    }
+  ],
+  "KNRINSTAL0408-06": [
+    {
+      "name": "środek transportowy''",
+      "jm": "m-g",
+      "nz": 0.007,
+      "ce": 55.0
+    }
+  ],
+  "KNRINSTAL0408-07": [
+    {
+      "name": "środek transportowy''",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 55.0
+    }
+  ],
+  "KNRINSTAL0408-08": [
+    {
+      "name": "środek transportowy''",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 55.0
+    }
+  ],
+  "KNRINSTAL0410-07": [
+    {
+      "name": "Samochód dostaw.do 0.9t (1)",
+      "jm": "m-g",
+      "nz": 0.0012,
+      "ce": 53.0
+    }
+  ],
+  "KNRINSTAL0307-01": [
+    {
+      "name": "Samochód dostaw.do 0.9t (1)",
+      "jm": "m-g",
+      "nz": 0.0001,
+      "ce": 53.0
+    }
+  ],
+  "KNR0-310218-02": [
+    {
+      "name": "Samochód dostaw.do 0.9t (1)",
+      "jm": "m-g",
+      "nz": 0.0001,
+      "ce": 53.0
+    }
+  ],
+  "KNRINSTAL0307-04": [
+    {
+      "name": "Samochód dostaw.do 0.9t (1)",
+      "jm": "m-g",
+      "nz": 0.0001,
+      "ce": 53.0
+    }
+  ],
+  "KNR0-340101-11": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0047,
+      "ce": 55.0
+    }
+  ],
+  "KNR-W2-170202-06": [
+    {
+      "name": "samochód dostawczy",
+      "jm": "m-g",
+      "nz": 1.03,
+      "ce": 53.0
+    },
+    {
+      "name": "żuraw samochodowy",
+      "jm": "m-g",
+      "nz": 0.84,
+      "ce": 71.19
+    }
+  ],
+  "KNR-W2-170155-02": [
+    {
+      "name": "samochód dostawczy",
+      "jm": "m-g",
+      "nz": 0.21,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-170147-01": [
+    {
+      "name": "samochód dostawczy",
+      "jm": "m-g",
+      "nz": 0.02,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-170145-01": [
+    {
+      "name": "samochód dostawczy",
+      "jm": "m-g",
+      "nz": 0.09,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-170148-06": [
+    {
+      "name": "samochód dostawczy",
+      "jm": "m-g",
+      "nz": 0.36,
+      "ce": 53.0
+    }
+  ],
+  "KNR2-150203-08": [
+    {
+      "name": "samochód dostawczy 0.9 t'",
+      "jm": "m-g",
+      "nz": 0.0689,
+      "ce": 53.0
+    }
+  ],
+  "KNR2-150203-09": [
+    {
+      "name": "samochód dostawczy 0.9 t'",
+      "jm": "m-g",
+      "nz": 0.111,
+      "ce": 53.0
+    }
+  ],
+  "KNR2-150203-10": [
+    {
+      "name": "samochód dostawczy 0.9 t'",
+      "jm": "m-g",
+      "nz": 0.112,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-170140-01": [
+    {
+      "name": "samochód dostawczy 0.9 t'",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-170153-03": [
+    {
+      "name": "samochód dostawczy",
+      "jm": "m-g",
+      "nz": 0.12,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-160312-01": [
+    {
+      "name": "Ciągnik kołowy 18kW (1)",
+      "jm": "m-g",
+      "nz": 0.04,
+      "ce": 40.69
+    },
+    {
+      "name": "Przyczepa skrzyniowa 3.5t",
+      "jm": "m-g",
+      "nz": 0.04,
+      "ce": 7.43
+    }
+  ],
+  "KNR4-010304-04": [
+    {
+      "name": "Betoniarka wolnosp.elek.150dm3",
+      "jm": "m-g",
+      "nz": 0.69,
+      "ce": 4.91
+    },
+    {
+      "name": "wyciąg jednomasztowy z napędem elektrycznym 0,5 t",
+      "jm": "m-g",
+      "nz": 2.47,
+      "ce": 7.87
+    }
+  ],
+  "KNR-W2-170202-01": [
+    {
+      "name": "samochód dostawczy",
+      "jm": "m-g",
+      "nz": 0.24,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-170153-04": [
+    {
+      "name": "samochód dostawczy",
+      "jm": "m-g",
+      "nz": 0.14,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-170147-02": [
+    {
+      "name": "samochód dostawczy",
+      "jm": "m-g",
+      "nz": 0.04,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-170145-04": [
+    {
+      "name": "samochód dostawczy",
+      "jm": "m-g",
+      "nz": 0.25,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-170141-06": [
+    {
+      "name": "samochód skrzyniowy",
+      "jm": "m-g",
+      "nz": 0.73,
+      "ce": 90.0
+    },
+    {
+      "name": "żuraw samochodowy",
+      "jm": "m-g",
+      "nz": 0.1,
+      "ce": 58.0
+    }
+  ],
+  "KNR7-240147-06": [
+    {
+      "name": "Spawarka elektr.wirująca 300A",
+      "jm": "m-g",
+      "nz": 0.0295,
+      "ce": 5.6
+    }
+  ],
+  "KNR7-240147-03": [
+    {
+      "name": "Spawarka elektr.wirująca 300A",
+      "jm": "m-g",
+      "nz": 0.157,
+      "ce": 5.6
+    }
+  ],
+  "KNR7-240148-01": [
+    {
+      "name": "Ruszt.stojak 3,07/10 m",
+      "jm": "m-g",
+      "nz": 0.4,
+      "ce": 8.1
+    },
+    {
+      "name": "Spawarka elektr.wirująca 300A",
+      "jm": "m-g",
+      "nz": 0.388,
+      "ce": 5.6
+    }
+  ],
+  "KNR7-240130-03": [
+    {
+      "name": "Ruszt.ram.w-skie 1-kol.do10m",
+      "jm": "m-g",
+      "nz": 7.8,
+      "ce": 3.14
+    },
+    {
+      "name": "żuraw samochodowy 4 t",
+      "jm": "m-g",
+      "nz": 2.5,
+      "ce": 72.88
+    },
+    {
+      "name": "ciągnik kołowy 75-85 KM",
+      "jm": "m-g",
+      "nz": 0.8,
+      "ce": 48.81
+    },
+    {
+      "name": "przyczepa skrzyniowa 3,5 t",
+      "jm": "m-g",
+      "nz": 0.8,
+      "ce": 7.43
+    }
+  ],
+  "KNR-W2-150432-01": [
+    {
+      "name": "samochód dostawczy 0.9 t''",
+      "jm": "m-g",
+      "nz": 0.36,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W7-090801-01": [
+    {
+      "name": "Spawarka elektr.wirująca 300A",
+      "jm": "m-g",
+      "nz": 0.04,
+      "ce": 5.6
+    }
+  ],
+  "KNR7-240501-01": [
+    {
+      "name": "Sprężarka pow.ele.4-5m3/min(1)",
+      "jm": "m-g",
+      "nz": 12.9,
+      "ce": 47.64
+    },
+    {
+      "name": "Spawarka elektr.wirująca 300A",
+      "jm": "m-g",
+      "nz": 10.2,
+      "ce": 5.6
+    }
+  ],
+  "KNR2-010217-04": [
+    {
+      "name": "koparka gąsienicowa 0.25 m3",
+      "jm": "m-g",
+      "nz": 0.0576,
+      "ce": 146.48
+    }
+  ],
+  "KNNR41415-01": [
+    {
+      "name": "samochód skrzyniowy",
+      "jm": "m-g",
+      "nz": 5.37,
+      "ce": 90.0
+    },
+    {
+      "name": "wyciąg wolno stojący z napędem spalinowym 0.75 t",
+      "jm": "m-g",
+      "nz": 6.99,
+      "ce": 58.0
+    }
+  ],
+  "KNNR41417-02": [
+    {
+      "name": "samochód skrzyniowy",
+      "jm": "m-g",
+      "nz": 0.07,
+      "ce": 90.0
+    }
+  ],
+  "KNNR10210-02": [
+    {
+      "name": "koparka 0.25 m3",
+      "jm": "m-g",
+      "nz": 0.0397,
+      "ce": 200.53
+    }
+  ],
+  "KNNR10215-01": [
+    {
+      "name": "spycharka gąsienicowa 55 kW (75 KM)",
+      "jm": "m-g",
+      "nz": 0.0102,
+      "ce": 119.49
+    }
+  ],
+  "KNNR41101-01": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.2,
+      "ce": 55.0
+    }
+  ],
+  "KNNR41009-01": [
+    {
+      "name": "samochód skrzyniowy",
+      "jm": "m-g",
+      "nz": 0.0142,
+      "ce": 90.0
+    },
+    {
+      "name": "prościarka do rur PE",
+      "jm": "m-g",
+      "nz": 0.0425,
+      "ce": 30.0
+    }
+  ],
+  "KNR-W2-190306-05": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.03,
+      "ce": 52.74
+    },
+    {
+      "name": "żuraw samochodowy",
+      "jm": "m-g",
+      "nz": 0.16,
+      "ce": 110.69
+    }
+  ],
+  "KNR0-350121-09": [
+    {
+      "name": "samochód dostawczy do 0,9 t'",
+      "jm": "m-g",
+      "nz": 0.15,
+      "ce": 52.47
+    }
+  ],
+  "KNR0-350208-02": [
+    {
+      "name": "samochód dostawczy do 0,9 t'",
+      "jm": "m-g",
+      "nz": 0.12,
+      "ce": 52.47
+    }
+  ],
+  "KNR-W2-150527-04": [
+    {
+      "name": "samochód dostawczy do 0,9 t'",
+      "jm": "m-g",
+      "nz": 0.09,
+      "ce": 52.47
+    },
+    {
+      "name": "Spawarka elektr.wirująca 300A'",
+      "jm": "m-g",
+      "nz": 0.95,
+      "ce": 5.49
+    }
+  ],
+  "KNR-W2-150513-01": [
+    {
+      "name": "samochód dostawczy do 0,9 t'",
+      "jm": "m-g",
+      "nz": 0.08,
+      "ce": 52.47
+    },
+    {
+      "name": "Spawarka elektr.wirująca 300A'",
+      "jm": "m-g",
+      "nz": 1.08,
+      "ce": 5.49
+    }
+  ],
+  "KNR0-350208-03": [
+    {
+      "name": "samochód dostawczy do 0,9 t'",
+      "jm": "m-g",
+      "nz": 0.14,
+      "ce": 52.47
+    }
+  ],
+  "KNR0-350221-06": [
+    {
+      "name": "samochód dostawczy do 0,9 t'",
+      "jm": "m-g",
+      "nz": 0.09,
+      "ce": 52.47
+    }
+  ],
+  "KNR-W2-150530-03": [
+    {
+      "name": "samochód dostawczy do 0,9 t'",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 52.47
+    }
+  ],
+  "KNR-W2-150525-01": [
+    {
+      "name": "samochód dostawczy do 0,9 t'",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 52.47
+    }
+  ],
+  "KNR-W2-150530-04": [
+    {
+      "name": "samochód dostawczy do 0,9 t'",
+      "jm": "m-g",
+      "nz": 0.02,
+      "ce": 52.47
+    }
+  ],
+  "KNR-W2-150411-03": [
+    {
+      "name": "samochód dostawczy do 0,9 t'",
+      "jm": "m-g",
+      "nz": 0.007,
+      "ce": 52.47
+    }
+  ],
+  "KNR-W2-150411-06": [
+    {
+      "name": "środek transportowy'''",
+      "jm": "m-g",
+      "nz": 0.043,
+      "ce": 77.0
+    }
+  ],
+  "KNR-W2-150411-04": [
+    {
+      "name": "samochód dostawczy do 0,9 t'",
+      "jm": "m-g",
+      "nz": 0.014,
+      "ce": 52.47
+    }
+  ],
+  "KNR-W2-150411-02": [
+    {
+      "name": "samochód dostawczy do 0,9 t'",
+      "jm": "m-g",
+      "nz": 0.005,
+      "ce": 52.47
+    }
+  ],
+  "KNR-W2-150411-01": [
+    {
+      "name": "samochód dostawczy do 0,9 t'",
+      "jm": "m-g",
+      "nz": 0.003,
+      "ce": 52.47
+    }
+  ],
+  "KNR-W2-150514-05": [
+    {
+      "name": "środek transportowy'''",
+      "jm": "m-g",
+      "nz": 0.029,
+      "ce": 77.0
+    }
+  ],
+  "KNR-W2-150514-03": [
+    {
+      "name": "samochód dostawczy do 0,9 t'",
+      "jm": "m-g",
+      "nz": 0.025,
+      "ce": 52.47
+    }
+  ],
+  "KNR-W2-150514-02": [
+    {
+      "name": "samochód dostawczy do 0,9 t'",
+      "jm": "m-g",
+      "nz": 0.017,
+      "ce": 52.47
+    }
+  ],
+  "KNR-W2-150514-01": [
+    {
+      "name": "samochód dostawczy do 0,9 t'",
+      "jm": "m-g",
+      "nz": 0.009,
+      "ce": 52.47
+    }
+  ],
+  "KNR-W7-120201-04": [
+    {
+      "name": "samochód dostawczy do 0,9 t'",
+      "jm": "m-g",
+      "nz": 0.0008,
+      "ce": 52.47
+    }
+  ],
+  "KNR-W7-120201-05": [
+    {
+      "name": "samochód dostawczy do 0,9 t'",
+      "jm": "m-g",
+      "nz": 0.0007,
+      "ce": 52.47
+    }
+  ],
+  "KNR-W2-150406-02": [
+    {
+      "name": "samochód dostawczy do 0,9 t'",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 52.47
+    }
+  ],
+  "KNR-W2-150106-05": [
+    {
+      "name": "samochód dostawczy do 0,9 t'",
+      "jm": "m-g",
+      "nz": 0.0186,
+      "ce": 52.47
+    }
+  ],
+  "KNR-W2-150106-04": [
+    {
+      "name": "samochód dostawczy do 0,9 t'",
+      "jm": "m-g",
+      "nz": 0.0165,
+      "ce": 52.47
+    }
+  ],
+  "KNR-W2-150106-03": [
+    {
+      "name": "samochód dostawczy do 0,9 t'",
+      "jm": "m-g",
+      "nz": 0.0129,
+      "ce": 52.47
+    }
+  ],
+  "KNR-W2-150106-02": [
+    {
+      "name": "samochód dostawczy do 0,9 t'",
+      "jm": "m-g",
+      "nz": 0.0085,
+      "ce": 52.47
+    }
+  ],
+  "KNR-W2-150106-01": [
+    {
+      "name": "samochód dostawczy do 0,9 t'",
+      "jm": "m-g",
+      "nz": 0.0066,
+      "ce": 52.47
+    }
+  ],
+  "KNR-W2-150126-04": [
+    {
+      "name": "samochód dostawczy do 0,9 t'",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 52.47
+    }
+  ],
+  "KNR0-340101-08": [
+    {
+      "name": "samochód dostawczy do 0,9 t'",
+      "jm": "m-g",
+      "nz": 0.00505,
+      "ce": 52.47
+    }
+  ],
+  "KNR0-340101-19": [
+    {
+      "name": "samochód dostawczy do 0,9 t'",
+      "jm": "m-g",
+      "nz": 0.00705,
+      "ce": 52.47
+    }
+  ],
+  "KNR0-340101-10": [
+    {
+      "name": "samochód dostawczy do 0,9 t'",
+      "jm": "m-g",
+      "nz": 0.00205,
+      "ce": 52.47
+    }
+  ],
+  "KNR2-010230-01": [
+    {
+      "name": "spycharka gąsienicowa 55 kW (75 KM)",
+      "jm": "m-g",
+      "nz": 0.0135,
+      "ce": 244.0
+    }
+  ],
+  "KNR4-010108-01": [
+    {
+      "name": "samochód skrzyniowy do 5 t''",
+      "jm": "m-g",
+      "nz": 0.69,
+      "ce": 89.0
+    }
+  ],
+  "KNR-W2-150211-08": [
+    {
+      "name": "środek transportowy''''",
+      "jm": "m-g",
+      "nz": 0.018,
+      "ce": 77.0
+    }
+  ],
+  "KNR2-180614-08": [
+    {
+      "name": "samochód skrzyniowy 5-10 t",
+      "jm": "m-g",
+      "nz": 6.19,
+      "ce": 88.0
+    },
+    {
+      "name": "wyciąg wolnostojący z napędem spalinowym 0.5 t",
+      "jm": "m-g",
+      "nz": 9.99,
+      "ce": 14.63
+    }
+  ],
+  "S2150900-04": [
+    {
+      "name": "Samochód dostaw.do 0.9t (1)",
+      "jm": "m-g",
+      "nz": 0.14,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-170131-04": [
+    {
+      "name": "samochód dostawczy",
+      "jm": "m-g",
+      "nz": 0.07,
+      "ce": 53.0
+    }
+  ],
+  "KNZ1530-04": [
+    {
+      "name": "samochód skrzyniowy do 5 t'",
+      "jm": "m-g",
+      "nz": 0.013,
+      "ce": 56.92
+    }
+  ],
+  "KNZ1529-04": [
+    {
+      "name": "samochód skrzyniowy do 5 t'",
+      "jm": "m-g",
+      "nz": 0.013,
+      "ce": 56.92
+    }
+  ],
+  "KNZ1528-04": [
+    {
+      "name": "samochód skrzyniowy do 5 t'",
+      "jm": "m-g",
+      "nz": 0.013,
+      "ce": 56.92
+    }
+  ],
+  "KNZ1526-03": [
+    {
+      "name": "samochód skrzyniowy do 5 t'",
+      "jm": "m-g",
+      "nz": 0.013,
+      "ce": 56.92
+    }
+  ],
+  "KNZ1525-01": [
+    {
+      "name": "samochód skrzyniowy do 5 t'",
+      "jm": "m-g",
+      "nz": 0.013,
+      "ce": 56.92
+    }
+  ],
+  "KNR0-350221-11": [
+    {
+      "name": "samochód dostawczy do 0,9 t",
+      "jm": "m-g",
+      "nz": 0.12,
+      "ce": 52.47
+    }
+  ],
+  "KNR-W2-150525-03": [
+    {
+      "name": "samochód dostawczy do 0,9 t",
+      "jm": "m-g",
+      "nz": 0.03,
+      "ce": 52.47
+    }
+  ],
+  "KNR-W2-150518-02": [
+    {
+      "name": "samochód dostawczy do 0,9 t",
+      "jm": "m-g",
+      "nz": 0.06,
+      "ce": 52.47
+    }
+  ],
+  "KNR0-350132-12": [
+    {
+      "name": "samochód dostawczy do 0,9 t",
+      "jm": "m-g",
+      "nz": 0.07,
+      "ce": 52.47
+    }
+  ],
+  "KNR-W2-150122-04": [
+    {
+      "name": "samochód dostawczy do 0,9 t",
+      "jm": "m-g",
+      "nz": 0.02,
+      "ce": 52.47
+    }
+  ],
+  "KNR-W2-150140-04": [
+    {
+      "name": "samochód dostawczy do 0,9 t",
+      "jm": "m-g",
+      "nz": 0.05,
+      "ce": 52.47
+    }
+  ],
+  "KNR5-100103-02": [
+    {
+      "name": "Samochód dostawczy do 0,90 t (1)",
+      "jm": "m-g",
+      "nz": 0.0067,
+      "ce": 66.25
+    },
+    {
+      "name": "samochód skrzyniowy do 5 t",
+      "jm": "m-g",
+      "nz": 0.0082,
+      "ce": 56.4
+    },
+    {
+      "name": "przyczepa do przewożenia kabli do 4 t'",
+      "jm": "m-g",
+      "nz": 0.0044,
+      "ce": 7.17
+    },
+    {
+      "name": "ciągnik kołowy 55-63 kW (75-85 KM)'",
+      "jm": "m-g",
+      "nz": 0.0044,
+      "ce": 47.97
+    },
+    {
+      "name": "Żuraw samochodowy do 4t (1)",
+      "jm": "m-g",
+      "nz": 0.0044,
+      "ce": 69.39
+    }
+  ],
+  "KNNR50715-04": [
+    {
+      "name": "Ciągnik kołowy 37kW[50KM] (1)",
+      "jm": "m-g",
+      "nz": 0.0045,
+      "ce": 46.85
+    },
+    {
+      "name": "przyczepa do przewożenia kabli do 4 t",
+      "jm": "m-g",
+      "nz": 0.0045,
+      "ce": 6.93
+    },
+    {
+      "name": "żuraw samochodowy 4 t",
+      "jm": "m-g",
+      "nz": 0.0045,
+      "ce": 60.41
+    }
+  ],
+  "KNNR50716-01": [
+    {
+      "name": "Samochód dostawczy do 0,90 t (1)",
+      "jm": "m-g",
+      "nz": 0.0067,
+      "ce": 66.25
+    },
+    {
+      "name": "przyczepa do przewożenia kabli do 4 t'",
+      "jm": "m-g",
+      "nz": 0.0045,
+      "ce": 7.17
+    },
+    {
+      "name": "Ciągnik kołowy 37kW",
+      "jm": "m-g",
+      "nz": 0.0045,
+      "ce": 44.3
+    },
+    {
+      "name": "Żuraw samochodowy do 4t (1)",
+      "jm": "m-g",
+      "nz": 0.0045,
+      "ce": 69.39
+    }
+  ],
+  "KNNR50603-03": [
+    {
+      "name": "Spawarka elektryczna wirująca 500A",
+      "jm": "m-g",
+      "nz": 0.088,
+      "ce": 7.14
+    }
+  ],
+  "KNNR50601-02": [
+    {
+      "name": "Spawarka elektryczna wirująca 500A",
+      "jm": "m-g",
+      "nz": 0.017,
+      "ce": 7.14
+    }
+  ],
+  "KNRAT-030201-03": [
+    {
+      "name": "równiarka samojezdna 88 kW (120 KM)",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 137.75
+    },
+    {
+      "name": "walec stalowy wibracyjny samojezdny 2,5 t",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 86.04
+    },
+    {
+      "name": "zespół do stabilizacji gruntu",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 33.78
+    },
+    {
+      "name": "beczkowóz ciągniony 4000 dm3",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 9.3
+    },
+    {
+      "name": "ciągnik kołowy 55-63 kW (75-85 KM)",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 67.26
+    }
+  ],
+  "KNR2-010126-01": [
+    {
+      "name": "spycharka gąsienicowa 74 kW (100 KM)",
+      "jm": "m-g",
+      "nz": 0.0025,
+      "ce": 350.0
+    }
+  ],
+  "KNR2-010126-02": [
+    {
+      "name": "spycharka gąsienicowa 74 kW (100 KM)",
+      "jm": "m-g",
+      "nz": 0.0008,
+      "ce": 350.0
+    }
+  ],
+  "KNR2-020290-01": [
+    {
+      "name": "prościarka do prętów",
+      "jm": "m-g",
+      "nz": 0.0036,
+      "ce": 7.43
+    },
+    {
+      "name": "nożyce do prętów",
+      "jm": "m-g",
+      "nz": 0.00475,
+      "ce": 9.68
+    },
+    {
+      "name": "giętarka do prętów",
+      "jm": "m-g",
+      "nz": 0.00403,
+      "ce": 9.08
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0013,
+      "ce": 200.0
+    }
+  ],
+  "KNR2-020202-01": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.05,
+      "ce": 200.0
+    }
+  ],
+  "KNR2-020204-02": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.03,
+      "ce": 200.0
+    }
+  ],
+  "KNR2-020602-03": [
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 0.0022,
+      "ce": 19.56
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0017,
+      "ce": 200.0
+    }
+  ],
+  "KNR2-020617-01": [
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 0.0042,
+      "ce": 19.56
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0027,
+      "ce": 200.0
+    }
+  ],
+  "KNR2-020603-03": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0018,
+      "ce": 200.0
+    }
+  ],
+  "KNR2-020603-04": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0015,
+      "ce": 200.0
+    }
+  ],
+  "KNR2-020616-04": [
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 0.0043,
+      "ce": 19.56
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0011,
+      "ce": 200.0
+    }
+  ],
+  "KNR2-010239-02": [
+    {
+      "name": "ładowarka kołowa 1.25 m3",
+      "jm": "m-g",
+      "nz": 0.0522,
+      "ce": 150.0
+    },
+    {
+      "name": "spycharka gąsienicowa 74 kW (100 KM)",
+      "jm": "m-g",
+      "nz": 0.0092,
+      "ce": 350.0
+    },
+    {
+      "name": "samochód samowyładowczy 5-10 t",
+      "jm": "m-g",
+      "nz": 0.1128,
+      "ce": 145.0
+    }
+  ],
+  "KNR4-010108-08": [
+    {
+      "name": "samochód samowyładowczy 5 t",
+      "jm": "m-g",
+      "nz": 0.03,
+      "ce": 144.66
+    }
+  ],
+  "KNR2-020607-01": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0068,
+      "ce": 200.0
+    }
+  ],
+  "KNR2-020609-03": [
+    {
+      "name": "dźwig",
+      "jm": "m-g",
+      "nz": 0.0032,
+      "ce": 125.0
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0047,
+      "ce": 200.0
+    }
+  ],
+  "KNR2-021106-07": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0017,
+      "ce": 200.0
+    }
+  ],
+  "KNR2-020126-05": [
+    {
+      "name": "wyciąg jednomasztowy z napędem elektrycznym 0,5 t",
+      "jm": "m-g",
+      "nz": 0.024,
+      "ce": 11.79
+    }
+  ],
+  "KNR-W2-020211-02": [
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 1.67,
+      "ce": 19.56
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.04,
+      "ce": 200.0
+    }
+  ],
+  "KNR-W2-020211-01": [
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 1.75,
+      "ce": 19.56
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.06,
+      "ce": 200.0
+    }
+  ],
+  "KNR-W2-020210-01": [
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 1.21,
+      "ce": 19.56
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.12,
+      "ce": 200.0
+    },
+    {
+      "name": "pompa do betonu na samochodzie",
+      "jm": "m-g",
+      "nz": 0.08,
+      "ce": 572.24
+    }
+  ],
+  "KNR-W2-0220225-04": [
+    {
+      "name": "pompa do betonu na samochodzie",
+      "jm": "m-g",
+      "nz": 0.08,
+      "ce": 572.24
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.52,
+      "ce": 200.0
+    }
+  ],
+  "NNRNKB2021134-02": [
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 0.0002,
+      "ce": 19.56
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0003,
+      "ce": 200.0
+    }
+  ],
+  "KNR2-020801-02": [
+    {
+      "name": "agregat tynkarski",
+      "jm": "m-g",
+      "nz": 0.0409,
+      "ce": 40.81
+    }
+  ],
+  "KNR2-020829-08": [
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 0.0295,
+      "ce": 19.56
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0275,
+      "ce": 200.0
+    }
+  ],
+  "KNR-W2-020830-04": [
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 0.0029,
+      "ce": 19.56
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0043,
+      "ce": 200.0
+    }
+  ],
+  "KNR-W2-021510-01": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0003,
+      "ce": 200.0
+    }
+  ],
+  "NNRNKB2022702-01": [
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 19.56
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 200.0
+    }
+  ],
+  "NNRNKB2021134-01": [
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 0.0002,
+      "ce": 19.56
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0003,
+      "ce": 200.0
+    }
+  ],
+  "KNRAT-120201-05": [
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 0.053,
+      "ce": 19.56
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.026,
+      "ce": 200.0
+    }
+  ],
+  "KNRK-040602-01": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.001,
+      "ce": 200.0
+    }
+  ],
+  "NNRNKB2022806-05": [
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 0.03,
+      "ce": 19.56
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.04,
+      "ce": 200.0
+    }
+  ],
+  "NNRNKB2022809-04": [
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 0.004,
+      "ce": 19.56
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.006,
+      "ce": 200.0
+    }
+  ],
+  "NNRNKB2021130-02": [
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 19.56
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 200.0
+    }
+  ],
+  "KNR2-021112-02": [
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 0.0044,
+      "ce": 19.56
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0033,
+      "ce": 200.0
+    }
+  ],
+  "KNR0-191023-11": [
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 0.04,
+      "ce": 19.56
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.06,
+      "ce": 200.0
+    }
+  ],
+  "KNR-W2-021038-01": [
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 0.098,
+      "ce": 19.56
+    }
+  ],
+  "KNR0-191023-12": [
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 0.05,
+      "ce": 19.56
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.06,
+      "ce": 200.0
+    }
+  ],
+  "KNR2-021017-02": [
+    {
+      "name": "wyciąg jednomasztowy z napędem elektrycznym 0,5 t",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 11.79
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.02,
+      "ce": 200.0
+    }
+  ],
+  "KNR-W2-022119-02": [
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 0.03,
+      "ce": 19.56
+    }
+  ],
+  "NNRNKB2020416-01": [
+    {
+      "name": "żuraw do 5t",
+      "jm": "m-g",
+      "nz": 0.21,
+      "ce": 114.79
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 1.08,
+      "ce": 200.0
+    }
+  ],
+  "KNR2-020405-05": [
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 19.56
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.02,
+      "ce": 200.0
+    }
+  ],
+  "KNRAT-090103-01": [
+    {
+      "name": "dźwig",
+      "jm": "m-g",
+      "nz": 0.004,
+      "ce": 125.0
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.003,
+      "ce": 200.0
+    }
+  ],
+  "KNRAT-090803-06": [
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 0.008,
+      "ce": 19.56
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.009,
+      "ce": 200.0
+    }
+  ],
+  "KNRAT-090803-10": [
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 0.004,
+      "ce": 19.56
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.005,
+      "ce": 200.0
+    }
+  ],
+  "KNR2-020410-01": [
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 19.56
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.03,
+      "ce": 200.0
+    }
+  ],
+  "KNR2-020613-03": [
+    {
+      "name": "agregat",
+      "jm": "m-g",
+      "nz": 0.0077,
+      "ce": 15.34
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0089,
+      "ce": 200.0
+    }
+  ],
+  "NNRNKB2020517-05": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0038,
+      "ce": 200.0
+    },
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 0.0021,
+      "ce": 19.56
+    }
+  ],
+  "NNRNKB2020519-04": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0034,
+      "ce": 200.0
+    }
+  ],
+  "KNR2-220603-04": [
+    {
+      "name": "piła tarczowa",
+      "jm": "m-g",
+      "nz": 0.1,
+      "ce": 45.0
+    }
+  ],
+  "KNR0-232614-02": [
+    {
+      "name": "żuraw okienny przenośny",
+      "jm": "m-g",
+      "nz": 0.0298,
+      "ce": 7.58
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0276,
+      "ce": 200.0
+    }
+  ],
+  "KNR2-021505-10": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0004,
+      "ce": 200.0
+    }
+  ],
+  "KNR2-020507-03": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0067,
+      "ce": 200.0
+    }
+  ],
+  "KNR2-010121-01": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.000153,
+      "ce": 103.24
+    }
+  ],
+  "KNR2-010228-02": [
+    {
+      "name": "Spych.gąsienicowa 55kW  (1)",
+      "jm": "m-g",
+      "nz": 0.014,
+      "ce": 138.11
+    }
+  ],
+  "KNR2-210206-02": [
+    {
+      "name": "ciągnik kołowy",
+      "jm": "m-g",
+      "nz": 12.6,
+      "ce": 170.0
+    },
+    {
+      "name": "pług do orki (bez ciągnika)",
+      "jm": "m-g",
+      "nz": 10.3,
+      "ce": 55.0
+    },
+    {
+      "name": "brona ciągnikowa (bez ciągnika)",
+      "jm": "m-g",
+      "nz": 2.26,
+      "ce": 45.0
+    }
+  ],
+  "KNR2-210218-03": [
+    {
+      "name": "spycharka gąsienicowa 40 kW (55 KM)",
+      "jm": "m-g",
+      "nz": 0.04,
+      "ce": 250.0
+    }
+  ],
+  "KNR2-210207-04": [
+    {
+      "name": "ciągnik kołowy 25-30 KM",
+      "jm": "m-g",
+      "nz": 6.96,
+      "ce": 170.0
+    },
+    {
+      "name": "brona ciągnikowa (bez ciągnika)",
+      "jm": "m-g",
+      "nz": 6.96,
+      "ce": 45.0
+    }
+  ],
+  "KNR2-021604-01": [
+    {
+      "name": "Ruszt.do 10m fasad.ram.Al b/os",
+      "jm": "m-g",
+      "nz": 0.156,
+      "ce": 9.54
+    },
+    {
+      "name": "czas pracy rusztowania",
+      "jm": "m-g",
+      "nz": 1.0,
+      "ce": 9.2
+    }
+  ],
+  "KNR0-340101-12": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0078,
+      "ce": 55.0
+    }
+  ],
+  "KNR-W2-250416-02": [
+    {
+      "name": "Piła tarczowa fi 710mm",
+      "jm": "m-g",
+      "nz": 0.18,
+      "ce": 4.74
+    },
+    {
+      "name": "Samochód dostaw.do 0.9t (1)",
+      "jm": "m-g",
+      "nz": 0.35,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-250416-04": [
+    {
+      "name": "Samochód dostaw.do 0.9t (1)",
+      "jm": "m-g",
+      "nz": 0.35,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-180804-02": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.1,
+      "ce": 90.0
+    }
+  ],
+  "KNR-W2-180201-02": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.25,
+      "ce": 90.0
+    }
+  ],
+  "KNR-W2-180219-03": [
+    {
+      "name": "samochód skrzyniowy do 5 t",
+      "jm": "m-g",
+      "nz": 1.05,
+      "ce": 93.36
+    }
+  ],
+  "KNR-W2-180111-01": [
+    {
+      "name": "Zgrzewarka elekroopor.fi 63 mm",
+      "jm": "m-g",
+      "nz": 0.24,
+      "ce": 25.33
+    },
+    {
+      "name": "Zespół prądotwór.3-faz.5kVA",
+      "jm": "m-g",
+      "nz": 0.24,
+      "ce": 13.53
+    }
+  ],
+  "KNR2-200113-10": [
+    {
+      "name": "Samochód dostaw.do 0.9t (1)",
+      "jm": "m-g",
+      "nz": 0.198,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-180704-01": [
+    {
+      "name": "Samochód samowyład.do 5t (1)",
+      "jm": "m-g",
+      "nz": 3.16,
+      "ce": 74.4
+    }
+  ],
+  "KNR-W2-180707-01": [
+    {
+      "name": "Samochód dostaw.do 0.9t (1)",
+      "jm": "m-g",
+      "nz": 1.58,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-150135-01": [
+    {
+      "name": "Samochód dostaw.do 0.9t (1)",
+      "jm": "m-g",
+      "nz": 0.002,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-150137-04": [
+    {
+      "name": "Samochód dostaw.do 0.9t (1)",
+      "jm": "m-g",
+      "nz": 0.029,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-150137-09": [
+    {
+      "name": "Samochód dostaw.do 0.9t (1)",
+      "jm": "m-g",
+      "nz": 0.014,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-150116-07": [
+    {
+      "name": "Samochód dostaw.do 0.9t (1)",
+      "jm": "m-g",
+      "nz": 0.001,
+      "ce": 53.0
+    }
+  ],
+  "S2150800-01": [
+    {
+      "name": "Samochód skrzyn.do 5.0t (1)",
+      "jm": "m-g",
+      "nz": 0.0014,
+      "ce": 56.92
+    }
+  ],
+  "KNR-W2-150127-03": [
+    {
+      "name": "Samochód dostaw.do 0.9t (1)",
+      "jm": "m-g",
+      "nz": 0.0001,
+      "ce": 53.0
+    }
+  ],
+  "KNR0-340101-06": [
+    {
+      "name": "Samochód dostaw.do 0.9t (1)",
+      "jm": "m-g",
+      "nz": 0.00135,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W4-010328-03": [
+    {
+      "name": "Betoniarka wolnosp.elek.150dm3",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 4.96
+    },
+    {
+      "name": "Wyciąg jednomaszt. elektr.0.5t",
+      "jm": "m-g",
+      "nz": 0.03,
+      "ce": 7.98
+    }
+  ],
+  "KNR-W2-150130-06": [
+    {
+      "name": "Samochód dostaw.do 0.9t (1)",
+      "jm": "m-g",
+      "nz": 0.021,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-150142-02Z.SZ.3.4.9903-2": [
+    {
+      "name": "Samochód dostaw.do 0.9t (1)",
+      "jm": "m-g",
+      "nz": 0.09,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-150115-03Z.SZ.3.4.9903-2": [
+    {
+      "name": "Samochód dostaw.do 0.9t (1)",
+      "jm": "m-g",
+      "nz": 0.008,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-150107-03Z.SZ.3.4.9903-2": [
+    {
+      "name": "Samochód dostaw.do 0.9t (1)",
+      "jm": "m-g",
+      "nz": 0.0169,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W4-010327-04": [
+    {
+      "name": "Betoniarka wolnosp.elek.150dm3",
+      "jm": "m-g",
+      "nz": 0.02,
+      "ce": 4.96
+    },
+    {
+      "name": "Wyciąg jednomaszt. elektr.0.5t",
+      "jm": "m-g",
+      "nz": 0.04,
+      "ce": 7.98
+    }
+  ],
+  "KNR-W2-180527-01": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.1,
+      "ce": 54.25
+    }
+  ],
+  "KNR-W2-180706-01": [
+    {
+      "name": "Samochód skrzyn.5-10t (1)",
+      "jm": "m-g",
+      "nz": 3.16,
+      "ce": 75.97
+    }
+  ],
+  "KNR-W2-180514-01": [
+    {
+      "name": "samochód skrzyniowy 5-10 t",
+      "jm": "m-g",
+      "nz": 3.47,
+      "ce": 77.99
+    },
+    {
+      "name": "wyciąg wolnostojący z napędem spalinowym 0.75 t",
+      "jm": "m-g",
+      "nz": 5.89,
+      "ce": 8.48
+    }
+  ],
+  "KNR-W2-150230-02": [
+    {
+      "name": "Samochód dostaw.do 0.9t (1)",
+      "jm": "m-g",
+      "nz": 0.14,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-150230-05": [
+    {
+      "name": "Samochód dostaw.do 0.9t (1)",
+      "jm": "m-g",
+      "nz": 0.06,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-150229-04": [
+    {
+      "name": "Samochód dostaw.do 0.9t (1)",
+      "jm": "m-g",
+      "nz": 0.23,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-150216-01": [
+    {
+      "name": "Samochód dostaw.do 0.9t (1)",
+      "jm": "m-g",
+      "nz": 0.04,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-150232-02": [
+    {
+      "name": "Samochód dostaw.do 0.9t (1)",
+      "jm": "m-g",
+      "nz": 0.11,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-150212-06": [
+    {
+      "name": "Samochód dostaw.do 0.9t (1)",
+      "jm": "m-g",
+      "nz": 0.05,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-150223-02": [
+    {
+      "name": "Samochód dostaw.do 0.9t (1)",
+      "jm": "m-g",
+      "nz": 0.1,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-150222-03": [
+    {
+      "name": "Samochód dostaw.do 0.9t (1)",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-150211-01": [
+    {
+      "name": "Samochód dostaw.do 0.9t (1)",
+      "jm": "m-g",
+      "nz": 0.004,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-150209-05": [
+    {
+      "name": "Samochód dostaw.do 0.9t (1)",
+      "jm": "m-g",
+      "nz": 0.061,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-150208-01": [
+    {
+      "name": "Samochód dostaw.do 0.9t (1)",
+      "jm": "m-g",
+      "nz": 0.0056,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-150208-02": [
+    {
+      "name": "Samochód dostaw.do 0.9t (1)",
+      "jm": "m-g",
+      "nz": 0.009,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-150208-03": [
+    {
+      "name": "Samochód dostaw.do 0.9t (1)",
+      "jm": "m-g",
+      "nz": 0.0172,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-150201-08": [
+    {
+      "name": "Samochód dostaw.do 0.9t (1)",
+      "jm": "m-g",
+      "nz": 0.0711,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W4-010328-01": [
+    {
+      "name": "Betoniarka wolnosp.elek.150dm3",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 4.96
+    },
+    {
+      "name": "Wyciąg jednomaszt. elektr.0.5t",
+      "jm": "m-g",
+      "nz": 0.03,
+      "ce": 7.98
+    }
+  ],
+  "KNR-W2-170202-03": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.43,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-170144-03": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.17,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-170149-05": [
+    {
+      "name": "samochód dostawczy",
+      "jm": "m-g",
+      "nz": 0.3,
+      "ce": 75.25
+    }
+  ],
+  "KNR-W2-170145-05": [
+    {
+      "name": "samochód skrzyniowy",
+      "jm": "m-g",
+      "nz": 0.18,
+      "ce": 77.0
+    }
+  ],
+  "KNR-W2-170155-03": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.19,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-170131-03": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.05,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-170131-02Z.O.3.4.9903-1": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.03,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-170131-01Z.O.3.4.9903-1": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-170140-01Z.O.3.4.9903-1": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-170138-03": [
+    {
+      "name": "samochód dostawczy",
+      "jm": "m-g",
+      "nz": 0.04,
+      "ce": 75.25
+    }
+  ],
+  "KNR-W2-170113-03": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.1,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-170153-03Z.O.3.4.9903-3": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.12,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-170201-01": [
+    {
+      "name": "samochód dostawczy",
+      "jm": "m-g",
+      "nz": 0.27,
+      "ce": 75.25
+    }
+  ],
+  "KNR-W2-170149-01": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.12,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-170145-03": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.12,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-170140-01Z.O.3.4.9903-3": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 53.0
+    }
+  ],
+  "KNR-W2-160308-02": [
+    {
+      "name": "Ciągnik kołowy 18kW (1)",
+      "jm": "m-g",
+      "nz": 0.04,
+      "ce": 40.69
+    },
+    {
+      "name": "Przyczepa skrzyniowa 3.5t",
+      "jm": "m-g",
+      "nz": 0.04,
+      "ce": 7.43
+    }
+  ],
+  "KNNR41411-04": [
+    {
+      "name": "zagęszczarka wibracyjna",
+      "jm": "m-g",
+      "nz": 0.67,
+      "ce": 44.35
+    }
+  ],
+  "KNNR41427-03": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.11,
+      "ce": 49.48
+    }
+  ],
+  "KNR4-010108-06": [
+    {
+      "name": "samochód samowyładowczy 5 t",
+      "jm": "m-g",
+      "nz": 0.63,
+      "ce": 69.9
+    }
+  ],
+  "KNR2-180913-01": [
+    {
+      "name": "samochód skrzyniowy 5-10 t",
+      "jm": "m-g",
+      "nz": 1.0,
+      "ce": 44.0
+    }
+  ],
+  "KNR0-350112-04": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.12,
+      "ce": 49.48
+    }
+  ],
+  "KNR4-010108-110": [
+    {
+      "name": "samochód samowyładowczy 5 t",
+      "jm": "m-g",
+      "nz": 0.5,
+      "ce": 69.9
+    }
+  ],
+  "KNR4-010108-200": [
+    {
+      "name": "samochód samowyładowczy 5 t",
+      "jm": "m-g",
+      "nz": 0.04,
+      "ce": 69.9
+    }
+  ],
+  "KNR0-350123-01": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.07,
+      "ce": 49.48
+    }
+  ],
+  "KNR0-340106-03": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0006,
+      "ce": 49.48
+    }
+  ],
+  "KNR0-350134-05": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.0001,
+      "ce": 49.48
+    }
+  ],
+  "KNR-W2-150125-01": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.31,
+      "ce": 49.48
+    }
+  ],
+  "KNR4-041107-010": [
+    {
+      "name": "samochód skrzyniowy do 5 t",
+      "jm": "m-g",
+      "nz": 0.83,
+      "ce": 58.84
+    }
+  ],
+  "KNR-W2-150410-02": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.12,
+      "ce": 49.48
+    }
+  ],
+  "KNR0-310212-03": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.05,
+      "ce": 49.48
+    }
+  ],
+  "KNR0-310212-04": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.06,
+      "ce": 49.48
+    }
+  ],
+  "KNR-W2-150412-02": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.004,
+      "ce": 49.48
+    }
+  ],
+  "KNR-W2-150418-07": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.56,
+      "ce": 49.48
+    }
+  ],
+  "KNR-W2-150425-03": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.17,
+      "ce": 49.48
+    }
+  ],
+  "KNR-W2-150406-03": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.0001,
+      "ce": 49.48
+    }
+  ],
+  "KNR-W2-150105-03": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.0132,
+      "ce": 49.48
+    }
+  ],
+  "KNR-W2-150105-06": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.0268,
+      "ce": 49.48
+    }
+  ],
+  "KNR-W2-150130-04": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.009,
+      "ce": 49.48
+    }
+  ],
+  "KNR-W2-170201-06": [
+    {
+      "name": "samochód dostawczy",
+      "jm": "m-g",
+      "nz": 0.49,
+      "ce": 44.0
+    },
+    {
+      "name": "żuraw samochodowy",
+      "jm": "m-g",
+      "nz": 0.48,
+      "ce": 66.95
+    }
+  ],
+  "KNR-W2-170113-04": [
+    {
+      "name": "samochód dostawczy",
+      "jm": "m-g",
+      "nz": 0.1,
+      "ce": 44.0
+    }
+  ],
+  "KNR-W2-170206-02": [
+    {
+      "name": "samochód dostawczy",
+      "jm": "m-g",
+      "nz": 0.14,
+      "ce": 44.0
+    }
+  ],
+  "KNNR41009-02": [
+    {
+      "name": "samochód skrzyniowy",
+      "jm": "m-g",
+      "nz": 0.0142,
+      "ce": 93.36
+    },
+    {
+      "name": "prościarka do rur PE",
+      "jm": "m-g",
+      "nz": 0.0425,
+      "ce": 30.0
+    }
+  ],
+  "KNNR41009-03": [
+    {
+      "name": "samochód skrzyniowy",
+      "jm": "m-g",
+      "nz": 0.0178,
+      "ce": 93.36
+    },
+    {
+      "name": "żuraw samochodowy",
+      "jm": "m-g",
+      "nz": 0.0222,
+      "ce": 66.95
+    },
+    {
+      "name": "prościarka do rur PE",
+      "jm": "m-g",
+      "nz": 0.0725,
+      "ce": 30.0
+    }
+  ],
+  "KNNR41101-02": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.25,
+      "ce": 49.48
+    }
+  ],
+  "KNNR41308-04": [
+    {
+      "name": "samochód skrzyniowy",
+      "jm": "m-g",
+      "nz": 0.0228,
+      "ce": 93.36
+    }
+  ],
+  "KNNR41424-01": [
+    {
+      "name": "samochód skrzyniowy",
+      "jm": "m-g",
+      "nz": 1.04,
+      "ce": 93.36
+    }
+  ],
+  "KNR2-010201-01": [
+    {
+      "name": "koparko-spycharka 0.15 m3",
+      "jm": "m-g",
+      "nz": 0.08635,
+      "ce": 146.48
+    },
+    {
+      "name": "samochód samowyładowczy 5 t",
+      "jm": "m-g",
+      "nz": 0.215985,
+      "ce": 133.06
+    }
+  ],
+  "KNR2-010236-02": [
+    {
+      "name": "Ubijak wibracyjny (stopowy) 66",
+      "jm": "m-g",
+      "nz": 0.138,
+      "ce": 16.32
+    }
+  ],
+  "KNR-W2-180201-01": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.2,
+      "ce": 83.2
+    }
+  ],
+  "KNR-W2-180524-01": [
+    {
+      "name": "samochód skrzyniowy 5 t",
+      "jm": "m-g",
+      "nz": 1.04,
+      "ce": 118.16
+    }
+  ],
+  "KNR9-260103-04": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.044,
+      "ce": 83.2
+    }
+  ],
+  "KNR0-130128-01": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0008,
+      "ce": 83.2
+    }
+  ],
+  "KNR0-130128-02": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.001,
+      "ce": 83.2
+    }
+  ],
+  "KNR0-130128-03": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.002,
+      "ce": 83.2
+    }
+  ],
+  "KNR0-130128-04": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.003,
+      "ce": 83.2
+    }
+  ],
+  "KNR0-130128-05": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.004,
+      "ce": 83.2
+    }
+  ],
+  "KNR0-310114-05": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0001,
+      "ce": 83.2
+    }
+  ],
+  "KNR0-310114-06": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0001,
+      "ce": 83.2
+    }
+  ],
+  "KNR0-310113-12": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0001,
+      "ce": 83.2
+    }
+  ],
+  "KNRINSTAL0309-08": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 83.2
+    }
+  ],
+  "KNR-W2-150137-02": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.009,
+      "ce": 83.2
+    }
+  ],
+  "KNRINSTAL0109-02": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 83.2
+    }
+  ],
+  "KNR-W2-150233-03": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.09,
+      "ce": 83.2
+    }
+  ],
+  "KNR-W2-150135-04": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.003,
+      "ce": 83.2
+    }
+  ],
+  "KNR-W2-150218-01": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.02,
+      "ce": 83.2
+    }
+  ],
+  "KNR2-150209-06": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 83.2
+    }
+  ],
+  "KNR2-150121-03": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.16,
+      "ce": 83.2
+    }
+  ],
+  "KNR-W2-150140-05": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.06,
+      "ce": 83.2
+    }
+  ],
+  "KNR-W2-150130-05": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.014,
+      "ce": 83.2
+    }
+  ],
+  "KNR-W2-150138-01": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.011,
+      "ce": 83.2
+    }
+  ],
+  "KNR-W2-150501-01": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 4.15,
+      "ce": 83.2
+    }
+  ],
+  "KNR0-310211-09": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.02,
+      "ce": 83.2
+    }
+  ],
+  "KNR0-310308-06": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0001,
+      "ce": 83.2
+    }
+  ],
+  "KNR-W2-150404-01": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0016,
+      "ce": 83.2
+    }
+  ],
+  "KNR-W2-150404-02": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0018,
+      "ce": 83.2
+    }
+  ],
+  "KNR-W2-150404-03": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0024,
+      "ce": 83.2
+    }
+  ],
+  "KNR-W2-150404-04": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0034,
+      "ce": 83.2
+    }
+  ],
+  "KNR2-170114-02": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.08,
+      "ce": 86.3
+    }
+  ],
+  "KNR2-170114-04": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.1,
+      "ce": 83.2
+    }
+  ],
+  "KNR2-170114-05": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.09,
+      "ce": 83.2
+    }
+  ],
+  "KNR2-170144-02": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.13,
+      "ce": 83.2
+    }
+  ],
+  "KNR2-170144-03": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.17,
+      "ce": 83.2
+    }
+  ],
+  "KNR2-170147-02": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.04,
+      "ce": 83.2
+    }
+  ],
+  "KNR-W2-170322-01": [
+    {
+      "name": "samochód skrzyniowy",
+      "jm": "m-g",
+      "nz": 0.49,
+      "ce": 93.36
+    },
+    {
+      "name": "Żuraw samochodowy do 4 t (1)",
+      "jm": "m-g",
+      "nz": 0.8,
+      "ce": 110.69
+    }
+  ],
+  "KNR-W2-170205-01": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.17,
+      "ce": 83.2
+    }
+  ],
+  "KNR-W2-170208-02": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.16,
+      "ce": 83.2
+    }
+  ],
+  "KNR-W2-170140-02": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.03,
+      "ce": 83.2
+    }
+  ],
+  "S2150800-02": [
+    {
+      "name": "Samochód dostaw.do 0.9t (1)",
+      "jm": "m-g",
+      "nz": 0.002,
+      "ce": 53.0
+    }
+  ],
+  "S2150800-03": [
+    {
+      "name": "samochód skrzyniowy 5 t",
+      "jm": "m-g",
+      "nz": 0.0031,
+      "ce": 93.36
+    }
+  ],
+  "KNR2-020202-02": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.03,
+      "ce": 44.72
+    },
+    {
+      "name": "pompa do betonu na samochodzie",
+      "jm": "m-g",
+      "nz": 0.08,
+      "ce": 170.58
+    }
+  ],
+  "KNR2-020604-01": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0136,
+      "ce": 44.72
+    }
+  ],
+  "KNR2-020609-08": [
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 0.0075,
+      "ce": 8.39
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0122,
+      "ce": 44.72
+    }
+  ],
+  "KNR2-020210-05": [
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 2.1432,
+      "ce": 8.39
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.34,
+      "ce": 44.72
+    },
+    {
+      "name": "pompa do betonu na samochodzie",
+      "jm": "m-g",
+      "nz": 0.08,
+      "ce": 170.58
+    }
+  ],
+  "KNR2-021505-03": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0003,
+      "ce": 44.72
+    }
+  ],
+  "KNRAT-430210-01": [
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 0.045,
+      "ce": 8.39
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.014,
+      "ce": 110.0
+    }
+  ],
+  "KNRAT-430209-06": [
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 0.045,
+      "ce": 8.39
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.014,
+      "ce": 110.0
+    }
+  ],
+  "KNR2-021505-05": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0032,
+      "ce": 44.72
+    }
+  ],
+  "KNR0-191024-10": [
+    {
+      "name": "samochód dostawczy 0.9 t",
+      "jm": "m-g",
+      "nz": 0.06,
+      "ce": 44.72
+    }
+  ],
+  "KNR2-021219-03": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.007,
+      "ce": 44.72
+    }
+  ],
+  "KNR0-191023-03": [
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 0.04,
+      "ce": 8.39
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.056,
+      "ce": 49.9
+    }
+  ],
+  "KNR2-020129-02": [
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 0.11,
+      "ce": 8.39
+    }
+  ],
+  "KNR-W2-020135-01": [
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 0.06,
+      "ce": 8.39
+    }
+  ],
+  "KNR2-021017-01": [
+    {
+      "name": "wyciąg jednomasztowy z napędem elektrycznym 0,5 t",
+      "jm": "m-g",
+      "nz": 0.02,
+      "ce": 7.03
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.03,
+      "ce": 44.72
+    }
+  ],
+  "KNNR21302-03": [
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 0.03,
+      "ce": 8.39
+    }
+  ],
+  "KNR2-020410-04": [
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 8.39
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 44.72
+    }
+  ],
+  "KSNR20502-01": [
+    {
+      "name": "Samochód MAN z HDS",
+      "jm": "m-g",
+      "nz": 0.0007,
+      "ce": 200.0
+    },
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 0.05,
+      "ce": 8.39
+    }
+  ],
+  "KNNR21105-02": [
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 0.07,
+      "ce": 8.39
+    }
+  ],
+  "KNR0-232614-05": [
+    {
+      "name": "żuraw okienny przenośny",
+      "jm": "m-g",
+      "nz": 0.0298,
+      "ce": 3.31
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0276,
+      "ce": 49.9
+    }
+  ],
+  "KNR-W2-021036-02": [
+    {
+      "name": "wyciąg",
+      "jm": "m-g",
+      "nz": 0.11,
+      "ce": 8.39
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.14,
+      "ce": 49.9
+    }
+  ],
+  "KNR2-310202-01": [
+    {
+      "name": "walec statyczny samojezdny 10 t",
+      "jm": "m-g",
+      "nz": 0.0141,
+      "ce": 104.51
+    }
+  ],
+  "KNR2-020603-07": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0042,
+      "ce": 135.86
+    }
+  ],
+  "KNR2-020603-08": [
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0029,
+      "ce": 135.86
+    }
+  ],
+  "KNR9-010104-03": [
+    {
+      "name": "wyciągi towarowo-osobowe i budowlane",
+      "jm": "m-g",
+      "nz": 0.21,
+      "ce": 24.67
+    }
+  ],
+  "KNNR21902-07": [
+    {
+      "name": "wyciągi towarowo-osobowe i budowlane",
+      "jm": "m-g",
+      "nz": 0.0448,
+      "ce": 24.67
+    }
+  ],
+  "KNRBC-020610-01": [
+    {
+      "name": "Samochód dostawczy do 0,90 t (1)",
+      "jm": "m-g",
+      "nz": 0.03,
+      "ce": 87.42
+    },
+    {
+      "name": "żuraw okienny",
+      "jm": "m-g",
+      "nz": 0.03,
+      "ce": 45.03
+    }
+  ],
+  "KNRK-280202-03": [
+    {
+      "name": "wyciągi towarowo-osobowe i budowlane",
+      "jm": "m-g",
+      "nz": 0.13,
+      "ce": 24.67
+    }
+  ],
+  "KNRK-280202-01": [
+    {
+      "name": "wyciągi towarowo-osobowe i budowlane",
+      "jm": "m-g",
+      "nz": 0.12,
+      "ce": 24.67
+    }
+  ],
+  "KNR13-120903-01": [
+    {
+      "name": "wyciągi towarowo-osobowe i budowlane",
+      "jm": "m-g",
+      "nz": 0.1,
+      "ce": 24.67
+    }
+  ],
+  "KNR-W2-020517-02": [
+    {
+      "name": "Samochód skrzyniowy do 5 t (1)",
+      "jm": "m-g",
+      "nz": 0.005,
+      "ce": 96.91
+    }
+  ],
+  "KNR2-022003-01": [
+    {
+      "name": "wyciągi towarowo-osobowe i budowlane",
+      "jm": "m-g",
+      "nz": 0.035,
+      "ce": 24.67
+    },
+    {
+      "name": "Samochód dostawczy do 0,90 t (1)",
+      "jm": "m-g",
+      "nz": 0.0279,
+      "ce": 87.42
+    }
+  ],
+  "KNR-W2-022605-01": [
+    {
+      "name": "wyciągi towarowo-osobowe i budowlane",
+      "jm": "m-g",
+      "nz": 0.005,
+      "ce": 24.67
+    },
+    {
+      "name": "Samochód dostawczy do 0,90 t (1)",
+      "jm": "m-g",
+      "nz": 0.007,
+      "ce": 87.42
+    }
+  ],
+  "KNR2-020216-02": [
+    {
+      "name": "wyciągi towarowo-osobowe i budowlane",
+      "jm": "m-g",
+      "nz": 0.135407,
+      "ce": 24.67
+    },
+    {
+      "name": "Samochód skrzyniowy do 5 t (1)",
+      "jm": "m-g",
+      "nz": 0.0168,
+      "ce": 96.91
+    },
+    {
+      "name": "pompa do betonu na samochodzie",
+      "jm": "m-g",
+      "nz": 0.019,
+      "ce": 408.89
+    }
+  ],
+  "KNR2-020212-12": [
+    {
+      "name": "wyciągi towarowo-osobowe i budowlane",
+      "jm": "m-g",
+      "nz": 0.96,
+      "ce": 24.67
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.18,
+      "ce": 135.86
+    }
+  ],
+  "KNR2-020212-11": [
+    {
+      "name": "wyciągi towarowo-osobowe i budowlane",
+      "jm": "m-g",
+      "nz": 0.85,
+      "ce": 24.67
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.09,
+      "ce": 135.86
+    }
+  ],
+  "KNR2-020211-01": [
+    {
+      "name": "wyciągi towarowo-osobowe i budowlane",
+      "jm": "m-g",
+      "nz": 1.75,
+      "ce": 24.67
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.06,
+      "ce": 135.86
+    }
+  ],
+  "KNR2-020210-04": [
+    {
+      "name": "wyciągi towarowo-osobowe i budowlane",
+      "jm": "m-g",
+      "nz": 3.63,
+      "ce": 24.67
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.24,
+      "ce": 135.86
+    }
+  ],
+  "KNNR20602-05": [
+    {
+      "name": "wyciągi towarowo-osobowe i budowlane",
+      "jm": "m-g",
+      "nz": 0.0077,
+      "ce": 24.67
+    }
+  ],
+  "KNR-W2-020504-01": [
+    {
+      "name": "wyciągi towarowo-osobowe i budowlane",
+      "jm": "m-g",
+      "nz": 0.0048,
+      "ce": 24.67
+    },
+    {
+      "name": "Samochód dostawczy do 0,90 t (1)",
+      "jm": "m-g",
+      "nz": 0.0122,
+      "ce": 87.42
+    }
+  ],
+  "KNNR70802-03": [
+    {
+      "name": "Samochód dostawczy do 0,90 t (1)",
+      "jm": "m-g",
+      "nz": 0.36,
+      "ce": 87.42
+    },
+    {
+      "name": "żuraw samochodowy 5-6 t",
+      "jm": "m-g",
+      "nz": 0.22,
+      "ce": 125.79
+    }
+  ],
+  "KNR2-021220-04": [
+    {
+      "name": "Samochód skrzyniowy do 5 t (1)",
+      "jm": "m-g",
+      "nz": 0.0064,
+      "ce": 96.91
+    }
+  ],
+  "KNR2-050208-05": [
+    {
+      "name": "żuraw samochodowy 5-6 t",
+      "jm": "m-g",
+      "nz": 1.1,
+      "ce": 125.79
+    },
+    {
+      "name": "Ciągnik kołowy 55-63 kW [75-85 KM] (1)",
+      "jm": "m-g",
+      "nz": 1.9,
+      "ce": 73.55
+    },
+    {
+      "name": "przyczepa skrzyniowa 10 t",
+      "jm": "m-g",
+      "nz": 1.9,
+      "ce": 13.3
+    },
+    {
+      "name": "spawarka elektryczna wirująca 300 A",
+      "jm": "m-g",
+      "nz": 19.1,
+      "ce": 7.9
+    }
+  ],
+  "KNR2-022005-04": [
+    {
+      "name": "wyciągi towarowo-osobowe i budowlane",
+      "jm": "m-g",
+      "nz": 0.014,
+      "ce": 24.67
+    },
+    {
+      "name": "środek transportowy",
+      "jm": "m-g",
+      "nz": 0.0422,
+      "ce": 135.86
+    }
+  ],
+  "KNR2-021213-04": [
+    {
+      "name": "spawarka elektryczna wirująca 300 A",
+      "jm": "m-g",
+      "nz": 0.1438,
+      "ce": 7.9
+    },
+    {
+      "name": "Samochód skrzyniowy do 5 t (1)",
+      "jm": "m-g",
+      "nz": 0.013,
+      "ce": 96.91
+    }
+  ],
+  "KNR2-021102-01": [
+    {
+      "name": "wyciągi towarowo-osobowe i budowlane",
+      "jm": "m-g",
+      "nz": 0.1099,
+      "ce": 24.67
+    },
+    {
+      "name": "Samochód dostawczy do 0,90 t (1)",
+      "jm": "m-g",
+      "nz": 0.0003,
+      "ce": 87.42
+    }
+  ],
+  "KNNR21203-02": [
+    {
+      "name": "wyciągi towarowo-osobowe i budowlane",
+      "jm": "m-g",
+      "nz": 0.0435,
+      "ce": 24.67
+    }
+  ],
+  "KNR2-021101-06": [
+    {
+      "name": "wyciągi towarowo-osobowe i budowlane",
+      "jm": "m-g",
+      "nz": 1.13,
+      "ce": 24.67
+    }
+  ],
+  "KNR2-210405-02": [
+    {
+      "name": "Brona (bez ciągnika)",
+      "jm": "m-g",
+      "nz": 2.44,
+      "ce": 9.99
+    },
+    {
+      "name": "Ciągnik kołowy 55-63 kW [75-85 KM] (1)",
+      "jm": "m-g",
+      "nz": 18.3,
+      "ce": 73.55
+    },
+    {
+      "name": "Pług do orki (bez ciągnika)",
+      "jm": "m-g",
+      "nz": 12.1,
+      "ce": 10.34
+    },
+    {
+      "name": "Walec statyczny samojezdny 10 t (1)",
+      "jm": "m-g",
+      "nz": 3.8,
+      "ce": 107.08
+    }
+  ],
+  "KNR2-250419-01": [
+    {
+      "name": "Samochód skrzyniowy do 5 t (1)",
+      "jm": "m-g",
+      "nz": 0.02,
+      "ce": 96.91
+    }
+  ],
+  "KNR2-310102-05": [
+    {
+      "name": "Walec statyczny samojezdny 10 t (1)",
+      "jm": "m-g",
+      "nz": 0.0433,
+      "ce": 107.08
+    }
+  ],
+  "KNR2-310114-03": [
+    {
+      "name": "Równiarka samojezdna 88kW (1)",
+      "jm": "m-g",
+      "nz": 0.0023,
+      "ce": 158.54
+    },
+    {
+      "name": "Walec statyczny samojezdny 10 t (1)",
+      "jm": "m-g",
+      "nz": 0.0127,
+      "ce": 107.08
+    }
+  ],
+  "KNR2-010101-01": [
+    {
+      "name": "sprzÄ™t rĂłĹĽny",
+      "jm": "m-g",
+      "nz": 0.1,
+      "ce": 20.0
+    }
+  ]
+}

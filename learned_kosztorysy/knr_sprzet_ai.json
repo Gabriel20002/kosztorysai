@@ -1,0 +1,570 @@
+{
+  "KNR4-010354-12": [
+    {
+      "name": "młot pneumatyczny",
+      "jm": "m-g",
+      "nz": 0.1,
+      "ce": 20.0
+    }
+  ],
+  "KNR9-290103-01": [
+    {
+      "name": "wiertarka elektryczna 650 W",
+      "jm": "m-g",
+      "nz": 0.03,
+      "ce": 10.0
+    }
+  ],
+  "KNR9-290105-02": [
+    {
+      "name": "wyrzynarka do płyt gipsowo-kartonowych elektryczna",
+      "jm": "m-g",
+      "nz": 0.015,
+      "ce": 20.0
+    }
+  ],
+  "KNR9-290101-01": [
+    {
+      "name": "wyciąg budowlany elektryczny 300 kg",
+      "jm": "m-g",
+      "nz": 0.025,
+      "ce": 20.0
+    }
+  ],
+  "KNR4-010819-15": [
+    {
+      "name": "wiertarka elektryczna 800 W",
+      "jm": "m-g",
+      "nz": 0.03,
+      "ce": 10.0
+    }
+  ],
+  "KNR4-010701-05": [
+    {
+      "name": "rusztowanie metalowe",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 100.0
+    }
+  ],
+  "KNR4-011202-08": [
+    {
+      "name": "wyciąg elektryczny 100 kg",
+      "jm": "m-g",
+      "nz": 0.1,
+      "ce": 20.0
+    }
+  ],
+  "KNR4-010811-07": [
+    {
+      "name": "młotowiertarka elektryczna 650 W",
+      "jm": "m-g",
+      "nz": 0.05,
+      "ce": 10.0
+    }
+  ],
+  "KNR4-010347-09": [
+    {
+      "name": "młot pneumatyczny 6 kg",
+      "jm": "m-g",
+      "nz": 0.03,
+      "ce": 20.0
+    }
+  ],
+  "KNR4-010347-02": [
+    {
+      "name": "młot pneumatyczny 20 kg",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 50.0
+    }
+  ],
+  "KNR4-010354-13": [
+    {
+      "name": "wiertarka elektryczna",
+      "jm": "m-g",
+      "nz": 0.02,
+      "ce": 10.0
+    }
+  ],
+  "KNR4-010211-03": [
+    {
+      "name": "młotowiertarka elektryczna 850 W",
+      "jm": "m-g",
+      "nz": 0.1,
+      "ce": 10.0
+    }
+  ],
+  "KNR4-010339-01": [
+    {
+      "name": "wiertarka elektryczna udarowa 800 W",
+      "jm": "m-g",
+      "nz": 0.05,
+      "ce": 10.0
+    }
+  ],
+  "KNR4-010336-01": [
+    {
+      "name": "młotkopała elektryczna 6 kg",
+      "jm": "m-g",
+      "nz": 0.02,
+      "ce": 15.0
+    }
+  ],
+  "KNR4-010106-04": [
+    {
+      "name": "koparka gąsienicowa 0.25 m3",
+      "jm": "m-g",
+      "nz": 0.003333,
+      "ce": 150.0
+    }
+  ],
+  "KNR4-010206-03": [
+    {
+      "name": "betoniarka elektryczna 125 l",
+      "jm": "m-g",
+      "nz": 0.025,
+      "ce": 20.0
+    }
+  ],
+  "KNR4-010313-02": [
+    {
+      "name": "wiertarka elektryczna",
+      "jm": "m-g",
+      "nz": 0.05,
+      "ce": 10.0
+    }
+  ],
+  "KNR4-010313-04": [
+    {
+      "name": "samochód dostawczy 3.5 t",
+      "jm": "m-g",
+      "nz": 0.016,
+      "ce": 50.0
+    }
+  ],
+  "KNR7-120101-01": [
+    {
+      "name": "wyciąg elektryczny 0.5 kW",
+      "jm": "m-g",
+      "nz": 0.25,
+      "ce": 20.0
+    }
+  ],
+  "KNRAT-170103-01": [
+    {
+      "name": "wiertarka elektryczna diamentowa 40 mm",
+      "jm": "m-g",
+      "nz": 0.002,
+      "ce": 500.0
+    }
+  ],
+  "KNR4-060112-01": [
+    {
+      "name": "wiertarka elektryczna ręczna 750 W",
+      "jm": "m-g",
+      "nz": 0.15,
+      "ce": 10.0
+    }
+  ],
+  "KNR4-010704-03": [
+    {
+      "name": "betoniarka elektryczna 130 l",
+      "jm": "m-g",
+      "nz": 0.04,
+      "ce": 20.0
+    }
+  ],
+  "KNR9-290306-01": [
+    {
+      "name": "wiertarka elektryczna",
+      "jm": "m-g",
+      "nz": 0.1,
+      "ce": 10.0
+    }
+  ],
+  "KNR2-022004-01": [
+    {
+      "name": "wyciąg elektryczny 500 kg",
+      "jm": "m-g",
+      "nz": 0.065217,
+      "ce": 15.0
+    },
+    {
+      "name": "wiertarka elektryczna 1000 W",
+      "jm": "m-g",
+      "nz": 0.052174,
+      "ce": 10.0
+    }
+  ],
+  "KNR4-010716-02": [
+    {
+      "name": "rusztowanie metalowe przestrzenne",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 100.0
+    }
+  ],
+  "KNR4-010711-14": [
+    {
+      "name": "betoniarka elektryczna 130 l",
+      "jm": "m-g",
+      "nz": 0.013,
+      "ce": 30.0
+    },
+    {
+      "name": "wyciąg budowlany elektryczny 300 kg",
+      "jm": "m-g",
+      "nz": 0.026,
+      "ce": 15.0
+    }
+  ],
+  "KNR4-010708-03": [
+    {
+      "name": "mieszadło do zaprawy elektryczne 140 l",
+      "jm": "m-g",
+      "nz": 0.015,
+      "ce": 20.0
+    }
+  ],
+  "KNR4-010713-01": [
+    {
+      "name": "wiertarka elektryczna 650 W",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 10.0
+    }
+  ],
+  "KNR2-020812-01": [
+    {
+      "name": "rusztowanie stalowe",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 100.0
+    }
+  ],
+  "KNR2-022006-07": [
+    {
+      "name": "wyciąg budowlany 300 kg",
+      "jm": "m-g",
+      "nz": 0.023077,
+      "ce": 15.0
+    },
+    {
+      "name": "wiertarka elektryczna 800 W",
+      "jm": "m-g",
+      "nz": 0.015385,
+      "ce": 10.0
+    }
+  ],
+  "KNR2-022009-04": [
+    {
+      "name": "wiertarka elektryczna 650 W",
+      "jm": "m-g",
+      "nz": 0.09,
+      "ce": 10.0
+    },
+    {
+      "name": "wyciąg budowlany elektryczny 200 W",
+      "jm": "m-g",
+      "nz": 0.06,
+      "ce": 15.0
+    }
+  ],
+  "KNR2-022009-02": [
+    {
+      "name": "wiertarka elektryczna 800 W",
+      "jm": "m-g",
+      "nz": 0.1,
+      "ce": 15.0
+    }
+  ],
+  "KNRAT-270401-04": [
+    {
+      "name": "wyciąg budowlany elektryczny 300 kg",
+      "jm": "m-g",
+      "nz": 0.1,
+      "ce": 10.0
+    }
+  ],
+  "KNR2-020829-11": [
+    {
+      "name": "wyciąg budowlany 500 kg",
+      "jm": "m-g",
+      "nz": 0.08,
+      "ce": 18.5
+    }
+  ],
+  "KNR2-021505-06": [
+    {
+      "name": "wiertarka elektryczna ręczna 600 W",
+      "jm": "m-g",
+      "nz": 0.002,
+      "ce": 10.0
+    }
+  ],
+  "KNR4-011206-05": [
+    {
+      "name": "wiertarka elektryczna przenośna",
+      "jm": "m-g",
+      "nz": 0.15,
+      "ce": 10.0
+    }
+  ],
+  "KNR4-010207-03": [
+    {
+      "name": "betoniarka elektryczna 160 l",
+      "jm": "m-g",
+      "nz": 0.025,
+      "ce": 20.0
+    }
+  ],
+  "KNR2-021102-02": [
+    {
+      "name": "betoniarka elektryczna 160 l",
+      "jm": "m-g",
+      "nz": 0.1,
+      "ce": 20.0
+    }
+  ],
+  "KNR2-021118-11": [
+    {
+      "name": "przecinarka do płytek elektryczna",
+      "jm": "m-g",
+      "nz": 0.15,
+      "ce": 20.0
+    }
+  ],
+  "KNR4-010320-03": [
+    {
+      "name": "wiertarka elektryczna 500 W",
+      "jm": "m-g",
+      "nz": 0.025,
+      "ce": 12.0
+    }
+  ],
+  "KNR2-021009-06": [
+    {
+      "name": "wyciąg budowlany elektryczny 500 kg",
+      "jm": "m-g",
+      "nz": 0.5625,
+      "ce": 20.0
+    },
+    {
+      "name": "wiertarka elektryczna 800 W",
+      "jm": "m-g",
+      "nz": 0.375,
+      "ce": 10.0
+    }
+  ],
+  "KNR2-170156-01": [
+    {
+      "name": "wiertarka elektryczna",
+      "jm": "m-g",
+      "nz": 0.2,
+      "ce": 15.0
+    }
+  ],
+  "KNR4-010919-20": [
+    {
+      "name": "wiertarka elektryczna ręczna",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 10.0
+    }
+  ],
+  "KNR4-020230-04": [
+    {
+      "name": "piła elektryczna do metalu 2.2 kW",
+      "jm": "m-g",
+      "nz": 0.04,
+      "ce": 12.5
+    }
+  ],
+  "KNR4-020230-05": [
+    {
+      "name": "wyrzynarka hydrauliczna do rur",
+      "jm": "m-g",
+      "nz": 0.04,
+      "ce": 20.0
+    }
+  ],
+  "KNR4-020202-09": [
+    {
+      "name": "wiertarka elektryczna ręczna",
+      "jm": "m-g",
+      "nz": 0.05,
+      "ce": 10.0
+    }
+  ],
+  "KNRAT-170104-04": [
+    {
+      "name": "przecinarka diamentowa do betonu",
+      "jm": "m-g",
+      "nz": 0.05,
+      "ce": 20.0
+    }
+  ],
+  "KNR2-150205-04": [
+    {
+      "name": "wiertarka elektryczna ręczna 800 W",
+      "jm": "m-g",
+      "nz": 0.1,
+      "ce": 15.0
+    }
+  ],
+  "KNR2-150205-02": [
+    {
+      "name": "wiertarka elektryczna 710 W",
+      "jm": "m-g",
+      "nz": 0.166667,
+      "ce": 12.0
+    }
+  ],
+  "KNR2": [
+    {
+      "name": "wiertarka elektryczna ręczna 500 W",
+      "jm": "m-g",
+      "nz": 2.502486,
+      "ce": 10.0
+    },
+    {
+      "name": "wyciąg łańcuchowy 1000 kg",
+      "jm": "m-g",
+      "nz": 1.251243,
+      "ce": 15.0
+    },
+    {
+      "name": "narzędzia ręczne (zestaw montażowy)",
+      "jm": "m-g",
+      "nz": 1.668324,
+      "ce": 20.0
+    }
+  ],
+  "KNR4-010208-04": [
+    {
+      "name": "wiertarka elektryczna udarowa",
+      "jm": "m-g",
+      "nz": 0.1,
+      "ce": 10.0
+    }
+  ],
+  "KNR0-310116-01": [
+    {
+      "name": "pompa próbna do instalacji wodno-kanalizacyjnej",
+      "jm": "m-g",
+      "nz": 1.0,
+      "ce": 25.0
+    }
+  ],
+  "KNR0-310116-02": [
+    {
+      "name": "pompa próbna elektryczna 0.5 kW",
+      "jm": "m-g",
+      "nz": 0.1,
+      "ce": 50.0
+    }
+  ],
+  "KNR0-340110-14": [
+    {
+      "name": "wyciąg ręczny linowy 500 kg",
+      "jm": "m-g",
+      "nz": 0.25,
+      "ce": 18.0
+    }
+  ],
+  "KNR2-150404-02": [
+    {
+      "name": "pompa próbna ręczna do instalacji c.o.",
+      "jm": "m-g",
+      "nz": 0.25,
+      "ce": 10.0
+    }
+  ],
+  "KNR5-080309-03": [
+    {
+      "name": "wiertarka elektryczna 800 W",
+      "jm": "m-g",
+      "nz": 0.08,
+      "ce": 12.5
+    }
+  ],
+  "KNR5-080402-01": [
+    {
+      "name": "wiertarka elektryczna ręczna 500 W",
+      "jm": "m-g",
+      "nz": 0.05,
+      "ce": 10.0
+    }
+  ],
+  "KNR4-010348-03": [
+    {
+      "name": "młot pneumatyczny",
+      "jm": "m-g",
+      "nz": 0.005,
+      "ce": 20.0
+    }
+  ],
+  "KNR4-010702-06": [
+    {
+      "name": "wiertarka elektryczna 750 W",
+      "jm": "m-g",
+      "nz": 0.08,
+      "ce": 10.0
+    }
+  ],
+  "KNR4-010804-07": [
+    {
+      "name": "zagęszczarka wibracyjna 150 kg",
+      "jm": "m-g",
+      "nz": 0.025,
+      "ce": 20.0
+    }
+  ],
+  "KNR4-010354-03": [
+    {
+      "name": "wiertarka elektryczna ręczna 800 W",
+      "jm": "m-g",
+      "nz": 0.05,
+      "ce": 10.0
+    }
+  ],
+  "KNR4-010354-05": [
+    {
+      "name": "młot pneumatyczny",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 70.0
+    }
+  ],
+  "KNR4-010354-11": [
+    {
+      "name": "wiertarka elektryczna",
+      "jm": "m-g",
+      "nz": 0.1,
+      "ce": 15.0
+    }
+  ],
+  "KNR0-191023-05": [
+    {
+      "name": "wyciąg ręczny łańcuchowy 1 t",
+      "jm": "m-g",
+      "nz": 0.134605,
+      "ce": 20.0
+    },
+    {
+      "name": "wiertarka elektryczna 500 W",
+      "jm": "m-g",
+      "nz": 0.071789,
+      "ce": 10.0
+    }
+  ],
+  "KNR4-010321-01": [
+    {
+      "name": "wiertarka elektryczna 850 W",
+      "jm": "m-g",
+      "nz": 0.02,
+      "ce": 10.0
+    }
+  ]
+}
