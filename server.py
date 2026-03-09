@@ -25,9 +25,9 @@ import tempfile
 from pathlib import Path
 from datetime import datetime
 
-from fastapi import FastAPI, UploadFile, File, Form, HTTPException, Depends
+from fastapi import FastAPI, UploadFile, File, Form, HTTPException, Depends, Request
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import FileResponse, HTMLResponse
+from fastapi.responses import FileResponse, HTMLResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
@@ -54,14 +54,14 @@ app = FastAPI(title="KosztorysAI", version="1.0", docs_url="/api/docs")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:5173",
-        "http://localhost:4173",
-        "http://127.0.0.1:5173",
-    ],
+    allow_origins=["*"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+@app.exception_handler(Exception)
+async def generic_exception_handler(request: Request, exc: Exception):
+    return JSONResponse(status_code=500, content={"detail": str(exc)})
 
 DIST_DIR = HERE / "dist"
 

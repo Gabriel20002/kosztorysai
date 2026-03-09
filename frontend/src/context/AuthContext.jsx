@@ -21,27 +21,27 @@ export function AuthProvider({ children }) {
             .finally(() => setLoading(false))
     }, [])
 
-    async function login(email, password) {
-        const res = await fetch(`${API}/api/auth/login`, {
+    async function _post(url, body, fallbackMsg) {
+        const res = await fetch(url, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ email, password }),
+            body: JSON.stringify(body),
         })
-        const data = await res.json()
-        if (!res.ok) throw new Error(data.detail || 'Błąd logowania')
+        let data
+        try { data = await res.json() } catch { throw new Error(fallbackMsg) }
+        if (!res.ok) throw new Error(data.detail || fallbackMsg)
+        return data
+    }
+
+    async function login(email, password) {
+        const data = await _post(`${API}/api/auth/login`, { email, password }, 'Błąd logowania')
         localStorage.setItem('auth_token', data.token)
         setUser(data.user)
         return data.user
     }
 
     async function register(email, password, name) {
-        const res = await fetch(`${API}/api/auth/register`, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ email, password, name }),
-        })
-        const data = await res.json()
-        if (!res.ok) throw new Error(data.detail || 'Błąd rejestracji')
+        const data = await _post(`${API}/api/auth/register`, { email, password, name }, 'Błąd rejestracji')
         localStorage.setItem('auth_token', data.token)
         setUser(data.user)
         return data.user
