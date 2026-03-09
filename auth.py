@@ -20,11 +20,11 @@ bearer_scheme = HTTPBearer(auto_error=False)
 
 
 def hash_password(password: str) -> str:
-    return pwd_context.hash(password.encode()[:72])
+    return pwd_context.hash(password[:72])
 
 
 def verify_password(plain: str, hashed: str) -> bool:
-    return pwd_context.verify(plain.encode()[:72], hashed)
+    return pwd_context.verify(plain[:72], hashed)
 
 
 def create_token(user_id: int) -> str:
