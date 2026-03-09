@@ -25,10 +25,11 @@ import tempfile
 from pathlib import Path
 from datetime import datetime
 
-from fastapi import FastAPI, UploadFile, File, Form, HTTPException
+from fastapi import FastAPI, UploadFile, File, Form, HTTPException, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, HTMLResponse
 from fastapi.staticfiles import StaticFiles
+from pydantic import BaseModel
 
 import uvicorn
 
@@ -37,6 +38,13 @@ sys.path.insert(0, str(HERE))
 
 from kosztorys_generator import KosztorysGenerator
 from exceptions import PDFParsingError, NormaPROError
+from database import engine, get_db
+import models
+import auth
+from sqlalchemy.orm import Session
+
+# Utwórz tabele przy starcie (jeśli nie istnieją)
+models.Base.metadata.create_all(bind=engine)
 
 # ---------------------------------------------------------------------------
 # App
@@ -66,6 +74,81 @@ def health():
     return {"status": "ok", "frontend": (DIST_DIR / "index.html").exists()}
 
 
+# ---------------------------------------------------------------------------
+# Auth
+# ---------------------------------------------------------------------------
+
+class RegisterBody(BaseModel):
+    email: str
+    password: str
+    name: str
+
+class LoginBody(BaseModel):
+    email: str
+    password: str
+
+def _user_dict(user: models.User) -> dict:
+    return {"id": user.id, "email": user.email, "name": user.name, "plan": user.plan}
+
+
+@app.post("/api/auth/register")
+def register(body: RegisterBody, db: Session = Depends(get_db)):
+    if db.query(models.User).filter(models.User.email == body.email).first():
+        raise HTTPException(400, detail="Email już zarejestrowany")
+    if len(body.password) < 8:
+        raise HTTPException(400, detail="Hasło musi mieć min. 8 znaków")
+    user = models.User(
+        email=body.email,
+        name=body.name,
+        hashed_password=auth.hash_password(body.password),
+    )
+    db.add(user)
+    db.commit()
+    db.refresh(user)
+    return {"token": auth.create_token(user.id), "user": _user_dict(user)}
+
+
+@app.post("/api/auth/login")
+def login(body: LoginBody, db: Session = Depends(get_db)):
+    user = db.query(models.User).filter(models.User.email == body.email).first()
+    if not user or not auth.verify_password(body.password, user.hashed_password):
+        raise HTTPException(401, detail="Nieprawidłowy email lub hasło")
+    return {"token": auth.create_token(user.id), "user": _user_dict(user)}
+
+
+@app.get("/api/auth/me")
+def me(current_user: models.User = Depends(auth.get_current_user)):
+    return _user_dict(current_user)
+
+
+# ---------------------------------------------------------------------------
+# Historia
+# ---------------------------------------------------------------------------
+
+@app.get("/api/history")
+def history(
+    current_user: models.User = Depends(auth.get_current_user),
+    db: Session = Depends(get_db),
+):
+    items = (
+        db.query(models.Kosztorys)
+        .filter(models.Kosztorys.user_id == current_user.id)
+        .order_by(models.Kosztorys.created_at.desc())
+        .limit(50)
+        .all()
+    )
+    return [
+        {
+            "id": k.id,
+            "name": k.name,
+            "filename": k.filename,
+            "positions_count": k.positions_count,
+            "created_at": k.created_at.isoformat() if k.created_at else None,
+        }
+        for k in items
+    ]
+
+
 @app.post("/api/generate")
 async def generate(
     file: UploadFile = File(...),
@@ -78,6 +161,8 @@ async def generate(
     kp: float = Form(70.0),
     zysk: float = Form(12.0),
     vat: float = Form(23.0),
+    current_user: models.User = Depends(auth.get_optional_user),
+    db: Session = Depends(get_db),
 ):
     if not file.filename or not file.filename.lower().endswith(".pdf"):
         raise HTTPException(400, "Wymagany plik PDF")
@@ -145,6 +230,16 @@ async def generate(
                 "filename": f"{safe_name}_kosztorys.{fmt_key}",
                 "content": base64.b64encode(data).decode(),
             }
+
+    # Zapisz do historii jeśli użytkownik zalogowany
+    if current_user:
+        record = models.Kosztorys(
+            user_id=current_user.id,
+            name=nazwa or base_name,
+            filename=file.filename,
+        )
+        db.add(record)
+        db.commit()
 
     return {"files": files}
 
