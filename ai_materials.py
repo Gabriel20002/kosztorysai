@@ -50,6 +50,45 @@ _ACTION_VERBS = {
 }
 
 
+# Korekty jednostek miary dla typowych materiałów budowlanych
+# klucz = fragment nazwy (lowercase), wartość = poprawna jm
+_JM_CORRECTIONS = {
+    'kabel': 'm', 'przewód': 'm', 'przewod': 'm', 'linka': 'm',
+    'rura': 'm', 'rurka': 'm', 'rurociąg': 'm', 'rurociag': 'm',
+    'bednarka': 'm', 'taśma': 'm', 'tasma': 'm',
+    'listwa': 'm', 'profil': 'm', 'kątownik': 'm', 'katownik': 'm',
+    'uszczelka': 'szt', 'złączka': 'szt', 'zlaczka': 'm',
+    'wspornik': 'szt', 'uchwyt': 'szt', 'obejma': 'szt',
+    'śruba': 'szt', 'sruba': 'szt', 'wkręt': 'szt', 'wkret': 'szt',
+    'nakrętka': 'szt', 'nakretka': 'szt', 'podkładka': 'szt', 'podkladka': 'szt',
+    'puszka': 'szt', 'skrzynka': 'szt', 'rozdzielnica': 'szt',
+    'wyłącznik': 'szt', 'wylacznik': 'szt', 'łącznik': 'szt', 'lacznik': 'szt',
+    'gniazdo': 'szt', 'wtyk': 'szt', 'wtyczka': 'szt',
+    'bezpiecznik': 'szt', 'wkładka': 'szt', 'zabezpieczenie': 'szt',
+    'lampa': 'szt', 'oprawa': 'szt', 'świetlówka': 'szt', 'swietlowka': 'szt',
+    'żarówka': 'szt', 'zarowka': 'szt', 'led': 'szt',
+    'zawór': 'szt', 'zawor': 'szt', 'kurek': 'szt', 'zawór': 'szt',
+    'klej': 'kg', 'masa': 'kg', 'pianka': 'szt', 'uszczelniacz': 'szt',
+    'cement': 'kg', 'zaprawa': 'kg', 'beton': 'm3',
+    'farba': 'l', 'lakier': 'l', 'grunt': 'l',
+    'papa': 'm2', 'folia': 'm2', 'siatka': 'm2',
+    'płyta': 'm2', 'plyta': 'm2', 'panel': 'm2',
+    'kostka': 'm2', 'płytka': 'm2', 'plytka': 'm2',
+    'piasek': 'm3', 'żwir': 'm3', 'zwir': 'm3', 'gruz': 'm3',
+}
+
+
+def _correct_jm(name: str, jm: str) -> str:
+    """Koryguje jednostkę miary materiału na podstawie słownika."""
+    name_l = name.lower()
+    for fragment, correct_jm in _JM_CORRECTIONS.items():
+        if fragment in name_l:
+            if jm != correct_jm:
+                log.debug("Korekta JM: '%s' %s → %s", name, jm, correct_jm)
+            return correct_jm
+    return jm
+
+
 def _filter_action_materials(mats: list) -> list:
     """Usuwa z listy wpisy których nazwa jest czynnością, nie materiałem."""
     result = []
@@ -165,6 +204,9 @@ def estimate_materials_batch(items: list) -> dict:
             raw_mats = _call_api_one(it, api_key)
             if isinstance(raw_mats, list) and raw_mats:
                 raw_mats = _filter_action_materials(raw_mats)
+                # Koryguj jednostki miary materiałów
+                for mat in raw_mats:
+                    mat['jm'] = _correct_jm(mat.get('name', ''), mat.get('jm', 'szt'))
                 normalized = _normalize(raw_mats, it['m_per_jm'])
                 normalized = [m for m in normalized if m.get('ce', 0) > 0 and m.get('nz', 0) > 0]
                 cache[norm_key] = normalized
