@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from 'react'
 import { useAuth } from '../context/AuthContext'
+import { Link } from 'react-router-dom'
 
 const API = import.meta.env.VITE_API_URL ?? ''
 
@@ -15,7 +16,7 @@ function downloadB64(filename, b64content) {
 }
 
 export default function Dashboard() {
-    const { user, getToken } = useAuth()
+    const { user, loading: authLoading, getToken } = useAuth()
     const [file, setFile] = useState(null)
     const [loading, setLoading] = useState(false)
     const [result, setResult] = useState(null)
@@ -95,6 +96,20 @@ export default function Dashboard() {
             .catch(() => {})
             .finally(() => setHistoryLoading(false))
     }, [user, result])
+
+    if (authLoading) return null
+
+    if (!user) return (
+        <div className="flex-1 flex flex-col items-center justify-center py-24 px-4 text-center">
+            <span className="material-symbols-outlined text-6xl text-primary mb-6">lock</span>
+            <h2 className="text-3xl font-black text-white mb-3">Wymagane logowanie</h2>
+            <p className="text-slate-400 mb-8">Aby generować kosztorysy, musisz być zalogowany.</p>
+            <div className="flex gap-4">
+                <Link to="/login" className="h-12 px-8 rounded-lg bg-primary hover:bg-sky-400 text-white font-bold transition-colors flex items-center">Zaloguj się</Link>
+                <Link to="/get-started" className="h-12 px-8 rounded-lg border border-slate-700 hover:border-slate-500 text-slate-300 hover:text-white font-bold transition-colors flex items-center">Utwórz konto</Link>
+            </div>
+        </div>
+    )
 
     return (
         <div className="flex-1 w-full max-w-[1440px] mx-auto px-4 sm:px-8 py-6 sm:py-12 relative z-10 font-sans">
