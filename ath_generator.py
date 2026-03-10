@@ -32,10 +32,10 @@ log = logging.getLogger(__name__)
 # ── Formattery ────────────────────────────────────────────────────────────────
 
 def _dot(val: float, decimals: int = 4) -> str:
-    """Liczba z KROPKĄ — używane w nz= i il= (format Norma PRO)."""
+    """Liczba z PRZECINKIEM — dla pól nz=, il=, ob= w ATH (format Norma PRO)."""
     if not math.isfinite(val):
         return "0"
-    return f"{val:.{decimals}f}".rstrip("0").rstrip(".") or "0"
+    return f"{val:.{decimals}f}".replace(".", ",").rstrip("0").rstrip(",") or "0"
 
 
 # ── Korekty jednostek miary materiałów ───────────────────────────────────────
@@ -476,15 +476,24 @@ class ATHGenerator:
         ]
 
         # ──────────────────── RMS ZEST — zasoby globalne ─────────────────────
+        def _ce_str(val: float) -> str:
+            """Cena w formacie ATH: przecinek dziesiętny, 2 miejsca po przecinku."""
+            return f"{val:.2f}".replace(".", ",")
+
+        def _jm_clean_zest(jm: str) -> str:
+            """Usuwa zbędne znaki z JM dla bloków ZEST (np. 'szt.' → 'szt')."""
+            return jm.strip().rstrip('.')
+
         # ZEST 1 — Robocizna
+        sr_str = _ce_str(sr)
         lines += [
             "[RMS ZEST 1]",
-            "ty=R",
+            "ty=R\t0",
             "na=robocizna\t0",
             "id=999\t1",
             "jm=r-g\t149",
-            f"ce={_dot(sr, 2)}\t{ts}",
-            f"cw={_dot(sr, 2)}\tPLN",
+            f"ce={sr_str}\t{ts}\t1\tSEK_RMS",
+            f"cw={sr_str}\tPLN\t{sr_str}",
             f"il={_dot(total_rg)}",
             "",
         ]
@@ -493,44 +502,48 @@ class ATHGenerator:
         if needs_m_fallback:
             lines += [
                 "[RMS ZEST 2]",
-                "ty=M",
+                "ty=M\t0",
                 "na=materia\u0142y\t0",
                 "id=998\t1",
                 "jm=szt\t020",
-                f"ce=1\t{ts}",
-                "cw=1\tPLN",
+                f"ce=1,00\t{ts}\t1\tSEK_RMS",
+                "cw=1,00\tPLN\t1,00",
                 f"il={_dot(suma_M_fallback, 2)}",
                 "",
             ]
 
         # ZEST 4..N — Indywidualne materiały z realnymi cenami
         for (name, jm, _ce), zest_num in sorted(unique_mats.items(), key=lambda x: x[1]):
+            jm_display = _jm_clean_zest(jm)
             jm_code = get_jm_code(jm)
             il_total = mat_il_total.get(zest_num, 0.0)
+            ce_str = _ce_str(_ce)
             lines += [
                 f"[RMS ZEST {zest_num}]",
-                "ty=M",
+                "ty=M\t0",
                 f"na={name}\t0",
                 "id=0\t3",
-                f"jm={jm}\t{jm_code}",
-                f"ce={_dot(_ce, 2)}\t{ts}",
-                f"cw={_dot(_ce, 2)}\tPLN",
+                f"jm={jm_display}\t{jm_code}",
+                f"ce={ce_str}\t{ts}\t1\tSEK_RMS",
+                f"cw={ce_str}\tPLN\t{ce_str}",
                 f"il={_dot(il_total, 4)}",
                 "",
             ]
 
         # ZEST S — Indywidualny sprzęt z realnymi cenami (lub fallback)
         for (name, jm, _ce), zest_num in sorted(unique_spr.items(), key=lambda x: x[1]):
-            jm_code = get_jm_code(jm) if jm != 'm-g' else '150'
+            jm_display = _jm_clean_zest(jm)
+            jm_code = get_jm_code(jm) if jm.rstrip('.') != 'm-g' else '150'
             il_total = spr_il_total.get(zest_num, 0.0)
+            ce_str = _ce_str(_ce)
             lines += [
                 f"[RMS ZEST {zest_num}]",
-                "ty=S",
+                "ty=S\t0",
                 f"na={name}\t0",
                 "id=0\t1",
-                f"jm={jm}\t{jm_code}",
-                f"ce={_dot(_ce, 2)}\t{ts}",
-                f"cw={_dot(_ce, 2)}\tPLN",
+                f"jm={jm_display}\t{jm_code}",
+                f"ce={ce_str}\t{ts}\t1\tSEK_RMS",
+                f"cw={ce_str}\tPLN\t{ce_str}",
                 f"il={_dot(il_total, 4)}",
                 "",
             ]
@@ -589,7 +602,7 @@ class ATHGenerator:
                 f"na={opis}",
                 "op=0\t0\t0\t0\t0\t0\t0\t0",
                 f"nu={lp}",
-                f"ob={ilosc_str}",
+                f"ob={ilosc_str}\t{ilosc_str}\t\t1",
                 f"jm={jm_clean}\t{jm_code}",
                 "kj=0\t0\t0",
                 "cj=0",
@@ -603,11 +616,12 @@ class ATHGenerator:
             # ── RMS per pozycja ─────────────────────────────────────────────
             # ZEST 1: Robocizna
             if R > 0:
+                wa_r = _ce_str(R)
                 lines += [
                     "[RMS 1]",
                     f"nz={_dot(R_nj)}\t0\t{_dot(R_nj)}",
-                    "np=1",
-                    "wa=0",
+                    "np=1\t0",
+                    f"wa={wa_r}",
                     "wb=0",
                     f"il={_dot(R_il)}",
                     "",
@@ -619,11 +633,12 @@ class ATHGenerator:
                 for mat in mats:
                     nz = mat['nz']
                     il = nz * ilosc
+                    wa_m = _ce_str(nz * ilosc * mat['ce'])
                     lines += [
                         f"[RMS {mat['zest_num']}]",
                         f"nz={_dot(nz)}\t0\t{_dot(nz)}",
-                        "np=0",
-                        "wa=0",
+                        "np=0\t0",
+                        f"wa={wa_m}",
                         "wb=0",
                         f"il={_dot(il, 4)}",
                         "",
@@ -635,11 +650,12 @@ class ATHGenerator:
                 for mach in machines:
                     nz = mach['nz']
                     il = nz * ilosc
+                    wa_s = _ce_str(nz * ilosc * mach['ce'])
                     lines += [
                         f"[RMS {mach['zest_num']}]",
                         f"nz={_dot(nz)}\t0\t{_dot(nz)}",
-                        "np=1",
-                        "wa=0",
+                        "np=1\t0",
+                        f"wa={wa_s}",
                         "wb=0",
                         f"il={_dot(il, 4)}",
                         "",

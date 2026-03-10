@@ -1002,5 +1002,271 @@
       "nz": 0.015,
       "ce": 800.0
     }
+  ],
+  "KNNR50401-01": [
+    {
+      "name": "Certyfikowany zestaw Przeciwpożarowego Wyłącznika Prądu 100A",
+      "jm": "szt",
+      "nz": 1.0,
+      "ce": 12095.0
+    }
+  ],
+  "KNNR50502-03": [
+    {
+      "name": "Oprawa oświetleniowa typ 1 8",
+      "jm": "szt",
+      "nz": 1.0743,
+      "ce": 245.0
+    },
+    {
+      "name": "Śruba ocynkowana M8x40 mm",
+      "jm": "szt",
+      "nz": 4.2972,
+      "ce": 2.1
+    },
+    {
+      "name": "Kołek rozporowy nylonowy 8 mm",
+      "jm": "szt.",
+      "nz": 4.2972,
+      "ce": 0.85
+    },
+    {
+      "name": "Przewód elektryczny YDY 3x1,5 mm²",
+      "jm": "m",
+      "nz": 2.68575,
+      "ce": 4.2
+    },
+    {
+      "name": "Złączka szynowa rozdzielcza 2x4 mm²",
+      "jm": "szt",
+      "nz": 1.0743,
+      "ce": 8.5
+    },
+    {
+      "name": "Taśma izolacyjna PVC",
+      "jm": "m",
+      "nz": 0.53715,
+      "ce": 5.6
+    }
+  ],
+  "KNNR50503-02": [
+    {
+      "name": "Oprawa oświetleniowa typ 2",
+      "jm": "szt",
+      "nz": 0.973999,
+      "ce": 85.5
+    },
+    {
+      "name": "Żarówka LED E27 10W 3000K",
+      "jm": "szt",
+      "nz": 0.973999,
+      "ce": 12.8
+    },
+    {
+      "name": "Śruba M6x16 stalowa ocynkowana",
+      "jm": "szt",
+      "nz": 3.895997,
+      "ce": 0.45
+    },
+    {
+      "name": "Nakrętka M6 stalowa ocynkowana",
+      "jm": "szt",
+      "nz": 3.895997,
+      "ce": 0.32
+    },
+    {
+      "name": "Podkładka M6 stalowa ocynkowana",
+      "jm": "szt",
+      "nz": 7.791994,
+      "ce": 0.18
+    },
+    {
+      "name": "Uszczelka gumowa do opawy",
+      "jm": "szt",
+      "nz": 0.973999,
+      "ce": 2.5
+    },
+    {
+      "name": "Klips montażowy do szyny",
+      "jm": "szt.",
+      "nz": 1.947999,
+      "ce": 1.8
+    }
+  ],
+  "KNNR50502-02": [
+    {
+      "name": "Oprava awaryjna kierunkowa EW1",
+      "jm": "szt.",
+      "nz": 1.010936,
+      "ce": 189.5
+    },
+    {
+      "name": "Złączka elektryczna z izolacją termokurczliwą 0,5-1,0 mm²",
+      "jm": "szt",
+      "nz": 2.021873,
+      "ce": 3.8
+    },
+    {
+      "name": "Taśma izolacyjna PVC 19x0,13 mm",
+      "jm": "m",
+      "nz": 0.505468,
+      "ce": 5.2
+    }
+  ],
+  "KNNR50302-01": [
+    {
+      "name": "puszka instalacyjna podtynkowa pojedyncza śr. 60 mm",
+      "jm": "szt",
+      "nz": 1.0,
+      "ce": 0.81
+    }
+  ],
+  "KNNR51204-03": [
+    {
+      "name": "Rura PVC DN 16 mm (dla przewodu odprowadzającego)",
+      "jm": "m",
+      "nz": 0.149746,
+      "ce": 1.97
+    }
+  ],
+  "KNNR51204-01": [
+    {
+      "name": "Końcówka tulejowa miedź izolowana 6 mm² czerwona DIN 46228",
+      "jm": "szt.",
+      "nz": 1.0,
+      "ce": 0.295
+    }
+  ],
+  "KNR4-010535-08": [
+    {
+      "name": "Blacha stalowa ocynkowana do obróbek",
+      "jm": "kg",
+      "nz": 12.499409,
+      "ce": 59.27
+    }
+  ],
+  "KNR4-010354-10": [
+    {
+      "name": "Drzwi stalowe do bram z prowadnicami",
+      "jm": "m2",
+      "nz": 1.0,
+      "ce": 413.01
+    }
+  ],
+  "KNR-W2-021129-01": [
+    {
+      "name": "Preparat do gruntowania powierzchni betonowych",
+      "jm": "m3",
+      "nz": 0.098962,
+      "ce": 45.0
+    },
+    {
+      "name": "Żywica epoksydowa dwuskładnikowa do betonu",
+      "jm": "m3",
+      "nz": 1.187541,
+      "ce": 8.5
+    },
+    {
+      "name": "Zaprawa wyrównująca do betonu",
+      "jm": "kg",
+      "nz": 0.59377,
+      "ce": 6.0
+    }
+  ],
+  "KNR5-080309-05": [
+    {
+      "name": "Gniazdo wtyczkowe natynkowe 10A/2",
+      "jm": "szt",
+      "nz": 0.983571,
+      "ce": 12.5
+    },
+    {
+      "name": "Śruby mocujące M4x16 ocynkowane",
+      "jm": "szt.",
+      "nz": 1.967143,
+      "ce": 0.38
+    },
+    {
+      "name": "Kołki rozporowe 5x25 mm",
+      "jm": "szt.",
+      "nz": 1.967143,
+      "ce": 0.22
+    },
+    {
+      "name": "Uszczelka gumowa do gniazda",
+      "jm": "szt",
+      "nz": 0.983571,
+      "ce": 0.3
+    }
+  ],
+  "KNR-W5-080901-03": [
+    {
+      "name": "Olej mineralny do testowania izolacji - butelka 1L",
+      "jm": "butelka",
+      "nz": 0.386364,
+      "ce": 120.0
+    },
+    {
+      "name": "Pasta przewodząca do pomiarów - tulejka 30ml",
+      "jm": "m",
+      "nz": 0.115909,
+      "ce": 80.0
+    },
+    {
+      "name": "Przewód pomiarowy 4mm² czerwony - mb",
+      "jm": "m",
+      "nz": 0.772727,
+      "ce": 8.0
+    },
+    {
+      "name": "Przewód pomiarowy 4mm² czarny - mb",
+      "jm": "m",
+      "nz": 0.772727,
+      "ce": 8.0
+    }
+  ],
+  "KNR-W5-080901-01": [
+    {
+      "name": "Megrohm 550 - cyfrowy miernik rezystancji izolacji",
+      "jm": "szt.",
+      "nz": 0.01,
+      "ce": 5162.0
+    }
+  ],
+  "KNR-W5-080902-05": [
+    {
+      "name": "Wyłącznik różnicoworądowy (RCD) B16A 30mA 2P",
+      "jm": "szt",
+      "nz": 1.0,
+      "ce": 27.04
+    }
+  ],
+  "KNR2-310103-02": [
+    {
+      "name": "Woda do zwilżania podłoża",
+      "jm": "m3",
+      "nz": 0.014999,
+      "ce": 36.67
+    }
+  ],
+  "KNR2-010217-01": [
+    {
+      "name": "Paliwo diesel ON",
+      "jm": "l",
+      "nz": 0.626263,
+      "ce": 9.5
+    },
+    {
+      "name": "Olej hydrauliczny HM 46",
+      "jm": "l",
+      "nz": 0.039141,
+      "ce": 18.0
+    },
+    {
+      "name": "Smar litowy MP-2",
+      "jm": "kg",
+      "nz": 0.031313,
+      "ce": 35.0
+    }
   ]
 }

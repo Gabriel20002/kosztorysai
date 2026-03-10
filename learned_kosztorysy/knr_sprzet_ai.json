@@ -566,5 +566,423 @@
       "nz": 0.02,
       "ce": 10.0
     }
+  ],
+  "KNR4-010535-08": [
+    {
+      "name": "wyciąg budowlany elektryczny 300 kg",
+      "jm": "m-g",
+      "nz": 0.05,
+      "ce": 20.0
+    }
+  ],
+  "KNR2-051008-01": [
+    {
+      "name": "wyciąg budowlany elektryczny 500 kg",
+      "jm": "m-g",
+      "nz": 0.066667,
+      "ce": 15.0
+    }
+  ],
+  "KNR4-010526-04": [
+    {
+      "name": "wyciąg budowlany 0.5 t",
+      "jm": "m-g",
+      "nz": 0.05,
+      "ce": 20.0
+    }
+  ],
+  "KNR2-020290-02": [
+    {
+      "name": "samochód skrzyniowy 5 t",
+      "jm": "m-g",
+      "nz": 2.891697,
+      "ce": 100.0
+    },
+    {
+      "name": "koparka gąsienicowa 0.25 m3",
+      "jm": "m-g",
+      "nz": 0.925343,
+      "ce": 175.0
+    },
+    {
+      "name": "wyciąg budowlany elektryczny 500 kg",
+      "jm": "m-g",
+      "nz": 0.694007,
+      "ce": 15.0
+    },
+    {
+      "name": "nożyce do stali elektrycze 4 kW",
+      "jm": "m-g",
+      "nz": 0.347004,
+      "ce": 25.0
+    }
+  ],
+  "KNR4-010330-05": [
+    {
+      "name": "wiertarka elektryczna ręczna",
+      "jm": "m-g",
+      "nz": 0.1,
+      "ce": 10.0
+    }
+  ],
+  "KNR4-010105-02": [
+    {
+      "name": "spycharka gąsienicowa 100 KM",
+      "jm": "m-g",
+      "nz": 0.008,
+      "ce": 125.0
+    }
+  ],
+  "KNR4-011202-09": [
+    {
+      "name": "wyciąg elektryczny 500 kg",
+      "jm": "m-g",
+      "nz": 0.1,
+      "ce": 10.0
+    }
+  ],
+  "KNR4-010722-02": [
+    {
+      "name": "rusztowanie metalowe",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 100.0
+    }
+  ],
+  "KNR9-030109-05": [
+    {
+      "name": "wyciąg ręczny linowy 0.5 t",
+      "jm": "m-g",
+      "nz": 0.1,
+      "ce": 10.0
+    }
+  ],
+  "KNRAT-270301-01": [
+    {
+      "name": "wyciąg budowlany elektryczny 300 kg",
+      "jm": "m-g",
+      "nz": 0.1,
+      "ce": 10.0
+    }
+  ],
+  "KNRAT-270303-01": [
+    {
+      "name": "zagęszczarka wibracyjna 150 kg",
+      "jm": "m-g",
+      "nz": 0.05,
+      "ce": 20.0
+    }
+  ],
+  "KNR4-010354-10": [
+    {
+      "name": "młot pneumatyczny",
+      "jm": "m-g",
+      "nz": 0.05,
+      "ce": 20.0
+    }
+  ],
+  "KNR0-232611-01": [
+    {
+      "name": "myjnia ciśnieniowa 150 bar",
+      "jm": "m-g",
+      "nz": 0.02,
+      "ce": 50.0
+    }
+  ],
+  "KNRAT-330201-01": [
+    {
+      "name": "wyciąg elektryczny 500 kg",
+      "jm": "m-g",
+      "nz": 0.1,
+      "ce": 10.0
+    }
+  ],
+  "KNR4-011207-02": [
+    {
+      "name": "przecinarka do betonu elektryczna",
+      "jm": "m-g",
+      "nz": 0.05,
+      "ce": 20.0
+    }
+  ],
+  "KNRAT-030101-04": [
+    {
+      "name": "przecinarka do betonu z silnikiem spalinowym 400 mm",
+      "jm": "m-g",
+      "nz": 0.05,
+      "ce": 20.0
+    }
+  ],
+  "KNR2-310308-03": [
+    {
+      "name": "betoniarka elektryczna 200 l",
+      "jm": "m-g",
+      "nz": 0.016667,
+      "ce": 30.0
+    },
+    {
+      "name": "zagęszczarka wibracyjna 150 kg",
+      "jm": "m-g",
+      "nz": 0.016667,
+      "ce": 30.0
+    }
+  ],
+  "KNR-W2-021129-01": [
+    {
+      "name": "wiertarka elektryczna 1100 W",
+      "jm": "m-g",
+      "nz": 0.043294,
+      "ce": 10.0
+    },
+    {
+      "name": "zagęszczarka wibracyjna 150 kg",
+      "jm": "m-g",
+      "nz": 0.016235,
+      "ce": 30.0
+    }
+  ],
+  "KNR4-010711-03": [
+    {
+      "name": "mieszarka do zaprawy 140 l",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 100.0
+    }
+  ],
+  "KNR4-010711-02": [
+    {
+      "name": "mieszadło do zaprawy elektryczne 140 l",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 100.0
+    }
+  ],
+  "KNR4-011209-10": [
+    {
+      "name": "wyciąg elektryczny ręczny 0.5 t",
+      "jm": "m-g",
+      "nz": 0.05,
+      "ce": 20.0
+    }
+  ],
+  "KNR7-120205-01": [
+    {
+      "name": "pędzel do malowania szerokość 100 mm",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 100.0
+    }
+  ],
+  "KNR7-120211-01": [
+    {
+      "name": "wyciąg budowlany elektryczny 500 kg",
+      "jm": "m-g",
+      "nz": 0.1,
+      "ce": 10.0
+    }
+  ],
+  "KNR7-120102-03": [
+    {
+      "name": "szczotka mechaniczna elektryczna",
+      "jm": "m-g",
+      "nz": 0.1,
+      "ce": 10.0
+    }
+  ],
+  "KNR7-120201-03": [
+    {
+      "name": "rusztowanie stalowe fasadowe",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 100.0
+    }
+  ],
+  "KNR7-120205-03": [
+    {
+      "name": "rusztowanie metalowe modułowe",
+      "jm": "m-g",
+      "nz": 0.01,
+      "ce": 100.0
+    }
+  ],
+  "KNR7-120211-03": [
+    {
+      "name": "rusztowanie metalowe modularne",
+      "jm": "m-g",
+      "nz": 0.008,
+      "ce": 125.0
+    }
+  ],
+  "KNR4-011212-03": [
+    {
+      "name": "szlifierka elektryczna orbitalna 150 W",
+      "jm": "m-g",
+      "nz": 0.1,
+      "ce": 10.0
+    }
+  ],
+  "KNR4-011212-02": [
+    {
+      "name": "wyciąg elektryczny 300 kg",
+      "jm": "m-g",
+      "nz": 0.1,
+      "ce": 10.0
+    }
+  ],
+  "KNR4-010725-05": [
+    {
+      "name": "wyciąg materialowy elektryczny 300 kg",
+      "jm": "m-g",
+      "nz": 0.08,
+      "ce": 12.5
+    }
+  ],
+  "KNR2-010506-07": [
+    {
+      "name": "spycharka gąsienicowa 100 KM",
+      "jm": "m-g",
+      "nz": 0.008,
+      "ce": 125.0
+    }
+  ],
+  "KNR2-310102-01": [
+    {
+      "name": "spycharka gąsienicowa 100 KM",
+      "jm": "m-g",
+      "nz": 0.006897,
+      "ce": 145.0
+    }
+  ],
+  "KNR2-010212-03": [
+    {
+      "name": "koparka gąsienicowa 0.25 m3",
+      "jm": "m-g",
+      "nz": 0.006667,
+      "ce": 150.0
+    }
+  ],
+  "KNR2-310103-02": [
+    {
+      "name": "zagęszczarka wibracyjna 150 kg",
+      "jm": "m-g",
+      "nz": 0.05,
+      "ce": 20.0
+    }
+  ],
+  "KNR2-310107-02": [
+    {
+      "name": "zagęszczarka wibracyjna 150 kg",
+      "jm": "m-g",
+      "nz": 0.05,
+      "ce": 20.0
+    }
+  ],
+  "KNR2-310106-03": [
+    {
+      "name": "zagęszczarka wibracyjna 150 kg",
+      "jm": "m-g",
+      "nz": 0.05,
+      "ce": 20.0
+    }
+  ],
+  "KNR4-010213-01": [
+    {
+      "name": "betoniarka elektryczna 160 l",
+      "jm": "m-g",
+      "nz": 0.025,
+      "ce": 40.0
+    }
+  ],
+  "KNR2-010516-03": [
+    {
+      "name": "samochód dostawczy 3.5 t",
+      "jm": "m-g",
+      "nz": 0.02,
+      "ce": 50.0
+    }
+  ],
+  "KNR2-010217-01": [
+    {
+      "name": "koparka gąsienicowa 0.15 m3",
+      "jm": "m-g",
+      "nz": 0.008,
+      "ce": 125.0
+    }
+  ],
+  "KNNR41308-02": [
+    {
+      "name": "koparka gąsienicowa 0.25 m3",
+      "jm": "m-g",
+      "nz": 0.003912,
+      "ce": 150.0
+    },
+    {
+      "name": "samochód skrzyniowy 5 t",
+      "jm": "m-g",
+      "nz": 0.001881,
+      "ce": 100.0
+    }
+  ],
+  "KNR2-310604-01": [
+    {
+      "name": "koparka gąsienicowa 0.25 m3",
+      "jm": "m-g",
+      "nz": 0.004762,
+      "ce": 170.0
+    },
+    {
+      "name": "samochód dostawczy 3.5 t",
+      "jm": "m-g",
+      "nz": 0.003175,
+      "ce": 60.0
+    }
+  ],
+  "KNR4-010701-02": [
+    {
+      "name": "rusztowanie stalowe aluminiowe",
+      "jm": "m-g",
+      "nz": 0.008,
+      "ce": 125.0
+    }
+  ],
+  "KNR2-131009-02": [
+    {
+      "name": "wiertarka elektryczna ręczna 1.2 kW",
+      "jm": "m-g",
+      "nz": 0.1,
+      "ce": 10.0
+    }
+  ],
+  "KNRAT-051651-01": [
+    {
+      "name": "wyciąg budowlany elektryczny 300 kg",
+      "jm": "m-g",
+      "nz": 0.1,
+      "ce": 10.0
+    }
+  ],
+  "KNR4-010354-15": [
+    {
+      "name": "drabina aluminiowa 3-elementowa",
+      "jm": "m-g",
+      "nz": 0.05,
+      "ce": 20.0
+    }
+  ],
+  "KNR2-020616-02": [
+    {
+      "name": "wyciąg ręczny łańcuchowy 1 t",
+      "jm": "m-g",
+      "nz": 0.1,
+      "ce": 10.0
+    }
+  ],
+  "KNR4-011204-08": [
+    {
+      "name": "wyciąg elektryczny 300 kg",
+      "jm": "m-g",
+      "nz": 0.05,
+      "ce": 20.0
+    }
   ]
 }
