@@ -46,6 +46,23 @@ from sqlalchemy.orm import Session
 # Utwórz tabele przy starcie (jeśli nie istnieją)
 models.Base.metadata.create_all(bind=engine)
 
+# Migracja: dodaj nowe kolumny jeśli nie istnieją (bezpieczne — idempotentne)
+def _run_migrations():
+    from sqlalchemy import text
+    with engine.connect() as conn:
+        for sql in [
+            "ALTER TABLE users ADD COLUMN IF NOT EXISTS is_admin BOOLEAN DEFAULT FALSE",
+            "ALTER TABLE users ADD COLUMN IF NOT EXISTS can_generate BOOLEAN DEFAULT FALSE",
+            "CREATE TABLE IF NOT EXISTS feedback (id SERIAL PRIMARY KEY, user_id INTEGER REFERENCES users(id), rating INTEGER NOT NULL, message TEXT, context VARCHAR, created_at TIMESTAMP DEFAULT NOW())",
+        ]:
+            try:
+                conn.execute(text(sql))
+            except Exception:
+                pass
+        conn.commit()
+
+_run_migrations()
+
 # ---------------------------------------------------------------------------
 # App
 # ---------------------------------------------------------------------------
