@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, DateTime, ForeignKey
+from sqlalchemy import Column, Integer, String, DateTime, ForeignKey, Text
 from sqlalchemy.orm import relationship
 from datetime import datetime
 from database import Base
@@ -28,3 +28,14 @@ class Kosztorys(Base):
     created_at = Column(DateTime, default=datetime.utcnow)
 
     owner = relationship("User", back_populates="kosztorysy")
+
+
+class Feedback(Base):
+    __tablename__ = "feedback"
+
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id"), nullable=True)  # nullable — gość też może oceniać
+    rating = Column(Integer, nullable=False)   # 1–5
+    message = Column(Text, nullable=True)
+    context = Column(String, nullable=True)    # np. "after_generate", "general"
+    created_at = Column(DateTime, default=datetime.utcnow)

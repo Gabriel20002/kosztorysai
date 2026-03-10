@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from 'react'
 import { useAuth } from '../context/AuthContext'
 import { Link } from 'react-router-dom'
+import FeedbackWidget from '../components/FeedbackWidget'
 
 const API = import.meta.env.VITE_API_URL ?? ''
 
@@ -25,6 +26,7 @@ export default function Dashboard() {
     const inputRef = useRef(null)
     const [history, setHistory] = useState([])
     const [historyLoading, setHistoryLoading] = useState(false)
+    const [showFeedback, setShowFeedback] = useState(false)
 
     const [params, setParams] = useState({
         nazwa: '',
@@ -71,6 +73,7 @@ export default function Dashboard() {
             const data = await res.json()
             if (!res.ok) throw new Error(data.detail || 'Błąd serwera')
             setResult(data)
+            setShowFeedback(true)
         } catch (e) {
             setError(e.message)
         } finally {
@@ -222,6 +225,14 @@ export default function Dashboard() {
                                 )}
                             </div>
                         </div>
+                    )}
+
+                    {/* Feedback po generowaniu */}
+                    {showFeedback && result && (
+                        <FeedbackWidget
+                            context="after_generate"
+                            onClose={() => setShowFeedback(false)}
+                        />
                     )}
 
                     {/* Błąd */}

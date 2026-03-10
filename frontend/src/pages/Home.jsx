@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
+import { useAuth } from '../context/AuthContext';
 
 export default function Home() {
+    const { user } = useAuth();
     return (
         <>
             {/* Hero Section */}
@@ -20,9 +22,16 @@ export default function Home() {
                         Poznaj precyzję automatycznych obmiarów i ślepych kosztorysów generowanych przez AI. Zautomatyzuj procesy, zmniejsz ilość błędów o 99% i wygrywaj więcej przetargów dzięki technologii BuildAI.
                     </p>
                     <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4 mt-4">
-                        <Link to="/pricing" className="flex items-center justify-center h-12 px-8 rounded-lg bg-white text-slate-900 font-bold hover:bg-slate-200 transition-colors">
-                            Rozpocznij Okres Próbny
-                        </Link>
+                        {user ? (
+                            <Link to="/dashboard" className="flex items-center justify-center gap-2 h-12 px-8 rounded-lg bg-primary hover:bg-sky-400 text-white font-bold transition-colors shadow-lg shadow-primary/30">
+                                <span className="material-symbols-outlined text-xl">rocket_launch</span>
+                                Generuj Kosztorys
+                            </Link>
+                        ) : (
+                            <Link to="/pricing" className="flex items-center justify-center h-12 px-8 rounded-lg bg-white text-slate-900 font-bold hover:bg-slate-200 transition-colors">
+                                Rozpocznij Okres Próbny
+                            </Link>
+                        )}
                         <button className="flex items-center justify-center h-12 px-8 rounded-lg bg-slate-800/50 border border-slate-700 hover:bg-slate-800 text-white font-bold transition-all gap-2 group">
                             <span className="material-symbols-outlined text-primary group-hover:scale-110 transition-transform">play_circle</span>
                             Zobacz Demo

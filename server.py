@@ -245,6 +245,53 @@ async def generate(
 
 
 # ---------------------------------------------------------------------------
+# Feedback
+# ---------------------------------------------------------------------------
+
+class FeedbackBody(BaseModel):
+    rating: int        # 1–5
+    message: str = ""
+    context: str = "general"
+
+@app.post("/api/feedback")
+def submit_feedback(
+    body: FeedbackBody,
+    current_user: models.User = Depends(auth.get_optional_user),
+    db: Session = Depends(get_db),
+):
+    if not (1 <= body.rating <= 5):
+        raise HTTPException(400, "Ocena musi być w zakresie 1–5")
+    fb = models.Feedback(
+        user_id=current_user.id if current_user else None,
+        rating=body.rating,
+        message=body.message[:2000] if body.message else "",
+        context=body.context,
+    )
+    db.add(fb)
+    db.commit()
+    return {"ok": True}
+
+@app.get("/api/feedback")
+def get_feedback(
+    current_user: models.User = Depends(auth.get_current_user),
+    db: Session = Depends(get_db),
+):
+    """Widok dla admina — wszystkie opinie."""
+    items = db.query(models.Feedback).order_by(models.Feedback.created_at.desc()).limit(200).all()
+    return [
+        {
+            "id": f.id,
+            "user_id": f.user_id,
+            "rating": f.rating,
+            "message": f.message,
+            "context": f.context,
+            "created_at": f.created_at.isoformat() if f.created_at else None,
+        }
+        for f in items
+    ]
+
+
+# ---------------------------------------------------------------------------
 # Frontend statyczny
 # ---------------------------------------------------------------------------
 
