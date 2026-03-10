@@ -49,6 +49,12 @@ export default function Navbar() {
                 <div className="flex items-center gap-4">
                     {user ? (
                         <>
+                            {user.is_admin && (
+                                <SmartLink to="/admin" className="hidden sm:flex items-center gap-1.5 text-yellow-400 hover:text-yellow-300 text-sm font-medium transition-colors">
+                                    <span className="material-symbols-outlined text-base">admin_panel_settings</span>
+                                    Admin
+                                </SmartLink>
+                            )}
                             <SmartLink to="/dashboard" className="hidden sm:flex items-center gap-2 text-slate-300 hover:text-white text-sm font-medium transition-colors">
                                 <span className="material-symbols-outlined text-base text-primary">person</span>
                                 {user.name || user.email}

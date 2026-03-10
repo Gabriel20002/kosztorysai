@@ -88,7 +88,14 @@ class LoginBody(BaseModel):
     password: str
 
 def _user_dict(user: models.User) -> dict:
-    return {"id": user.id, "email": user.email, "name": user.name, "plan": user.plan}
+    return {
+        "id": user.id,
+        "email": user.email,
+        "name": user.name,
+        "plan": user.plan,
+        "is_admin": user.is_admin,
+        "can_generate": user.can_generate,
+    }
 
 
 @app.post("/api/auth/register")
@@ -164,6 +171,12 @@ async def generate(
     current_user: models.User = Depends(auth.get_optional_user),
     db: Session = Depends(get_db),
 ):
+    # Sprawdź uprawnienie do generowania
+    if not current_user:
+        raise HTTPException(401, "Musisz być zalogowany aby generować kosztorysy")
+    if not current_user.can_generate and not current_user.is_admin:
+        raise HTTPException(403, "Brak uprawnień do generowania. Skontaktuj się z administratorem.")
+
     if not file.filename or not file.filename.lower().endswith(".pdf"):
         raise HTTPException(400, "Wymagany plik PDF")
     if format not in ("ath", "pdf", "both"):
@@ -242,6 +255,80 @@ async def generate(
         db.commit()
 
     return {"files": files}
+
+
+# ---------------------------------------------------------------------------
+# Admin
+# ---------------------------------------------------------------------------
+
+@app.get("/api/admin/users")
+def admin_list_users(
+    admin: models.User = Depends(auth.get_admin_user),
+    db: Session = Depends(get_db),
+):
+    users = db.query(models.User).order_by(models.User.created_at.desc()).all()
+    return [_user_dict(u) for u in users]
+
+
+class PatchUserBody(BaseModel):
+    can_generate: bool = None
+    is_admin: bool = None
+
+@app.patch("/api/admin/users/{user_id}")
+def admin_patch_user(
+    user_id: int,
+    body: PatchUserBody,
+    admin: models.User = Depends(auth.get_admin_user),
+    db: Session = Depends(get_db),
+):
+    user = db.query(models.User).filter(models.User.id == user_id).first()
+    if not user:
+        raise HTTPException(404, "Użytkownik nie istnieje")
+    if body.can_generate is not None:
+        user.can_generate = body.can_generate
+    if body.is_admin is not None:
+        user.is_admin = body.is_admin
+    db.commit()
+    db.refresh(user)
+    return _user_dict(user)
+
+
+@app.get("/api/admin/feedback")
+def admin_get_feedback(
+    admin: models.User = Depends(auth.get_admin_user),
+    db: Session = Depends(get_db),
+):
+    items = db.query(models.Feedback).order_by(models.Feedback.created_at.desc()).limit(500).all()
+    return [
+        {
+            "id": f.id,
+            "user_id": f.user_id,
+            "rating": f.rating,
+            "message": f.message,
+            "context": f.context,
+            "created_at": f.created_at.isoformat() if f.created_at else None,
+        }
+        for f in items
+    ]
+
+
+@app.post("/api/admin/seed")
+def admin_seed(
+    email: str,
+    db: Session = Depends(get_db),
+):
+    """Jednorazowe: nadaj uprawnienia admina użytkownikowi po emailu.
+    Działa tylko gdy w bazie nie ma jeszcze żadnego admina (zabezpieczenie)."""
+    existing_admin = db.query(models.User).filter(models.User.is_admin == True).first()
+    if existing_admin:
+        raise HTTPException(403, "Admin już istnieje — użyj panelu admin")
+    user = db.query(models.User).filter(models.User.email == email).first()
+    if not user:
+        raise HTTPException(404, "Nie znaleziono użytkownika o tym emailu")
+    user.is_admin = True
+    user.can_generate = True
+    db.commit()
+    return {"ok": True, "admin": user.email}
 
 
 # ---------------------------------------------------------------------------

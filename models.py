@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, DateTime, ForeignKey, Text
+from sqlalchemy import Column, Integer, String, DateTime, ForeignKey, Text, Boolean
 from sqlalchemy.orm import relationship
 from datetime import datetime
 from database import Base
@@ -12,6 +12,8 @@ class User(Base):
     name = Column(String, nullable=False)
     hashed_password = Column(String, nullable=False)
     plan = Column(String, default="free")
+    is_admin = Column(Boolean, default=False)
+    can_generate = Column(Boolean, default=False)  # admin nadaje prawo ręcznie
     created_at = Column(DateTime, default=datetime.utcnow)
 
     kosztorysy = relationship("Kosztorys", back_populates="owner")

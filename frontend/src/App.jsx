@@ -13,6 +13,7 @@ import Features from './pages/Features'
 import HowItWorks from './pages/HowItWorks'
 import GetStarted from './pages/GetStarted'
 import AddProgram from './pages/AddProgram'
+import Admin from './pages/Admin'
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
           <Route path="/how-it-works" element={<HowItWorks />} />
           <Route path="/get-started" element={<GetStarted />} />
           <Route path="/add-program" element={<AddProgram />} />
+          <Route path="/admin" element={<Admin />} />
         </Routes>
       </main>
 
