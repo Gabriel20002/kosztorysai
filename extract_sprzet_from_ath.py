@@ -138,14 +138,18 @@ def parse_ath_for_sprzet(path: Path) -> dict:
 
 
 def collect_ath_files(sources: list) -> list:
+    """Pomija *_kosztorys.ath — nasze wygenerowane pliki zawierają fallback sprzęt budowlany
+    który zatrułby bazę wzorcową."""
     files = []
     for src in sources:
         p = Path(src)
         if p.is_file() and p.suffix.lower() == '.ath':
-            files.append(p)
+            if not p.stem.endswith('_kosztorys'):
+                files.append(p)
         elif p.is_dir():
-            files.extend(p.glob('*.ATH'))
-            files.extend(p.glob('*.ath'))
+            for f in list(p.glob('*.ATH')) + list(p.glob('*.ath')):
+                if not f.stem.endswith('_kosztorys'):
+                    files.append(f)
     return list(dict.fromkeys(files))
 
 

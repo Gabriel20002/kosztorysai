@@ -1470,8 +1470,9 @@ class KosztorysGenerator:
             n = self._naklady_index[podstawa_norm]
             return n.get('R', 0), n.get('M', 0), n.get('S', 0), 0.95, 'exact', n.get('knr', podstawa)
 
-        # Częściowe dopasowanie (tylko gdy podstawa niepusta — pusta pasuje do WSZYSTKIEGO)
-        if podstawa_norm:
+        # Częściowe dopasowanie — tylko gdy klucz ma pełny numer tablicy (≥12 znaków)
+        # Zbyt krótki klucz (np. "KNR4-01") pasuje do WSZYSTKICH pozycji z danego katalogu
+        if len(podstawa_norm) >= 12:
             for knr_norm, n in self._naklady_index.items():
                 if podstawa_norm in knr_norm or knr_norm in podstawa_norm:
                     return n.get('R', 0), n.get('M', 0), n.get('S', 0), 0.7, 'partial', n.get('knr', podstawa)

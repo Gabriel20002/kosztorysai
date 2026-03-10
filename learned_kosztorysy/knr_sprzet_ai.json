@@ -1656,5 +1656,135 @@
       "nz": 0.01,
       "ce": 175.0
     }
+  ],
+  "OPIS:336f5c7183ee": [
+    {
+      "name": "samochód skrzyniowy 5 t",
+      "jm": "m-g",
+      "nz": 0.5,
+      "ce": 100.0
+    },
+    {
+      "name": "wyciąg budowlany 300 kg",
+      "jm": "m-g",
+      "nz": 0.3,
+      "ce": 15.0
+    },
+    {
+      "name": "rusztowanie metalowe (wynajem)",
+      "jm": "m-g",
+      "nz": 0.8,
+      "ce": 25.0
+    }
+  ],
+  "OPIS:56e36e081a10": [
+    {
+      "name": "wyciąg elektryczny 500 kg",
+      "jm": "m-g",
+      "nz": 0.371875,
+      "ce": 20.0
+    },
+    {
+      "name": "wiertarka elektryczna",
+      "jm": "m-g",
+      "nz": 0.10625,
+      "ce": 10.0
+    }
+  ],
+  "OPIS:da4aa178cd8a": [
+    {
+      "name": "wyciąg budowlany 500 kg",
+      "jm": "m-g",
+      "nz": 0.15,
+      "ce": 15.0
+    },
+    {
+      "name": "rusztowanie stalowe przejezdne",
+      "jm": "m-g",
+      "nz": 0.1,
+      "ce": 12.0
+    }
+  ],
+  "KNRAT-05": [
+    {
+      "name": "żuraw słupowy 8 t",
+      "jm": "m-g",
+      "nz": 0.8,
+      "ce": 250.0
+    },
+    {
+      "name": "samochód skrzyniowy 5 t",
+      "jm": "m-g",
+      "nz": 0.4,
+      "ce": 100.0
+    },
+    {
+      "name": "wyciąg budowlany elektryczny 300 kg",
+      "jm": "m-g",
+      "nz": 0.3,
+      "ce": 15.0
+    }
+  ],
+  "OPIS:c395eeb58d41": [
+    {
+      "name": "przecinarka do blachy elektryczna",
+      "jm": "m-g",
+      "nz": 0.422426,
+      "ce": 20.0
+    },
+    {
+      "name": "urządzenie do gięcia blachy ręczne",
+      "jm": "m-g",
+      "nz": 0.253456,
+      "ce": 12.0
+    }
+  ],
+  "OPIS:06f4fea46caf": [
+    {
+      "name": "wyciąg elektryczny budowlany 500 kg",
+      "jm": "m-g",
+      "nz": 0.25,
+      "ce": 15.0
+    },
+    {
+      "name": "wiertarka elektryczna udarowa 1100 W",
+      "jm": "m-g",
+      "nz": 0.15,
+      "ce": 8.0
+    },
+    {
+      "name": "samochód dostawczy 2.5 t",
+      "jm": "m-g",
+      "nz": 0.1,
+      "ce": 60.0
+    }
+  ],
+  "OPIS:a6bc319cf445": [
+    {
+      "name": "wiertarka elektryczna uchylna 1.2 kW",
+      "jm": "m-g",
+      "nz": 0.8,
+      "ce": 12.0
+    },
+    {
+      "name": "wyciąg budowlany elektryczny 500 kg",
+      "jm": "m-g",
+      "nz": 0.3,
+      "ce": 15.0
+    }
+  ],
+  "OPIS:41ccc6839b5e": [
+    {
+      "name": "samochód dostawczy 3.5 t",
+      "jm": "m-g",
+      "nz": 0.02,
+      "ce": 60.0
+    },
+    {
+      "name": "urządzenie natryskowe do gruntowania",
+      "jm": "m-g",
+      "nz": 0.03,
+      "ce": 25.0
+    }
   ]
 }

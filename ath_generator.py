@@ -271,6 +271,7 @@ class ATHGenerator:
         }
 
         # Krok 1: DB lookup — zbierz brakujące do AI
+        import hashlib as _hashlib
         ai_needed = []  # [{knr_norm, knr, opis, jm, m_per_jm, poz_idx}]
         for idx, poz in enumerate(pozycje):
             knr_norm = _podstawa_to_norm(poz.get('podstawa', ''))
@@ -281,18 +282,18 @@ class ATHGenerator:
                 pos_mats.append(None)   # placeholder — może zastąpiony przez AI
                 M = poz.get('M', 0.0) or 0.0
                 ilosc = poz.get('ilosc', 1) or 1
-                opis_l = (poz.get('opis', '') or '').lower()
+                opis = poz.get('opis', '') or ''
+                opis_l = opis.lower()
                 m_per_jm = M / ilosc if ilosc else 0.0
                 # Wywołaj AI gdy: M>0 LUB (M=0 ale opis sugeruje materiały)
-                needs_ai = (M > 0) or (
-                    M == 0 and knr_norm
-                    and any(kw in opis_l for kw in _MAT_KEYWORDS)
-                )
-                if knr_norm and needs_ai:
+                needs_ai = (M > 0) or any(kw in opis_l for kw in _MAT_KEYWORDS)
+                if needs_ai:
+                    # Gdy brak KNR: użyj hash opisu jako klucza cache
+                    ai_key = knr_norm or ('OPIS:' + _hashlib.md5(opis.encode('utf-8', errors='replace')).hexdigest()[:12])
                     ai_needed.append({
-                        'knr_norm': knr_norm,
-                        'knr': poz.get('podstawa', ''),
-                        'opis': poz.get('opis', '')[:80],
+                        'knr_norm': ai_key,
+                        'knr': poz.get('podstawa', '') or '(brak KNR)',
+                        'opis': opis[:80],
                         'jm': poz.get('jm', ''),
                         'm_per_jm': m_per_jm,  # 0.0 gdy M=0 — AI szacuje od zera
                         'poz_idx': idx,
@@ -362,6 +363,7 @@ class ATHGenerator:
         _FALLBACK_SPR_CE = 50.0  # realistyczna stawka maszyny fallback [PLN/m-g]
 
         # Krok 1: DB lookup sprzętu — zbierz brakujące do AI
+        import hashlib as _hashlib
         ai_spr_needed = []
         for idx, poz in enumerate(pozycje):
             knr_norm = _podstawa_to_norm(poz.get('podstawa', ''))
@@ -372,11 +374,14 @@ class ATHGenerator:
                 pos_sprzet.append(None)
                 S = poz.get('S', 0.0) or 0.0
                 ilosc = poz.get('ilosc', 1) or 1
-                if knr_norm and S > 0:
+                if S > 0:
+                    # Gdy brak KNR: użyj hash opisu jako klucza cache
+                    opis = poz.get('opis', '')
+                    ai_key = knr_norm or ('OPIS:' + _hashlib.md5(opis.encode('utf-8', errors='replace')).hexdigest()[:12])
                     ai_spr_needed.append({
-                        'knr_norm': knr_norm,
-                        'knr': poz.get('podstawa', ''),
-                        'opis': poz.get('opis', '')[:80],
+                        'knr_norm': ai_key,
+                        'knr': poz.get('podstawa', '') or '(brak KNR)',
+                        'opis': opis[:80],
                         'jm': poz.get('jm', ''),
                         's_per_jm': S / ilosc,
                         'poz_idx': idx,
@@ -695,13 +700,24 @@ class ATHGenerator:
         with open(output_path, 'w', encoding='cp1250', errors='replace') as f:
             f.write(content)
 
-        mat_count = sum(1 for m in pos_mats if m is not None)
-        spr_db_count = sum(1 for m in pos_sprzet if m and m[0]['name'] != 'sprzęt budowlany')
+        # Statystyki źródeł — ile pozycji skorzystało z DB / AI / fallback
+        def _is_fallback_mat(mats):
+            return mats and len(mats) == 1 and (mats[0].get('name', '').startswith('Materiały:') or mats[0].get('name') == 'Materiały budowlane')
+
+        mat_db_count       = sum(1 for idx, m in enumerate(pos_mats) if m is not None and _podstawa_to_norm(pozycje[idx].get('podstawa','')) in self._mat_db)
+        mat_ai_count       = sum(1 for m in pos_mats if m is not None) - mat_db_count - sum(1 for m in pos_mats if _is_fallback_mat(m))
+        mat_fallback_count = sum(1 for m in pos_mats if _is_fallback_mat(m))
         spr_fallback_count = sum(1 for m in pos_sprzet if m and m[0]['name'] == 'sprzęt budowlany')
+        spr_db_count       = sum(1 for idx, m in enumerate(pos_sprzet) if m and _podstawa_to_norm(pozycje[idx].get('podstawa','')) in self._spr_db)
+        spr_ai_count       = sum(1 for m in pos_sprzet if m) - spr_db_count - spr_fallback_count
+
         log.info(
-            "Zapisano ATH (%d poz, mat=%d, sprzet_db=%d, sprzet_fallback=%d): %s",
-            len(pozycje), mat_count, spr_db_count, spr_fallback_count, output_path,
+            "ATH zapisano | %d pozycji | mat: %d DB / %d AI / %d fallback | sprzet: %d DB / %d AI / %d fallback",
+            len(pozycje), mat_db_count, mat_ai_count, mat_fallback_count,
+            spr_db_count, spr_ai_count, spr_fallback_count,
         )
+        if spr_fallback_count:
+            log.warning("UWAGA: %d pozycji nadal ma fallback 'sprzet budowlany' — sprawdz AI cache", spr_fallback_count)
         return output_path
 
 

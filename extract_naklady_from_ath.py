@@ -159,16 +159,21 @@ def _maybe_append(results, knr, opis, jm, kj):
 
 
 def collect_ath_files(sources: list) -> list:
-    """Zbiera pliki ATH ze wszystkich wskazanych ścieżek."""
+    """Zbiera pliki ATH ze wszystkich wskazanych ścieżek.
+    WAŻNE: pomija pliki *_kosztorys.ath — to nasze wygenerowane pliki,
+    których wczytanie do bazy zatrułoby ją błędnymi wartościami.
+    """
     files = []
     for src in sources:
         p = Path(src)
         if p.is_file() and p.suffix.lower() == '.ath':
-            files.append(p)
+            if not p.stem.endswith('_kosztorys'):
+                files.append(p)
         elif p.is_dir():
-            files.extend(p.glob('*.ATH'))
-            files.extend(p.glob('*.ath'))
-    return list(dict.fromkeys(files))  # usuń duplikaty zachowując kolejność
+            for f in list(p.glob('*.ATH')) + list(p.glob('*.ath')):
+                if not f.stem.endswith('_kosztorys'):
+                    files.append(f)
+    return list(dict.fromkeys(files))
 
 
 def merge_into_db(new_entries: list, db_path: Path) -> tuple:
@@ -198,6 +203,14 @@ def merge_into_db(new_entries: list, db_path: Path) -> tuple:
         knr_norm = ws_re.sub('', entry.get('knr', '').upper())
         if not knr_norm:
             continue
+        # Odrzuć rekordy z objawami skażenia:
+        # - S==1.0 (stary placeholder) przy wysokim R
+        # - Krótki klucz KNR (brak numeru tablicy) przy bardzo wysokim R
+        R, M, S = entry.get('R', 0), entry.get('M', 0), entry.get('S', 0)
+        if S == 1.0 and R > 100:
+            continue  # skażenie S=1 z naszych wygenerowanych ATH
+        if len(knr_norm) < 10 and R > 200:
+            continue  # krótki KNR z zawyżonym R
         if knr_norm in idx:
             old = existing[idx[knr_norm]]
             # Aktualizuj tylko jeśli nowe wartości są lepsze (niezerowe)

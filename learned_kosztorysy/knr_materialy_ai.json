@@ -2108,5 +2108,73 @@
       "nz": 1.0,
       "ce": 8.0
     }
+  ],
+  "OPIS:56e36e081a10": [
+    {
+      "name": "Uchwyt do pręta odgromowego ocynkowany M10",
+      "jm": "szt",
+      "nz": 7.462687,
+      "ce": 10.63
+    },
+    {
+      "name": "Śruba ocynkowana M10x25 z łbem sześciokątnym",
+      "jm": "szt",
+      "nz": 14.925373,
+      "ce": 0.38
+    }
+  ],
+  "OPIS:da4aa178cd8a": [
+    {
+      "name": "Grunt akrylowy do podłoży mineralnych",
+      "jm": "l",
+      "nz": 0.120038,
+      "ce": 15.92
+    }
+  ],
+  "OPIS:c395eeb58d41": [
+    {
+      "name": "Blacha powlekana stalowa, powłoka poliesterowa, grubość 0,5 mm",
+      "jm": "m2",
+      "nz": 1.052954,
+      "ce": 145.0
+    },
+    {
+      "name": "Śruby samowiercące ocynkowane 4,8x19 mm",
+      "jm": "kg",
+      "nz": 0.073249,
+      "ce": 28.0
+    },
+    {
+      "name": "Uszczelka EPDM do obróbek blacharskich",
+      "jm": "szt",
+      "nz": 2.289031,
+      "ce": 8.5
+    },
+    {
+      "name": "Klej poliuretanowy do blachy",
+      "jm": "kg",
+      "nz": 0.137342,
+      "ce": 42.0
+    },
+    {
+      "name": "Zaślepka plastikowa do śrub 4,8 mm",
+      "jm": "szt",
+      "nz": 10.987347,
+      "ce": 0.35
+    }
+  ],
+  "OPIS:41ccc6839b5e": [
+    {
+      "name": "Emulsja bitumiczna kat. E-65",
+      "jm": "l",
+      "nz": 0.132939,
+      "ce": 9.5
+    },
+    {
+      "name": "Primer epoksydowy do betonu",
+      "jm": "m3",
+      "nz": 0.099704,
+      "ce": 6.5
+    }
   ]
 }
