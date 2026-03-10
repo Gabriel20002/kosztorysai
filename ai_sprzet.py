@@ -59,15 +59,31 @@ def _normalize(machines: list, target_s: float) -> list:
     return [{**m, 'nz': round(m['nz'] * factor, 6)} for m in machines]
 
 
+# Próg poniżej którego wartość s_per_jm uznajemy za placeholder (S=1 z bazy)
+_S_PLACEHOLDER_THRESHOLD = 1.0
+
+
 def _call_api_one(item: dict, api_key: str) -> list:
     import anthropic
+
+    s = item['s_per_jm']
+    if s >= _S_PLACEHOLDER_THRESHOLD:
+        s_line = (
+            f"Wartość sprzętu: {s:.4f} PLN/{item['jm']}\n\n"
+            "Podaj sprzęt jako JSON — lista maszyn, gdzie suma(nz*ce) ≈ wartości powyżej."
+        )
+    else:
+        # s_per_jm pochodzi z placeholdera (S=1 z bazy) — ignoruj tę liczbę
+        s_line = (
+            "Wartość sprzętu: nieznana (podaj typowy sprzęt wg KNR, suma(nz*ce) wg norm).\n\n"
+            "Podaj sprzęt jako JSON z typowymi nakładami dla tej roboty."
+        )
 
     user_msg = (
         f"KNR: {item['knr']}\n"
         f"Opis: {item['opis'][:80]}\n"
         f"Jednostka miary: {item['jm']}\n"
-        f"Wartość sprzętu: {item['s_per_jm']:.4f} PLN/{item['jm']}\n\n"
-        "Podaj sprzęt jako JSON — lista maszyn, gdzie suma(nz*ce) ≈ wartości powyżej.\n"
+        f"{s_line}\n"
         'Format: [{"name": "samochód skrzyniowy 5 t", "jm": "m-g", "nz": 0.05, "ce": 100.0}, ...]'
     )
 
@@ -104,6 +120,7 @@ def estimate_sprzet_batch(items: list) -> dict:
         return {}
 
     cache = _load_cache()
+    # Wywołuj AI dla KNRów bez cache — zarówno gdy s_per_jm>0 jak i gdy s<1 (placeholder)
     to_fetch = [it for it in items if it['knr_norm'] not in cache and it.get('s_per_jm', 0) > 0]
 
     if not to_fetch:
@@ -117,13 +134,21 @@ def estimate_sprzet_batch(items: list) -> dict:
         try:
             raw = _call_api_one(it, api_key)
             if isinstance(raw, list) and raw:
-                normalized = _normalize(raw, it['s_per_jm'])
+                s = it['s_per_jm']
+                if s >= _S_PLACEHOLDER_THRESHOLD:
+                    # normalizuj do realnej wartości S
+                    normalized = _normalize(raw, s)
+                else:
+                    # s_per_jm był placeholderem — nie skaluj, zostaw nakłady AI
+                    normalized = raw
                 normalized = [m for m in normalized if m.get('ce', 0) > 0 and m.get('nz', 0) > 0]
-                cache[norm_key] = normalized
-                saved += 1
-            elif it.get('s_per_jm', 0) <= 0:
-                cache[norm_key] = []
-                saved += 1
+                if normalized:
+                    cache[norm_key] = normalized
+                    saved += 1
+                    continue
+            # AI zwróciło [] lub pustą listę po filtrze — zapisz [] żeby nie ponawiać co run
+            cache[norm_key] = []
+            saved += 1
         except Exception as e:
             log.warning("AI sprzęt błąd dla %s: %s", it['knr'], e)
 

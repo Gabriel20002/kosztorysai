@@ -1268,5 +1268,715 @@
       "nz": 0.031313,
       "ce": 35.0
     }
+  ],
+  "KNR2-020231-03": [
+    {
+      "name": "Drewno konstrukcyjne klasy C24 przekrój 120x120 mm",
+      "jm": "m3",
+      "nz": 0.496519,
+      "ce": 650.0
+    },
+    {
+      "name": "Deski szalunkowe sosnowe grubość 25 mm",
+      "jm": "m3",
+      "nz": 0.231709,
+      "ce": 320.0
+    },
+    {
+      "name": "Śruby górnicze do drewna średnica 10 mm długość 120 mm",
+      "jm": "kg",
+      "nz": 5.627215,
+      "ce": 18.0
+    },
+    {
+      "name": "Kołki drewniane do szalunku średnica 14 mm",
+      "jm": "szt",
+      "nz": 29.791139,
+      "ce": 1.2
+    },
+    {
+      "name": "Taśma kopalna bitumiczna szerokość 10 cm",
+      "jm": "m",
+      "nz": 7.944304,
+      "ce": 8.5
+    }
+  ],
+  "KNR2-020211-04": [
+    {
+      "name": "Drewno iglaste tarcica konstrukcyjna klasy C24, 50x100 mm",
+      "jm": "m3",
+      "nz": 0.243141,
+      "ce": 650.0
+    },
+    {
+      "name": "Drewno iglaste tarcica konstrukcyjna klasa C18, 50x150 mm",
+      "jm": "m3",
+      "nz": 0.18911,
+      "ce": 580.0
+    },
+    {
+      "name": "Deska drewniana iglasta do szalowania, 25x150 mm",
+      "jm": "m3",
+      "nz": 0.135079,
+      "ce": 420.0
+    },
+    {
+      "name": "Gwoździe budowlane ocynkowane 3.5x90 mm",
+      "jm": "kg",
+      "nz": 4.322514,
+      "ce": 8.5
+    },
+    {
+      "name": "Śruby ramowe ocynkowane 10x120 mm",
+      "jm": "szt",
+      "nz": 6.483771,
+      "ce": 2.8
+    },
+    {
+      "name": "Cienkowarstwowy preparat do drewna, antyseptyk",
+      "jm": "L",
+      "nz": 1.350786,
+      "ce": 45.0
+    }
+  ],
+  "KNR2-020506-02": [
+    {
+      "name": "Blacha stalowa powlekana (ocynkowana) gr. 0,75 mm",
+      "jm": "m2",
+      "nz": 3.665377,
+      "ce": 45.5
+    },
+    {
+      "name": "Blacha stalowa powlekana (ocynkowana) gr. 1,0 mm",
+      "jm": "m2",
+      "nz": 3.665377,
+      "ce": 52.0
+    },
+    {
+      "name": "Zawias śruby do blachy powlekanej ocynkowanej 5x30 mm",
+      "jm": "kg",
+      "nz": 0.523625,
+      "ce": 85.0
+    },
+    {
+      "name": "Uszczelka EPDM do blach powlekanych",
+      "jm": "szt",
+      "nz": 8.727088,
+      "ce": 12.5
+    },
+    {
+      "name": "Nity żelazne ocynkowane 4x10 mm",
+      "jm": "kg",
+      "nz": 0.698167,
+      "ce": 65.0
+    },
+    {
+      "name": "Klej uniwersalny do blachy powlekanej (1 kg)",
+      "jm": "kg",
+      "nz": 1.047251,
+      "ce": 75.0
+    },
+    {
+      "name": "Farba antykorozyjna do blachy powlekanej spray 400 ml",
+      "jm": "l",
+      "nz": 4.189002,
+      "ce": 32.0
+    },
+    {
+      "name": "Taśma montażowa do blach powlekanych 50 mm",
+      "jm": "m",
+      "nz": 10.472505,
+      "ce": 8.5
+    }
+  ],
+  "KNRAT-051651-01": [
+    {
+      "name": "Rura stalowa ocynkowana fi 48 mm, grubość ścianki 3,25 mm",
+      "jm": "m",
+      "nz": 0.410699,
+      "ce": 8.5
+    },
+    {
+      "name": "Łącznik (złączka) rusztowania ramowego ocynkowany",
+      "jm": "szt",
+      "nz": 0.211217,
+      "ce": 12.0
+    },
+    {
+      "name": "Podkład drewniany sosnowy 8x8 cm, długość 25 cm",
+      "jm": "szt",
+      "nz": 0.093874,
+      "ce": 4.5
+    },
+    {
+      "name": "Śruba ocynkowana M12, klasa 8.8, wraz z podkładką i nakrętką",
+      "jm": "szt",
+      "nz": 0.293356,
+      "ce": 1.2
+    }
+  ],
+  "KNNR50405-06": [
+    {
+      "name": "Skrzynka rozdzielnicza metalowa ocynkowana do 10 kg",
+      "jm": "szt",
+      "nz": 1.090573,
+      "ce": 1200.0
+    },
+    {
+      "name": "Konstrukcja nośna stalowa do mocowania skrzynki",
+      "jm": "szt.",
+      "nz": 1.090573,
+      "ce": 680.0
+    },
+    {
+      "name": "Śruby i bolce stalowe do montażu",
+      "jm": "kg",
+      "nz": 0.545287,
+      "ce": 28.0
+    },
+    {
+      "name": "Uszczelka elastomerowa do skrzynki",
+      "jm": "szt",
+      "nz": 1.090573,
+      "ce": 120.0
+    },
+    {
+      "name": "Klips mocujący stalowy ocynkowany",
+      "jm": "szt.",
+      "nz": 8.724584,
+      "ce": 18.75
+    }
+  ],
+  "KNNR50405-09": [
+    {
+      "name": "Skrzynka rozdzielnicza metalowa lakierowana do 150 kg",
+      "jm": "szt",
+      "nz": 1.051459,
+      "ce": 1680.0
+    },
+    {
+      "name": "Konstrukcja stalowa kątownik 40x40x4 mm do mocowania",
+      "jm": "m",
+      "nz": 12.617509,
+      "ce": 28.5
+    },
+    {
+      "name": "Śruby M10 ocynkowane z podkładkami i nakrętkami",
+      "jm": "szt",
+      "nz": 1.577189,
+      "ce": 35.0
+    },
+    {
+      "name": "Farba epoksydowa do drażenia metalu",
+      "jm": "l",
+      "nz": 1.051459,
+      "ce": 95.0
+    },
+    {
+      "name": "Uszczelka piankowa samoprzylepna do skrzynki",
+      "jm": "szt",
+      "nz": 4.205836,
+      "ce": 18.75
+    }
+  ],
+  "KNRAT-051660-06": [
+    {
+      "name": "Rusztowanie przesuwne wewnętrzne typu MP 800 - kolumna",
+      "jm": "szt",
+      "nz": 1.0,
+      "ce": 118.68
+    }
+  ],
+  "KNR2-310107-02": [
+    {
+      "name": "piasek do wyrównywania nawierzchni (0-2 mm)",
+      "jm": "m3",
+      "nz": 1.0,
+      "ce": 4.26
+    }
+  ],
+  "KNNR4-011411-04": [
+    {
+      "name": "Kruszywo naturalne do obsypki (piasek-żwir 0-32 mm)",
+      "jm": "m3",
+      "nz": 1.000026,
+      "ce": 38.74
+    }
+  ],
+  "KNR2-310604-01": [
+    {
+      "name": "Kręgi betonowe średnica 0,8 m",
+      "jm": "m3",
+      "nz": 2.44864,
+      "ce": 1480.0
+    },
+    {
+      "name": "Płyta denna betonowa średnica 0,8 m",
+      "jm": "m3",
+      "nz": 0.816213,
+      "ce": 650.0
+    },
+    {
+      "name": "Pierścień wzmacniający beton średnica 0,8 m",
+      "jm": "m3",
+      "nz": 3.264853,
+      "ce": 280.0
+    },
+    {
+      "name": "Żwir otoczakowy frakcja 16-32 mm",
+      "jm": "m3",
+      "nz": 2.040533,
+      "ce": 95.0
+    },
+    {
+      "name": "Piasek średni",
+      "jm": "m3",
+      "nz": 0.979456,
+      "ce": 65.0
+    },
+    {
+      "name": "Geowłóknina filtracyjna",
+      "jm": "m2",
+      "nz": 12.2432,
+      "ce": 12.5
+    },
+    {
+      "name": "Rura drenażowa PVC średnica 110 mm",
+      "jm": "m",
+      "nz": 3.264853,
+      "ce": 38.0
+    },
+    {
+      "name": "Kołnierz uszczelniający beton-rura",
+      "jm": "m",
+      "nz": 1.632427,
+      "ce": 85.0
+    }
+  ],
+  "KNR4-010526-04": [
+    {
+      "name": "Blacha ocynkowana do rynien, grubość 0,55 mm",
+      "jm": "m",
+      "nz": 0.34,
+      "ce": 12.0
+    },
+    {
+      "name": "Nity aluminiowe 4x12 mm",
+      "jm": "kg",
+      "nz": 0.0544,
+      "ce": 25.0
+    },
+    {
+      "name": "Uszczelniacz butylowy do rynien",
+      "jm": "szt",
+      "nz": 0.034,
+      "ce": 40.0
+    }
+  ],
+  "KNR4-010330-05": [
+    {
+      "name": "Cement portlandzki CEM I 42.5",
+      "jm": "kg",
+      "nz": 6.186072,
+      "ce": 42.5
+    },
+    {
+      "name": "Piasek do zaprawy",
+      "jm": "m3",
+      "nz": 0.03275,
+      "ce": 8500.0
+    },
+    {
+      "name": "Cegła klinkierowa pełna",
+      "jm": "szt",
+      "nz": 32.749794,
+      "ce": 1.35
+    },
+    {
+      "name": "Zaprawa remontowa do cegły",
+      "jm": "kg",
+      "nz": 8.733278,
+      "ce": 3.8
+    }
+  ],
+  "KNR4-011303-01": [
+    {
+      "name": "Stalowa rura kwadratowa 40x40x2 mm",
+      "jm": "m",
+      "nz": 0.483167,
+      "ce": 5.2
+    },
+    {
+      "name": "Śruba M16 klasy 8.8",
+      "jm": "szt",
+      "nz": 0.207071,
+      "ce": 8.4
+    },
+    {
+      "name": "Nakrętka M16",
+      "jm": "szt",
+      "nz": 0.110438,
+      "ce": 6.5
+    },
+    {
+      "name": "Podkładka stalowa M16",
+      "jm": "szt",
+      "nz": 0.069024,
+      "ce": 12.0
+    }
+  ],
+  "KNR4-010323-01": [
+    {
+      "name": "cegła pełna klinkierowa 250x120x65",
+      "jm": "szt.",
+      "nz": 0.541516,
+      "ce": 2.5
+    },
+    {
+      "name": "zaprawa murarska cementowo-wapienno-piaskowa M7.5",
+      "jm": "kg",
+      "nz": 0.003249,
+      "ce": 4000.0
+    },
+    {
+      "name": "siatka metalowa do armowania 4x4mm",
+      "jm": "m2",
+      "nz": 0.054152,
+      "ce": 12.0
+    }
+  ],
+  "KNR4-010722-02": [
+    {
+      "name": "cement portlandzki CEM I 42.5",
+      "jm": "kg",
+      "nz": 0.18725,
+      "ce": 8.5
+    },
+    {
+      "name": "wapno gaszane",
+      "jm": "kg",
+      "nz": 0.312084,
+      "ce": 5.2
+    },
+    {
+      "name": "piasek do zapraw",
+      "jm": "m3",
+      "nz": 0.998669,
+      "ce": 0.35
+    }
+  ],
+  "KNR4-010207-01": [
+    {
+      "name": "żwir 0-31.5 mm",
+      "jm": "m3",
+      "nz": 0.024969,
+      "ce": 520.0
+    },
+    {
+      "name": "cement portlandzki CEM I 42.5",
+      "jm": "kg",
+      "nz": 5.825996,
+      "ce": 0.42
+    },
+    {
+      "name": "woda",
+      "jm": "dm3",
+      "nz": 2.996226,
+      "ce": 0.15
+    }
+  ],
+  "KNNR4-010207-02": [
+    {
+      "name": "Materiały pomocnicze do wykucia (piasek, woda, szmaty)",
+      "jm": "m3",
+      "nz": 2.501296,
+      "ce": 8.49
+    }
+  ],
+  "KNR4-010205-05": [
+    {
+      "name": "cement portlandzki CEM I 42.5",
+      "jm": "kg",
+      "nz": 2.202499,
+      "ce": 0.85
+    },
+    {
+      "name": "piasek do zaprawy",
+      "jm": "m3",
+      "nz": 6.97458,
+      "ce": 0.22
+    },
+    {
+      "name": "woda",
+      "jm": "dm³",
+      "nz": 1.468333,
+      "ce": 0.05
+    },
+    {
+      "name": "plastyfikator do betonu",
+      "jm": "m3",
+      "nz": 0.091771,
+      "ce": 8.5
+    }
+  ],
+  "KNR4-010804-03": [
+    {
+      "name": "cement portlandzki CEM I 42.5",
+      "jm": "kg",
+      "nz": 0.131837,
+      "ce": 8.5
+    },
+    {
+      "name": "piasek do zaprawy",
+      "jm": "m3",
+      "nz": 0.30762,
+      "ce": 5.2
+    },
+    {
+      "name": "żywica epoksydowa dwuskładnikowa",
+      "jm": "kg",
+      "nz": 0.070313,
+      "ce": 12.0
+    }
+  ],
+  "KNR4-010804-05": [
+    {
+      "name": "cement portlandzki CEM I 42.5",
+      "jm": "kg",
+      "nz": 6.285714,
+      "ce": 3.5
+    },
+    {
+      "name": "piasek zaostrzony do zapraw 0-2 mm",
+      "jm": "m3",
+      "nz": 12.571429,
+      "ce": 1.8
+    },
+    {
+      "name": "zaprawa szybkowiążąca do napraw posadzek",
+      "jm": "kg",
+      "nz": 3.142857,
+      "ce": 2.4
+    },
+    {
+      "name": "emulsja do gruntowania posadzek",
+      "jm": "l",
+      "nz": 0.157143,
+      "ce": 18.0
+    }
+  ],
+  "KNR0-232612-01": [
+    {
+      "name": "Cement portlandzki CEM I 42.5",
+      "jm": "kg",
+      "nz": 8.235671,
+      "ce": 0.65
+    },
+    {
+      "name": "Piasek zwykły 0-2 mm",
+      "jm": "m3",
+      "nz": 24.707013,
+      "ce": 0.18
+    },
+    {
+      "name": "Żwir 2-8 mm",
+      "jm": "m3",
+      "nz": 16.471342,
+      "ce": 0.22
+    },
+    {
+      "name": "Plastyfikator do betonu",
+      "jm": "m3",
+      "nz": 0.705915,
+      "ce": 28.0
+    },
+    {
+      "name": "Epoksydowa szpachla do betonu",
+      "jm": "m3",
+      "nz": 6.588537,
+      "ce": 12.5
+    },
+    {
+      "name": "Grunt gruntujący do betonu",
+      "jm": "m3",
+      "nz": 1.176524,
+      "ce": 22.0
+    }
+  ],
+  "KNR4-010711-03": [
+    {
+      "name": "cement portlandzki CEM I 42.5",
+      "jm": "kg",
+      "nz": 0.132451,
+      "ce": 8.5
+    },
+    {
+      "name": "wapno gaszene",
+      "jm": "kg",
+      "nz": 0.220752,
+      "ce": 4.8
+    },
+    {
+      "name": "piasek do zapraw",
+      "jm": "m3",
+      "nz": 1.059611,
+      "ce": 1.3
+    },
+    {
+      "name": "woda",
+      "jm": "m3",
+      "nz": 0.000706,
+      "ce": 1.5
+    }
+  ],
+  "KNR0-230933-02": [
+    {
+      "name": "farba akrylowa do drewna i metalu, kolor szary",
+      "jm": "l",
+      "nz": 0.173221,
+      "ce": 35.0
+    },
+    {
+      "name": "grunt do metalu, fondo antykorozyjny",
+      "jm": "l",
+      "nz": 0.138576,
+      "ce": 42.0
+    },
+    {
+      "name": "szpachla uniwersalna do wypełniania nierówności",
+      "jm": "kg",
+      "nz": 0.288701,
+      "ce": 28.0
+    },
+    {
+      "name": "papier ścierny do ręcznego szlifowania, granulacja P120",
+      "jm": "m2",
+      "nz": 0.923843,
+      "ce": 3.5
+    }
+  ],
+  "KNR4-011204-08": [
+    {
+      "name": "grunt do tynków akrylowy",
+      "jm": "l",
+      "nz": 0.091348,
+      "ce": 45.0
+    },
+    {
+      "name": "szpachla do tynków wewnętrznych",
+      "jm": "kg",
+      "nz": 0.48719,
+      "ce": 12.5
+    },
+    {
+      "name": "papier ścierny do renowacji (P120)",
+      "jm": "m2",
+      "nz": 0.608988,
+      "ce": 2.0
+    },
+    {
+      "name": "taśma papierowa do spoin",
+      "jm": "m",
+      "nz": 0.304494,
+      "ce": 3.0
+    }
+  ],
+  "KNR4-011209-10": [
+    {
+      "name": "farba olejna na bazie rozpuszczalnika do drewna, kolor jasny",
+      "jm": "l",
+      "nz": 0.5,
+      "ce": 1728.02
+    }
+  ],
+  "KNR0-290642-02": [
+    {
+      "name": "Cement portlandzki CEM I 42.5",
+      "jm": "kg",
+      "nz": 16.815991,
+      "ce": 0.65
+    },
+    {
+      "name": "Piasek do zapraw średniozarnisty",
+      "jm": "m3",
+      "nz": 37.835979,
+      "ce": 0.15
+    },
+    {
+      "name": "Żwir do betonu frakcja 5-20 mm",
+      "jm": "m3",
+      "nz": 46.243974,
+      "ce": 0.12
+    },
+    {
+      "name": "Plastyfikator do betonu",
+      "jm": "m3",
+      "nz": 0.6306,
+      "ce": 25.0
+    },
+    {
+      "name": "Emulsja do gruntowania powierzchni betonowych",
+      "jm": "m3",
+      "nz": 1.050999,
+      "ce": 15.0
+    },
+    {
+      "name": "Zaprawa naprawcza do betonu szybkowiążąca",
+      "jm": "kg",
+      "nz": 10.509994,
+      "ce": 8.5
+    }
+  ],
+  "KNR4-010205-08": [
+    {
+      "name": "Cement portlandzki CEM I 42.5",
+      "jm": "kg",
+      "nz": 1.198991,
+      "ce": 0.85
+    },
+    {
+      "name": "Piasek drobny 0-2 mm",
+      "jm": "m3",
+      "nz": 3.596972,
+      "ce": 0.42
+    },
+    {
+      "name": "Woda",
+      "jm": "dm3",
+      "nz": 0.899243,
+      "ce": 0.15
+    },
+    {
+      "name": "Zaprawa klejąca do tynków",
+      "jm": "kg",
+      "nz": 0.749369,
+      "ce": 1.2
+    }
+  ],
+  "KNR4-010725-05": [
+    {
+      "name": "cement portlandzki CEM I 42.5",
+      "jm": "kg",
+      "nz": 0.094863,
+      "ce": 8.5
+    },
+    {
+      "name": "wapno gaszone",
+      "jm": "kg",
+      "nz": 0.158105,
+      "ce": 5.2
+    },
+    {
+      "name": "piasek budowlany 0-2 mm",
+      "jm": "m3",
+      "nz": 1.169976,
+      "ce": 0.85
+    },
+    {
+      "name": "dyspersja tynkowa zwykła",
+      "jm": "l",
+      "nz": 0.07589,
+      "ce": 12.4
+    }
   ]
 }

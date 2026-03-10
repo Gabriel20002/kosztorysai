@@ -2280,15 +2280,6 @@
     "S": 8.94
   },
   {
-    "knr": "KNR 0-31",
-    "opis": "Rozdzielacze do",
-    "jm": "kpl.",
-    "R": 213.3,
-    "M": 0.0,
-    "S": 0.0,
-    "source": "2. SIECIEBOROWICE KOSZTORYS SANITARNY"
-  },
-  {
     "knr": "KNR 0-31 0116-01",
     "opis": "Wywożenie gruzu spryzmowanego samochodami samowyładowczymi na odległość do 1 km",
     "jm": "m3",
@@ -2449,15 +2440,6 @@
     "S": 4.5
   },
   {
-    "knr": "KNR 0-35",
-    "opis": "Pompa obiegu instalacji",
-    "jm": "szt.",
-    "R": 727.31,
-    "M": 0.0,
-    "S": 0.0,
-    "source": "2. SIECIEBOROWICE KOSZTORYS SANITARNY"
-  },
-  {
     "knr": "KNR 0-35 0112-04",
     "opis": "pompa samozasysająca SKB2.01 wraz z podejściem",
     "jm": "szt.",
@@ -2616,15 +2598,6 @@
     "R": 147.88424,
     "M": 425.57,
     "S": 11.42781
-  },
-  {
-    "knr": "KNR 0-36",
-    "opis": "Uszczelnienie przejść",
-    "jm": "m",
-    "R": 715.34,
-    "M": 0.0,
-    "S": 0.0,
-    "source": "2. SIECIEBOROWICE KOSZTORYS SANITARNY"
   },
   {
     "knr": "KNR 0-36 1115-01",
@@ -4013,14 +3986,6 @@
     "S": 3.0
   },
   {
-    "knr": "KNR 2-02 1213-04",
-    "opis": "Systemowe drabiny zewnętrzne z kabłąkami o długości ponad 4 m z amknięciem wejścia na poziomie pierwszego kabłąka na kłódkę",
-    "jm": "m",
-    "R": 186.677,
-    "M": 1694.298,
-    "S": 1.0
-  },
-  {
     "knr": "KNR 2-02 1214-5",
     "opis": "Balustrady zewn. przy pochylniach stalowe niklowane dwuporęczowe",
     "jm": "m",
@@ -4203,15 +4168,6 @@
     "R": 5338.21,
     "M": 14474.85,
     "S": 873.95
-  },
-  {
-    "knr": "KNR 2-15",
-    "opis": "Hydrant przeciwpożarowy,",
-    "jm": "szt.",
-    "R": 467.25,
-    "M": 0.0,
-    "S": 0.0,
-    "source": "2. SIECIEBOROWICE KOSZTORYS SANITARNY"
   },
   {
     "knr": "KNR 2-15 0101-01",
@@ -4470,15 +4426,6 @@
     "S": 3.0
   },
   {
-    "knr": "KNR 2-18",
-    "opis": "Próba szczelności kanałów",
-    "jm": "m",
-    "R": 680.32,
-    "M": 0.0,
-    "S": 0.0,
-    "source": "2. SIECIEBOROWICE KOSZTORYS SANITARNY"
-  },
-  {
     "knr": "KNR 2-18 0501-01",
     "opis": "Kanały rurowe - podłoża z materiałów sypkich o grub.10 cm",
     "jm": "m2",
@@ -4719,14 +4666,6 @@
     "S": 3.73
   },
   {
-    "knr": "KNR 2-28 0501-09",
-    "opis": "Obsypka rurociągu kruszywem dowiezionym",
-    "jm": "m3",
-    "R": 180.247,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
     "knr": "KNR 2-31 0101-01",
     "opis": "Mechaniczne wykonanie koryta na całej szerokości jezdni głębokości 20 cm",
     "jm": "m2",
@@ -4924,14 +4863,6 @@
     "opis": "Warstwa odcinająca zagęszczana mechanicznie - 10 cm grubości po zagęszczeniu",
     "jm": "m2",
     "R": 0.483,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
-    "knr": "KNR 2-31 0107-02",
-    "opis": "Wyrownanie istniejącej podbudowy tłuczniem kamiennym sortowanym z zagęszczeniem mechanicznym - średnia grubość warstwy po zagęsz- czeniu ponad 10 cm",
-    "jm": "m3",
-    "R": 144.197,
     "M": 0.0,
     "S": 1.0
   },
@@ -5306,14 +5237,6 @@
     "source": "1. SIECIEBOROWICE BUDOWLANY DOPASOWA"
   },
   {
-    "knr": "KNR 2-31 0604-01",
-    "opis": "Studnie chłonne z kręgów o śr. 0.8 m i głębokości 2.0 m zbierająca wo- dę gruntową z pokrywą",
-    "jm": "szt.",
-    "R": 1634.504,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
     "knr": "KNR 2-31 0605-06",
     "opis": "Przepusty rurowe pod zjazdami - montaż przepustu z rur PEHD fi400, SN8",
     "jm": "m",
@@ -5450,37 +5373,12 @@
     "S": 0.0
   },
   {
-    "knr": "KNR 4-01",
-    "opis": "Uzupełnienie ścian lub",
-    "jm": "m3",
-    "R": 914.25,
-    "M": 0.0,
-    "S": 0.0,
-    "source": "2. SIECIEBOROWICE KOSZTORYS SANITARNY"
-  },
-  {
     "knr": "KNR 4-01 0104-01",
     "opis": "Wykopy o ścianach pionowych przy odkrywaniu odcinkami istniejących fundamentów o głębokości do 1.5 m w gruncie kat. I-II",
     "jm": "m3",
     "R": 224.488,
     "M": 0.0,
     "S": 0.0
-  },
-  {
-    "knr": "KNR 4-01 0104-02",
-    "opis": "Wykopy o ścianach pionowych przy odkrywaniu odcinkami istniejących rurociągów o głębok.do 1.5 m w gr.kat. III",
-    "jm": "m3",
-    "R": 216.384,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
-    "knr": "KNR 4-01 0105-02",
-    "opis": "Zasypanie wykopów ziemią z ukopów z przerzutem ziemi na odległość do 3 m i ubiciem warstwami co 15 cm w gruncie kat. III z wywozem nad- miaru ziemi",
-    "jm": "m3",
-    "R": 115.522,
-    "M": 0.0,
-    "S": 1.0
   },
   {
     "knr": "KNR 4-01 0105-04",
@@ -5619,14 +5517,6 @@
     "S": 1.0
   },
   {
-    "knr": "KNR 4-01 0212-03",
-    "opis": "Rozbiórka elementów konstrukcji betonowych zbrojonych",
-    "jm": "m3",
-    "R": 2028.587,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
     "knr": "KNR 4-01 0212-04",
     "opis": "Rozbiórka betonowych czapek",
     "jm": "m2",
@@ -5641,14 +5531,6 @@
     "R": 39.76,
     "M": 0.0,
     "S": 0.0
-  },
-  {
-    "knr": "KNR 4-01 0213-01",
-    "opis": "Wykonanie opaski betonowej o szerokości 200 cm, grubości 15 cm na podłożu gruntowym przy budynku z wykonaniem dylatacji i zazbrojeniem zbrojeniem rozproszonym w ilości 15 kg/m3",
-    "jm": "m2",
-    "R": 190.897,
-    "M": 35.73,
-    "S": 1.0
   },
   {
     "knr": "KNR 4-01 0303-02",
@@ -5833,14 +5715,6 @@
     "R": 77.833,
     "M": 0.0,
     "S": 0.1
-  },
-  {
-    "knr": "KNR 4-01 0349-02",
-    "opis": "Rozebranie ścian, filarów i kolumn z cegieł na zaprawie cementowo-wapiennej",
-    "jm": "m3",
-    "R": 218.1,
-    "M": 0.0,
-    "S": 1.0
   },
   {
     "knr": "KNR 4-01 0354-03",
@@ -6195,14 +6069,6 @@
     "S": 0.0
   },
   {
-    "knr": "KNR 4-01 0711-02",
-    "opis": "Uzupełnienie tynków zwykłych wewnętrznych kat. III z zaprawy cemen- towo-wapiennej na ścianach i słupach prostokątnych na podłożu z cegły, pustaków ceramicznych, gazo- i pianobetonów (do 2 m2 w 1 miejscu) - zamurowania okien",
-    "jm": "m2",
-    "R": 105.69,
-    "M": 3.564,
-    "S": 1.0
-  },
-  {
     "knr": "KNR 4-01 0711-14",
     "opis": "Uzupełnienie tynków zwykłych wewnętrznych kat. III z zaprawy cemento- wo-wapiennej na stropach, belkach, podciągach, biegach i spocznikach na podłożu z cegły i pustaków (do 2 m2 w 1 miejscu) A (suma c",
     "jm": "m2",
@@ -6537,14 +6403,6 @@
     "R": 55.0,
     "M": 85.0,
     "S": 3.0
-  },
-  {
-    "knr": "KNR 4-03 1202-01",
-    "opis": "Sprawdzenie i pomiar kompletnego 1-fazowego obwodu elektrycznego niskiego napięcia",
-    "jm": "kpl pomiar.",
-    "R": 106.509,
-    "M": 0.0,
-    "S": 1.0
   },
   {
     "knr": "KNR 4-03 1202-02",
@@ -7276,15 +7134,6 @@
     "S": 0.0
   },
   {
-    "knr": "KNR 7-24",
-    "opis": "Przedmuchiwanie",
-    "jm": "kpl.",
-    "R": 385.1,
-    "M": 0.0,
-    "S": 0.0,
-    "source": "2. SIECIEBOROWICE KOSZTORYS SANITARNY"
-  },
-  {
     "knr": "KNR 7-24 0101-01",
     "opis": "Jednostki klimatyzacyjne wewnętrzne - komplet z montażem",
     "jm": "kpl.",
@@ -7964,15 +7813,6 @@
     "R": 151.08,
     "M": 226.49,
     "S": 1.41
-  },
-  {
-    "knr": "KNR-W 2-15",
-    "opis": "Klimatyzator kasetonowy",
-    "jm": "szt.",
-    "R": 466.19,
-    "M": 0.0,
-    "S": 0.0,
-    "source": "2. SIECIEBOROWICE KOSZTORYS SANITARNY"
   },
   {
     "knr": "KNR-W 2-15 0101-02",
@@ -8685,15 +8525,6 @@
     "R": 26.2228,
     "M": 45.6826,
     "S": 3.4935
-  },
-  {
-    "knr": "KNR-W 2-17",
-    "opis": "Okap przyścienny skośny",
-    "jm": "szt.",
-    "R": 852.07,
-    "M": 0.0,
-    "S": 0.0,
-    "source": "2. SIECIEBOROWICE KOSZTORYS SANITARNY"
   },
   {
     "knr": "KNR-W 2-17 0113-03",
@@ -10154,50 +9985,10 @@
     "S": 1.0
   },
   {
-    "knr": "KNR 4-01 0212-01",
-    "opis": "Rozbiórka elementów konstrukcji betonowych niezbrojonych o grubości do 15 cm - opaska",
-    "jm": "m3",
-    "R": 914.25,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
     "knr": "KNR 2-05 1008-01",
     "opis": "Lekka obudowa dachu płaskiego o nachyleniu do 10% z blach stalowych fałdow.bez ocieplenia montow.met.tradycyjną - demontaż przy naprawia- nej ścianie",
     "jm": "m2",
     "R": 31.45,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
-    "knr": "KNR 4-01 0526-04",
-    "opis": "Naprawa rynien półokrągłych i skrzynkowych z blachy ocynkowanej w odcinkach o długości do 1.0 m - demontaż i powtórny montaż fragmentu rynny dla prac naprawczych",
-    "jm": "szt",
-    "R": 914.25,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
-    "knr": "KNR 4-01 0527-08",
-    "opis": "Uzupełnienie rur spustowych okrągłych w odcinkach ponad 1.0 m z bla- chy ocynkowanej o średnicy 18 mm cm - demontaż i powtórny montaż rur spusto- wych dla prac naprawczych z wymianą haków",
-    "jm": "m",
-    "R": 914.25,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
-    "knr": "KNR 4-01 0701-02",
-    "opis": "Odbicie tynków wewnętrznych z zaprawy cementowo-wapiennej na ścia- nach, filarach, pilastrach o powierzchni odbicia do 5 m2 - pasy spękane- go tynku",
-    "jm": "m2",
-    "R": 914.25,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
-    "knr": "KNR AT-05 1661-04",
-    "opis": "Rusztowania przesuwne zewnętrzne typu MP 800 o wys. do 9,5 m Czas pracy rusztowań grupy 1",
-    "jm": "kolum-",
-    "R": 157.99,
     "M": 0.0,
     "S": 1.0
   },
@@ -10210,66 +10001,10 @@
     "S": 1.0
   },
   {
-    "knr": "KNR 2-02 0231-03",
-    "opis": "Konstrukcje ryglowe - słupy o stosunku długości deskowanego obwodu do przekroju do 12 - słupy skrajne i środkowy",
-    "jm": "m3",
-    "R": 1704.55,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
-    "knr": "KNR 2-02 0211-04",
-    "opis": "Rygle i przekrycia ścian w ścianach murowanych dwustronnie deskowa- ne o szerokości przewiązek do 0,3 m - wieniec attykowy",
-    "jm": "m3",
-    "R": 2054.32,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
-    "knr": "KNR W-4 01-0304",
-    "opis": "Uzupełnienie ścian lub zamurowanie otworów w ścianach na zaprawie cementowo-wapiennej cegłami - ściana attykowa",
-    "jm": "m3",
-    "R": 2113.41,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
-    "knr": "KNR 4-01 0330-05",
-    "opis": "Wykucie wnęk o głębokości do 1/4 ceg. w ścianach z cegieł na zaprawie cementowo-wapiennej w ścianie dla skręcenia ściągów",
-    "jm": "m2",
-    "R": 914.25,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
-    "knr": "KNR 4-01 1303-01",
-    "opis": "Wykonanie i montaż ściągów na wysokości do drugiego pietra - skręce- nie słupa środkowego ze ścianą prętem fi 25 mm z płytką i nakrętką, nakrętka zespawana z prętem, przyjęto 10 kg/ściąg, ściąg ocynko",
-    "jm": "kg",
-    "R": 914.25,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
-    "knr": "KNR 4-01 0323-01",
-    "opis": "Zamurowanie przebić w ścianach z cegieł o grub. 1/4 ceg.",
-    "jm": "szt",
-    "R": 914.25,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
     "knr": "KNR W-2 02-0902",
     "opis": "Tynki zewnętrzne zwykłe kat. III na ścianach płaskich i powierzchniach poziomych (balkony i loggie) wykonywane ręcznie - wykonanie na po- wierzchni do 5 m2",
     "jm": "m2",
     "R": 72.37,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
-    "knr": "KNR 4-01 0722-02",
-    "opis": "Przecieranie istniejących tynków zewnętrznych cementowo-wapiennych kat. III na ścianach z naprawą miejsc po bruzdowaniu",
-    "jm": "m2",
-    "R": 914.25,
     "M": 0.0,
     "S": 1.0
   },
@@ -10286,30 +10021,6 @@
     "opis": "Dwukrotne malowanie farbami silikonowym powierzchni zewnętrznych - tynków gładkich bez gruntowania - wysokość ponad 5 do 10 m (kolor do uzgodnienia z Zamawiającym) wraz z wymalowaniem numeru budynku",
     "jm": "m2",
     "R": 16.8,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
-    "knr": "KNR 2-02 0506-02",
-    "opis": "Obróbki przy szerokości w rozwinięciu ponad 25 cm - z blachy powleka- nej gr. 0,50 mm - odtworzenie obróbek",
-    "jm": "m2",
-    "R": 1002.12,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
-    "knr": "KNR AT-05 1651-01",
-    "opis": "Rusztowania ramowe elewacyjne o szerokości 0 cm,73 m i rozstawie podłużnym ram 2,57 m o wys. do 10 m Czas pracy rusztowań grupy 2 Ściana szczytowa nr 2",
-    "jm": "m2",
-    "R": 136.03,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
-    "knr": "KNR 4-01 0207-01",
-    "opis": "Zabetonowanie żwirobetonem bruzd o przekroju do 0.015 m2 w podło- żach, stropach i ścianach bez deskowań i stemplowań - naprawa zaryso- wań ścian podłużnych na łączeniu z ryglami i słupami w systemie",
-    "jm": "m",
-    "R": 914.25,
     "M": 0.0,
     "S": 1.0
   },
@@ -10334,14 +10045,6 @@
     "opis": "Przesuwanie rusztowań zewnętrznych typu MP - 4 cykle Izolacja ścian fundamentowych",
     "jm": "kol",
     "R": 65.0,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
-    "knr": "KNR 4-01 0102-01",
-    "opis": "Wykopy wąskoprzestrzenne, nieumocnione o szerokości dna do 1.5 m i głębokości do 1.5 m w gruncie kat. I-II",
-    "jm": "m3",
-    "R": 914.25,
     "M": 0.0,
     "S": 1.0
   },
@@ -10394,50 +10097,10 @@
     "S": 1.0
   },
   {
-    "knr": "KNR 4-01 0105-01",
-    "opis": "Zasypanie wykopów ziemią z ukopów z przerzutem ziemi na odległość do 3 m i ubiciem warstwami co 15 cm w gruncie kat. I-II Wymiana wywietrzaków dachowych",
-    "jm": "m3",
-    "R": 914.25,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
-    "knr": "KNR W-4 02-40206",
-    "opis": "Demontaż wyrzutni dachowych wraz z podstawami o obwodzie do 1300 mm",
-    "jm": "szt",
-    "R": 133.79,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
-    "knr": "KNR 2-17 0151-02",
-    "opis": "Cokoły pod podstawy dachowe - cokół z blachy stalowej ocynkowanej o gr. 1,5 mm wymiary ok. 400x400 mm, izolowany o gr. 30 mm, dach skoś- ny. Wymiar dostosować do podstawy wyrzutni dachowej wraz uszcze",
-    "jm": "szt",
-    "R": 1000.2,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
     "knr": "KNR 2-17 0210-02",
     "opis": "Króćce amortyzacyjne (elastyczne) o przekroju kołowym o średnicy do",
     "jm": "szt",
     "R": 14.08,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
-    "knr": "KNR 2-17 0144-02",
-    "opis": "Wyrzutnie dachowe z podstawą fi 350 mm mm typu turbo z głowica obrotową wykonanie z blachy aluminiowej malowanej proszkowo, kolor jak istnieją- ce pokrycie dachu lub innych zatwierdzony przez Zamawiaj",
-    "jm": "szt",
-    "R": 101.93,
-    "M": 780.0029,
-    "S": 1.0
-  },
-  {
-    "knr": "KNR 4-01 0354-15",
-    "opis": "Wykucie z muru każdej wmurowanej końcówki wspornika stalowego - drabina",
-    "jm": "szt",
-    "R": 914.25,
     "M": 0.0,
     "S": 1.0
   },
@@ -10450,42 +10113,10 @@
     "S": 1.0
   },
   {
-    "knr": "KNR 2-02 1211-03",
-    "opis": "Kraty prętowe o powierzchni ponad 2 m2 - otwierana na zewnatrz, za- mknięcie na zamek i kłódkę od wewnątrz i od zewnątrz, kraty z prętów stalowych fi 12 mm mm o oczku 80 mm w poziomie i 240 mm w pioni",
-    "jm": "m2",
-    "R": 129.45,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
-    "knr": "KNR 4-01 0205-05",
-    "opis": "Naprawa podłoża betonowego - wykonanie progów najazdowych w bra- mach wjazdowych z beton min B25 grubości 10 cm na pełną szerokość ościeża z kątownikiem 40x50x4 od strony rampy Wymiana naświetli",
-    "jm": "miejsc",
-    "R": 914.25,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
-    "knr": "KNR 4-01 0354-08",
-    "opis": "Wykucie z muru ościeżnic stalowych okien i krat okiennych o powierzch- ni ponad 2 m2 z wywozem i kosztem utylizacji",
-    "jm": "m2",
-    "R": 914.25,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
     "knr": "NNRNKB 202-0541 0000-00",
     "opis": "(z.VI) Obróbki blacharskie z blachy powlekanej o szer.w rozwinięciu do",
     "jm": "m2",
     "R": 76.29,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
-    "knr": "KNR W-2 02-1211",
-    "opis": "Kraty stałe stalowe siatkowe o powierzchni ponad 2 m2 osadzone w ścianach w ramie z kątownika min. 35x35 mm gr. 4 m, siatka stalowa z drutu o średnicy min 1,5 mm i wielkości oczek 25x25 mm. Kraty ocyn",
-    "jm": "m2",
-    "R": 439.85,
     "M": 0.0,
     "S": 1.0
   },
@@ -10502,22 +10133,6 @@
     "opis": "Przygotowanie starego podłoża posadzki - oczyszczenie mechaniczne i zmycie",
     "jm": "m2",
     "R": 20.98,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
-    "knr": "KNR 4-01 0804-03",
-    "opis": "Naprawa i uzupełnienie miejscowych wykruszeń i spękań posadzki beto- nowej z zatarciem na gładko wg wybranego systemy PCC dla napraw konstrukcji żelbetowych",
-    "jm": "miejsc",
-    "R": 914.25,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
-    "knr": "KNR 4-01 0804-05",
-    "opis": "Naprawa pęknięć posadzki cementowej z zatarciem na gładko - zatar- ciem na gładko wg wybranego systemy PCC dla napraw konstrukcji żel- betowych",
-    "jm": "m",
-    "R": 914.25,
     "M": 0.0,
     "S": 1.0
   },
@@ -10586,14 +10201,6 @@
     "S": 1.0
   },
   {
-    "knr": "KNNR 5-0405 0000-00",
-    "opis": "Skrzynki i rozdzielnice skrzynkowe o masie do 10 kg wraz z konstrukcją mocowaną do podłoża przez przykręcenie - złącze kablowe",
-    "jm": "szt",
-    "R": 2368.4,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
     "knr": "KNNR 5-0205 0000-00",
     "opis": "Przewody kabelkowe o łącznym przekroju żył do 7.5 mm2 układane p.t. z wykonaniem i zaprawieniem bruzd - do przycisków wyzwalających",
     "jm": "m",
@@ -10602,26 +10209,10 @@
     "S": 1.0
   },
   {
-    "knr": "KNNR 5-0406 0000-00",
-    "opis": "Aparaty elektryczne o masie do 2.5 kg - przycisk wyzwalający",
-    "jm": "szt",
-    "R": 112.04,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
     "knr": "KSNR 5-0403 02-ANALOGIA",
     "opis": "Wypusty wykonywane przewodami w rurkach elektroinstalacyjnych łą- czonych na oprawę oświetleniową",
     "jm": "wyp",
     "R": 71.12,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
-    "knr": "KNNR 5-0502 0000-00",
-    "opis": "Oprawy oświetleniowe LED przykręcane (zwykłe) - IP66, 56 W",
-    "jm": "kpl",
-    "R": 185.0,
     "M": 0.0,
     "S": 1.0
   },
@@ -10674,70 +10265,6 @@
     "S": 1.0
   },
   {
-    "knr": "KNR 4-01 0206-01",
-    "opis": "Miejscowa naprawa (reprofilacja) ubytków otuliny żelbetowej w dacho- wych płytach panwiowych po śrubach mocowania blachy dachowej wg wybranego systemy PCC dla napraw konstrukcji żelbetowych ok. 1 750",
-    "jm": "kpl",
-    "R": 914.25,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
-    "knr": "KNR 4-01 0711-03",
-    "opis": "Uzupełnienie tynków zwykłych wewnętrznych kat. III z zaprawy cemento- wo-wapiennej na ścianach i słupach prostokątnych na podłożu z cegły, pustaków ceramicznych, gazo- i pianobetonów (do 5 m2 w 1 miej",
-    "jm": "m2",
-    "R": 914.25,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
-    "knr": "KNR 4-01 1212-29",
-    "opis": "Miniowanie farbą kątowników naroży słuów",
-    "jm": "m",
-    "R": 914.25,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
-    "knr": "KNR 4-01 1212-28",
-    "opis": "Dwukrotne malowanie farbą ftalową kątowników naroży słupów pasy żół- to-czarne",
-    "jm": "m",
-    "R": 914.25,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
-    "knr": "KNR AT-05 1660-06",
-    "opis": "Rusztowania przesuwne wewnętrzne typu MP 800 o wys. do 9,5 m",
-    "jm": "kolum-",
-    "R": 205.24,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
-    "knr": "KNR 4-01 1204-08",
-    "opis": "Przygotowanie powierzchni pod malowanie farbami emulsyjnymi starych tynków z poszpachlowaniem nierówności",
-    "jm": "m2",
-    "R": 914.25,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
-    "knr": "KNR 4-01 1209-05",
-    "opis": "Dwukrotne malowanie farbą olejną uprzednio malowanej stolarki okiennej o powierzchni do 1.0 m2 - naświetla bez szczeblin malowane dwustron- nie - dwustronnie ościeżnice łącznie z ćwierćwałkami - opask",
-    "jm": "m2",
-    "R": 914.25,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
-    "knr": "KNR 4-01 1209-10",
-    "opis": "Dwukrotne malowanie farbą olejną uprzednio malowanej stolarki drzwio- wej, ścianek i szafek o powierzchni ponad 1.0 m2 - dwustronnie skrzydła płytowe pełne lub z jedną szybą o pow. do 0,2 m2 - ościeżn",
-    "jm": "m2",
-    "R": 914.25,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
     "knr": "KNR 7-12 0205-01",
     "opis": "Malowanie pędzlem żywicami epoksydowymi żywicami do gruntowania posadzki - kolor do ustalenia z Zamawiającym na etapie wykonawstwa prac",
     "jm": "m2",
@@ -10786,14 +10313,6 @@
     "S": 1.0
   },
   {
-    "knr": "KNR AT-05 1661-02",
-    "opis": "Rusztowania przesuwne zewnętrzne typu MP 600 o wys. do 6,5 m",
-    "jm": "kolum-",
-    "R": 157.99,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
     "knr": "KNR W-2 02-0522",
     "opis": "Rynny dachowe półokrągłe o średnicy 12 mm cm - montaż z gotowych elementów z blachy stalowej ocynkowanej powlekanej",
     "jm": "m",
@@ -10806,38 +10325,6 @@
     "opis": "Rury spustowe okrągłe o średnicy 10 mm cm - montaż z gotowych elementów z blachy stalowej ocynkowanej powlekanej Naprawa rampy z wykonaniem bezprogowego przejazdu przez bramy",
     "jm": "m",
     "R": 74.72,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
-    "knr": "KNR 4-01 0205-08",
-    "opis": "Naprawa większych uszkodzeń w jednym stopniu do 0.2 m2 z zatarciem na gładko wg wybranego systemy PCC dla napraw konstrukcji żelbeto- wych",
-    "jm": "szt",
-    "R": 914.25,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
-    "knr": "KNR 4-01 1212-03",
-    "opis": "Miniowanie powierzchni metalowych pełnych szpachlowanych jednokrot- nie",
-    "jm": "m2",
-    "R": 914.25,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
-    "knr": "KNR 4-01 0725-05",
-    "opis": "Uzupełnienie tynków zewnętrznych zwykłych kat. II o podłożach z beto- nów żwirowych, bloczków ( do 2 m2 w 1 miejscu ) - naprawa tynków ram- py",
-    "jm": "m2",
-    "R": 914.25,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
-    "knr": "KNR 4-01 0212-02",
-    "opis": "Rozbiórka elementów konstrukcji betonowych niezbrojonych o grubości ponad 15 cm",
-    "jm": "m3",
-    "R": 914.25,
     "M": 0.0,
     "S": 1.0
   },
@@ -10862,22 +10349,6 @@
     "opis": "Umocnienie skarp i dna rowów płytami betonowymi prefabrykowanymi ażurowymi na podsypce piaskowej",
     "jm": "m2",
     "R": 1.0,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
-    "knr": "KNNR 4-1308 02-ANALOGIA",
-    "opis": "Kanały z rur PVC łączonych na wcisk o śr. zewn. 160 mm - wykopy umocnione",
-    "jm": "m",
-    "R": 170.57,
-    "M": 0.0,
-    "S": 1.0
-  },
-  {
-    "knr": "KNR W-2 15-0222",
-    "opis": "Czyszczaki z PVC kanalizacyjne o połączeniach wciskowych z połącze- niem z rurą spustową - osdanik rynnowy",
-    "jm": "szt",
-    "R": 312.26,
     "M": 0.0,
     "S": 1.0
   },
