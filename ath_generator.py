@@ -257,6 +257,19 @@ class ATHGenerator:
         unique_mats: Dict[tuple, int] = {}   # key -> zest_num
         pos_mats: List = []                   # per pozycja: list[dict] lub None
 
+        # Słowa kluczowe w opisie sugerujące materiały (używane gdy M=0 w DB)
+        _MAT_KEYWORDS = {
+            'blacha', 'blach', 'rura', 'rury', 'rurka', 'ruroci',
+            'izolacj', 'uszczelni', 'bitum', 'membrana', 'papa', 'folia',
+            'beton', 'posadzka', 'tynk', 'zaprawa', 'klej', 'farba', 'grunt',
+            'styropian', 'wełna', 'welna', 'ocieplen',
+            'kostka', 'płyta', 'plyta', 'płytka', 'plytka', 'panel',
+            'ściek', 'sciek', 'wyrzutni', 'obudow',
+            'kabel', 'przewód', 'przewod', 'korytko', 'rurka elektro',
+            'brama', 'drzwi', 'okno', 'krata', 'siatka', 'geotkanin',
+            'cokół', 'cokol', 'obróbki blacharskie', 'obrobki blacharskie',
+        }
+
         # Krok 1: DB lookup — zbierz brakujące do AI
         ai_needed = []  # [{knr_norm, knr, opis, jm, m_per_jm, poz_idx}]
         for idx, poz in enumerate(pozycje):
@@ -268,13 +281,20 @@ class ATHGenerator:
                 pos_mats.append(None)   # placeholder — może zastąpiony przez AI
                 M = poz.get('M', 0.0) or 0.0
                 ilosc = poz.get('ilosc', 1) or 1
-                if knr_norm and M > 0:
+                opis_l = (poz.get('opis', '') or '').lower()
+                m_per_jm = M / ilosc if ilosc else 0.0
+                # Wywołaj AI gdy: M>0 LUB (M=0 ale opis sugeruje materiały)
+                needs_ai = (M > 0) or (
+                    M == 0 and knr_norm
+                    and any(kw in opis_l for kw in _MAT_KEYWORDS)
+                )
+                if knr_norm and needs_ai:
                     ai_needed.append({
                         'knr_norm': knr_norm,
                         'knr': poz.get('podstawa', ''),
                         'opis': poz.get('opis', '')[:80],
                         'jm': poz.get('jm', ''),
-                        'm_per_jm': M / ilosc,
+                        'm_per_jm': m_per_jm,  # 0.0 gdy M=0 — AI szacuje od zera
                         'poz_idx': idx,
                     })
 

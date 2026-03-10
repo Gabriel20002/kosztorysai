@@ -139,15 +139,30 @@ def _normalize(mats: list, target_m: float) -> list:
 def _call_api_one(item: dict, api_key: str) -> list:
     """
     Jeden KNR → lista materiałów [{name, jm, nz, ce}].
+    Gdy m_per_jm=0: szacuje typowe materiały bez celu wartościowego.
     """
     import anthropic
+
+    m = item['m_per_jm']
+    if m > 0:
+        m_line = (
+            f"Wartość materiałów: {m:.4f} PLN/{item['jm']}\n\n"
+            "Podaj skład materiałowy jako JSON — lista materiałów, gdzie suma(nz*ce) ≈ wartości powyżej."
+        )
+    else:
+        # M=0 w bazie, ale opis sugeruje materiały — AI szacuje od zera
+        m_line = (
+            "Wartość materiałów: nieznana (brak w bazie KNR).\n\n"
+            "KRYTYCZNE: Robota wymaga fizycznych materiałów — ZAWSZE podaj co najmniej jeden.\n"
+            "Podaj typowe materiały wg KNR z realistycznymi cenami 2024/2025 w Polsce.\n"
+            "Nakłady nz = ilość materiału na 1 jednostkę roboty."
+        )
 
     user_msg = (
         f"KNR: {item['knr']}\n"
         f"Opis: {item['opis'][:80]}\n"
         f"Jednostka miary: {item['jm']}\n"
-        f"Wartość materiałów: {item['m_per_jm']:.4f} PLN/{item['jm']}\n\n"
-        "Podaj skład materiałowy jako JSON — lista materiałów, gdzie suma(nz*ce) ≈ wartości powyżej.\n"
+        f"{m_line}\n"
         'Format: [{"name": "nazwa", "jm": "jm", "nz": 1.23, "ce": 4.56}, ...]'
     )
 
@@ -204,21 +219,29 @@ def estimate_materials_batch(items: list) -> dict:
             raw_mats = _call_api_one(it, api_key)
             if isinstance(raw_mats, list) and raw_mats:
                 raw_mats = _filter_action_materials(raw_mats)
-                # Koryguj jednostki miary materiałów
                 for mat in raw_mats:
                     mat['jm'] = _correct_jm(mat.get('name', ''), mat.get('jm', 'szt'))
-                normalized = _normalize(raw_mats, it['m_per_jm'])
+                m = it.get('m_per_jm', 0)
+                if m > 0:
+                    # Znana wartość M — normalizuj
+                    normalized = _normalize(raw_mats, m)
+                else:
+                    # M=0 (nieznana) — zostaw ceny AI bez skalowania
+                    normalized = raw_mats
                 normalized = [m for m in normalized if m.get('ce', 0) > 0 and m.get('nz', 0) > 0]
-                cache[norm_key] = normalized
-                saved += 1
-            elif it.get('m_per_jm', 0) <= 0:
-                # Brak materiałów i M=0 — poprawne, cachuj jako puste
+                if normalized:
+                    cache[norm_key] = normalized
+                    saved += 1
+                    continue
+            # AI zwróciło [] — cachuj tylko gdy M=0 (genuinely no materials)
+            # Gdy M>0 ale AI zwrócił []: nie cachuj — spróbuj ponownie następnym razem
+            if it.get('m_per_jm', 0) <= 0:
                 cache[norm_key] = []
                 saved += 1
-            # else: M>0 ale AI zwrócił [] — nie cachuj, spróbuj ponownie następnym razem
+            else:
+                log.warning("AI materials zwrócił [] dla M>0: %s", it['knr'])
         except Exception as e:
             log.warning("AI materials błąd dla %s: %s", it['knr'], e)
-            # Nie cachuj błędu jeśli M>0 — spróbuj ponownie następnym razem
 
     _save_cache(cache)
     log.info("AI materials: zapisano %d/%d KNR do cache", saved, len(to_fetch))

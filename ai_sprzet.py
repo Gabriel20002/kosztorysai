@@ -59,7 +59,8 @@ def _normalize(machines: list, target_s: float) -> list:
     return [{**m, 'nz': round(m['nz'] * factor, 6)} for m in machines]
 
 
-# Próg poniżej którego wartość s_per_jm uznajemy za placeholder (S=1 z bazy)
+# Próg poniżej którego wartość s_per_jm uznajemy za placeholder (S=1 z bazy).
+# S=1.0 PLN/jm to stara wartość zastępcza — traktuj jako "nieznana".
 _S_PLACEHOLDER_THRESHOLD = 1.0
 
 
@@ -67,16 +68,18 @@ def _call_api_one(item: dict, api_key: str) -> list:
     import anthropic
 
     s = item['s_per_jm']
-    if s >= _S_PLACEHOLDER_THRESHOLD:
+    if s > _S_PLACEHOLDER_THRESHOLD:
+        # Znana wartość S — AI normalizuje do tej kwoty
         s_line = (
             f"Wartość sprzętu: {s:.4f} PLN/{item['jm']}\n\n"
-            "Podaj sprzęt jako JSON — lista maszyn, gdzie suma(nz*ce) ≈ wartości powyżej."
+            "KRYTYCZNE: podaj co najmniej jedną maszynę — suma(nz*ce) ≈ wartości powyżej."
         )
     else:
-        # s_per_jm pochodzi z placeholdera (S=1 z bazy) — ignoruj tę liczbę
+        # s_per_jm = 1.0 to placeholder lub S nieznana — AI szacuje typowy sprzęt
         s_line = (
-            "Wartość sprzętu: nieznana (podaj typowy sprzęt wg KNR, suma(nz*ce) wg norm).\n\n"
-            "Podaj sprzęt jako JSON z typowymi nakładami dla tej roboty."
+            "Wartość sprzętu: nieznana, ale robota WYMAGA maszyn (S > 0).\n\n"
+            "KRYTYCZNE: ZAWSZE podaj co najmniej jedną maszynę z typowymi nakładami wg KNR.\n"
+            "Podaj sprzęt jako JSON — nakłady wg norm branżowych."
         )
 
     user_msg = (
@@ -135,20 +138,25 @@ def estimate_sprzet_batch(items: list) -> dict:
             raw = _call_api_one(it, api_key)
             if isinstance(raw, list) and raw:
                 s = it['s_per_jm']
-                if s >= _S_PLACEHOLDER_THRESHOLD:
-                    # normalizuj do realnej wartości S
+                if s > _S_PLACEHOLDER_THRESHOLD:
+                    # Znana wartość S — normalizuj
                     normalized = _normalize(raw, s)
                 else:
-                    # s_per_jm był placeholderem — nie skaluj, zostaw nakłady AI
+                    # Placeholder — zostaw nakłady AI bez skalowania
                     normalized = raw
                 normalized = [m for m in normalized if m.get('ce', 0) > 0 and m.get('nz', 0) > 0]
                 if normalized:
                     cache[norm_key] = normalized
                     saved += 1
                     continue
-            # AI zwróciło [] lub pustą listę po filtrze — zapisz [] żeby nie ponawiać co run
-            cache[norm_key] = []
-            saved += 1
+            # AI zwróciło [] — cachuj tylko gdy S była prawdziwą wartością (nie placeholderem)
+            # Dla s <= threshold (placeholder): nie cachuj — spróbuj ponownie następnym razem
+            s = it['s_per_jm']
+            if s > _S_PLACEHOLDER_THRESHOLD:
+                cache[norm_key] = []
+                saved += 1
+            else:
+                log.warning("AI sprzęt zwrócił [] dla placeholder s=%s: %s", s, it['knr'])
         except Exception as e:
             log.warning("AI sprzęt błąd dla %s: %s", it['knr'], e)
 

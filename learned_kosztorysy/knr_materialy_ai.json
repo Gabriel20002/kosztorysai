@@ -1978,5 +1978,135 @@
       "nz": 0.07589,
       "ce": 12.4
     }
+  ],
+  "KNR4-010212-03": [
+    {
+      "name": "materiały escoludowe (odpady betonu zbrojnego)",
+      "jm": "m3",
+      "nz": 1.0,
+      "ce": 45.0
+    }
+  ],
+  "KNRAT-051661-04": [
+    {
+      "name": "Rusztowanie przesuwne typ MP 800, kolumna metalowa (ze złączami, stopkami regulacyjnymi)",
+      "jm": "kolumna",
+      "nz": 1.0,
+      "ce": 18.5
+    }
+  ],
+  "KNR4-010206-01": [
+    {
+      "name": "Beton samozagęszczający C25/30",
+      "jm": "m3",
+      "nz": 15.751132,
+      "ce": 8.5
+    },
+    {
+      "name": "Cement portlandzki CEM I 42.5",
+      "jm": "kg",
+      "nz": 5.040362,
+      "ce": 5.0
+    },
+    {
+      "name": "Plastyfikator do betonu",
+      "jm": "m3",
+      "nz": 0.315023,
+      "ce": 35.0
+    },
+    {
+      "name": "Gruntownica epoksydowa do betonu",
+      "jm": "m3",
+      "nz": 0.756054,
+      "ce": 42.0
+    },
+    {
+      "name": "Zaprawa naprawcza polimerem C50",
+      "jm": "kg",
+      "nz": 7.560543,
+      "ce": 12.5
+    },
+    {
+      "name": "Siatka stalowa do betonu d=4mm oczko 50x50mm",
+      "jm": "m3",
+      "nz": 1.575113,
+      "ce": 15.0
+    }
+  ],
+  "KNR4-011212-29": [
+    {
+      "name": "farba akrylowa do ścian wewnętrznych",
+      "jm": "l",
+      "nz": 0.110092,
+      "ce": 45.0
+    },
+    {
+      "name": "taśma papierowa malarska",
+      "jm": "m",
+      "nz": 1.46789,
+      "ce": 3.0
+    },
+    {
+      "name": "szpachla elastyczna akrylowa",
+      "jm": "kg",
+      "nz": 0.220183,
+      "ce": 12.0
+    }
+  ],
+  "KNR4-011212-28": [
+    {
+      "name": "farba ftalowa do metalu żółto-czarna",
+      "jm": "l",
+      "nz": 0.132219,
+      "ce": 85.0
+    },
+    {
+      "name": "rozpuszczalnik do farb ftalowych",
+      "jm": "l",
+      "nz": 0.044073,
+      "ce": 18.0
+    },
+    {
+      "name": "grunt do metalu antykorozyjny",
+      "jm": "l",
+      "nz": 0.070517,
+      "ce": 35.0
+    }
+  ],
+  "KNRAT-051661-02": [
+    {
+      "name": "Rusztowanie przesuwne MP 600 moduł ramowy",
+      "jm": "szt",
+      "nz": 0.5,
+      "ce": 32.0
+    }
+  ],
+  "KNR4-011212-03": [
+    {
+      "name": "szpachla epoksydowa do metalu",
+      "jm": "kg",
+      "nz": 0.647648,
+      "ce": 8.5
+    },
+    {
+      "name": "papier ścierny P120",
+      "jm": "m2",
+      "nz": 0.890517,
+      "ce": 2.2
+    },
+    {
+      "name": "grunt epoksydowy antykorozyjny",
+      "jm": "l",
+      "nz": 0.121434,
+      "ce": 25.0
+    }
+  ],
+  "KNR2-280501-09": [
+    {
+      "name": "Kruszywo żwirowe 0-32 mm",
+      "jm": "m3",
+      "nz": 1.0,
+      "ce": 8.0
+    }
   ]
 }
