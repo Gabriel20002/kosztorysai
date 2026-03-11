@@ -28,8 +28,9 @@ export default function Home() {
                                 Generuj Kosztorys
                             </Link>
                         ) : (
-                            <Link to="/pricing" className="flex items-center justify-center h-12 px-8 rounded-lg bg-white text-slate-900 font-bold hover:bg-slate-200 transition-colors">
-                                Rozpocznij Okres Próbny
+                            <Link to="/register" className="flex items-center justify-center gap-2 h-12 px-8 rounded-lg bg-white text-slate-900 font-bold hover:bg-slate-200 transition-colors">
+                                <span className="material-symbols-outlined text-xl">rocket_launch</span>
+                                Dołącz do Programu Beta
                             </Link>
                         )}
                         <button className="flex items-center justify-center h-12 px-8 rounded-lg bg-slate-800/50 border border-slate-700 hover:bg-slate-800 text-white font-bold transition-all gap-2 group">

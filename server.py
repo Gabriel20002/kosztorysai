@@ -53,6 +53,7 @@ def _run_migrations():
         for sql in [
             "ALTER TABLE users ADD COLUMN IF NOT EXISTS is_admin BOOLEAN DEFAULT FALSE",
             "ALTER TABLE users ADD COLUMN IF NOT EXISTS can_generate BOOLEAN DEFAULT FALSE",
+            "ALTER TABLE users ADD COLUMN IF NOT EXISTS terms_accepted_at TIMESTAMP DEFAULT NULL",
             "CREATE TABLE IF NOT EXISTS feedback (id SERIAL PRIMARY KEY, user_id INTEGER REFERENCES users(id), rating INTEGER NOT NULL, message TEXT, context VARCHAR, created_at TIMESTAMP DEFAULT NOW())",
         ]:
             try:
@@ -125,6 +126,7 @@ def register(body: RegisterBody, db: Session = Depends(get_db)):
         email=body.email,
         name=body.name,
         hashed_password=auth.hash_password(body.password),
+        terms_accepted_at=datetime.utcnow(),
     )
     db.add(user)
     db.commit()

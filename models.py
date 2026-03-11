@@ -14,6 +14,7 @@ class User(Base):
     plan = Column(String, default="free")
     is_admin = Column(Boolean, default=False)
     can_generate = Column(Boolean, default=False)  # admin nadaje prawo ręcznie
+    terms_accepted_at = Column(DateTime, nullable=True)
     created_at = Column(DateTime, default=datetime.utcnow)
 
     kosztorysy = relationship("Kosztorys", back_populates="owner")
