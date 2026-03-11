@@ -42,7 +42,6 @@ export default function Navbar() {
                     <h2 className="text-xl font-bold tracking-tight">BuildAI</h2>
                 </SmartLink>
                 <div className="hidden lg:flex items-center gap-8">
-                    <SmartLink className="text-slate-600 dark:text-slate-300 hover:text-primary transition-colors text-sm font-medium" to="/features">Możliwości</SmartLink>
                     <SmartLink className="text-slate-600 dark:text-slate-300 hover:text-primary transition-colors text-sm font-medium" to="/how-it-works">Jak to działa</SmartLink>
                     <SmartLink className="text-slate-600 dark:text-slate-300 hover:text-primary transition-colors text-sm font-medium" to="/pricing">Cennik</SmartLink>
                     <SmartLink className="text-slate-600 dark:text-slate-300 hover:text-primary transition-colors text-sm font-medium" to="/terms">Regulamin</SmartLink>
@@ -89,7 +88,6 @@ export default function Navbar() {
             {/* Mobile Menu Overlay */}
             {isMenuOpen && (
                 <div className="lg:hidden absolute top-full left-0 right-0 glass-card border-b border-t border-slate-800/50 p-4 flex flex-col gap-4 animate-in slide-in-from-top-2">
-                    <SmartLink onClick={() => setIsMenuOpen(false)} className="text-slate-300 hover:text-primary py-2 font-medium" to="/features">Możliwości</SmartLink>
                     <SmartLink onClick={() => setIsMenuOpen(false)} className="text-slate-300 hover:text-primary py-2 font-medium" to="/how-it-works">Jak to działa</SmartLink>
                     <SmartLink onClick={() => setIsMenuOpen(false)} className="text-slate-300 hover:text-primary py-2 font-medium" to="/pricing">Cennik</SmartLink>
                     <SmartLink onClick={() => setIsMenuOpen(false)} className="text-slate-300 hover:text-primary py-2 font-medium" to="/terms">Regulamin</SmartLink>

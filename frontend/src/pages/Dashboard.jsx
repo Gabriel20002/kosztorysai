@@ -32,7 +32,7 @@ export default function Dashboard() {
         nazwa: '',
         inwestor: '',
         wykonawca: 'KLONEKS',
-        format: 'both',
+        format: 'ath',
         stawka_rg: 35,
         kp: 70,
         zysk: 12,
@@ -120,7 +120,7 @@ export default function Dashboard() {
             <div className="mb-8 sm:mb-12 flex flex-col md:flex-row md:items-end justify-between gap-6">
                 <div className="space-y-3">
                     <h1 className="text-4xl md:text-6xl font-extrabold text-silver tracking-tight text-white">Konfiguracja Kosztorysu</h1>
-                    <p className="text-slate-400 max-w-2xl text-lg leading-relaxed">Wgraj przedmiar PDF i wygeneruj kosztorys ATH (Norma PRO) oraz PDF.</p>
+                    <p className="text-slate-400 max-w-2xl text-lg leading-relaxed">Wgraj przedmiar PDF i wygeneruj kosztorys ATH (Norma PRO).</p>
                 </div>
                 <div className="flex flex-col sm:flex-row gap-4">
                     <button
@@ -214,15 +214,6 @@ export default function Dashboard() {
                                         <span className="text-xs opacity-70">(Norma PRO)</span>
                                     </button>
                                 )}
-                                {result.files?.pdf && (
-                                    <button
-                                        onClick={() => downloadFile(result.files.pdf)}
-                                        className="h-12 px-8 bg-slate-700 hover:bg-slate-600 text-white font-bold rounded-xl flex items-center gap-3 transition-all border border-slate-600"
-                                    >
-                                        <span className="material-symbols-outlined">picture_as_pdf</span>
-                                        Pobierz PDF
-                                    </button>
-                                )}
                             </div>
                         </div>
                     )}
@@ -290,23 +281,6 @@ export default function Dashboard() {
                                 />
                             </div>
 
-                            <div>
-                                <label className="text-xs font-bold text-slate-400 uppercase tracking-widest block mb-2">Format wyjścia</label>
-                                <div className="flex gap-2">
-                                    {['both', 'ath', 'pdf'].map(f => (
-                                        <button
-                                            key={f}
-                                            onClick={() => setParam('format', f)}
-                                            className={`flex-1 py-2 rounded-xl text-xs font-bold uppercase tracking-wider border transition-all
-                                                ${params.format === f
-                                                    ? 'bg-primary/20 border-primary/50 text-primary'
-                                                    : 'border-slate-700 text-slate-500 hover:text-slate-300'}`}
-                                        >
-                                            {f === 'both' ? 'ATH+PDF' : f.toUpperCase()}
-                                        </button>
-                                    ))}
-                                </div>
-                            </div>
 
                             <div className="grid grid-cols-2 gap-3">
                                 {[
@@ -422,12 +396,7 @@ export default function Dashboard() {
                                                             <span className="material-symbols-outlined text-sm">download</span>ATH
                                                         </a>
                                                     )}
-                                                    {item.pdf_url && (
-                                                        <a href={item.pdf_url} className="text-xs font-bold text-slate-400 hover:text-white transition-colors flex items-center gap-1">
-                                                            <span className="material-symbols-outlined text-sm">picture_as_pdf</span>PDF
-                                                        </a>
-                                                    )}
-                                                    {!item.ath_url && !item.pdf_url && <span className="text-slate-600 text-xs">brak plików</span>}
+                                                    {!item.ath_url && <span className="text-slate-600 text-xs">brak pliku</span>}
                                                 </div>
                                             </td>
                                         </tr>
