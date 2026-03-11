@@ -6,6 +6,7 @@ export default function Register() {
     const { register } = useAuth()
     const navigate = useNavigate()
     const [form, setForm] = useState({ name: '', email: '', password: '', confirm: '' })
+    const [terms, setTerms] = useState(false)
     const [loading, setLoading] = useState(false)
     const [error, setError] = useState(null)
 
@@ -13,6 +14,7 @@ export default function Register() {
 
     async function handleSubmit(e) {
         e.preventDefault()
+        if (!terms) { setError('Musisz zaakceptować Regulamin Programu Beta'); return }
         if (form.password !== form.confirm) { setError('Hasła nie są identyczne'); return }
         if (form.password.length < 8) { setError('Hasło musi mieć min. 8 znaków'); return }
         setLoading(true)
@@ -83,6 +85,23 @@ export default function Register() {
                             className="w-full h-12 px-4 rounded-lg bg-slate-900/50 border border-slate-700 text-white placeholder-slate-500 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all"
                             placeholder="••••••••"
                         />
+                    </div>
+
+                    <div className="flex items-start gap-3">
+                        <input
+                            id="terms"
+                            type="checkbox"
+                            checked={terms}
+                            onChange={e => setTerms(e.target.checked)}
+                            className="mt-1 w-4 h-4 rounded border-slate-600 bg-slate-900 accent-primary cursor-pointer flex-shrink-0"
+                        />
+                        <label htmlFor="terms" className="text-sm text-slate-400 cursor-pointer leading-relaxed">
+                            Zapoznałem/am się z{' '}
+                            <Link to="/terms" className="text-primary hover:underline font-semibold" target="_blank">
+                                Regulaminem Programu Beta
+                            </Link>{' '}
+                            i akceptuję jego warunki, w tym wyłączenie odpowiedzialności administratora.
+                        </label>
                     </div>
 
                     {error && (

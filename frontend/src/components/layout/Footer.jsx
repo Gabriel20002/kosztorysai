@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 export default function Footer() {
     return (
         <footer className="w-full border-t border-slate-800 bg-surface-dark py-12 relative z-10 mt-auto">
@@ -7,7 +9,10 @@ export default function Footer() {
                     <span className="font-bold">BuildAI</span>
                     <span className="text-xs ml-2">© 2026 Inc.</span>
                 </div>
-                <div className="flex gap-6">
+                <div className="flex items-center gap-6">
+                    <Link to="/terms" className="text-slate-500 hover:text-white text-xs transition-colors">
+                        Regulamin Beta
+                    </Link>
                     <a className="text-slate-500 hover:text-white transition-colors" href="#"><span className="material-symbols-outlined">dataset</span></a>
                     <a className="text-slate-500 hover:text-white transition-colors" href="#"><span className="material-symbols-outlined">videocam</span></a>
                     <a className="text-slate-500 hover:text-white transition-colors" href="#"><span className="material-symbols-outlined">mail</span></a>

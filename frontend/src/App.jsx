@@ -14,6 +14,7 @@ import HowItWorks from './pages/HowItWorks'
 import GetStarted from './pages/GetStarted'
 import AddProgram from './pages/AddProgram'
 import Admin from './pages/Admin'
+import Terms from './pages/Terms'
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
           <Route path="/get-started" element={<GetStarted />} />
           <Route path="/add-program" element={<AddProgram />} />
           <Route path="/admin" element={<Admin />} />
+          <Route path="/terms" element={<Terms />} />
         </Routes>
       </main>
 
