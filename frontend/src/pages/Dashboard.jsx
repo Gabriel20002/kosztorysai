@@ -58,11 +58,13 @@ function VerificationPanel({ v }) {
                             <div className="space-y-2">
                                 {v.bledy.map((b, i) => (
                                     <div key={i} className="rounded-xl bg-red-500/5 border border-red-500/20 p-3">
-                                        {b.lp && <span className="text-xs font-bold text-red-400 mr-2">Poz. {b.lp}</span>}
-                                        <span className="text-slate-300 text-sm">{b.opis}</span>
+                                        <p className="text-slate-300 text-sm">
+                                            {b.lp != null && <span className="font-bold text-red-400 mr-1">Poz. {b.lp}:</span>}
+                                            {b.opis}
+                                        </p>
                                         {b.sugestia && (
-                                            <p className="text-slate-500 text-xs mt-1 flex items-start gap-1">
-                                                <span className="material-symbols-outlined text-xs mt-0.5">lightbulb</span>
+                                            <p className="text-slate-500 text-xs mt-1.5 flex items-start gap-1">
+                                                <span className="material-symbols-outlined text-xs mt-0.5 shrink-0">lightbulb</span>
                                                 {b.sugestia}
                                             </p>
                                         )}
@@ -82,8 +84,10 @@ function VerificationPanel({ v }) {
                             <div className="space-y-2">
                                 {v.ostrzezenia.map((o, i) => (
                                     <div key={i} className="rounded-xl bg-yellow-500/5 border border-yellow-500/20 p-3">
-                                        {o.lp && <span className="text-xs font-bold text-yellow-400 mr-2">Poz. {o.lp}</span>}
-                                        <span className="text-slate-300 text-sm">{o.opis}</span>
+                                        <p className="text-slate-300 text-sm">
+                                            {o.lp != null && <span className="font-bold text-yellow-400 mr-1">Poz. {o.lp}:</span>}
+                                            {o.opis}
+                                        </p>
                                     </div>
                                 ))}
                             </div>

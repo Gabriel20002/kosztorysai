@@ -13,8 +13,8 @@ import anthropic
 log = logging.getLogger(__name__)
 
 _MODEL = "claude-haiku-4-5-20251001"
-_MAX_TOKENS = 3000
-_MAX_POZYCJE_IN_PROMPT = 80
+_MAX_TOKENS = 4000
+_MAX_POZYCJE_IN_PROMPT = 120
 
 _TOOL = {
     "name": "raport_weryfikacji",
@@ -76,7 +76,17 @@ def verify_kosztorys(pozycje: list, podsumowanie: dict, params: dict, ath_text: 
         pozycje_txt = _format_pozycje(pozycje)
         materialy_txt = _format_materials_from_ath(ath_text) if ath_text else ""
 
-        prompt = f"""Jesteś niezależnym ekspertem weryfikacji kosztorysów budowlanych. Przeanalizuj poniższy kosztorys i wskaż błędy, nieprawidłowości oraz aspekty wymagające uwagi.
+        prompt = f"""Jesteś niezależnym ekspertem weryfikacji kosztorysów budowlanych w Polsce.
+Przeanalizuj KAŻDĄ pozycję kosztorysu i raportuj WSZYSTKIE znalezione błędy i ostrzeżenia.
+
+ZASADY RAPORTOWANIA (OBOWIĄZKOWE):
+1. Każdy błąd/ostrzeżenie MUSI zawierać numer pozycji (pole "lp") z listy poniżej
+2. Pole "opis" musi być konkretne: podaj nazwę pozycji, wartości liczbowe, na czym polega błąd
+   Dobry przykład: "Poz. 5 – Tynkowanie ścian 45 m2: M=0 PLN, ale tynkowanie wymaga cementu i zaprawy"
+   Zły przykład: "Brak materiałów"
+3. Pole "sugestia" musi podać konkretne działanie do podjęcia
+4. NIE pomijaj żadnego błędu — wymień każdy osobno z własnym numerem pozycji
+5. Ogólne błędy bez konkretnej pozycji oznacz lp=null
 
 PARAMETRY KOSZTORYSU:
 - Stawka robocizny: {params.get('stawka_rg', 35)} zł/r-g
@@ -94,16 +104,16 @@ PODSUMOWANIE FINANSOWE:
 - Wartość brutto: {round(podsumowanie.get('wartosc_brutto', 0), 2)} PLN
 
 POZYCJE KOSZTORYSU ({len(pozycje)} pozycji):
+Format: NR. [KNR] Opis robót | ilość jm | R=... M=... S=... | wartość PLN
 {pozycje_txt}
 
-Sprawdź w szczególności:
-- Pozycje gdzie M=0 a roboty wymagają materiałów (murowanie, betonowanie, malowanie, izolacje, okładziny) — POMIŃ pozycje demontażu/rozbiórki/rozebrania/wywozu/skucia: te z natury nie mają materiałów i M=0 jest tam poprawne
-- Pozycje gdzie S=0 a roboty wymagają sprzętu (wykopy, transport, zagęszczanie, dźwig)
-- Brakującą podstawę normatywną (pole podstawa puste lub "-")
-- Podejrzanie niskie lub zerowe wartości robocizny przy pracochłonnych robotach
-- Niespójności jednostek miary
-- Pozycje z zerową ilością lub wartością
-- Proporcje R:M:S dla danego rodzaju robót{materialy_txt}"""
+CO SPRAWDZIĆ W KAŻDEJ POZYCJI:
+- M=0 przy robotach wymagających materiałów (murowanie, tynkowanie, malowanie, izolacje, okładziny, betonowanie, posadzki) → BŁĄD; WYJĄTEK: demontaż/rozbiórka/rozebranie/wywóz/skucie mogą mieć M=0
+- S=0 przy robotach wymagających sprzętu (wykopy mechaniczne, transport, zagęszczanie, roboty dźwigiem) → OSTRZEŻENIE
+- Brakująca podstawa KNR (puste lub "-") → OSTRZEŻENIE z nazwą pozycji
+- Zerowa lub bardzo niska ilość (ilosc=0) → BŁĄD
+- Proporcje R:M:S nieproporcjonalne do rodzaju roboty
+- Wartość pozycji podejrzanie niska lub wysoka{materialy_txt}"""
 
         resp = client.messages.create(
             model=_MODEL,
@@ -144,11 +154,12 @@ def _format_pozycje(pozycje: list) -> str:
         opis = (p.get("opis", "-") or "-")[:80]
         ilosc = p.get("ilosc", 0)
         jm = p.get("jm", "-")
+        # Użyj numeru sekwencyjnego i (1..N) jako lp dla AI — spójny z tym co zwróci model
         lines.append(
             f"{i}. [{podstawa}] {opis} | {ilosc} {jm} | R={r} M={m} S={s} | wartość={w} PLN"
         )
     if len(pozycje) > _MAX_POZYCJE_IN_PROMPT:
-        lines.append(f"... (pominięto {len(pozycje) - _MAX_POZYCJE_IN_PROMPT} kolejnych pozycji)")
+        lines.append(f"... (pominięto {len(pozycje) - _MAX_POZYCJE_IN_PROMPT} kolejnych pozycji — sprawdź je też)")
     return "\n".join(lines)
 
 
