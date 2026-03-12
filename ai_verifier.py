@@ -13,7 +13,7 @@ import anthropic
 log = logging.getLogger(__name__)
 
 _MODEL = "claude-haiku-4-5-20251001"
-_MAX_TOKENS = 4000
+_MAX_TOKENS = 6000
 _MAX_POZYCJE_IN_PROMPT = 120
 
 _TOOL = {
@@ -76,44 +76,32 @@ def verify_kosztorys(pozycje: list, podsumowanie: dict, params: dict, ath_text: 
         pozycje_txt = _format_pozycje(pozycje)
         materialy_txt = _format_materials_from_ath(ath_text) if ath_text else ""
 
-        prompt = f"""Jesteś niezależnym ekspertem weryfikacji kosztorysów budowlanych w Polsce.
-Przeanalizuj KAŻDĄ pozycję kosztorysu i raportuj WSZYSTKIE znalezione błędy i ostrzeżenia.
+        prompt = f"""Jesteś ekspertem weryfikacji kosztorysów budowlanych w Polsce.
 
-ZASADY RAPORTOWANIA (OBOWIĄZKOWE):
-1. Każdy błąd/ostrzeżenie MUSI zawierać numer pozycji (pole "lp") z listy poniżej
-2. Pole "opis" musi być konkretne: podaj nazwę pozycji, wartości liczbowe, na czym polega błąd
-   Dobry przykład: "Poz. 5 – Tynkowanie ścian 45 m2: M=0 PLN, ale tynkowanie wymaga cementu i zaprawy"
-   Zły przykład: "Brak materiałów"
-3. Pole "sugestia" musi podać konkretne działanie do podjęcia
-4. NIE pomijaj żadnego błędu — wymień każdy osobno z własnym numerem pozycji
-5. Ogólne błędy bez konkretnej pozycji oznacz lp=null
+ZADANIE: Przejrzyj KAŻDĄ pozycję kosztorysu i wypełnij tablicę "bledy" oraz "ostrzezenia".
 
-PARAMETRY KOSZTORYSU:
-- Stawka robocizny: {params.get('stawka_rg', 35)} zł/r-g
-- Koszty pośrednie: {params.get('kp_procent', 70)}%
-- Zysk: {params.get('z_procent', 12)}%
-- VAT: {params.get('vat_procent', 23)}%
+FORMAT KAŻDEGO WPISU — OBOWIĄZKOWY:
+- lp: numer pozycji z listy poniżej (liczba) lub null dla błędów ogólnych
+- opis: "Poz. N – [nazwa roboty, ilość jm]: [co dokładnie jest nie tak, z liczbami]"
+  Przykład DOBRY: "Poz. 7 – Tynkowanie ścian wewnętrznych gipsem 38 m2: M=0,00 PLN mimo że tynkowanie wymaga gipsu, piasku i zaprawy"
+  Przykład ZŁY: "Brak materiałów w kilku pozycjach"
+- sugestia: konkretne działanie (np. "Uzupełnić materiały: gips ~1.80 PLN/kg, zaprawa ~1.20 PLN/kg")
 
-PODSUMOWANIE FINANSOWE:
-- Robocizna (R): {round(podsumowanie.get('suma_R', 0), 2)} PLN
-- Materiały (M): {round(podsumowanie.get('suma_M', 0), 2)} PLN
-- Sprzęt (S): {round(podsumowanie.get('suma_S', 0), 2)} PLN
-- Koszty pośrednie: {round(podsumowanie.get('koszty_posrednie', 0), 2)} PLN
-- Zysk: {round(podsumowanie.get('zysk', 0), 2)} PLN
-- Wartość netto: {round(podsumowanie.get('wartosc_netto', 0), 2)} PLN
-- Wartość brutto: {round(podsumowanie.get('wartosc_brutto', 0), 2)} PLN
+LIMIT: Wpisz maksymalnie 25 najpoważniejszych błędów i 15 ostrzeżeń — wybierz te o największym wpływie finansowym. W polu "komentarz" napisz ile łącznie błędów znaleziono i z jakiego zakresu pozycji.
 
-POZYCJE KOSZTORYSU ({len(pozycje)} pozycji):
-Format: NR. [KNR] Opis robót | ilość jm | R=... M=... S=... | wartość PLN
+PARAMETRY:
+- Stawka robocizny: {params.get('stawka_rg', 35)} zł/r-g | KP: {params.get('kp_procent', 70)}% | Z: {params.get('z_procent', 12)}% | VAT: {params.get('vat_procent', 23)}%
+- R={round(podsumowanie.get('suma_R',0),2)} M={round(podsumowanie.get('suma_M',0),2)} S={round(podsumowanie.get('suma_S',0),2)} PLN netto | Brutto: {round(podsumowanie.get('wartosc_brutto',0),2)} PLN
+
+POZYCJE ({len(pozycje)} szt.) — format: NR. [KNR] Opis | ilość jm | R M S | wartość:
 {pozycje_txt}
 
-CO SPRAWDZIĆ W KAŻDEJ POZYCJI:
-- M=0 przy robotach wymagających materiałów (murowanie, tynkowanie, malowanie, izolacje, okładziny, betonowanie, posadzki) → BŁĄD; WYJĄTEK: demontaż/rozbiórka/rozebranie/wywóz/skucie mogą mieć M=0
-- S=0 przy robotach wymagających sprzętu (wykopy mechaniczne, transport, zagęszczanie, roboty dźwigiem) → OSTRZEŻENIE
-- Brakująca podstawa KNR (puste lub "-") → OSTRZEŻENIE z nazwą pozycji
-- Zerowa lub bardzo niska ilość (ilosc=0) → BŁĄD
-- Proporcje R:M:S nieproporcjonalne do rodzaju roboty
-- Wartość pozycji podejrzanie niska lub wysoka{materialy_txt}"""
+KRYTERIA BŁĘDÓW:
+• M=0 przy: murowaniu, tynkowaniu, malowaniu, izolacji, okładzinach, betonowaniu, posadzkach → BŁĄD krytyczny (WYJĄTEK: demontaż/rozbiórka/wywóz = M=0 OK)
+• Brakujący KNR (puste lub "-") → BŁĄD z nazwą pozycji
+• Zerowa ilość → BŁĄD
+• S=0 przy: wykopach mechanicznych, transporcie, zagęszczaniu → OSTRZEŻENIE
+• Podejrzanie niska wartość pozycji przy pracochłonnej robocie → OSTRZEŻENIE{materialy_txt}"""
 
         resp = client.messages.create(
             model=_MODEL,
