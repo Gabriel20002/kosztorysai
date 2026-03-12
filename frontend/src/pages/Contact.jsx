@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link, Navigate } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
 
 const API = import.meta.env.VITE_API_URL ?? ''
@@ -11,7 +12,7 @@ const CATEGORIES = [
 ]
 
 export default function Contact() {
-    const { user } = useAuth()
+    const { user, loading: authLoading } = useAuth()
     const [form, setForm] = useState({
         email: user?.email ?? '',
         category: 'zapytanie',
@@ -43,6 +44,9 @@ export default function Contact() {
             setLoading(false)
         }
     }
+
+    if (authLoading) return null
+    if (!user) return <Navigate to="/login" replace />
 
     if (sent) return (
         <div className="flex-1 flex flex-col items-center justify-center py-24 px-4 text-center">
