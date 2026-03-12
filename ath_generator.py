@@ -69,9 +69,14 @@ _JM_CORRECTIONS_ATH = {
     'falownik': 'szt', 'inwerter': 'szt', 'sterownik': 'szt',
     'konstrukcja wsporcza': 'szt', 'konstrukcje wsporcze': 'szt',
     'dzwonek': 'szt', 'sygnalizator': 'szt', 'czujnik': 'szt', 'detektor': 'szt',
+    # Blachy, płyty metalowe → kg (PRZED 'lakier' — blacha lakierowana nie może dostać jm='l')
+    'blacha': 'kg',
     # Masy i farby → kg/l
     'klej': 'kg', 'cement': 'kg', 'zaprawa': 'kg',
     'farba': 'l', 'lakier': 'l',
+    # Ciecze instalacyjne → l
+    'preparat': 'l', 'primer': 'l', 'żywica': 'l', 'zywica': 'l',
+    'plastyfikator': 'l', 'emulsja': 'l',
 }
 
 

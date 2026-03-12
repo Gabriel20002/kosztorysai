@@ -38,6 +38,11 @@ _PRICE_FLOORS = [
     (('oprawa', 'oprava', 'oprawa oswietl'), 'szt', 20.0),
     # Gniazda, łączniki
     (('gniazdo', 'łącznik', 'lacznik', 'wyłącznik', 'wylacznik'), 'szt', 5.0),
+    # Kruszywa sypkie → min 40 PLN/m3
+    (('piasek',),                   'm3', 40.0),
+    (('żwir', 'zwir', 'kruszywo'), 'm3', 40.0),
+    # Woda → min 0.003 PLN/l lub 3 PLN/m3
+    (('woda',),                     'm3',  3.0),
 ]
 
 # ── Maksymalne ceny realne (sufit) ───────────────────────────────────────────
@@ -66,7 +71,7 @@ _PRICE_CEILINGS = [
 
 # ── Bezwzględne wykluczenia (tanie z natury, nie wymagają korekty) ────────────
 _EXEMPT_FRAGMENTS = (
-    'woda', 'tlen', 'piasek', 'żwir', 'zwir', 'gaz', 'śruba', 'sruba',
+    'tlen', 'gaz', 'śruba', 'sruba',
     'wkręt', 'wkret', 'nakrętka', 'nakretka', 'podkładka', 'podkladka',
     'opaska', 'kołek rozp', 'kolek rozp', 'uszczelka', 'klips', 'złączka',
     'podkładka', 'końcówka', 'koncowka',
