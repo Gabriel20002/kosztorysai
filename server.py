@@ -38,6 +38,9 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, HTMLResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
+from slowapi import Limiter, _rate_limit_exceeded_handler
+from slowapi.util import get_remote_address
+from slowapi.errors import RateLimitExceeded
 
 import uvicorn
 
@@ -65,6 +68,8 @@ def _run_migrations():
             "CREATE TABLE IF NOT EXISTS feedback (id SERIAL PRIMARY KEY, user_id INTEGER REFERENCES users(id), rating INTEGER NOT NULL, message TEXT, context VARCHAR, created_at TIMESTAMP DEFAULT NOW())",
             "CREATE TABLE IF NOT EXISTS contact_messages (id SERIAL PRIMARY KEY, user_id INTEGER REFERENCES users(id), email VARCHAR NOT NULL, category VARCHAR NOT NULL, message TEXT NOT NULL, created_at TIMESTAMP DEFAULT NOW())",
             "CREATE TABLE IF NOT EXISTS beta_applications (id SERIAL PRIMARY KEY, user_id INTEGER UNIQUE REFERENCES users(id), firma VARCHAR NOT NULL, stanowisko VARCHAR NOT NULL, doswiadczenie VARCHAR NOT NULL, cel TEXT NOT NULL, status VARCHAR DEFAULT 'pending', created_at TIMESTAMP DEFAULT NOW())",
+            "CREATE INDEX IF NOT EXISTS idx_kosztorysy_user_created ON kosztorysy (user_id, created_at DESC)",
+            "CREATE INDEX IF NOT EXISTS idx_feedback_created ON feedback (created_at DESC)",
         ]:
             try:
                 conn.execute(text(sql))
@@ -78,7 +83,10 @@ _run_migrations()
 # App
 # ---------------------------------------------------------------------------
 
+limiter = Limiter(key_func=get_remote_address)
 app = FastAPI(title="KosztorysAI", version="1.0", docs_url="/api/docs")
+app.state.limiter = limiter
+app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 
 # Mount frontend przy imporcie modułu (działa zarówno z gunicorn jak i bezpośrednio)
 def mount_frontend():
@@ -262,7 +270,9 @@ def history(
 
 
 @app.post("/api/generate")
+@limiter.limit("6/minute")
 async def generate(
+    request: Request,
     file: UploadFile = File(...),
     nazwa: str = Form(""),
     inwestor: str = Form(""),
@@ -428,7 +438,7 @@ def admin_patch_user(
     db.commit()
     db.refresh(user)
     if body.can_generate and not was_active:
-        _send_activation_email(user.email, user.name)
+        asyncio.get_event_loop().run_in_executor(None, _send_activation_email, user.email, user.name)
     return _user_dict(user)
 
 

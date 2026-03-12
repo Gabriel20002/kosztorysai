@@ -1,0 +1,386 @@
+[KOSZTORYS ATHENASOFT]
+co=Copyright Athenasoft Sp. z o.o.
+wf=5
+pr=NORMA	4.60
+nan=Modernizacja budynku o nr ewid. 289 w miejscowoœci Osiek - Biblioteka zmiana sposobu urzytkowania
+
+[STRONA TYT]
+na=KOSZTORYS INWESTORSKI	PRZEDMIAR
+nb=Modernizacja budynku o nr ewid. 289 w miejscowoœci Osiek - Biblioteka zmiana sposobu urzytkowania
+ab=Dz.nr 733/2 obrêb Osiek
+ni=Gmina O³awa
+dt=08.03.2026	0	0
+
+[NARZUTY NORMA 2]
+na=Koszty poœrednie	Kp
+wa=70.0	1	0
+nr=1
+ns=1
+
+[NARZUTY NORMA 2]
+na=Zysk	Z
+wa=12.0	1	0
+nr=1
+ns=1
+
+[NARZUTY NORMA 1]
+na=VAT	V
+wa=23.0	1	0
+nc=1
+
+[POZYCJA]
+id=1
+pd=Generator	KNR	4-04 0509-02	4-04	0509-02		0
+na=Rozebranie pokrycia dachowego z papy na deskowaniu
+ob=110.000	110.000		1
+jm=m2	061
+cj=0.00		0.00	0.00	0.00
+
+[POZYCJA]
+id=2
+pd=Generator	KNR	4-04 0403-02	4-04	0403-02		0
+na=Rozebranie konstrukcji wiêŸb dachowych deskowanie dachu na styk
+ob=110.000	110.000		1
+jm=m2	061
+cj=0.00		0.00	0.00	0.00
+
+[POZYCJA]
+id=3
+pd=Generator	KNR	4-04 0403-04	4-04	0403-04		0
+na=Rozebranie konstrukcji wiêŸb dachowych prostych
+ob=110.000	110.000		1
+jm=m2	061
+cj=0.00		0.00	0.00	0.00
+
+[POZYCJA]
+id=4
+pd=Generator	KNR	4-04 0406-04	4-04	0406-04		0
+na=Rozebranie podsufitek z desek nieotynkowanych
+ob=90.000	90.000		1
+jm=m2	061
+cj=0.00		0.00	0.00	0.00
+
+[POZYCJA]
+id=5
+pd=Generator	KNR	 				0
+na=Rozbiórka ok³adzin sufitowych z p³yt gipsowo-kartonowych
+ob=90.000	90.000		1
+jm=m2	061
+cj=0.00		0.00	0.00	0.00
+
+[POZYCJA]
+id=6
+pd=Generator	KNR	4-04 0504-03	4-04	0504-03		0
+na=Rozebranie posadzek z p³ytek ceramicznych
+ob=90.000	90.000		1
+jm=m2	061
+cj=0.00		0.00	0.00	0.00
+
+[POZYCJA]
+id=7
+pd=Generator	KNR	4-04 0301-04	4-04	0301-04		0
+na=Rozebranie pod³o¿a z betonu ¿wirowego
+ob=27.000	27.000		1
+jm=m3	062
+cj=549.75		549.75	0.00	0.00
+
+[POZYCJA]
+id=8
+pd=Generator	KNR	4-04 0105-04	4-04	0105-04		0
+na=Rozebranie œcianek dzia³owych
+ob=15.600	15.600		1
+jm=m2	061
+cj=0.00		0.00	0.00	0.00
+
+[POZYCJA]
+id=9
+pd=Generator	KNR	4-01 0701-11	4-01	0701-11		0
+na=Odbicie tynków zewnêtrznych wraz z izolacj¹ ze styropianu
+ob=88.500	88.500		1
+jm=m2	061
+cj=0.00		0.00	0.00	0.00
+
+[POZYCJA]
+id=10
+pd=Generator	KNR	4-02 0235-06	4-02	0235-06		0
+na=Demonta¿ umywalki
+ob=5.000	5.000		1
+jm=kpl	012
+cj=506.50		55.00	450.00	1.50
+
+[POZYCJA]
+id=11
+pd=Generator	KNR	4-02 0235-08	4-02	0235-08		0
+na=Demonta¿ ustêpu z misk¹
+ob=3.000	3.000		1
+jm=kpl	012
+cj=1323.00		120.00	1200.00	3.00
+
+[POZYCJA]
+id=12
+pd=Generator	KNR	4-02 0233-04	4-02	0233-04		0
+na=Demonta¿ podejœcia odp³ywowego o œr. 100 mm
+ob=3.000	3.000		1
+jm=szt	011
+cj=0.00		0.00	0.00	0.00
+
+[POZYCJA]
+id=13
+pd=Generator	KNR	4-02 0233-06	4-02	0233-06		0
+na=Demonta¿ podejœcia odp³ywowego o œr. 50 mm
+ob=5.000	5.000		1
+jm=szt	011
+cj=0.00		0.00	0.00	0.00
+
+[POZYCJA]
+id=14
+pd=Generator	KNR	4-02 0132-01	4-02	0132-01		0
+na=Demonta¿ baterii umywalkowej
+ob=5.000	5.000		1
+jm=szt	011
+cj=0.00		0.00	0.00	0.00
+
+[POZYCJA]
+id=15
+pd=Generator	KNR	4-02 0131-01	4-02	0131-01		0
+na=Demonta¿ zaworu wyp³ywowego z zakorkowaniem podejœcia o œr. 15-20 mm
+ob=3.000	3.000		1
+jm=szt	011
+cj=0.00		0.00	0.00	0.00
+
+[POZYCJA]
+id=16
+pd=Generator	KNR	9-21 0107-03	9-21	0107-03		0
+na=Oczyszczenie zbiornika na nieczystoœci usuniêcie namu³u i szlamu
+ob=18.000	18.000		1
+jm=m2	061
+cj=0.00		0.00	0.00	0.00
+
+[POZYCJA]
+id=17
+pd=Generator	KNR	9-21 0106-01	9-21	0106-01		0
+na=Oczyszczenie zbiornika na nieczystoœci czyszczenie i mycie powierzchni œcian i posadzki
+ob=60.000	60.000		1
+jm=m2	061
+cj=0.00		0.00	0.00	0.00
+
+[POZYCJA]
+id=18
+pd=Generator	KNNR	 				0
+na=Zasypanie komory zbiornika na nieczystoœci kruszywem dowiezionym
+ob=40.000	40.000		1
+jm=m3	062
+cj=0.00		0.00	0.00	0.00
+
+[POZYCJA]
+id=19
+pd=Generator	KNR	9-21 0302-01	9-21	0302-01		0
+na=Dezynfekcja powierzchni œcian i posadzki zbiornika metod¹ natrysku
+ob=60.000	60.000		1
+jm=m2	061
+cj=0.00		0.00	0.00	0.00
+
+[POZYCJA]
+id=20
+pd=Generator	KNR	4-04 1103-01	4-04	1103-01		0
+na=Za³adowanie i wywiezienie gruzu z rozbiórek
+ob=30.000	30.000		1
+jm=m3	062
+cj=0.00		0.00	0.00	0.00
+
+[POZYCJA]
+id=21
+pd=Generator	KALK	CSRB1 KNNR MB 3				0
+na=Podbicie betonem œcian fundamentowych z wykonaniem i zasypaniem wykopu
+ob=16.000	16.000		1
+jm=m3	062
+cj=0.00		0.00	0.00	0.00
+
+[POZYCJA]
+id=22
+pd=Generator	KNNR	 				0
+na=Podk³ady z ubitych materia³ów sypkich pod pod³ogi i posadzki
+ob=27.000	27.000		1
+jm=m3	062
+cj=289.70		204.50	85.20	0.00
+
+[POZYCJA]
+id=23
+pd=Generator	KNNR	 				0
+na=Podk³ady betonowe pod pod³ogi i posadzki
+ob=13.500	13.500		1
+jm=m3	062
+cj=0.00		0.00	0.00	0.00
+
+[POZYCJA]
+id=24
+pd=Generator	KNNR	 				0
+na=Izolacja podposadzkowa z folii polietylenowej x2
+ob=90.000	90.000		1
+jm=m2	061
+cj=0.00		0.00	0.00	0.00
+
+[POZYCJA]
+id=25
+pd=Generator	KNNR	 				0
+na=Wylewka betonowa gruboœci 5 cm
+ob=90.000	90.000		1
+jm=m2	061
+cj=0.00		0.00	0.00	0.00
+
+[POZYCJA]
+id=26
+pd=Generator	KNNR	 				0
+na=Posadzki z p³ytek z kamieni sztucznych alternatywa: posadzki winylowe lub ze œcieralnego linoleum.
+ob=90.000	90.000		1
+jm=m2	061
+cj=0.00		0.00	0.00	0.00
+
+[POZYCJA]
+id=27
+pd=Generator	KNR	4-01 0354-07	4-01	0354-07		0
+na=Wykucie z muru oœcie¿nic o powierzchni do 2 m2
+ob=6.000	6.000		1
+jm=szt	011
+cj=129.45		129.45	0.00	0.00
+
+[POZYCJA]
+id=28
+pd=Generator	KNR	4-01 0329-02	4-01	0329-02		0
+na=Wykucie otworów w œcianach z cegie³ o grub. 1/2 ceg.
+ob=9.000	9.000		1
+jm=m2	061
+cj=0.00		0.00	0.00	0.00
+
+[POZYCJA]
+id=29
+pd=Generator	KNR	4-01 0304-01	4-01	0304-01		0
+na=Uzupe³nienie œcian lub zamurowanie otworów w œcianach na zaprawie cementowo-wapiennej ceg³ami
+ob=0.400	0.400		1
+jm=m3	062
+cj=2113.41		1259.26	854.14	0.00
+
+[POZYCJA]
+id=30
+pd=Generator	KNR	4-01 0711-02	4-01	0711-02		0
+na=Uzupe³nienie tynków zwyk³ych wewnêtrznych kat. III z zaprawy cementowowapiennej na œcianach
+ob=4.000	4.000		1
+jm=m2	061
+cj=110.25		105.69	3.56	1.00
+
+[POZYCJA]
+id=31
+pd=Generator	KNNR	 				0
+na=Œcianki dzia³owe z p³yt gipsowo-kartonowych na rusztach metalowych
+ob=3.500	3.500		1
+jm=m2	061
+cj=0.00		0.00	0.00	0.00
+
+[POZYCJA]
+id=32
+pd=Generator	KNNR	 				0
+na=Monta¿ oœcie¿nic stalowych
+ob=3.000	3.000		1
+jm=szt	011
+cj=0.00		0.00	0.00	0.00
+
+[POZYCJA]
+id=33
+pd=Generator	KNNR	 				0
+na=Monta¿ skrzyde³ drzwiowych wewnêtrznych pe³nych fabrycznie wykoñczonych
+ob=5.400	5.400		1
+jm=m2	061
+cj=0.00		0.00	0.00	0.00
+
+[POZYCJA]
+id=34
+pd=Generator	KALK	ICRRB KNRU OS 4-				0
+na=Wymiana okien drewnianych na okna uchylne rozwierane i uchylno-rozwierane dwudzielne z PCV
+ob=12.000	12.000		1
+jm=m2	061
+cj=0.00		0.00	0.00	0.00
+
+[POZYCJA]
+id=35
+pd=Generator	KALK	CSRB1 KNNR MB 7				0
+na=Monta¿ wiêŸb dachowych stalowych, na murach lub s³upach ¿elbetowych
+ob=6.000	6.000		1
+jm=t	000
+cj=0.00		0.00	0.00	0.00
+
+[POZYCJA]
+id=36
+pd=Generator	KNR	 				0
+na=Membrana paroprzepuszczalna uk³adana na deskowaniu rozstaw kontr³at 0,60 m
+ob=110.000	110.000		1
+jm=m2	061
+cj=0.00		0.00	0.00	0.00
+
+[POZYCJA]
+id=37
+pd=Generator	KALK	ICRB KNRU OS 2-02				0
+na=Pokrycie dachów panelami z blachy stalowej na r¹bek stoj¹cy
+ob=110.000	110.000		1
+jm=m2	061
+cj=0.00		0.00	0.00	0.00
+
+[POZYCJA]
+id=38
+pd=Generator	KNR	 				0
+na=Sufit podwieszany z wype³nieniem p³ytami G-K na konstrukcja rusztu stalowego
+ob=90.000	90.000		1
+jm=m2	061
+cj=0.00		0.00	0.00	0.00
+
+[POZYCJA]
+id=39
+pd=Generator	KNNR	 				0
+na=Licowanie œcian p³ytkami ceramicznymii 20x20 cm uk³adanymi przy zastosowaniu masy klej¹cej na gotowym i wyrównanym pod³o¿u
+ob=16.000	16.000		1
+jm=m2	061
+cj=0.00		0.00	0.00	0.00
+
+[POZYCJA]
+id=40
+pd=Generator	KNNR	 				0
+na=Malowanie farb¹ emulsyjn¹ dwukrotnie z gruntowaniem p³yt gipsowych spoinowanych szpachlowanych
+ob=81.000	81.000		1
+jm=m2	061
+cj=0.00		0.00	0.00	0.00
+
+[POZYCJA]
+id=41
+pd=Generator	KNR	4-01 1204-02	4-01	1204-02		0
+na=Dwukrotne malowanie farbami emulsyjnymi starych tynków wewnêtrznych œcian
+ob=180.000	180.000		1
+jm=m2	061
+cj=12.65		9.75	2.90	0.00
+
+[POZYCJA]
+id=42
+pd=Generator	KNR	 				0
+na=Ocieplenie œcian zewnêtrznych we³n¹ skaln¹ gr. 18 cm, tynk cienkowarstwowy
+ob=88.500	88.500		1
+jm=m2	061
+cj=0.00		0.00	0.00	0.00
+
+[POZYCJA]
+id=43
+pd=Generator	KNNR	 				0
+na=Koszty budowy nawierzchni z kostki betonowej
+ob=23.500	23.500		1
+jm=m2	061
+cj=0.00		0.00	0.00	0.00
+
+[POZYCJA]
+id=44
+pd=Generator	KNNR	 				0
+na=Koszty budowy studni ch³onnej g³êbokoœci do 3 m
+ob=1.000	1.000		1
+jm=stud	000
+cj=6632.60		506.80	5742.06	383.74
+
+[PODSUMOWANIE]
+wa=
+kb=888933.15	873758.54	14770.37	404.24	0	0	0
+wc=2081810.33	873758.54	14770.37	404.24	0	803595.57	389281.61

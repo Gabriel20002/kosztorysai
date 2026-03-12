@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, DateTime, ForeignKey, Text, Boolean
+from sqlalchemy import Column, Integer, String, DateTime, ForeignKey, Text, Boolean, Index
 from sqlalchemy.orm import relationship
 from datetime import datetime, timezone
 from database import Base
@@ -35,6 +35,8 @@ class Kosztorys(Base):
     created_at = Column(DateTime, default=_utcnow)
 
     owner = relationship("User", back_populates="kosztorysy")
+
+    __table_args__ = (Index("idx_kosztorysy_user_created", "user_id", "created_at"),)
 
 
 class Feedback(Base):
