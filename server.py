@@ -24,7 +24,7 @@ except ImportError:
 import argparse
 import tempfile
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timezone
 
 from fastapi import FastAPI, UploadFile, File, Form, HTTPException, Depends, Request
 from fastapi.middleware.cors import CORSMiddleware
@@ -153,7 +153,7 @@ def register(body: RegisterBody, db: Session = Depends(get_db)):
         email=body.email,
         name=body.name,
         hashed_password=auth.hash_password(body.password),
-        terms_accepted_at=datetime.utcnow(),
+        terms_accepted_at=datetime.now(timezone.utc),
     )
     db.add(user)
     db.commit()
