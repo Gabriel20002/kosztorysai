@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react'
 import { useAuth } from '../context/AuthContext'
-import { Link } from 'react-router-dom'
+import { Link, Navigate } from 'react-router-dom'
 import FeedbackWidget from '../components/FeedbackWidget'
 
 const API = import.meta.env.VITE_API_URL ?? ''
@@ -234,6 +234,8 @@ export default function Dashboard() {
             </div>
         </div>
     )
+
+    if (!user.can_generate && !user.is_admin && !user.has_applied) return <Navigate to="/apply" replace />
 
     if (!user.can_generate && !user.is_admin) return (
         <div className="flex-1 flex flex-col items-center justify-center py-24 px-4 text-center max-w-lg mx-auto">

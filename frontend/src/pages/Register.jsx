@@ -21,7 +21,7 @@ export default function Register() {
         setError(null)
         try {
             await register(form.email, form.password, form.name)
-            navigate('/dashboard')
+            navigate('/apply')
         } catch (err) {
             setError(err.message)
         } finally {

@@ -15,6 +15,7 @@ export default function Admin() {
     const [users, setUsers] = useState([])
     const [feedback, setFeedback] = useState([])
     const [contact, setContact] = useState([])
+    const [applications, setApplications] = useState([])
     const [tab, setTab] = useState('users')
     const [loadingData, setLoadingData] = useState(true)
 
@@ -28,14 +29,16 @@ export default function Admin() {
         setLoadingData(true)
         const token = getToken()
         try {
-            const [u, f, c] = await Promise.all([
+            const [u, f, c, a] = await Promise.all([
                 fetch(`${API}/api/admin/users`, { headers: authHeaders(token) }).then(r => r.json()),
                 fetch(`${API}/api/admin/feedback`, { headers: authHeaders(token) }).then(r => r.json()),
                 fetch(`${API}/api/admin/contact`, { headers: authHeaders(token) }).then(r => r.json()),
+                fetch(`${API}/api/admin/applications`, { headers: authHeaders(token) }).then(r => r.json()),
             ])
             setUsers(Array.isArray(u) ? u : [])
             setFeedback(Array.isArray(f) ? f : [])
             setContact(Array.isArray(c) ? c : [])
+            setApplications(Array.isArray(a) ? a : [])
         } catch (e) {
             console.error(e)
         } finally {
@@ -67,7 +70,7 @@ export default function Admin() {
 
     if (!user?.is_admin) return null
 
-    const pending = users.filter(u => !u.can_generate && !u.is_admin)
+    const pending = applications.filter(a => !a.can_generate)
     const avgRating = feedback.length
         ? (feedback.reduce((s, f) => s + f.rating, 0) / feedback.length).toFixed(1)
         : '—'
@@ -84,10 +87,10 @@ export default function Admin() {
                                 : `${pending.length} użytkowników czeka na aktywację`}
                         </p>
                         <p className="text-yellow-500 text-xs mt-0.5">
-                            {pending.map(u => u.name || u.email).join(', ')}
+                            {pending.map(a => a.name || a.email).join(', ')}
                         </p>
                     </div>
-                    <button onClick={() => setTab('users')} className="text-xs font-bold text-yellow-400 hover:text-yellow-200 transition-colors border border-yellow-500/40 px-3 py-1.5 rounded-lg">
+                    <button onClick={() => setTab('applications')} className="text-xs font-bold text-yellow-400 hover:text-yellow-200 transition-colors border border-yellow-500/40 px-3 py-1.5 rounded-lg">
                         Aktywuj
                     </button>
                 </div>
@@ -110,6 +113,7 @@ export default function Admin() {
                     { label: 'Użytkownicy', value: users.length, icon: 'group' },
                     { label: 'Aktywni (mogą generować)', value: users.filter(u => u.can_generate).length, icon: 'check_circle' },
                     { label: 'Opinie', value: feedback.length, icon: 'rate_review' },
+                    { label: 'Wnioski beta', value: applications.length, icon: 'assignment' },
                     { label: 'Wiadomości', value: contact.length, icon: 'mail' },
                     { label: 'Śr. ocena', value: avgRating, icon: 'star' },
                 ].map(s => (
@@ -125,6 +129,7 @@ export default function Admin() {
             <div className="flex gap-2 mb-6">
                 {[
                     { id: 'users', label: 'Użytkownicy', icon: 'group' },
+                    { id: 'applications', label: `Wnioski${pending.length ? ` (${pending.length})` : ''}`, icon: 'assignment' },
                     { id: 'feedback', label: 'Opinie', icon: 'rate_review' },
                     { id: 'contact', label: 'Wiadomości', icon: 'mail' },
                 ].map(t => (
@@ -191,6 +196,67 @@ export default function Admin() {
                     {users.length === 0 && (
                         <div className="p-12 text-center text-slate-500">Brak użytkowników</div>
                     )}
+                </div>
+            )}
+
+            {/* Wnioski beta */}
+            {tab === 'applications' && (
+                <div className="space-y-4">
+                    {applications.length === 0 && (
+                        <div className="glass-panel rounded-2xl p-12 border border-slate-700 text-center text-slate-500">
+                            Brak wniosków
+                        </div>
+                    )}
+                    {applications.map(a => (
+                        <div key={a.id} className={`glass-panel rounded-2xl p-5 border transition-colors ${a.can_generate ? 'border-emerald-500/30 bg-emerald-500/5' : 'border-yellow-500/30 bg-yellow-500/5'}`}>
+                            <div className="flex items-start justify-between gap-4 flex-wrap">
+                                <div className="flex items-center gap-3">
+                                    <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center text-primary font-bold text-sm">
+                                        {(a.name || a.email)[0].toUpperCase()}
+                                    </div>
+                                    <div>
+                                        <p className="text-white font-bold text-sm">{a.name}</p>
+                                        <p className="text-slate-400 text-xs">{a.email}</p>
+                                    </div>
+                                </div>
+                                <div className="flex items-center gap-3">
+                                    <span className={`text-xs font-bold px-2.5 py-1 rounded-full border ${a.can_generate ? 'bg-emerald-500/20 text-emerald-400 border-emerald-500/30' : 'bg-yellow-500/20 text-yellow-400 border-yellow-500/30'}`}>
+                                        {a.can_generate ? 'Aktywny' : 'Oczekuje'}
+                                    </span>
+                                    {!a.can_generate && (
+                                        <button
+                                            onClick={async () => { await toggleGenerate(a.user_id, false); loadAll() }}
+                                            className="h-9 px-4 rounded-xl bg-primary hover:bg-sky-400 text-white text-xs font-bold transition-colors btn-press flex items-center gap-1.5"
+                                        >
+                                            <span className="material-symbols-outlined text-sm">check_circle</span>
+                                            Aktywuj
+                                        </button>
+                                    )}
+                                </div>
+                            </div>
+                            <div className="mt-4 grid grid-cols-1 sm:grid-cols-3 gap-3 text-sm">
+                                <div className="bg-slate-900/50 rounded-xl p-3">
+                                    <p className="text-xs text-slate-500 mb-1">Firma</p>
+                                    <p className="text-slate-300">{a.firma}</p>
+                                </div>
+                                <div className="bg-slate-900/50 rounded-xl p-3">
+                                    <p className="text-xs text-slate-500 mb-1">Stanowisko</p>
+                                    <p className="text-slate-300">{a.stanowisko}</p>
+                                </div>
+                                <div className="bg-slate-900/50 rounded-xl p-3">
+                                    <p className="text-xs text-slate-500 mb-1">Doświadczenie</p>
+                                    <p className="text-slate-300">{a.doswiadczenie}</p>
+                                </div>
+                            </div>
+                            <div className="mt-3 bg-slate-900/50 rounded-xl p-3">
+                                <p className="text-xs text-slate-500 mb-1">Cel użycia</p>
+                                <p className="text-slate-300 text-sm leading-relaxed">{a.cel}</p>
+                            </div>
+                            <div className="mt-3 text-xs text-slate-600">
+                                {a.created_at ? new Date(a.created_at).toLocaleString('pl-PL') : '—'}
+                            </div>
+                        </div>
+                    ))}
                 </div>
             )}
 

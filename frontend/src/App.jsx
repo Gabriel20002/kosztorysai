@@ -15,6 +15,7 @@ import Admin from './pages/Admin'
 import Terms from './pages/Terms'
 import NotFound from './pages/NotFound'
 import Contact from './pages/Contact'
+import Apply from './pages/Apply'
 
 function AppInner() {
   const location = useLocation()
@@ -42,6 +43,7 @@ function AppInner() {
           <Route path="/admin" element={<Admin />} />
           <Route path="/terms" element={<Terms />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/apply" element={<Apply />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>

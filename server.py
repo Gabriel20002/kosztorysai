@@ -64,6 +64,7 @@ def _run_migrations():
             "ALTER TABLE users ADD COLUMN IF NOT EXISTS terms_accepted_at TIMESTAMP DEFAULT NULL",
             "CREATE TABLE IF NOT EXISTS feedback (id SERIAL PRIMARY KEY, user_id INTEGER REFERENCES users(id), rating INTEGER NOT NULL, message TEXT, context VARCHAR, created_at TIMESTAMP DEFAULT NOW())",
             "CREATE TABLE IF NOT EXISTS contact_messages (id SERIAL PRIMARY KEY, user_id INTEGER REFERENCES users(id), email VARCHAR NOT NULL, category VARCHAR NOT NULL, message TEXT NOT NULL, created_at TIMESTAMP DEFAULT NOW())",
+            "CREATE TABLE IF NOT EXISTS beta_applications (id SERIAL PRIMARY KEY, user_id INTEGER UNIQUE REFERENCES users(id), firma VARCHAR NOT NULL, stanowisko VARCHAR NOT NULL, doswiadczenie VARCHAR NOT NULL, cel TEXT NOT NULL, status VARCHAR DEFAULT 'pending', created_at TIMESTAMP DEFAULT NOW())",
         ]:
             try:
                 conn.execute(text(sql))
@@ -184,7 +185,12 @@ class LoginBody(BaseModel):
     email: str
     password: str
 
-def _user_dict(user: models.User) -> dict:
+def _user_dict(user: models.User, db: Session = None) -> dict:
+    has_applied = False
+    if db:
+        has_applied = db.query(models.BetaApplication).filter(
+            models.BetaApplication.user_id == user.id
+        ).first() is not None
     return {
         "id": user.id,
         "email": user.email,
@@ -192,6 +198,7 @@ def _user_dict(user: models.User) -> dict:
         "plan": user.plan,
         "is_admin": user.is_admin,
         "can_generate": user.can_generate,
+        "has_applied": has_applied,
     }
 
 
@@ -210,7 +217,7 @@ def register(body: RegisterBody, db: Session = Depends(get_db)):
     db.add(user)
     db.commit()
     db.refresh(user)
-    return {"token": auth.create_token(user.id), "user": _user_dict(user)}
+    return {"token": auth.create_token(user.id), "user": _user_dict(user, db)}
 
 
 @app.post("/api/auth/login")
@@ -218,12 +225,12 @@ def login(body: LoginBody, db: Session = Depends(get_db)):
     user = db.query(models.User).filter(models.User.email == body.email).first()
     if not user or not auth.verify_password(body.password, user.hashed_password):
         raise HTTPException(401, detail="Nieprawidłowy email lub hasło")
-    return {"token": auth.create_token(user.id), "user": _user_dict(user)}
+    return {"token": auth.create_token(user.id), "user": _user_dict(user, db)}
 
 
 @app.get("/api/auth/me")
-def me(current_user: models.User = Depends(auth.get_current_user)):
-    return _user_dict(current_user)
+def me(current_user: models.User = Depends(auth.get_current_user), db: Session = Depends(get_db)):
+    return _user_dict(current_user, db)
 
 
 # ---------------------------------------------------------------------------
@@ -560,6 +567,70 @@ def admin_get_contact(
             "created_at": m.created_at.isoformat() if m.created_at else None,
         }
         for m in items
+    ]
+
+
+# ---------------------------------------------------------------------------
+# Beta Applications
+# ---------------------------------------------------------------------------
+
+class BetaApplyBody(BaseModel):
+    firma: str
+    stanowisko: str
+    doswiadczenie: str
+    cel: str
+
+@app.post("/api/beta/apply")
+def beta_apply(
+    body: BetaApplyBody,
+    current_user: models.User = Depends(auth.get_current_user),
+    db: Session = Depends(get_db),
+):
+    if not body.firma.strip() or not body.cel.strip():
+        raise HTTPException(400, "Firma i cel są wymagane")
+    existing = db.query(models.BetaApplication).filter(
+        models.BetaApplication.user_id == current_user.id
+    ).first()
+    if existing:
+        raise HTTPException(400, "Wniosek już został złożony")
+    app_obj = models.BetaApplication(
+        user_id=current_user.id,
+        firma=body.firma.strip(),
+        stanowisko=body.stanowisko.strip(),
+        doswiadczenie=body.doswiadczenie.strip(),
+        cel=body.cel.strip(),
+    )
+    db.add(app_obj)
+    db.commit()
+    return {"ok": True}
+
+
+@app.get("/api/admin/applications")
+def admin_get_applications(
+    admin: models.User = Depends(auth.get_admin_user),
+    db: Session = Depends(get_db),
+):
+    items = (
+        db.query(models.BetaApplication, models.User)
+        .join(models.User, models.BetaApplication.user_id == models.User.id)
+        .order_by(models.BetaApplication.created_at.desc())
+        .all()
+    )
+    return [
+        {
+            "id": a.id,
+            "user_id": a.user_id,
+            "name": u.name,
+            "email": u.email,
+            "firma": a.firma,
+            "stanowisko": a.stanowisko,
+            "doswiadczenie": a.doswiadczenie,
+            "cel": a.cel,
+            "status": a.status,
+            "can_generate": u.can_generate,
+            "created_at": a.created_at.isoformat() if a.created_at else None,
+        }
+        for a, u in items
     ]
 
 

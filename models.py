@@ -48,6 +48,19 @@ class Feedback(Base):
     created_at = Column(DateTime, default=_utcnow)
 
 
+class BetaApplication(Base):
+    __tablename__ = "beta_applications"
+
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id"), unique=True, nullable=False)
+    firma = Column(String, nullable=False)
+    stanowisko = Column(String, nullable=False)
+    doswiadczenie = Column(String, nullable=False)
+    cel = Column(Text, nullable=False)
+    status = Column(String, default="pending")
+    created_at = Column(DateTime, default=_utcnow)
+
+
 class ContactMessage(Base):
     __tablename__ = "contact_messages"
 
