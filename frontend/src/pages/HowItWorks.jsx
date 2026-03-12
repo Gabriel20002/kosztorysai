@@ -18,7 +18,7 @@ export default function HowItWorks() {
                         <div className="hidden md:block absolute top-[100px] left-[15%] right-[15%] h-0.5 bg-gradient-to-r from-transparent via-slate-700 to-transparent"></div>
 
                         {/* Step 1 */}
-                        <div className="glass-card rounded-2xl p-8 border border-slate-800 relative group flex flex-col items-center text-center hover:border-primary/50 transition-colors">
+                        <div className="glass-card rounded-2xl p-8 border border-slate-800 relative group flex flex-col items-center text-center hover:border-primary/50 transition-colors fade-in-up delay-1">
                             <div className="absolute -top-6 left-1/2 -translate-x-1/2 size-12 rounded-full bg-surface-dark border-4 border-background-dark text-white font-black flex items-center justify-center z-10">1</div>
                             <div className="size-20 rounded-2xl bg-slate-900 border border-slate-700 flex items-center justify-center shadow-lg shadow-black/50 mb-6 mt-4 group-hover:scale-110 transition-transform">
                                 <span className="material-symbols-outlined text-primary text-4xl">upload_file</span>
@@ -28,7 +28,7 @@ export default function HowItWorks() {
                         </div>
 
                         {/* Step 2 */}
-                        <div className="glass-card rounded-2xl p-8 border border-slate-800 relative group flex flex-col items-center text-center hover:border-secondary/50 transition-colors transform md:translate-y-8">
+                        <div className="glass-card rounded-2xl p-8 border border-slate-800 relative group flex flex-col items-center text-center hover:border-secondary/50 transition-colors transform md:translate-y-8 fade-in-up delay-2">
                             <div className="absolute -top-6 left-1/2 -translate-x-1/2 size-12 rounded-full bg-primary border-4 border-background-dark text-white font-black flex items-center justify-center z-10 shadow-[0_0_15px_rgba(19,146,236,0.5)]">2</div>
                             <div className="size-20 rounded-2xl bg-slate-900 border border-slate-700 flex items-center justify-center shadow-lg shadow-black/50 mb-6 mt-4 group-hover:scale-110 transition-transform">
                                 <span className="material-symbols-outlined text-secondary text-4xl">memory</span>
@@ -38,7 +38,7 @@ export default function HowItWorks() {
                         </div>
 
                         {/* Step 3 */}
-                        <div className="glass-card rounded-2xl p-8 border border-slate-800 relative group flex flex-col items-center text-center hover:border-emerald-500/50 transition-colors">
+                        <div className="glass-card rounded-2xl p-8 border border-slate-800 relative group flex flex-col items-center text-center hover:border-emerald-500/50 transition-colors fade-in-up delay-3">
                             <div className="absolute -top-6 left-1/2 -translate-x-1/2 size-12 rounded-full bg-surface-dark border-4 border-background-dark text-white font-black flex items-center justify-center z-10">3</div>
                             <div className="size-20 rounded-2xl bg-slate-900 border border-slate-700 flex items-center justify-center shadow-lg shadow-black/50 mb-6 mt-4 group-hover:scale-110 transition-transform">
                                 <span className="material-symbols-outlined text-emerald-400 text-4xl">request_quote</span>

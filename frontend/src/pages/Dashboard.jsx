@@ -341,7 +341,7 @@ export default function Dashboard() {
 
                     {/* Wynik */}
                     {result && (
-                        <div className="glass-panel rounded-2xl p-7 border border-emerald-500/30 bg-emerald-500/5">
+                        <div className="glass-panel rounded-2xl p-7 border border-emerald-500/30 bg-emerald-500/5 fade-in-up">
                             <h3 className="text-xl font-bold text-white flex items-center gap-3 mb-6">
                                 <span className="material-symbols-outlined text-emerald-400">check_circle</span>
                                 Kosztorys wygenerowany pomyślnie
@@ -350,7 +350,7 @@ export default function Dashboard() {
                                 {result.files?.ath && (
                                     <button
                                         onClick={() => downloadFile(result.files.ath)}
-                                        className="h-12 px-8 bg-primary hover:bg-sky-400 text-white font-bold rounded-xl flex items-center gap-3 transition-all shadow-lg shadow-primary/20"
+                                        className="h-12 px-8 bg-primary hover:bg-sky-400 text-white font-bold rounded-xl flex items-center gap-3 transition-all shadow-lg shadow-primary/20 btn-press"
                                     >
                                         <span className="material-symbols-outlined">download</span>
                                         Pobierz ATH
@@ -484,7 +484,7 @@ export default function Dashboard() {
                             <button
                                 onClick={handleGenerate}
                                 disabled={loading || !file}
-                                className={`w-full h-14 font-extrabold rounded-xl shadow-xl flex items-center justify-center gap-3 group transition-all transform
+                                className={`w-full h-14 font-extrabold rounded-xl shadow-xl flex items-center justify-center gap-3 group transition-all transform btn-press
                                     ${loading || !file
                                         ? 'bg-slate-700 text-slate-500 cursor-not-allowed'
                                         : 'bg-primary hover:bg-sky-400 text-white shadow-primary/20 hover:-translate-y-0.5'}`}
@@ -517,12 +517,13 @@ export default function Dashboard() {
                         Historia Kosztorysów
                     </h2>
                     {historyLoading ? (
-                        <div className="glass-panel rounded-2xl p-8 border border-slate-700 flex items-center justify-center">
-                            <svg className="animate-spin h-5 w-5 text-primary mr-3" fill="none" viewBox="0 0 24 24">
-                                <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"/>
-                                <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z"/>
-                            </svg>
-                            <span className="text-slate-400">Ładowanie historii...</span>
+                        <div className="glass-panel rounded-2xl border border-slate-700 overflow-hidden">
+                            {[1,2,3].map(i => (
+                                <div key={i} className="flex items-center gap-4 px-6 py-4 border-b border-slate-800 last:border-0">
+                                    <div className="h-3 w-48 rounded skeleton"></div>
+                                    <div className="h-3 w-24 rounded skeleton ml-auto"></div>
+                                </div>
+                            ))}
                         </div>
                     ) : history.length === 0 ? (
                         <div className="glass-panel rounded-2xl p-8 border border-slate-700 text-center text-slate-500">

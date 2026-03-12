@@ -1,4 +1,4 @@
-import { Routes, Route, Navigate } from 'react-router-dom'
+import { Routes, Route, Navigate, useLocation } from 'react-router-dom'
 import React from 'react'
 
 import { AuthProvider } from './context/AuthContext'
@@ -16,9 +16,9 @@ import Terms from './pages/Terms'
 import NotFound from './pages/NotFound'
 import Contact from './pages/Contact'
 
-function App() {
+function AppInner() {
+  const location = useLocation()
   return (
-    <AuthProvider>
     <div className="relative flex flex-col w-full grow min-h-screen">
       {/* Background Ambient Glow */}
       <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden">
@@ -28,7 +28,7 @@ function App() {
 
       <Navbar />
 
-      <main className="relative z-10 flex flex-col items-center w-full grow">
+      <main key={location.pathname} className="relative z-10 flex flex-col items-center w-full grow page-enter">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/dashboard" element={<Dashboard />} />
@@ -48,6 +48,13 @@ function App() {
 
       <Footer />
     </div>
+  )
+}
+
+function App() {
+  return (
+    <AuthProvider>
+      <AppInner />
     </AuthProvider>
   )
 }

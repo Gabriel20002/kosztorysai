@@ -8,7 +8,7 @@ export default function Home() {
             {/* Hero Section */}
             <section className="w-full max-w-[1280px] px-4 md:px-6 py-12 md:py-24 lg:py-32 flex flex-col lg:flex-row items-center gap-8 lg:gap-20">
                 {/* Hero Text */}
-                <div className="flex flex-col gap-6 lg:w-1/2 text-center lg:text-left">
+                <div className="flex flex-col gap-6 lg:w-1/2 text-center lg:text-left fade-in-up">
                     <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-800/50 border border-slate-700/50 w-fit mx-auto lg:mx-0">
                         <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
                         <span className="text-xs font-medium text-slate-300 uppercase tracking-wider">Wersja Beta — W Aktywnym Rozwoju</span>
@@ -41,7 +41,7 @@ export default function Home() {
                 </div>
 
                 {/* Hero Visual / 3D Card Effect */}
-                <div className="lg:w-1/2 w-full relative perspective-1000">
+                <div className="lg:w-1/2 w-full relative perspective-1000 fade-in-up delay-2">
                     <div className="relative w-full aspect-[4/3] rounded-2xl glass-card p-2 transform rotate-y-[-5deg] rotate-x-[5deg] hover:rotate-0 transition-transform duration-700 ease-out shadow-2xl overflow-hidden border border-slate-700/30">
                         {/* Abstract UI mock */}
                         <div className="absolute inset-0 bg-gradient-to-br from-slate-900 to-slate-950 opacity-90"></div>
@@ -107,17 +107,17 @@ export default function Home() {
             <section className="w-full border-y border-slate-800 bg-surface-dark/50 backdrop-blur-sm">
                 <div className="max-w-[1280px] mx-auto px-4 md:px-6 py-8 md:py-12">
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                        <div className="flex flex-col items-center md:items-start p-4 text-center md:text-left">
+                        <div className="flex flex-col items-center md:items-start p-4 text-center md:text-left fade-in-up delay-1">
                             <span className="material-symbols-outlined text-primary text-3xl mb-2">upload_file</span>
                             <p className="text-base font-bold text-white mb-1">Przedmiar PDF → ATH w minuty</p>
                             <p className="text-sm text-slate-400">Wgraj plik z Normy PRO i odbierz gotowy kosztorys</p>
                         </div>
-                        <div className="flex flex-col items-center md:items-start p-4 md:border-l md:border-slate-800 text-center md:text-left">
+                        <div className="flex flex-col items-center md:items-start p-4 md:border-l md:border-slate-800 text-center md:text-left fade-in-up delay-2">
                             <span className="material-symbols-outlined text-secondary text-3xl mb-2">auto_awesome</span>
                             <p className="text-base font-bold text-white mb-1">Automatyczne nakłady KNR</p>
                             <p className="text-sm text-slate-400">AI dobiera robociznę, materiały i sprzęt do każdej pozycji</p>
                         </div>
-                        <div className="flex flex-col items-center md:items-start p-4 md:border-l md:border-slate-800 text-center md:text-left">
+                        <div className="flex flex-col items-center md:items-start p-4 md:border-l md:border-slate-800 text-center md:text-left fade-in-up delay-3">
                             <span className="material-symbols-outlined text-primary text-3xl mb-2">download</span>
                             <p className="text-base font-bold text-white mb-1">Format ATH gotowy do użycia</p>
                             <p className="text-sm text-slate-400">Wynik gotowy do otwarcia w oprogramowaniu kosztorysowym bez żadnych konwersji</p>
@@ -136,7 +136,7 @@ export default function Home() {
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     {/* Feature 1 */}
-                    <div className="group relative rounded-2xl bg-surface-dark border border-slate-800 p-8 hover:border-primary/50 transition-all hover:-translate-y-1 duration-300">
+                    <div className="group relative rounded-2xl bg-surface-dark border border-slate-800 p-8 hover:border-primary/50 transition-all hover:-translate-y-1 duration-300 fade-in-up delay-1">
                         <div className="absolute inset-0 bg-gradient-to-b from-primary/5 to-transparent opacity-0 group-hover:opacity-100 rounded-2xl transition-opacity"></div>
                         <div className="relative z-10 flex flex-col gap-6">
                             <div className="size-14 rounded-xl bg-slate-900 border border-slate-700 flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg shadow-black/50">
@@ -150,7 +150,7 @@ export default function Home() {
                     </div>
 
                     {/* Feature 2 */}
-                    <div className="group relative rounded-2xl bg-surface-dark border border-slate-800 p-8 hover:border-secondary/50 transition-all hover:-translate-y-1 duration-300">
+                    <div className="group relative rounded-2xl bg-surface-dark border border-slate-800 p-8 hover:border-secondary/50 transition-all hover:-translate-y-1 duration-300 fade-in-up delay-2">
                         <div className="absolute inset-0 bg-gradient-to-b from-secondary/5 to-transparent opacity-0 group-hover:opacity-100 rounded-2xl transition-opacity"></div>
                         <div className="relative z-10 flex flex-col gap-6">
                             <div className="size-14 rounded-xl bg-slate-900 border border-slate-700 flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg shadow-black/50">
@@ -164,7 +164,7 @@ export default function Home() {
                     </div>
 
                     {/* Feature 3 */}
-                    <div className="group relative rounded-2xl bg-surface-dark border border-slate-800 p-8 hover:border-primary/50 transition-all hover:-translate-y-1 duration-300">
+                    <div className="group relative rounded-2xl bg-surface-dark border border-slate-800 p-8 hover:border-primary/50 transition-all hover:-translate-y-1 duration-300 fade-in-up delay-3">
                         <div className="absolute inset-0 bg-gradient-to-b from-primary/5 to-transparent opacity-0 group-hover:opacity-100 rounded-2xl transition-opacity"></div>
                         <div className="relative z-10 flex flex-col gap-6">
                             <div className="size-14 rounded-xl bg-slate-900 border border-slate-700 flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg shadow-black/50">

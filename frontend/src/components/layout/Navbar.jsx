@@ -42,10 +42,10 @@ export default function Navbar() {
                     <h2 className="text-xl font-bold tracking-tight">Kosztorysy AI</h2>
                 </SmartLink>
                 <div className="hidden lg:flex items-center gap-8">
-                    <SmartLink className="text-slate-600 dark:text-slate-300 hover:text-primary transition-colors text-sm font-medium" to="/how-it-works">Jak to działa</SmartLink>
-                    <SmartLink className="text-slate-600 dark:text-slate-300 hover:text-primary transition-colors text-sm font-medium" to="/pricing">Cennik</SmartLink>
-                    <SmartLink className="text-slate-600 dark:text-slate-300 hover:text-primary transition-colors text-sm font-medium" to="/terms">Regulamin</SmartLink>
-                    {user && <SmartLink className="text-slate-600 dark:text-slate-300 hover:text-primary transition-colors text-sm font-medium" to="/contact">Kontakt</SmartLink>}
+                    <SmartLink className="nav-link text-slate-600 dark:text-slate-300 hover:text-primary transition-colors text-sm font-medium" to="/how-it-works">Jak to działa</SmartLink>
+                    <SmartLink className="nav-link text-slate-600 dark:text-slate-300 hover:text-primary transition-colors text-sm font-medium" to="/pricing">Cennik</SmartLink>
+                    <SmartLink className="nav-link text-slate-600 dark:text-slate-300 hover:text-primary transition-colors text-sm font-medium" to="/terms">Regulamin</SmartLink>
+                    {user && <SmartLink className="nav-link text-slate-600 dark:text-slate-300 hover:text-primary transition-colors text-sm font-medium" to="/contact">Kontakt</SmartLink>}
                 </div>
                 <div className="flex items-center gap-4">
                     {user ? (
@@ -62,7 +62,7 @@ export default function Navbar() {
                             </SmartLink>
                             <button
                                 onClick={handleLogout}
-                                className="hidden sm:flex items-center justify-center rounded-lg h-9 px-4 border border-slate-700 text-slate-300 hover:text-white hover:border-slate-500 text-sm font-bold transition-all"
+                                className="hidden sm:flex items-center justify-center rounded-lg h-9 px-4 border border-slate-700 text-slate-300 hover:text-white hover:border-slate-500 text-sm font-bold transition-all btn-press"
                             >
                                 Wyloguj
                             </button>
@@ -70,7 +70,7 @@ export default function Navbar() {
                     ) : (
                         <>
                             <SmartLink className="hidden sm:block text-slate-600 dark:text-slate-300 hover:text-white transition-colors text-sm font-medium" to="/login">Zaloguj się</SmartLink>
-                            <SmartLink to="/register" className="hidden sm:flex items-center justify-center rounded-lg h-9 px-4 bg-primary hover:bg-primary/90 text-white text-sm font-bold transition-all shadow-[0_0_15px_rgba(19,146,236,0.4)]">
+                            <SmartLink to="/register" className="hidden sm:flex items-center justify-center rounded-lg h-9 px-4 bg-primary hover:bg-primary/90 text-white text-sm font-bold transition-all shadow-[0_0_15px_rgba(19,146,236,0.4)] btn-press">
                                 Zacznij Tworzyć
                             </SmartLink>
                         </>
