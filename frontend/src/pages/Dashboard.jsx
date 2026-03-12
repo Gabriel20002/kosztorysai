@@ -6,9 +6,9 @@ import FeedbackWidget from '../components/FeedbackWidget'
 const API = import.meta.env.VITE_API_URL ?? ''
 
 const OCENA_CONFIG = {
-    dobry:            { label: 'Kosztorys poprawny',      color: 'emerald', icon: 'check_circle' },
-    wymaga_uwagi:     { label: 'Wymaga uwagi',            color: 'yellow',  icon: 'warning' },
-    wymaga_poprawy:   { label: 'Wymaga poprawy',          color: 'red',     icon: 'error' },
+    dobry:            { label: 'Gotowy do użycia',               color: 'emerald', icon: 'check_circle' },
+    wymaga_uwagi:     { label: 'Sprawdź zaznaczone pozycje',     color: 'yellow',  icon: 'warning' },
+    wymaga_poprawy:   { label: 'Sprawdź zaznaczone pozycje',     color: 'red',     icon: 'rule' },
 }
 
 function VerificationPanel({ v }) {
@@ -32,7 +32,7 @@ function VerificationPanel({ v }) {
                     <span className={`material-symbols-outlined text-2xl ${iconColor}`}>{cfg.icon}</span>
                     <div>
                         <p className="text-white font-bold">Weryfikacja AI</p>
-                        <p className="text-slate-400 text-xs mt-0.5">Niezależna analiza kosztorysu przez Claude AI</p>
+                        <p className="text-slate-400 text-xs mt-0.5">Lista pozycji do weryfikacji przed użyciem pliku</p>
                     </div>
                 </div>
                 <div className="flex items-center gap-3">
@@ -46,6 +46,18 @@ function VerificationPanel({ v }) {
                     {/* Komentarz ogólny */}
                     {v.komentarz && (
                         <p className="text-slate-300 text-sm leading-relaxed">{v.komentarz}</p>
+                    )}
+
+                    {/* Baner kontekstowy — widoczny gdy są jakiekolwiek problemy */}
+                    {hasIssues && (
+                        <div className="flex items-start gap-3 p-3.5 rounded-xl bg-slate-800/60 border border-slate-700/60">
+                            <span className="material-symbols-outlined text-sky-400 text-base mt-0.5 shrink-0">info</span>
+                            <p className="text-slate-400 text-xs leading-relaxed">
+                                <span className="text-slate-300 font-semibold">Lista rzeczy do sprawdzenia przed użyciem</span> — nie ocena jakości.
+                                Weryfikator analizuje wygenerowany szkic i wskazuje pozycje wymagające uwagi.
+                                To właśnie odróżnia ten program od narzędzi, które takich informacji w ogóle nie pokazują.
+                            </p>
+                        </div>
                     )}
 
                     {/* Błędy */}
