@@ -11,7 +11,7 @@ export default function Home() {
                 <div className="flex flex-col gap-6 lg:w-1/2 text-center lg:text-left">
                     <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-800/50 border border-slate-700/50 w-fit mx-auto lg:mx-0">
                         <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
-                        <span className="text-xs font-medium text-slate-300 uppercase tracking-wider">Silnik AI 2.0 Działa Online</span>
+                        <span className="text-xs font-medium text-slate-300 uppercase tracking-wider">Wersja Beta — W Aktywnym Rozwoju</span>
                     </div>
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-black leading-tight tracking-tight text-slate-900 dark:text-white text-glow">
                         Przyszłość <br />
@@ -19,7 +19,7 @@ export default function Home() {
                         {' '}Nadeszła
                     </h1>
                     <p className="text-lg text-slate-600 dark:text-slate-400 max-w-[600px] mx-auto lg:mx-0 font-light">
-                        Poznaj precyzję automatycznych obmiarów i ślepych kosztorysów generowanych przez AI. Zautomatyzuj procesy, zmniejsz ilość błędów o 99% i wygrywaj więcej przetargów dzięki technologii Kosztorysy AI.
+                        Wspomagaj pracę kosztorysanta przy tworzeniu ślepych kosztorysów z przedmiaru PDF. AI dobiera nakłady KNR, materiały i sprzęt — wynik weryfikujesz przed użyciem.
                     </p>
                     <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4 mt-4">
                         {user ? (
@@ -130,8 +130,8 @@ export default function Home() {
             <section className="w-full max-w-[1280px] px-4 md:px-6 py-16 md:py-24 flex flex-col gap-10 md:gap-16">
                 <div className="flex flex-col gap-4 text-center items-center">
                     <h2 className="text-secondary font-bold text-sm tracking-widest uppercase">Przebieg Pracy</h2>
-                    <h3 className="text-3xl md:text-5xl font-black text-white">Stworzone dla Szybkości i Precyzji</h3>
-                    <p className="text-slate-400 max-w-2xl text-lg">Nasze algorytmy AI natychmiastowo analizują plany budowlane by dostarczyć dokładne zestawienia kosztów, zmieniając godziny manualnej pracy w sekundy obliczeń maszynowych.</p>
+                    <h3 className="text-3xl md:text-5xl font-black text-white">Skróć Czas Przygotowania Kosztorysu</h3>
+                    <p className="text-slate-400 max-w-2xl text-lg">AI odczytuje pozycje z przedmiaru PDF i dobiera nakłady KNR. Zamiast szukać każdej pozycji ręcznie, dostajesz gotowy punkt wyjścia do dalszej weryfikacji.</p>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -144,7 +144,7 @@ export default function Home() {
                             </div>
                             <div className="space-y-2">
                                 <h4 className="text-xl font-bold text-white">Błyskawiczna Analiza</h4>
-                                <p className="text-slate-400 leading-relaxed">Wgrywaj plany architektoniczne i otrzymuj kompleksowe wyniki w sekundach, nie tygodniach. Nasz silnik bez problemu obsługuje wielostronicowe pliki PDF oraz formaty CAD.</p>
+                                <p className="text-slate-400 leading-relaxed">Wgraj przedmiar w formacie PDF i w ciągu kilku minut otrzymaj plik ATH gotowy do otwarcia w Normie PRO. Bez ręcznego przepisywania pozycji.</p>
                             </div>
                         </div>
                     </div>
@@ -157,8 +157,8 @@ export default function Home() {
                                 <span className="material-symbols-outlined text-secondary text-3xl">my_location</span>
                             </div>
                             <div className="space-y-2">
-                                <h4 className="text-xl font-bold text-white">Chirurgiczna Precyzja</h4>
-                                <p className="text-slate-400 leading-relaxed">Sztuczna inteligencja eliminuje błędy ludzkie do zera. Nasze modele uczenia maszynowego były trenowane na milionach historycznych, wygranych projektów budowlanych.</p>
+                                <h4 className="text-xl font-bold text-white">Weryfikacja Wyników</h4>
+                                <p className="text-slate-400 leading-relaxed">Wbudowany weryfikator AI sprawdza wygenerowany kosztorys pod kątem typowych błędów — zerowych materiałów, brakujących KNR i podejrzanych wartości. Ostateczna decyzja należy do kosztorysanta.</p>
                             </div>
                         </div>
                     </div>
@@ -171,8 +171,8 @@ export default function Home() {
                                 <span className="material-symbols-outlined text-primary text-3xl">trending_up</span>
                             </div>
                             <div className="space-y-2">
-                                <h4 className="text-xl font-bold text-white">Maksymalizacja Zysku</h4>
-                                <p className="text-slate-400 leading-relaxed">Automatycznie optymalizuj zużycie materiałów i rozkład roboczogodzin. Wykrywaj pozycje z ryzykownie niską marżą jeszcze zanim wyślesz ofertę do inwestora.</p>
+                                <h4 className="text-xl font-bold text-white">Format ATH bez Konwersji</h4>
+                                <p className="text-slate-400 leading-relaxed">Wynik generowany jest bezpośrednio w formacie ATH zgodnym z Normą PRO. Nie tracisz czasu na ręczne przepisywanie ani konwersję plików.</p>
                             </div>
                         </div>
                     </div>
@@ -200,7 +200,7 @@ export default function Home() {
                         <div className="flex flex-col md:flex-row items-center md:items-end justify-between gap-4 text-center md:text-left">
                             <div>
                                 <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">Zobacz Kosztorysy AI w akcji</h3>
-                                <p className="text-slate-300 text-sm md:text-base">Przekonaj się jak tradycyjny 2-tygodniowy proces kosztorysowania sprowadza się do 15 minut.</p>
+                                <p className="text-slate-300 text-sm md:text-base">Zobacz jak wygląda generowanie kosztorysu z przedmiaru PDF — od wgrania pliku do pobrania ATH.</p>
                             </div>
                         </div>
                     </div>

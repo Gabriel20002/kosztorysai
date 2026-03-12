@@ -323,7 +323,7 @@ export default function Dashboard() {
                                         </div>
                                         <h3 className="text-3xl font-bold text-white mb-3 text-center tracking-tight">Przeciągnij i Upuść Przedmiar PDF</h3>
                                         <p className="text-slate-400 text-center max-w-md mb-10 leading-relaxed">
-                                            Wgraj przedmiar robót budowlanych w formacie ATH. Program rozpozna pozycje KNR i wyliczy kosztorys.
+                                            Wgraj przedmiar robót budowlanych w formacie PDF. AI dobierze nakłady KNR i wygeneruje plik ATH do weryfikacji.
                                         </p>
                                         <button className="h-12 px-10 bg-slate-200 text-black font-extrabold rounded-xl hover:bg-white transition-colors flex items-center shadow-2xl">
                                             Przeglądaj Pliki

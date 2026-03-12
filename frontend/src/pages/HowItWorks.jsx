@@ -9,7 +9,7 @@ export default function HowItWorks() {
                         <h2 className="text-secondary font-bold text-sm tracking-widest uppercase mb-2">Proces</h2>
                         <h3 className="text-3xl md:text-5xl lg:text-6xl font-black text-white text-glow">Jak Działa Kosztorysy AI</h3>
                         <p className="text-slate-400 text-base md:text-lg lg:text-xl max-w-2xl mx-auto font-light leading-relaxed mt-4">
-                            Nasz 3-etapowy proces zamienia godziny ręcznych obliczeń w zaledwie kilka sekund.
+                            3 kroki zamiast żmudnego ręcznego przepisywania — od PDF do gotowego pliku ATH.
                         </p>
                     </div>
 
@@ -34,7 +34,7 @@ export default function HowItWorks() {
                                 <span className="material-symbols-outlined text-secondary text-4xl">memory</span>
                             </div>
                             <h4 className="text-xl font-bold text-white mb-3">Przetwarzanie AI</h4>
-                            <p className="text-slate-400">Nasz silnik używa zlokalizowanego Auto-OCR i rozpoznawania geometrii, aby natychmiast wyodrębnić pozycje, ilości i strukturę.</p>
+                            <p className="text-slate-400">AI odczytuje pozycje z PDF, rozpoznaje opisy robót i dopasowuje nakłady KNR z bazy katalogowej — robociznę, materiały i sprzęt.</p>
                         </div>
 
                         {/* Step 3 */}
