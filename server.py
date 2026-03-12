@@ -72,6 +72,27 @@ _run_migrations()
 
 app = FastAPI(title="KosztorysAI", version="1.0", docs_url="/api/docs")
 
+# Mount frontend przy imporcie modułu (działa zarówno z gunicorn jak i bezpośrednio)
+def mount_frontend():
+    if not DIST_DIR.exists():
+        print(f"[!] Brak dist/ — frontend niedostępny ({DIST_DIR})")
+        return
+
+    assets_dir = DIST_DIR / "assets"
+    if assets_dir.exists():
+        app.mount("/assets", StaticFiles(directory=str(assets_dir)), name="assets")
+
+    index_html = (DIST_DIR / "index.html").read_text(encoding="utf-8")
+
+    @app.get("/{full_path:path}", include_in_schema=False)
+    def spa_fallback(full_path: str):
+        static_file = DIST_DIR / full_path
+        if static_file.is_file():
+            return FileResponse(str(static_file))
+        return HTMLResponse(index_html)
+
+    print(f"[✓] Frontend: {DIST_DIR}")
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -84,6 +105,8 @@ async def generic_exception_handler(request: Request, exc: Exception):
     return JSONResponse(status_code=500, content={"detail": str(exc)})
 
 DIST_DIR = HERE / "dist"
+
+mount_frontend()
 
 # ---------------------------------------------------------------------------
 # API
@@ -483,31 +506,6 @@ def admin_get_contact(
     ]
 
 # ---------------------------------------------------------------------------
-# Frontend statyczny
-# ---------------------------------------------------------------------------
-
-def mount_frontend():
-    if not DIST_DIR.exists():
-        print(f"[!] Brak dist/ — frontend niedostępny ({DIST_DIR})")
-        return
-
-    assets_dir = DIST_DIR / "assets"
-    if assets_dir.exists():
-        app.mount("/assets", StaticFiles(directory=str(assets_dir)), name="assets")
-
-    index_html = (DIST_DIR / "index.html").read_text(encoding="utf-8")
-
-    @app.get("/{full_path:path}", include_in_schema=False)
-    def spa_fallback(full_path: str):
-        static_file = DIST_DIR / full_path
-        if static_file.is_file():
-            return FileResponse(str(static_file))
-        return HTMLResponse(index_html)
-
-    print(f"[✓] Frontend: {DIST_DIR}")
-
-
-# ---------------------------------------------------------------------------
 # Start
 # ---------------------------------------------------------------------------
 
@@ -515,11 +513,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--port", type=int, default=int(os.environ.get("PORT", 8000)))
     parser.add_argument("--host", default="0.0.0.0")
-    parser.add_argument("--dev", action="store_true")
     args = parser.parse_args()
-
-    if not args.dev:
-        mount_frontend()
 
     print(f"\nKosztorysAI → http://localhost:{args.port}")
     print(f"API docs    → http://localhost:{args.port}/api/docs\n")
