@@ -77,20 +77,43 @@ _JM_CORRECTIONS_ATH = {
     # Ciecze instalacyjne → l
     'preparat': 'l', 'primer': 'l', 'żywica': 'l', 'zywica': 'l',
     'plastyfikator': 'l', 'emulsja': 'l',
+    # Elementy betonowe prefabrykowane → szt
+    'krąg': 'szt', 'krag': 'szt', 'pokrywa': 'szt',
+    'właz': 'szt', 'wlaz': 'szt',
 }
+
+# Garbled jm z PDF/cp1250: ²/³ → ? przy błędnym dekodowaniu
+_GARBLED_JM = {'dm?': 'dm3', 'mm?': 'mm2', 'cm?': 'cm2', 'm?': 'm2'}
+
+
+def _fix_superscripts(text: str) -> str:
+    """Naprawia garbled superscripts w tekście materiału: mm? → mm², dm? → dm³.
+    Znak '?' pojawia się gdy PDF parser nie zdekodował ²/³ przed wywołaniem AI."""
+    if not text or '?' not in text:
+        return text
+    text = re.sub(r'\bdm\?', 'dm\u00b3', text)   # dm? → dm³
+    text = re.sub(r'\bmm\?', 'mm\u00b2', text)   # mm? → mm²
+    text = re.sub(r'\bcm\?', 'cm\u00b2', text)   # cm? → cm²
+    text = re.sub(r'(?<![md]m)\bm\?', 'm\u00b2', text)  # m? → m² (nie mm?, dm?)
+    return text
 
 
 def _apply_jm_corrections(mats: list) -> list:
-    """Koryguje jm materiałów na podstawie słownika — stosowane do wszystkich źródeł."""
+    """Koryguje jm materiałów na podstawie słownika — stosowane do wszystkich źródeł.
+    Przy okazji czyści garbled superscripts (dm?→dm³, mm?→mm²) w nazwach i jm."""
     result = []
     for mat in mats:
-        name_l = (mat.get('name') or '').lower()
-        corrected_jm = mat.get('jm', 'szt')
+        # Napraw garbled chars w nazwie (AI reprodukuje je z garbled PDF input)
+        name = _fix_superscripts(mat.get('name') or '')
+        name_l = name.lower()
+        # Napraw garbled jm (dm?→dm3 itd.) zanim sprawdzimy słownik korekt
+        raw_jm = mat.get('jm', 'szt')
+        corrected_jm = _GARBLED_JM.get(raw_jm.lower(), raw_jm)
         for fragment, correct_jm in _JM_CORRECTIONS_ATH.items():
             if fragment in name_l:
                 corrected_jm = correct_jm
                 break
-        result.append({**mat, 'jm': corrected_jm})
+        result.append({**mat, 'name': name, 'jm': corrected_jm})
     return result
 
 
