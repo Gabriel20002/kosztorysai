@@ -87,17 +87,21 @@ export default function Register() {
                         />
                     </div>
 
-                    <div className="flex items-start gap-3">
+                    <div className={`flex items-start gap-3 p-4 rounded-xl border cursor-pointer transition-all ${terms ? 'border-primary/50 bg-primary/5' : 'border-slate-600 bg-slate-900/50 hover:border-slate-500'}`}
+                        onClick={() => setTerms(t => !t)}
+                    >
                         <input
                             id="terms"
                             type="checkbox"
                             checked={terms}
                             onChange={e => setTerms(e.target.checked)}
-                            className="mt-1 w-4 h-4 rounded border-slate-600 bg-slate-900 accent-primary cursor-pointer flex-shrink-0"
+                            onClick={e => e.stopPropagation()}
+                            className="mt-0.5 w-5 h-5 rounded border-slate-500 bg-slate-900 accent-primary cursor-pointer flex-shrink-0"
                         />
-                        <label htmlFor="terms" className="text-sm text-slate-400 cursor-pointer leading-relaxed">
+                        <label htmlFor="terms" className="text-sm text-slate-200 cursor-pointer leading-relaxed" onClick={e => e.stopPropagation()}>
+                            <span className="font-semibold text-white">Wymagane: </span>
                             Zapoznałem/am się z{' '}
-                            <Link to="/terms" className="text-primary hover:underline font-semibold" target="_blank">
+                            <Link to="/terms" className="text-primary hover:underline font-semibold" target="_blank" onClick={e => e.stopPropagation()}>
                                 Regulaminem Programu Beta
                             </Link>{' '}
                             i akceptuję jego warunki, w tym wyłączenie odpowiedzialności administratora.
