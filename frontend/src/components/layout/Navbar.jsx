@@ -25,6 +25,8 @@ export default function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const { user, logout } = useAuth();
     const navigate = useNavigate();
+    const location = useLocation();
+    const isApplyPage = location.pathname === '/apply';
 
     function handleLogout() {
         logout();
@@ -41,14 +43,16 @@ export default function Navbar() {
                     </div>
                     <h2 className="text-xl font-bold tracking-tight">Kosztorysy AI</h2>
                 </SmartLink>
+                {!isApplyPage && (
                 <div className="hidden lg:flex items-center gap-8">
                     <SmartLink className="nav-link text-slate-600 dark:text-slate-300 hover:text-primary transition-colors text-sm font-medium" to="/how-it-works">Jak to działa</SmartLink>
                     <SmartLink className="nav-link text-slate-600 dark:text-slate-300 hover:text-primary transition-colors text-sm font-medium" to="/pricing">Cennik</SmartLink>
                     <SmartLink className="nav-link text-slate-600 dark:text-slate-300 hover:text-primary transition-colors text-sm font-medium" to="/terms">Regulamin</SmartLink>
                     {user && <SmartLink className="nav-link text-slate-600 dark:text-slate-300 hover:text-primary transition-colors text-sm font-medium" to="/contact">Kontakt</SmartLink>}
                 </div>
+                )}
                 <div className="flex items-center gap-4">
-                    {user ? (
+                    {user && !isApplyPage ? (
                         <>
                             {user.is_admin && (
                                 <SmartLink to="/admin" className="hidden sm:flex items-center gap-1.5 text-yellow-400 hover:text-yellow-300 text-sm font-medium transition-colors">

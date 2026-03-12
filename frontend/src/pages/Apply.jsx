@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { useNavigate, useBlocker, Navigate } from 'react-router-dom'
+import { Navigate } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
 
 const API = import.meta.env.VITE_API_URL ?? ''
@@ -30,7 +30,6 @@ const DOSWIADCZENIA = [
 
 export default function Apply() {
     const { user, loading: authLoading, getToken } = useAuth()
-    const navigate = useNavigate()
     const [submitted, setSubmitted] = useState(false)
     const [loading, setLoading] = useState(false)
     const [error, setError] = useState(null)
@@ -42,9 +41,6 @@ export default function Apply() {
     })
 
     const set = (k, v) => setForm(f => ({ ...f, [k]: v }))
-
-    // Blokuj wyjście jeśli formularz nie wysłany
-    const blocker = useBlocker(!submitted)
 
     // Ostrzeżenie przy zamknięciu przeglądarki
     useEffect(() => {
@@ -100,32 +96,7 @@ export default function Apply() {
     return (
         <div className="w-full max-w-[1100px] mx-auto px-4 md:px-6 py-12 relative z-10">
 
-            {/* Blokada wyjścia — modal */}
-            {blocker.state === 'blocked' && (
-                <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm">
-                    <div className="glass-card rounded-2xl p-8 border border-slate-700 max-w-md w-full mx-4 text-center fade-in-up">
-                        <span className="material-symbols-outlined text-yellow-400 text-5xl mb-4 block">warning</span>
-                        <h3 className="text-xl font-black text-white mb-3">Wychodzisz przed złożeniem wniosku</h3>
-                        <p className="text-slate-400 text-sm mb-6">Wniosek nie zostanie zapisany. Bez jego złożenia nie możemy aktywować Twojego konta.</p>
-                        <div className="flex gap-3">
-                            <button
-                                onClick={() => blocker.reset()}
-                                className="flex-1 h-11 rounded-xl bg-primary hover:bg-sky-400 text-white font-bold transition-colors"
-                            >
-                                Wróć do wniosku
-                            </button>
-                            <button
-                                onClick={() => blocker.proceed()}
-                                className="flex-1 h-11 rounded-xl border border-slate-700 text-slate-400 hover:text-white transition-colors"
-                            >
-                                Wyjdź
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            )}
-
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
+<div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
 
                 {/* Lewa kolumna — korzyści */}
                 <div className="fade-in-up">
