@@ -72,9 +72,28 @@ _EXEMPT_FRAGMENTS = (
     'podkładka', 'końcówka', 'koncowka',
 )
 
-SYSTEM_PRICE = """Jesteś doświadczonym kosztorysantem budowlanym w Polsce.
-Podajesz aktualne ceny katalogowe materiałów budowlanych i instalacyjnych na rok 2024/2025.
-Odpowiadaj WYŁĄCZNIE jako poprawny JSON bez tekstu przed/po."""
+_TOOL_PRICE = {
+    "name": "aktualne_ceny",
+    "description": "Zwróć aktualne ceny rynkowe 2024/2025 dla podanych materiałów budowlanych.",
+    "input_schema": {
+        "type": "object",
+        "properties": {
+            "ceny": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "name": {"type": "string"},
+                        "jm":   {"type": "string"},
+                        "ce":   {"type": "number", "description": "Aktualna cena PLN/jm"}
+                    },
+                    "required": ["name", "jm", "ce"]
+                }
+            }
+        },
+        "required": ["ceny"]
+    }
+}
 
 
 def _is_exempt(name_l: str) -> bool:
@@ -130,52 +149,49 @@ def _ask_ai_price(items: list, api_key: str) -> dict:
     """
     items: [{'name': ..., 'jm': ..., 'ce_old': ..., 'floor': ...}, ...]
     Zwraca: {'name|jm': new_ce, ...}
+    Używa tool_use — zero parsowania JSON.
     """
     import anthropic
 
     user_msg = (
         "Podaj realistyczne ceny detaliczne/hurtowe 2024/2025 (PLN/jm) dla poniższych "
         "materiałów budowlanych i instalacyjnych w Polsce.\n"
-        "WAŻNE: stare_ce są przestarzałe i zaniżone — podaj AKTUALNĄ cenę rynkową.\n"
+        "WAŻNE: stare_ce są błędne (AI ustawiło ce=koszt_roboczy zamiast ceny rynkowej) — podaj AKTUALNĄ cenę jednostkową materiału.\n"
         "Przykłady referencyjne 2024/2025:\n"
-        "- przewód YDY 3x1.5mm²: 6.50 zł/m\n"
-        "- przewody kabelkowe 2x1.5mm²: 4.50 zł/m\n"
-        "- puszka instalacyjna p/t śr.60mm: 3.50 zł/szt\n"
-        "- rura instalacyjna PVC DN16: 1.80 zł/m\n"
-        "- kabel solarny 6mm²: 12.00 zł/m\n\n"
+        "- cement CEM I 42.5: 0.85 PLN/kg\n"
+        "- piasek budowlany: 80 PLN/m3\n"
+        "- przewód YDY 3x1.5mm²: 6.50 PLN/m\n"
+        "- kabel solarny 6mm²: 12.00 PLN/m\n"
+        "- farba lateksowa: 15 PLN/l\n\n"
+        "Materiały do wyceny:\n"
         + json.dumps(
-            [{'name': it['name'], 'jm': it['jm'], 'stara_ce': it['ce_old']}
+            [{'name': it['name'], 'jm': it['jm'], 'stara_ce_blad': it['ce_old']}
              for it in items],
             ensure_ascii=False,
         )
-        + '\n\nFormat: [{"name": "...", "jm": "...", "ce": 12.50}, ...]'
     )
 
     client = anthropic.Anthropic(api_key=api_key)
     msg = client.messages.create(
         model='claude-haiku-4-5-20251001',
         max_tokens=512,
-        system=SYSTEM_PRICE,
+        tools=[_TOOL_PRICE],
+        tool_choice={"type": "tool", "name": "aktualne_ceny"},
         messages=[{'role': 'user', 'content': user_msg}],
     )
-    text = msg.content[0].text.strip()
-    if text.startswith('```'):
-        text = text.split('```', 2)[1]
-        if text.startswith('json'):
-            text = text[4:]
-        text = text.strip()
-    start, end = text.find('['), text.rfind(']')
-    if start != -1 and end != -1:
-        text = text[start:end + 1]
-    results = json.loads(text)
 
-    out = {}
-    for r in results:
-        key = _cache_key(r.get('name', ''), r.get('jm', ''))
-        ce = float(r.get('ce', 0) or 0)
-        if ce > 0:
-            out[key] = ce
-    return out
+    for block in msg.content:
+        if block.type == 'tool_use' and block.name == 'aktualne_ceny':
+            out = {}
+            for r in (block.input.get('ceny') or []):
+                key = _cache_key(r.get('name', ''), r.get('jm', ''))
+                ce = float(r.get('ce', 0) or 0)
+                if ce > 0:
+                    out[key] = ce
+            return out
+
+    log.warning("price_validator: model nie zwrócił tool_use")
+    return {}
 
 
 def validate_and_correct_prices(mats: list) -> list:

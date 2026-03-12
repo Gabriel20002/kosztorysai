@@ -140,6 +140,22 @@ def _save_cache(cache: dict):
     )
 
 
+def _is_lazy_response(mats: list, m_per_jm: float) -> bool:
+    """
+    Wykrywa wzorzec leniwej odpowiedzi AI: ce ≈ m_per_jm, nz ≈ 1.0.
+    AI ustawiło ce = koszt roboczy zamiast ce = cena rynkowa materiału.
+    """
+    if not mats or m_per_jm <= 0:
+        return False
+    for mat in mats:
+        ce = float(mat.get('ce', 0) or 0)
+        nz = float(mat.get('nz', 0) or 0)
+        # Jeśli nz ≈ 1 i ce ≈ m_per_jm → AI skopiowało koszt jako cenę
+        if 0.8 <= nz <= 1.2 and 0.7 <= (ce / m_per_jm) <= 1.3:
+            return True
+    return False
+
+
 def _normalize(mats: list, target_m: float) -> list:
     """
     Skaluje nz tak aby sum(nz*ce) = target_m.
@@ -244,12 +260,19 @@ def estimate_materials_batch(items: list) -> dict:
                     mat['jm'] = _correct_jm(mat.get('name', ''), mat.get('jm', 'szt'))
                 m = it.get('m_per_jm', 0)
                 if m > 0:
+                    # Sprawdź wzorzec leniwej odpowiedzi ce=m_per_jm, nz=1.0
+                    if _is_lazy_response(raw_mats, m):
+                        log.warning(
+                            "AI materials: wykryto ce≈m_per_jm (lazy) dla %s — nie cachuj, spróbuj ponownie",
+                            it['knr'],
+                        )
+                        continue
                     # Znana wartość M — normalizuj
                     normalized = _normalize(raw_mats, m)
                 else:
                     # M=0 (nieznana) — zostaw ceny AI bez skalowania
                     normalized = raw_mats
-                normalized = [m for m in normalized if m.get('ce', 0) > 0 and m.get('nz', 0) > 0]
+                normalized = [mat for mat in normalized if mat.get('ce', 0) > 0 and mat.get('nz', 0) > 0]
                 if normalized:
                     cache[norm_key] = normalized
                     saved += 1
