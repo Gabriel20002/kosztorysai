@@ -12,6 +12,7 @@ Funkcja: estimate_sprzet_batch(items) -> {knr_norm: [{name, jm, nz, ce}]}
 import json
 import logging
 import os
+import re
 from pathlib import Path
 
 log = logging.getLogger(__name__)
@@ -82,9 +83,11 @@ def _call_api_one(item: dict, api_key: str) -> list:
             "Podaj sprzęt jako JSON — nakłady wg norm branżowych."
         )
 
+    opis_clean = re.sub(r'\?+', '', item['opis']).strip()
+
     user_msg = (
         f"KNR: {item['knr']}\n"
-        f"Opis: {item['opis'][:80]}\n"
+        f"Opis: {opis_clean[:80]}\n"
         f"Jednostka miary: {item['jm']}\n"
         f"{s_line}\n"
         'Format: [{"name": "samochód skrzyniowy 5 t", "jm": "m-g", "nz": 0.05, "ce": 100.0}, ...]'

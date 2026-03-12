@@ -415,6 +415,21 @@ class KosztorysGenerator:
                 'formula_str': pos.get('formula_str', ''),
             })
         
+        # Deduplikacja — usuń identyczne pozycje (ten sam KNR + opis + ilość)
+        # Zdarza się gdy PDF ma zduplikowane pozycje (błąd dokumentu źródłowego)
+        _seen: set = set()
+        _deduped = []
+        for p in pozycje:
+            key = (p.get('podstawa', ''), p.get('opis', '')[:60], round(p.get('ilosc', 0), 3))
+            if key in _seen:
+                log.warning("Pominięto duplikat pozycji: lp=%s '%s'", p.get('lp'), p.get('opis', '')[:50])
+            else:
+                _seen.add(key)
+                _deduped.append(p)
+        if len(_deduped) < len(pozycje):
+            log.info("Deduplikacja: %d → %d pozycji", len(pozycje), len(_deduped))
+        pozycje = _deduped
+
         defaults = sum(1 for p in pozycje if p.get('knr_source') == 'default')
         if defaults:
             log.warning("Sparsowano %d pozycji (%d bez dopasowania KNR - użyto wartości domyślnych)", len(pozycje), defaults)

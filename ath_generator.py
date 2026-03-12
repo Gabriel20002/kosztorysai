@@ -304,6 +304,14 @@ class ATHGenerator:
             'kabel', 'przewód', 'przewod', 'korytko', 'rurka elektro',
             'brama', 'drzwi', 'okno', 'krata', 'siatka', 'geotkanin',
             'cokół', 'cokol', 'obróbki blacharskie', 'obrobki blacharskie',
+            # Murowanie i ceramika
+            'murowan', 'cegł', 'cegla', 'pustak', 'bloczek', 'bloczk',
+            'glazur', 'ceramik', 'terakot', 'gres', 'okładzin', 'okladzi',
+            # Malowanie i powłoki
+            'malowan', 'malowani', 'lakierowan', 'szpachlow', 'gruntowa',
+            # Instalacje
+            'rynna', 'rynny', 'obróbk', 'obrobk', 'parapet', 'podokiennik',
+            'grzejnik', 'zawór', 'zawor', 'armatur',
         }
 
         # Krok 1: DB lookup — zbierz brakujące do AI

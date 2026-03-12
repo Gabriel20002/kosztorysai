@@ -12,6 +12,7 @@ Funkcja: estimate_materials_batch(items) -> {knr_norm: [{name, jm, nz, ce}]}
 import json
 import logging
 import os
+import re
 from pathlib import Path
 
 log = logging.getLogger(__name__)
@@ -198,9 +199,12 @@ def _call_api_one(item: dict, api_key: str) -> list:
             "Nakłady nz = ilość materiału na 1 jednostkę roboty."
         )
 
+    # Wyczyść garbled chars z opisu przed wysłaniem do AI
+    opis_clean = re.sub(r'\?+', '', item['opis']).strip()
+
     user_msg = (
         f"KNR: {item['knr']}\n"
-        f"Opis: {item['opis'][:80]}\n"
+        f"Opis: {opis_clean[:80]}\n"
         f"Jednostka miary: {item['jm']}\n"
         f"{m_line}\n"
         'Format: [{"name": "nazwa", "jm": "jm", "nz": 1.23, "ce": 4.56}, ...]'
