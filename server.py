@@ -437,7 +437,7 @@ def submit_feedback(
 
 @app.get("/api/feedback")
 def get_feedback(
-    current_user: models.User = Depends(auth.get_current_user),
+    current_user: models.User = Depends(auth.get_admin_user),
     db: Session = Depends(get_db),
 ):
     """Widok dla admina — wszystkie opinie."""

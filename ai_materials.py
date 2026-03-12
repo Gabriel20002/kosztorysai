@@ -78,7 +78,7 @@ _JM_CORRECTIONS = {
     'rura': 'm', 'rurka': 'm', 'rurociąg': 'm', 'rurociag': 'm',
     'bednarka': 'm', 'taśma': 'm', 'tasma': 'm',
     'listwa': 'm', 'profil': 'm', 'kątownik': 'm', 'katownik': 'm',
-    'uszczelka': 'szt', 'złączka': 'szt', 'zlaczka': 'm',
+    'uszczelka': 'szt', 'złączka': 'szt', 'zlaczka': 'szt',
     'wspornik': 'szt', 'uchwyt': 'szt', 'obejma': 'szt',
     'śruba': 'szt', 'sruba': 'szt', 'wkręt': 'szt', 'wkret': 'szt',
     'nakrętka': 'szt', 'nakretka': 'szt', 'podkładka': 'szt', 'podkladka': 'szt',

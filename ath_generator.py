@@ -14,6 +14,7 @@ Format wzorowany na prawdziwych plikach ATH z Normy PRO:
   Norma PRO sama oblicza kj/wn z RMS
 """
 
+import hashlib
 import json
 import logging
 import math
@@ -82,8 +83,15 @@ _JM_CORRECTIONS_ATH = {
     'właz': 'szt', 'wlaz': 'szt',
 }
 
-# Garbled jm z PDF/cp1250: ²/³ → ? przy błędnym dekodowaniu
-_GARBLED_JM = {'dm?': 'dm3', 'mm?': 'mm2', 'cm?': 'cm2', 'm?': 'm2'}
+# Normalizacja niestandardowych JM → format ATH (lowercase, bez kropki)
+_GARBLED_JM = {
+    'dm?': 'dm3', 'mm?': 'mm2', 'cm?': 'cm2', 'm?': 'm2',  # garbled superscripts
+    'dm³': 'dm3', 'dm²': 'dm2', 'mm²': 'mm2', 'm²': 'm2', 'm³': 'm3',  # unicode superscripts
+    'l': 'l', 'L': 'l',        # litr wielką literą
+    'szt.': 'szt', 'kpl.': 'kpl', 'mb.': 'mb', 'm.b.': 'mb',  # kropki
+    'opak': 'kpl', 'rolka': 'szt', 'rol': 'szt', 'par': 'szt', 'para': 'szt',
+    'szp': 'szt', 'butelka': 'szt',
+}
 
 
 def _fix_superscripts(text: str) -> str:
@@ -106,9 +114,9 @@ def _apply_jm_corrections(mats: list) -> list:
         # Napraw garbled chars w nazwie (AI reprodukuje je z garbled PDF input)
         name = _fix_superscripts(mat.get('name') or '')
         name_l = name.lower()
-        # Napraw garbled jm (dm?→dm3 itd.) zanim sprawdzimy słownik korekt
-        raw_jm = mat.get('jm', 'szt')
-        corrected_jm = _GARBLED_JM.get(raw_jm.lower(), raw_jm)
+        # Normalizuj jm: garbled chars, unicode superscripts, kropki, niestandardowe nazwy
+        raw_jm = (mat.get('jm') or 'szt').strip()
+        corrected_jm = _GARBLED_JM.get(raw_jm, _GARBLED_JM.get(raw_jm.lower(), raw_jm))
         for fragment, correct_jm in _JM_CORRECTIONS_ATH.items():
             if fragment in name_l:
                 corrected_jm = correct_jm
@@ -299,7 +307,7 @@ class ATHGenerator:
         }
 
         # Krok 1: DB lookup — zbierz brakujące do AI
-        import hashlib as _hashlib
+        _hashlib = hashlib
         ai_needed = []  # [{knr_norm, knr, opis, jm, m_per_jm, poz_idx}]
         for idx, poz in enumerate(pozycje):
             knr_norm = _podstawa_to_norm(poz.get('podstawa', ''))
@@ -391,7 +399,7 @@ class ATHGenerator:
         _FALLBACK_SPR_CE = 50.0  # realistyczna stawka maszyny fallback [PLN/m-g]
 
         # Krok 1: DB lookup sprzętu — zbierz brakujące do AI
-        import hashlib as _hashlib
+        _hashlib = hashlib
         ai_spr_needed = []
         for idx, poz in enumerate(pozycje):
             knr_norm = _podstawa_to_norm(poz.get('podstawa', ''))
@@ -551,19 +559,7 @@ class ATHGenerator:
             "",
         ]
 
-        # ZEST 2 — Materiały zbiorcze (fallback ce=1, tylko jeśli potrzebne)
-        if needs_m_fallback:
-            lines += [
-                "[RMS ZEST 2]",
-                "ty=M\t0",
-                "na=materia\u0142y\t0",
-                "id=998\t1",
-                "jm=szt\t020",
-                f"ce=1,00\t{ts}\t1\tSEK_RMS",
-                "cw=1,00\tPLN\t1,00",
-                f"il={_dot(suma_M_fallback, 2)}",
-                "",
-            ]
+        # ZEST 2 — usunięty (needs_m_fallback zawsze False)
 
         # ZEST 4..N — Indywidualne materiały z realnymi cenami
         for (name, jm, _ce), zest_num in sorted(unique_mats.items(), key=lambda x: x[1]):
@@ -725,7 +721,7 @@ class ATHGenerator:
             bad = {c for c in content if not c.encode('cp1250', errors='ignore')}
             log.warning("Znaki poza cp1250 zastapione '?': %s", ''.join(sorted(bad)))
 
-        with open(output_path, 'w', encoding='cp1250', errors='replace') as f:
+        with open(output_path, 'w', encoding='cp1250', errors='ignore') as f:
             f.write(content)
 
         # Statystyki źródeł — ile pozycji skorzystało z DB / AI / fallback
