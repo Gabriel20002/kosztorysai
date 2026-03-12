@@ -106,7 +106,9 @@ async def generic_exception_handler(request: Request, exc: Exception):
 
 DIST_DIR = HERE / "dist"
 
-mount_frontend()
+# mount_frontend() wołane NA KOŃCU pliku — po wszystkich trasach /api/*
+# Catch-all GET /{full_path:path} musi być zarejestrowany OSTATNI,
+# żeby trasy API były dopasowywane przed nim.
 
 # ---------------------------------------------------------------------------
 # API
@@ -504,6 +506,10 @@ def admin_get_contact(
         }
         for m in items
     ]
+
+
+# Catch-all SPA fallback — MUSI być ostatni, po wszystkich trasach /api/*
+mount_frontend()
 
 # ---------------------------------------------------------------------------
 # Start
