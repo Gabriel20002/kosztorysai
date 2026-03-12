@@ -5,6 +5,103 @@ import FeedbackWidget from '../components/FeedbackWidget'
 
 const API = import.meta.env.VITE_API_URL ?? ''
 
+const OCENA_CONFIG = {
+    dobry:            { label: 'Kosztorys poprawny',      color: 'emerald', icon: 'check_circle' },
+    wymaga_uwagi:     { label: 'Wymaga uwagi',            color: 'yellow',  icon: 'warning' },
+    wymaga_poprawy:   { label: 'Wymaga poprawy',          color: 'red',     icon: 'error' },
+}
+
+function VerificationPanel({ v }) {
+    const [open, setOpen] = useState(true)
+    const cfg = OCENA_CONFIG[v.ocena] ?? OCENA_CONFIG.wymaga_uwagi
+    const hasIssues = v.bledy.length > 0 || v.ostrzezenia.length > 0
+
+    const borderColor = { emerald: 'border-emerald-500/40', yellow: 'border-yellow-500/40', red: 'border-red-500/40' }[cfg.color]
+    const bgColor     = { emerald: 'bg-emerald-500/5',      yellow: 'bg-yellow-500/5',      red: 'bg-red-500/5'      }[cfg.color]
+    const iconColor   = { emerald: 'text-emerald-400',      yellow: 'text-yellow-400',       red: 'text-red-400'      }[cfg.color]
+    const badgeCls    = { emerald: 'bg-emerald-500/20 text-emerald-400 border-emerald-500/30', yellow: 'bg-yellow-500/20 text-yellow-400 border-yellow-500/30', red: 'bg-red-500/20 text-red-400 border-red-500/30' }[cfg.color]
+
+    return (
+        <div className={`glass-panel rounded-2xl border ${borderColor} ${bgColor}`}>
+            {/* Nagłówek */}
+            <button
+                onClick={() => setOpen(o => !o)}
+                className="w-full flex items-center justify-between p-5 text-left"
+            >
+                <div className="flex items-center gap-3">
+                    <span className={`material-symbols-outlined text-2xl ${iconColor}`}>{cfg.icon}</span>
+                    <div>
+                        <p className="text-white font-bold">Weryfikacja AI</p>
+                        <p className="text-slate-400 text-xs mt-0.5">Niezależna analiza kosztorysu przez Claude AI</p>
+                    </div>
+                </div>
+                <div className="flex items-center gap-3">
+                    <span className={`text-xs font-bold px-3 py-1 rounded-full border ${badgeCls}`}>{cfg.label}</span>
+                    <span className={`material-symbols-outlined text-slate-400 transition-transform ${open ? 'rotate-180' : ''}`}>expand_more</span>
+                </div>
+            </button>
+
+            {open && (
+                <div className="px-5 pb-5 space-y-4 border-t border-slate-700/50 pt-4">
+                    {/* Komentarz ogólny */}
+                    {v.komentarz && (
+                        <p className="text-slate-300 text-sm leading-relaxed">{v.komentarz}</p>
+                    )}
+
+                    {/* Błędy */}
+                    {v.bledy.length > 0 && (
+                        <div>
+                            <p className="text-xs font-bold text-red-400 uppercase tracking-wider mb-2 flex items-center gap-1">
+                                <span className="material-symbols-outlined text-sm">error</span>
+                                Błędy ({v.bledy.length})
+                            </p>
+                            <div className="space-y-2">
+                                {v.bledy.map((b, i) => (
+                                    <div key={i} className="rounded-xl bg-red-500/5 border border-red-500/20 p-3">
+                                        {b.lp && <span className="text-xs font-bold text-red-400 mr-2">Poz. {b.lp}</span>}
+                                        <span className="text-slate-300 text-sm">{b.opis}</span>
+                                        {b.sugestia && (
+                                            <p className="text-slate-500 text-xs mt-1 flex items-start gap-1">
+                                                <span className="material-symbols-outlined text-xs mt-0.5">lightbulb</span>
+                                                {b.sugestia}
+                                            </p>
+                                        )}
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    )}
+
+                    {/* Ostrzeżenia */}
+                    {v.ostrzezenia.length > 0 && (
+                        <div>
+                            <p className="text-xs font-bold text-yellow-400 uppercase tracking-wider mb-2 flex items-center gap-1">
+                                <span className="material-symbols-outlined text-sm">warning</span>
+                                Ostrzeżenia ({v.ostrzezenia.length})
+                            </p>
+                            <div className="space-y-2">
+                                {v.ostrzezenia.map((o, i) => (
+                                    <div key={i} className="rounded-xl bg-yellow-500/5 border border-yellow-500/20 p-3">
+                                        {o.lp && <span className="text-xs font-bold text-yellow-400 mr-2">Poz. {o.lp}</span>}
+                                        <span className="text-slate-300 text-sm">{o.opis}</span>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    )}
+
+                    {!hasIssues && (
+                        <p className="text-emerald-400 text-sm flex items-center gap-2">
+                            <span className="material-symbols-outlined text-base">check_circle</span>
+                            Nie wykryto błędów ani ostrzeżeń.
+                        </p>
+                    )}
+                </div>
+            )}
+        </div>
+    )
+}
+
 function downloadB64(filename, b64content) {
     const bytes = Uint8Array.from(atob(b64content), c => c.charCodeAt(0))
     const blob = new Blob([bytes], { type: 'application/octet-stream' })
@@ -257,6 +354,11 @@ export default function Dashboard() {
                                 )}
                             </div>
                         </div>
+                    )}
+
+                    {/* Weryfikacja AI */}
+                    {result?.verification && (
+                        <VerificationPanel v={result.verification} />
                     )}
 
                     {/* Feedback po generowaniu */}

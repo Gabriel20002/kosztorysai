@@ -1751,7 +1751,9 @@ class KosztorysGenerator:
         
         # 3. Przelicz
         pozycje, podsumowanie = self.calculate_kosztorys(pozycje)
-        
+        self._last_pozycje = pozycje
+        self._last_podsumowanie = podsumowanie
+
         # 4. Generuj
         results = {}
         

@@ -274,7 +274,18 @@ async def generate(
         db.add(record)
         db.commit()
 
-    return {"files": files}
+    # Weryfikacja AI (Claude Haiku — osobny model)
+    verification = None
+    try:
+        import ai_verifier
+        pozycje = getattr(gen, "_last_pozycje", None)
+        podsumowanie = getattr(gen, "_last_podsumowanie", None)
+        if pozycje and podsumowanie:
+            verification = ai_verifier.verify_kosztorys(pozycje, podsumowanie, gen.params)
+    except Exception as e:
+        log.warning("Weryfikacja AI nieudana: %s", e)
+
+    return {"files": files, "verification": verification}
 
 
 # ---------------------------------------------------------------------------
