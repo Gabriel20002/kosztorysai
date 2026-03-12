@@ -29,7 +29,7 @@ const DOSWIADCZENIA = [
 ]
 
 export default function Apply() {
-    const { user, loading: authLoading } = useAuth()
+    const { user, loading: authLoading, getToken } = useAuth()
     const navigate = useNavigate()
     const [submitted, setSubmitted] = useState(false)
     const [loading, setLoading] = useState(false)
@@ -44,10 +44,7 @@ export default function Apply() {
     const set = (k, v) => setForm(f => ({ ...f, [k]: v }))
 
     // Blokuj wyjście jeśli formularz nie wysłany
-    const blocker = useBlocker(
-        ({ currentLocation, nextLocation }) =>
-            !submitted && currentLocation.pathname !== nextLocation.pathname
-    )
+    const blocker = useBlocker(!submitted)
 
     // Ostrzeżenie przy zamknięciu przeglądarki
     useEffect(() => {
@@ -64,7 +61,7 @@ export default function Apply() {
         setLoading(true)
         setError(null)
         try {
-            const token = localStorage.getItem('token')
+            const token = getToken()
             const res = await fetch(`${API}/api/beta/apply`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
