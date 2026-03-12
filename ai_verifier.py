@@ -67,17 +67,8 @@ Sprawdź w szczególności:
 - Pozycje z zerową ilością lub wartością
 - Proporcje R:M:S dla danego rodzaju robót (czy są typowe dla branży)
 
-Odpowiedz WYŁĄCZNIE jako JSON (bez żadnego tekstu poza JSON):
-{{
-  "bledy": [
-    {{"lp": <numer_pozycji_lub_null>, "opis": "<opis błędu>", "sugestia": "<co poprawić>"}}
-  ],
-  "ostrzezenia": [
-    {{"lp": <numer_pozycji_lub_null>, "opis": "<opis ostrzeżenia>"}}
-  ],
-  "ocena": "<dobry|wymaga_uwagi|wymaga_poprawy>",
-  "komentarz": "<podsumowanie 2-3 zdania — ogólna jakość kosztorysu, główne problemy>"
-}}"""
+Odpowiedz WYŁĄCZNIE jako JSON (bez żadnego tekstu poza JSON, wszystkie wartości stringowe w jednej linii bez znaków nowej linii):
+{{"bledy":[{{"lp":<int_lub_null>,"opis":"<tekst>","sugestia":"<tekst>"}}],"ostrzezenia":[{{"lp":<int_lub_null>,"opis":"<tekst>"}}],"ocena":"<dobry|wymaga_uwagi|wymaga_poprawy>","komentarz":"<tekst>"}}"""
 
         resp = client.messages.create(
             model=_MODEL,
@@ -91,7 +82,8 @@ Odpowiedz WYŁĄCZNIE jako JSON (bez żadnego tekstu poza JSON):
         if start == -1 or end == 0:
             raise ValueError("Brak JSON w odpowiedzi AI")
 
-        result = json.loads(text[start:end])
+        raw = text[start:end]
+        result = _parse_json_robust(raw)
         _sanitize(result)
         log.info(
             "AI Verifier: ocena=%s bledy=%d ostrzezenia=%d",
@@ -104,6 +96,36 @@ Odpowiedz WYŁĄCZNIE jako JSON (bez żadnego tekstu poza JSON):
     except Exception as e:
         log.warning("AI Verifier error: %s", e)
         return _fallback(f"Błąd weryfikacji AI: {e}")
+
+
+def _parse_json_robust(raw: str) -> dict:
+    """Parsuje JSON zwrócony przez AI — obsługuje typowe błędy (nowe linie w stringach, trailing commas)."""
+    # Próba 1: bezpośredni parse
+    try:
+        return json.loads(raw)
+    except json.JSONDecodeError:
+        pass
+
+    # Próba 2: usuń nowe linie i nadmiarowe spacje wewnątrz wartości stringowych
+    import re
+    # Zamień rzeczywiste nowe linie wewnątrz cudzysłowów na \n
+    cleaned = re.sub(
+        r'"((?:[^"\\]|\\.)*)"',
+        lambda m: '"' + m.group(1).replace('\n', ' ').replace('\r', '') + '"',
+        raw,
+        flags=re.DOTALL,
+    )
+    try:
+        return json.loads(cleaned)
+    except json.JSONDecodeError:
+        pass
+
+    # Próba 3: usuń trailing commas przed ] i }
+    cleaned2 = re.sub(r',\s*([\]}])', r'\1', cleaned)
+    try:
+        return json.loads(cleaned2)
+    except json.JSONDecodeError as e:
+        raise ValueError(f"Nie można sparsować JSON z odpowiedzi AI: {e}") from e
 
 
 def _format_pozycje(pozycje: list) -> str:
