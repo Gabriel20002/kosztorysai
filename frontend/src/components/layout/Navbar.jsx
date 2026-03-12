@@ -45,6 +45,7 @@ export default function Navbar() {
                     <SmartLink className="text-slate-600 dark:text-slate-300 hover:text-primary transition-colors text-sm font-medium" to="/how-it-works">Jak to działa</SmartLink>
                     <SmartLink className="text-slate-600 dark:text-slate-300 hover:text-primary transition-colors text-sm font-medium" to="/pricing">Cennik</SmartLink>
                     <SmartLink className="text-slate-600 dark:text-slate-300 hover:text-primary transition-colors text-sm font-medium" to="/terms">Regulamin</SmartLink>
+                    <SmartLink className="text-slate-600 dark:text-slate-300 hover:text-primary transition-colors text-sm font-medium" to="/contact">Kontakt</SmartLink>
                 </div>
                 <div className="flex items-center gap-4">
                     {user ? (
@@ -91,6 +92,7 @@ export default function Navbar() {
                     <SmartLink onClick={() => setIsMenuOpen(false)} className="text-slate-300 hover:text-primary py-2 font-medium" to="/how-it-works">Jak to działa</SmartLink>
                     <SmartLink onClick={() => setIsMenuOpen(false)} className="text-slate-300 hover:text-primary py-2 font-medium" to="/pricing">Cennik</SmartLink>
                     <SmartLink onClick={() => setIsMenuOpen(false)} className="text-slate-300 hover:text-primary py-2 font-medium" to="/terms">Regulamin</SmartLink>
+                    <SmartLink onClick={() => setIsMenuOpen(false)} className="text-slate-300 hover:text-primary py-2 font-medium" to="/contact">Kontakt</SmartLink>
                     <hr className="border-slate-800" />
                     {user ? (
                         <>

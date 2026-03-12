@@ -14,6 +14,7 @@ export default function Admin() {
 
     const [users, setUsers] = useState([])
     const [feedback, setFeedback] = useState([])
+    const [contact, setContact] = useState([])
     const [tab, setTab] = useState('users')
     const [loadingData, setLoadingData] = useState(true)
 
@@ -27,12 +28,14 @@ export default function Admin() {
         setLoadingData(true)
         const token = getToken()
         try {
-            const [u, f] = await Promise.all([
+            const [u, f, c] = await Promise.all([
                 fetch(`${API}/api/admin/users`, { headers: authHeaders(token) }).then(r => r.json()),
                 fetch(`${API}/api/admin/feedback`, { headers: authHeaders(token) }).then(r => r.json()),
+                fetch(`${API}/api/admin/contact`, { headers: authHeaders(token) }).then(r => r.json()),
             ])
             setUsers(Array.isArray(u) ? u : [])
             setFeedback(Array.isArray(f) ? f : [])
+            setContact(Array.isArray(c) ? c : [])
         } catch (e) {
             console.error(e)
         } finally {
@@ -87,6 +90,7 @@ export default function Admin() {
                     { label: 'Użytkownicy', value: users.length, icon: 'group' },
                     { label: 'Aktywni (mogą generować)', value: users.filter(u => u.can_generate).length, icon: 'check_circle' },
                     { label: 'Opinie', value: feedback.length, icon: 'rate_review' },
+                    { label: 'Wiadomości', value: contact.length, icon: 'mail' },
                     { label: 'Śr. ocena', value: avgRating, icon: 'star' },
                 ].map(s => (
                     <div key={s.label} className="glass-panel rounded-2xl p-5 border border-slate-700">
@@ -102,6 +106,7 @@ export default function Admin() {
                 {[
                     { id: 'users', label: 'Użytkownicy', icon: 'group' },
                     { id: 'feedback', label: 'Opinie', icon: 'rate_review' },
+                    { id: 'contact', label: 'Wiadomości', icon: 'mail' },
                 ].map(t => (
                     <button
                         key={t.id}
@@ -166,6 +171,38 @@ export default function Admin() {
                     {users.length === 0 && (
                         <div className="p-12 text-center text-slate-500">Brak użytkowników</div>
                     )}
+                </div>
+            )}
+
+            {/* Wiadomości kontaktowe */}
+            {tab === 'contact' && (
+                <div className="space-y-4">
+                    {contact.length === 0 && (
+                        <div className="glass-panel rounded-2xl p-12 border border-slate-700 text-center text-slate-500">
+                            Brak wiadomości
+                        </div>
+                    )}
+                    {contact.map(m => {
+                        const categoryLabel = { opinia: 'Opinia', zapytanie: 'Zapytanie', blad: 'Błąd/Problem', inne: 'Inne' }[m.category] ?? m.category
+                        const categoryColor = { opinia: 'text-secondary border-secondary/30 bg-secondary/10', zapytanie: 'text-primary border-primary/30 bg-primary/10', blad: 'text-red-400 border-red-500/30 bg-red-500/10', inne: 'text-slate-400 border-slate-600 bg-slate-800' }[m.category] ?? 'text-slate-400 border-slate-600 bg-slate-800'
+                        return (
+                            <div key={m.id} className="glass-panel rounded-2xl p-5 border border-slate-700">
+                                <div className="flex items-start justify-between gap-4 mb-3">
+                                    <div className="flex items-center gap-3">
+                                        <span className={`text-xs font-bold px-2.5 py-1 rounded-full border ${categoryColor}`}>{categoryLabel}</span>
+                                        <a href={`mailto:${m.email}`} className="text-slate-300 text-sm hover:text-primary transition-colors">{m.email}</a>
+                                    </div>
+                                    <div className="text-xs text-slate-500 shrink-0">
+                                        {m.created_at ? new Date(m.created_at).toLocaleString('pl-PL') : '—'}
+                                    </div>
+                                </div>
+                                <p className="text-slate-300 text-sm leading-relaxed">{m.message}</p>
+                                <div className="mt-3 text-xs text-slate-600">
+                                    ID: {m.id} · User: {m.user_id ?? 'gość'}
+                                </div>
+                            </div>
+                        )
+                    })}
                 </div>
             )}
 

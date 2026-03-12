@@ -42,3 +42,14 @@ class Feedback(Base):
     message = Column(Text, nullable=True)
     context = Column(String, nullable=True)    # np. "after_generate", "general"
     created_at = Column(DateTime, default=datetime.utcnow)
+
+
+class ContactMessage(Base):
+    __tablename__ = "contact_messages"
+
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id"), nullable=True)
+    email = Column(String, nullable=False)
+    category = Column(String, nullable=False)  # opinia / zapytanie / blad / inne
+    message = Column(Text, nullable=False)
+    created_at = Column(DateTime, default=datetime.utcnow)

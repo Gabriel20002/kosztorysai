@@ -55,6 +55,7 @@ def _run_migrations():
             "ALTER TABLE users ADD COLUMN IF NOT EXISTS can_generate BOOLEAN DEFAULT FALSE",
             "ALTER TABLE users ADD COLUMN IF NOT EXISTS terms_accepted_at TIMESTAMP DEFAULT NULL",
             "CREATE TABLE IF NOT EXISTS feedback (id SERIAL PRIMARY KEY, user_id INTEGER REFERENCES users(id), rating INTEGER NOT NULL, message TEXT, context VARCHAR, created_at TIMESTAMP DEFAULT NOW())",
+            "CREATE TABLE IF NOT EXISTS contact_messages (id SERIAL PRIMARY KEY, user_id INTEGER REFERENCES users(id), email VARCHAR NOT NULL, category VARCHAR NOT NULL, message TEXT NOT NULL, created_at TIMESTAMP DEFAULT NOW())",
         ]:
             try:
                 conn.execute(text(sql))
@@ -396,6 +397,58 @@ def get_feedback(
         for f in items
     ]
 
+
+# ---------------------------------------------------------------------------
+# Contact
+# ---------------------------------------------------------------------------
+
+class ContactBody(BaseModel):
+    email: str
+    category: str
+    message: str
+
+@app.post("/api/contact")
+def submit_contact(
+    body: ContactBody,
+    current_user: models.User = Depends(auth.get_optional_user),
+    db: Session = Depends(get_db),
+):
+    if not body.email or not body.message.strip():
+        raise HTTPException(400, "Email i wiadomość są wymagane")
+    if len(body.message) > 5000:
+        raise HTTPException(400, "Wiadomość nie może przekraczać 5000 znaków")
+    allowed = {"opinia", "zapytanie", "blad", "inne"}
+    if body.category not in allowed:
+        raise HTTPException(400, "Nieprawidłowa kategoria")
+    msg = models.ContactMessage(
+        user_id=current_user.id if current_user else None,
+        email=body.email,
+        category=body.category,
+        message=body.message.strip(),
+    )
+    db.add(msg)
+    db.commit()
+    return {"ok": True}
+
+@app.get("/api/admin/contact")
+def admin_get_contact(
+    current_user: models.User = Depends(auth.get_current_user),
+    db: Session = Depends(get_db),
+):
+    if not current_user.is_admin:
+        raise HTTPException(403, "Brak dostępu")
+    items = db.query(models.ContactMessage).order_by(models.ContactMessage.created_at.desc()).limit(500).all()
+    return [
+        {
+            "id": m.id,
+            "user_id": m.user_id,
+            "email": m.email,
+            "category": m.category,
+            "message": m.message,
+            "created_at": m.created_at.isoformat() if m.created_at else None,
+        }
+        for m in items
+    ]
 
 # ---------------------------------------------------------------------------
 # Frontend statyczny
