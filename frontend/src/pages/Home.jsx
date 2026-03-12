@@ -38,9 +38,6 @@ export default function Home() {
                             Jak to działa
                         </Link>
                     </div>
-                    <div className="flex items-center justify-center lg:justify-start gap-6 mt-6 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
-                        <span className="text-xs font-semibold uppercase tracking-widest text-slate-500">Polecane przez najlepszych wykonawców</span>
-                    </div>
                 </div>
 
                 {/* Hero Visual / 3D Card Effect */}
@@ -122,8 +119,8 @@ export default function Home() {
                         </div>
                         <div className="flex flex-col items-center md:items-start p-4 md:border-l md:border-slate-800 text-center md:text-left">
                             <span className="material-symbols-outlined text-primary text-3xl mb-2">download</span>
-                            <p className="text-base font-bold text-white mb-1">Format ATH (Norma PRO)</p>
-                            <p className="text-sm text-slate-400">Wynik gotowy do otwarcia w Normie PRO bez żadnych konwersji</p>
+                            <p className="text-base font-bold text-white mb-1">Format ATH gotowy do użycia</p>
+                            <p className="text-sm text-slate-400">Wynik gotowy do otwarcia w oprogramowaniu kosztorysowym bez żadnych konwersji</p>
                         </div>
                     </div>
                 </div>

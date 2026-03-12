@@ -1,6 +1,9 @@
 import { Link } from 'react-router-dom'
+import { useAuth } from '../context/AuthContext'
 
 export default function Pricing() {
+    const { user } = useAuth()
+
     return (
         <div className="w-full max-w-[1280px] px-4 md:px-6 py-16 md:py-24 mx-auto text-center">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-800/50 border border-slate-700/50 mb-6">
@@ -25,17 +28,27 @@ export default function Pricing() {
                         <span className="text-slate-500"> / do odwołania</span>
                     </div>
 
-                    <Link
-                        to="/register"
-                        className="w-full h-12 rounded-lg bg-primary text-white font-bold hover:bg-sky-400 transition-colors mb-8 shadow-lg shadow-primary/20 flex items-center justify-center"
-                    >
-                        Dołącz do Programu Beta
-                    </Link>
+                    {user ? (
+                        <Link
+                            to="/dashboard"
+                            className="w-full h-12 rounded-lg bg-primary text-white font-bold hover:bg-sky-400 transition-colors mb-8 shadow-lg shadow-primary/20 flex items-center justify-center gap-2"
+                        >
+                            <span className="material-symbols-outlined text-base">rocket_launch</span>
+                            Przejdź do generatora
+                        </Link>
+                    ) : (
+                        <Link
+                            to="/register"
+                            className="w-full h-12 rounded-lg bg-primary text-white font-bold hover:bg-sky-400 transition-colors mb-8 shadow-lg shadow-primary/20 flex items-center justify-center"
+                        >
+                            Dołącz do Programu Beta
+                        </Link>
+                    )}
 
                     <ul className="space-y-4 text-slate-300 w-full">
                         <li className="flex items-center gap-3">
                             <span className="material-symbols-outlined text-sm text-primary">check</span>
-                            Generowanie kosztorysów ATH (Norma PRO)
+                            Generowanie kosztorysów w formacie ATH
                         </li>
                         <li className="flex items-center gap-3">
                             <span className="material-symbols-outlined text-sm text-primary">check</span>

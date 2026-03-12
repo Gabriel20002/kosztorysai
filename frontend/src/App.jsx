@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, Navigate } from 'react-router-dom'
 import React from 'react'
 
 import { AuthProvider } from './context/AuthContext'
@@ -11,8 +11,6 @@ import Login from './pages/Login'
 import Register from './pages/Register'
 import Features from './pages/Features'
 import HowItWorks from './pages/HowItWorks'
-import GetStarted from './pages/GetStarted'
-import AddProgram from './pages/AddProgram'
 import Admin from './pages/Admin'
 import Terms from './pages/Terms'
 import NotFound from './pages/NotFound'
@@ -39,8 +37,8 @@ function App() {
           <Route path="/register" element={<Register />} />
           <Route path="/features" element={<Features />} />
           <Route path="/how-it-works" element={<HowItWorks />} />
-          <Route path="/get-started" element={<GetStarted />} />
-          <Route path="/add-program" element={<AddProgram />} />
+          <Route path="/get-started" element={<Navigate to="/register" replace />} />
+          <Route path="/add-program" element={<Navigate to="/" replace />} />
           <Route path="/admin" element={<Admin />} />
           <Route path="/terms" element={<Terms />} />
           <Route path="/contact" element={<Contact />} />

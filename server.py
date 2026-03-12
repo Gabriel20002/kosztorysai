@@ -270,6 +270,7 @@ async def generate(
             user_id=current_user.id,
             name=nazwa or base_name,
             filename=file.filename,
+            positions_count=len(getattr(gen, "_last_pozycje", None) or []),
         )
         db.add(record)
         db.commit()

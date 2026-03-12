@@ -67,12 +67,32 @@ export default function Admin() {
 
     if (!user?.is_admin) return null
 
+    const pending = users.filter(u => !u.can_generate && !u.is_admin)
     const avgRating = feedback.length
         ? (feedback.reduce((s, f) => s + f.rating, 0) / feedback.length).toFixed(1)
         : '—'
 
     return (
         <div className="flex-1 w-full max-w-[1200px] mx-auto px-4 sm:px-8 py-8">
+            {pending.length > 0 && (
+                <div className="mb-6 flex items-center gap-3 p-4 rounded-xl bg-yellow-500/10 border border-yellow-500/30">
+                    <span className="material-symbols-outlined text-yellow-400 text-2xl">notification_important</span>
+                    <div className="flex-1">
+                        <p className="text-yellow-300 font-bold text-sm">
+                            {pending.length === 1
+                                ? '1 użytkownik czeka na aktywację'
+                                : `${pending.length} użytkowników czeka na aktywację`}
+                        </p>
+                        <p className="text-yellow-500 text-xs mt-0.5">
+                            {pending.map(u => u.name || u.email).join(', ')}
+                        </p>
+                    </div>
+                    <button onClick={() => setTab('users')} className="text-xs font-bold text-yellow-400 hover:text-yellow-200 transition-colors border border-yellow-500/40 px-3 py-1.5 rounded-lg">
+                        Aktywuj
+                    </button>
+                </div>
+            )}
+
             <div className="mb-8 flex items-center justify-between">
                 <div>
                     <h1 className="text-3xl font-black text-white">Panel Administratora</h1>
@@ -134,7 +154,7 @@ export default function Admin() {
                         </thead>
                         <tbody>
                             {users.map(u => (
-                                <tr key={u.id} className="border-b border-slate-800 hover:bg-white/[0.02] transition-colors">
+                                <tr key={u.id} className={`border-b border-slate-800 transition-colors ${!u.can_generate && !u.is_admin ? 'bg-yellow-500/5 hover:bg-yellow-500/10' : 'hover:bg-white/[0.02]'}`}>
                                     <td className="px-6 py-4">
                                         <div className="flex items-center gap-3">
                                             <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center text-primary text-xs font-bold">

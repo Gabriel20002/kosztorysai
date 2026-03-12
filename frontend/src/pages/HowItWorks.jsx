@@ -24,7 +24,7 @@ export default function HowItWorks() {
                                 <span className="material-symbols-outlined text-primary text-4xl">upload_file</span>
                             </div>
                             <h4 className="text-xl font-bold text-white mb-3">Wgraj Plany</h4>
-                            <p className="text-slate-400">Przeciągnij i upuść przedmiar robót budowlanych w formacie PDF (Norma PRO) na panel generatora.</p>
+                            <p className="text-slate-400">Przeciągnij i upuść przedmiar robót budowlanych w formacie PDF na panel generatora.</p>
                         </div>
 
                         {/* Step 2 */}
@@ -44,7 +44,7 @@ export default function HowItWorks() {
                                 <span className="material-symbols-outlined text-emerald-400 text-4xl">request_quote</span>
                             </div>
                             <h4 className="text-xl font-bold text-white mb-3">Weryfikacja i Eksport</h4>
-                            <p className="text-slate-400">Pobierz gotowy kosztorys w formacie ATH (Norma PRO) z automatycznie dopasowanymi nakładami KNR, stawkami robocizny, materiałami i sprzętem.</p>
+                            <p className="text-slate-400">Pobierz gotowy kosztorys w formacie ATH z automatycznie dopasowanymi nakładami KNR, stawkami robocizny, materiałami i sprzętem.</p>
                         </div>
                     </div>
                 </div>

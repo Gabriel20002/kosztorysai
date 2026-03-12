@@ -231,7 +231,7 @@ export default function Dashboard() {
                 <ul className="space-y-3 text-slate-400 text-sm">
                     <li className="flex items-start gap-2">
                         <span className="material-symbols-outlined text-primary text-base mt-0.5">upload_file</span>
-                        Wgrasz przedmiar PDF (Norma PRO)
+                        Wgrasz przedmiar PDF (ATH)
                     </li>
                     <li className="flex items-start gap-2">
                         <span className="material-symbols-outlined text-primary text-base mt-0.5">memory</span>
@@ -258,7 +258,7 @@ export default function Dashboard() {
             <div className="mb-8 sm:mb-12 flex flex-col md:flex-row md:items-end justify-between gap-6">
                 <div className="space-y-3">
                     <h1 className="text-4xl md:text-6xl font-extrabold text-silver tracking-tight text-white">Konfiguracja Kosztorysu</h1>
-                    <p className="text-slate-400 max-w-2xl text-lg leading-relaxed">Wgraj przedmiar PDF i wygeneruj kosztorys ATH (Norma PRO).</p>
+                    <p className="text-slate-400 max-w-2xl text-lg leading-relaxed">Wgraj przedmiar PDF i wygeneruj kosztorys ATH (ATH).</p>
                 </div>
                 <div className="flex flex-col sm:flex-row gap-4">
                     <button
@@ -318,7 +318,7 @@ export default function Dashboard() {
                                         </div>
                                         <h3 className="text-3xl font-bold text-white mb-3 text-center tracking-tight">Przeciągnij i Upuść Przedmiar PDF</h3>
                                         <p className="text-slate-400 text-center max-w-md mb-10 leading-relaxed">
-                                            Wgraj przedmiar robót budowlanych w formacie Norma PRO. Program rozpozna pozycje KNR i wyliczy kosztorys.
+                                            Wgraj przedmiar robót budowlanych w formacie ATH. Program rozpozna pozycje KNR i wyliczy kosztorys.
                                         </p>
                                         <button className="h-12 px-10 bg-slate-200 text-black font-extrabold rounded-xl hover:bg-white transition-colors flex items-center shadow-2xl">
                                             Przeglądaj Pliki
@@ -349,7 +349,7 @@ export default function Dashboard() {
                                     >
                                         <span className="material-symbols-outlined">download</span>
                                         Pobierz ATH
-                                        <span className="text-xs opacity-70">(Norma PRO)</span>
+                                        <span className="text-xs opacity-70">(ATH)</span>
                                     </button>
                                 )}
                             </div>
@@ -424,6 +424,16 @@ export default function Dashboard() {
                                 />
                             </div>
 
+                            <div>
+                                <label className="text-xs font-bold text-slate-400 uppercase tracking-widest block mb-2">Wykonawca</label>
+                                <input
+                                    type="text"
+                                    value={params.wykonawca}
+                                    onChange={e => setParam('wykonawca', e.target.value)}
+                                    placeholder="Nazwa Twojej firmy"
+                                    className="w-full bg-slate-800/80 border border-slate-700 text-white text-sm rounded-xl px-4 py-2.5 focus:outline-none focus:border-primary/60 placeholder:text-slate-600"
+                                />
+                            </div>
 
                             <div className="grid grid-cols-2 gap-3">
                                 {[
