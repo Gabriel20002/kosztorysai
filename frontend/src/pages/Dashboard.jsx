@@ -155,6 +155,7 @@ export default function Dashboard() {
 
     async function handleGenerate() {
         if (!file) { setError('Najpierw wybierz plik PDF'); return }
+        if (!user.can_generate && !user.is_admin) { setError('Twoje konto nie ma uprawnień do generowania. Skontaktuj się z administratorem.'); return }
         setLoading(true)
         setError(null)
         setResult(null)

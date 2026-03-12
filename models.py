@@ -1,7 +1,11 @@
 from sqlalchemy import Column, Integer, String, DateTime, ForeignKey, Text, Boolean
 from sqlalchemy.orm import relationship
-from datetime import datetime
+from datetime import datetime, timezone
 from database import Base
+
+
+def _utcnow():
+    return datetime.now(timezone.utc)
 
 
 class User(Base):
@@ -15,7 +19,7 @@ class User(Base):
     is_admin = Column(Boolean, default=False)
     can_generate = Column(Boolean, default=False)  # admin nadaje prawo ręcznie
     terms_accepted_at = Column(DateTime, nullable=True)
-    created_at = Column(DateTime, default=datetime.utcnow)
+    created_at = Column(DateTime, default=_utcnow)
 
     kosztorysy = relationship("Kosztorys", back_populates="owner")
 
@@ -28,7 +32,7 @@ class Kosztorys(Base):
     name = Column(String, nullable=False)
     filename = Column(String)
     positions_count = Column(Integer, default=0)
-    created_at = Column(DateTime, default=datetime.utcnow)
+    created_at = Column(DateTime, default=_utcnow)
 
     owner = relationship("User", back_populates="kosztorysy")
 
@@ -41,7 +45,7 @@ class Feedback(Base):
     rating = Column(Integer, nullable=False)   # 1–5
     message = Column(Text, nullable=True)
     context = Column(String, nullable=True)    # np. "after_generate", "general"
-    created_at = Column(DateTime, default=datetime.utcnow)
+    created_at = Column(DateTime, default=_utcnow)
 
 
 class ContactMessage(Base):
@@ -52,4 +56,4 @@ class ContactMessage(Base):
     email = Column(String, nullable=False)
     category = Column(String, nullable=False)  # opinia / zapytanie / blad / inne
     message = Column(Text, nullable=False)
-    created_at = Column(DateTime, default=datetime.utcnow)
+    created_at = Column(DateTime, default=_utcnow)
