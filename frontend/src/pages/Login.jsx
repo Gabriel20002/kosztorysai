@@ -34,7 +34,7 @@ export default function Login() {
 
                 <div className="text-center mt-12 mb-8">
                     <h2 className="text-2xl font-black text-white tracking-tight">Witaj Ponownie</h2>
-                    <p className="text-slate-400 text-sm mt-2">Zaloguj się do BuildAI, aby kontynuować kosztorysowanie</p>
+                    <p className="text-slate-400 text-sm mt-2">Zaloguj się do Kosztorysy AI, aby kontynuować kosztorysowanie</p>
                 </div>
 
                 <form className="space-y-4" onSubmit={handleSubmit}>

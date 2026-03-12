@@ -7,7 +7,7 @@ export default function HowItWorks() {
                 <div className="max-w-[1280px] mx-auto px-4 md:px-6 relative z-10">
                     <div className="text-center mb-16">
                         <h2 className="text-secondary font-bold text-sm tracking-widest uppercase mb-2">Proces</h2>
-                        <h3 className="text-3xl md:text-5xl lg:text-6xl font-black text-white text-glow">Jak Działa BuildAI</h3>
+                        <h3 className="text-3xl md:text-5xl lg:text-6xl font-black text-white text-glow">Jak Działa Kosztorysy AI</h3>
                         <p className="text-slate-400 text-base md:text-lg lg:text-xl max-w-2xl mx-auto font-light leading-relaxed mt-4">
                             Nasz 3-etapowy proces zamienia godziny ręcznych obliczeń w zaledwie kilka sekund.
                         </p>
@@ -24,7 +24,7 @@ export default function HowItWorks() {
                                 <span className="material-symbols-outlined text-primary text-4xl">upload_file</span>
                             </div>
                             <h4 className="text-xl font-bold text-white mb-3">Wgraj Plany</h4>
-                            <p className="text-slate-400">Po prostu przeciągnij i upuść swoje pliki PDF, CAD lub zestawienia Excel na bezpieczny panel.</p>
+                            <p className="text-slate-400">Przeciągnij i upuść przedmiar robót budowlanych w formacie PDF (Norma PRO) na panel generatora.</p>
                         </div>
 
                         {/* Step 2 */}
@@ -44,7 +44,7 @@ export default function HowItWorks() {
                                 <span className="material-symbols-outlined text-emerald-400 text-4xl">request_quote</span>
                             </div>
                             <h4 className="text-xl font-bold text-white mb-3">Weryfikacja i Eksport</h4>
-                            <p className="text-slate-400">Odbierz w pełni skategoryzowany, zlokalizowany kosztorys gotowy do Twojej weryfikacji. Eksportuj do ulubionych programów dla wykonawców.</p>
+                            <p className="text-slate-400">Pobierz gotowy kosztorys w formacie ATH (Norma PRO) z automatycznie dopasowanymi nakładami KNR, stawkami robocizny, materiałami i sprzętem.</p>
                         </div>
                     </div>
                 </div>

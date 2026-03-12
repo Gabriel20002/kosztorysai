@@ -6,7 +6,7 @@ export default function Footer() {
             <div className="max-w-[1280px] mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
                 <div className="flex items-center gap-2 text-slate-400">
                     <span className="material-symbols-outlined text-[20px]">architecture</span>
-                    <span className="font-bold">BuildAI</span>
+                    <span className="font-bold">Kosztorysy AI</span>
                     <span className="text-xs ml-2">© 2026 Inc.</span>
                 </div>
                 <div className="flex items-center gap-6">

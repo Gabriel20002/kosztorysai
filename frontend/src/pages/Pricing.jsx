@@ -10,7 +10,7 @@ export default function Pricing() {
 
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-black text-white mb-6">Dołącz do Programu Beta</h1>
             <p className="text-slate-400 text-base md:text-lg max-w-2xl mx-auto mb-10 md:mb-16 px-2 md:px-0">
-                KosztorysAI jest teraz dostępny bezpłatnie w fazie testów beta. Pomóż nam kształtować produkt — Twoja opinia ma realny wpływ na rozwój narzędzia.
+                Kosztorysy AI jest teraz dostępny bezpłatnie w fazie testów beta. Pomóż nam kształtować produkt — Twoja opinia ma realny wpływ na rozwój narzędzia.
             </p>
 
             <div className="max-w-md mx-auto">

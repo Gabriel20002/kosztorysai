@@ -38,7 +38,7 @@ export default function Register() {
 
                 <div className="text-center mt-12 mb-8">
                     <h2 className="text-2xl font-black text-white tracking-tight">Utwórz Konto</h2>
-                    <p className="text-slate-400 text-sm mt-2">Dołącz do BuildAI i zacznij kosztorysować inteligentnie</p>
+                    <p className="text-slate-400 text-sm mt-2">Dołącz do Kosztorysy AI i zacznij kosztorysować inteligentnie</p>
                 </div>
 
                 <form className="space-y-4" onSubmit={handleSubmit}>

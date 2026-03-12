@@ -16,7 +16,7 @@ export default function Terms() {
                     <section>
                         <h2 className="text-white font-bold text-base mb-3">§1. Cel udostępnienia — wersja Beta</h2>
                         <p>
-                            Serwis KosztorysAI jest udostępniany wyłącznie w celach demonstracyjnych i testowych
+                            Serwis Kosztorysy AI jest udostępniany wyłącznie w celach demonstracyjnych i testowych
                             (tzw. <strong className="text-white">Proof of Concept</strong>). Udział w programie Beta
                             polega na ocenie funkcjonalności narzędzia i przekazaniu informacji zwrotnej administratorowi.
                         </p>
@@ -82,7 +82,7 @@ export default function Terms() {
                     <section>
                         <h2 className="text-white font-bold text-base mb-3">§5. Prawa własności intelektualnej i poufność</h2>
                         <p>
-                            Wszelkie prawa do oprogramowania KosztorysAI, jego kodu źródłowego, algorytmów,
+                            Wszelkie prawa do oprogramowania Kosztorysy AI, jego kodu źródłowego, algorytmów,
                             interfejsu graficznego oraz koncepcji biznesowej należą wyłącznie do{' '}
                             <strong className="text-white">Gabriela Długiego</strong>.
                         </p>

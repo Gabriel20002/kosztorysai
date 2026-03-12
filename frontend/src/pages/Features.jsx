@@ -12,7 +12,7 @@ export default function Features() {
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Nowej Generacji</span>
                 </h1>
                 <p className="text-slate-400 text-lg md:text-xl max-w-3xl mx-auto font-light leading-relaxed">
-                    Odkryj potężne funkcje, dzięki którym BuildAI to najszybsze i najdokładniejsze oprogramowanie kosztorysowe w branży budowlanej. Zbudowane do obsługi złożonych projektów architektonicznych w kilka sekund.
+                    Odkryj potężne funkcje, dzięki którym Kosztorysy AI to najszybsze i najdokładniejsze oprogramowanie kosztorysowe w branży budowlanej. Zbudowane do obsługi złożonych projektów architektonicznych w kilka sekund.
                 </p>
             </section>
 

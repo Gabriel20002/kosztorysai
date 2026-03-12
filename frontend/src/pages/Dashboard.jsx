@@ -31,7 +31,7 @@ export default function Dashboard() {
     const [params, setParams] = useState({
         nazwa: '',
         inwestor: '',
-        wykonawca: 'KLONEKS',
+        wykonawca: '',
         format: 'ath',
         stawka_rg: 35,
         kp: 70,
@@ -111,6 +111,47 @@ export default function Dashboard() {
                 <Link to="/login" className="h-12 px-8 rounded-lg bg-primary hover:bg-sky-400 text-white font-bold transition-colors flex items-center">Zaloguj się</Link>
                 <Link to="/get-started" className="h-12 px-8 rounded-lg border border-slate-700 hover:border-slate-500 text-slate-300 hover:text-white font-bold transition-colors flex items-center">Utwórz konto</Link>
             </div>
+        </div>
+    )
+
+    if (!user.can_generate && !user.is_admin) return (
+        <div className="flex-1 flex flex-col items-center justify-center py-24 px-4 text-center max-w-lg mx-auto">
+            <div className="size-24 rounded-2xl bg-primary/10 border border-primary/20 flex items-center justify-center mb-8">
+                <span className="material-symbols-outlined text-5xl text-primary">hourglass_top</span>
+            </div>
+            <h2 className="text-3xl font-black text-white mb-4">Konto oczekuje na aktywację</h2>
+            <p className="text-slate-400 mb-3 leading-relaxed">
+                Twoje konto zostało utworzone. Dostęp do generatora kosztorysów zostanie przyznany przez administratora — zazwyczaj w ciągu 24 godzin.
+            </p>
+            <p className="text-slate-500 text-sm mb-10">
+                Otrzymasz powiadomienie e-mail gdy konto zostanie aktywowane.
+            </p>
+            <div className="w-full glass-panel rounded-2xl p-6 border border-slate-700 text-left mb-8">
+                <h3 className="text-white font-bold mb-4 flex items-center gap-2">
+                    <span className="material-symbols-outlined text-secondary text-base">check_circle</span>
+                    Co się stanie po aktywacji?
+                </h3>
+                <ul className="space-y-3 text-slate-400 text-sm">
+                    <li className="flex items-start gap-2">
+                        <span className="material-symbols-outlined text-primary text-base mt-0.5">upload_file</span>
+                        Wgrasz przedmiar PDF (Norma PRO)
+                    </li>
+                    <li className="flex items-start gap-2">
+                        <span className="material-symbols-outlined text-primary text-base mt-0.5">memory</span>
+                        AI automatycznie dopasuje nakłady KNR i wyliczy kosztorys
+                    </li>
+                    <li className="flex items-start gap-2">
+                        <span className="material-symbols-outlined text-primary text-base mt-0.5">download</span>
+                        Pobierzesz gotowy plik ATH do Normy PRO
+                    </li>
+                </ul>
+            </div>
+            <a
+                href="mailto:kosztorysyai@gmail.com"
+                className="text-sm text-slate-500 hover:text-primary transition-colors"
+            >
+                Pytania? Napisz: kosztorysyai@gmail.com
+            </a>
         </div>
     )
 

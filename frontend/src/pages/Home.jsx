@@ -19,7 +19,7 @@ export default function Home() {
                         {' '}Nadeszła
                     </h1>
                     <p className="text-lg text-slate-600 dark:text-slate-400 max-w-[600px] mx-auto lg:mx-0 font-light">
-                        Poznaj precyzję automatycznych obmiarów i ślepych kosztorysów generowanych przez AI. Zautomatyzuj procesy, zmniejsz ilość błędów o 99% i wygrywaj więcej przetargów dzięki technologii BuildAI.
+                        Poznaj precyzję automatycznych obmiarów i ślepych kosztorysów generowanych przez AI. Zautomatyzuj procesy, zmniejsz ilość błędów o 99% i wygrywaj więcej przetargów dzięki technologii Kosztorysy AI.
                     </p>
                     <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4 mt-4">
                         {user ? (
@@ -199,7 +199,7 @@ export default function Home() {
                     <div className="absolute bottom-0 left-0 right-0 p-4 md:p-8 bg-gradient-to-t from-black via-black/80 to-transparent">
                         <div className="flex flex-col md:flex-row items-center md:items-end justify-between gap-4 text-center md:text-left">
                             <div>
-                                <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">Zobacz BuildAI w akcji</h3>
+                                <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">Zobacz Kosztorysy AI w akcji</h3>
                                 <p className="text-slate-300 text-sm md:text-base">Przekonaj się jak tradycyjny 2-tygodniowy proces kosztorysowania sprowadza się do 15 minut.</p>
                             </div>
                         </div>

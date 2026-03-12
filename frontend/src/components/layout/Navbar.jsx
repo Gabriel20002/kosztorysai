@@ -39,7 +39,7 @@ export default function Navbar() {
                     <div className="flex items-center justify-center size-8 bg-gradient-to-br from-primary to-secondary rounded-lg text-white group-hover:scale-105 transition-transform">
                         <span className="material-symbols-outlined text-[20px]">architecture</span>
                     </div>
-                    <h2 className="text-xl font-bold tracking-tight">BuildAI</h2>
+                    <h2 className="text-xl font-bold tracking-tight">Kosztorysy AI</h2>
                 </SmartLink>
                 <div className="hidden lg:flex items-center gap-8">
                     <SmartLink className="text-slate-600 dark:text-slate-300 hover:text-primary transition-colors text-sm font-medium" to="/how-it-works">Jak to działa</SmartLink>
