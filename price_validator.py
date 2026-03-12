@@ -40,6 +40,30 @@ _PRICE_FLOORS = [
     (('gniazdo', 'łącznik', 'lacznik', 'wyłącznik', 'wylacznik'), 'szt', 5.0),
 ]
 
+# ── Maksymalne ceny realne (sufit) ───────────────────────────────────────────
+# Jeśli ce > max_cena → AI ustawiło ce=m_per_jm zamiast ceny jednostkowej → wymagana korekta
+_PRICE_CEILINGS = [
+    # (fragmenty_nazwy, jm, max_ce)
+    (('cement',),                       'kg',  5.0),
+    (('zaprawa',),                      'kg',  8.0),
+    (('klej',),                         'kg', 15.0),
+    (('tynk',),                         'kg', 10.0),
+    (('piasek',),                       'm3', 250.0),
+    (('żwir', 'zwir', 'kruszywo'),      'm3', 400.0),
+    (('beton',),                        'm3', 800.0),
+    (('farba', 'lakier', 'emalia'),     'l',  100.0),
+    (('grunt', 'primer', 'preparat'),   'l',   60.0),
+    (('styropian', 'eps'),              'm2', 100.0),
+    (('wełna', 'welna', 'rockwool'),    'm2', 150.0),
+    (('papa',),                         'm2',  80.0),
+    (('folia',),                        'm2',  20.0),
+    (('stal zbrojeniowa', 'pręt', 'pret'), 'kg', 20.0),
+    (('drewno', 'tarcica'),             'm3', 4000.0),
+    (('woda',),                         'm3',  20.0),
+    (('gips',),                         'kg',   8.0),
+]
+
+
 # ── Bezwzględne wykluczenia (tanie z natury, nie wymagają korekty) ────────────
 _EXEMPT_FRAGMENTS = (
     'woda', 'tlen', 'piasek', 'żwir', 'zwir', 'gaz', 'śruba', 'sruba',
@@ -55,6 +79,16 @@ Odpowiadaj WYŁĄCZNIE jako poprawny JSON bez tekstu przed/po."""
 
 def _is_exempt(name_l: str) -> bool:
     return any(f in name_l for f in _EXEMPT_FRAGMENTS)
+
+
+def _get_ceiling(name_l: str, jm: str) -> float:
+    """Zwraca maksymalną akceptowalną cenę lub 0 jeśli brak warunku."""
+    name_main = name_l.split('(')[0][:40].strip()
+    jm_l = jm.lower().rstrip('.')
+    for fragments, jm_pat, max_ce in _PRICE_CEILINGS:
+        if jm_l.startswith(jm_pat) and any(f in name_main for f in fragments):
+            return max_ce
+    return 0.0
 
 
 def _get_floor(name_l: str, jm: str) -> float:
@@ -170,7 +204,13 @@ def validate_and_correct_prices(mats: list) -> list:
 
         floor = _get_floor(name_l, jm)
         if floor > 0 and ce < floor:
-            log.info("Podejrzana cena: '%s' %s ce=%.2f (min=%.2f)", name, jm, ce, floor)
+            log.info("Podejrzana cena (za niska): '%s' %s ce=%.2f (min=%.2f)", name, jm, ce, floor)
+            to_fix.append({'name': name, 'jm': jm, 'ce_old': ce, 'floor': floor})
+            continue
+
+        ceiling = _get_ceiling(name_l, jm)
+        if ceiling > 0 and ce > ceiling:
+            log.warning("Podejrzana cena (za wysoka): '%s' %s ce=%.2f (max=%.2f) — prawdopodobnie ce=m_per_jm", name, jm, ce, ceiling)
             to_fix.append({'name': name, 'jm': jm, 'ce_old': ce, 'floor': floor})
 
     if to_fix and api_key:

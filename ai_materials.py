@@ -24,16 +24,37 @@ Podajesz realny skład materiałowy dla robót budowlanych wg katalogów KNR.
 
 ZASADY:
 - Dla każdej pozycji podaj listę materiałów: nazwa, jm (jednostka), nz (ilość na jm roboty), ce (cena PLN/jm)
-- WAŻNE: suma(nz * ce) musi być ≈ wartości "m_per_jm" podanej w danych wejściowych
-- Podaj realistyczne ceny materiałów budowlanych 2024/2025 w Polsce
+- "ce" to REALNA CENA RYNKOWA materiału (PLN/jm), NIE koszt roboty na jednostkę pracy.
+  NIGDY nie ustawiaj ce = wartości "m_per_jm". ce musi być rzeczywistą ceną zakupu.
+- "nz" to fizyczna ilość materiału zużywana na 1 jednostkę roboty (nakład jednostkowy).
+  Przykład: 1 m2 tynku = ~50 kg cementu (nz=50, jm=kg, ce=0.85)
+- Suma (nz * ce) powinna być zbliżona do "Wartości materiałów", ale PRIORYTETEM są realne ceny ce.
 - Nazwy materiałów po polsku, konkretne (np. "cement portlandzki CEM I 42.5" nie "cement")
 - KRYTYCZNE: jeśli "Wartość materiałów" > 0, ZAWSZE podaj co najmniej jeden materiał — nigdy nie zwracaj []
   Jeśli praca polega na montażu gotowego elementu (kabina, bateria, wpust itp.), tym materiałem jest ten element
 - Jeśli "Wartość materiałów" = 0, wtedy możesz zwrócić []
 - BEZWZGLĘDNY ZAKAZ: w liście materiałów NIE może pojawić się czynność ani usługa.
-  NIE wpisuj: demontaż, montaż (jako usługa), rozebranie, transport, wywóz, czyszczenie, malowanie itp.
   Materiał to fizyczny przedmiot kupowany na budowie: rura, kształtka, cement, klej, śruba, kabina, zawór itp.
   Jeśli robota to demontaż/rozbiórka i nie ma fizycznych materiałów — zwróć []
+
+PRZYKŁADY REALISTYCZNYCH CEN 2024/2025 (ce):
+- cement portlandzki CEM I 42.5: 0.85 PLN/kg
+- piasek budowlany: 80 PLN/m3
+- żwir / kruszywo: 100 PLN/m3
+- beton gotowy B20/C16/20: 350 PLN/m3
+- zaprawa murarska M10: 1.20 PLN/kg
+- klej do płytek C1: 2.50 PLN/kg
+- klej do styropianu: 2.00 PLN/kg
+- farba lateksowa: 15 PLN/l
+- gruntolateks / preparat gruntujący: 8 PLN/l
+- styropian EPS100 gr.10cm: 12 PLN/m2
+- wełna mineralna fasadowa 10cm: 25 PLN/m2
+- folia paroizolacyjna: 2.50 PLN/m2
+- papa termozgrzewalna: 25 PLN/m2
+- tynk gipsowy maszynowy: 1.80 PLN/kg
+- stal zbrojeniowa: 4.50 PLN/kg
+- drewno tartaczne: 1200 PLN/m3
+
 - Odpowiadaj WYŁĄCZNIE jako poprawny JSON, bez tekstu przed/po"""
 
 
