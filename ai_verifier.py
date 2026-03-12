@@ -97,7 +97,7 @@ POZYCJE KOSZTORYSU ({len(pozycje)} pozycji):
 {pozycje_txt}
 
 Sprawdź w szczególności:
-- Pozycje gdzie M=0 a roboty wymagają materiałów (murowanie, betonowanie, malowanie, izolacje, okładziny)
+- Pozycje gdzie M=0 a roboty wymagają materiałów (murowanie, betonowanie, malowanie, izolacje, okładziny) — POMIŃ pozycje demontażu/rozbiórki/rozebrania/wywozu/skucia: te z natury nie mają materiałów i M=0 jest tam poprawne
 - Pozycje gdzie S=0 a roboty wymagają sprzętu (wykopy, transport, zagęszczanie, dźwig)
 - Brakującą podstawę normatywną (pole podstawa puste lub "-")
 - Podejrzanie niskie lub zerowe wartości robocizny przy pracochłonnych robotach

@@ -225,6 +225,10 @@ class TextFixer:
         # Najpierw zamień superscript PRZED fix_encoding (bo ³ -> ł w cp1250)
         jm = jm.replace('\u00b2', '2').replace('\u00b3', '3')  # ² -> 2, ³ -> 3
         jm = self.fix_encoding(jm).strip().lower()
+        # Napraw garbled superscripts z PDF/cp1250: dm? → dm3, mm? → mm2, m? → m2
+        # Znak '?' pojawia się gdy ³/² nie dało się zdekodować z cp1250 przed wywołaniem fix_jednostka
+        _GARBLED = {'dm?': 'dm3', 'mm?': 'mm2', 'cm?': 'cm2', 'm?': 'm2'}
+        jm = _GARBLED.get(jm, jm)
         
         # Napraw hybrydowe jednostki OCR
         # "r-/gm2" → "r-g/m2" (norma zużycia)
