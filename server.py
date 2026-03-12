@@ -256,17 +256,23 @@ async def generate(
                 raise ValueError("Nie znaleziono pozycji w PDF")
 
             files_out = {}
+            ath_text = None
             for fmt_key, path in results.items():
                 data = Path(path).read_bytes()
                 files_out[fmt_key] = {
                     "filename": f"{safe_name}_kosztorys.{fmt_key}",
                     "content": base64.b64encode(data).decode(),
                 }
+                if fmt_key == "ath":
+                    try:
+                        ath_text = Path(path).read_text(encoding="cp1250", errors="replace")
+                    except Exception:
+                        ath_text = Path(path).read_text(encoding="utf-8", errors="replace")
 
-            return gen, files_out
+            return gen, files_out, ath_text
 
     try:
-        gen, files = await asyncio.to_thread(_sync_generate)
+        gen, files, ath_text = await asyncio.to_thread(_sync_generate)
     except PDFParsingError as e:
         raise HTTPException(422, f"Błąd parsowania PDF: {e}")
     except NormaPROError as e:
@@ -295,7 +301,7 @@ async def generate(
         podsumowanie = getattr(gen, "_last_podsumowanie", None)
         if pozycje and podsumowanie:
             verification = await asyncio.to_thread(
-                ai_verifier.verify_kosztorys, pozycje, podsumowanie, gen.params
+                ai_verifier.verify_kosztorys, pozycje, podsumowanie, gen.params, ath_text
             )
     except Exception as e:
         log.warning("Weryfikacja AI nieudana: %s", e)
