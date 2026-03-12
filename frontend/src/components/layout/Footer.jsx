@@ -13,9 +13,10 @@ export default function Footer() {
                     <Link to="/terms" className="text-slate-500 hover:text-white text-xs transition-colors">
                         Regulamin Beta
                     </Link>
-                    <a className="text-slate-500 hover:text-white transition-colors" href="#"><span className="material-symbols-outlined">dataset</span></a>
-                    <a className="text-slate-500 hover:text-white transition-colors" href="#"><span className="material-symbols-outlined">videocam</span></a>
-                    <a className="text-slate-500 hover:text-white transition-colors" href="#"><span className="material-symbols-outlined">mail</span></a>
+                    <a href="mailto:kosztorysyai@gmail.com" className="text-slate-500 hover:text-white transition-colors flex items-center gap-1 text-xs">
+                        <span className="material-symbols-outlined text-base">mail</span>
+                        kosztorysyai@gmail.com
+                    </a>
                 </div>
             </div>
         </footer>

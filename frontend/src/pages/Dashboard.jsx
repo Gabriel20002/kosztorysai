@@ -419,7 +419,6 @@ export default function Dashboard() {
                                         <th className="text-left px-6 py-4">Nazwa</th>
                                         <th className="text-left px-6 py-4 hidden md:table-cell">Data</th>
                                         <th className="text-left px-6 py-4 hidden sm:table-cell">Pozycji</th>
-                                        <th className="text-right px-6 py-4">Pobierz</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -430,16 +429,6 @@ export default function Dashboard() {
                                                 {item.created_at ? new Date(item.created_at).toLocaleDateString('pl-PL') : '—'}
                                             </td>
                                             <td className="px-6 py-4 text-slate-400 hidden sm:table-cell">{item.positions_count ?? '—'}</td>
-                                            <td className="px-6 py-4 text-right">
-                                                <div className="flex items-center justify-end gap-2">
-                                                    {item.ath_url && (
-                                                        <a href={item.ath_url} className="text-xs font-bold text-primary hover:text-sky-400 transition-colors flex items-center gap-1">
-                                                            <span className="material-symbols-outlined text-sm">download</span>ATH
-                                                        </a>
-                                                    )}
-                                                    {!item.ath_url && <span className="text-slate-600 text-xs">brak pliku</span>}
-                                                </div>
-                                            </td>
                                         </tr>
                                     ))}
                                 </tbody>

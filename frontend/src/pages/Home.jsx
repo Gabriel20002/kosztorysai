@@ -33,10 +33,10 @@ export default function Home() {
                                 Dołącz do Programu Beta
                             </Link>
                         )}
-                        <button className="flex items-center justify-center h-12 px-8 rounded-lg bg-slate-800/50 border border-slate-700 hover:bg-slate-800 text-white font-bold transition-all gap-2 group">
+                        <Link to="/how-it-works" className="flex items-center justify-center h-12 px-8 rounded-lg bg-slate-800/50 border border-slate-700 hover:bg-slate-800 text-white font-bold transition-all gap-2 group">
                             <span className="material-symbols-outlined text-primary group-hover:scale-110 transition-transform">play_circle</span>
-                            Zobacz Demo
-                        </button>
+                            Jak to działa
+                        </Link>
                     </div>
                     <div className="flex items-center justify-center lg:justify-start gap-6 mt-6 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
                         <span className="text-xs font-semibold uppercase tracking-widest text-slate-500">Polecane przez najlepszych wykonawców</span>
@@ -111,16 +111,19 @@ export default function Home() {
                 <div className="max-w-[1280px] mx-auto px-4 md:px-6 py-8 md:py-12">
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         <div className="flex flex-col items-center md:items-start p-4 text-center md:text-left">
-                            <p className="text-4xl font-bold text-white mb-1">50k+</p>
-                            <p className="text-sm font-medium text-slate-400 uppercase tracking-wide">Wygenerowanych Kosztorysów</p>
+                            <span className="material-symbols-outlined text-primary text-3xl mb-2">upload_file</span>
+                            <p className="text-base font-bold text-white mb-1">Przedmiar PDF → ATH w minuty</p>
+                            <p className="text-sm text-slate-400">Wgraj plik z Normy PRO i odbierz gotowy kosztorys</p>
                         </div>
                         <div className="flex flex-col items-center md:items-start p-4 md:border-l md:border-slate-800 text-center md:text-left">
-                            <p className="text-4xl font-bold text-white mb-1">1,200+</p>
-                            <p className="text-sm font-medium text-slate-400 uppercase tracking-wide">Zaufanych Firm</p>
+                            <span className="material-symbols-outlined text-secondary text-3xl mb-2">auto_awesome</span>
+                            <p className="text-base font-bold text-white mb-1">Automatyczne nakłady KNR</p>
+                            <p className="text-sm text-slate-400">AI dobiera robociznę, materiały i sprzęt do każdej pozycji</p>
                         </div>
                         <div className="flex flex-col items-center md:items-start p-4 md:border-l md:border-slate-800 text-center md:text-left">
-                            <p className="text-4xl font-bold text-white mb-1">85%</p>
-                            <p className="text-sm font-medium text-slate-400 uppercase tracking-wide">Zaoszczędzonego Czasu</p>
+                            <span className="material-symbols-outlined text-primary text-3xl mb-2">download</span>
+                            <p className="text-base font-bold text-white mb-1">Format ATH (Norma PRO)</p>
+                            <p className="text-sm text-slate-400">Wynik gotowy do otwarcia w Normie PRO bez żadnych konwersji</p>
                         </div>
                     </div>
                 </div>

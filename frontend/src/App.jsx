@@ -15,6 +15,7 @@ import GetStarted from './pages/GetStarted'
 import AddProgram from './pages/AddProgram'
 import Admin from './pages/Admin'
 import Terms from './pages/Terms'
+import NotFound from './pages/NotFound'
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
           <Route path="/add-program" element={<AddProgram />} />
           <Route path="/admin" element={<Admin />} />
           <Route path="/terms" element={<Terms />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
 
