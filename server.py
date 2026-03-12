@@ -10,6 +10,7 @@ W chmurze (Railway/Render):
     PORT ustawiany automatycznie przez platformę.
 """
 
+import asyncio
 import os
 import sys
 import base64
@@ -217,52 +218,63 @@ async def generate(
         "data": datetime.now().strftime("%m.%Y"),
     }
 
-    # Wszystko w pamięci — tymczasowy folder auto-czyszczony
-    with tempfile.TemporaryDirectory() as tmpdir:
-        tmpdir = Path(tmpdir)
-        pdf_path = tmpdir / "input.pdf"
-        try:
-            pdf_path.write_bytes(await file.read())
-        except Exception as e:
-            raise HTTPException(500, f"Błąd zapisu pliku: {e}")
+    # Odczytaj plik async — potem ciężka praca idzie do thread pool
+    try:
+        pdf_content = await file.read()
+    except Exception as e:
+        raise HTTPException(500, f"Błąd odczytu pliku: {e}")
 
-        base_out = str(tmpdir / safe_name)
-        output_ath = f"{base_out}.ath" if format in ("ath", "both") else None
-        output_pdf = f"{base_out}.pdf" if format in ("pdf", "both") else None
+    params_gen = {
+        "stawka_rg": stawka_rg,
+        "stawka_sprzetu": stawka_sprzetu,
+        "kp_procent": kp,
+        "z_procent": zysk,
+        "vat_procent": vat,
+    }
 
-        try:
+    def _sync_generate():
+        """Cała ciężka praca (CPU + AI API) w osobnym wątku — nie blokuje event loop."""
+        with tempfile.TemporaryDirectory() as tmpdir:
+            tmpdir_path = Path(tmpdir)
+            pdf_path = tmpdir_path / "input.pdf"
+            pdf_path.write_bytes(pdf_content)
+
+            base_out = str(tmpdir_path / safe_name)
+            output_ath = f"{base_out}.ath" if format in ("ath", "both") else None
+            output_pdf = f"{base_out}.pdf" if format in ("pdf", "both") else None
+
             gen = KosztorysGenerator()
-            gen.params.update({
-                "stawka_rg": stawka_rg,
-                "stawka_sprzetu": stawka_sprzetu,
-                "kp_procent": kp,
-                "z_procent": zysk,
-                "vat_procent": vat,
-            })
+            gen.params.update(params_gen)
             results = gen.generate(
                 str(pdf_path),
                 dane_tytulowe=dane_tytulowe,
                 output_ath=output_ath,
                 output_pdf=output_pdf,
             )
-        except PDFParsingError as e:
-            raise HTTPException(422, f"Błąd parsowania PDF: {e}")
-        except NormaPROError as e:
-            raise HTTPException(500, f"Błąd generowania ATH: {e}")
-        except Exception as e:
-            raise HTTPException(500, str(e))
 
-        if not results:
-            raise HTTPException(422, "Nie znaleziono pozycji w PDF")
+            if not results:
+                raise ValueError("Nie znaleziono pozycji w PDF")
 
-        # Odczytaj pliki jako base64 — potem tmpdir jest usuwany automatycznie
-        files = {}
-        for fmt_key, path in results.items():
-            data = Path(path).read_bytes()
-            files[fmt_key] = {
-                "filename": f"{safe_name}_kosztorys.{fmt_key}",
-                "content": base64.b64encode(data).decode(),
-            }
+            files_out = {}
+            for fmt_key, path in results.items():
+                data = Path(path).read_bytes()
+                files_out[fmt_key] = {
+                    "filename": f"{safe_name}_kosztorys.{fmt_key}",
+                    "content": base64.b64encode(data).decode(),
+                }
+
+            return gen, files_out
+
+    try:
+        gen, files = await asyncio.to_thread(_sync_generate)
+    except PDFParsingError as e:
+        raise HTTPException(422, f"Błąd parsowania PDF: {e}")
+    except NormaPROError as e:
+        raise HTTPException(500, f"Błąd generowania ATH: {e}")
+    except ValueError as e:
+        raise HTTPException(422, str(e))
+    except Exception as e:
+        raise HTTPException(500, str(e))
 
     # Zapisz do historii jeśli użytkownik zalogowany
     if current_user:
@@ -275,14 +287,16 @@ async def generate(
         db.add(record)
         db.commit()
 
-    # Weryfikacja AI (Claude Haiku — osobny model)
+    # Weryfikacja AI w osobnym wątku — nie blokuje event loop
     verification = None
     try:
         import ai_verifier
         pozycje = getattr(gen, "_last_pozycje", None)
         podsumowanie = getattr(gen, "_last_podsumowanie", None)
         if pozycje and podsumowanie:
-            verification = ai_verifier.verify_kosztorys(pozycje, podsumowanie, gen.params)
+            verification = await asyncio.to_thread(
+                ai_verifier.verify_kosztorys, pozycje, podsumowanie, gen.params
+            )
     except Exception as e:
         log.warning("Weryfikacja AI nieudana: %s", e)
 

@@ -40,4 +40,4 @@ COPY --from=frontend /dist ./dist
 ENV PORT=8000
 EXPOSE 8000
 
-CMD ["sh", "-c", "python server.py --port ${PORT:-8000}"]
+CMD ["sh", "-c", "gunicorn server:app -k uvicorn.workers.UvicornWorker -w 2 --timeout 300 --keep-alive 5 --bind 0.0.0.0:${PORT:-8000}"]
