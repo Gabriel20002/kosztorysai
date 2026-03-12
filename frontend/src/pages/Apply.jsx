@@ -29,7 +29,7 @@ const DOSWIADCZENIA = [
 ]
 
 export default function Apply() {
-    const { user, loading: authLoading, getToken } = useAuth()
+    const { user, loading: authLoading, getToken, refreshUser } = useAuth()
     const [submitted, setSubmitted] = useState(false)
     const [loading, setLoading] = useState(false)
     const [error, setError] = useState(null)
@@ -66,6 +66,7 @@ export default function Apply() {
             const data = await res.json()
             if (!res.ok) throw new Error(data.detail || 'Błąd serwera')
             setSubmitted(true)
+            refreshUser()
         } catch (e) {
             setError(e.message)
         } finally {

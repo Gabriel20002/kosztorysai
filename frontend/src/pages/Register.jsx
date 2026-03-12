@@ -1,10 +1,12 @@
 import { useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link, useNavigate, Navigate } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
 
 export default function Register() {
-    const { register } = useAuth()
+    const { user, register } = useAuth()
     const navigate = useNavigate()
+
+    if (user) return <Navigate to={user.can_generate ? '/dashboard' : '/apply'} replace />
     const [form, setForm] = useState({ name: '', email: '', password: '', confirm: '' })
     const [terms, setTerms] = useState(false)
     const [loading, setLoading] = useState(false)
