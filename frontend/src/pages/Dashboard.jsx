@@ -117,14 +117,22 @@ function downloadB64(filename, b64content) {
     URL.revokeObjectURL(url)
 }
 
+const LOADING_STEPS = [
+    'Parsowanie PDF...',
+    'Dobieranie nakładów KNR...',
+    'Weryfikacja AI...',
+]
+
 export default function Dashboard() {
     const { user, loading: authLoading, getToken } = useAuth()
     const [file, setFile] = useState(null)
     const [loading, setLoading] = useState(false)
+    const [loadingStep, setLoadingStep] = useState(0)
     const [result, setResult] = useState(null)
     const [error, setError] = useState(null)
     const [dragging, setDragging] = useState(false)
     const inputRef = useRef(null)
+    const resultRef = useRef(null)
     const [history, setHistory] = useState([])
     const [historyLoading, setHistoryLoading] = useState(false)
     const [showFeedback, setShowFeedback] = useState(false)
@@ -157,6 +165,13 @@ export default function Dashboard() {
         handleFileChange(e.dataTransfer.files?.[0])
     }
 
+    useEffect(() => {
+        if (!loading) { setLoadingStep(0); return }
+        const t1 = setTimeout(() => setLoadingStep(1), 4000)
+        const t2 = setTimeout(() => setLoadingStep(2), 10000)
+        return () => { clearTimeout(t1); clearTimeout(t2) }
+    }, [loading])
+
     async function handleGenerate() {
         if (!file) { setError('Najpierw wybierz plik PDF'); return }
         if (!user.can_generate && !user.is_admin) { setError('Twoje konto nie ma uprawnień do generowania. Skontaktuj się z administratorem.'); return }
@@ -175,7 +190,11 @@ export default function Dashboard() {
             const data = await res.json()
             if (!res.ok) throw new Error(data.detail || 'Błąd serwera')
             setResult(data)
-            setShowFeedback(true)
+            if (!sessionStorage.getItem('feedbackShown')) {
+                setShowFeedback(true)
+                sessionStorage.setItem('feedbackShown', '1')
+            }
+            setTimeout(() => resultRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 150)
         } catch (e) {
             setError(e.message)
         } finally {
@@ -341,7 +360,7 @@ export default function Dashboard() {
 
                     {/* Wynik */}
                     {result && (
-                        <div className="glass-panel rounded-2xl p-7 border border-emerald-500/30 bg-emerald-500/5 fade-in-up">
+                        <div ref={resultRef} className="glass-panel rounded-2xl p-7 border border-emerald-500/30 bg-emerald-500/5 fade-in-up">
                             <h3 className="text-xl font-bold text-white flex items-center gap-3 mb-6">
                                 <span className="material-symbols-outlined text-emerald-400">check_circle</span>
                                 Kosztorys wygenerowany pomyślnie
@@ -464,7 +483,7 @@ export default function Dashboard() {
                             {/* Terminal status */}
                             <div className="bg-slate-900/80 rounded-xl p-4 font-mono text-[11px] leading-relaxed text-slate-400 border border-slate-700/50 min-h-[80px]">
                                 {loading ? (
-                                    <p className="animate-pulse text-primary">&gt; Przetwarzanie PDF... dopasowywanie nakładów KNR...</p>
+                                    <p className="animate-pulse text-primary">&gt; {LOADING_STEPS[loadingStep]}</p>
                                 ) : result ? (
                                     <>
                                         <p className="text-emerald-500">&gt; Generowanie zakończone</p>

@@ -14,6 +14,13 @@ import asyncio
 import os
 import sys
 import base64
+import logging
+import smtplib
+import ssl
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+
+log = logging.getLogger(__name__)
 
 # Załaduj .env jeśli istnieje (lokalnie)
 try:
@@ -105,6 +112,51 @@ async def generic_exception_handler(request: Request, exc: Exception):
     return JSONResponse(status_code=500, content={"detail": str(exc)})
 
 DIST_DIR = HERE / "dist"
+
+def _send_activation_email(to_email: str, name: str):
+    """Wysyła email o aktywacji konta. Wymaga zmiennych SMTP_HOST, SMTP_USER, SMTP_PASS."""
+    smtp_host = os.environ.get("SMTP_HOST", "")
+    smtp_port = int(os.environ.get("SMTP_PORT", "587"))
+    smtp_user = os.environ.get("SMTP_USER", "")
+    smtp_pass = os.environ.get("SMTP_PASS", "")
+    smtp_from = os.environ.get("SMTP_FROM", smtp_user)
+
+    if not smtp_host or not smtp_user:
+        log.info("SMTP nie skonfigurowany — pomijam email aktywacji dla %s", to_email)
+        return
+
+    msg = MIMEMultipart("alternative")
+    msg["Subject"] = "Twoje konto KosztorysAI zostało aktywowane"
+    msg["From"] = smtp_from
+    msg["To"] = to_email
+
+    html = f"""
+    <div style="font-family:sans-serif;max-width:520px;margin:0 auto;padding:32px;background:#0b1015;color:#e2e8f0;border-radius:12px;">
+      <h2 style="color:#38bdf8;margin-bottom:8px;">Konto aktywowane</h2>
+      <p>Cześć {name},</p>
+      <p>Twoje konto w <strong>KosztorysAI</strong> zostało aktywowane. Możesz już generować kosztorysy.</p>
+      <a href="https://kosztorysai.com/dashboard"
+         style="display:inline-block;margin-top:24px;padding:12px 28px;background:#0ea5e9;color:#fff;
+                border-radius:8px;text-decoration:none;font-weight:bold;">
+        Przejdź do generatora
+      </a>
+      <p style="margin-top:32px;color:#64748b;font-size:12px;">
+        KosztorysAI &mdash; wersja beta &mdash; <a href="mailto:kosztorysyai@gmail.com" style="color:#64748b;">kosztorysyai@gmail.com</a>
+      </p>
+    </div>
+    """
+    msg.attach(MIMEText(html, "html", "utf-8"))
+
+    try:
+        context = ssl.create_default_context()
+        with smtplib.SMTP(smtp_host, smtp_port) as server:
+            server.starttls(context=context)
+            server.login(smtp_user, smtp_pass)
+            server.sendmail(smtp_from, to_email, msg.as_string())
+        log.info("Email aktywacji wysłany do %s", to_email)
+    except Exception as e:
+        log.warning("Błąd wysyłania emaila aktywacji do %s: %s", to_email, e)
+
 
 # mount_frontend() wołane NA KOŃCU pliku — po wszystkich trasach /api/*
 # Catch-all GET /{full_path:path} musi być zarejestrowany OSTATNI,
@@ -361,12 +413,15 @@ def admin_patch_user(
     user = db.query(models.User).filter(models.User.id == user_id).first()
     if not user:
         raise HTTPException(404, "Użytkownik nie istnieje")
+    was_active = user.can_generate
     if body.can_generate is not None:
         user.can_generate = body.can_generate
     if body.is_admin is not None:
         user.is_admin = body.is_admin
     db.commit()
     db.refresh(user)
+    if body.can_generate and not was_active:
+        _send_activation_email(user.email, user.name)
     return _user_dict(user)
 
 

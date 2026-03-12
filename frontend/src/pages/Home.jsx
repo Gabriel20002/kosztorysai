@@ -179,33 +179,6 @@ export default function Home() {
                 </div>
             </section>
 
-            {/* Video/Image Showcase Section */}
-            <section className="w-full max-w-[1280px] px-4 md:px-6 pb-16 md:pb-24">
-                <div className="relative w-full rounded-2xl overflow-hidden border border-slate-800 shadow-2xl bg-surface-dark group">
-                    <div
-                        className="aspect-video w-full bg-cover bg-center opacity-80 group-hover:opacity-100 transition-opacity duration-500"
-                        style={{ backgroundImage: 'url("https://lh3.googleusercontent.com/aida-public/AB6AXuBM3zNcxhucGe8Z1jRWDiG3K7AbTudwVWRTA0v_6AsndEOrx7L0XnG-wMmDOLt4cTC_urpDpSriLTxoRRs7-5UY1TFUopA9URER697wuI1oDnWs88zLTQSgAzrjBkRIJhaPOexQAAAyW7PrIvgIYZVhNi-JVX3JBND7rtZJwgwOY9hQXmtU-1qigkrZnRq8silQKdB1M-4b3w5XxlXhmJ-YNfpehNTrBYv9EVcEY3gXmUddDbf9Ve11YyPi9Jo2umXnfuedCduq-VM")' }}
-                    >
-                    </div>
-
-                    {/* Play Button Overlay */}
-                    <div className="absolute inset-0 flex items-center justify-center bg-black/40 backdrop-blur-[2px] group-hover:backdrop-blur-none group-hover:bg-black/20 transition-all duration-300">
-                        <button className="flex items-center justify-center size-20 rounded-full bg-primary text-white shadow-[0_0_30px_rgba(19,146,236,0.5)] hover:scale-110 transition-transform duration-300">
-                            <span className="material-symbols-outlined text-5xl ml-1">play_arrow</span>
-                        </button>
-                    </div>
-
-                    {/* Text Overlay */}
-                    <div className="absolute bottom-0 left-0 right-0 p-4 md:p-8 bg-gradient-to-t from-black via-black/80 to-transparent">
-                        <div className="flex flex-col md:flex-row items-center md:items-end justify-between gap-4 text-center md:text-left">
-                            <div>
-                                <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">Zobacz Kosztorysy AI w akcji</h3>
-                                <p className="text-slate-300 text-sm md:text-base">Zobacz jak wygląda generowanie kosztorysu z przedmiaru PDF — od wgrania pliku do pobrania ATH.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
         </>
     );
 }

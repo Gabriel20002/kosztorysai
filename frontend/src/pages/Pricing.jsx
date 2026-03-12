@@ -25,7 +25,7 @@ export default function Pricing() {
 
                     <div className="mb-8 w-full">
                         <span className="text-5xl font-black text-white">0 PLN</span>
-                        <span className="text-slate-500"> / do odwołania</span>
+                        <span className="text-slate-500"> / przez cały okres beta</span>
                     </div>
 
                     {user ? (
