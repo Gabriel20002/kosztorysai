@@ -115,6 +115,12 @@ export default function Navbar() {
                                 <span className="material-symbols-outlined text-base text-primary">person</span>
                                 {user.name || user.email}
                             </SmartLink>
+                            {user.is_admin && (
+                                <SmartLink onClick={() => setIsMenuOpen(false)} className="text-yellow-400 hover:text-yellow-300 py-2 font-medium flex items-center gap-2" to="/admin">
+                                    <span className="material-symbols-outlined text-base">admin_panel_settings</span>
+                                    Admin
+                                </SmartLink>
+                            )}
                             <button onClick={handleLogout} className="text-slate-300 hover:text-white py-2 font-medium text-left">Wyloguj się</button>
                         </>
                     ) : (
