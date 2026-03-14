@@ -800,6 +800,12 @@ class KosztorysGenerator:
             alpha_count = sum(1 for c in text if c.isalpha())
             return alpha_count >= 5
 
+        # Wzorzec cyfr rzymskich (dla nazw działów z intro tekstu)
+        _ROMAN_SECT_PAT = re.compile(
+            r'^(XX?|XIX|XVIII|XVII|XVI|XV|XIV|XIII|XII|XI|IX|VIII|VII|VI|V|IV|III|II|I)'
+            r'[\.\:]\s+(.+)', re.IGNORECASE)
+        _D_CODE_PAT = re.compile(r'^d\.(\d+)')
+
         try:
             with pdfplumber.open(pdf_path) as pdf:
                 all_rows = []
@@ -810,6 +816,30 @@ class KosztorysGenerator:
                         if _COL_HDR_YMAX <= w['top'] <= _COL_FTR_YMIN
                     ]
                     all_rows.extend(_group_words_by_row(content, y_tolerance=4))
+
+            # Wyodrębnij nazwy działów z tekstu wstępnego (cyfry rzymskie: I., II., ...)
+            # Mapowanie: {section_number_from_d_code: name}
+            # Używamy kolejności pojawienia się (nie wartości cyfry) — odporne na błędy w PDF
+            sst_section_names = {}  # {section_num_from_d_code: name}
+            first_sst_idx = next(
+                (i for i, r in enumerate(all_rows)
+                 if re.match(r'^\d+SST-', ' '.join(
+                     w['text'] for w in r if w['x0'] < _COL_KNR_XMIN))),
+                len(all_rows))
+            _roman_order = []  # lista nazw sekcji w kolejności
+            for row in all_rows[:first_sst_idx]:
+                row_text = ' '.join(w['text'] for w in row).strip()
+                m = _ROMAN_SECT_PAT.match(row_text)
+                if m:
+                    name = m.group(2).rstrip(':').strip()
+                    _roman_order.append(name)
+            # section_num z d.XXX = floor(d_number / 100), sekcje numerowane od 1
+            for idx, name in enumerate(_roman_order, 1):
+                sst_section_names[idx] = name
+            if sst_section_names:
+                log.debug("SST sekcje (%d): %s", len(sst_section_names), list(sst_section_names.values())[:5])
+                # Ustaw domyślny dział na pierwszą znalezioną sekcję
+                current_dzial = sst_section_names.get(1, current_dzial)
 
             for row in all_rows:
                 left  = [w for w in row if w['x0'] < _COL_KNR_XMIN]
@@ -836,12 +866,22 @@ class KosztorysGenerator:
                     continue
 
                 if current is None:
-                    # Sprawdź czy to nagłówek działu
-                    all_row_text = ' '.join(w['text'] for w in sorted(row, key=lambda w: w['x0'])).strip()
-                    if (_is_section_sst(all_row_text) and
-                            not _KNR_SIMPLE_PATTERN.search(all_row_text)):
-                        current_dzial = all_row_text[:100]
-                        log.debug("SST dział: %r", current_dzial)
+                    # Gdy brak sekcji z cyfr rzymskich — wykryj nagłówek działu z tekstu
+                    if not sst_section_names:
+                        all_row_text = ' '.join(w['text'] for w in sorted(row, key=lambda w: w['x0'])).strip()
+                        if (_is_section_sst(all_row_text) and
+                                not _KNR_SIMPLE_PATTERN.search(all_row_text)):
+                            current_dzial = all_row_text[:100]
+                            log.debug("SST dział: %r", current_dzial)
+                    continue
+
+                # Wykryj kod d.XXX i zaktualizuj dział pozycji
+                d_m = _D_CODE_PAT.match(left_text.strip())
+                if d_m and sst_section_names:
+                    d_num = int(d_m.group(1)) // 100
+                    if d_num in sst_section_names:
+                        current['dzial'] = sst_section_names[d_num]
+                        current_dzial = sst_section_names[d_num]
                     continue
 
                 # Sprawdź RAZEM
