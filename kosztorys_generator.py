@@ -47,7 +47,7 @@ log = get_logger(__name__)
 
 # Wzorzec kodu katalogowego — obsługuje wszystkie warianty:
 #   KNR, KNR-W, KNR-INS, KNR-E, KNNR, KNNR-W, KNK, KSNR, AT, AL, itp.
-_KNR_CODE = r'(?:KN+R(?:-[A-Z]+)?|KSNR|KNK|AT|AL)\s*[\d]+(?:-[\d]+)?'
+_KNR_CODE = r'(?:KN+R(?:-[A-Z]+)?|KSNR|KNK|AT|AL)\s*(?:[A-Za-z]{1,2}-)?[\d]+(?:-[\d]+)?'
 
 # Skompilowane wzorce regex (raz przy imporcie modułu)
 _KNR_PATTERN = re.compile(
@@ -409,7 +409,7 @@ class KosztorysGenerator:
                 'R': r * ilosc,
                 'M': m * ilosc,
                 'S': s * ilosc,
-                'dzial': current_dzial,
+                'dzial': pos.get('dzial', current_dzial),
                 'knr_confidence': round(confidence, 2),
                 'knr_source': knr_source,
                 'formula_str': pos.get('formula_str', ''),
@@ -420,7 +420,7 @@ class KosztorysGenerator:
         _seen: set = set()
         _deduped = []
         for p in pozycje:
-            key = (p.get('podstawa', ''), p.get('opis', '')[:60], round(p.get('ilosc', 0), 3))
+            key = (p.get('podstawa', ''), p.get('opis', '')[:120], round(p.get('ilosc', 0), 3))
             if key in _seen:
                 log.warning("Pominięto duplikat pozycji: lp=%s '%s'", p.get('lp'), p.get('opis', '')[:50])
             else:
@@ -535,7 +535,7 @@ class KosztorysGenerator:
             pozycje[global_i]['M'] = m * ilosc
             pozycje[global_i]['S'] = s * ilosc
             pozycje[global_i]['knr_source'] = 'ai_estimate'
-            pozycje[global_i]['opis'] = '[AI] ' + pozycje[global_i]['opis'].replace('[WYCENA] ', '')
+            pozycje[global_i]['opis'] = pozycje[global_i]['opis'].replace('[WYCENA] ', '')
             fixed_f2 += 1
             log.info("AI faza2 oszacowało: '%s' R=%.2f M=%.2f S=%.2f /jm",
                      pozycje[global_i]['opis'][:40], r, m, s)
@@ -783,6 +783,22 @@ class KosztorysGenerator:
         """
         positions = []
         current = None
+        current_dzial = 'Kosztorys'
+
+        _PAGE_HDR_WORDS_SST = {'lp.', 'lp', 'podstawa', 'opis', 'j.m.', 'jm',
+                                'razem', 'netto', 'brutto', 'suma', 'strona', 'str.'}
+
+        def _is_section_sst(text):
+            if not text or len(text) < 8:
+                return False
+            if re.match(r'^[\d\s,\.\+\-\*\/\(\)=]+$', text):
+                return False
+            if re.match(r'^(strona|str\.)\s+\d+', text, re.IGNORECASE):
+                return False
+            if text.lower().strip() in _PAGE_HDR_WORDS_SST:
+                return False
+            alpha_count = sum(1 for c in text if c.isalpha())
+            return alpha_count >= 5
 
         try:
             with pdfplumber.open(pdf_path) as pdf:
@@ -815,10 +831,17 @@ class KosztorysGenerator:
                         'opis': ' '.join(w['text'] for w in desc),
                         'jm':   ' '.join(w['text'] for w in jm_w).strip() or 'szt.',
                         '_q':   0.0,
+                        'dzial': current_dzial,
                     }
                     continue
 
                 if current is None:
+                    # Sprawdź czy to nagłówek działu
+                    all_row_text = ' '.join(w['text'] for w in sorted(row, key=lambda w: w['x0'])).strip()
+                    if (_is_section_sst(all_row_text) and
+                            not _KNR_SIMPLE_PATTERN.search(all_row_text)):
+                        current_dzial = all_row_text[:100]
+                        log.debug("SST dział: %r", current_dzial)
                     continue
 
                 # Sprawdź RAZEM
@@ -883,6 +906,29 @@ class KosztorysGenerator:
 
         positions = []
         current = None
+        current_dzial = 'Kosztorys'
+
+        # Słowa kluczowe nagłówków stron — nie są nagłówkami działów
+        _PAGE_HDR_WORDS = {'lp.', 'lp', 'podstawa', 'opis', 'opis robót', 'j.m.', 'jm',
+                           'razem', 'netto', 'brutto', 'suma', 'kosztorys', 'przedmiar',
+                           'strona', 'str.', 'data', 'wartość'}
+
+        def _is_section_candidate(text):
+            """Zwraca True jeśli tekst wygląda jak nagłówek działu (nie strony, nie kalkulacja)."""
+            if not text or len(text) < 8:
+                return False
+            if re.match(r'^[\d\s,\.\+\-\*\/\(\)=]+$', text):
+                return False
+            if re.match(r'^(strona|str\.)\s+\d+', text, re.IGNORECASE):
+                return False
+            if text.lower().strip() in _PAGE_HDR_WORDS:
+                return False
+            if not any(c.isalpha() for c in text):
+                return False
+            alpha_count = sum(1 for c in text if c.isalpha())
+            if alpha_count < 5:
+                return False
+            return True
 
         try:
             with pdfplumber.open(pdf_path) as pdf:
@@ -924,10 +970,17 @@ class KosztorysGenerator:
                         'jm':    ' '.join(w['text'] for w in jm_w).strip() or 'szt.',
                         '_q':    0.0,
                         '_vals': [],
+                        'dzial': current_dzial,
                     }
                     continue
 
                 if current is None:
+                    # Sprawdź czy to nagłówek działu (tekst bez LP i KNR między pozycjami)
+                    all_row_text = ' '.join(w['text'] for w in sorted(row, key=lambda w: w['x0'])).strip()
+                    if (_is_section_candidate(all_row_text) and
+                            not _KNR_SIMPLE_PATTERN.search(all_row_text)):
+                        current_dzial = all_row_text[:100]
+                        log.debug("Wykryto dział: %r", current_dzial)
                     continue
 
                 # Wiersz d.X: uzupełnij kod czynności
@@ -1427,6 +1480,7 @@ class KosztorysGenerator:
             'jm':          pos['jm'],
             'ilosc':       q,
             'formula_str': pos.pop('_formula', ''),
+            'dzial':       pos.get('dzial', 'Kosztorys'),
         }
 
     def _diagnose_empty_result(self, pdf_path, full_text: str):

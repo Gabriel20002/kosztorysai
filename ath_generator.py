@@ -606,26 +606,46 @@ class ATHGenerator:
                 "",
             ]
 
-        # ──────────────────── ELEMENT ────────────────────────────────────────
-        lines += [
-            "[ELEMENT 1]",
-            "na=KOSZTORYS",
-            "wa=0",
-            "kn=0\t0\t0",
-            "id=1",
-            "nu=1",
-            "",
-        ]
+        # ──────────────────── ELEMENT + POZYCJE ────────────────────────────────
+        # Jeden licznik ID dla ELEMENT i POZYCJA (Norma PRO wymaga globalnej sekwencji)
+        object_id = 1
+        current_elem_dzial = None   # aktualnie otwarty element
 
-        # ──────────────────── POZYCJE ────────────────────────────────────────
-        pos_id = 2
+        def _emit_element(dzial_name: str, elem_id: int, kp_val: float, z_val: float):
+            """Emituje blok [ELEMENT 1] + [PODSUMOWANIE]."""
+            return [
+                "[ELEMENT 1]",
+                f"na={dzial_name}",
+                "wa=0",
+                "kn=0\t0\t0",
+                f"id={elem_id}",
+                "nu=1",
+                "",
+                "[PODSUMOWANIE]",
+                "wa=",
+                "kb=0\t0\t0\t0\t0\t0\t0\t",
+                f"na=0\t0\t0\t0\t0\t0\t0\t0\tKp\tKoszty po\u015brednie\t{_dot(kp_val, 1)}% (R+S)",
+                f"na=0\t0\t0\t0\t0\t0\t0\t0\tZ\tZysk\t{_dot(z_val, 1)}% (R+S+Kp(R+S))",
+                "wc=0\t0\t0\t0\t0\t0\t0\t",
+                "",
+            ]
 
-        for lp, (poz, mats, machines) in enumerate(zip(pozycje, pos_mats, pos_sprzet), 1):
+        lp = 0
+        for poz, mats, machines in zip(pozycje, pos_mats, pos_sprzet):
+            lp += 1
+            dzial = poz.get('dzial', 'Kosztorys')
+
+            # Otwórz nowy ELEMENT gdy dzial się zmienia
+            if dzial != current_elem_dzial:
+                current_elem_dzial = dzial
+                lines += _emit_element(dzial, object_id, kp, z)
+                object_id += 1
+
             jm       = poz.get('jm', 'szt.')
             jm_clean = jm.replace('.', '')
             jm_code  = get_jm_code(jm)
             ilosc    = poz.get('ilosc', 0) or 1
-            opis     = poz.get('opis', 'Pozycja')[:200].replace('"', "'")
+            opis     = poz.get('opis', 'Pozycja').replace('[AI] ', '').replace('[WYCENA] ', '')[:200].replace('"', "'")
             podstawa = poz.get('podstawa', '')
 
             R = poz.get('R', 0.0)
@@ -654,7 +674,7 @@ class ATHGenerator:
 
             lines += [
                 "[POZYCJA]",
-                f"id={pos_id}",
+                f"id={object_id}",
                 pd_line,
                 "mpn=1211",
                 f"na={opis}",
@@ -719,7 +739,7 @@ class ATHGenerator:
                         "",
                     ]
 
-            pos_id += 1
+            object_id += 1
 
         # ──────────────────── ZAPIS ──────────────────────────────────────────
         content = "\n".join(lines)
